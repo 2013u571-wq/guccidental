@@ -1277,22 +1277,6 @@
     }
   }
 
-  .brand-rhythm-bar {
-    background: theme("colors.brand.blue");
-    height: 6px;
-    overflow: hidden;
-    position: relative;
-  }
-
-  .brand-rhythm-bar__mark {
-    background: theme("colors.brand.green");
-    height: 100%;
-    position: absolute;
-    top: 0;
-    transform: skewX(-20deg);
-    transform-origin: center;
-  }
-
   .site-header {
     background: rgba(255, 255, 255, 0.95);
     border-color: theme("colors.surface.border");
