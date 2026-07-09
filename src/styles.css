@@ -1698,7 +1698,7 @@
   .header-social-link {
     align-items: center;
     border: 1px solid theme("colors.surface.border");
-    border-radius: theme("borderRadius.control");
+    border-radius: 999px;
     color: theme("colors.ink.muted");
     display: inline-flex;
     height: 34px;
@@ -1709,8 +1709,8 @@
 
   .header-social-link:hover {
     background: theme("colors.surface.soft");
-    border-color: rgba(17, 24, 39, 0.18);
-    color: theme("colors.ink.primary");
+    border-color: rgba(0, 87, 183, 0.32);
+    color: theme("colors.brand.blue");
   }
 
   .mobile-menu {

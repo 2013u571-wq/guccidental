@@ -9,6 +9,7 @@ type Props = {
 
 const { lang } = Astro.props;
 const currentPath = Astro.url.pathname;
+const contactHref = localizedPath(lang, "/contact/");
 
 const primaryNavigation = [
   { label: "Products", href: "/products/" },
@@ -19,7 +20,10 @@ const primaryNavigation = [
   { label: "Contact", href: "/contact/" }
 ];
 
+const desktopNavigation = primaryNavigation.filter((item) => item.label !== "Contact");
+
 const socialLinks = [
+  { label: "Contact us", href: contactHref },
   { label: "Facebook", href: "#" },
   { label: "LinkedIn", href: "#" },
   { label: "YouTube", href: "#" }
@@ -39,7 +43,7 @@ const isNavActive = (href: string) => {
 
     <nav class="product-primary-nav hidden min-w-0 flex-1 items-center justify-center lg:flex" aria-label="Primary navigation">
       {
-        primaryNavigation.map((item) => (
+        desktopNavigation.map((item) => (
           <a
             href={localizedPath(lang, item.href)}
             class:list={[
@@ -55,21 +59,27 @@ const isNavActive = (href: string) => {
     </nav>
 
     <div class="header-actions hidden shrink-0 items-center gap-3 lg:flex">
+      <a
+        href={contactHref}
+        class="site-header-cta rounded-control bg-brand-blue px-4 py-2.5 text-button-caps text-white transition hover:bg-brand-blueDark"
+      >
+        Contact
+      </a>
+
       <div class="header-language">
         <LanguageSwitcher lang={lang} id="desktop-language-switcher" />
       </div>
-
-      <a
-        href={localizedPath(lang, "/contact/")}
-        class="site-header-cta rounded-control bg-brand-blue px-4 py-2.5 text-button-caps text-white transition hover:bg-brand-blueDark"
-      >
-        Send Inquiry
-      </a>
 
       <div class="header-socials" aria-label="Social media">
         {
           socialLinks.map((item) => (
             <a href={item.href} class="header-social-link" aria-label={item.label}>
+              {item.label === "Contact us" && (
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" stroke-width="1.8" />
+                  <path d="M3 6.5 12 13l9-6.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              )}
               {item.label === "Facebook" && (
                 <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                   <path d="M14 8h2V4h-2c-3 0-5 2-5 5v3H7v4h2v4h4v-4h3l1-4h-4V9c0-.6.4-1 1-1Z" />
@@ -123,18 +133,18 @@ const isNavActive = (href: string) => {
 
         <div class="mobile-menu__tools">
           <LanguageSwitcher lang={lang} id="mobile-language-switcher" />
-          <a
-            href={localizedPath(lang, "/contact/")}
-            class="mobile-menu__cta rounded-control bg-brand-blue px-4 py-2.5 text-button-caps text-white transition hover:bg-brand-blueDark"
-          >
-            Send Inquiry
-          </a>
         </div>
 
         <div class="header-socials mobile-menu__socials" aria-label="Social media">
           {
             socialLinks.map((item) => (
               <a href={item.href} class="header-social-link" aria-label={item.label}>
+                {item.label === "Contact us" && (
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" stroke-width="1.8" />
+                    <path d="M3 6.5 12 13l9-6.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                )}
                 {item.label === "Facebook" && (
                   <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                     <path d="M14 8h2V4h-2c-3 0-5 2-5 5v3H7v4h2v4h4v-4h3l1-4h-4V9c0-.6.4-1 1-1Z" />
