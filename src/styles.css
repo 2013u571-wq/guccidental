@@ -1713,6 +1713,14 @@
     color: theme("colors.brand.blue");
   }
 
+  .header-divider {
+    background: theme("colors.surface.border");
+    flex: none;
+    height: 18px;
+    margin: 0 0.25rem;
+    width: 1px;
+  }
+
   .mobile-menu {
     position: relative;
   }
