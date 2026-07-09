@@ -1,0 +1,62 @@
+---
+import { categories, products } from "@data/products";
+
+type Props = {
+  productInterest?: string;
+  formType?: "general" | "product" | "dealer" | "service";
+};
+
+const { productInterest = "", formType = "general" } = Astro.props;
+const fieldClass =
+  "mt-2 h-12 w-full rounded-control border border-surface-border bg-white px-3 text-body-sm text-ink-primary transition placeholder:text-ink-muted focus:border-brand-blue";
+const textareaClass =
+  "mt-2 min-h-32 w-full rounded-control border border-surface-border bg-white px-3 py-3 text-body-sm text-ink-primary transition placeholder:text-ink-muted focus:border-brand-blue";
+---
+
+<form class="rounded-panel border border-surface-border bg-white p-5 shadow-card md:p-8" data-form-type={formType}>
+  <input type="hidden" name="formType" value={formType} />
+  <div class="grid gap-5 md:grid-cols-2">
+    <label class="text-caption-md font-medium text-ink-secondary">
+      Name
+      <input class={fieldClass} type="text" name="name" autocomplete="name" required placeholder="Your name" />
+    </label>
+    <label class="text-caption-md font-medium text-ink-secondary">
+      Email
+      <input class={fieldClass} type="email" name="email" autocomplete="email" required placeholder="name@company.com" />
+    </label>
+    <label class="text-caption-md font-medium text-ink-secondary">
+      WhatsApp / Phone
+      <input class={fieldClass} type="tel" name="phone" autocomplete="tel" placeholder="+1 000 000 0000" />
+    </label>
+    <label class="text-caption-md font-medium text-ink-secondary">
+      Country
+      <input class={fieldClass} type="text" name="country" autocomplete="country-name" placeholder="Country / region" />
+    </label>
+    <label class="text-caption-md font-medium text-ink-secondary md:col-span-2">
+      Product Interest
+      <select class={fieldClass} name="productInterest">
+        <option value="">Select a product or category</option>
+        {categories.map((category) => <option value={category.slug} selected={productInterest === category.slug}>{category.title}</option>)}
+        {products.map((product) => <option value={product.slug} selected={productInterest === product.slug}>{product.title}</option>)}
+      </select>
+    </label>
+    <label class="text-caption-md font-medium text-ink-secondary md:col-span-2">
+      Message
+      <textarea
+        class={textareaClass}
+        name="message"
+        required
+        placeholder="Tell us your required models, quantity, target market, clinic project, or distributor needs."
+      ></textarea>
+    </label>
+  </div>
+  <div class="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
+    <button
+      type="button"
+      class="inline-flex min-h-12 items-center justify-center rounded-control bg-brand-blue px-5 py-3 text-button-lg text-white transition hover:bg-brand-blueDark"
+    >
+      Prepare Inquiry
+    </button>
+    <p class="text-caption-md text-ink-muted">Frontend UI only. Wufoo submission will be connected in a later phase.</p>
+  </div>
+</form>

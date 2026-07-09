@@ -1,0 +1,24 @@
+---
+type Props = {
+  href: string;
+  variant?: "primary" | "secondary" | "text";
+  size?: "lg" | "md";
+  class?: string;
+};
+
+const { href, variant = "primary", size = "lg", class: className } = Astro.props;
+const base = "inline-flex items-center justify-center rounded-control transition focus-visible:outline-brand-blue";
+const sizes = {
+  lg: "min-h-12 px-5 py-3 text-button-lg",
+  md: "min-h-11 px-4 py-2.5 text-button-md"
+};
+const variants = {
+  primary: "bg-brand-blue text-white hover:bg-brand-blueDark",
+  secondary: "border border-brand-blue bg-transparent text-brand-blue hover:bg-brand-blueLight",
+  text: "text-brand-blue hover:text-brand-blueDark"
+};
+---
+
+<a href={href} class:list={[base, sizes[size], variants[variant], className]}>
+  <slot />
+</a>

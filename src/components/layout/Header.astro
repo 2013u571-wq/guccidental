@@ -1,0 +1,175 @@
+---
+import LanguageSwitcher from "./LanguageSwitcher.astro";
+import { localizedPath, type LanguageCode } from "@lib/i18n";
+import { site } from "@data/site";
+
+type Props = {
+  lang: LanguageCode;
+};
+
+const { lang } = Astro.props;
+const currentPath = Astro.url.pathname;
+
+const primaryNavigation = [
+  { label: "Products", href: "/products/" },
+  { label: "Solutions", href: "/solutions/" },
+  { label: "Cases", href: "/cases/" },
+  { label: "Resources", href: "/resources/" },
+  { label: "About Us", href: "/about/" },
+  { label: "Contact", href: "/contact/" }
+];
+
+const socialLinks = [
+  { label: "Facebook", href: "#" },
+  { label: "LinkedIn", href: "#" },
+  { label: "YouTube", href: "#" }
+];
+
+const isNavActive = (href: string) => {
+  const path = localizedPath(lang, href).split("?")[0];
+  return currentPath === path || currentPath.startsWith(path);
+};
+---
+
+<header class="site-header sticky inset-x-0 top-0 z-40 border-b" data-site-header>
+  <div class="brand-rhythm-bar" aria-hidden="true">
+    <span class="brand-rhythm-bar__mark" style="left: 4.8%; width: 16px;"></span>
+    <span class="brand-rhythm-bar__mark" style="left: 6.4%; width: 24px;"></span>
+    <span class="brand-rhythm-bar__mark" style="left: 8.7%; width: 12px;"></span>
+    <span class="brand-rhythm-bar__mark" style="left: 38.8%; width: 30px;"></span>
+    <span class="brand-rhythm-bar__mark" style="left: 66.5%; width: 18px;"></span>
+    <span class="brand-rhythm-bar__mark" style="left: 84.8%; width: 28px;"></span>
+    <span class="brand-rhythm-bar__mark" style="left: 87.2%; width: 14px;"></span>
+  </div>
+
+  <div class="container flex min-h-16 items-center justify-between gap-5">
+    <a href={localizedPath(lang, "/")} class="flex shrink-0 items-center gap-3" aria-label={`${site.name} home`}>
+      <img src="/assets/guccidental-logo.png" alt={site.name} class="h-8 w-auto" />
+    </a>
+
+    <nav class="product-primary-nav hidden min-w-0 flex-1 items-center justify-center lg:flex" aria-label="Primary navigation">
+      {
+        primaryNavigation.map((item) => (
+          <a
+            href={localizedPath(lang, item.href)}
+            class:list={[
+              "product-nav-trigger",
+              isNavActive(item.href) && "is-active"
+            ]}
+            aria-current={isNavActive(item.href) ? "page" : undefined}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <div class="header-actions hidden shrink-0 items-center gap-3 lg:flex">
+      <div class="header-language">
+        <LanguageSwitcher lang={lang} id="desktop-language-switcher" />
+      </div>
+
+      <a
+        href={localizedPath(lang, "/contact/")}
+        class="site-header-cta rounded-control bg-brand-blue px-4 py-2.5 text-button-caps text-white transition hover:bg-brand-blueDark"
+      >
+        Send Inquiry
+      </a>
+
+      <div class="header-socials" aria-label="Social media">
+        {
+          socialLinks.map((item) => (
+            <a href={item.href} class="header-social-link" aria-label={item.label}>
+              {item.label === "Facebook" && (
+                <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14 8h2V4h-2c-3 0-5 2-5 5v3H7v4h2v4h4v-4h3l1-4h-4V9c0-.6.4-1 1-1Z" />
+                </svg>
+              )}
+              {item.label === "LinkedIn" && (
+                <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect width="16" height="16" x="4" y="4" rx="2" />
+                  <path d="M8 11v5" />
+                  <path d="M8 8.5v.01" />
+                  <path d="M12 16v-5" />
+                  <path d="M12 13.5c0-1.4 1-2.5 2.3-2.5 1.5 0 2.2 1 2.2 2.7V16" />
+                </svg>
+              )}
+              {item.label === "YouTube" && (
+                <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect width="18" height="12" x="3" y="6" rx="3" />
+                  <path d="m10 9 5 3-5 3Z" />
+                </svg>
+              )}
+            </a>
+          ))
+        }
+      </div>
+    </div>
+
+    <details class="mobile-menu lg:hidden">
+      <summary class="mobile-menu__trigger" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </summary>
+
+      <div class="mobile-menu__panel">
+        <nav class="mobile-menu__links" aria-label="Mobile navigation">
+          {
+            primaryNavigation.map((item) => (
+              <a
+                href={localizedPath(lang, item.href)}
+                class:list={[
+                  "mobile-menu__link",
+                  isNavActive(item.href) && "is-active"
+                ]}
+                aria-current={isNavActive(item.href) ? "page" : undefined}
+              >
+                {item.label}
+              </a>
+            ))
+          }
+        </nav>
+
+        <div class="mobile-menu__tools">
+          <LanguageSwitcher lang={lang} id="mobile-language-switcher" />
+          <a
+            href={localizedPath(lang, "/contact/")}
+            class="mobile-menu__cta rounded-control bg-brand-blue px-4 py-2.5 text-button-caps text-white transition hover:bg-brand-blueDark"
+          >
+            Send Inquiry
+          </a>
+        </div>
+
+        <div class="header-socials mobile-menu__socials" aria-label="Social media">
+          {
+            socialLinks.map((item) => (
+              <a href={item.href} class="header-social-link" aria-label={item.label}>
+                {item.label === "Facebook" && (
+                  <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M14 8h2V4h-2c-3 0-5 2-5 5v3H7v4h2v4h4v-4h3l1-4h-4V9c0-.6.4-1 1-1Z" />
+                  </svg>
+                )}
+                {item.label === "LinkedIn" && (
+                  <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect width="16" height="16" x="4" y="4" rx="2" />
+                    <path d="M8 11v5" />
+                    <path d="M8 8.5v.01" />
+                    <path d="M12 16v-5" />
+                    <path d="M12 13.5c0-1.4 1-2.5 2.3-2.5 1.5 0 2.2 1 2.2 2.7V16" />
+                  </svg>
+                )}
+                {item.label === "YouTube" && (
+                  <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect width="18" height="12" x="3" y="6" rx="3" />
+                    <path d="m10 9 5 3-5 3Z" />
+                  </svg>
+                )}
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </details>
+  </div>
+</header>

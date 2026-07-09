@@ -1,0 +1,29 @@
+---
+import InquiryForm from "@components/forms/InquiryForm.astro";
+import BaseLayout from "@components/layout/BaseLayout.astro";
+import SectionHeader from "@components/ui/SectionHeader.astro";
+import { getLanguage, languages } from "@lib/i18n";
+
+export function getStaticPaths() {
+  return languages.map((language) => ({ params: { lang: language.code } }));
+}
+
+const lang = getLanguage(Astro.params.lang);
+const productInterest = Astro.url.searchParams.get("product") ?? Astro.url.searchParams.get("category") ?? "";
+---
+
+<BaseLayout title="Contact Us" description="Send a Guccidental product, dealer, service, or clinic project inquiry." lang={lang} pathname={Astro.url.pathname}>
+  <section class="bg-surface-soft">
+    <div class="container py-16 md:py-22">
+      <p class="mb-4 text-caption-sm uppercase tracking-[0.12em] text-brand-blue">Contact Us</p>
+      <h1 class="max-w-4xl text-[34px] font-light leading-tight md:text-display-lg">Send Product or Clinic Project Requirements</h1>
+      <p class="mt-5 max-w-3xl text-body-md text-ink-secondary">This Phase 1 form is frontend-only and ready for Wufoo proxy integration in a later phase.</p>
+    </div>
+  </section>
+  <section class="section-band bg-white">
+    <div class="container grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
+      <SectionHeader title="Inquiry Form UI" summary="Fields match the approved short inquiry structure: name, email, WhatsApp / phone, country, product interest, and message." />
+      <InquiryForm productInterest={productInterest} />
+    </div>
+  </section>
+</BaseLayout>

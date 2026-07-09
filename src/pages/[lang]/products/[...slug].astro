@@ -1,0 +1,92 @@
+---
+import BaseLayout from "@components/layout/BaseLayout.astro";
+import Button from "@components/ui/Button.astro";
+import InquiryCta from "@components/ui/InquiryCta.astro";
+import ProductCard from "@components/ui/ProductCard.astro";
+import SectionHeader from "@components/ui/SectionHeader.astro";
+import { categories, getCategory, getProductsByCategory } from "@data/products";
+import { getLanguage, languages, localizedPath } from "@lib/i18n";
+
+export function getStaticPaths() {
+  return languages.flatMap((language) =>
+    categories.map((category) => ({
+      params: { lang: language.code, slug: category.slug }
+    }))
+  );
+}
+
+const lang = getLanguage(Astro.params.lang);
+const slug = String(Astro.params.slug);
+const category = getCategory(slug);
+
+if (!category) {
+  return Astro.redirect(localizedPath(lang, "/products/"));
+}
+
+const categoryProducts = getProductsByCategory(category.slug);
+const isDentalChair = category.slug === "dental-chair";
+---
+
+<BaseLayout title={category.title} description={category.summary} lang={lang} pathname={Astro.url.pathname}>
+  <section class="bg-surface-soft">
+    <div class="container py-16 md:py-22">
+      <p class="mb-4 text-caption-sm uppercase tracking-[0.12em] text-brand-blue">Product category</p>
+      <h1 class="max-w-4xl text-[34px] font-light leading-tight md:text-display-lg">{category.title}</h1>
+      <p class="mt-5 max-w-3xl text-body-md text-ink-secondary">{category.summary}</p>
+      <div class="mt-8 flex flex-wrap gap-4">
+        <Button href="#products">View Products</Button>
+        <Button href={localizedPath(lang, `/contact/?category=${category.slug}`)} variant="secondary">Ask for Quote</Button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-band bg-white" id="products">
+    <div class="container">
+      <div class="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+        <SectionHeader title={`${category.title} Products`} summary="Product cards prioritize model, market position, short selling point, and inquiry action." />
+        {
+          isDentalChair && (
+            <div class="flex flex-wrap gap-2">
+              {["economic", "mid-range", "high-end"].map((tier) => (
+                <a href={`#${tier}`} class="rounded-control border border-surface-border px-3 py-2 text-caption-md text-ink-secondary hover:border-brand-blue hover:text-brand-blue">
+                  {tier}
+                </a>
+              ))}
+            </div>
+          )
+        }
+      </div>
+      <div class="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+        {categoryProducts.length > 0 ? categoryProducts.map((product) => <ProductCard product={product} lang={lang} />) : <p class="text-body-md text-ink-secondary">Product entries are ready to be connected from Sanity for this category.</p>}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-band bg-surface-soft">
+    <div class="container grid gap-8 lg:grid-cols-3">
+      <SectionHeader eyebrow="Why choose Guccidental" title="Built for SEO, Ads, and Real Procurement Questions" summary="Each category page includes the modules required by the design system: intro, product grid, factory proof, FAQ, and inquiry CTA." />
+      <div class="grid gap-5 lg:col-span-2 md:grid-cols-3">
+        {["Factory direct coordination", "OEM / ODM package support", "Export documentation workflow"].map((item) => <div class="rounded-card border border-surface-border bg-white p-6 text-heading-md shadow-card">{item}</div>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-band bg-white">
+    <div class="container">
+      <SectionHeader eyebrow="FAQ" title={`${category.title} Questions`} />
+      <div class="mt-8 grid gap-4 md:grid-cols-2">
+        {[
+          ["Can this category support dealer supply?", "Yes. Product details, packaging, documents, and market fit can be discussed during inquiry."],
+          ["Can products be part of a clinic setup project?", "Yes. Guccidental can combine equipment and solution planning for new clinic and renovation projects."]
+        ].map(([question, answer]) => (
+          <article class="rounded-card border border-surface-border bg-white p-6">
+            <h3 class="text-heading-md">{question}</h3>
+            <p class="mt-3 text-body-sm text-ink-secondary">{answer}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <InquiryCta lang={lang} title={`Request ${category.title} Product Details`} />
+</BaseLayout>

@@ -1,0 +1,26 @@
+---
+import { languages, localizedPath, withoutLanguage, type LanguageCode } from "@lib/i18n";
+
+type Props = {
+  lang: LanguageCode;
+  id?: string;
+};
+
+const { lang, id = "language-switcher" } = Astro.props;
+const routePath = withoutLanguage(Astro.url.pathname);
+---
+
+<label class="sr-only" for={id}>Language</label>
+<select
+  id={id}
+  class="h-10 rounded-control border border-surface-border bg-white px-3 text-caption-md text-ink-secondary"
+  onchange="window.location.href = this.value"
+>
+  {
+    languages.map((language) => (
+      <option value={localizedPath(language.code, routePath)} selected={language.code === lang}>
+        {language.code.toUpperCase()}
+      </option>
+    ))
+  }
+</select>

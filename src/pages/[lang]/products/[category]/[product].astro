@@ -1,0 +1,124 @@
+---
+import BaseLayout from "@components/layout/BaseLayout.astro";
+import Button from "@components/ui/Button.astro";
+import InquiryCta from "@components/ui/InquiryCta.astro";
+import ProductCard from "@components/ui/ProductCard.astro";
+import SectionHeader from "@components/ui/SectionHeader.astro";
+import { getProduct, products } from "@data/products";
+import { getLanguage, languages, localizedPath } from "@lib/i18n";
+
+export function getStaticPaths() {
+  return languages.flatMap((language) =>
+    products.map((product) => ({
+      params: { lang: language.code, category: product.category, product: product.slug }
+    }))
+  );
+}
+
+const lang = getLanguage(Astro.params.lang);
+const categorySlug = String(Astro.params.category);
+const productSlug = String(Astro.params.product);
+const product = getProduct(categorySlug, productSlug);
+
+if (!product) {
+  return Astro.redirect(localizedPath(lang, `/products/${categorySlug}/`));
+}
+
+const related = products.filter((item) => item.category === product.category && item.slug !== product.slug).slice(0, 3);
+---
+
+<BaseLayout title={product.title} description={product.summary} lang={lang} pathname={Astro.url.pathname}>
+  <section class="bg-surface-soft">
+    <div class="container grid gap-12 py-16 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
+      <div class="rounded-media border border-surface-border bg-white p-5 shadow-card">
+        <div class="aspect-[4/3] rounded-media bg-gradient-to-br from-brand-blueLight to-white p-6">
+          <div class="flex h-full flex-col justify-between">
+            <span class="w-fit rounded-control bg-white px-3 py-2 text-caption-sm text-brand-blue shadow-soft">{product.model}</span>
+            <p class="text-heading-lg text-ink-primary">Product image gallery placeholder</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="mb-4 text-caption-sm uppercase tracking-[0.12em] text-brand-blue">{product.category}</p>
+        <h1 class="text-[34px] font-light leading-tight md:text-display-lg">{product.title}</h1>
+        <p class="mt-5 text-body-md text-ink-secondary">{product.summary}</p>
+        <ul class="mt-6 grid gap-3 text-body-sm text-ink-secondary">
+          {product.highlights.map((highlight) => <li class="rounded-control bg-white px-4 py-3 shadow-soft">{highlight}</li>)}
+        </ul>
+        <div class="mt-8 flex flex-wrap gap-4">
+          <Button href={localizedPath(lang, `/contact/?product=${product.slug}`)}>Ask for Quote</Button>
+          <Button href="#specifications" variant="secondary">View Specs</Button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-band bg-white" id="specifications">
+    <div class="container grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
+      <SectionHeader title="Technical Specifications" summary="Language-neutral specs are prepared as structured data so labels can be translated through a shared dictionary later." />
+      <div class="overflow-hidden rounded-card border border-surface-border">
+        {product.specs.map((spec) => (
+          <div class="grid gap-2 border-b border-surface-border p-4 last:border-b-0 md:grid-cols-[180px_1fr]">
+            <dt class="text-caption-md font-medium text-ink-muted">{spec.key}</dt>
+            <dd class="text-body-sm text-ink-primary">{spec.value}{spec.unit ? ` ${spec.unit}` : ""}</dd>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-band bg-surface-soft">
+    <div class="container">
+      <SectionHeader title="Features and Applications" summary="Product detail pages include procurement-focused content blocks required for SEO and Google Ads landing pages." />
+      <div class="mt-10 grid gap-5 lg:grid-cols-2">
+        {product.features.map((feature) => (
+          <article class="rounded-card border border-surface-border bg-white p-6 shadow-card">
+            <h3 class="text-heading-lg">{feature.title}</h3>
+            <p class="mt-3 text-body-sm text-ink-secondary">{feature.detail}</p>
+          </article>
+        ))}
+      </div>
+      <div class="mt-10 rounded-card border border-surface-border bg-white p-6">
+        <h3 class="text-heading-lg">Applications</h3>
+        <div class="mt-4 flex flex-wrap gap-3">
+          {product.applications.map((application) => <span class="rounded-control bg-brand-blueLight px-3 py-2 text-caption-md text-brand-blue">{application}</span>)}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-band bg-white">
+    <div class="container grid gap-8 lg:grid-cols-2">
+      <div>
+        <SectionHeader title="Downloads" />
+        <div class="mt-6 grid gap-3">
+          {product.downloads.map((download) => <div class="rounded-control border border-surface-border px-4 py-3 text-body-sm text-ink-secondary">{download}</div>)}
+        </div>
+      </div>
+      <div>
+        <SectionHeader title="FAQ" />
+        <div class="mt-6 grid gap-4">
+          {product.faq.map((item) => (
+            <article class="rounded-card border border-surface-border p-5">
+              <h3 class="text-heading-md">{item.question}</h3>
+              <p class="mt-3 text-body-sm text-ink-secondary">{item.answer}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="section-band bg-surface-soft">
+      <div class="container">
+        <SectionHeader title="Related Products" />
+        <div class="mt-10 grid gap-5 md:grid-cols-3">
+          {related.map((item) => <ProductCard product={item} lang={lang} />)}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <InquiryCta lang={lang} title={`Request Details for ${product.model}`} />
+</BaseLayout>

@@ -1,0 +1,56 @@
+---
+import { footerGroups, site } from "@data/site";
+import { localizedPath, type LanguageCode } from "@lib/i18n";
+
+type Props = {
+  lang: LanguageCode;
+};
+
+const { lang } = Astro.props;
+---
+
+<footer class="site-footer">
+  <div class="container grid gap-10 py-16 lg:grid-cols-[1.2fr_2fr]">
+    <div>
+      <a href={localizedPath(lang, "/")} class="footer-brand">
+        <span class="footer-brand__mark" aria-hidden="true">G</span>
+        <span class="footer-brand__name">{site.name}</span>
+      </a>
+      <p class="footer-description">{site.description}</p>
+      <div class="footer-contact">
+        <p>{site.email}</p>
+        <p>{site.whatsapp}</p>
+        <p>{site.address}</p>
+      </div>
+    </div>
+    <div class="grid gap-8 sm:grid-cols-3">
+      {
+        footerGroups.map((group) => (
+          <div>
+            <h2 class="footer-heading">{group.title}</h2>
+            <ul class="footer-links">
+              {group.links.map((link) => (
+                <li>
+                  <a href={localizedPath(lang, link.href)}>
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom__inner">
+      <p class="footer-copyright">© {new Date().getFullYear()} {site.companyName}.</p>
+      <div class="footer-certs" aria-label="Certifications">
+        <span>CE</span>
+        <span>ISO</span>
+        <span>FDA</span>
+        <span>SGS</span>
+      </div>
+    </div>
+  </div>
+</footer>

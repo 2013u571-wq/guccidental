@@ -1,0 +1,832 @@
+---
+import BaseLayout from "@components/layout/BaseLayout.astro";
+import Button from "@components/ui/Button.astro";
+import InquiryCta from "@components/ui/InquiryCta.astro";
+import { categories } from "@data/products";
+import { languageNotice } from "@data/site";
+import { getLanguage, languages, localizedPath } from "@lib/i18n";
+
+export function getStaticPaths() {
+  return languages.map((language) => ({ params: { lang: language.code } }));
+}
+
+const lang = getLanguage(Astro.params.lang);
+const featuredCategories = categories.filter((category) => category.featured).slice(0, 6);
+const notice = languageNotice(lang);
+
+const productScopeMedia: Record<string, { src: string; alt: string; description: string }> = {
+  "dental-chair": {
+    src: "/assets/product-scope/product-scope-dental-chair.webp",
+    alt: "Dental chair unit for clinic setup and replacement projects",
+    description: "A dental chair product image used as the category background for dental chair systems."
+  },
+  "dental-cabinet": {
+    src: "/assets/product-scope/product-scope-dental-cabinet.webp",
+    alt: "Dental cabinet product for clinical storage and treatment room planning",
+    description: "A dental cabinet product image used as the category background for clinic furniture and cabinet systems."
+  },
+  "ultrasonic-scaler-light-cure": {
+    src: "/assets/product-scope/product-scope-ultrasonic-scaler-light-cure.webp",
+    alt: "Ultrasonic scaler and light cure equipment for daily dental treatment",
+    description: "A scaler and light cure product image used as the category background for daily treatment equipment."
+  },
+  "dental-handpiece": {
+    src: "/assets/product-scope/product-scope-dental-handpiece.webp",
+    alt: "Dental handpiece for treatment room equipment packages",
+    description: "A dental handpiece product image used as the category background for clinical handpiece options."
+  },
+  "air-equipment": {
+    src: "/assets/product-scope/product-scope-air-equipment.webp",
+    alt: "Dental air equipment including compressor and vacuum support systems",
+    description: "A dental air equipment product image used as the category background for compressor and vacuum systems."
+  },
+  "imaging-system": {
+    src: "/assets/product-scope/product-scope-imaging-system.webp",
+    alt: "Dental imaging system equipment for digital dentistry",
+    description: "A dental imaging system product image used as the category background for X-ray, CBCT, scanner, and camera equipment."
+  }
+};
+
+const clinicNeeds = [
+  {
+    stage: "Planning",
+    title: "New Clinic",
+    summary: "Plan a complete clinic from layout and equipment selection to furniture, materials, shipping, and installation support.",
+    highlights: ["Layout planning", "Equipment package", "Installation support"],
+    cta: "Plan a new clinic",
+    href: "/solutions/new-clinic/",
+    imageSrc: "/assets/solutions/solution-new-clinic-layout.webp",
+    imageAlt: "Dental clinic floor plan layout for a new clinic project",
+    imageDescription: "A technical clinic layout drawing used to represent planning a new dental clinic from room flow to equipment placement."
+  },
+  {
+    stage: "Upgrade",
+    title: "Replace Old Chairs",
+    summary: "Upgrade outdated dental chairs with practical models, matching accessories, delivery planning, and after-sales guidance.",
+    highlights: ["Model matching", "Accessories", "After-sales support"],
+    cta: "Upgrade old chairs",
+    href: "/solutions/clinic-renovation/",
+    imageSrc: "/assets/solutions/solution-replace-old-dental-chairs.webp",
+    imageAlt: "Modern dental treatment room with a replacement dental chair",
+    imageDescription: "A bright treatment room showing a modern dental chair and cabinet setup for upgrading older clinic equipment."
+  },
+  {
+    stage: "Renovation",
+    title: "Clinic Renovation",
+    summary: "Refresh treatment rooms with chairs, cabinets, flooring, ceiling materials, lighting, consumables, and technical support.",
+    highlights: ["Room refresh", "Cabinets & materials", "Technical support"],
+    cta: "Renovate a clinic",
+    href: "/solutions/clinic-renovation/",
+    imageSrc: "/assets/solutions/solution-clinic-renovation-treatment-room.webp",
+    imageAlt: "Renovated dental clinic room with chairs, cabinets, and wood flooring",
+    imageDescription: "A renovated dental treatment space showing chairs, cabinetry, wall planning details, and flooring for a clinic fit-out project."
+  }
+];
+
+const oneStopServices = [
+  {
+    number: "01",
+    title: "Clinic design",
+    summary: "Layout planning · treatment flow · pre-purchase guidance",
+    href: "/resources/design-solution/",
+    imageSrc: "/assets/services/one-stop-service-clinic-design.webp",
+    imageAlt: "3D dental clinic layout design with treatment rooms and reception area",
+    imageDescription: "A 3D clinic plan showing treatment rooms, reception, cabinetry, and equipment placement for project planning."
+  },
+  {
+    number: "02",
+    title: "Dental equipment",
+    summary: "Chairs · imaging · air systems · handpieces",
+    href: "/products/",
+    imageSrc: "/assets/services/one-stop-service-dental-equipment.webp",
+    imageAlt: "Complete dental equipment set with dental chair, instruments, and air systems",
+    imageDescription: "A coordinated dental equipment display including a treatment chair, clinical instruments, compressor, vacuum, and supporting devices."
+  },
+  {
+    number: "03",
+    title: "Furniture and cabinets",
+    summary: "Cabinets · reception furniture · storage · fit-out",
+    href: "/products/dental-cabinet/",
+    imageSrc: "/assets/services/one-stop-service-furniture-cabinets.webp",
+    imageAlt: "Dental cabinet and clinic furniture in a wood-finished treatment room",
+    imageDescription: "A clinic furniture scene showing a mobile dental cabinet, storage wall, wood flooring, and interior fit-out materials."
+  },
+  {
+    number: "04",
+    title: "Consumables and materials",
+    summary: "Daily consumables · instruments · orthodontic · lab supplies",
+    href: "/products/disposable-consumables/",
+    imageSrc: "/assets/services/one-stop-service-consumables-materials.webp",
+    imageAlt: "Disposable dental endodontic files for clinical consumables and materials",
+    imageDescription: "A product image showing color-coded disposable endodontic files used to represent daily dental consumables and clinical materials."
+  },
+  {
+    number: "05",
+    title: "Floors, ceilings, and building materials",
+    summary: "Flooring · ceiling systems · panels · lighting",
+    href: "/solutions/clinic-renovation/",
+    imageSrc: "/assets/services/one-stop-service-building-materials.webp",
+    imageAlt: "Building material sample panels for clinic wall and floor renovation",
+    imageDescription: "A showroom display of stone, tile, and wall material samples used to support dental clinic renovation projects."
+  },
+  {
+    number: "06",
+    title: "Door-to-door delivery",
+    summary: "Export packing · documentation · duty-paid shipping",
+    href: "/contact/",
+    imageSrc: "/assets/services/one-stop-service-door-to-door-delivery.webp",
+    imageAlt: "Door-to-door delivery of a packed dental equipment crate to a clinic",
+    imageDescription: "A delivery scene showing a packed wooden crate outside a clinic, representing export packing and project delivery coordination."
+  },
+  {
+    number: "07",
+    title: "Installation and technical support",
+    summary: "Installation guidance · spare parts · engineer coordination",
+    href: "/resources/technical-support/",
+    imageSrc: "/assets/services/one-stop-service-installation-technical-support.webp",
+    imageAlt: "Technician installing and servicing a dental chair",
+    imageDescription: "A technician working inside a dental chair base with tools, representing installation guidance, maintenance, and technical support."
+  }
+];
+
+const milestones = [
+  ["01", "Tell us your clinic plan", "Share your room count, target budget, chair quantity, and destination country."],
+  ["02", "Receive a matched solution", "We prepare equipment, furniture, materials, logistics, and support recommendations."],
+  ["03", "Ship and install with support", "Your package is prepared for export, delivery, installation guidance, and after-sales service."]
+];
+
+const qualityCerts = ["CE Certified", "ISO 13485", "FDA Registered", "SGS Inspected"];
+
+const qcStats = [
+  ["150+", "QC checkpoints"],
+  ["36,000+", "Chairs / year capacity"],
+  ["100%", "Units function-tested"]
+];
+
+const caseStudies = [
+  {
+    tag: "New clinic · Middle East",
+    title: "12-chair clinic fit-out in Dubai",
+    summary: "Full chair, cabinet, and imaging package delivered and installed for a new multi-room dental practice.",
+    imageSrc: "/assets/cases/case-mind-dental.webp",
+    imageAlt: "Mind Dental clinic exterior with modern stone and dark facade",
+    imageDescription: "A finished dental clinic exterior showing Mind Dental signage, stone entry cladding, glazing, landscaping, and parking access."
+  },
+  {
+    tag: "Chair replacement · Europe",
+    title: "Upgrading 8 legacy chairs in Poland",
+    summary: "Replaced aging chairs with matched-accessory units with no disruption to daily clinic operations.",
+    imageSrc: "/assets/cases/case-study-france.webp",
+    imageAlt: "Modern dental clinic building in France at sunset",
+    imageDescription: "A modern angular dental clinic building photographed at sunset, representing a European dental clinic project."
+  },
+  {
+    tag: "Dealer · South America",
+    title: "Regional distributor partnership in Brazil",
+    summary: "OEM-branded chair line supplied for a distributor covering four states.",
+    imageSrc: "/assets/cases/case-study-wcs-dental.webp",
+    imageAlt: "WCS Dental clinic exterior in a brick office building",
+    imageDescription: "A two-story brick dental clinic office exterior with WCS Dental signage, parking, and landscaped frontage."
+  }
+];
+
+const faqItems = [
+  {
+    question: "Do you offer OEM / ODM branding?",
+    answer: "Yes. We produce chairs and cabinets under your own brand name, with custom color, logo, and packaging options for qualifying order volumes."
+  },
+  {
+    question: "What is the minimum order quantity?",
+    answer: "MOQ depends on the product line and tier. Dental chairs typically start at [X units — 待确认]; consumables and accessories have lower minimums."
+  },
+  {
+    question: "Do you ship worldwide and handle documentation?",
+    answer: "We export to 130+ countries and can prepare door-to-door shipping, duty-paid options, and the export documentation your market requires."
+  },
+  {
+    question: "Can you help plan a full clinic, not just supply a chair?",
+    answer: "Yes — our Solutions service covers layout planning, equipment selection, cabinets, furniture, and installation guidance for new clinics and renovations."
+  }
+];
+
+---
+
+<BaseLayout
+  title="One-stop Dental Clinic Solution Partner"
+  description="Guccidental helps dental clinic owners design, equip, furnish, ship, and support new clinics and dental chair replacement projects from one source."
+  lang={lang}
+  pathname={Astro.url.pathname}
+>
+  {notice && <div class="bg-brand-blueLight py-2 text-center text-caption-md text-brand-blue">{notice}</div>}
+  <section class="hero-slider relative overflow-hidden bg-surface-soft" data-hero>
+    <div class="hero-video-bg" aria-hidden="true">
+      <div class="hero-video-placeholder" data-video-poster></div>
+      <video class="hero-video-media" muted playsinline autoplay loop preload="metadata" poster="/assets/guccidental-hero-poster.webp" data-hero-video>
+        <source src="/assets/guccidental-hero-video.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="hero-video-soft-shade" aria-hidden="true"></div>
+    <div class="container hero-content relative z-10 flex items-center justify-center">
+      <div class="hero-video-copy mx-auto w-full max-w-7xl text-center text-white">
+        <h1 class="hero-title-compact font-display">
+          Better Build Your <span class="hero-accent-word">Dream Clinic</span>
+        </h1>
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-4">
+          <Button href={localizedPath(lang, "/contact/")} size="md" class="hero-primary-cta">Start Your Project</Button>
+        </div>
+      </div>
+    </div>
+    <a class="hero-scroll-cue" href="#trust-proof" aria-label="Scroll to company trust proof">
+      <span>Scroll</span>
+      <span aria-hidden="true"></span>
+    </a>
+  </section>
+
+  <section id="trust-proof" class="scroll-mt-24 bg-surface-soft py-14 md:py-16" aria-label="Company trust proof">
+    <div class="container">
+      <div class="grid grid-cols-2 gap-x-6 gap-y-8 text-center md:grid-cols-4 md:gap-0">
+        <div class="px-4 md:border-r md:border-surface-border">
+          <p class="stat-number font-display text-stats-lg-mobile text-brand-blue md:text-stats-lg" data-stat-number data-stat-target="130">130+</p>
+          <p class="mt-2 text-caption-md text-ink-muted">Countries Served</p>
+        </div>
+        <div class="px-4 md:border-r md:border-surface-border">
+          <p class="stat-number font-display text-stats-lg-mobile text-brand-blue md:text-stats-lg" data-stat-number data-stat-target="36000">36,000+</p>
+          <p class="mt-2 text-caption-md text-ink-muted">Chairs Yearly Capacity</p>
+        </div>
+        <div class="px-4 md:border-r md:border-surface-border">
+          <p class="stat-number font-display text-stats-lg-mobile text-brand-blue md:text-stats-lg" data-stat-number data-stat-target="100000">100,000+</p>
+          <p class="mt-2 text-caption-md text-ink-muted">Clinics Served</p>
+        </div>
+        <div class="px-4">
+          <p class="stat-number font-display text-stats-lg-mobile text-brand-blue md:text-stats-lg" data-stat-number data-stat-target="150">150+</p>
+          <p class="mt-2 text-caption-md text-ink-muted">Quality Control Steps</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="entity-zone">
+    <section class="entity-band">
+      <div class="container">
+        <div class="entity-panel">
+          <div class="entity-panel__content">
+            <p class="entity-panel__eyebrow">WHO WE ARE</p>
+            <h2>A dental equipment <span>manufacturer</span>, not a trading company.</h2>
+            <p class="entity-panel__lead">Guccidental designs and manufactures dental chairs, cabinets, and clinic equipment from our own factory in Foshan, China. We supply distributors and clinics with factory-direct pricing, OEM/ODM production, export packing, and long-term technical support.</p>
+            <div class="entity-stat-bar">
+              <div>
+                <p class="fact-label">Headquarters</p>
+                <p class="fact-value">Foshan, China</p>
+              </div>
+              <div>
+                <p class="fact-label">Experience</p>
+                <p class="fact-value">Over 20 Years</p>
+              </div>
+              <div>
+                <p class="fact-label">Factory Area</p>
+                <p class="fact-value">20,000 m²+</p>
+              </div>
+              <div>
+                <p class="fact-label">Business Model</p>
+                <p class="fact-value">Factory Direct</p>
+              </div>
+            </div>
+          </div>
+          <figure class="entity-illustration">
+            <picture>
+              <source srcset="/images/guccidental-factory-office-building-card.webp" type="image/webp" />
+              <img
+                src="/images/guccidental-factory-office-building-card.jpg"
+                alt="Guccidental factory and office campus in Foshan"
+                width="840"
+                height="630"
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
+            <figcaption>Foshan Factory</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="fitout-band">
+      <div class="container">
+        <div class="fitout-head">
+          <p class="fitout-pill">Solutions</p>
+          <h2>Solutions for Every Clinic Stage</h2>
+          <p class="lead">Plan, upgrade, or renovate with one coordinated dental equipment partner.</p>
+        </div>
+        <div class="fitout-grid">
+          {
+            clinicNeeds.map((need, index) => (
+              <a class={`fitout-card${index === 0 ? " fitout-card--featured" : ""}`} href={localizedPath(lang, need.href)} aria-label={`${need.cta}: ${need.title}`}>
+                <img
+                  class="fitout-card__image"
+                  src={need.imageSrc}
+                  alt={need.imageAlt}
+                  width="1200"
+                  height="900"
+                  loading="lazy"
+                  decoding="async"
+                  aria-describedby={`solution-image-description-${index}`}
+                />
+                <div class="fitout-card__overlay"></div>
+                <span id={`solution-image-description-${index}`} class="sr-only">{need.imageDescription}</span>
+                <span class="fitout-card__kicker">{need.stage}</span>
+                <div class="fitout-card__body">
+                  <h3>{need.title}</h3>
+                  <p>{need.summary}</p>
+                  <ul>
+                    {need.highlights.map((highlight) => (
+                      <li>{highlight}</li>
+                    ))}
+                  </ul>
+                  <span class="link-arrow">{need.cta}</span>
+                </div>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="service-band">
+    <div class="container">
+      <div class="section-head service-head">
+        <div class="service-head__title">
+          <span class="eyebrow">One-stop Service</span>
+          <h2>Seven services.<br />One procurement path.</h2>
+        </div>
+        <p class="lead">From clinic planning to delivery and technical support — equipment, furniture, materials, logistics, and installation coordinated from a single factory-direct source.</p>
+      </div>
+      <div class="service-grid">
+        <div class="service-row-1">
+          {
+            oneStopServices.slice(0, 4).map((service, index) => (
+              <a class="service-card" href={localizedPath(lang, service.href)}>
+                <figure class="service-card__media">
+                  <img
+                    class="service-card__image"
+                    src={service.imageSrc}
+                    alt={service.imageAlt}
+                    width="960"
+                    height="600"
+                    loading="lazy"
+                    decoding="async"
+                    aria-describedby={`service-image-description-${index}`}
+                  />
+                  <figcaption id={`service-image-description-${index}`} class="sr-only">{service.imageDescription}</figcaption>
+                </figure>
+                <span class="service-card__number">{service.number}</span>
+                <h3>{service.title}</h3>
+                <p class="tags">
+                  {
+                    service.summary.split(" · ").map((part, partIndex, parts) => (
+                      <span>
+                        {part}
+                        {partIndex < parts.length - 1 && <span class="tags__separator"> · </span>}
+                      </span>
+                    ))
+                  }
+                </p>
+              </a>
+            ))
+          }
+        </div>
+        <div class="service-row-2">
+          {
+            oneStopServices.slice(4).map((service, index) => (
+              <a class="service-card" href={localizedPath(lang, service.href)}>
+                <figure class="service-card__media">
+                  <img
+                    class="service-card__image"
+                    src={service.imageSrc}
+                    alt={service.imageAlt}
+                    width="960"
+                    height="600"
+                    loading="lazy"
+                    decoding="async"
+                    aria-describedby={`service-image-description-${index + 4}`}
+                  />
+                  <figcaption id={`service-image-description-${index + 4}`} class="sr-only">{service.imageDescription}</figcaption>
+                </figure>
+                <span class="service-card__number">{service.number}</span>
+                <h3>{service.title}</h3>
+                <p class="tags">
+                  {
+                    service.summary.split(" · ").map((part, partIndex, parts) => (
+                      <span>
+                        {part}
+                        {partIndex < parts.length - 1 && <span class="tags__separator"> · </span>}
+                      </span>
+                    ))
+                  }
+                </p>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="product-band">
+    <div class="container">
+      <div class="section-head with-action product-scope-head">
+        <div>
+          <p class="eyebrow">Product scope</p>
+          <h2>Dental equipment, clinic furniture, and materials under one roof</h2>
+        </div>
+        <a class="btn product-scope-cta" href={localizedPath(lang, "/products/")}>View Product Categories</a>
+      </div>
+      <div class="product-grid">
+        {
+          featuredCategories.map((category, index) => {
+            const media = productScopeMedia[category.slug];
+
+            return (
+            <a href={localizedPath(lang, `/products/${category.slug}/`)} class="product-card">
+              <figure class="product-card__media">
+                <img
+                  class="product-card__image"
+                  src={media.src}
+                  alt={media.alt}
+                  width="960"
+                  height="720"
+                  loading="lazy"
+                  decoding="async"
+                  aria-describedby={`product-scope-image-description-${index}`}
+                />
+                <figcaption id={`product-scope-image-description-${index}`} class="sr-only">{media.description}</figcaption>
+              </figure>
+              <div class="product-card__body">
+                <span class="badge product-card__icon" aria-hidden="true">
+                  {category.slug === "dental-chair" && (
+                    <svg viewBox="0 0 24 24" focusable="false">
+                      <path d="M8 6h5.5a3 3 0 0 1 3 3v2.2" />
+                      <path d="M7 10h9.5a2.5 2.5 0 0 1 2.5 2.5V14" />
+                      <path d="M5.5 14h12" />
+                      <path d="M7 14l-1.5 5" />
+                      <path d="M17 14l1.5 5" />
+                      <path d="M9.5 19h6" />
+                    </svg>
+                  )}
+                  {category.slug === "dental-cabinet" && (
+                    <svg viewBox="0 0 24 24" focusable="false">
+                      <rect x="5" y="4" width="14" height="16" rx="1.5" />
+                      <path d="M5 10h14" />
+                      <path d="M5 15h14" />
+                      <path d="M9 7h1.5" />
+                      <path d="M9 13h1.5" />
+                      <path d="M9 18h1.5" />
+                    </svg>
+                  )}
+                  {category.slug === "ultrasonic-scaler-light-cure" && (
+                    <svg viewBox="0 0 24 24" focusable="false">
+                      <path d="M6 17l8.5-8.5" />
+                      <path d="M13.5 7.5l3 3" />
+                      <path d="M5 18.5l1.5 1.5" />
+                      <path d="M17 5l2-2" />
+                      <path d="M19 8h3" />
+                      <path d="M16 3V1" />
+                    </svg>
+                  )}
+                  {category.slug === "dental-handpiece" && (
+                    <svg viewBox="0 0 24 24" focusable="false">
+                      <path d="M5 16.5l9.5-9.5a2 2 0 0 1 2.8 0l.7.7a2 2 0 0 1 0 2.8L8.5 20" />
+                      <path d="M13 8.5l2.5 2.5" />
+                      <path d="M6.5 15l2.5 2.5" />
+                      <path d="M18.5 5.5l1.8-1.8" />
+                    </svg>
+                  )}
+                  {category.slug === "air-equipment" && (
+                    <svg viewBox="0 0 24 24" focusable="false">
+                      <rect x="4" y="8" width="16" height="9" rx="2" />
+                      <path d="M8 8V6h8v2" />
+                      <path d="M7 17v2" />
+                      <path d="M17 17v2" />
+                      <circle cx="9" cy="12.5" r="1.5" />
+                      <path d="M13 12.5h4" />
+                    </svg>
+                  )}
+                  {category.slug === "imaging-system" && (
+                    <svg viewBox="0 0 24 24" focusable="false">
+                      <rect x="4" y="5" width="16" height="12" rx="1.5" />
+                      <path d="M8 20h8" />
+                      <path d="M12 17v3" />
+                      <circle cx="12" cy="11" r="3" />
+                      <path d="M12 8v6" />
+                      <path d="M9 11h6" />
+                    </svg>
+                  )}
+                </span>
+                <h3>{category.title}</h3>
+                <p>{category.summary}</p>
+                <span class="product-card__hint">View category</span>
+              </div>
+            </a>
+            );
+          })
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="quality-band">
+    <div class="container">
+      <div class="quality-grid">
+        <div>
+          <p class="eyebrow">Factory &amp; Quality</p>
+          <h2>Every chair passes through documented quality control</h2>
+          <p class="lead">From raw material inspection to final function testing, our production line follows a fixed QC checklist before any unit ships.</p>
+          <div class="cert-row">
+            {qualityCerts.map((cert) => <div class="cert-chip"><span class="dot" aria-hidden="true"></span>{cert}</div>)}
+          </div>
+          <div class="qc-stats">
+            {
+              qcStats.map(([num, label]) => (
+                <div class="qc-stat">
+                  <p class="num">{num}</p>
+                  <p class="label">{label}</p>
+                </div>
+              ))
+            }
+          </div>
+        </div>
+        <div class="quality-visual">
+          <div class="quality-video-frame">
+            <iframe
+              src="https://www.youtube.com/embed/bhNU_Xo7p_E"
+              title="Guccidental factory and quality control video"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="howitworks-band">
+    <div class="container">
+      <div class="howitworks-intro">
+        <p class="eyebrow">How It Works</p>
+        <h2>A simpler path from idea to opening day</h2>
+        <p class="lead">Share the clinic plan once. Guccidental helps match the equipment, furniture, materials, logistics, and technical support needed to make the project easier to execute.</p>
+      </div>
+
+      <div class="how-layout howitworks-layout">
+        <a class="case-panel how-case-panel" href={localizedPath(lang, "/cases/kenya-clinic-fitout/")} aria-label="View the Kenya clinic fit-out case study">
+          <picture>
+            <source srcset="/images/cases/kenya-clinic-reception.webp" type="image/webp" />
+            <img
+              src="/images/cases/kenya-clinic-reception.jpg"
+              alt="White Orchid Dental and Aesthetics reception in Kenya"
+              width="1122"
+              height="1402"
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
+          <div class="case-panel-content how-case-panel__content">
+            <span class="case-tag how-case-tag"><span class="dot"></span>Real Project · Kenya</span>
+            <h3>See this process applied to a real clinic</h3>
+            <p>From floor plan to opening day — a full-clinic fit-out delivered to East Africa, with 360° tour and build photos.</p>
+            <span class="case-link how-case-link">View the full case study →</span>
+          </div>
+        </a>
+
+        <div class="how-process-panel how-timeline-wrap">
+          <div class="timeline how-timeline">
+            {milestones.map(([step, title, summary], index) => (
+              <div class="timeline-step how-timeline-step">
+                <div class="timeline-icon-col how-timeline-icon-col">
+                  <div class="timeline-icon how-timeline-icon" aria-hidden="true">
+                    {index === 0 && (
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="1.6" />
+                        <path d="M9 3V2a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1" stroke="currentColor" stroke-width="1.6" />
+                        <path d="M8 10h8M8 14h8M8 18h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+                      </svg>
+                    )}
+                    {index === 1 && (
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 8.5 12 4l9 4.5-9 4.5-9-4.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" />
+                        <path d="M3 8.5V16l9 4.5 9-4.5V8.5" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" />
+                        <path d="M12 13v7.5" stroke="currentColor" stroke-width="1.6" />
+                      </svg>
+                    )}
+                    {index === 2 && (
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 7h11v9H2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" />
+                        <path d="M13 10h4l4 3.2V16h-8z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" />
+                        <circle cx="6" cy="18" r="2" stroke="currentColor" stroke-width="1.6" />
+                        <circle cx="17.5" cy="18" r="2" stroke="currentColor" stroke-width="1.6" />
+                      </svg>
+                    )}
+                  </div>
+                  <div class="timeline-line how-timeline-line"></div>
+                </div>
+                <div class="timeline-body how-timeline-body">
+                  <p class="timeline-step-label how-timeline-label">Step {step}</p>
+                  <h3>{title}</h3>
+                  <p>{summary}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div class="how-cta-row">
+            <a href={localizedPath(lang, "/contact/")} class="howitworks-cta">Start Your Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cases-band">
+    <div class="container">
+      <div class="section-head with-action">
+        <div>
+          <p class="eyebrow">Case Studies</p>
+          <h2>Clinics equipped.<br />Worldwide.</h2>
+        </div>
+        <a class="btn btn-outline" href={localizedPath(lang, "/cases/")}>All Case Studies →</a>
+      </div>
+      <div class="case-grid">
+        {
+          caseStudies.map((caseItem, index) => (
+            <a class="case-card" href={localizedPath(lang, "/cases/")}>
+              <figure class="case-media">
+                <img
+                  class="case-media__image"
+                  src={caseItem.imageSrc}
+                  alt={caseItem.imageAlt}
+                  width="1200"
+                  height="675"
+                  loading="lazy"
+                  decoding="async"
+                  aria-describedby={`case-study-image-description-${index}`}
+                />
+                <figcaption id={`case-study-image-description-${index}`} class="sr-only">{caseItem.imageDescription}</figcaption>
+              </figure>
+              <div class="case-body">
+                <p class="case-tag">{caseItem.tag}</p>
+                <h3 class="case-title">{caseItem.title}</h3>
+                <p class="case-desc">{caseItem.summary}</p>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="faq-band">
+    <div class="container faq-layout">
+      <div>
+        <p class="eyebrow">FAQ</p>
+        <h2>Technical questions.<br />Direct answers.</h2>
+        <p class="faq-sub">Can't find what you need? <a href={localizedPath(lang, "/contact/")}>Send a direct inquiry →</a></p>
+      </div>
+      <div class="faq-list" data-faq-list>
+        {
+          faqItems.map((item, index) => (
+            <div class="faq-item">
+              <button class="faq-q" type="button" aria-expanded="false" aria-controls={`faq-answer-${index}`}>
+                <span>{item.question}</span>
+                <span class="plus" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-a" id={`faq-answer-${index}`}>
+                {item.answer.includes("[X units — 待确认]") ? (
+                  <>
+                    MOQ depends on the product line and tier. Dental chairs typically start at <span class="pending-token">[X units — 待确认]</span>; consumables and accessories have lower minimums.
+                  </>
+                ) : (
+                  item.answer
+                )}
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <InquiryCta
+    lang={lang}
+    title="Tell us what your clinic needs."
+    summary="Send your room count, dental chair requirements, renovation scope, destination market, and budget range. We will prepare a practical one-stop clinic supply plan."
+  />
+
+  <script is:inline>
+    (() => {
+      const faqList = document.querySelector("[data-faq-list]");
+      if (!faqList) return;
+
+      faqList.querySelectorAll(".faq-q").forEach((button) => {
+        button.addEventListener("click", () => {
+          const item = button.closest(".faq-item");
+          if (!item) return;
+
+          const wasOpen = item.classList.contains("open");
+          faqList.querySelectorAll(".faq-item.open").forEach((openItem) => {
+            openItem.classList.remove("open");
+            openItem.querySelector(".faq-q")?.setAttribute("aria-expanded", "false");
+          });
+
+          if (!wasOpen) {
+            item.classList.add("open");
+            button.setAttribute("aria-expanded", "true");
+          }
+        });
+      });
+    })();
+  </script>
+
+  <script is:inline>
+    (() => {
+      const hero = document.querySelector("[data-hero]");
+      if (!hero) return;
+
+      const video = hero.querySelector("[data-hero-video]");
+      const poster = hero.querySelector("[data-video-poster]");
+
+      if (video) {
+        const revealVideo = () => {
+          video.classList.add("is-ready");
+          poster?.classList.add("is-hidden");
+        };
+        video.addEventListener("loadeddata", revealVideo, { once: true });
+        video.addEventListener("canplay", revealVideo, { once: true });
+        video.play().catch(() => {});
+      }
+
+      const statNumbers = Array.from(document.querySelectorAll("[data-stat-number]"));
+      const statsSection = document.querySelector("#trust-proof");
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      const formatter = new Intl.NumberFormat("en-US");
+
+      const setStatValue = (element, value) => {
+        element.textContent = `${formatter.format(value)}+`;
+      };
+
+      const setFinalValues = () => {
+        statNumbers.forEach((element) => {
+          setStatValue(element, Number(element.dataset.statTarget || "0"));
+        });
+      };
+
+      if (!statsSection || statNumbers.length === 0 || reduceMotion) {
+        setFinalValues();
+        return;
+      }
+
+      statNumbers.forEach((element) => setStatValue(element, 0));
+
+      const animateStats = () => {
+        const duration = 1100;
+        const start = performance.now();
+
+        const tick = (now) => {
+          const progress = Math.min((now - start) / duration, 1);
+          const eased = 1 - Math.pow(1 - progress, 3);
+
+          statNumbers.forEach((element) => {
+            const target = Number(element.dataset.statTarget || "0");
+            setStatValue(element, Math.round(target * eased));
+          });
+
+          if (progress < 1) {
+            requestAnimationFrame(tick);
+          } else {
+            setFinalValues();
+          }
+        };
+
+        requestAnimationFrame(tick);
+      };
+
+      if (!("IntersectionObserver" in window)) {
+        animateStats();
+        return;
+      }
+
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          if (!entry?.isIntersecting) return;
+          observer.disconnect();
+          animateStats();
+        },
+        { threshold: 0.35, rootMargin: "0px 0px -12% 0px" }
+      );
+
+      observer.observe(statsSection);
+    })();
+  </script>
+
+</BaseLayout>

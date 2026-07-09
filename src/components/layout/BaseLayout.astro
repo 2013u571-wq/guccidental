@@ -1,0 +1,49 @@
+---
+import "../../styles.css";
+import Header from "./Header.astro";
+import Footer from "./Footer.astro";
+import FloatingContactCta from "@components/ui/FloatingContactCta.astro";
+import { alternateLinks, getDirection, type LanguageCode } from "@lib/i18n";
+import { site } from "@data/site";
+
+type Props = {
+  title: string;
+  description?: string;
+  lang: LanguageCode;
+  pathname: string;
+};
+
+const { title, description = site.description, lang, pathname } = Astro.props;
+const direction = getDirection(lang);
+const links = alternateLinks(pathname);
+const pageTitle = title === site.name ? title : `${title} | ${site.name}`;
+---
+
+<!doctype html>
+<html lang={lang} dir={direction}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="canonical" href={pathname} />
+    {links.map((link) => <link rel="alternate" hreflang={link.lang} href={link.href} />)}
+    <link rel="alternate" hreflang="x-default" href={links.find((link) => link.lang === "en")?.href} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={site.name} />
+  </head>
+  <body class="min-h-screen bg-surface-white text-ink-primary antialiased">
+    <Header lang={lang} />
+    <main>
+      <slot />
+    </main>
+    <Footer lang={lang} />
+    <FloatingContactCta lang={lang} />
+  </body>
+</html>
