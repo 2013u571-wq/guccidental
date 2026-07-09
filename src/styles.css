@@ -1714,7 +1714,7 @@
   }
 
   .header-divider {
-    background: theme("colors.surface.border");
+    background: #C7D6E8;
     flex: none;
     height: 18px;
     margin: 0 0.25rem;
