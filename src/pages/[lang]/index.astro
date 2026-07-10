@@ -169,6 +169,8 @@ const caseStudies = [
     title: "12-chair clinic fit-out in the USA",
     summary: "Full chair, cabinet, and imaging package delivered and installed for a new multi-room dental practice.",
     imageSrc: "/assets/cases/case-mind-dental.webp",
+    imageWidth: 1200,
+    imageHeight: 675,
     imageAlt: "Mind Dental clinic exterior with modern stone and dark facade",
     imageDescription: "A finished dental clinic exterior showing Mind Dental signage, stone entry cladding, glazing, landscaping, and parking access."
   },
@@ -177,6 +179,8 @@ const caseStudies = [
     title: "Regional distributor partnership in France",
     summary: "OEM-branded dental chairs & lab equipments line supplied for a high end showroom",
     imageSrc: "/assets/cases/case-study-france.webp",
+    imageWidth: 1200,
+    imageHeight: 675,
     imageAlt: "Modern dental clinic building in France at sunset",
     imageDescription: "A modern angular dental clinic building photographed at sunset, representing a European dental clinic project."
   },
@@ -184,9 +188,11 @@ const caseStudies = [
     tag: "Chair replacement . Middle East",
     title: "Upgrading 8 legacy chairs in Dubai",
     summary: "Replaced aging chairs with matched-accessory units with no disruption to daily clinic operations",
-    imageSrc: "/assets/cases/case-study-wcs-dental.webp",
-    imageAlt: "WCS Dental clinic exterior in a brick office building",
-    imageDescription: "A two-story brick dental clinic office exterior with WCS Dental signage, parking, and landscaped frontage."
+    imageSrc: "/assets/cases/case-study-dubai-smile-dental-clinic.webp",
+    imageWidth: 800,
+    imageHeight: 599,
+    imageAlt: "Dubai Smile Dental Clinic exterior with street signage and parked cars",
+    imageDescription: "A Dubai customer dental clinic exterior showing Dubai Smile Dental Clinic signage, the clinic building facade, street frontage, and parked cars."
   }
 ];
 
@@ -666,8 +672,8 @@ const faqItems = [
                   class="case-media__image"
                   src={caseItem.imageSrc}
                   alt={caseItem.imageAlt}
-                  width="1200"
-                  height="675"
+                  width={caseItem.imageWidth}
+                  height={caseItem.imageHeight}
                   loading="lazy"
                   decoding="async"
                   aria-describedby={`case-study-image-description-${index}`}
