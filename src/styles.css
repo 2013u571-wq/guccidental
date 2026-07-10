@@ -664,14 +664,6 @@
     position: relative;
   }
 
-  .service-card__media::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(15, 31, 53, 0.38);
-    transition: opacity 350ms ease;
-  }
-
   .service-card__image {
     display: block;
     filter: saturate(0.92) contrast(1.02);
@@ -737,10 +729,6 @@
 
   .service-card:hover .service-card__image {
     transform: scale(1.04);
-  }
-
-  .service-card:hover .service-card__media::after {
-    opacity: 0;
   }
 
   .fitout-card h3 {
@@ -3020,14 +3008,6 @@
     border-radius: 0;
   }
 
-  .service-card__media::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(15, 31, 53, 0.38);
-    transition: opacity 350ms ease;
-  }
-
   .service-card__image {
     width: 100%;
     height: 100%;
@@ -3038,10 +3018,6 @@
 
   .service-card:hover .service-card__image {
     transform: scale(1.04);
-  }
-
-  .service-card:hover .service-card__media::after {
-    opacity: 0;
   }
 
   .service-card__number {
