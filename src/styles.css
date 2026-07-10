@@ -19,12 +19,14 @@
     --card-border: 1px solid var(--surface-border);
     --card-padding: 24px;
     --card-image-radius: 8px;
+    --font-body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    --font-display-serif: Newsreader, Georgia, "Times New Roman", serif;
     --state-warning: #F59E0B;
     --state-error: #DC2626;
     --state-success: #16A34A;
     color: theme("colors.ink.primary");
     background: theme("colors.surface.white");
-    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    font-family: var(--font-body);
     font-synthesis: none;
     text-rendering: optimizeLegibility;
   }
@@ -473,7 +475,7 @@
 
   .entity-stat-bar .fact-value {
     color: #111827;
-    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    font-family: var(--font-display-serif);
     font-size: 20px;
     font-weight: 600;
     line-height: 1.2;
@@ -1132,7 +1134,7 @@
 
   .qc-stat .num {
     color: var(--brand-blue);
-    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    font-family: var(--font-display-serif);
     font-size: 28px;
     font-weight: 700;
     letter-spacing: 0.1px;
@@ -2684,7 +2686,7 @@
 
   .fact-value,
   .entity-stat-bar .fact-value {
-    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    font-family: var(--font-display-serif);
     font-size: 20px;
     font-weight: 600;
     color: var(--ink-primary);
@@ -3399,7 +3401,7 @@
   }
 
   .qc-stat .num {
-    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    font-family: var(--font-display-serif);
     font-size: 32px;
     font-weight: 700;
     color: var(--brand-blue-light);
@@ -5231,7 +5233,7 @@
 
   .qc-stat .num {
     color: #FFFFFF;
-    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    font-family: var(--font-display-serif);
     font-size: 44px;
     font-weight: 700;
     line-height: 1;
