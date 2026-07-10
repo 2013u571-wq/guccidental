@@ -2317,8 +2317,8 @@
   }
 
   .hero-video-copy h1 {
-    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
-    font-weight: 500;
+    font-family: Newsreader, Georgia, "Times New Roman", serif;
+    font-weight: 600;
   }
 
   .hero-title-compact {
