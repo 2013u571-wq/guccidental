@@ -43,8 +43,8 @@ export default {
         }
       },
       fontFamily: {
-        sans: ["Inter", "\"Helvetica Neue\"", "Arial", "sans-serif"],
-        display: ["Newsreader", "Georgia", "\"Times New Roman\"", "serif"]
+        sans: ["\"IBM Plex Sans\"", "\"Helvetica Neue\"", "Arial", "sans-serif"],
+        display: ["\"IBM Plex Sans\"", "\"Helvetica Neue\"", "Arial", "sans-serif"]
       },
       fontSize: {
         "display-xl": ["54px", { lineHeight: "1.25", letterSpacing: "-0.1px", fontWeight: "300" }],

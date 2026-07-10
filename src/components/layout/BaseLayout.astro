@@ -29,7 +29,7 @@ const pageTitle = title === site.name ? title : `${title} | ${site.name}`;
     <title>{pageTitle}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:wght@600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="canonical" href={pathname} />
     {links.map((link) => <link rel="alternate" hreflang={link.lang} href={link.href} />)}
     <link rel="alternate" hreflang="x-default" href={links.find((link) => link.lang === "en")?.href} />

@@ -24,7 +24,7 @@
     --state-success: #16A34A;
     color: theme("colors.ink.primary");
     background: theme("colors.surface.white");
-    font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
   }
@@ -473,7 +473,7 @@
 
   .entity-stat-bar .fact-value {
     color: #111827;
-    font-family: Newsreader, Georgia, "Times New Roman", serif;
+    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 1.2;
@@ -805,7 +805,7 @@
   .service-card__number {
     color: var(--brand-blue);
     display: block;
-    font-family: Newsreader, Georgia, "Times New Roman", serif;
+    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 0.04em;
@@ -1132,7 +1132,7 @@
 
   .qc-stat .num {
     color: var(--brand-blue);
-    font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 28px;
     font-weight: 700;
     letter-spacing: 0.1px;
@@ -2317,8 +2317,8 @@
   }
 
   .hero-video-copy h1 {
-    font-family: Newsreader, Georgia, "Times New Roman", serif;
-    font-weight: 600;
+    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
   }
 
   .hero-title-compact {
@@ -2684,7 +2684,7 @@
 
   .fact-value,
   .entity-stat-bar .fact-value {
-    font-family: Newsreader, Georgia, "Times New Roman", serif;
+    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 20px;
     font-weight: 600;
     color: var(--ink-primary);
@@ -3113,7 +3113,7 @@
 
   .service-card__number {
     display: block;
-    font-family: Newsreader, Georgia, "Times New Roman", serif;
+    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 0.05em;
@@ -3399,7 +3399,7 @@
   }
 
   .qc-stat .num {
-    font-family: Newsreader, Georgia, "Times New Roman", serif;
+    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 32px;
     font-weight: 700;
     color: var(--brand-blue-light);
@@ -4370,7 +4370,7 @@
   .how-timeline-label {
     margin: 0 0 6px;
     color: #0057B7;
-    font-family: Newsreader, Georgia, "Times New Roman", serif;
+    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 0.06em;
@@ -5231,7 +5231,7 @@
 
   .qc-stat .num {
     color: #FFFFFF;
-    font-family: Newsreader, Georgia, "Times New Roman", serif;
+    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 44px;
     font-weight: 700;
     line-height: 1;
