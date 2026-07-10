@@ -1697,9 +1697,9 @@
 
   .header-social-link {
     align-items: center;
-    border: 1px solid theme("colors.surface.border");
+    border: 1px solid rgba(199, 214, 232, 0.78);
     border-radius: 999px;
-    color: theme("colors.ink.muted");
+    color: rgba(75, 85, 103, 0.72);
     display: inline-flex;
     height: 34px;
     justify-content: center;
@@ -1707,10 +1707,21 @@
     width: 34px;
   }
 
+  .header-social-link svg {
+    height: 15px;
+    opacity: 0.78;
+    transition: opacity 160ms ease;
+    width: 15px;
+  }
+
   .header-social-link:hover {
     background: theme("colors.surface.soft");
     border-color: rgba(0, 87, 183, 0.32);
     color: theme("colors.brand.blue");
+  }
+
+  .header-social-link:hover svg {
+    opacity: 1;
   }
 
   .header-divider {
