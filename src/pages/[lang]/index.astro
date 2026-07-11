@@ -226,7 +226,6 @@ const faqItems = [
   {notice && <div class="bg-brand-blueLight py-2 text-center text-caption-md text-brand-blue">{notice}</div>}
   <section class="hero-slider relative overflow-hidden bg-surface-soft" data-hero>
     <div class="hero-video-bg" aria-hidden="true">
-      <div class="hero-video-placeholder" data-video-poster></div>
       <video class="hero-video-media" muted playsinline autoplay loop preload="metadata" poster="/assets/guccidental-hero-poster.webp" data-hero-video>
         <source src="/assets/guccidental-hero-video.mp4" type="video/mp4" />
       </video>
@@ -760,12 +759,10 @@ const faqItems = [
       if (!hero) return;
 
       const video = hero.querySelector("[data-hero-video]");
-      const poster = hero.querySelector("[data-video-poster]");
 
       if (video) {
         const revealVideo = () => {
           video.classList.add("is-ready");
-          poster?.classList.add("is-hidden");
         };
         video.addEventListener("loadeddata", revealVideo, { once: true });
         video.addEventListener("canplay", revealVideo, { once: true });

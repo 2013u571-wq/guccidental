@@ -2249,8 +2249,7 @@
     padding-block: 0;
   }
 
-  .hero-video-bg,
-  .hero-video-placeholder {
+  .hero-video-bg {
     inset: 0;
     position: absolute;
   }
@@ -2260,48 +2259,14 @@
     inset: 0;
     object-fit: cover;
     object-position: center 35%;
-    opacity: 0;
+    opacity: 1;
     position: absolute;
-    transition: opacity 300ms ease;
     width: 100%;
     z-index: 1;
   }
 
   .hero-video-media.is-ready {
     opacity: 1;
-  }
-
-  .hero-video-placeholder {
-    background:
-      linear-gradient(0deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)),
-      url("/assets/guccidental-hero-poster.webp") center 35% / cover no-repeat,
-      radial-gradient(circle at 78% 34%, rgba(124, 191, 0, 0.22), transparent 26%),
-      radial-gradient(circle at 38% 70%, rgba(0, 87, 183, 0.24), transparent 30%),
-      linear-gradient(110deg, rgba(0, 63, 135, 0.94), rgba(0, 87, 183, 0.72) 46%, rgba(234, 243, 255, 0.28)),
-      repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.14) 0 1px, transparent 1px 26px);
-    opacity: 1;
-    transition: opacity 300ms ease, visibility 300ms ease;
-    z-index: 0;
-  }
-
-  .hero-video-placeholder.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-  }
-
-  .hero-video-placeholder::after {
-    background:
-      linear-gradient(90deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0)),
-      linear-gradient(0deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0));
-    border: 1px solid rgba(255, 255, 255, 0.28);
-    border-radius: 16px;
-    content: "";
-    height: min(44vw, 360px);
-    position: absolute;
-    right: max(6vw, 42px);
-    top: 50%;
-    transform: translateY(-50%);
-    width: min(38vw, 560px);
   }
 
   .hero-video-soft-shade {
@@ -2524,15 +2489,6 @@
         linear-gradient(90deg, rgba(8, 18, 32, 0.48), rgba(8, 18, 32, 0.14));
     }
 
-    .hero-video-placeholder::after {
-      bottom: 42px;
-      height: 220px;
-      left: 1rem;
-      right: 1rem;
-      top: auto;
-      transform: none;
-      width: auto;
-    }
   }
 
   /* Homepage reference style overrides mapped to the existing Astro class names. */
