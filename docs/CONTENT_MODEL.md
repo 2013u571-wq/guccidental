@@ -324,6 +324,7 @@ Allowed `solutionType` values:
 new-clinic
 clinic-renovation
 dealer
+building-materials-furniture
 ```
 
 Use `solutionTranslation` for language-specific solution content.
@@ -355,6 +356,15 @@ Recommended solution URLs:
 /en/solutions/new-clinic/
 /en/solutions/clinic-renovation/
 /en/solutions/dealer/
+/en/solutions/building-materials-furniture/
+/en/solutions/building-materials-furniture/decoration/
+/en/solutions/building-materials-furniture/decoration/flooring/
+/en/solutions/building-materials-furniture/decoration/ceiling/
+/en/solutions/building-materials-furniture/decoration/doors-windows/
+/en/solutions/building-materials-furniture/furniture/
+/en/solutions/building-materials-furniture/furniture/reception-desk/
+/en/solutions/building-materials-furniture/furniture/sofa/
+/en/solutions/building-materials-furniture/furniture/chair/
 ```
 
 ## 12. Product Category
@@ -411,15 +421,6 @@ orthodontics
 disposable-consumables
 teaching-model
 laboratory
-building-materials-furniture
-building-materials-furniture/decoration
-building-materials-furniture/decoration/flooring
-building-materials-furniture/decoration/ceiling
-building-materials-furniture/decoration/doors-windows
-building-materials-furniture/furniture
-building-materials-furniture/furniture/reception-desk
-building-materials-furniture/furniture/sofa
-building-materials-furniture/furniture/chair
 ```
 
 ## 13. Product

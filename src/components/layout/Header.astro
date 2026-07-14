@@ -20,7 +20,31 @@ const primaryNavigation = [
   { label: "Contact", href: "/contact/" }
 ];
 
-const desktopNavigation = primaryNavigation.filter((item) => item.label !== "Contact");
+const standardDesktopNavigation = primaryNavigation.filter((item) => !["Products", "Solutions", "Contact"].includes(item.label));
+
+type MegaMenuLink = {
+  label: string;
+  description: string;
+  href: string;
+};
+
+type MegaMenuGroup = {
+  title: string;
+  href: string;
+  links: MegaMenuLink[];
+};
+
+const megaGroups: MegaMenuGroup[] = [
+  { title: "Chairs & Cabinets", href: "/products/dental-chair/", links: [{ label: "Economic Series", description: "Reliable core function for cost-sensitive clinics.", href: "/products/dental-chair/?tier=economic" }, { label: "Mid-range Series", description: "Balanced comfort and configuration for everyday practice.", href: "/products/dental-chair/?tier=mid-range" }, { label: "High-end Series", description: "Premium upholstery and implant-ready configurations.", href: "/products/dental-chair/?tier=high-end" }, { label: "Metal Cabinet", description: "Seamless surfaces built for strict hygiene protocols.", href: "/products/dental-cabinet/metal/" }, { label: "Wood", description: "Warm finishes for reception-facing treatment rooms.", href: "/products/dental-cabinet/wood/" }] },
+  { title: "Treatment Equipment", href: "/products/", links: [{ label: "Ultrasonic Scaler", description: "Chairside scaling with adjustable power settings.", href: "/products/ultrasonic-scaler-light-cure/ultrasonic-scaler/" }, { label: "Light Cure", description: "Curing lamps for composite restorations.", href: "/products/ultrasonic-scaler-light-cure/light-cure/" }, { label: "Dental Handpiece", description: "High-speed and low-speed handpieces for daily use.", href: "/products/dental-handpiece/" }, { label: "Endo Motor", description: "Torque-controlled motors for root canal preparation.", href: "/products/endo-motor/" }, { label: "Air Compressor", description: "Compressors sized for single or multi-chair clinics.", href: "/products/air-equipment/air-compressor/" }, { label: "Vacuum Pump", description: "Suction systems for chairside evacuation.", href: "/products/air-equipment/vacuum-pump/" }] },
+  { title: "Imaging & Digital", href: "/products/imaging-system/", links: [{ label: "X-ray", description: "Intraoral units for routine diagnostic imaging.", href: "/products/imaging-system/x-ray/" }, { label: "CBCT", description: "3D volumetric imaging for implant and surgical planning.", href: "/products/imaging-system/cbct/" }, { label: "Intraoral Scanner", description: "Digital impressions without trays or impression material.", href: "/products/imaging-system/intraoral-scanner/" }, { label: "Intraoral Camera", description: "Chairside documentation and patient communication.", href: "/products/imaging-system/intraoral-camera/" }] },
+  { title: "Specialty & Supplies", href: "/products/", links: [{ label: "Orthodontics", description: "Brackets, wires and chairside orthodontic tools.", href: "/products/orthodontics/" }, { label: "Surgical Instruments", description: "Implant motors, surgical kits and hand instruments.", href: "/products/surgical-instruments/" }, { label: "Whitening Machine", description: "In-clinic bleaching lamps.", href: "/products/whitening-machine/" }, { label: "Disposable Consumables", description: "Gloves, bibs, tips and everyday clinic supplies.", href: "/products/disposable-consumables/" }, { label: "Teaching Model", description: "Phantom heads and typodonts for dental education.", href: "/products/teaching-model/" }, { label: "Laboratory", description: "Equipment for in-house lab workflows.", href: "/products/laboratory/" }] }
+];
+const solutionLinks = [
+  { label: "New Clinic", description: "Plan and equip a complete new dental clinic.", href: "/solutions/new-clinic/" },
+  { label: "Clinic Renovation", description: "Modernize treatment rooms and clinic workflows.", href: "/solutions/clinic-renovation/" },
+  { label: "Dealer", description: "Partner with Guccidental as a distributor.", href: "/solutions/dealer/" }
+];
 
 const socialLinks = [
   { label: "Contact us", href: contactHref },
@@ -42,20 +66,32 @@ const isNavActive = (href: string) => {
     </a>
 
     <nav class="product-primary-nav hidden min-w-0 flex-1 items-center justify-center lg:flex" aria-label="Primary navigation">
-      {
-        desktopNavigation.map((item) => (
-          <a
-            href={localizedPath(lang, item.href)}
-            class:list={[
-              "product-nav-trigger",
-              isNavActive(item.href) && "is-active"
-            ]}
-            aria-current={isNavActive(item.href) ? "page" : undefined}
-          >
-            {item.label}
-          </a>
-        ))
-      }
+      <div class="products-mega" data-products-mega>
+        <button type="button" class:list={["product-nav-trigger", "nav-item", "products-mega__trigger", isNavActive("/products/") && "is-active"]} aria-expanded="false" aria-controls="products-mega-panel" data-products-mega-trigger>
+          Products <svg class="products-mega__chevron-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+        </button>
+        <div class="mega-panel" id="products-mega-panel" data-products-mega-panel>
+          <div class="container mega-catalog">
+            <nav class="mega-rail" aria-label="Product groups">
+              {megaGroups.map((group, index) => <button type="button" class:list={["mega-rail-item", index === 0 && "is-active"]} data-mega-group-tab={index}>{group.title}</button>)}
+              <a class="mega-rail-cta" href={localizedPath(lang, "/products/")}>Explore all products<svg class="mega-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></svg></a>
+            </nav>
+            <section class="mega-stage" aria-label="Product categories">
+              {megaGroups.map((group, index) => (
+                <div class:list={["mega-stage-panel", index === 0 && "is-active"]} data-mega-group-panel={index}>
+                  <a class="mega-stage-title" href={localizedPath(lang, group.href)}>{group.title}<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></svg></a>
+                  <div class="mega-stage-grid">{group.links.map((link) => <a class="mega-item" href={localizedPath(lang, link.href)}><span class="mega-item-name">{link.label}</span><span class="mega-item-desc">{link.description}</span></a>)}</div>
+                </div>
+              ))}
+            </section>
+          </div>
+        </div>
+      </div>
+      <div class="solutions-menu">
+        <a href={localizedPath(lang, "/solutions/")} class:list={["product-nav-trigger", "nav-item", "solutions-menu__trigger", isNavActive("/solutions/") && "is-active"]}>Solutions <span class="product-nav-chevron solutions-menu__chevron nav-chevron" aria-hidden="true"></span></a>
+        <div class="solutions-menu__panel"><div class="solutions-menu__eyebrow">Solutions</div><div class="solutions-menu__list">{solutionLinks.map((solution) => <a href={localizedPath(lang, solution.href)} class="solutions-menu__item"><span>{solution.label}</span><small>{solution.description}</small></a>)}</div></div>
+      </div>
+      {standardDesktopNavigation.map((item) => <a href={localizedPath(lang, item.href)} class:list={["product-nav-trigger", isNavActive(item.href) && "is-active"]} aria-current={isNavActive(item.href) ? "page" : undefined}>{item.label}</a>)}
       <a
         href={contactHref}
         class="site-header-cta rounded-control bg-brand-blue px-4 py-2.5 text-button-caps text-white transition hover:bg-brand-blueDark"
@@ -118,8 +154,19 @@ const isNavActive = (href: string) => {
 
       <div class="mobile-menu__panel">
         <nav class="mobile-menu__links" aria-label="Mobile navigation">
+          <details class="mobile-products">
+            <summary class="mobile-menu__link">Products</summary>
+            <div class="mobile-products__groups">
+              {megaGroups.map((group) => (
+                <details class="mobile-product-item">
+                  <summary>{group.title}</summary>
+                  <div class="mobile-product-item__links">{group.links.map((link) => <a href={localizedPath(lang, link.href)}><span>{link.label}</span><small>{link.description}</small></a>)}</div>
+                </details>
+              ))}
+            </div>
+          </details>
           {
-            primaryNavigation.map((item) => (
+            primaryNavigation.filter((item) => item.label !== "Products").map((item) => (
               <a
                 href={localizedPath(lang, item.href)}
                 class:list={[
@@ -179,3 +226,45 @@ const isNavActive = (href: string) => {
     </details>
   </div>
 </header>
+
+<script>
+  const mega = document.querySelector<HTMLElement>("[data-products-mega]");
+  const trigger = document.querySelector<HTMLButtonElement>("[data-products-mega-trigger]");
+  const panel = document.querySelector<HTMLElement>("[data-products-mega-panel]");
+  const groupTabs = document.querySelectorAll<HTMLButtonElement>("[data-mega-group-tab]");
+  const groupPanels = document.querySelectorAll<HTMLElement>("[data-mega-group-panel]");
+
+  const closeMega = () => {
+    mega?.classList.remove("is-open");
+    panel?.classList.remove("is-open");
+    trigger?.classList.remove("is-open");
+    trigger?.setAttribute("aria-expanded", "false");
+  };
+
+  trigger?.addEventListener("click", () => {
+    const isOpen = mega?.classList.toggle("is-open") ?? false;
+    panel?.classList.toggle("is-open", isOpen);
+    trigger.classList.toggle("is-open", isOpen);
+    trigger.setAttribute("aria-expanded", String(isOpen));
+  });
+
+  document.addEventListener("click", (event) => {
+    if (mega && event.target instanceof Node && !mega.contains(event.target)) closeMega();
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeMega();
+  });
+
+  groupTabs.forEach((tab) => {
+    const activate = () => {
+      const groupIndex = tab.dataset.megaGroupTab;
+      groupTabs.forEach((item) => item.classList.toggle("is-active", item === tab));
+      groupPanels.forEach((panel) => panel.classList.toggle("is-active", panel.dataset.megaGroupPanel === groupIndex));
+    };
+    tab.addEventListener("mouseenter", activate);
+    tab.addEventListener("focus", activate);
+    tab.addEventListener("click", activate);
+  });
+
+</script>
