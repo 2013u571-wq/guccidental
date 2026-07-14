@@ -1,5 +1,6 @@
 ---
 import LanguageSwitcher from "./LanguageSwitcher.astro";
+import NavChevron from "./NavChevron.astro";
 import { localizedPath, type LanguageCode } from "@lib/i18n";
 import { site } from "@data/site";
 
@@ -40,11 +41,37 @@ const megaGroups: MegaMenuGroup[] = [
   { title: "Imaging & Digital", href: "/products/imaging-system/", links: [{ label: "X-ray", description: "Intraoral units for routine diagnostic imaging.", href: "/products/imaging-system/x-ray/" }, { label: "CBCT", description: "3D volumetric imaging for implant and surgical planning.", href: "/products/imaging-system/cbct/" }, { label: "Intraoral Scanner", description: "Digital impressions without trays or impression material.", href: "/products/imaging-system/intraoral-scanner/" }, { label: "Intraoral Camera", description: "Chairside documentation and patient communication.", href: "/products/imaging-system/intraoral-camera/" }] },
   { title: "Specialty & Supplies", href: "/products/", links: [{ label: "Orthodontics", description: "Brackets, wires and chairside orthodontic tools.", href: "/products/orthodontics/" }, { label: "Surgical Instruments", description: "Implant motors, surgical kits and hand instruments.", href: "/products/surgical-instruments/" }, { label: "Whitening Machine", description: "In-clinic bleaching lamps.", href: "/products/whitening-machine/" }, { label: "Disposable Consumables", description: "Gloves, bibs, tips and everyday clinic supplies.", href: "/products/disposable-consumables/" }, { label: "Teaching Model", description: "Phantom heads and typodonts for dental education.", href: "/products/teaching-model/" }, { label: "Laboratory", description: "Equipment for in-house lab workflows.", href: "/products/laboratory/" }] }
 ];
-const solutionLinks = [
-  { label: "New Clinic", description: "Plan and equip a complete new dental clinic.", href: "/solutions/new-clinic/" },
-  { label: "Clinic Renovation", description: "Modernize treatment rooms and clinic workflows.", href: "/solutions/clinic-renovation/" },
-  { label: "Dealer", description: "Partner with Guccidental as a distributor.", href: "/solutions/dealer/" }
-];
+const solutionMegaColumns = [
+  {
+    title: "New Clinic",
+    menuLabel: "New Clinic",
+    href: "/solutions/new-clinic/",
+    description: "Plan a complete clinic from layout and equipment selection to furniture, materials, shipping, and installation support.",
+    items: ["Layout planning", "Equipment package", "Installation support"]
+  },
+  {
+    title: "Replace Old Chairs",
+    menuLabel: "Replace Old Chairs",
+    href: "/solutions/clinic-upgrade/",
+    description: "Upgrade outdated dental chairs with practical models, matching accessories, delivery planning, and after-sales guidance.",
+    items: ["Model matching", "Accessories", "After-sales support"]
+  },
+  {
+    title: "Clinic Renovation",
+    menuLabel: "Clinic Renovation",
+    href: "/solutions/clinic-renovation/",
+    description: "Refresh treatment rooms with chairs, cabinets, flooring, ceiling materials, lighting, consumables, and technical support.",
+    items: ["Room refresh", "Cabinets & materials", "Technical support"]
+  },
+  {
+    // TODO: 待 Building Materials 页面上线后补链接
+    title: "Building Materials & Furniture",
+    menuLabel: "Building Materials",
+    href: "/solutions/",
+    description: "Fit-out materials and furniture for the whole clinic.",
+    items: ["Flooring", "Ceiling", "Doors & Windows", "Reception Desk", "Sofa", "Chair"]
+  }
+] as const;
 
 const socialLinks = [
   { label: "Contact us", href: contactHref },
@@ -68,7 +95,7 @@ const isNavActive = (href: string) => {
     <nav class="product-primary-nav hidden min-w-0 flex-1 items-center justify-center lg:flex" aria-label="Primary navigation">
       <div class="products-mega" data-products-mega>
         <button type="button" class:list={["product-nav-trigger", "nav-item", "products-mega__trigger", isNavActive("/products/") && "is-active"]} aria-expanded="false" aria-controls="products-mega-panel" data-products-mega-trigger>
-          Products <svg class="products-mega__chevron-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+          Products <NavChevron />
         </button>
         <div class="mega-panel" id="products-mega-panel" data-products-mega-panel>
           <div class="container mega-catalog">
@@ -87,9 +114,28 @@ const isNavActive = (href: string) => {
           </div>
         </div>
       </div>
-      <div class="solutions-menu">
-        <a href={localizedPath(lang, "/solutions/")} class:list={["product-nav-trigger", "nav-item", "solutions-menu__trigger", isNavActive("/solutions/") && "is-active"]}>Solutions <span class="product-nav-chevron solutions-menu__chevron nav-chevron" aria-hidden="true"></span></a>
-        <div class="solutions-menu__panel"><div class="solutions-menu__eyebrow">Solutions</div><div class="solutions-menu__list">{solutionLinks.map((solution) => <a href={localizedPath(lang, solution.href)} class="solutions-menu__item"><span>{solution.label}</span><small>{solution.description}</small></a>)}</div></div>
+      <div class="solutions-menu" data-solutions-mega>
+        <button type="button" class:list={["product-nav-trigger", "nav-item", "solutions-menu__trigger", isNavActive("/solutions/") && "is-active"]} aria-expanded="false" aria-controls="solutions-mega-panel" data-solutions-mega-trigger>
+          Solutions <NavChevron />
+        </button>
+        <div class="solutions-mega-panel" id="solutions-mega-panel" data-solutions-mega-panel>
+          <div class="container sol-panel">
+            <div class="sol-cols">
+              {solutionMegaColumns.map((column) => (
+                <div class="sol-col">
+                  <a class="sol-col-title" href={localizedPath(lang, column.href)}>
+                    <span>{column.menuLabel}</span>
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3 9h12M10.5 4.5 15 9l-4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                  </a>
+                  <p class="sol-col-desc">{column.description}</p>
+                  <ul class="sol-col-list sol-col-divider">
+                    {column.items.map((item) => <li>{item}</li>)}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
       {standardDesktopNavigation.map((item) => <a href={localizedPath(lang, item.href)} class:list={["product-nav-trigger", isNavActive(item.href) && "is-active"]} aria-current={isNavActive(item.href) ? "page" : undefined}>{item.label}</a>)}
       <a
@@ -165,8 +211,22 @@ const isNavActive = (href: string) => {
               ))}
             </div>
           </details>
+          <details class="mobile-solutions">
+            <summary class="mobile-menu__link">Solutions</summary>
+            <div class="mobile-solutions__groups">
+              {solutionMegaColumns.map((column) => (
+                <details class="mobile-solution-item">
+                  <summary>{column.title}</summary>
+                  <div class="mobile-solution-item__content">
+                    <p>{column.description}</p>
+                    <ul>{column.items.map((item) => <li>{item}</li>)}</ul>
+                  </div>
+                </details>
+              ))}
+            </div>
+          </details>
           {
-            primaryNavigation.filter((item) => item.label !== "Products").map((item) => (
+            primaryNavigation.filter((item) => !["Products", "Solutions"].includes(item.label)).map((item) => (
               <a
                 href={localizedPath(lang, item.href)}
                 class:list={[
@@ -231,6 +291,9 @@ const isNavActive = (href: string) => {
   const mega = document.querySelector<HTMLElement>("[data-products-mega]");
   const trigger = document.querySelector<HTMLButtonElement>("[data-products-mega-trigger]");
   const panel = document.querySelector<HTMLElement>("[data-products-mega-panel]");
+  const solutionsMega = document.querySelector<HTMLElement>("[data-solutions-mega]");
+  const solutionsTrigger = document.querySelector<HTMLButtonElement>("[data-solutions-mega-trigger]");
+  const solutionsPanel = document.querySelector<HTMLElement>("[data-solutions-mega-panel]");
   const groupTabs = document.querySelectorAll<HTMLButtonElement>("[data-mega-group-tab]");
   const groupPanels = document.querySelectorAll<HTMLElement>("[data-mega-group-panel]");
 
@@ -241,19 +304,39 @@ const isNavActive = (href: string) => {
     trigger?.setAttribute("aria-expanded", "false");
   };
 
+  const closeSolutionsMega = () => {
+    solutionsMega?.classList.remove("is-open");
+    solutionsPanel?.classList.remove("is-open");
+    solutionsTrigger?.classList.remove("is-open");
+    solutionsTrigger?.setAttribute("aria-expanded", "false");
+  };
+
   trigger?.addEventListener("click", () => {
+    closeSolutionsMega();
     const isOpen = mega?.classList.toggle("is-open") ?? false;
     panel?.classList.toggle("is-open", isOpen);
     trigger.classList.toggle("is-open", isOpen);
     trigger.setAttribute("aria-expanded", String(isOpen));
   });
 
+  solutionsTrigger?.addEventListener("click", () => {
+    closeMega();
+    const isOpen = solutionsMega?.classList.toggle("is-open") ?? false;
+    solutionsPanel?.classList.toggle("is-open", isOpen);
+    solutionsTrigger.classList.toggle("is-open", isOpen);
+    solutionsTrigger.setAttribute("aria-expanded", String(isOpen));
+  });
+
   document.addEventListener("click", (event) => {
     if (mega && event.target instanceof Node && !mega.contains(event.target)) closeMega();
+    if (solutionsMega && event.target instanceof Node && !solutionsMega.contains(event.target)) closeSolutionsMega();
   });
 
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") closeMega();
+    if (event.key === "Escape") {
+      closeMega();
+      closeSolutionsMega();
+    }
   });
 
   groupTabs.forEach((tab) => {

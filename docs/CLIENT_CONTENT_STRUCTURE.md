@@ -35,8 +35,8 @@ Recommended English navigation labels:
 ```text
 Solutions
 - New Clinic
+- Replace Old Chairs
 - Clinic Renovation
-- Dealer
 - Building Materials & Furniture
   - Decoration
     - Flooring
@@ -48,32 +48,28 @@ Solutions
     - Chair
 ```
 
-Recommended URL structure:
+Actual URL structure (as implemented):
 
 ```text
 /en/solutions/
 /en/solutions/new-clinic/
+/en/solutions/clinic-upgrade/
 /en/solutions/clinic-renovation/
-/en/solutions/dealer/
 /en/solutions/building-materials-furniture/
-/en/solutions/building-materials-furniture/decoration/
-/en/solutions/building-materials-furniture/decoration/flooring/
-/en/solutions/building-materials-furniture/decoration/ceiling/
-/en/solutions/building-materials-furniture/decoration/doors-windows/
-/en/solutions/building-materials-furniture/furniture/
-/en/solutions/building-materials-furniture/furniture/reception-desk/
-/en/solutions/building-materials-furniture/furniture/sofa/
-/en/solutions/building-materials-furniture/furniture/chair/
 ```
 
 Notes:
 
-- These pages should be designed as conversion-focused landing pages.
-- `Dealer` can overlap with `Become a Dealer` under Contact Us, but the intent is different:
-  - `Solutions > Dealer`: business value proposition for distributors.
-  - `Contact Us > Become a Dealer`: lead capture / application page.
-- `Building Materials & Furniture` is a clinic-fit-out solution capability. It should be positioned within
-  `New Clinic` and `Clinic Renovation`, rather than as a separate top-level product business.
+- The homepage Solutions section renders three cards with eyebrow labels
+  PLANNING / UPGRADE / RENOVATION. These are visual labels only.
+  The real page titles are `New Clinic`, `Replace Old Chairs`, `Clinic Renovation`.
+- URL/title mismatch to be aware of: `Replace Old Chairs` lives at
+  `/en/solutions/clinic-upgrade/`, not `/replace-old-chairs/`.
+- `Building Materials & Furniture` has no page yet. Its nav entry currently
+  points to `/en/solutions/` as a temporary placeholder.
+- `Dealer` has been removed from Solutions. Distributor-facing content lives
+  under `Contact Us > Become a Dealer`, which serves a different audience
+  (distributors, not clinics).
 
 ## 3. Products
 
