@@ -1,0 +1,99 @@
+---
+import BaseLayout from "@components/layout/BaseLayout.astro";
+import Button from "@components/ui/Button.astro";
+import InquiryCta from "@components/ui/InquiryCta.astro";
+import { chairModels, type ChairTier } from "@data/products";
+import { getLanguage, languages, localizedPath } from "@lib/i18n";
+
+const tierContent = {
+  economic: {
+    title: "Economic Dental Chairs",
+    description: "Reliable core function for cost-sensitive clinics and volume projects."
+  },
+  "mid-range": {
+    title: "Mid-range Dental Chairs",
+    description: "Balanced comfort and configuration for everyday practice."
+  },
+  "high-end": {
+    title: "High-end Dental Chairs",
+    description: "Premium upholstery and implant-ready configurations."
+  }
+} as const;
+
+const tierSwitches = [
+  { tier: "economic", label: "Economic", count: 10 },
+  { tier: "mid-range", label: "Mid-range", count: 16 },
+  { tier: "high-end", label: "High-end", count: 22 }
+] as const;
+
+export function getStaticPaths() {
+  return languages.flatMap((language) =>
+    (["economic", "mid-range", "high-end"] as ChairTier[]).map((tier) => ({ params: { lang: language.code, tier } }))
+  );
+}
+
+const lang = getLanguage(Astro.params.lang);
+const tier = String(Astro.params.tier) as ChairTier;
+const content = tierContent[tier];
+
+if (!content) {
+  return Astro.redirect(localizedPath(lang, "/products/dental-chair/"));
+}
+
+const models = chairModels.filter((model) => model.chairTier === tier);
+const count = models.length;
+const inquiryHref = (model: string) =>
+  localizedPath(lang, `/contact/?message=${encodeURIComponent(`I'm interested in the ${model} dental chair.`)}`);
+---
+
+<BaseLayout title={`${content.title} — ${count} Models`} description={`${content.description} ${count} models available.`} lang={lang} pathname={Astro.url.pathname}>
+  <section class="chair-tier-hero">
+    <div class="container">
+      <nav class="chair-tier-breadcrumb" aria-label="Breadcrumb">
+        <a href={localizedPath(lang, "/products/")}>Products</a>
+        <span aria-hidden="true">/</span>
+        <a href={localizedPath(lang, "/products/dental-chair/")}>Dental Chair</a>
+        <span aria-hidden="true">/</span>
+        <span aria-current="page">{content.title.replace(" Dental Chairs", "")}</span>
+      </nav>
+      <p class="chair-tier-eyebrow">Dental Chair</p>
+      <h1>{content.title}</h1>
+      <p class="chair-tier-summary">{content.description} {count} models available.</p>
+      <Button href={localizedPath(lang, "/contact/?category=dental-chair")}>Ask for Quote</Button>
+      <nav class="tier-switch" aria-label="Dental chair tiers">
+        {tierSwitches.map((item) => (
+          <a href={localizedPath(lang, `/products/dental-chair/${item.tier}/`)} aria-current={item.tier === tier ? "page" : undefined}>
+            {item.label} <span>{item.count}</span>
+          </a>
+        ))}
+      </nav>
+    </div>
+  </section>
+
+  <section class="chair-tier-models">
+    <div class="container">
+      <div class="model-table" role="table" aria-label={`${content.title} models`}>
+        <div class="model-table-head" role="row">
+          <span role="columnheader">Model</span>
+          <span role="columnheader">Configuration</span>
+          <span role="columnheader">Actions</span>
+        </div>
+        {
+          models.map((model) => (
+            <div class="model-row" role="row">
+              <span class="model-name" role="cell">{model.model}</span>
+              {/* TODO: 待客户提供每个型号的一句话配置说明 */}
+              <span class="model-config" role="cell">—</span>
+              <span class="model-actions" role="cell">
+                {model.detailSlug && <a href={localizedPath(lang, `/products/dental-chair/${model.detailSlug}/`)}>Details</a>}
+                <a href={inquiryHref(model.model)}>Inquiry</a>
+              </span>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <InquiryCta lang={lang} title={`Request ${content.title} Details`} />
+</BaseLayout>

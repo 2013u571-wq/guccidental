@@ -10,6 +10,7 @@ export function getStaticPaths() {
 
 const lang = getLanguage(Astro.params.lang);
 const productInterest = Astro.url.searchParams.get("product") ?? Astro.url.searchParams.get("category") ?? "";
+const message = Astro.url.searchParams.get("message") ?? "";
 ---
 
 <BaseLayout title="Contact Us" description="Send a Guccidental product, dealer, service, or clinic project inquiry." lang={lang} pathname={Astro.url.pathname}>
@@ -23,7 +24,7 @@ const productInterest = Astro.url.searchParams.get("product") ?? Astro.url.searc
   <section class="section-band bg-white">
     <div class="container grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
       <SectionHeader title="Inquiry Form UI" summary="Fields match the approved short inquiry structure: name, email, WhatsApp / phone, country, product interest, and message." />
-      <InquiryForm productInterest={productInterest} />
+      <InquiryForm productInterest={productInterest} message={message} />
     </div>
   </section>
 </BaseLayout>

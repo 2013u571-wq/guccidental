@@ -3,10 +3,11 @@ import { categories, products } from "@data/products";
 
 type Props = {
   productInterest?: string;
+  message?: string;
   formType?: "general" | "product" | "dealer" | "service";
 };
 
-const { productInterest = "", formType = "general" } = Astro.props;
+const { productInterest = "", message = "", formType = "general" } = Astro.props;
 const fieldClass =
   "mt-2 h-12 w-full rounded-control border border-surface-border bg-white px-3 text-body-sm text-ink-primary transition placeholder:text-ink-muted focus:border-brand-blue";
 const textareaClass =
@@ -47,7 +48,7 @@ const textareaClass =
         name="message"
         required
         placeholder="Tell us your required models, quantity, target market, clinic project, or distributor needs."
-      ></textarea>
+      >{message}</textarea>
     </label>
   </div>
   <div class="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">

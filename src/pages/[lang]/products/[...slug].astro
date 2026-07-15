@@ -48,7 +48,7 @@ const isDentalChair = category.slug === "dental-chair";
           isDentalChair && (
             <div class="flex flex-wrap gap-2">
               {["economic", "mid-range", "high-end"].map((tier) => (
-                <a href={`#${tier}`} class="rounded-control border border-surface-border px-3 py-2 text-caption-md text-ink-secondary hover:border-brand-blue hover:text-brand-blue">
+                <a href={localizedPath(lang, `/products/dental-chair/${tier}/`)} class="rounded-control border border-surface-border px-3 py-2 text-caption-md text-ink-secondary hover:border-brand-blue hover:text-brand-blue">
                   {tier}
                 </a>
               ))}
@@ -89,4 +89,19 @@ const isDentalChair = category.slug === "dental-chair";
   </section>
 
   <InquiryCta lang={lang} title={`Request ${category.title} Product Details`} />
+
+  {
+    isDentalChair && (
+      <script>
+        const tier = new URLSearchParams(window.location.search).get("tier");
+        const tierPath = {
+          economic: "/en/products/dental-chair/economic/",
+          "mid-range": "/en/products/dental-chair/mid-range/",
+          "high-end": "/en/products/dental-chair/high-end/"
+        }[tier ?? ""];
+
+        if (tierPath) window.location.replace(tierPath);
+      </script>
+    )
+  }
 </BaseLayout>

@@ -21,6 +21,14 @@ export type Product = {
   faq: { question: string; answer: string }[];
 };
 
+export type ChairTier = "economic" | "mid-range" | "high-end";
+
+export type ChairModel = {
+  model: string;
+  chairTier: ChairTier;
+  detailSlug?: string;
+};
+
 export const categories: Category[] = [
   {
     slug: "dental-chair",
@@ -157,6 +165,58 @@ export const products: Product[] = [
       { question: "Can cabinets be packaged with dental chairs?", answer: "Yes. Dental cabinets can be planned as part of clinic setup solutions." }
     ]
   }
+];
+
+// The tier pages use this complete model index. Configuration copy will be added when supplied by the client.
+export const chairModels: ChairModel[] = [
+  { model: "H3", chairTier: "economic" },
+  { model: "H5", chairTier: "economic", detailSlug: "h5" },
+  { model: "QL2024", chairTier: "economic" },
+  { model: "QL2028 (2019)", chairTier: "economic" },
+  { model: "QL2028 I", chairTier: "economic" },
+  { model: "BZ636", chairTier: "economic" },
+  { model: "B6", chairTier: "economic" },
+  { model: "TJ2028 Comfort", chairTier: "economic" },
+  { model: "TJ2688 A1", chairTier: "economic" },
+  { model: "TJ-SA1", chairTier: "economic" },
+  { model: "P2", chairTier: "mid-range" },
+  { model: "P3", chairTier: "mid-range" },
+  { model: "P6", chairTier: "mid-range", detailSlug: "p6" },
+  { model: "G3", chairTier: "mid-range" },
+  { model: "G7", chairTier: "mid-range" },
+  { model: "QL-2028IV", chairTier: "mid-range" },
+  { model: "TJ2028I Elite", chairTier: "mid-range" },
+  { model: "TJ2028II Prime", chairTier: "mid-range" },
+  { model: "V2 Pro", chairTier: "mid-range" },
+  { model: "S610", chairTier: "mid-range" },
+  { model: "S620", chairTier: "mid-range" },
+  { model: "S630", chairTier: "mid-range" },
+  { model: "S640", chairTier: "mid-range" },
+  { model: "S650", chairTier: "mid-range" },
+  { model: "S660", chairTier: "mid-range" },
+  { model: "S690", chairTier: "mid-range" },
+  { model: "G1", chairTier: "high-end" },
+  { model: "G5", chairTier: "high-end" },
+  { model: "G5 Implant", chairTier: "high-end", detailSlug: "g5-implant" },
+  { model: "S670", chairTier: "high-end" },
+  { model: "S680", chairTier: "high-end" },
+  { model: "SL8500 without box A", chairTier: "high-end" },
+  { model: "SL8500 without box B", chairTier: "high-end" },
+  { model: "SL8500 Standard A", chairTier: "high-end" },
+  { model: "SL8500 Standard B", chairTier: "high-end" },
+  { model: "SL8500 B", chairTier: "high-end" },
+  { model: "B100L Premium", chairTier: "high-end" },
+  { model: "B100L Ultra", chairTier: "high-end" },
+  { model: "B100L Galaxy", chairTier: "high-end" },
+  { model: "M100(L)", chairTier: "high-end" },
+  { model: "M200(L)", chairTier: "high-end" },
+  { model: "V3 Implant", chairTier: "high-end" },
+  { model: "V3 Luxury", chairTier: "high-end" },
+  { model: "V3-Black", chairTier: "high-end" },
+  { model: "A6800", chairTier: "high-end" },
+  { model: "YD-S6", chairTier: "high-end" },
+  { model: "YD-S6 Implant", chairTier: "high-end" },
+  { model: "TJ-70", chairTier: "high-end" }
 ];
 
 export function getCategory(slug: string) {
