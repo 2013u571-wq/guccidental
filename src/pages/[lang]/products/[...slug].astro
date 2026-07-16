@@ -36,15 +36,15 @@ type ChairShowcaseItem = {
 };
 
 const chairShowcase: ChairShowcaseItem[] = [
-  { model: "H5", tier: "economic", description: "Reliable core function for practical, value-focused treatment rooms.", image: "/images/products/dental-chair/h5.webp", alt: "H5 economic dental chair with teal upholstery", detailPath: "/products/dental-chair/h5/" },
-  { model: "P6", tier: "economic", description: "A versatile daily-treatment unit for efficient clinic upgrades.", image: "/images/products/dental-chair/p6.webp", alt: "P6 economic dental chair with charcoal upholstery", detailPath: "/products/dental-chair/p6/" },
+  { model: "B100 Ultra", tier: "high-end", description: "Premium chair platform for advanced treatment and patient comfort.", image: "/images/products/dental-chair/b100-ultra.webp", alt: "B100 Ultra high-end dental chair with green upholstery", detailPath: "/products/dental-chair/high-end/b100-ultra/" },
+  // TODO: Add a dedicated product detail page for V3.
+  { model: "V3", tier: "high-end", description: "High-end configuration for modern clinics and demanding daily workloads.", image: "/images/products/dental-chair/v3.webp", alt: "V3 high-end dental chair with black upholstery" },
   // TODO: Add a dedicated product detail page for G7.
   { model: "G7", tier: "mid-range", description: "Balanced chairside configuration for comfortable everyday dentistry.", image: "/images/products/dental-chair/g7.webp", alt: "G7 mid-range dental chair with navy upholstery and blue treatment module" },
   // TODO: Add a dedicated product detail page for S620.
   { model: "S620", tier: "mid-range", description: "Flexible treatment-room equipment with a streamlined workflow.", image: "/images/products/dental-chair/s620.webp", alt: "S620 mid-range dental chair with blue upholstery" },
-  { model: "B100 Ultra", tier: "high-end", description: "Premium chair platform for advanced treatment and patient comfort.", image: "/images/products/dental-chair/b100-ultra.webp", alt: "B100 Ultra high-end dental chair with green upholstery", detailPath: "/products/dental-chair/high-end/b100-ultra/" },
-  // TODO: Add a dedicated product detail page for V3.
-  { model: "V3", tier: "high-end", description: "High-end configuration for modern clinics and demanding daily workloads.", image: "/images/products/dental-chair/v3.webp", alt: "V3 high-end dental chair with black upholstery" }
+  { model: "H5", tier: "economic", description: "Reliable core function for practical, value-focused treatment rooms.", image: "/images/products/dental-chair/h5.webp", alt: "H5 economic dental chair with teal upholstery", detailPath: "/products/dental-chair/h5/" },
+  { model: "P6", tier: "economic", description: "A versatile daily-treatment unit for efficient clinic upgrades.", image: "/images/products/dental-chair/p6.webp", alt: "P6 economic dental chair with charcoal upholstery", detailPath: "/products/dental-chair/p6/" }
 ];
 
 const chairFaqs = [
@@ -133,8 +133,8 @@ const partnerTiles = [
         {
           isDentalChair && (
             <div class="flex flex-wrap gap-2">
-              {["economic", "mid-range", "high-end"].map((tier) => (
-                <a id={tier === "economic" ? "chair-tiers" : undefined} href={localizedPath(lang, `/products/dental-chair/${tier}/`)} class="rounded-control border border-surface-border px-3 py-2 text-caption-md text-ink-secondary hover:border-brand-blue hover:text-brand-blue">
+              {["high-end", "mid-range", "economic"].map((tier) => (
+                <a id={tier === "high-end" ? "chair-tiers" : undefined} href={localizedPath(lang, `/products/dental-chair/${tier}/`)} class="rounded-control border border-surface-border px-3 py-2 text-caption-md text-ink-secondary hover:border-brand-blue hover:text-brand-blue">
                   {tier.replace(/\b\w/g, (letter) => letter.toUpperCase())}
                 </a>
               ))}
