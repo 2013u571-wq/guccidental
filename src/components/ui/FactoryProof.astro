@@ -1,0 +1,51 @@
+---
+import SectionHeader from "@components/ui/SectionHeader.astro";
+
+type Props = {
+  detailed?: boolean;
+};
+
+const { detailed = false } = Astro.props;
+const proofPoints = [
+  { icon: "factory", title: "Factory-Direct Coordination", description: "Work directly with the factory — no trading-company markup or delayed handoffs.", proof: "One point of contact, end to end" },
+  { icon: "settings", title: "OEM / ODM Packages", description: "Custom logos, upholstery colors, and equipment configurations for qualifying volumes.", proof: "Your brand, your specification" },
+  { icon: "document", title: "Export Documentation", description: "CE / ISO documents, packing lists, and customs paperwork prepared for shipment.", proof: "CE · ISO · full export set" }
+];
+---
+
+<section class="section-band bg-surface-soft">
+  <div class="container">
+    {
+      detailed ? (
+        <>
+          <div class="chair-proof-header">
+            <SectionHeader eyebrow="Why choose Guccidental" title="Why clinics buy direct from Guccidental" summary="One factory, one point of contact — from model selection through export documentation and installation." titleClass="section-title" />
+          </div>
+          <div class="chair-proof-grid">
+            {proofPoints.map((point) => (
+              <article class="chair-proof-card">
+                <span class="chair-proof-icon-wrap">
+                  <svg class="chair-proof-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    {point.icon === "factory" && <><path d="M3 21V9l6 3V9l6 3V5l6 3v13" /><path d="M3 21h18" /><path d="M7 17h2M14 17h2" /></>}
+                    {point.icon === "settings" && <><circle cx="12" cy="12" r="3" /><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.88l.06.06-2.12 2.12-.06-.06a1.7 1.7 0 0 0-1.88-.34 1.7 1.7 0 0 0-1.04 1.56V20h-3v-.08a1.7 1.7 0 0 0-1.04-1.56A1.7 1.7 0 0 0 8.78 19l-.06.06L6.6 16.94l.06-.06A1.7 1.7 0 0 0 7 15a1.7 1.7 0 0 0-1.56-1.04H5v-3h.08A1.7 1.7 0 0 0 6.64 9.9 1.7 1.7 0 0 0 6.3 8l-.06-.06 2.12-2.12.06.06A1.7 1.7 0 0 0 10.3 6.2 1.7 1.7 0 0 0 11.34 4.64V4h3v.64A1.7 1.7 0 0 0 15.38 6.2a1.7 1.7 0 0 0 1.88-.34l.06-.06 2.12 2.12-.06.06A1.7 1.7 0 0 0 19.04 9.9 1.7 1.7 0 0 0 19.4 15Z" /></>}
+                    {point.icon === "document" && <><path d="M6 3h9l3 3v15H6z" /><path d="M15 3v4h4M9 12h6M9 16h6" /></>}
+                  </svg>
+                </span>
+                <h3>{point.title}</h3>
+                <p>{point.description}</p>
+                <div class="chair-proof-line"><span aria-hidden="true"></span>{point.proof}</div>
+              </article>
+            ))}
+          </div>
+        </>
+      ) : (
+        <div class="grid gap-8 lg:grid-cols-3">
+          <SectionHeader eyebrow="Why choose Guccidental" title="Why clinics buy direct from Guccidental" summary="One factory, one point of contact — from model selection through export documentation and installation." />
+          <div class="grid gap-5 lg:col-span-2 md:grid-cols-3">
+            {["Factory direct coordination", "OEM / ODM package support", "Export documentation workflow"].map((item) => <div class="rounded-card border border-surface-border bg-white p-6 text-heading-md shadow-card">{item}</div>)}
+          </div>
+        </div>
+      )
+    }
+  </div>
+</section>

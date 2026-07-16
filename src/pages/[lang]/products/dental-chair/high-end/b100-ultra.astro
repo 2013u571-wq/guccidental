@@ -1,0 +1,227 @@
+---
+import BaseLayout from "@components/layout/BaseLayout.astro";
+import InquiryCta from "@components/ui/InquiryCta.astro";
+import { getLanguage, languages, localizedPath } from "@lib/i18n";
+
+export function getStaticPaths() {
+  return languages.map((language) => ({ params: { lang: language.code } }));
+}
+
+const lang = getLanguage(Astro.params.lang);
+const b100Message = "I'm interested in the B100 Ultra dental chair.";
+const inquiryHref = localizedPath(lang, `/contact/?message=${encodeURIComponent(b100Message)}`);
+const contactHref = localizedPath(lang, "/contact/");
+const tierHref = localizedPath(lang, "/products/dental-chair/high-end/");
+---
+
+<BaseLayout
+  title="B100 Ultra Dental Chair"
+  description="B100 Ultra high-end dental chair product details. Product specifications, images, and documentation will be added after client confirmation."
+  lang={lang}
+  pathname={Astro.url.pathname}
+>
+  <!-- FILL: B100 Ultra 面包屑 — 当前层级已确认。 -->
+  <nav class="b100-breadcrumb" aria-label="Breadcrumb">
+    <div class="container">
+      <ol>
+        <li><a href={localizedPath(lang, "/products/")}>Products</a></li>
+        <li><a href={localizedPath(lang, "/products/dental-chair/")}>Dental Chair</a></li>
+        <li><a href={tierHref}>High-end</a></li>
+        <li aria-current="page">B100 Ultra</li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- FILL: B100 Ultra 产品图库、型号卖点和快速参数 — 待客户资料填入。图库路径预留 /public/images/products/dental-chair/b100-ultra/ -->
+  <section class="b100-product-hero">
+    <div class="container b100-hero-layout">
+      <div class="b100-gallery" data-gallery>
+        <div class="b100-placeholder b100-gallery-main" data-gallery-main>[ B100 Ultra — front 3/4 view ]</div>
+        <div class="b100-gallery-thumbs" aria-label="B100 Ultra image gallery">
+          <button class="b100-placeholder b100-thumb is-active" type="button" data-gallery-label="front 3/4 view">Front</button>
+          <button class="b100-placeholder b100-thumb" type="button" data-gallery-label="side view">Side</button>
+          <button class="b100-placeholder b100-thumb" type="button" data-gallery-label="cuspidor detail">Cuspidor</button>
+          <button class="b100-placeholder b100-thumb" type="button" data-gallery-label="control console">Console</button>
+          <button class="b100-placeholder b100-thumb" type="button" data-gallery-label="installed operatory">Install</button>
+        </div>
+      </div>
+
+      <div class="b100-hero-copy">
+        <span class="b100-tier-badge">High-end Series</span>
+        <h1>B100 Ultra Dental Chair</h1>
+        <p class="b100-product-model">Model: <strong>B100 Ultra</strong> · Category: Dental Chair · Tier: High-end</p>
+        <p class="b100-tagline">[ Example positioning statement — B100 Ultra configuration and clinical benefits pending client confirmation. ]</p>
+
+        <div class="b100-quick-specs">
+          <div><span>Chair positions</span><strong>[ Pending ]</strong></div>
+          <div><span>Operating light</span><strong>[ Pending ]</strong></div>
+          <div><span>Upholstery</span><strong>[ Pending ]</strong></div>
+          <div><span>Warranty</span><strong>[ Pending client confirmation ]</strong></div>
+        </div>
+
+        <div class="b100-hero-actions">
+          <a class="b100-btn b100-btn-primary" href={inquiryHref}>Send Inquiry</a>
+          <a class="b100-btn b100-btn-secondary" href="#downloads">Download Datasheet</a>
+        </div>
+
+        <div class="b100-trust-mini" aria-label="Product trust highlights">
+          <span><i></i>[ Certification pending ]</span>
+          <span><i></i>[ Documentation pending ]</span>
+          <span><i></i>[ Factory-direct note pending ]</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILL: B100 Ultra 核心卖点 — 待客户资料填入。 -->
+  <section class="b100-points-band">
+    <div class="container">
+      <span class="b100-eyebrow">Key selling points</span>
+      <h2>Why clinics choose the B100 Ultra</h2>
+      <div class="b100-points-grid">
+        <article><span>01</span><h3>[ Example selling point ]</h3><p>[ Feature explanation and procurement benefit pending client confirmation. ]</p></article>
+        <article><span>02</span><h3>[ Example selling point ]</h3><p>[ Feature explanation and procurement benefit pending client confirmation. ]</p></article>
+        <article><span>03</span><h3>[ Example selling point ]</h3><p>[ Feature explanation and procurement benefit pending client confirmation. ]</p></article>
+        <article><span>04</span><h3>[ Example selling point ]</h3><p>[ Feature explanation and procurement benefit pending client confirmation. ]</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILL: B100 Ultra 图文特性 — 待客户图片和资料填入。路径预留 /public/images/products/dental-chair/b100-ultra/ -->
+  <section class="b100-features-band">
+    <div class="container">
+      <span class="b100-eyebrow">Features</span>
+      <h2>Built around the daily rhythm of a busy clinic</h2>
+      <div class="b100-feature-list">
+        <article class="b100-feature-row">
+          <div class="b100-placeholder b100-feature-media">[ B100 Ultra feature image — lighting detail ]</div>
+          <div><span class="b100-eyebrow">Lighting</span><h3>[ Example feature title ]</h3><p>[ Example feature description — technical detail and clinical benefit pending client confirmation. ]</p></div>
+        </article>
+        <article class="b100-feature-row is-reverse">
+          <div class="b100-placeholder b100-feature-media">[ B100 Ultra feature image — water system ]</div>
+          <div><span class="b100-eyebrow">Water system</span><h3>[ Example feature title ]</h3><p>[ Example feature description — technical detail and clinical benefit pending client confirmation. ]</p></div>
+        </article>
+        <article class="b100-feature-row">
+          <div class="b100-placeholder b100-feature-media">[ B100 Ultra feature image — control console ]</div>
+          <div><span class="b100-eyebrow">Control</span><h3>[ Example feature title ]</h3><p>[ Example feature description — technical detail and clinical benefit pending client confirmation. ]</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILL: B100 Ultra 技术参数 — 待客户资料填入。 -->
+  <section class="b100-specs-band" id="specifications">
+    <div class="container">
+      <span class="b100-eyebrow">Technical specifications</span>
+      <h2>B100 Ultra full specification sheet</h2>
+      <div class="b100-specs-wrap">
+        <table class="b100-specs-table">
+          <tbody>
+            <tr><td>Model</td><td>B100 Ultra</td></tr>
+            <tr><td>Tier</td><td>High-end</td></tr>
+            <tr><td>Overall dimensions</td><td>[ Pending client specification ]</td></tr>
+            <tr><td>Chair positions</td><td>[ Pending client specification ]</td></tr>
+            <tr><td>Motor type</td><td>[ Pending client specification ]</td></tr>
+            <tr><td>Footswitch</td><td>[ Pending client specification ]</td></tr>
+            <tr><td>Operating light</td><td>[ Pending client specification ]</td></tr>
+            <tr><td>Cuspidor and water system</td><td>[ Pending client specification ]</td></tr>
+            <tr><td>Upholstery</td><td>[ Pending client specification ]</td></tr>
+            <tr><td>Power supply</td><td>[ Pending client specification ]</td></tr>
+            <tr><td>Certifications</td><td>[ Pending client confirmation ]</td></tr>
+            <tr><td>Warranty</td><td>[ Pending client confirmation ]</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILL: B100 Ultra 应用场景 — 待客户图片和资料填入。 -->
+  <section class="b100-applications-band">
+    <div class="container">
+      <span class="b100-eyebrow">Applications</span>
+      <h2>Suited for these clinic types</h2>
+      <div class="b100-app-grid">
+        <article><div class="b100-placeholder b100-app-media">[ Private practice photo ]</div><div><h3>[ Application type ]</h3><p>[ Example application description pending client confirmation. ]</p></div></article>
+        <article><div class="b100-placeholder b100-app-media">[ Group clinic photo ]</div><div><h3>[ Application type ]</h3><p>[ Example application description pending client confirmation. ]</p></div></article>
+        <article><div class="b100-placeholder b100-app-media">[ Hospital department photo ]</div><div><h3>[ Application type ]</h3><p>[ Example application description pending client confirmation. ]</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILL: B100 Ultra 下载资料 — 待上传 catalog、manual 和 datasheet 文件。 -->
+  <section class="b100-downloads-band" id="downloads">
+    <div class="container">
+      <span class="b100-eyebrow">Downloads</span>
+      <h2>Datasheets and reference files</h2>
+      <div class="b100-downloads-grid">
+        <span><b>PDF</b><span><strong>B100 Ultra Technical Datasheet</strong><small>[ Pending upload ]</small></span></span>
+        <span><b>PDF</b><span><strong>B100 Ultra Installation Guide</strong><small>[ Pending upload ]</small></span></span>
+        <span><b>PDF</b><span><strong>Full Product Catalog</strong><small>[ Pending upload ]</small></span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILL: B100 Ultra FAQ — 待客户资料填入。 -->
+  <section class="b100-faq-band">
+    <div class="container b100-faq-layout">
+      <div><span class="b100-eyebrow">FAQ</span><h2>Questions about the B100 Ultra</h2></div>
+      <div class="b100-faq-list" data-faq-list>
+        <article><button type="button" aria-expanded="false"><span>[ Example procurement question ]</span><i>+</i></button><p>[ Example answer pending client confirmation. ]</p></article>
+        <article><button type="button" aria-expanded="false"><span>[ Example lead-time question ]</span><i>+</i></button><p>[ Example answer pending client confirmation. ]</p></article>
+        <article><button type="button" aria-expanded="false"><span>[ Example installation question ]</span><i>+</i></button><p>[ Example answer pending client confirmation. ]</p></article>
+        <article><button type="button" aria-expanded="false"><span>[ Example configuration question ]</span><i>+</i></button><p>[ Example answer pending client confirmation. ]</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILL: B100 Ultra 相关型号 — G5 Implant 详情页已存在；SL8500 和 V3 详情页待建。 -->
+  <section class="b100-related-band">
+    <div class="container">
+      <span class="b100-eyebrow">Related products</span>
+      <h2>Other high-end dental chairs</h2>
+      <div class="b100-related-grid">
+        <a href={localizedPath(lang, "/products/dental-chair/g5-implant/")}><span class="b100-placeholder">[ G5 Implant ]</span><span><small>High-end</small><strong>G5 Implant</strong><em>Dental Chair</em></span></a>
+        <!-- TODO: SL8500 detail page is pending; link to the High-end tier meanwhile. -->
+        <a href={tierHref}><span class="b100-placeholder">[ SL8500 ]</span><span><small>High-end</small><strong>SL8500</strong><em>Dental Chair</em></span></a>
+        <!-- TODO: V3 detail page is pending; link to the High-end tier meanwhile. -->
+        <a href={tierHref}><span class="b100-placeholder">[ V3 ]</span><span><small>High-end</small><strong>V3</strong><em>Dental Chair</em></span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILL: B100 Ultra 最终询盘引导 — 复用项目现有询盘组件，并预填型号名称。 -->
+  <InquiryCta contactHref={contactHref} message={b100Message} />
+
+  <script>
+    document.querySelectorAll("[data-gallery]").forEach((gallery) => {
+      const main = gallery.querySelector("[data-gallery-main]");
+      const thumbs = gallery.querySelectorAll("[data-gallery-label]");
+      if (!main || !thumbs.length) return;
+      thumbs.forEach((thumb) => {
+        thumb.addEventListener("click", () => {
+          thumbs.forEach((item) => item.classList.remove("is-active"));
+          thumb.classList.add("is-active");
+          main.textContent = `[ B100 Ultra — ${thumb.getAttribute("data-gallery-label") ?? "view"} ]`;
+        });
+      });
+    });
+
+    document.querySelectorAll("[data-faq-list]").forEach((list) => {
+      list.querySelectorAll("article").forEach((item) => {
+        const button = item.querySelector("button");
+        if (!button) return;
+        button.addEventListener("click", () => {
+          const willOpen = !item.classList.contains("is-open");
+          list.querySelectorAll("article.is-open").forEach((openItem) => {
+            openItem.classList.remove("is-open");
+            openItem.querySelector("button")?.setAttribute("aria-expanded", "false");
+          });
+          if (willOpen) {
+            item.classList.add("is-open");
+            button.setAttribute("aria-expanded", "true");
+          }
+        });
+      });
+    });
+  </script>
+</BaseLayout>

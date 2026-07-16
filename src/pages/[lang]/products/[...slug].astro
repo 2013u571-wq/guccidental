@@ -2,6 +2,7 @@
 import BaseLayout from "@components/layout/BaseLayout.astro";
 import Button from "@components/ui/Button.astro";
 import InquiryCta from "@components/ui/InquiryCta.astro";
+import FactoryProof from "@components/ui/FactoryProof.astro";
 import ProductCard from "@components/ui/ProductCard.astro";
 import SectionHeader from "@components/ui/SectionHeader.astro";
 import { categories, getCategory, getProductsByCategory } from "@data/products";
@@ -25,70 +26,289 @@ if (!category) {
 
 const categoryProducts = getProductsByCategory(category.slug);
 const isDentalChair = category.slug === "dental-chair";
+type ChairShowcaseItem = {
+  model: string;
+  tier: "economic" | "mid-range" | "high-end";
+  description: string;
+  image: string;
+  alt: string;
+  detailPath?: string;
+};
+
+const chairShowcase: ChairShowcaseItem[] = [
+  { model: "H5", tier: "economic", description: "Reliable core function for practical, value-focused treatment rooms.", image: "/images/products/dental-chair/h5.webp", alt: "H5 economic dental chair with teal upholstery", detailPath: "/products/dental-chair/h5/" },
+  { model: "P6", tier: "economic", description: "A versatile daily-treatment unit for efficient clinic upgrades.", image: "/images/products/dental-chair/p6.webp", alt: "P6 economic dental chair with charcoal upholstery", detailPath: "/products/dental-chair/p6/" },
+  // TODO: Add a dedicated product detail page for G7.
+  { model: "G7", tier: "mid-range", description: "Balanced chairside configuration for comfortable everyday dentistry.", image: "/images/products/dental-chair/g7.webp", alt: "G7 mid-range dental chair with navy upholstery and blue treatment module" },
+  // TODO: Add a dedicated product detail page for S620.
+  { model: "S620", tier: "mid-range", description: "Flexible treatment-room equipment with a streamlined workflow.", image: "/images/products/dental-chair/s620.webp", alt: "S620 mid-range dental chair with blue upholstery" },
+  { model: "B100 Ultra", tier: "high-end", description: "Premium chair platform for advanced treatment and patient comfort.", image: "/images/products/dental-chair/b100-ultra.webp", alt: "B100 Ultra high-end dental chair with green upholstery", detailPath: "/products/dental-chair/high-end/b100-ultra/" },
+  // TODO: Add a dedicated product detail page for V3.
+  { model: "V3", tier: "high-end", description: "High-end configuration for modern clinics and demanding daily workloads.", image: "/images/products/dental-chair/v3.webp", alt: "V3 high-end dental chair with black upholstery" }
+];
+
+const chairFaqs = [
+  ["What is your minimum order quantity (MOQ)?", "Our standard MOQ for dental chairs is 2 units."],
+  ["What warranty coverage comes with your dental chairs?", "Our dental chairs carry a 2-year warranty. After the warranty expires, we continue to supply original spare parts and professional after-sales technical support at cost."],
+  ["Can you supply complete export customs documents?", "Absolutely. We prepare full sets of export paperwork including CE, FDA & ISO certification, packing lists, commercial invoices and all shipping documents required for customs clearance."],
+  ["Can I visit your factory for inspection or place a sample order first?", "Yes, both on-site factory visits and virtual video factory tours are available. Sample orders are welcome before a bulk order."],
+  ["How long is your standard production lead time?", "Standard production lead time takes 10–15 working days after order confirmation. Shipping time varies based on destination and method of transportation, and will be quoted separately in your formal offer."],
+  ["Do you support OEM manufacturing and custom branding?", "Yes, customization services are available for qualifying volumes: custom brand logos, upholstery leather colors and personalized equipment configurations can all be tailored to your requirements."],
+  ["Which global markets do you deliver dental chairs to?", "We ship to more than 130 countries worldwide, and offer flexible door-to-door delivery logistics solutions."],
+  ["What payment terms do you accept?", "Accepted terms include T/T, L/C, Credit Card, PayPal, Western Union, MoneyGram and cash. A 30% deposit starts production, with the 70% balance due before shipment."]
+] as const;
+
+const partnerTiles = [
+  { type: "region", label: "European Partners" },
+  { type: "partner", country: "Italy", flag: "🇮🇹", img: "/images/partners/european/Italy.webp" },
+  { type: "partner", country: "Georgia", flag: "🇬🇪", img: "/images/partners/european/Georgia.webp" },
+  { type: "partner", country: "Romania", flag: "🇷🇴", img: "/images/partners/european/Romania.webp" },
+  { type: "partner", country: "France", flag: "🇫🇷", img: "/images/partners/european/France.webp" },
+  { type: "partner", country: "America", flag: "🇺🇸", img: "/images/partners/americas/America.webp" },
+  { type: "partner", country: "Canada", flag: "🇨🇦", img: "/images/partners/americas/Canada.webp" },
+  { type: "partner", country: "Mexico", flag: "🇲🇽", img: "/images/partners/americas/Mexico.webp" },
+  { type: "partner", country: "Venezuela", flag: "🇻🇪", img: "/images/partners/americas/Venezuela.webp" },
+  { type: "region", label: "Americas Partners" },
+  { type: "partner", country: "Indonesia", flag: "🇮🇩", img: "/images/partners/southeast-asia/Indonesia-1.webp" },
+  { type: "region", label: "Southeast Asia" },
+  { type: "partner", country: "Malaysia", flag: "🇲🇾", img: "/images/partners/southeast-asia/Malaysia.webp" },
+  { type: "partner", country: "Nepal", flag: "🇳🇵", img: "/images/partners/southeast-asia/Nepal.webp" },
+  { type: "partner", country: "Philippines", flag: "🇵🇭", img: "/images/partners/southeast-asia/Philippines.webp" },
+  { type: "partner", country: "Botswana", flag: "🇧🇼", img: "/images/partners/african/Botswana.webp" },
+  { type: "region", label: "African Partners" },
+  { type: "partner", country: "Cameroon", flag: "🇨🇲", img: "/images/partners/african/Cameroon.webp" },
+  { type: "partner", country: "Ethiopia", flag: "🇪🇹", img: "/images/partners/african/Ethiopia.webp" },
+  { type: "partner", country: "Mauritius", flag: "🇲🇺", img: "/images/partners/african/Mauritius.webp" },
+  { type: "partner", country: "Nigeria", flag: "🇳🇬", img: "/images/partners/african/Nigeria.webp" },
+  { type: "partner", country: "Russia", flag: "🇷🇺", img: "/images/partners/european/Russia.webp" },
+  { type: "closing" }
+] as const;
 ---
 
 <BaseLayout title={category.title} description={category.summary} lang={lang} pathname={Astro.url.pathname}>
-  <section class="bg-surface-soft">
-    <div class="container py-16 md:py-22">
-      <p class="mb-4 text-caption-sm uppercase tracking-[0.12em] text-brand-blue">Product category</p>
-      <h1 class="max-w-4xl text-[34px] font-light leading-tight md:text-display-lg">{category.title}</h1>
-      <p class="mt-5 max-w-3xl text-body-md text-ink-secondary">{category.summary}</p>
-      <div class="mt-8 flex flex-wrap gap-4">
-        <Button href="#products">View Products</Button>
-        <Button href={localizedPath(lang, `/contact/?category=${category.slug}`)} variant="secondary">Ask for Quote</Button>
-      </div>
-    </div>
+  <section class:list={[isDentalChair ? "chair-hero" : "bg-surface-soft"]}>
+    {
+      isDentalChair ? (
+        <>
+          <div class="container chair-hero-inner">
+            <div class="chair-hero-copy">
+              <p class="chair-hero-eyebrow">Dental Chair</p>
+              <h1>Built in Foshan, trusted in 130 countries.</h1>
+              <p class="chair-hero-lead">Factory-direct dental chair units — economic to implant-ready — shipped to clinics on five continents.</p>
+              <div class="chair-hero-actions">
+                <a class="chair-hero-button chair-hero-button-primary" href={localizedPath(lang, `/contact/?category=${category.slug}`)}>Ask for Quote <span aria-hidden="true">→</span></a>
+                <a class="chair-hero-button chair-hero-button-secondary" href="#products">Browse 48 models</a>
+              </div>
+            </div>
+            <div class="chair-hero-media">
+              <img src="/images/products/dental-chair/hero-chair.webp" alt="Guccidental B100 Ultra dental chair unit" width="1200" height="1070" decoding="async" />
+            </div>
+          </div>
+          <div class="container chair-hero-stats" aria-label="Dental chair service highlights">
+            {/* TODO: Confirm chair-hero-stats figures with the client before publication. */}
+            <div class="chair-hero-stat"><p class="num">130+</p><p class="label">Countries served</p></div>
+            <div class="chair-hero-stat"><p class="num">36,000+</p><p class="label">Chairs per year</p></div>
+            <div class="chair-hero-stat"><p class="num">100,000+</p><p class="label">Clinics served</p></div>
+            <div class="chair-hero-stat"><p class="num">2-Year</p><p class="label">Warranty</p></div>
+          </div>
+        </>
+      ) : (
+        <div class="container py-16 md:py-22">
+          <p class="mb-4 text-caption-sm uppercase tracking-[0.12em] text-brand-blue">Product category</p>
+          <h1 class="max-w-4xl text-[34px] font-light leading-tight md:text-display-lg">{category.title}</h1>
+          <p class="mt-5 max-w-3xl text-body-md text-ink-secondary">{category.summary}</p>
+          <div class="mt-8 flex flex-wrap gap-4">
+            <Button href="#products">View Products</Button>
+            <Button href={localizedPath(lang, `/contact/?category=${category.slug}`)} variant="secondary">Ask for Quote</Button>
+          </div>
+        </div>
+      )
+    }
   </section>
 
   <section class="section-band bg-white" id="products">
     <div class="container">
       <div class="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
-        <SectionHeader title={`${category.title} Products`} summary="Product cards prioritize model, market position, short selling point, and inquiry action." />
+        <SectionHeader title={`${category.title} Products`} summary={isDentalChair ? "Six representative models across three tiers. Browse all 48 in the full catalog." : "Browse available models and request a tailored product recommendation."} titleClass={isDentalChair ? "section-title" : undefined} />
         {
           isDentalChair && (
             <div class="flex flex-wrap gap-2">
               {["economic", "mid-range", "high-end"].map((tier) => (
-                <a href={localizedPath(lang, `/products/dental-chair/${tier}/`)} class="rounded-control border border-surface-border px-3 py-2 text-caption-md text-ink-secondary hover:border-brand-blue hover:text-brand-blue">
-                  {tier}
+                <a id={tier === "economic" ? "chair-tiers" : undefined} href={localizedPath(lang, `/products/dental-chair/${tier}/`)} class="rounded-control border border-surface-border px-3 py-2 text-caption-md text-ink-secondary hover:border-brand-blue hover:text-brand-blue">
+                  {tier.replace(/\b\w/g, (letter) => letter.toUpperCase())}
                 </a>
               ))}
             </div>
           )
         }
       </div>
-      <div class="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-        {categoryProducts.length > 0 ? categoryProducts.map((product) => <ProductCard product={product} lang={lang} />) : <p class="text-body-md text-ink-secondary">Product entries are ready to be connected from Sanity for this category.</p>}
-      </div>
+      {
+        isDentalChair ? (
+          <>
+            <div class="chair-grid mt-10">
+              {chairShowcase.map((chair) => (
+                <article class="chair-card">
+                  <div class="chair-card-media">
+                    <img src={chair.image} alt={chair.alt} width="1200" height="900" loading="lazy" decoding="async" />
+                  </div>
+                  <div class="chair-card-content">
+                    <p class="chair-card-tier">{chair.tier}</p>
+                    <h3>{chair.model}</h3>
+                    <p>{chair.description}</p>
+                    <div class="chair-card-actions">
+                      <Button href={localizedPath(lang, chair.detailPath ?? `/products/dental-chair/${chair.tier}/`)} size="md">View Details</Button>
+                      <Button href={localizedPath(lang, `/contact/?message=${encodeURIComponent(`I'm interested in the ${chair.model} dental chair.`)}`)} variant="secondary" size="md">Inquiry</Button>
+                    </div>
+                  </div>
+                </article>
+              ))}
+            </div>
+            <a class="browse-all-bar" href={localizedPath(lang, "/products/dental-chair/economic/")}>
+              <span>Looking for a specific model? <strong>Browse all 48 dental chairs</strong></span>
+              <span class="arrow" aria-hidden="true">→</span>
+            </a>
+          </>
+        ) : categoryProducts.length > 0 ? <div class="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">{categoryProducts.map((product) => <ProductCard product={product} lang={lang} />)}</div> : <p class="mt-10 text-body-md text-ink-secondary">Product entries are ready to be connected from Sanity for this category.</p>
+      }
     </div>
   </section>
 
-  <section class="section-band bg-surface-soft">
-    <div class="container grid gap-8 lg:grid-cols-3">
-      <SectionHeader eyebrow="Why choose Guccidental" title="Built for SEO, Ads, and Real Procurement Questions" summary="Each category page includes the modules required by the design system: intro, product grid, factory proof, FAQ, and inquiry CTA." />
-      <div class="grid gap-5 lg:col-span-2 md:grid-cols-3">
-        {["Factory direct coordination", "OEM / ODM package support", "Export documentation workflow"].map((item) => <div class="rounded-card border border-surface-border bg-white p-6 text-heading-md shadow-card">{item}</div>)}
-      </div>
-    </div>
-  </section>
+  {
+    isDentalChair && (
+      <>
+        <section class="trust-wall partners-section">
+          <div class="tw-container">
+            <p class="tw-eyebrow">Trusted Worldwide</p>
+            <h2 class="tw-title section-title">Clinics in 130+ countries run on Guccidental.</h2>
+            <p class="tw-sub">Real partners and clinics we&apos;ve equipped across five continents.</p>
 
-  <section class="section-band bg-white">
+            <div class="partners-grid">
+              {partnerTiles.map((tile) => tile.type === "region" ? (
+                <div class="partner-region">{tile.label}</div>
+              ) : tile.type === "closing" ? (
+                <div class="partner-closing">
+                  <strong>+130 countries</strong>
+                  <span>and counting — see all partners →</span>
+                </div>
+              ) : (
+                <a class="partner-tile" href="#">
+                  <img class="partner-tile-img" src={tile.img} alt={`Guccidental partner clinic in ${tile.country}`} loading="lazy" decoding="async" />
+                  <span class="partner-tile-flag">{tile.flag} {tile.country}</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section class="cases">
+          <div class="container">
+            <div class="cs-head">
+              <div class="cs-headrow">
+                <div>
+                  <p class="cs-eyebrow">Customer Cases</p>
+                  <h2 class="cs-title section-title">Real clinics, delivered end to end.</h2>
+                  <p class="cs-sub">From single-chair replacements to full clinic fit-outs — clinics worldwide put Guccidental to work.</p>
+                </div>
+                <div class="cs-arrows">
+                  <button class="cs-prev" aria-label="Previous" disabled>
+                    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M15 4 7 12l8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                  </button>
+                  <button class="cs-next" aria-label="Next">
+                    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 4l8 8-8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- TODO: 案例详情页待建,先指向占位 -->
+            <div class="cs-track-wrap">
+              <div class="cs-track">
+              <a class="cs-card" href="#">
+                <span class="cs-cover has-image"><img src="/images/cases/case-mind-dental.webp" alt="mind DENTAL clinic interior with Guccidental dental equipment" width="1440" height="750" loading="lazy" decoding="async" /><span class="cs-flag">🇺🇸 USA</span></span>
+                <span class="cs-body"><span class="cs-tag">Full Clinic Setup</span><span class="cs-name">mind DENTAL</span><span class="cs-desc">Complete clinic fit-out with fully installed Guccidental treatment units.</span><span class="cs-link">View case <span class="cs-arr">→</span></span></span>
+              </a>
+              <a class="cs-card" href="#">
+                <span class="cs-cover has-image"><img src="/images/cases/case-france-teaching.webp" alt="French dental teaching center with clinical training stations" width="1152" height="864" loading="lazy" decoding="async" /><span class="cs-flag">🇫🇷 France</span></span>
+                <span class="cs-body"><span class="cs-tag">Teaching Center</span><span class="cs-name">Dental Education Facility</span><span class="cs-desc">Simulation manikins and digital demonstration systems for a French institution.</span><span class="cs-link">View case <span class="cs-arr">→</span></span></span>
+              </a>
+              <a class="cs-card" href="#">
+                <span class="cs-cover has-image"><img src="/images/cases/case-kenya-clinic.webp" alt="Kenya dental clinic planning visualization with a treatment room" width="1920" height="954" loading="lazy" decoding="async" /><span class="cs-flag">🇰🇪 Kenya</span></span>
+                <span class="cs-body"><span class="cs-tag">Clinic Planning + VR</span><span class="cs-name">Full Clinic Planning</span><span class="cs-desc">Layout design for 3 treatment rooms, CT room, sterilization and reception.</span><span class="cs-link">View case <span class="cs-arr">→</span></span></span>
+              </a>
+              <a class="cs-card" href="#">
+                <span class="cs-cover has-image"><img src="/assets/cases/case-study-dubai-smile-dental-clinic.webp" alt="Dubai Smile Dental Clinic exterior with street signage and parked cars" width="800" height="599" loading="lazy" decoding="async" /><span class="cs-flag">🇦🇪 UAE</span></span>
+                <span class="cs-body"><span class="cs-tag">Chair Replacement · Middle East</span><span class="cs-name">Upgrading 8 legacy chairs in Dubai</span><span class="cs-desc">Replaced aging chairs with matched-accessory units with no disruption to daily clinic operations.</span><span class="cs-link">View case <span class="cs-arr">→</span></span></span>
+              </a>
+              <a class="cs-card" href="#">
+                <span class="cs-cover has-image"><img src="/images/cases/case-usa-cabinet.webp" alt="Dental cabinet project with integrated clinic cabinetry and workstations" width="1440" height="631" loading="lazy" decoding="async" /><span class="cs-flag">🇺🇸 USA</span></span>
+                <span class="cs-body"><span class="cs-tag">Cabinetry</span><span class="cs-name">Dental Cabinet Project</span><span class="cs-desc">Multi-functional storage systems and integrated workstations.</span><span class="cs-link">View case <span class="cs-arr">→</span></span></span>
+              </a>
+              </div>
+            </div>
+
+            <div class="cs-progress">
+              <button class="cs-bar" type="button" aria-label="Case carousel progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span class="cs-fill"></span></button>
+              <div class="cs-count">1–3 / 5</div>
+            </div>
+          </div>
+        </section>
+      </>
+    )
+  }
+
+  <FactoryProof detailed={isDentalChair} />
+
+  <section class:list={["section-band bg-white", isDentalChair && "chair-faq-section"]}>
     <div class="container">
-      <SectionHeader eyebrow="FAQ" title={`${category.title} Questions`} />
-      <div class="mt-8 grid gap-4 md:grid-cols-2">
-        {[
-          ["Can this category support dealer supply?", "Yes. Product details, packaging, documents, and market fit can be discussed during inquiry."],
-          ["Can products be part of a clinic setup project?", "Yes. Guccidental can combine equipment and solution planning for new clinic and renovation projects."]
-        ].map(([question, answer]) => (
-          <article class="rounded-card border border-surface-border bg-white p-6">
-            <h3 class="text-heading-md">{question}</h3>
-            <p class="mt-3 text-body-sm text-ink-secondary">{answer}</p>
-          </article>
-        ))}
-      </div>
+      <SectionHeader eyebrow="FAQ" title={isDentalChair ? "Dental Chair Frequently Asked Questions" : `${category.title} Questions`} titleClass={isDentalChair ? "section-title" : undefined} />
+      {
+        isDentalChair ? (
+          <div class="chair-faq-layout">
+            <div class="chair-faq-list">
+              {chairFaqs.map(([question, answer], index) => {
+                const questionId = `chair-faq-question-${index + 1}`;
+                const answerId = `chair-faq-answer-${index + 1}`;
+                const isOpen = index === 0;
+
+                return (
+                  <article class:list={["chair-faq-item", isOpen && "open"]}>
+                    <h3>
+                      <button class="chair-faq-q" type="button" id={questionId} aria-expanded={isOpen ? "true" : "false"} aria-controls={answerId}>
+                        <span>{question}</span>
+                        <span class="chair-faq-icon" aria-hidden="true"></span>
+                      </button>
+                    </h3>
+                    <div class="chair-faq-a" id={answerId} role="region" aria-labelledby={questionId} aria-hidden={isOpen ? "false" : "true"}>
+                      <p>{answer}</p>
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
+            <aside class="chair-faq-cta" aria-label="Contact Guccidental">
+              <h3>Still have questions?</h3>
+              <p>Tell us your clinic&apos;s requirements and we&apos;ll get back within one business day.</p>
+              <Button href={localizedPath(lang, "/contact/?category=dental-chair")} class="chair-faq-cta-button">Contact us <span aria-hidden="true">→</span></Button>
+            </aside>
+          </div>
+        ) : (
+          <div class="mt-8 grid gap-4 md:grid-cols-2">
+            {[
+              ["Can this category support dealer supply?", "Yes. Product details, packaging, documents, and market fit can be discussed during inquiry."],
+              ["Can products be part of a clinic setup project?", "Yes. Guccidental can combine equipment and solution planning for new clinic and renovation projects."]
+            ].map(([question, answer]) => (
+              <article class="rounded-card border border-surface-border bg-white p-6">
+                <h3 class="text-heading-md">{question}</h3>
+                <p class="mt-3 text-body-sm text-ink-secondary">{answer}</p>
+              </article>
+            ))}
+          </div>
+        )
+      }
     </div>
   </section>
 
-  <InquiryCta lang={lang} title={`Request ${category.title} Product Details`} />
+  <InquiryCta lang={lang} title={`Request ${category.title} Product Details`} headingClass={isDentalChair ? "section-title" : undefined} />
 
   {
     isDentalChair && (
@@ -101,6 +321,60 @@ const isDentalChair = category.slug === "dental-chair";
         }[tier ?? ""];
 
         if (tierPath) window.location.replace(tierPath);
+
+        document.querySelectorAll(".cases").forEach((root) => {
+          const track = root.querySelector(".cs-track");
+          const previous = root.querySelector(".cs-prev");
+          const next = root.querySelector(".cs-next");
+          const bar = root.querySelector(".cs-bar");
+          const fill = root.querySelector(".cs-fill");
+          const count = root.querySelector(".cs-count");
+          if (!track || !previous || !next || !bar || !fill || !count || !track.children.length) return;
+
+          const total = track.children.length;
+          const step = () => track.children[0].getBoundingClientRect().width + 24;
+          const update = () => {
+            const max = Math.max(0, track.scrollWidth - track.clientWidth);
+            const x = track.scrollLeft;
+            previous.toggleAttribute("disabled", x <= 2);
+            next.toggleAttribute("disabled", x >= max - 2);
+            const per = Math.max(1, Math.floor((track.clientWidth - 63) / step()));
+            const start = Math.min(total, Math.round(x / step()) + 1);
+            const end = Math.min(total, start + per - 1);
+            count.textContent = `${start}–${end} / ${total}`;
+            const ratio = max > 0 ? x / max : 0;
+            const thumbWidth = Math.min(100, (track.clientWidth / track.scrollWidth) * 100);
+            const progress = Math.round(ratio * 100);
+            fill.setAttribute("style", `width:${thumbWidth}%;left:${ratio * (100 - thumbWidth)}%;`);
+            bar.setAttribute("aria-valuenow", String(progress));
+            bar.setAttribute("aria-valuetext", `${progress}% through customer cases`);
+          };
+
+          next.addEventListener("click", () => track.scrollBy({ left: track.clientWidth, behavior: "smooth" }));
+          previous.addEventListener("click", () => track.scrollBy({ left: -track.clientWidth, behavior: "smooth" }));
+          bar.addEventListener("click", (event) => {
+            const bounds = bar.getBoundingClientRect();
+            const pointerX = event instanceof MouseEvent ? event.clientX : bounds.left;
+            const ratio = Math.max(0, Math.min(1, (pointerX - bounds.left) / bounds.width));
+            track.scrollTo({ left: (track.scrollWidth - track.clientWidth) * ratio, behavior: "smooth" });
+          });
+          track.addEventListener("scroll", update, { passive: true });
+          window.addEventListener("resize", update);
+          update();
+        });
+
+        document.querySelectorAll(".chair-faq-item").forEach((item) => {
+          const button = item.querySelector(".chair-faq-q");
+          const answer = item.querySelector(".chair-faq-a");
+          if (!button || !answer) return;
+
+          button.addEventListener("click", () => {
+            const isOpen = !item.classList.contains("open");
+            item.classList.toggle("open", isOpen);
+            button.setAttribute("aria-expanded", String(isOpen));
+            answer.setAttribute("aria-hidden", String(!isOpen));
+          });
+        });
       </script>
     )
   }

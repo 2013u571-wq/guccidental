@@ -1,4 +1,14 @@
 ---
+type Props = {
+  contactHref?: string;
+  lang?: string;
+  message?: string;
+  summary?: string;
+  title?: string;
+  headingClass?: string;
+};
+
+const { contactHref = "/contact/", message = "", headingClass } = Astro.props;
 ---
 
 <section class="cta-section">
@@ -6,7 +16,7 @@
     <div class="cta-layout">
       <div>
         <span class="cta-eyebrow">Factory Direct Inquiry</span>
-        <h2>Tell us what your clinic needs.</h2>
+        <h2 class={headingClass}>Tell us what your clinic needs.</h2>
         <p>Send your room count, dental chair requirements, renovation scope, destination market, and budget range. We will prepare a practical one-stop clinic supply plan.</p>
         <ul class="cta-checklist">
           <li>Factory-direct pricing, no middlemen</li>
@@ -16,7 +26,7 @@
         </ul>
       </div>
 
-      <form class="cta-form" action="/contact/" method="get">
+      <form class="cta-form" action={contactHref} method="get">
         <div class="cta-form-row">
           <div class="cta-form-field">
             <label for="inq-name">Name</label>
@@ -33,7 +43,7 @@
         </div>
         <div class="cta-form-field">
           <label for="inq-message">Message</label>
-          <textarea id="inq-message" name="message" rows="3" placeholder="Describe your clinic project, room count, chair requirements..."></textarea>
+          <textarea id="inq-message" name="message" rows="3" placeholder="Describe your clinic project, room count, chair requirements...">{message}</textarea>
         </div>
         <div class="cta-form-actions">
           <label class="cta-upload-label">

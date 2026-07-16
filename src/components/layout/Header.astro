@@ -29,17 +29,43 @@ type MegaMenuLink = {
   href: string;
 };
 
-type MegaMenuGroup = {
+type MegaMenuCategory = {
   title: string;
   href: string;
-  links: MegaMenuLink[];
+  links?: MegaMenuLink[];
+};
+
+type MegaMenuGroup = {
+  title: string;
+  stageTitle?: string;
+  href?: string;
+  links?: MegaMenuLink[];
+  categories?: MegaMenuCategory[];
 };
 
 const megaGroups: MegaMenuGroup[] = [
-  { title: "Chairs & Cabinets", href: "/products/dental-chair/", links: [{ label: "Economic Series", description: "Reliable core function for cost-sensitive clinics.", href: "/products/dental-chair/economic/" }, { label: "Mid-range Series", description: "Balanced comfort and configuration for everyday practice.", href: "/products/dental-chair/mid-range/" }, { label: "High-end Series", description: "Premium upholstery and implant-ready configurations.", href: "/products/dental-chair/high-end/" }, { label: "Metal Cabinet", description: "Seamless surfaces built for strict hygiene protocols.", href: "/products/dental-cabinet/metal/" }, { label: "Wood", description: "Warm finishes for reception-facing treatment rooms.", href: "/products/dental-cabinet/wood/" }] },
-  { title: "Treatment Equipment", href: "/products/", links: [{ label: "Ultrasonic Scaler", description: "Chairside scaling with adjustable power settings.", href: "/products/ultrasonic-scaler-light-cure/ultrasonic-scaler/" }, { label: "Light Cure", description: "Curing lamps for composite restorations.", href: "/products/ultrasonic-scaler-light-cure/light-cure/" }, { label: "Dental Handpiece", description: "High-speed and low-speed handpieces for daily use.", href: "/products/dental-handpiece/" }, { label: "Endo Motor", description: "Torque-controlled motors for root canal preparation.", href: "/products/endo-motor/" }, { label: "Air Compressor", description: "Compressors sized for single or multi-chair clinics.", href: "/products/air-equipment/air-compressor/" }, { label: "Vacuum Pump", description: "Suction systems for chairside evacuation.", href: "/products/air-equipment/vacuum-pump/" }] },
-  { title: "Imaging & Digital", href: "/products/imaging-system/", links: [{ label: "X-ray", description: "Intraoral units for routine diagnostic imaging.", href: "/products/imaging-system/x-ray/" }, { label: "CBCT", description: "3D volumetric imaging for implant and surgical planning.", href: "/products/imaging-system/cbct/" }, { label: "Intraoral Scanner", description: "Digital impressions without trays or impression material.", href: "/products/imaging-system/intraoral-scanner/" }, { label: "Intraoral Camera", description: "Chairside documentation and patient communication.", href: "/products/imaging-system/intraoral-camera/" }] },
-  { title: "Specialty & Supplies", href: "/products/", links: [{ label: "Orthodontics", description: "Brackets, wires and chairside orthodontic tools.", href: "/products/orthodontics/" }, { label: "Surgical Instruments", description: "Implant motors, surgical kits and hand instruments.", href: "/products/surgical-instruments/" }, { label: "Whitening Machine", description: "In-clinic bleaching lamps.", href: "/products/whitening-machine/" }, { label: "Disposable Consumables", description: "Gloves, bibs, tips and everyday clinic supplies.", href: "/products/disposable-consumables/" }, { label: "Teaching Model", description: "Phantom heads and typodonts for dental education.", href: "/products/teaching-model/" }, { label: "Laboratory", description: "Equipment for in-house lab workflows.", href: "/products/laboratory/" }] }
+  {
+    title: "Chairs & Cabinets",
+    href: "/products/",
+    categories: [
+      { title: "Dental Chair", href: "/products/dental-chair/", links: [{ label: "Economic Series", description: "Reliable core function for cost-sensitive clinics.", href: "/products/dental-chair/economic/" }, { label: "Mid-range Series", description: "Balanced comfort and configuration for everyday practice.", href: "/products/dental-chair/mid-range/" }, { label: "High-end Series", description: "Premium upholstery and implant-ready configurations.", href: "/products/dental-chair/high-end/" }] },
+      { title: "Dental Cabinet", href: "/products/dental-cabinet/", links: [{ label: "Metal Cabinet", description: "Seamless surfaces built for strict hygiene protocols.", href: "/products/dental-cabinet/metal/" }, { label: "Wood Cabinet", description: "Warm finishes for reception-facing treatment rooms.", href: "/products/dental-cabinet/wood/" }] }
+    ]
+  },
+  {
+    title: "Treatment Equipment",
+    links: [{ label: "Ultrasonic Scaler", description: "Scaling and curing equipment for daily treatment workflows.", href: "/products/ultrasonic-scaler-light-cure/" }, { label: "Air Equipment", description: "Compressors and vacuum systems for stable clinic operation.", href: "/products/air-equipment/" }, { label: "Dental Handpiece", description: "High-speed and low-speed handpieces for daily use.", href: "/products/dental-handpiece/" }, { label: "Endo Motor", description: "Torque-controlled motors for root canal preparation.", href: "/products/endo-motor/" }]
+  },
+  {
+    title: "Imaging & Digital",
+    stageTitle: "Imaging System",
+    href: "/products/imaging-system/",
+    links: [{ label: "X-ray", description: "Intraoral units for routine diagnostic imaging.", href: "/products/imaging-system/x-ray/" }, { label: "CBCT", description: "3D volumetric imaging for implant and surgical planning.", href: "/products/imaging-system/cbct/" }, { label: "Intraoral Scanner", description: "Digital impressions without trays or impression material.", href: "/products/imaging-system/intraoral-scanner/" }, { label: "Intraoral Camera", description: "Chairside documentation and patient communication.", href: "/products/imaging-system/intraoral-camera/" }]
+  },
+  {
+    title: "Specialty & Supplies",
+    links: [{ label: "Orthodontics", description: "Brackets, wires and chairside orthodontic tools.", href: "/products/orthodontics/" }, { label: "Surgical Instruments", description: "Implant motors, surgical kits and hand instruments.", href: "/products/surgical-instruments/" }, { label: "Whitening Machine", description: "In-clinic bleaching lamps.", href: "/products/whitening-machine/" }, { label: "Disposable Consumables", description: "Gloves, bibs, tips and everyday clinic supplies.", href: "/products/disposable-consumables/" }, { label: "Teaching Model", description: "Phantom heads and typodonts for dental education.", href: "/products/teaching-model/" }, { label: "Laboratory", description: "Equipment for in-house lab workflows.", href: "/products/laboratory/" }]
+  }
 ];
 const solutionMegaColumns = [
   {
@@ -106,8 +132,21 @@ const isNavActive = (href: string) => {
             <section class="mega-stage" aria-label="Product categories">
               {megaGroups.map((group, index) => (
                 <div class:list={["mega-stage-panel", index === 0 && "is-active"]} data-mega-group-panel={index}>
-                  <a class="mega-stage-title" href={localizedPath(lang, group.href)}>{group.title}<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></svg></a>
-                  <div class="mega-stage-grid">{group.links.map((link) => <a class="mega-item" href={localizedPath(lang, link.href)}><span class="mega-item-name">{link.label}</span><span class="mega-item-desc">{link.description}</span></a>)}</div>
+                  {group.categories ? (
+                    <div class="mega-stage-grid">
+                    {group.categories.map((category) => (
+                      <section class="mega-category-block">
+                        <a class="mega-category-title" href={localizedPath(lang, category.href)}>{category.title}<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></svg></a>
+                        {category.links?.map((link) => <a class="mega-item" href={localizedPath(lang, link.href)}><span class="mega-item-name">{link.label}</span><span class="mega-item-desc">{link.description}</span></a>)}
+                      </section>
+                    ))}
+                    </div>
+                  ) : (
+                    <>
+                      {group.stageTitle && group.href && <a class="mega-stage-title" href={localizedPath(lang, group.href)}>{group.stageTitle}<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></svg></a>}
+                      <div class="mega-stage-grid">{group.links?.map((link) => <a class="mega-item" href={localizedPath(lang, link.href)}><span class="mega-item-name">{link.label}</span><span class="mega-item-desc">{link.description}</span></a>)}</div>
+                    </>
+                  )}
                 </div>
               ))}
             </section>
@@ -206,7 +245,14 @@ const isNavActive = (href: string) => {
               {megaGroups.map((group) => (
                 <details class="mobile-product-item">
                   <summary>{group.title}</summary>
-                  <div class="mobile-product-item__links">{group.links.map((link) => <a href={localizedPath(lang, link.href)}><span>{link.label}</span><small>{link.description}</small></a>)}</div>
+                  <div class="mobile-product-item__links">
+                    {group.categories ? group.categories.map((category) => (
+                      <div class="mobile-product-category">
+                        <a class="mobile-product-category__title" href={localizedPath(lang, category.href)}>{category.title} <span aria-hidden="true">→</span></a>
+                        {category.links?.map((link) => <a href={localizedPath(lang, link.href)}><span>{link.label}</span><small>{link.description}</small></a>)}
+                      </div>
+                    )) : group.links?.map((link) => <a href={localizedPath(lang, link.href)}><span>{link.label}</span><small>{link.description}</small></a>)}
+                  </div>
                 </details>
               ))}
             </div>
