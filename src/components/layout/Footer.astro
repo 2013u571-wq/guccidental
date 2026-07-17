@@ -10,20 +10,20 @@ const { lang } = Astro.props;
 ---
 
 <footer class="site-footer">
-  <div class="container grid gap-10 py-16 lg:grid-cols-[1.2fr_2fr]">
-    <div>
+  <div class="container footer-main grid gap-10 py-16 lg:grid-cols-[1.2fr_2fr]">
+    <div class="footer-intro">
       <a href={localizedPath(lang, "/")} class="footer-brand">
         <span class="footer-brand__mark" aria-hidden="true">G</span>
         <span class="footer-brand__name">{site.name}</span>
       </a>
       <p class="footer-description">{site.description}</p>
       <div class="footer-contact">
-        <p>{site.email}</p>
-        <p>{site.whatsapp}</p>
+        <a href={`mailto:${site.email}`}>{site.email}</a>
+        <a href="https://wa.me/+8613825587076" target="_blank" rel="noopener noreferrer">{site.whatsapp}</a>
         <p>{site.address}</p>
       </div>
     </div>
-    <div class="grid gap-8 sm:grid-cols-3">
+    <div class="footer-groups footer-groups--desktop grid gap-8 sm:grid-cols-3">
       {
         footerGroups.map((group) => (
           <div>
@@ -38,6 +38,22 @@ const { lang } = Astro.props;
               ))}
             </ul>
           </div>
+        ))
+      }
+    </div>
+    <div class="footer-groups footer-groups--mobile">
+      {
+        footerGroups.map((group) => (
+          <details class="footer-mobile-group">
+            <summary>{group.title}<span aria-hidden="true"></span></summary>
+            <ul class="footer-links">
+              {group.links.map((link) => (
+                <li>
+                  <a href={localizedPath(lang, link.href)}>{link.label}</a>
+                </li>
+              ))}
+            </ul>
+          </details>
         ))
       }
     </div>

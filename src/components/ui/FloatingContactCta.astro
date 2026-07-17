@@ -13,8 +13,6 @@ const whatsappHref = "https://wa.me/+8613825587076";
 <div
   class="floating-contact-cta"
   data-floating-contact
-  data-desktop-threshold="500"
-  data-mobile-threshold="500"
   aria-label="Quick contact actions"
 >
   <a
@@ -48,17 +46,252 @@ const whatsappHref = "https://wa.me/+8613825587076";
     const floatingContact = document.querySelector("[data-floating-contact]");
     if (!floatingContact) return;
 
-    const desktopThreshold = Number(floatingContact.getAttribute("data-desktop-threshold")) || 560;
-    const mobileThreshold = Number(floatingContact.getAttribute("data-mobile-threshold")) || 500;
-    const mobileQuery = window.matchMedia("(max-width: 767px)");
+    const hero = document.querySelector([
+      "[data-hero]",
+      ".hero-slider",
+      ".products-overview-hero",
+      ".chair-hero",
+      ".chair-tier-hero",
+      ".b100-product-hero",
+      ".case-detail-hero",
+      "main > section:first-of-type",
+    ].join(", "));
 
-    const updateFloatingContact = () => {
-      const threshold = mobileQuery.matches ? mobileThreshold : desktopThreshold;
-      floatingContact.classList.toggle("is-visible", window.scrollY >= threshold);
+    const setFloatingContactVisible = (visible: boolean) => {
+      floatingContact.classList.toggle("is-visible", visible);
     };
 
-    updateFloatingContact();
-    window.addEventListener("scroll", updateFloatingContact, { passive: true });
-    mobileQuery.addEventListener("change", updateFloatingContact);
+    const mobileViewport = window.matchMedia("(max-width: 767px)");
+    let cleanupVisibility = () => {};
+
+    const setupVisibility = () => {
+      cleanupVisibility();
+      setFloatingContactVisible(false);
+
+      if (mobileViewport.matches) {
+        const updateFromMobileScroll = () => {
+          setFloatingContactVisible(window.scrollY > 350);
+        };
+
+        updateFromMobileScroll();
+        window.addEventListener("scroll", updateFromMobileScroll, { passive: true });
+        cleanupVisibility = () => {
+          window.removeEventListener("scroll", updateFromMobileScroll);
+        };
+        return;
+      }
+
+      if (hero && "IntersectionObserver" in window) {
+        const heroObserver = new IntersectionObserver(([entry]) => {
+          setFloatingContactVisible(entry.intersectionRatio < 0.1);
+        }, {
+          threshold: [0, 0.1],
+        });
+
+        heroObserver.observe(hero);
+        cleanupVisibility = () => {
+          heroObserver.disconnect();
+        };
+        return;
+      }
+
+      const updateFromViewport = () => {
+        setFloatingContactVisible(window.scrollY >= window.innerHeight * 0.8);
+      };
+
+      updateFromViewport();
+      window.addEventListener("scroll", updateFromViewport, { passive: true });
+      window.addEventListener("resize", updateFromViewport, { passive: true });
+      cleanupVisibility = () => {
+        window.removeEventListener("scroll", updateFromViewport);
+        window.removeEventListener("resize", updateFromViewport);
+      };
+    };
+
+    setupVisibility();
+    mobileViewport.addEventListener("change", setupVisibility);
   })();
 </script>
+
+<style>
+  .floating-contact-cta {
+    bottom: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    right: 24px;
+    transform: translateY(18px);
+    transition: opacity 220ms ease, transform 220ms ease;
+    z-index: 100;
+  }
+
+  .floating-contact-cta.is-visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  .floating-contact-cta__button {
+    align-items: center;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0 12px 26px rgba(17, 24, 39, 0.16);
+    color: #FFFFFF;
+    display: inline-flex;
+    height: 58px;
+    justify-content: center;
+    text-decoration: none;
+    transition: box-shadow 180ms ease, filter 180ms ease, transform 180ms ease;
+    width: 58px;
+  }
+
+  .floating-contact-cta__button:hover {
+    box-shadow: 0 15px 30px rgba(17, 24, 39, 0.2);
+    filter: brightness(1.02);
+    transform: translateY(-2px);
+  }
+
+  .floating-contact-cta__button svg {
+    flex: none;
+    height: 27px;
+    width: 27px;
+  }
+
+  .floating-contact-cta__button--whatsapp {
+    background: #61D56F;
+  }
+
+  .floating-contact-cta__button--whatsapp svg {
+    fill: currentColor;
+  }
+
+  .floating-contact-cta__button--quote {
+    background: var(--brand-blue);
+  }
+
+  .floating-contact-cta__button--quote svg {
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+  }
+
+  .floating-contact-cta__button > span {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  @media (max-width: 767px) {
+    :global(body) {
+      padding-bottom: calc(76px + env(safe-area-inset-bottom));
+    }
+
+    .floating-contact-cta {
+      backdrop-filter: blur(12px);
+      background: rgba(255, 255, 255, 0.96);
+      border: 1px solid var(--surface-border);
+      border-radius: 16px;
+      bottom: max(8px, env(safe-area-inset-bottom));
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.14);
+      box-sizing: border-box;
+      display: grid;
+      gap: 8px;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      left: 12px;
+      max-width: calc(100vw - 24px);
+      min-width: 0;
+      overflow: hidden;
+      padding: 6px;
+      right: 12px;
+      transform: translateY(18px);
+      width: auto;
+    }
+
+    .floating-contact-cta.is-visible {
+      transform: translateY(0);
+    }
+
+    .floating-contact-cta__button {
+      border-radius: 11px;
+      box-sizing: border-box;
+      font-size: clamp(14px, 3.8vw, 16px);
+      font-weight: 600;
+      gap: 8px;
+      height: 48px;
+      letter-spacing: 0.01em;
+      line-height: 1;
+      min-width: 0;
+      padding: 0 12px;
+      width: 100%;
+    }
+
+    .floating-contact-cta__button svg {
+      height: 22px;
+      width: 22px;
+    }
+
+    .floating-contact-cta__button > span {
+      clip: auto;
+      height: auto;
+      overflow: visible;
+      position: static;
+      text-align: center;
+      white-space: normal;
+      width: auto;
+    }
+
+    .floating-contact-cta__button--whatsapp {
+      background: #82C978;
+      box-shadow: 0 6px 16px rgba(56, 118, 67, 0.16);
+    }
+
+    .floating-contact-cta__button--quote {
+      background: #FFFFFF;
+      border: 1px solid var(--surface-border);
+      box-shadow: 0 5px 14px rgba(15, 23, 42, 0.1);
+      color: var(--brand-blue-dark);
+    }
+
+    .floating-contact-cta__button--quote:hover {
+      background: var(--brand-blue-light);
+      border-color: var(--brand-blue);
+    }
+  }
+
+  @media (max-width: 360px) {
+    .floating-contact-cta {
+      left: 8px;
+      max-width: calc(100vw - 16px);
+      right: 8px;
+    }
+
+    .floating-contact-cta__button {
+      font-size: 13.5px;
+      gap: 6px;
+      height: 46px;
+      padding: 0 8px;
+    }
+
+    .floating-contact-cta__button svg {
+      height: 20px;
+      width: 20px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .floating-contact-cta,
+    .floating-contact-cta__button {
+      transition: none;
+    }
+  }
+</style>

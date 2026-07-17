@@ -353,6 +353,35 @@ const faqItems = [
             ))
           }
         </div>
+        <div class="fitout-mobile-solutions" aria-label="Clinic solutions">
+          {
+            clinicNeeds.map((need, index) => (
+              <details class="fitout-mobile-card" open={index === 0}>
+                <summary>
+                  <img
+                    src={need.imageSrc}
+                    alt=""
+                    width="1200"
+                    height="900"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <span class="fitout-mobile-card__overlay" aria-hidden="true"></span>
+                  <span class="fitout-mobile-card__stage">{need.stage}</span>
+                  <span class="fitout-mobile-card__title">{need.title}</span>
+                  <span class="fitout-mobile-card__toggle" aria-hidden="true"></span>
+                </summary>
+                <div class="fitout-mobile-card__content">
+                  <p>{need.summary}</p>
+                  <ul>
+                    {need.highlights.map((highlight) => <li>{highlight}</li>)}
+                  </ul>
+                  <a href={localizedPath(lang, need.href)}>{need.cta} <span aria-hidden="true">→</span></a>
+                </div>
+              </details>
+            ))
+          }
+        </div>
       </div>
     </section>
   </div>
@@ -366,7 +395,7 @@ const faqItems = [
         </div>
         <p class="lead">From clinic planning to delivery and technical support — equipment, furniture, materials, logistics, and installation coordinated from a single factory-direct source.</p>
       </div>
-      <div class="service-grid">
+        <div class="service-grid">
         <div class="service-row-1">
           {
             oneStopServices.slice(0, 4).map((service, index) => (
@@ -434,6 +463,25 @@ const faqItems = [
           }
         </div>
       </div>
+
+        <div class="service-mobile-list" aria-label="One-stop services">
+          <div class="service-mobile-track" aria-label="One-stop services">
+            {
+              oneStopServices.map((service) => (
+                <a class="service-mobile-item" href={localizedPath(lang, service.href)}>
+                  <img src={service.imageSrc} alt={service.imageAlt} width="960" height="600" loading="lazy" decoding="async" />
+                  <span class="service-mobile-item__body">
+                    <span class="service-mobile-item__number">{service.number}</span>
+                    <span class="service-mobile-item__title">{service.title}</span>
+                    <span class="service-mobile-item__summary">{service.summary}</span>
+                    <span class="service-mobile-item__link">Explore service <span aria-hidden="true">→</span></span>
+                  </span>
+                </a>
+              ))
+            }
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -444,7 +492,7 @@ const faqItems = [
           <p class="eyebrow">Product scope</p>
           <h2>Dental equipment, clinic furniture, and materials under one roof</h2>
         </div>
-        <a class="btn product-scope-cta" href={localizedPath(lang, "/products/")}>View Product Categories</a>
+        <a class="btn product-scope-cta product-scope-cta--desktop" href={localizedPath(lang, "/products/")}>View Product Categories</a>
       </div>
       <div class="product-grid">
         {
@@ -536,6 +584,7 @@ const faqItems = [
           })
         }
       </div>
+      <a class="btn product-scope-cta product-scope-cta--mobile" href={localizedPath(lang, "/products/")}>View Product Categories</a>
     </div>
   </section>
 
@@ -581,7 +630,10 @@ const faqItems = [
       <div class="howitworks-intro">
         <p class="eyebrow">How It Works</p>
         <h2>A simpler path from idea to opening day</h2>
-        <p class="lead">Submit your clinic floorplan, Guccident offers one-stop services spanning clinic design, layout proposals, plumbing piping drawings and 3D renderings, equipment selection, manufacturing, shipment arrangement, door-to-door delivery, installation assistance and ongoing after-sales care.</p>
+        <p class="lead">
+          <span class="howitworks-intro__desktop">Submit your clinic floorplan, Guccident offers one-stop services spanning clinic design, layout proposals, plumbing piping drawings and 3D renderings, equipment selection, manufacturing, shipment arrangement, door-to-door delivery, installation assistance and ongoing after-sales care.</span>
+          <span class="howitworks-intro__mobile">Share your floorplan. We coordinate design, equipment, delivery, and installation.</span>
+        </p>
       </div>
 
       <div class="how-layout howitworks-layout">
@@ -650,6 +702,22 @@ const faqItems = [
           </div>
         </div>
       </div>
+
+      <div class="how-mobile-steps" aria-label="Clinic project process">
+        {
+          milestones.map(([step, title, summary], index) => (
+            <details class="how-mobile-step" open={index === 0}>
+              <summary>
+                <span class="how-mobile-step__number">{step}</span>
+                <span class="how-mobile-step__title">{title}</span>
+                <span class="how-mobile-step__toggle" aria-hidden="true"></span>
+              </summary>
+              <p>{summary}</p>
+            </details>
+          ))
+        }
+        <a href={localizedPath(lang, "/contact/")} class="how-mobile-cta">Launch your clinic <span aria-hidden="true">→</span></a>
+      </div>
     </div>
   </section>
 
@@ -660,7 +728,7 @@ const faqItems = [
           <p class="eyebrow">Case Studies</p>
           <h2>Clinics equipped.<br />Worldwide.</h2>
         </div>
-        <a class="btn btn-outline" href={localizedPath(lang, "/cases/")}>All Case Studies →</a>
+        <a class="btn btn-outline cases-cta--desktop" href={localizedPath(lang, "/cases/")}>All Case Studies →</a>
       </div>
       <div class="case-grid">
         {
@@ -683,11 +751,13 @@ const faqItems = [
                 <p class="case-tag">{caseItem.tag}</p>
                 <h3 class="case-title">{caseItem.title}</h3>
                 <p class="case-desc">{caseItem.summary}</p>
+                <span class="case-link case-link--mobile">View case <span aria-hidden="true">→</span></span>
               </div>
             </a>
           ))
         }
       </div>
+      <a class="cases-cta--mobile" href={localizedPath(lang, "/cases/")}>All Case Studies <span aria-hidden="true">→</span></a>
     </div>
   </section>
 
@@ -727,6 +797,21 @@ const faqItems = [
     title="Tell us what your clinic needs."
     summary="Send your room count, dental chair requirements, renovation scope, destination market, and budget range. We will prepare a practical one-stop clinic supply plan."
   />
+
+
+  <script is:inline>
+    (() => {
+      const solutionCards = Array.from(document.querySelectorAll(".fitout-mobile-card"));
+      solutionCards.forEach((card) => {
+        card.addEventListener("toggle", () => {
+          if (!card.open) return;
+          solutionCards.forEach((otherCard) => {
+            if (otherCard !== card) otherCard.removeAttribute("open");
+          });
+        });
+      });
+    })();
+  </script>
 
   <script is:inline>
     (() => {
