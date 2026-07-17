@@ -7134,6 +7134,18 @@ img.partner-tile-img {
   overflow: hidden;
 }
 
+.chair-card-media-link {
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.chair-card-media-link:focus-visible {
+  outline: 2px solid var(--brand-blue);
+  outline-offset: -4px;
+}
+
 .chair-card-media img {
   height: 100%;
   object-fit: contain;
@@ -7142,7 +7154,8 @@ img.partner-tile-img {
   width: 100%;
 }
 
-.chair-card:hover .chair-card-media img {
+.chair-card-media-link:hover img,
+.chair-card-media-link:focus-visible img {
   transform: scale(1.04);
 }
 

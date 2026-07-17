@@ -146,22 +146,32 @@ const partnerTiles = [
         isDentalChair ? (
           <>
             <div class="chair-grid mt-10">
-              {chairShowcase.map((chair) => (
-                <article class="chair-card">
-                  <div class="chair-card-media">
-                    <img src={chair.image} alt={chair.alt} width="1200" height="900" loading="lazy" decoding="async" />
-                  </div>
-                  <div class="chair-card-content">
-                    <p class="chair-card-tier">{chair.tier}</p>
-                    <h3>{chair.model}</h3>
-                    <p>{chair.description}</p>
-                    <div class="chair-card-actions">
-                      <Button href={localizedPath(lang, chair.detailPath ?? `/products/dental-chair/${chair.tier}/`)} size="md">View Details</Button>
-                      <Button href={localizedPath(lang, `/contact/?message=${encodeURIComponent(`I'm interested in the ${chair.model} dental chair.`)}`)} variant="secondary" size="md">Inquiry</Button>
+              {chairShowcase.map((chair) => {
+                const detailHref = localizedPath(lang, chair.detailPath ?? `/products/dental-chair/${chair.tier}/`);
+
+                return (
+                  <article class="chair-card">
+                    <div class="chair-card-media">
+                      {chair.detailPath ? (
+                        <a class="chair-card-media-link" href={detailHref} aria-label={`View ${chair.model} details`}>
+                          <img src={chair.image} alt={chair.alt} width="1200" height="900" loading="lazy" decoding="async" />
+                        </a>
+                      ) : (
+                        <img src={chair.image} alt={chair.alt} width="1200" height="900" loading="lazy" decoding="async" />
+                      )}
                     </div>
-                  </div>
-                </article>
-              ))}
+                    <div class="chair-card-content">
+                      <p class="chair-card-tier">{chair.tier}</p>
+                      <h3>{chair.model}</h3>
+                      <p>{chair.description}</p>
+                      <div class="chair-card-actions">
+                        <Button href={detailHref} size="md">View Details</Button>
+                        <Button href={localizedPath(lang, `/contact/?message=${encodeURIComponent(`I'm interested in the ${chair.model} dental chair.`)}`)} variant="secondary" size="md">Inquiry</Button>
+                      </div>
+                    </div>
+                  </article>
+                );
+              })}
             </div>
             <a class="browse-all-bar" href={localizedPath(lang, "/products/dental-chair/economic/")}>
               <span>Looking for a specific model? <strong>Browse all 48 dental chairs</strong></span>
