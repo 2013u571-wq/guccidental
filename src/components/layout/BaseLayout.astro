@@ -11,9 +11,10 @@ type Props = {
   description?: string;
   lang: LanguageCode;
   pathname: string;
+  bodyClass?: string;
 };
 
-const { title, description = site.description, lang, pathname } = Astro.props;
+const { title, description = site.description, lang, pathname, bodyClass } = Astro.props;
 const direction = getDirection(lang);
 const links = alternateLinks(pathname);
 const pageTitle = title === site.name ? title : `${title} | ${site.name}`;
@@ -41,7 +42,7 @@ const pageTitle = title === site.name ? title : `${title} | ${site.name}`;
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={site.name} />
   </head>
-  <body class="min-h-screen bg-surface-white text-ink-primary antialiased">
+  <body class:list={["min-h-screen bg-surface-white text-ink-primary antialiased", bodyClass]}>
     <Header lang={lang} />
     <main>
       <slot />
