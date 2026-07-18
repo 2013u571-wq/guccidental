@@ -3,7 +3,7 @@ import type { LanguageCode } from "@lib/i18n";
 export const site = {
   name: "Guccidental",
   companyName: "Foshan Guccidental Medical Equipment Co., Ltd.",
-  email: "sales@guccidental.com",
+  email: "daniel@guccident.com",
   phone: "+86 000 0000 0000",
   whatsapp: "+86 138 2558 7076",
   address: "Foshan, Guangdong, China",

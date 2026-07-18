@@ -9,7 +9,7 @@ const { detailed = false } = Astro.props;
 const proofPoints = [
   { icon: "factory", title: "Factory-Direct Coordination", description: "Work directly with the factory — no trading-company markup or delayed handoffs.", proof: "One point of contact, end to end" },
   { icon: "settings", title: "OEM / ODM Packages", description: "Custom logos, upholstery colors, and equipment configurations for qualifying volumes.", proof: "Your brand, your specification" },
-  { icon: "document", title: "Export Documentation", description: "CE / ISO documents, packing lists, and customs paperwork prepared for shipment.", proof: "CE · ISO · full export set" }
+  { icon: "document", title: "Export Documentation", description: "CE / ISO / FDA documents, packing lists, and customs paperwork prepared for shipment.", proof: "CE · ISO · FDA · full export set" }
 ];
 ---
 
@@ -19,7 +19,7 @@ const proofPoints = [
       detailed ? (
         <>
           <div class="chair-proof-header">
-            <SectionHeader eyebrow="Why choose Guccidental" title="Why clinics buy direct from Guccidental" summary="One factory, one point of contact — from model selection through export documentation and installation." titleClass="section-title" />
+            <SectionHeader eyebrow="WHY CHOOSE GUCCIDENT" title="Why clinics buy direct from Guccident" summary="One factory, one point of contact — from model selection through export documentation and installation." titleClass="section-title" />
           </div>
           <div class="chair-proof-grid">
             {proofPoints.map((point) => (
