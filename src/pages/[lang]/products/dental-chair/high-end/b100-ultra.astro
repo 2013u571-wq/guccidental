@@ -17,139 +17,132 @@ const tierHref = localizedPath(lang, "/products/dental-chair/high-end/");
 const productImageBase = "/images/products/dental-chair/b100-ultra";
 const galleryImages = [
   {
-    src: `${productImageBase}/b100-ultra-front-view.webp`,
-    alt: "B100 Ultra dental chair in green upholstery, front three-quarter view",
-    label: "Front view",
-    width: 1800,
-    height: 1604,
+    src: `${productImageBase}/b100-ultra-blue-front-three-quarter.webp`,
+    alt: "B100 Ultra dental chair with blue upholstery in a complete front three-quarter view",
+    label: "Front three-quarter view",
+    width: 2400,
+    height: 1620,
   },
   {
-    src: `${productImageBase}/b100-ultra-rear-view.webp`,
-    alt: "B100 Ultra dental chair viewed from the rear",
-    label: "Rear view",
-    width: 1400,
-    height: 1248,
+    src: `${productImageBase}/b100-ultra-blue-rear-operator-workflow.webp`,
+    alt: "Rear operator view of the B100 Ultra dental chair with blue upholstery, dentist unit and assistant instruments",
+    label: "Rear operator workflow",
+    width: 2400,
+    height: 1620,
   },
   {
-    src: `${productImageBase}/b100-ultra-overhead-view.webp`,
-    alt: "Overhead view of the B100 Ultra dental chair and delivery system",
-    label: "Overhead view",
-    width: 1400,
-    height: 1248,
+    src: `${productImageBase}/b100-ultra-blue-overhead-right-handed-workflow.webp`,
+    alt: "Overhead view of the B100 Ultra dental chair configured for a right-handed clinical workflow",
+    label: "Right-handed workflow",
+    width: 2400,
+    height: 1620,
   },
   {
-    src: `${productImageBase}/b100-ultra-delivery-unit-console.webp`,
-    alt: "B100 Ultra delivery unit with seven-inch touchscreen and handpiece holders",
-    label: "Delivery unit",
-    width: 1400,
-    height: 1248,
-  },
-  {
-    src: `${productImageBase}/b100-ultra-side-profile.webp`,
-    alt: "B100 Ultra dental chair in green upholstery, side profile",
-    label: "Side profile",
-    width: 1400,
-    height: 1248,
+    src: `${productImageBase}/b100-ultra-blue-overhead-left-handed-workflow.webp`,
+    alt: "Overhead view of the B100 Ultra dental chair configured for a left-handed clinical workflow",
+    label: "Left-handed workflow",
+    width: 2400,
+    height: 1620,
   },
 ];
 const colorImageBase = `${productImageBase}/colors`;
-const colorThumbnail = (src: string) => src.replace("/colors/", "/colors/thumbs/").replace(".webp", "-thumb.webp");
+const colorSwatchBase = `${colorImageBase}/swatches`;
 const upholsteryColors = [
   {
     code: "K01",
     name: "Cream White",
-    src: `${colorImageBase}/b100-ultra-k01-cream-white.webp`,
+    swatch: `${colorSwatchBase}/b100-ultra-k01-cream-white-swatch.webp`,
+    image: `${colorImageBase}/b100-ultra-k01-cream-white.webp`,
     alt: "B100 Ultra dental chair with K01 Cream White full-silicone upholstery",
-    description: "A soft neutral upholstery option for bright, minimal treatment rooms.",
-    swatch: "#d7d3ca",
+    desc: "A soft neutral upholstery option for bright, minimal treatment rooms.",
   },
   {
     code: "K02",
     name: "Gray Purple",
-    src: `${colorImageBase}/b100-ultra-k02-gray-purple.webp`,
+    swatch: `${colorSwatchBase}/b100-ultra-k02-gray-purple-swatch.webp`,
+    image: `${colorImageBase}/b100-ultra-k02-gray-purple.webp`,
     alt: "B100 Ultra dental chair with K02 Gray Purple full-silicone upholstery",
-    description: "A muted gray-purple finish for calm, contemporary clinic interiors.",
-    swatch: "#aaa6b1",
+    desc: "K02 upholstery description pending.",
   },
   {
     code: "K03",
     name: "Brown",
-    src: `${colorImageBase}/b100-ultra-k03-brown.webp`,
+    swatch: `${colorSwatchBase}/b100-ultra-k03-brown-swatch.webp`,
+    image: `${colorImageBase}/b100-ultra-k03-brown.webp`,
     alt: "B100 Ultra dental chair with K03 Brown full-silicone upholstery",
-    description: "A balanced warm brown selected for natural, hospitality-led spaces.",
-    swatch: "#918b7c",
+    desc: "K03 upholstery description pending.",
   },
   {
     code: "K04",
     name: "Sky Gray",
-    src: `${colorImageBase}/b100-ultra-k04-sky-gray.webp`,
+    swatch: `${colorSwatchBase}/b100-ultra-k04-sky-gray-swatch.webp`,
+    image: `${colorImageBase}/b100-ultra-k04-sky-gray.webp`,
     alt: "B100 Ultra dental chair with K04 Sky Gray full-silicone upholstery",
-    description: "A practical cool gray that pairs easily with clinical cabinetry.",
-    swatch: "#7d858d",
+    desc: "K04 upholstery description pending.",
   },
   {
     code: "K05",
     name: "Glacier Blue",
-    src: `${colorImageBase}/b100-ultra-k05-glacier-blue.webp`,
+    swatch: `${colorSwatchBase}/b100-ultra-k05-glacier-blue-swatch.webp`,
+    image: `${colorImageBase}/b100-ultra-k05-glacier-blue.webp`,
     alt: "B100 Ultra dental chair with K05 Glacier Blue full-silicone upholstery",
-    description: "A clear light blue that gives treatment rooms a clean, open feel.",
-    swatch: "#62b8c9",
+    desc: "K05 upholstery description pending.",
   },
   {
     code: "K06",
     name: "Ocean Blue",
-    src: `${colorImageBase}/b100-ultra-k06-ocean-blue.webp`,
+    swatch: `${colorSwatchBase}/b100-ultra-k06-ocean-blue-swatch.webp`,
+    image: `${colorImageBase}/b100-ultra-k06-ocean-blue.webp`,
     alt: "B100 Ultra dental chair with K06 Ocean Blue full-silicone upholstery",
-    description: "A confident medium blue suited to modern general-practice rooms.",
-    swatch: "#2f62a5",
+    desc: "K06 upholstery description pending.",
   },
   {
     code: "K07",
     name: "Sky Blue",
-    src: `${colorImageBase}/b100-ultra-k07-sky-blue.webp`,
+    swatch: `${colorSwatchBase}/b100-ultra-k07-sky-blue-swatch.webp`,
+    image: `${colorImageBase}/b100-ultra-k07-sky-blue.webp`,
     alt: "B100 Ultra dental chair with K07 Sky Blue full-silicone upholstery",
-    description: "A deep blue upholstery option with a composed professional character.",
-    swatch: "#254a75",
+    desc: "K07 upholstery description pending.",
   },
   {
     code: "K08",
     name: "Coffee",
-    src: `${colorImageBase}/b100-ultra-k08-coffee.webp`,
+    swatch: `${colorSwatchBase}/b100-ultra-k08-coffee-swatch.webp`,
+    image: `${colorImageBase}/b100-ultra-k08-coffee.webp`,
     alt: "B100 Ultra dental chair with K08 Coffee full-silicone upholstery",
-    description: "A rich coffee tone for premium rooms with warm wood or stone finishes.",
-    swatch: "#725b49",
+    desc: "K08 upholstery description pending.",
   },
   {
     code: "K09",
     name: "Black",
-    src: `${colorImageBase}/b100-ultra-k09-black.webp`,
+    swatch: `${colorSwatchBase}/b100-ultra-k09-black-swatch.webp`,
+    image: `${colorImageBase}/b100-ultra-k09-black.webp`,
     alt: "B100 Ultra dental chair with K09 Black full-silicone upholstery",
-    description: "A crisp black finish for high-contrast, design-focused practices.",
-    swatch: "#202427",
+    desc: "K09 upholstery description pending.",
   },
   {
     code: "K10",
     name: "Red",
-    src: `${colorImageBase}/b100-ultra-k10-red.webp`,
+    swatch: `${colorSwatchBase}/b100-ultra-k10-red-swatch.webp`,
+    image: `${colorImageBase}/b100-ultra-k10-red.webp`,
     alt: "B100 Ultra dental chair with K10 Red full-silicone upholstery",
-    description: "A distinctive deep red for clinics that want a stronger visual identity.",
-    swatch: "#743841",
+    desc: "K10 upholstery description pending.",
   },
   {
     code: "K11",
     name: "Orange",
-    src: `${colorImageBase}/b100-ultra-k11-orange.webp`,
+    swatch: `${colorSwatchBase}/b100-ultra-k11-orange-swatch.webp`,
+    image: `${colorImageBase}/b100-ultra-k11-orange.webp`,
     alt: "B100 Ultra dental chair with K11 Orange full-silicone upholstery",
-    description: "A warm orange designed to make patient-facing rooms feel more inviting.",
-    swatch: "#d97435",
+    desc: "K11 upholstery description pending.",
   },
   {
     code: "K12",
     name: "Grass Green",
-    src: `${colorImageBase}/b100-ultra-k12-grass-green.webp`,
+    swatch: `${colorSwatchBase}/b100-ultra-k12-grass-green-swatch.webp`,
+    image: `${colorImageBase}/b100-ultra-k12-grass-green.webp`,
     alt: "B100 Ultra dental chair with K12 Grass Green full-silicone upholstery",
-    description: "A fresh green finish that creates an energetic, approachable treatment space.",
-    swatch: "#a8ca2a",
+    desc: "K12 upholstery description pending.",
   },
 ];
 ---
@@ -177,7 +170,13 @@ const upholsteryColors = [
   <section class="b100-product-hero">
     <div class="container b100-hero-layout">
       <div class="b100-gallery" data-gallery>
-        <div class="b100-gallery-main">
+        <button
+          class="b100-gallery-main"
+          type="button"
+          aria-label={`Enlarge ${galleryImages[0].alt.toLowerCase()}`}
+          data-gallery-stage
+        >
+          <span class="b100-gallery-shadow" aria-hidden="true"></span>
           <img
             src={galleryImages[0].src}
             alt={galleryImages[0].alt}
@@ -187,15 +186,29 @@ const upholsteryColors = [
             decoding="async"
             data-gallery-main
           />
-        </div>
-        <div class="b100-gallery-thumbs" aria-label="B100 Ultra image gallery">
+          <span class="b100-gallery-tier">High-end</span>
+          <span class="b100-gallery-count" data-gallery-count>1 / {galleryImages.length}</span>
+          <span class="b100-gallery-hint">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="10.8" cy="10.8" r="6.4"></circle>
+              <path d="m15.5 15.5 4.1 4.1M10.8 8v5.6M8 10.8h5.6"></path>
+            </svg>
+            <span>Hover to zoom · click to enlarge</span>
+          </span>
+        </button>
+
+        <div class="b100-gallery-thumbs" role="group" aria-label="B100 Ultra image gallery">
           {galleryImages.map((image, index) => (
             <button
               class:list={["b100-thumb", { "is-active": index === 0 }]}
               type="button"
               aria-label={`Show ${image.label.toLowerCase()} of the B100 Ultra dental chair`}
+              aria-pressed={index === 0 ? "true" : "false"}
               data-gallery-src={image.src}
               data-gallery-alt={image.alt}
+              data-gallery-index={index}
+              data-tooltip={image.label}
+              title={image.label}
             >
               <img
                 src={image.src}
@@ -206,9 +219,48 @@ const upholsteryColors = [
                 decoding="async"
                 aria-hidden="true"
               />
-              <span>{image.label}</span>
             </button>
           ))}
+        </div>
+
+        <div
+          class="b100-lightbox"
+          role="dialog"
+          aria-modal="true"
+          aria-label="B100 Ultra image viewer"
+          aria-hidden="true"
+          data-gallery-lightbox
+        >
+          <div class="b100-lightbox-backdrop" data-lightbox-close></div>
+          <div class="b100-lightbox-dialog" role="document" tabindex="-1" data-lightbox-dialog>
+            <button class="b100-lightbox-close" type="button" aria-label="Close image viewer" data-lightbox-close>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 5l14 14M19 5 5 19"></path>
+              </svg>
+            </button>
+            <button class="b100-lightbox-arrow is-prev" type="button" aria-label="Previous image" data-lightbox-prev>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m15 5-7 7 7 7"></path>
+              </svg>
+            </button>
+            <div class="b100-lightbox-stage" data-lightbox-stage>
+              <img
+                src={galleryImages[0].src}
+                alt={galleryImages[0].alt}
+                width={galleryImages[0].width}
+                height={galleryImages[0].height}
+                decoding="async"
+                draggable="false"
+                data-lightbox-image
+              />
+            </div>
+            <span class="b100-lightbox-count" data-lightbox-count>1 / {galleryImages.length}</span>
+            <button class="b100-lightbox-arrow is-next" type="button" aria-label="Next image" data-lightbox-next>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m9 5 7 7-7 7"></path>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -337,22 +389,22 @@ const upholsteryColors = [
         <article class="b100-feature-focus">
           <figure class="b100-feature-media">
             <img
-              src={`${productImageBase}/b100-ultra-m3-digital-control.webp`}
-              alt="Close-up of the B100 Ultra M3+ seven-inch digital touchscreen control system"
-              width="1600"
-              height="1426"
+              src={`${productImageBase}/b100-ultra-delivery-unit-touchscreen-detail.webp`}
+              alt="B100 Ultra dentist delivery unit with instrument tray, handpiece holders and seven-inch touchscreen"
+              width="1800"
+              height="1604"
               loading="lazy"
               decoding="async"
             />
           </figure>
           <div class="b100-feature-copy">
             <span class="b100-eyebrow">Digital control</span>
-            <h3>M3+ digital integration system</h3>
-            <p>Handpiece, electric motor and scaler are controlled from the seven-inch HD touchscreen. RPM, speed ratio, rotation direction, light status and working mode are shown in real time.</p>
+            <h3>Seven-inch digital command center</h3>
+            <p>The doctor-side delivery unit brings the handpiece, electric motor and scaler controls together on one HD touchscreen, with the tray and instruments arranged within easy reach.</p>
             <ul>
               <li>One-screen device control</li>
-              <li>Live operating status</li>
-              <li>Six dentist profiles</li>
+              <li>Clear live operating status</li>
+              <li>Organized doctor-side workflow</li>
             </ul>
           </div>
         </article>
@@ -361,27 +413,27 @@ const upholsteryColors = [
           <article class="b100-feature-card">
             <figure class="b100-feature-media">
               <img
-                src={`${productImageBase}/b100-ultra-synchronized-comfort.webp`}
-                alt="B100 Ultra synchronized chair motion and full-body support system"
-                width="1600"
-                height="1426"
+                src={`${productImageBase}/b100-ultra-integrated-motor-control-screen.webp`}
+                alt="B100 Ultra touchscreen displaying integrated electric motor settings and operating controls"
+                width="1800"
+                height="1604"
                 loading="lazy"
                 decoding="async"
               />
             </figure>
             <div class="b100-feature-copy">
-              <span class="b100-eyebrow">Patient comfort</span>
-              <h3>Whole-body support with synchronized motion</h3>
-              <p>A 45 mm ultra-thin backrest, premium-soft memory foam and skin-friendly silicone leather support the patient while 30-degree rotation improves dentist access.</p>
+              <span class="b100-eyebrow">Integrated motor</span>
+              <h3>Motor settings visible at a glance</h3>
+              <p>The touchscreen centralizes motor speed, operating mode and related instrument settings, helping clinicians adjust treatment parameters without leaving the delivery unit.</p>
             </div>
           </article>
           <article class="b100-feature-card">
             <figure class="b100-feature-media">
               <img
-                src={`${productImageBase}/b100-ultra-philips-led-light.webp`}
-                alt="B100 Ultra Philips eight-bead LED operating light"
-                width="1600"
-                height="1426"
+                src={`${productImageBase}/b100-ultra-philips-led-operating-light-detail.webp`}
+                alt="Close-up of the B100 Ultra Philips eight-bead LED operating light and articulated arm"
+                width="1800"
+                height="1604"
                 loading="lazy"
                 decoding="async"
               />
@@ -389,10 +441,33 @@ const upholsteryColors = [
             <div class="b100-feature-copy">
               <span class="b100-eyebrow">Operating light</span>
               <h3>Philips LED 8-bead dental light</h3>
-              <p>The Philips eight-bead LED light delivers soft, even oral illumination with sensor and manual control, three light modes and 8,000–20,000 lux adjustable brightness.</p>
+              <p>The Philips eight-bead LED light provides clear oral illumination at up to 40,000 lux, with an articulated arm for precise positioning over the treatment area.</p>
             </div>
           </article>
         </div>
+
+        <article class="b100-feature-focus">
+          <figure class="b100-feature-media">
+            <img
+              src={`${productImageBase}/b100-ultra-touchscreen-disinfection-programs.webp`}
+              alt="B100 Ultra touchscreen showing rinse, standard and deep disinfection programs"
+              width="1800"
+              height="1604"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+          <div class="b100-feature-copy">
+            <span class="b100-eyebrow">Disinfection workflow</span>
+            <h3>Three timed cleaning programs</h3>
+            <p>The touchscreen provides clearly separated rinse, standard and deep disinfection programs to support a repeatable waterline-cleaning routine between treatment schedules.</p>
+            <ul>
+              <li>2-minute rinse cycle</li>
+              <li>9-minute standard cycle</li>
+              <li>25-minute deep cycle</li>
+            </ul>
+          </div>
+        </article>
 
         <article class="b100-color-feature" id="colors">
           <header>
@@ -403,66 +478,39 @@ const upholsteryColors = [
           <div class="b100-content-narrow">
             <div class="b100-color-browser" data-color-browser>
               <div class="b100-color-stage">
-                <div
-                  class="b100-color-track"
-                  aria-label="B100 Ultra upholstery color gallery"
-                  tabindex="0"
-                  data-color-track
-                >
-                  {upholsteryColors.map((color, index) => (
-                    <figure
-                      class="b100-color-slide"
-                      id={`b100-color-slide-${index + 1}`}
-                      aria-label={`${index + 1} of ${upholsteryColors.length}: ${color.code} ${color.name}`}
-                      data-color-slide
-                    >
-                      <img
-                        src={color.src}
-                        alt={color.alt}
-                        width="1800"
-                        height="967"
-                        loading="lazy"
-                        decoding="async"
-                      />
-                      <figcaption>
-                        <strong>{color.code} · {color.name}</strong>
-                        <span>{color.description}</span>
-                      </figcaption>
-                    </figure>
-                  ))}
+                <div class="b100-color-image">
+                  <img
+                    src={upholsteryColors[0].image}
+                    alt={upholsteryColors[0].alt}
+                    width="1800"
+                    height="967"
+                    loading="lazy"
+                    decoding="async"
+                    data-color-image
+                  />
                 </div>
-                <button class="b100-color-arrow is-prev" type="button" aria-label="Show previous upholstery color" data-color-prev disabled>
-                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"></path></svg>
-                </button>
-                <button class="b100-color-arrow is-next" type="button" aria-label="Show next upholstery color" data-color-next>
-                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"></path></svg>
-                </button>
-                <span class="b100-color-count" aria-live="polite" data-color-count>1 / {upholsteryColors.length}</span>
+                <div class="b100-color-controls">
+                  <strong aria-live="polite" data-color-current-name>{upholsteryColors[0].code} · {upholsteryColors[0].name}</strong>
+                  <div class="b100-color-swatches" role="group" aria-label="Choose an upholstery color">
+                    {upholsteryColors.map((color, index) => (
+                      <button
+                        class:list={["b100-color-swatch", { "is-active": index === 0 }]}
+                        type="button"
+                        aria-label={`Show ${color.code} ${color.name} upholstery`}
+                        aria-pressed={index === 0 ? "true" : "false"}
+                        style={`--color-swatch-image:url("${color.swatch}")`}
+                        data-color-option
+                        data-color-code={color.code}
+                        data-color-name={color.name}
+                        data-color-image={color.image}
+                        data-color-alt={color.alt}
+                        data-color-desc={color.desc}
+                      ></button>
+                    ))}
+                  </div>
+                </div>
               </div>
-              <div class="b100-color-thumbs" aria-label="Choose an upholstery color">
-                {upholsteryColors.map((color, index) => (
-                  <button
-                    class:list={["b100-color-thumb", { "is-active": index === 0 }]}
-                    type="button"
-                    aria-label={`Show ${color.code} ${color.name} upholstery`}
-                    aria-controls={`b100-color-slide-${index + 1}`}
-                    aria-pressed={index === 0 ? "true" : "false"}
-                    data-color-thumb={index}
-                  >
-                    <img
-                      src={colorThumbnail(color.src)}
-                      alt=""
-                      width="360"
-                      height="193"
-                      loading="lazy"
-                      decoding="async"
-                      aria-hidden="true"
-                    />
-                    <span class="b100-color-swatch" style={`--color-swatch:${color.swatch}`}></span>
-                    <span><b>{color.code}</b><small>{color.name}</small></span>
-                  </button>
-                ))}
-              </div>
+              <p class="b100-color-description" aria-live="polite" data-color-copy>{upholsteryColors[0].desc}</p>
             </div>
           </div>
         </article>
@@ -582,78 +630,207 @@ const upholsteryColors = [
 
   <script>
     document.querySelectorAll("[data-gallery]").forEach((gallery) => {
-      const main = gallery.querySelector("[data-gallery-main]");
-      const thumbs = gallery.querySelectorAll("[data-gallery-src]");
-      if (!main || !thumbs.length) return;
-      thumbs.forEach((thumb) => {
-        thumb.addEventListener("click", () => {
-          thumbs.forEach((item) => item.classList.remove("is-active"));
-          thumb.classList.add("is-active");
-          const src = thumb.getAttribute("data-gallery-src");
-          const alt = thumb.getAttribute("data-gallery-alt");
-          if (src) main.setAttribute("src", src);
-          if (alt) main.setAttribute("alt", alt);
-        });
-      });
-    });
-
-    document.querySelectorAll("[data-color-browser]").forEach((browser) => {
-      const track = browser.querySelector("[data-color-track]");
-      const slides = Array.from(browser.querySelectorAll("[data-color-slide]"));
-      const thumbs = Array.from(browser.querySelectorAll("[data-color-thumb]"));
-      const previous = browser.querySelector("[data-color-prev]");
-      const next = browser.querySelector("[data-color-next]");
-      const count = browser.querySelector("[data-color-count]");
-      if (!(track instanceof HTMLElement) || !slides.length) return;
+      const main = gallery.querySelector<HTMLImageElement>("[data-gallery-main]");
+      const stage = gallery.querySelector<HTMLButtonElement>("[data-gallery-stage]");
+      const counter = gallery.querySelector<HTMLElement>("[data-gallery-count]");
+      const thumbs = Array.from(gallery.querySelectorAll<HTMLButtonElement>("[data-gallery-src]"));
+      const lightbox = gallery.querySelector<HTMLElement>("[data-gallery-lightbox]");
+      const lightboxDialog = gallery.querySelector<HTMLElement>("[data-lightbox-dialog]");
+      const lightboxImage = gallery.querySelector<HTMLImageElement>("[data-lightbox-image]");
+      const lightboxStage = gallery.querySelector<HTMLElement>("[data-lightbox-stage]");
+      const lightboxCounter = gallery.querySelector<HTMLElement>("[data-lightbox-count]");
+      const previousButton = gallery.querySelector<HTMLButtonElement>("[data-lightbox-prev]");
+      const nextButton = gallery.querySelector<HTMLButtonElement>("[data-lightbox-next]");
+      const closeButtons = Array.from(gallery.querySelectorAll<HTMLElement>("[data-lightbox-close]"));
+      if (!main || !stage || !thumbs.length || !lightbox || !lightboxDialog || !lightboxImage || !lightboxStage) return;
 
       let activeIndex = 0;
-      let scrollFrame = 0;
+      let lastFocusedElement: HTMLElement | null = null;
+      let previousBodyOverflow = "";
+      let lightboxScale = 1;
+      let pinchStartDistance = 0;
+      let pinchStartScale = 1;
+      const pointers = new Map<number, { x: number; y: number }>();
+      const canHoverZoom = window.matchMedia("(min-width: 961px) and (hover: hover) and (pointer: fine)");
 
-      const updateState = (index: number, centerThumb = false) => {
-        activeIndex = Math.max(0, Math.min(index, slides.length - 1));
+      const getImageData = (index: number) => {
+        const thumb = thumbs[index];
+        return {
+          src: thumb?.dataset.gallerySrc ?? "",
+          alt: thumb?.dataset.galleryAlt ?? "B100 Ultra dental chair",
+        };
+      };
+
+      const resetLightboxZoom = () => {
+        lightboxScale = 1;
+        pinchStartDistance = 0;
+        pinchStartScale = 1;
+        pointers.clear();
+        lightboxImage.style.transform = "";
+      };
+
+      const updateLightboxImage = () => {
+        const { src, alt } = getImageData(activeIndex);
+        if (src) lightboxImage.src = src;
+        lightboxImage.alt = alt;
+        if (lightboxCounter) lightboxCounter.textContent = `${activeIndex + 1} / ${thumbs.length}`;
+        resetLightboxZoom();
+      };
+
+      const setActiveImage = (index: number, revealThumbnail = false) => {
+        activeIndex = (index + thumbs.length) % thumbs.length;
+        const { src, alt } = getImageData(activeIndex);
         thumbs.forEach((thumb, thumbIndex) => {
           const isActive = thumbIndex === activeIndex;
           thumb.classList.toggle("is-active", isActive);
           thumb.setAttribute("aria-pressed", String(isActive));
         });
-        if (previous instanceof HTMLButtonElement) previous.disabled = activeIndex === 0;
-        if (next instanceof HTMLButtonElement) next.disabled = activeIndex === slides.length - 1;
-        if (count) count.textContent = `${activeIndex + 1} / ${slides.length}`;
-        if (centerThumb) {
+        if (src) main.src = src;
+        main.alt = alt;
+        stage.setAttribute("aria-label", `Enlarge ${alt.toLowerCase()}`);
+        if (counter) counter.textContent = `${activeIndex + 1} / ${thumbs.length}`;
+        if (lightbox.classList.contains("is-open")) updateLightboxImage();
+        if (revealThumbnail) {
           thumbs[activeIndex]?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
         }
       };
 
-      const goTo = (index: number) => {
-        const nextIndex = Math.max(0, Math.min(index, slides.length - 1));
-        track.scrollTo({ left: nextIndex * track.clientWidth, behavior: "smooth" });
-        updateState(nextIndex, true);
+      const closeLightbox = () => {
+        if (!lightbox.classList.contains("is-open")) return;
+        lightbox.classList.remove("is-open");
+        lightbox.setAttribute("aria-hidden", "true");
+        document.body.style.overflow = previousBodyOverflow;
+        resetLightboxZoom();
+        lastFocusedElement?.focus();
       };
 
-      thumbs.forEach((thumb, index) => thumb.addEventListener("click", () => goTo(index)));
-      previous?.addEventListener("click", () => goTo(activeIndex - 1));
-      next?.addEventListener("click", () => goTo(activeIndex + 1));
-      track.addEventListener("keydown", (event) => {
+      const openLightbox = () => {
+        lastFocusedElement = document.activeElement instanceof HTMLElement ? document.activeElement : stage;
+        previousBodyOverflow = document.body.style.overflow;
+        updateLightboxImage();
+        lightbox.classList.add("is-open");
+        lightbox.setAttribute("aria-hidden", "false");
+        document.body.style.overflow = "hidden";
+        requestAnimationFrame(() => {
+          gallery.querySelector<HTMLButtonElement>(".b100-lightbox-close")?.focus();
+        });
+      };
+
+      thumbs.forEach((thumb, index) => {
+        thumb.addEventListener("click", () => setActiveImage(index));
+      });
+
+      stage.addEventListener("mousemove", (event) => {
+        if (!canHoverZoom.matches) return;
+        const bounds = stage.getBoundingClientRect();
+        const x = ((event.clientX - bounds.left) / bounds.width) * 100;
+        const y = ((event.clientY - bounds.top) / bounds.height) * 100;
+        stage.style.setProperty("--gallery-zoom-x", `${Math.max(0, Math.min(100, x))}%`);
+        stage.style.setProperty("--gallery-zoom-y", `${Math.max(0, Math.min(100, y))}%`);
+        stage.classList.add("is-zooming");
+      });
+      stage.addEventListener("mouseleave", () => stage.classList.remove("is-zooming"));
+      stage.addEventListener("click", openLightbox);
+
+      previousButton?.addEventListener("click", () => setActiveImage(activeIndex - 1, true));
+      nextButton?.addEventListener("click", () => setActiveImage(activeIndex + 1, true));
+      closeButtons.forEach((button) => button.addEventListener("click", closeLightbox));
+
+      lightbox.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+          event.preventDefault();
+          closeLightbox();
+          return;
+        }
         if (event.key === "ArrowLeft") {
           event.preventDefault();
-          goTo(activeIndex - 1);
+          setActiveImage(activeIndex - 1, true);
+          return;
         }
         if (event.key === "ArrowRight") {
           event.preventDefault();
-          goTo(activeIndex + 1);
+          setActiveImage(activeIndex + 1, true);
+          return;
+        }
+        if (event.key !== "Tab") return;
+        const focusable = Array.from(
+          lightboxDialog.querySelectorAll<HTMLElement>('button:not([disabled]), [href], [tabindex]:not([tabindex="-1"])'),
+        ).filter((element) => !element.hasAttribute("hidden"));
+        if (!focusable.length) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (event.shiftKey && document.activeElement === first) {
+          event.preventDefault();
+          last.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault();
+          first.focus();
         }
       });
-      track.addEventListener("scroll", () => {
-        cancelAnimationFrame(scrollFrame);
-        scrollFrame = requestAnimationFrame(() => {
-          const index = Math.round(track.scrollLeft / Math.max(1, track.clientWidth));
-          updateState(index);
-        });
-      }, { passive: true });
-      window.addEventListener("resize", () => {
-        track.scrollTo({ left: activeIndex * track.clientWidth, behavior: "auto" });
+
+      const pointerDistance = () => {
+        const [first, second] = Array.from(pointers.values());
+        return first && second ? Math.hypot(second.x - first.x, second.y - first.y) : 0;
+      };
+
+      lightboxStage.addEventListener("pointerdown", (event) => {
+        if (event.pointerType !== "touch") return;
+        pointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
+        lightboxStage.setPointerCapture(event.pointerId);
+        if (pointers.size === 2) {
+          pinchStartDistance = pointerDistance();
+          pinchStartScale = lightboxScale;
+        }
       });
-      updateState(0);
+      lightboxStage.addEventListener("pointermove", (event) => {
+        if (!pointers.has(event.pointerId)) return;
+        pointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
+        if (pointers.size !== 2 || !pinchStartDistance) return;
+        event.preventDefault();
+        lightboxScale = Math.max(1, Math.min(4, pinchStartScale * (pointerDistance() / pinchStartDistance)));
+        lightboxImage.style.transform = `scale(${lightboxScale})`;
+      });
+      const releasePointer = (event: PointerEvent) => {
+        pointers.delete(event.pointerId);
+        if (pointers.size < 2) {
+          pinchStartDistance = 0;
+          pinchStartScale = lightboxScale;
+        }
+      };
+      lightboxStage.addEventListener("pointerup", releasePointer);
+      lightboxStage.addEventListener("pointercancel", releasePointer);
+
+      setActiveImage(0);
+    });
+
+    document.querySelectorAll("[data-color-browser]").forEach((browser) => {
+      const image = browser.querySelector<HTMLImageElement>("[data-color-image]");
+      const currentName = browser.querySelector<HTMLElement>("[data-color-current-name]");
+      const description = browser.querySelector<HTMLElement>("[data-color-copy]");
+      const options = Array.from(browser.querySelectorAll<HTMLButtonElement>("[data-color-option]"));
+      if (!image || !currentName || !description || !options.length) return;
+
+      const setActiveColor = (option: HTMLButtonElement) => {
+        const nextImage = option.dataset.colorImage;
+        const code = option.dataset.colorCode ?? "";
+        const name = option.dataset.colorName ?? "";
+        if (nextImage) image.src = nextImage;
+        image.alt = option.dataset.colorAlt ?? "B100 Ultra dental chair";
+        currentName.textContent = `${code} · ${name}`;
+        description.textContent = option.dataset.colorDesc ?? "";
+        options.forEach((item) => {
+          const isActive = item === option;
+          item.classList.toggle("is-active", isActive);
+          item.setAttribute("aria-pressed", String(isActive));
+        });
+      };
+
+      options.forEach((option) => {
+        option.addEventListener("mouseenter", () => setActiveColor(option));
+        option.addEventListener("click", () => setActiveColor(option));
+        option.addEventListener("focus", () => setActiveColor(option));
+      });
+      setActiveColor(options[0]);
     });
 
     document.querySelectorAll(".b100-section-nav").forEach((nav) => {

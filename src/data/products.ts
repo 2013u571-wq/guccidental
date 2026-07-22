@@ -26,6 +26,7 @@ export type ChairTier = "economic" | "mid-range" | "high-end";
 export type ChairModel = {
   model: string;
   chairTier: ChairTier;
+  series: string;
   detailSlug?: string;
 };
 
@@ -167,56 +168,59 @@ export const products: Product[] = [
   }
 ];
 
-// The tier pages use this complete model index. Configuration copy will be added when supplied by the client.
+// The tier pages use this complete, series-ordered model index.
+// Descriptions and configuration chips are rendered only when verified product data exists.
 export const chairModels: ChairModel[] = [
-  { model: "H3", chairTier: "economic" },
-  { model: "H5", chairTier: "economic", detailSlug: "h5" },
-  { model: "QL2024", chairTier: "economic" },
-  { model: "QL2028 (2019)", chairTier: "economic" },
-  { model: "QL2028 I", chairTier: "economic" },
-  { model: "BZ636", chairTier: "economic" },
-  { model: "B6", chairTier: "economic" },
-  { model: "TJ2028 Comfort", chairTier: "economic" },
-  { model: "TJ2688 A1", chairTier: "economic" },
-  { model: "TJ-SA1", chairTier: "economic" },
-  { model: "P2", chairTier: "mid-range" },
-  { model: "P3", chairTier: "mid-range" },
-  { model: "P6", chairTier: "mid-range", detailSlug: "p6" },
-  { model: "G3", chairTier: "mid-range" },
-  { model: "G7", chairTier: "mid-range" },
-  { model: "QL-2028IV", chairTier: "mid-range" },
-  { model: "TJ2028I Elite", chairTier: "mid-range" },
-  { model: "TJ2028II Prime", chairTier: "mid-range" },
-  { model: "V2 Pro", chairTier: "mid-range" },
-  { model: "S610", chairTier: "mid-range" },
-  { model: "S620", chairTier: "mid-range" },
-  { model: "S630", chairTier: "mid-range" },
-  { model: "S640", chairTier: "mid-range" },
-  { model: "S650", chairTier: "mid-range" },
-  { model: "S660", chairTier: "mid-range" },
-  { model: "S690", chairTier: "mid-range" },
-  { model: "G1", chairTier: "high-end" },
-  { model: "G5", chairTier: "high-end" },
-  { model: "G5 Implant", chairTier: "high-end", detailSlug: "g5-implant" },
-  { model: "S670", chairTier: "high-end" },
-  { model: "S680", chairTier: "high-end" },
-  { model: "SL8500 without box A", chairTier: "high-end" },
-  { model: "SL8500 without box B", chairTier: "high-end" },
-  { model: "SL8500 Standard A", chairTier: "high-end" },
-  { model: "SL8500 Standard B", chairTier: "high-end" },
-  { model: "SL8500 B", chairTier: "high-end" },
-  { model: "B100L Premium", chairTier: "high-end" },
-  { model: "B100L Ultra", chairTier: "high-end" },
-  { model: "B100L Galaxy", chairTier: "high-end" },
-  { model: "M100(L)", chairTier: "high-end" },
-  { model: "M200(L)", chairTier: "high-end" },
-  { model: "V3 Implant", chairTier: "high-end" },
-  { model: "V3 Luxury", chairTier: "high-end" },
-  { model: "V3-Black", chairTier: "high-end" },
-  { model: "A6800", chairTier: "high-end" },
-  { model: "YD-S6", chairTier: "high-end" },
-  { model: "YD-S6 Implant", chairTier: "high-end" },
-  { model: "TJ-70", chairTier: "high-end" }
+  { model: "H3", chairTier: "economic", series: "H Series" },
+  { model: "H5", chairTier: "economic", series: "H Series", detailSlug: "h5" },
+  { model: "QL2024", chairTier: "economic", series: "QL Series" },
+  { model: "QL2028 (2019)", chairTier: "economic", series: "QL Series" },
+  { model: "QL2028 I", chairTier: "economic", series: "QL Series" },
+  { model: "BZ636", chairTier: "economic", series: "B Series" },
+  { model: "B6", chairTier: "economic", series: "B Series" },
+  { model: "TJ2028 Comfort", chairTier: "economic", series: "TJ Series" },
+  { model: "TJ2688 A1", chairTier: "economic", series: "TJ Series" },
+  { model: "TJ-SA1", chairTier: "economic", series: "TJ Series" },
+
+  { model: "P2", chairTier: "mid-range", series: "P Series" },
+  { model: "P3", chairTier: "mid-range", series: "P Series" },
+  { model: "P6", chairTier: "mid-range", series: "P Series", detailSlug: "p6" },
+  { model: "G3", chairTier: "mid-range", series: "G Series" },
+  { model: "G7", chairTier: "mid-range", series: "G Series" },
+  { model: "S610", chairTier: "mid-range", series: "S Series" },
+  { model: "S620", chairTier: "mid-range", series: "S Series" },
+  { model: "S630", chairTier: "mid-range", series: "S Series" },
+  { model: "S640", chairTier: "mid-range", series: "S Series" },
+  { model: "S650", chairTier: "mid-range", series: "S Series" },
+  { model: "S660", chairTier: "mid-range", series: "S Series" },
+  { model: "S690", chairTier: "mid-range", series: "S Series" },
+  { model: "TJ2028I Elite", chairTier: "mid-range", series: "TJ2028 Series" },
+  { model: "TJ2028II Prime", chairTier: "mid-range", series: "TJ2028 Series" },
+  { model: "QL-2028IV", chairTier: "mid-range", series: "Other Models" },
+  { model: "V2 Pro", chairTier: "mid-range", series: "Other Models" },
+
+  { model: "G1", chairTier: "high-end", series: "G Series" },
+  { model: "G5", chairTier: "high-end", series: "G Series" },
+  { model: "G5 Implant", chairTier: "high-end", series: "G Series", detailSlug: "g5-implant" },
+  { model: "S670", chairTier: "high-end", series: "S Series" },
+  { model: "S680", chairTier: "high-end", series: "S Series" },
+  { model: "SL8500 Standard A", chairTier: "high-end", series: "SL8500 Series" },
+  { model: "SL8500 Standard B", chairTier: "high-end", series: "SL8500 Series" },
+  { model: "SL8500 without box A", chairTier: "high-end", series: "SL8500 Series" },
+  { model: "SL8500 without box B", chairTier: "high-end", series: "SL8500 Series" },
+  { model: "SL8500 B", chairTier: "high-end", series: "SL8500 Series" },
+  { model: "B100L Ultra", chairTier: "high-end", series: "B100L Series" },
+  { model: "B100L Premium", chairTier: "high-end", series: "B100L Series" },
+  { model: "B100L Galaxy", chairTier: "high-end", series: "B100L Series" },
+  { model: "M100(L)", chairTier: "high-end", series: "M Series" },
+  { model: "M200(L)", chairTier: "high-end", series: "M Series" },
+  { model: "V3 Implant", chairTier: "high-end", series: "V3 Series" },
+  { model: "V3 Luxury", chairTier: "high-end", series: "V3 Series" },
+  { model: "V3-Black", chairTier: "high-end", series: "V3 Series" },
+  { model: "YD-S6", chairTier: "high-end", series: "YD-S6 Series" },
+  { model: "YD-S6 Implant", chairTier: "high-end", series: "YD-S6 Series" },
+  { model: "A6800", chairTier: "high-end", series: "Other Models" },
+  { model: "TJ-70", chairTier: "high-end", series: "Other Models" }
 ];
 
 export function getCategory(slug: string) {

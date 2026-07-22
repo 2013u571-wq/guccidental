@@ -2,7 +2,7 @@
 import BaseLayout from "@components/layout/BaseLayout.astro";
 import Button from "@components/ui/Button.astro";
 import InquiryCta from "@components/ui/InquiryCta.astro";
-import { chairModels, type ChairTier } from "@data/products";
+import { chairModels, products, type ChairModel, type ChairTier } from "@data/products";
 import { getLanguage, languages, localizedPath } from "@lib/i18n";
 
 const tierContent = {
@@ -42,6 +42,26 @@ if (!content) {
 
 const models = chairModels.filter((model) => model.chairTier === tier);
 const count = models.length;
+const productDetails = new Map(
+  products
+    .filter((product) => product.category === "dental-chair")
+    .map((product) => [product.model, product])
+);
+const modelGroups = Array.from(
+  models.reduce((groups, model) => {
+    const seriesModels = groups.get(model.series) ?? [];
+    seriesModels.push(model);
+    groups.set(model.series, seriesModels);
+    return groups;
+  }, new Map<string, ChairModel[]>())
+).map(([series, seriesModels]) => ({
+  series,
+  models: seriesModels,
+  id: `${tier}-${series}`
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "")
+}));
 const inquiryHref = (model: string) =>
   localizedPath(lang, `/contact/?message=${encodeURIComponent(`I'm interested in the ${model} dental chair.`)}`);
 ---
@@ -72,23 +92,88 @@ const inquiryHref = (model: string) =>
 
   <section class="chair-tier-models">
     <div class="container">
-      <div class="model-table" role="table" aria-label={`${content.title} models`}>
-        <div class="model-table-head" role="row">
-          <span role="columnheader">Model</span>
-          <span role="columnheader">Configuration</span>
-          <span role="columnheader">Actions</span>
-        </div>
+      <nav class="tier-series-jump" aria-label={`${content.title} series`}>
+        <span class="tier-series-jump-label">Jump to</span>
         {
-          models.map((model) => (
-            <div class="model-row" role="row">
-              <span class="model-name" role="cell">{model.model}</span>
-              {/* TODO: 待客户提供每个型号的一句话配置说明 */}
-              <span class="model-config" role="cell">—</span>
-              <span class="model-actions" role="cell">
-                {model.detailSlug && <a href={localizedPath(lang, `/products/dental-chair/${model.detailSlug}/`)}>Details</a>}
-                <a href={inquiryHref(model.model)}>Inquiry</a>
-              </span>
-            </div>
+          modelGroups.map((group) => (
+            <a href={`#${group.id}`}>{group.series}</a>
+          ))
+        }
+      </nav>
+
+      <div class="tier-model-groups">
+        {
+          modelGroups.map((group) => (
+            <section class="tier-model-group" id={group.id} aria-labelledby={`${group.id}-title`}>
+              <header class="tier-group-head">
+                <h2 id={`${group.id}-title`}>{group.series}</h2>
+                <span class="tier-group-count">{group.models.length} {group.models.length === 1 ? "model" : "models"}</span>
+                <span class="tier-group-rule" aria-hidden="true"></span>
+              </header>
+
+              <div class="tier-group-rows">
+                {
+                  group.models.map((model) => {
+                    const detail = productDetails.get(model.model);
+                    const detailHref = model.detailSlug
+                      ? localizedPath(lang, `/products/dental-chair/${model.detailSlug}/`)
+                      : undefined;
+                    const implantReady = model.model.includes("Implant");
+
+                    return (
+                      <article class="tier-model-row">
+                        <div class="tier-model-thumb" aria-hidden="true">
+                          <svg viewBox="0 0 112 72" aria-hidden="true">
+                            <path d="M18 46h48c6 0 10 4 10 9v2H27c-5 0-9-4-9-9v-2Z"></path>
+                            <path d="M27 45 17 25c-2-4 0-8 4-9l3-1c4-1 7 1 9 5l10 22"></path>
+                            <path d="m39 55-8 10h33l-6-8"></path>
+                            <path d="M68 46h17V29h10"></path>
+                            <path d="M77 30V15h18"></path>
+                            <path d="M88 15v8"></path>
+                            <path d="M82 23h13"></path>
+                            <path d="M84 31h15v12H84z"></path>
+                            <circle cx="87" cy="36" r="1"></circle>
+                            <circle cx="92" cy="36" r="1"></circle>
+                            <circle cx="97" cy="36" r="1"></circle>
+                            <path d="M72 43h28"></path>
+                          </svg>
+                          <span>Photo</span>
+                        </div>
+
+                        <div class="tier-model-meta">
+                          {
+                            detailHref ? (
+                              <a class="tier-model-name" href={detailHref}>{model.model}</a>
+                            ) : (
+                              <span class="tier-model-name">{model.model}</span>
+                            )
+                          }
+                          {detail?.summary && <p>{detail.summary}</p>}
+                          {
+                            implantReady && (
+                              <div class="tier-model-chips" aria-label={`${model.model} configuration`}>
+                                <span>Implant-ready</span>
+                              </div>
+                            )
+                          }
+                        </div>
+
+                        <div class="tier-model-actions">
+                          {
+                            detailHref && (
+                              <a class="tier-model-details" href={detailHref}>
+                                Details <span aria-hidden="true">→</span>
+                              </a>
+                            )
+                          }
+                          <a class="tier-model-inquiry" href={inquiryHref(model.model)}>Inquiry</a>
+                        </div>
+                      </article>
+                    );
+                  })
+                }
+              </div>
+            </section>
           ))
         }
       </div>
