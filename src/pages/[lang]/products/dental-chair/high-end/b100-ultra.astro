@@ -8,8 +8,8 @@ export function getStaticPaths() {
 }
 
 const lang = getLanguage(Astro.params.lang);
-const b100Message = "I'm interested in the B100 Ultra dental chair.";
-const datasheetMessage = "Please send me the B100 Ultra technical datasheet and configuration options.";
+const b100Message = "I'm interested in the B100L Ultra dental chair.";
+const datasheetMessage = "Please send me the B100L Ultra technical datasheet and configuration options.";
 const inquiryHref = localizedPath(lang, `/contact/?message=${encodeURIComponent(b100Message)}`);
 const datasheetHref = localizedPath(lang, `/contact/?message=${encodeURIComponent(datasheetMessage)}`);
 const contactHref = localizedPath(lang, "/contact/");
@@ -18,28 +18,28 @@ const productImageBase = "/images/products/dental-chair/b100-ultra";
 const galleryImages = [
   {
     src: `${productImageBase}/b100-ultra-blue-front-three-quarter.webp`,
-    alt: "B100 Ultra dental chair with blue upholstery in a complete front three-quarter view",
+    alt: "B100L Ultra dental chair with blue upholstery in a complete front three-quarter view",
     label: "Front three-quarter view",
     width: 2400,
     height: 1620,
   },
   {
     src: `${productImageBase}/b100-ultra-blue-rear-operator-workflow.webp`,
-    alt: "Rear operator view of the B100 Ultra dental chair with blue upholstery, dentist unit and assistant instruments",
+    alt: "Rear operator view of the B100L Ultra dental chair with blue upholstery, dentist unit and assistant instruments",
     label: "Rear operator workflow",
     width: 2400,
     height: 1620,
   },
   {
     src: `${productImageBase}/b100-ultra-blue-overhead-right-handed-workflow.webp`,
-    alt: "Overhead view of the B100 Ultra dental chair configured for a right-handed clinical workflow",
+    alt: "Overhead view of the B100L Ultra dental chair configured for a right-handed clinical workflow",
     label: "Right-handed workflow",
     width: 2400,
     height: 1620,
   },
   {
     src: `${productImageBase}/b100-ultra-blue-overhead-left-handed-workflow.webp`,
-    alt: "Overhead view of the B100 Ultra dental chair configured for a left-handed clinical workflow",
+    alt: "Overhead view of the B100L Ultra dental chair configured for a left-handed clinical workflow",
     label: "Left-handed workflow",
     width: 2400,
     height: 1620,
@@ -53,7 +53,7 @@ const upholsteryColors = [
     name: "Cream White",
     swatch: `${colorSwatchBase}/b100-ultra-k01-cream-white-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k01-cream-white.webp`,
-    alt: "B100 Ultra dental chair with K01 Cream White full-silicone upholstery",
+    alt: "B100L Ultra dental chair with K01 Cream White full-silicone upholstery",
     desc: "A soft neutral upholstery option for bright, minimal treatment rooms.",
   },
   {
@@ -61,7 +61,7 @@ const upholsteryColors = [
     name: "Gray Purple",
     swatch: `${colorSwatchBase}/b100-ultra-k02-gray-purple-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k02-gray-purple.webp`,
-    alt: "B100 Ultra dental chair with K02 Gray Purple full-silicone upholstery",
+    alt: "B100L Ultra dental chair with K02 Gray Purple full-silicone upholstery",
     desc: "K02 upholstery description pending.",
   },
   {
@@ -69,7 +69,7 @@ const upholsteryColors = [
     name: "Brown",
     swatch: `${colorSwatchBase}/b100-ultra-k03-brown-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k03-brown.webp`,
-    alt: "B100 Ultra dental chair with K03 Brown full-silicone upholstery",
+    alt: "B100L Ultra dental chair with K03 Brown full-silicone upholstery",
     desc: "K03 upholstery description pending.",
   },
   {
@@ -77,7 +77,7 @@ const upholsteryColors = [
     name: "Sky Gray",
     swatch: `${colorSwatchBase}/b100-ultra-k04-sky-gray-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k04-sky-gray.webp`,
-    alt: "B100 Ultra dental chair with K04 Sky Gray full-silicone upholstery",
+    alt: "B100L Ultra dental chair with K04 Sky Gray full-silicone upholstery",
     desc: "K04 upholstery description pending.",
   },
   {
@@ -85,7 +85,7 @@ const upholsteryColors = [
     name: "Glacier Blue",
     swatch: `${colorSwatchBase}/b100-ultra-k05-glacier-blue-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k05-glacier-blue.webp`,
-    alt: "B100 Ultra dental chair with K05 Glacier Blue full-silicone upholstery",
+    alt: "B100L Ultra dental chair with K05 Glacier Blue full-silicone upholstery",
     desc: "K05 upholstery description pending.",
   },
   {
@@ -93,7 +93,7 @@ const upholsteryColors = [
     name: "Ocean Blue",
     swatch: `${colorSwatchBase}/b100-ultra-k06-ocean-blue-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k06-ocean-blue.webp`,
-    alt: "B100 Ultra dental chair with K06 Ocean Blue full-silicone upholstery",
+    alt: "B100L Ultra dental chair with K06 Ocean Blue full-silicone upholstery",
     desc: "K06 upholstery description pending.",
   },
   {
@@ -101,7 +101,7 @@ const upholsteryColors = [
     name: "Sky Blue",
     swatch: `${colorSwatchBase}/b100-ultra-k07-sky-blue-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k07-sky-blue.webp`,
-    alt: "B100 Ultra dental chair with K07 Sky Blue full-silicone upholstery",
+    alt: "B100L Ultra dental chair with K07 Sky Blue full-silicone upholstery",
     desc: "K07 upholstery description pending.",
   },
   {
@@ -109,7 +109,7 @@ const upholsteryColors = [
     name: "Coffee",
     swatch: `${colorSwatchBase}/b100-ultra-k08-coffee-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k08-coffee.webp`,
-    alt: "B100 Ultra dental chair with K08 Coffee full-silicone upholstery",
+    alt: "B100L Ultra dental chair with K08 Coffee full-silicone upholstery",
     desc: "K08 upholstery description pending.",
   },
   {
@@ -117,7 +117,7 @@ const upholsteryColors = [
     name: "Black",
     swatch: `${colorSwatchBase}/b100-ultra-k09-black-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k09-black.webp`,
-    alt: "B100 Ultra dental chair with K09 Black full-silicone upholstery",
+    alt: "B100L Ultra dental chair with K09 Black full-silicone upholstery",
     desc: "K09 upholstery description pending.",
   },
   {
@@ -125,7 +125,7 @@ const upholsteryColors = [
     name: "Red",
     swatch: `${colorSwatchBase}/b100-ultra-k10-red-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k10-red.webp`,
-    alt: "B100 Ultra dental chair with K10 Red full-silicone upholstery",
+    alt: "B100L Ultra dental chair with K10 Red full-silicone upholstery",
     desc: "K10 upholstery description pending.",
   },
   {
@@ -133,7 +133,7 @@ const upholsteryColors = [
     name: "Orange",
     swatch: `${colorSwatchBase}/b100-ultra-k11-orange-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k11-orange.webp`,
-    alt: "B100 Ultra dental chair with K11 Orange full-silicone upholstery",
+    alt: "B100L Ultra dental chair with K11 Orange full-silicone upholstery",
     desc: "K11 upholstery description pending.",
   },
   {
@@ -141,32 +141,32 @@ const upholsteryColors = [
     name: "Grass Green",
     swatch: `${colorSwatchBase}/b100-ultra-k12-grass-green-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k12-grass-green.webp`,
-    alt: "B100 Ultra dental chair with K12 Grass Green full-silicone upholstery",
+    alt: "B100L Ultra dental chair with K12 Grass Green full-silicone upholstery",
     desc: "K12 upholstery description pending.",
   },
 ];
 ---
 
 <BaseLayout
-  title="B100 Ultra Dental Chair"
-  description="B100 Ultra high-end digital dental chair with a seven-inch touchscreen, 24 memory positions, Philips LED light, and full-silicone upholstery."
+  title="B100L Ultra Dental Chair"
+  description="B100L Ultra high-end digital dental chair with a seven-inch touchscreen, 24 memory positions, Philips LED light, and full-silicone upholstery."
   lang={lang}
   pathname={Astro.url.pathname}
   bodyClass="b100-detail-page"
 >
-  <!-- FILL: B100 Ultra 面包屑 — 当前层级已确认。 -->
+  <!-- FILL: B100L Ultra 面包屑 — 当前层级已确认。 -->
   <nav class="b100-breadcrumb" aria-label="Breadcrumb">
     <div class="container">
       <ol>
         <li><a href={localizedPath(lang, "/products/")}>Products</a></li>
         <li><a href={localizedPath(lang, "/products/dental-chair/")}>Dental Chair</a></li>
         <li><a href={tierHref}>High-end</a></li>
-        <li aria-current="page">B100 Ultra</li>
+        <li aria-current="page">B100L Ultra</li>
       </ol>
     </div>
   </nav>
 
-  <!-- B100 Ultra 产品图库、型号卖点和快速参数。 -->
+  <!-- B100L Ultra 产品图库、型号卖点和快速参数。 -->
   <section class="b100-product-hero">
     <div class="container b100-hero-layout">
       <div class="b100-gallery" data-gallery>
@@ -197,12 +197,12 @@ const upholsteryColors = [
           </span>
         </button>
 
-        <div class="b100-gallery-thumbs" role="group" aria-label="B100 Ultra image gallery">
+        <div class="b100-gallery-thumbs" role="group" aria-label="B100L Ultra image gallery">
           {galleryImages.map((image, index) => (
             <button
               class:list={["b100-thumb", { "is-active": index === 0 }]}
               type="button"
-              aria-label={`Show ${image.label.toLowerCase()} of the B100 Ultra dental chair`}
+              aria-label={`Show ${image.label.toLowerCase()} of the B100L Ultra dental chair`}
               aria-pressed={index === 0 ? "true" : "false"}
               data-gallery-src={image.src}
               data-gallery-alt={image.alt}
@@ -227,7 +227,7 @@ const upholsteryColors = [
           class="b100-lightbox"
           role="dialog"
           aria-modal="true"
-          aria-label="B100 Ultra image viewer"
+          aria-label="B100L Ultra image viewer"
           aria-hidden="true"
           data-gallery-lightbox
         >
@@ -266,7 +266,7 @@ const upholsteryColors = [
 
       <div class="b100-hero-copy">
         <span class="b100-tier-badge">High-end Series</span>
-        <h1>B100 Ultra Dental Chair</h1>
+        <h1>B100L Ultra Dental Chair</h1>
         <p class="b100-product-model">Full digital left/right dental chair</p>
         <p class="b100-tagline">A fully digital American-style dental chair for premium practices, combining a one-minute left/right workflow with a seven-inch touchscreen control system and smart chair memory.</p>
 
@@ -274,7 +274,7 @@ const upholsteryColors = [
           <div><span>Chair positions</span><strong>24 memory positions</strong></div>
           <div><span>Operating light</span><strong>Philips 8-bead LED</strong></div>
           <div><span>Upholstery</span><strong>Full silicone leather · 12 colors</strong></div>
-          <div><span>Warranty</span><strong>3 years · spare parts support</strong></div>
+          <div><span>Warranty</span><strong>2 years · spare parts support</strong></div>
         </div>
 
         <div class="b100-hero-actions">
@@ -291,7 +291,7 @@ const upholsteryColors = [
     </div>
   </section>
 
-  <nav class="b100-section-nav" aria-label="B100 Ultra page sections">
+  <nav class="b100-section-nav" aria-label="B100L Ultra page sections">
     <div class="container">
       <a href="#overview" aria-current="true">Overview</a>
       <a href="#features">Features</a>
@@ -302,14 +302,14 @@ const upholsteryColors = [
     </div>
   </nav>
 
-  <!-- B100 Ultra 核心卖点 — 根据产品资料归纳为数字化、工作流、记忆位与承重舒适性。 -->
+  <!-- B100L Ultra 核心卖点 — 根据产品资料归纳为数字化、工作流、记忆位与承重舒适性。 -->
   <section class="b100-points-band" id="overview">
     <div class="container">
       <div class="b100-points-layout">
         <div class="b100-points-content">
           <header class="b100-points-heading">
             <span class="b100-eyebrow">Key selling points</span>
-            <h2>Why clinics choose the B100 Ultra</h2>
+            <h2>Why clinics choose the B100L Ultra</h2>
           </header>
 
           <div class="b100-points-grid">
@@ -360,11 +360,11 @@ const upholsteryColors = [
         </div>
 
         <!-- TODO: 收到正式 YouTube 链接后，将此占位替换为响应式 iframe。 -->
-        <aside class="b100-video-panel" aria-label="B100 Ultra product video">
+        <aside class="b100-video-panel" aria-label="B100L Ultra product video">
           <div
             class="b100-video-placeholder"
             role="img"
-            aria-label="Placeholder for the B100 Ultra product video"
+            aria-label="Placeholder for the B100L Ultra product video"
           >
             <span class="b100-video-play" aria-hidden="true">
               <svg viewBox="0 0 32 32">
@@ -372,7 +372,7 @@ const upholsteryColors = [
               </svg>
             </span>
             <span class="b100-video-label">Product video</span>
-            <strong>See the B100 Ultra in action</strong>
+            <strong>See the B100L Ultra in action</strong>
             <small>YouTube video coming soon</small>
           </div>
         </aside>
@@ -380,7 +380,7 @@ const upholsteryColors = [
     </div>
   </section>
 
-  <!-- B100 Ultra 图文特性 — 以主功能、双功能卡和全宽色卡浏览器建立清晰节奏。 -->
+  <!-- B100L Ultra 图文特性 — 以主功能、双功能卡和全宽色卡浏览器建立清晰节奏。 -->
   <section class="b100-features-band" id="features">
     <div class="container">
       <span class="b100-eyebrow">Features</span>
@@ -390,7 +390,7 @@ const upholsteryColors = [
           <figure class="b100-feature-media">
             <img
               src={`${productImageBase}/b100-ultra-delivery-unit-touchscreen-detail.webp`}
-              alt="B100 Ultra dentist delivery unit with instrument tray, handpiece holders and seven-inch touchscreen"
+              alt="B100L Ultra dentist delivery unit with instrument tray, handpiece holders and seven-inch touchscreen"
               width="1800"
               height="1604"
               loading="lazy"
@@ -414,7 +414,7 @@ const upholsteryColors = [
             <figure class="b100-feature-media">
               <img
                 src={`${productImageBase}/b100-ultra-integrated-motor-control-screen.webp`}
-                alt="B100 Ultra touchscreen displaying integrated electric motor settings and operating controls"
+                alt="B100L Ultra touchscreen displaying integrated electric motor settings and operating controls"
                 width="1800"
                 height="1604"
                 loading="lazy"
@@ -431,7 +431,7 @@ const upholsteryColors = [
             <figure class="b100-feature-media">
               <img
                 src={`${productImageBase}/b100-ultra-philips-led-operating-light-detail.webp`}
-                alt="Close-up of the B100 Ultra Philips eight-bead LED operating light and articulated arm"
+                alt="Close-up of the B100L Ultra Philips eight-bead LED operating light and articulated arm"
                 width="1800"
                 height="1604"
                 loading="lazy"
@@ -450,7 +450,7 @@ const upholsteryColors = [
           <figure class="b100-feature-media">
             <img
               src={`${productImageBase}/b100-ultra-touchscreen-disinfection-programs.webp`}
-              alt="B100 Ultra touchscreen showing rinse, standard and deep disinfection programs"
+              alt="B100L Ultra touchscreen showing rinse, standard and deep disinfection programs"
               width="1800"
               height="1604"
               loading="lazy"
@@ -518,16 +518,16 @@ const upholsteryColors = [
     </div>
   </section>
 
-  <!-- B100 Ultra 技术参数 — 已按客户确认的最新参数录入。 -->
+  <!-- B100L Ultra 技术参数 — 已按客户确认的最新参数录入。 -->
   <section class="b100-specs-band" id="specifications">
     <div class="container">
       <div class="b100-content-narrow">
         <span class="b100-eyebrow">Technical specifications</span>
-        <h2>B100 Ultra full specification sheet</h2>
+        <h2>B100L Ultra full specification sheet</h2>
         <div class="b100-specs-wrap">
           <table class="b100-specs-table">
             <tbody>
-              <tr><td>Model</td><td>B100 Ultra</td></tr>
+              <tr><td>Model</td><td>B100L Ultra</td></tr>
               <tr><td>Tier</td><td>High-end</td></tr>
               <tr><td>Motor type</td><td>Timotion, 10,000N lift force, 4,000N backrest force</td></tr>
               <tr><td>Control panel</td><td>7" touchscreen centralizes control of electric motor, scaler, turbines</td></tr>
@@ -562,7 +562,7 @@ const upholsteryColors = [
           </div>
           <div>
             <span class="b100-eyebrow">Product resources</span>
-            <h2>Get the B100 Ultra technical pack</h2>
+            <h2>Get the B100L Ultra technical pack</h2>
             <p>Request the specification sheet, available configurations and installation requirements for procurement review.</p>
           </div>
           <div class="b100-resource-actions">
@@ -574,18 +574,18 @@ const upholsteryColors = [
     </div>
   </section>
 
-  <!-- B100 Ultra FAQ — 答案仅使用客户产品资料中已确认的功能参数。 -->
+  <!-- B100L Ultra FAQ — 答案仅使用客户产品资料中已确认的功能参数。 -->
   <section class="b100-faq-band" id="faq">
     <div class="container">
       <div class="b100-content-narrow b100-faq-layout">
-        <div><span class="b100-eyebrow">FAQ</span><h2>Questions about the B100 Ultra</h2></div>
+        <div><span class="b100-eyebrow">FAQ</span><h2>Questions about the B100L Ultra</h2></div>
         <div class="b100-faq-list" data-faq-list>
-          <article class="is-open"><button type="button" aria-expanded="true"><span>How many chair positions can the B100 Ultra save?</span><i>+</i></button><p>The B100 Ultra provides 24 memory positions, allowing frequently used treatment positions to be recalled efficiently.</p></article>
+          <article class="is-open"><button type="button" aria-expanded="true"><span>How many chair positions can the B100L Ultra save?</span><i>+</i></button><p>The B100L Ultra provides 24 memory positions, allowing frequently used treatment positions to be recalled efficiently.</p></article>
           <article><button type="button" aria-expanded="false"><span>What can be controlled from the touchscreen?</span><i>+</i></button><p>The seven-inch touchscreen centralizes control of the electric motor, scaler and turbines.</p></article>
           <article><button type="button" aria-expanded="false"><span>What operating light and cuspidor are supplied?</span><i>+</i></button><p>The chair uses a Philips eight-bead LED operating light rated at 40,000 lux. Its ceramic cuspidor is rotatable and removable.</p></article>
-          <article><button type="button" aria-expanded="false"><span>What upholstery does the B100 Ultra use?</span><i>+</i></button><p>It uses full-silicone, skin-friendly leather designed to provide a comfortable patient surface.</p></article>
-          <article><button type="button" aria-expanded="false"><span>Which certifications and imported components are included?</span><i>+</i></button><p>The B100 Ultra is certified to ISO, CE and FDA requirements. It uses German-imported water and gas pipes and Italian-imported solenoid valves.</p></article>
-          <article><button type="button" aria-expanded="false"><span>What warranty and stools come with the chair?</span><i>+</i></button><p>The B100 Ultra carries a two-year warranty and includes one doctor stool and one assistant stool.</p></article>
+          <article><button type="button" aria-expanded="false"><span>What upholstery does the B100L Ultra use?</span><i>+</i></button><p>It uses full-silicone, skin-friendly leather designed to provide a comfortable patient surface.</p></article>
+          <article><button type="button" aria-expanded="false"><span>Which certifications and imported components are included?</span><i>+</i></button><p>The B100L Ultra is certified to ISO, CE and FDA requirements. It uses German-imported water and gas pipes and Italian-imported solenoid valves.</p></article>
+          <article><button type="button" aria-expanded="false"><span>What warranty and stools come with the chair?</span><i>+</i></button><p>The B100L Ultra carries a two-year warranty and includes one doctor stool and one assistant stool.</p></article>
         </div>
       </div>
     </div>
@@ -625,7 +625,7 @@ const upholsteryColors = [
     </div>
   </section>
 
-  <!-- FILL: B100 Ultra 最终询盘引导 — 复用项目现有询盘组件，并预填型号名称。 -->
+  <!-- FILL: B100L Ultra 最终询盘引导 — 复用项目现有询盘组件，并预填型号名称。 -->
   <InquiryCta contactHref={contactHref} message={b100Message} />
 
   <script>
@@ -657,7 +657,7 @@ const upholsteryColors = [
         const thumb = thumbs[index];
         return {
           src: thumb?.dataset.gallerySrc ?? "",
-          alt: thumb?.dataset.galleryAlt ?? "B100 Ultra dental chair",
+          alt: thumb?.dataset.galleryAlt ?? "B100L Ultra dental chair",
         };
       };
 
@@ -815,7 +815,7 @@ const upholsteryColors = [
         const code = option.dataset.colorCode ?? "";
         const name = option.dataset.colorName ?? "";
         if (nextImage) image.src = nextImage;
-        image.alt = option.dataset.colorAlt ?? "B100 Ultra dental chair";
+        image.alt = option.dataset.colorAlt ?? "B100L Ultra dental chair";
         currentName.textContent = `${code} · ${name}`;
         description.textContent = option.dataset.colorDesc ?? "";
         options.forEach((item) => {
