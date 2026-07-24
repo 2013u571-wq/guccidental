@@ -11,6 +11,9 @@ const lang = getLanguage(Astro.params.lang);
 const b100Message = "I'm interested in the B100L Ultra dental chair.";
 const inquiryHref = localizedPath(lang, `/contact/?message=${encodeURIComponent(b100Message)}`);
 const datasheetHref = "https://media.guccidental.com/documents/products/dental-chair/b100l-ultra/b100l-ultra-catalog.pdf";
+const manualHref = import.meta.env.DEV
+  ? "/downloads/guccidental-b100-series-user-manual.pdf"
+  : "https://media.guccidental.com/downloads/guccidental-b100-series-user-manual.pdf";
 const contactHref = localizedPath(lang, "/contact/");
 const tierHref = localizedPath(lang, "/products/dental-chair/high-end/");
 const productImageBase = "https://media.guccidental.com/images/products/dental-chair/b100-ultra";
@@ -580,15 +583,44 @@ const upholsteryColors = [
   <!-- B100L Ultra FAQ — 答案仅使用客户产品资料中已确认的功能参数。 -->
   <section class="b100-faq-band" id="faq">
     <div class="container">
-      <div class="b100-content-narrow b100-faq-layout">
-        <div><span class="b100-eyebrow">FAQ</span><h2>Questions about the B100L Ultra</h2></div>
-        <div class="b100-faq-list" data-faq-list>
-          <article class="is-open"><button type="button" aria-expanded="true"><span>How many chair positions can the B100L Ultra save?</span><i>+</i></button><p>The B100L Ultra provides 24 memory positions, allowing frequently used treatment positions to be recalled efficiently.</p></article>
-          <article><button type="button" aria-expanded="false"><span>What can be controlled from the touchscreen?</span><i>+</i></button><p>The seven-inch touchscreen centralizes control of the electric motor, scaler and turbines.</p></article>
-          <article><button type="button" aria-expanded="false"><span>What operating light and cuspidor are supplied?</span><i>+</i></button><p>The chair uses a Philips eight-bead LED operating light rated at 40,000 lux. Its ceramic cuspidor is rotatable and removable.</p></article>
-          <article><button type="button" aria-expanded="false"><span>What upholstery does the B100L Ultra use?</span><i>+</i></button><p>It uses full-silicone, skin-friendly leather designed to provide a comfortable patient surface.</p></article>
-          <article><button type="button" aria-expanded="false"><span>Which certifications and imported components are included?</span><i>+</i></button><p>The B100L Ultra is certified to ISO, CE and FDA requirements. It uses German-imported water and gas pipes and Italian-imported solenoid valves.</p></article>
-          <article><button type="button" aria-expanded="false"><span>What warranty and stools come with the chair?</span><i>+</i></button><p>The B100L Ultra carries a two-year warranty and includes one doctor stool and one assistant stool.</p></article>
+      <div class="b100-content-narrow">
+        <span class="b100-eyebrow">FAQ</span>
+        <h2>Questions about the B100L Ultra</h2>
+        <div class="b100-faq-layout">
+          <div>
+            <a
+              class="b100-manual-card"
+              href={manualHref}
+              target="_blank"
+              rel="noopener"
+              download
+            >
+              <img
+                class="b100-manual-card__cover"
+                src="/images/docs/b100-series-manual-cover.webp"
+                alt="Front cover of the Guccidental B100 Series integral dental unit user manual"
+                width="300"
+                height="424"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="b100-manual-card__download-bar">
+                <svg class="b100-manual-card__download-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path d="M8 2v8m0 0 3-3m-3 3-3-3M2.5 13.25h11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <span class="b100-manual-card__download-label">Get the manual</span>
+                <span class="b100-manual-card__download-size">2.4 MB</span>
+              </span>
+            </a>
+          </div>
+          <div class="b100-faq-list" data-faq-list>
+            <article class="is-open"><button type="button" aria-expanded="true"><span>How many chair positions can the B100L Ultra save?</span><i>+</i></button><p>The B100L Ultra provides 24 memory positions, allowing frequently used treatment positions to be recalled efficiently.</p></article>
+            <article><button type="button" aria-expanded="false"><span>What can be controlled from the touchscreen?</span><i>+</i></button><p>The seven-inch touchscreen centralizes control of the electric motor, scaler and turbines.</p></article>
+            <article><button type="button" aria-expanded="false"><span>What operating light and cuspidor are supplied?</span><i>+</i></button><p>The chair uses a Philips eight-bead LED operating light rated at 40,000 lux. Its ceramic cuspidor is rotatable and removable.</p></article>
+            <article><button type="button" aria-expanded="false"><span>What upholstery does the B100L Ultra use?</span><i>+</i></button><p>It uses full-silicone, skin-friendly leather designed to provide a comfortable patient surface.</p></article>
+            <article><button type="button" aria-expanded="false"><span>Which certifications and imported components are included?</span><i>+</i></button><p>The B100L Ultra is certified to ISO, CE and FDA requirements. It uses German-imported water and gas pipes and Italian-imported solenoid valves.</p></article>
+            <article><button type="button" aria-expanded="false"><span>What warranty and stools come with the chair?</span><i>+</i></button><p>The B100L Ultra carries a two-year warranty and includes one doctor stool and one assistant stool.</p></article>
+          </div>
         </div>
       </div>
     </div>
