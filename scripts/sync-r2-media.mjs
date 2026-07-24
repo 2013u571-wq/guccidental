@@ -41,11 +41,31 @@ function run(command, args) {
   });
 }
 
+async function runWithRetry(command, args, attempts = 3) {
+  let lastError;
+
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    try {
+      await run(command, args);
+      return;
+    } catch (error) {
+      lastError = error;
+      if (attempt === attempts) break;
+
+      const delayMs = attempt * 2000;
+      console.warn(`Upload attempt ${attempt}/${attempts} failed; retrying in ${delayMs / 1000}s.`);
+      await new Promise((resolvePromise) => setTimeout(resolvePromise, delayMs));
+    }
+  }
+
+  throw lastError;
+}
+
 const files = (await Promise.all(mediaDirectories.map((directory) => collectFiles(resolve(publicDirectory, directory))))).flat();
 
 for (const filePath of files) {
   const objectKey = relative(publicDirectory, filePath).split(sep).join("/");
-  await run("npx", [
+  await runWithRetry("npx", [
     "--yes",
     "wrangler@4.71.0",
     "r2",
