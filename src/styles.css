@@ -9001,8 +9001,66 @@ img.partner-tile-img {
 .b100-resource-download { display: grid; gap: 8px; }
 .b100-resource-meta { color: #6f6f6f; font-size: 12px; line-height: 1.4; text-align: center; }
 
-.b100-faq-layout { display: grid; gap: 56px; grid-template-columns: minmax(220px, .7fr) minmax(0, 1.3fr); }
-.b100-faq-layout h2 { margin-bottom: 0; }
+.b100-faq-layout { align-items: start; display: grid; gap: 48px; grid-template-columns: 300px 1fr; }
+.b100-manual-card {
+  background: #fff;
+  border: 1px solid rgba(15, 23, 42, .1);
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: inherit;
+  display: block;
+  font-family: var(--font-body);
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  text-decoration: none;
+  width: 300px;
+}
+.b100-manual-card:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 3px;
+}
+.b100-manual-card__cover {
+  border: none;
+  border-radius: 0;
+  display: block;
+  height: 424px;
+  max-width: none;
+  object-fit: cover;
+  width: 300px;
+}
+.b100-manual-card__download-bar {
+  align-items: center;
+  background: #0f2547;
+  bottom: 0;
+  color: #fff;
+  display: flex;
+  font-family: var(--font-body);
+  gap: 10px;
+  left: 0;
+  padding: 14px 18px;
+  position: absolute;
+  right: 0;
+  transition: background-color .15s ease;
+}
+.b100-manual-card__download-icon { flex: none; height: 16px; width: 16px; }
+.b100-manual-card__download-label { font-size: 14px; font-weight: 500; }
+.b100-manual-card__download-size { color: #93a4bd; font-size: 12px; margin-left: auto; }
+.b100-manual-card:hover .b100-manual-card__download-bar { background-color: #1a3a63; }
+@media (max-width: 767px) {
+  .b100-manual-card {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .b100-manual-card__cover {
+    height: auto;
+    width: 100%;
+  }
+
+  .b100-faq-layout { gap: 32px; grid-template-columns: 1fr; }
+}
+
 .b100-faq-list article { border-bottom: 1px solid #e0e0e0; padding: 20px 0; }
 .b100-faq-list article:first-child { border-top: 1px solid #e0e0e0; }
 .b100-faq-list button { align-items: center; background: transparent; border: 0; color: #161616; cursor: pointer; display: flex; font: inherit; font-size: 16px; font-weight: 500; gap: 16px; justify-content: space-between; padding: 0; text-align: left; width: 100%; }
@@ -9048,7 +9106,7 @@ img.partner-tile-img {
 
 @media (max-width: 900px) {
   .b100-product-hero, .b100-features-band, .b100-faq-band, .b100-points-band, .b100-specs-band, .b100-downloads-band, .b100-related-band { padding: 64px 0; }
-  .b100-hero-layout, .b100-faq-layout { gap: 32px; grid-template-columns: 1fr; }
+  .b100-hero-layout { gap: 32px; grid-template-columns: 1fr; }
   .b100-section-nav .container { gap: 10px; }
   .b100-points-layout { grid-template-columns: 1fr; }
   .b100-feature-focus { gap: 28px; grid-template-columns: 1fr; padding: 24px; }
