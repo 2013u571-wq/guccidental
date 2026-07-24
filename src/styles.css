@@ -8998,6 +8998,8 @@ img.partner-tile-img {
 .b100-resource-card p { color: #6f6f6f; font-size: 15px; line-height: 1.6; margin: 0; max-width: 600px; }
 .b100-resource-actions { display: grid; gap: 10px; }
 .b100-resource-actions .b100-btn { width: 100%; }
+.b100-resource-download { display: grid; gap: 8px; }
+.b100-resource-meta { color: #6f6f6f; font-size: 12px; line-height: 1.4; text-align: center; }
 
 .b100-faq-layout { display: grid; gap: 56px; grid-template-columns: minmax(220px, .7fr) minmax(0, 1.3fr); }
 .b100-faq-layout h2 { margin-bottom: 0; }

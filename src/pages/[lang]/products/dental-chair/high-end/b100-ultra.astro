@@ -9,12 +9,11 @@ export function getStaticPaths() {
 
 const lang = getLanguage(Astro.params.lang);
 const b100Message = "I'm interested in the B100L Ultra dental chair.";
-const datasheetMessage = "Please send me the B100L Ultra technical datasheet and configuration options.";
 const inquiryHref = localizedPath(lang, `/contact/?message=${encodeURIComponent(b100Message)}`);
-const datasheetHref = localizedPath(lang, `/contact/?message=${encodeURIComponent(datasheetMessage)}`);
+const datasheetHref = "https://media.guccidental.com/documents/products/dental-chair/b100l-ultra/b100l-ultra-catalog.pdf";
 const contactHref = localizedPath(lang, "/contact/");
 const tierHref = localizedPath(lang, "/products/dental-chair/high-end/");
-const productImageBase = "/images/products/dental-chair/b100-ultra";
+const productImageBase = "https://media.guccidental.com/images/products/dental-chair/b100-ultra";
 const galleryImages = [
   {
     src: `${productImageBase}/b100-ultra-blue-front-three-quarter.webp`,
@@ -551,7 +550,7 @@ const upholsteryColors = [
     </div>
   </section>
 
-  <!-- 尚未上传公开下载文件；改为真实的资料索取入口，避免展示无效下载。 -->
+  <!-- Product catalog is hosted on Cloudflare R2; Git stores only the public file URL. -->
   <section class="b100-downloads-band" id="product-resources">
     <div class="container">
       <div class="b100-content-narrow">
@@ -561,11 +560,16 @@ const upholsteryColors = [
           </div>
           <div>
             <span class="b100-eyebrow">Product resources</span>
-            <h2>Get the B100L Ultra technical pack</h2>
-            <p>Request the specification sheet, available configurations and installation requirements for procurement review.</p>
+            <h2>B100L Ultra product catalog</h2>
+            <p>Specifications, configurations, installation requirements, and ordering reference.</p>
           </div>
           <div class="b100-resource-actions">
-            <a class="b100-btn b100-btn-primary" href={datasheetHref}>Request Datasheet</a>
+            <div class="b100-resource-download">
+              <a class="b100-btn b100-btn-primary" href={datasheetHref} target="_blank" rel="noopener noreferrer">
+                View Product Catalog <span aria-hidden="true">↗</span>
+              </a>
+              <span class="b100-resource-meta">PDF · 3.0 MB · Opens in a new tab</span>
+            </div>
             <a class="b100-btn b100-btn-secondary" href={inquiryHref}>Discuss Configuration</a>
           </div>
         </div>
@@ -599,7 +603,7 @@ const upholsteryColors = [
         <!-- TODO: SL8500 detail page is pending; link to the High-end tier meanwhile. -->
         <a href={tierHref}>
           <span class="b100-related-media">
-            <img src="/images/products/dental-chair/sl8500.webp" alt="SL8500 high-end dental chair with brown upholstery and integrated delivery unit" width="1400" height="1211" loading="lazy" decoding="async" />
+            <img src="https://media.guccidental.com/images/products/dental-chair/sl8500.webp" alt="SL8500 high-end dental chair with brown upholstery and integrated delivery unit" width="1400" height="1211" loading="lazy" decoding="async" />
           </span>
           <span class="b100-related-copy">
             <small>High-end</small>
@@ -611,7 +615,7 @@ const upholsteryColors = [
         <!-- TODO: V3 detail page is pending; link to the High-end tier meanwhile. -->
         <a href={tierHref}>
           <span class="b100-related-media">
-            <img src="/images/products/dental-chair/v3.webp" alt="V3 high-end dental chair with black upholstery" width="1200" height="890" loading="lazy" decoding="async" />
+            <img src="https://media.guccidental.com/images/products/dental-chair/v3.webp" alt="V3 high-end dental chair with black upholstery" width="1200" height="890" loading="lazy" decoding="async" />
           </span>
           <span class="b100-related-copy">
             <small>High-end</small>
