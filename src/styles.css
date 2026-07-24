@@ -9277,6 +9277,11 @@ img.partner-tile-img {
   }
 }
 
+/* Keep long screen-reader descriptions out of the mobile layout overflow area. */
+.sr-only {
+  position: fixed;
+}
+
 @media (max-width: 767px) {
   /* Keep one consistent mobile section rhythm. Safe-area compensation belongs
      at the page edge, not between adjacent homepage bands. */
