@@ -7154,9 +7154,19 @@ img.partner-tile-img {
   width: 100%;
 }
 
+/* The supplied V3 image has more transparent/white canvas around the chair. */
+.chair-card-media img.chair-card-image--v3 {
+  transform: scale(1.25);
+}
+
 .chair-card-media-link:hover img,
 .chair-card-media-link:focus-visible img {
   transform: scale(1.04);
+}
+
+.chair-card-media-link:hover img.chair-card-image--v3,
+.chair-card-media-link:focus-visible img.chair-card-image--v3 {
+  transform: scale(1.3);
 }
 
 .chair-card-content {

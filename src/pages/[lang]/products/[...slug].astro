@@ -155,10 +155,10 @@ const partnerTiles = [
                     <div class="chair-card-media">
                       {chair.detailPath ? (
                         <a class="chair-card-media-link" href={detailHref} aria-label={`View ${chair.model} details`}>
-                          <img src={chair.image} alt={chair.alt} width="1200" height="900" loading="lazy" decoding="async" />
+                          <img class:list={{ "chair-card-image--v3": chair.model === "V3" }} src={chair.image} alt={chair.alt} width="1200" height="900" loading="lazy" decoding="async" />
                         </a>
                       ) : (
-                        <img src={chair.image} alt={chair.alt} width="1200" height="900" loading="lazy" decoding="async" />
+                        <img class:list={{ "chair-card-image--v3": chair.model === "V3" }} src={chair.image} alt={chair.alt} width="1200" height="900" loading="lazy" decoding="async" />
                       )}
                     </div>
                     <div class="chair-card-content">
