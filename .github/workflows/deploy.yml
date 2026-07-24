@@ -26,6 +26,9 @@ jobs:
         with:
           node-version: 24
 
+      - name: Verify built media uses Cloudflare R2
+        run: node scripts/verify-r2-media-build.mjs
+
       # Required repository configuration:
       # - CLOUDFLARE_API_TOKEN secret with Workers R2 Storage Edit permission
       #   for the account that owns the guccident-media bucket.
