@@ -2375,6 +2375,10 @@
     position: absolute;
   }
 
+  .hero-mobile-media {
+    display: none;
+  }
+
   .hero-video-media {
     height: 100%;
     inset: 0;
@@ -5865,6 +5869,25 @@
     .hero-slider {
       height: clamp(440px, 60vh, 540px);
       min-height: 440px;
+    }
+
+    .hero-mobile-media {
+      display: block;
+      inset: 0;
+      margin: 0;
+      position: absolute;
+    }
+
+    .hero-mobile-media img {
+      display: block;
+      height: 100%;
+      object-fit: cover;
+      object-position: center bottom;
+      width: 100%;
+    }
+
+    .hero-video-bg {
+      display: none;
     }
 
     .hero-video-copy {
