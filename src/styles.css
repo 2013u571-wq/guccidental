@@ -8565,9 +8565,9 @@ img.partner-tile-img {
 .b100-breadcrumb li:last-child { color: #161616; font-weight: 500; }
 .b100-breadcrumb a:hover, .b100-breadcrumb a:focus-visible { color: #1e4fa3; }
 
-.b100-product-hero, .b100-features-band, .b100-case-band, .b100-faq-band { background: #fff; padding: 80px 0; }
+.b100-product-hero, .b100-features-band, .b100-faq-band { background: #fff; padding: 80px 0; }
 .b100-product-hero { padding: 72px 0 48px; }
-.b100-points-band, .b100-specs-band, .b100-downloads-band, .b100-related-band { background: #f6f9fc; padding: 80px 0; }
+.b100-points-band, .b100-specs-band, .b100-downloads-band, .b100-case-band, .b100-related-band { background: #f6f9fc; padding: 80px 0; }
 #overview, #features, #colors, #specifications, #product-resources, #case, #faq { scroll-margin-top: 132px; }
 
 .b100-hero-layout { align-items: start; display: grid; gap: clamp(32px, 4vw, 56px); grid-template-columns: minmax(0, 1.45fr) minmax(340px, 1fr); }
