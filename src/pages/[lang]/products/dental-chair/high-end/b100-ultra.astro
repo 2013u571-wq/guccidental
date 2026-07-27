@@ -50,28 +50,28 @@ const galleryImages = [
 const caseStudyImageBase = "https://media.guccidental.com/images/cases/b100-ultra";
 const caseStudyImages = [
   {
-    src: `${caseStudyImageBase}/b100-ultra-clinic-treatment-room.webp`,
-    alt: "B100L Ultra dental chair installed in a warm wood-panelled treatment room with integrated operating light and delivery system",
-    title: "A complete treatment-room setup",
-    description: "Blue upholstery, integrated delivery and operating light presented in a finished clinical environment.",
-  },
-  {
     src: `${caseStudyImageBase}/b100-ultra-clinic-front-view.webp`,
-    alt: "Front view of a blue B100L Ultra dental chair installed in a bright treatment room",
+    alt: "Guccidental B100L Ultra dental chair with overhead light in a treatment room",
     title: "Comfort-led patient positioning",
-    description: "A clear view of the chair, patient unit and overhead operating light.",
+    description: "Chair, patient unit and overhead light in one view.",
   },
   {
     src: `${caseStudyImageBase}/b100-ultra-clinic-window-side-view.webp`,
-    alt: "Side view of the blue B100L Ultra dental chair in a sunlit treatment room by full-height windows",
+    alt: "B100L Ultra unit in a bright open dental clinic",
     title: "Built for bright, open clinics",
-    description: "The streamlined chair profile sits naturally within the treatment-room layout.",
+    description: "Streamlined profile fits the room layout.",
   },
   {
     src: `${caseStudyImageBase}/b100-ultra-clinic-rear-view.webp`,
-    alt: "Rear view of the blue B100L Ultra dental chair and clinical delivery system in a modern treatment room",
+    alt: "Chairside equipment arrangement around the B100L Ultra",
     title: "A considered operator workspace",
-    description: "The rear perspective highlights the coordinated chairside equipment arrangement.",
+    description: "Coordinated chairside equipment arrangement.",
+  },
+  {
+    src: `${caseStudyImageBase}/b100-ultra-clinic-treatment-room.webp`,
+    alt: "B100L Ultra instrument delivery system close-up",
+    title: "Clean, serviceable delivery system",
+    description: "Instrument bridge kept within easy reach.",
   },
 ];
 const colorImageBase = `${productImageBase}/colors`;
@@ -619,19 +619,19 @@ const upholsteryColors = [
           <p>See how the integrated chair, delivery system and operating light come together in a complete clinical setting.</p>
         </div>
         <div class="b100-case-gallery">
-          {caseStudyImages.map((image, index) => (
-            <figure class:list={["b100-case-card", { "is-featured": index === 0 }]}>
+          {caseStudyImages.map((image) => (
+            <figure class="case-item">
               <img
                 src={image.src}
                 alt={image.alt}
-                width="1086"
-                height="1448"
+                width="600"
+                height="800"
                 loading="lazy"
                 decoding="async"
               />
               <figcaption>
-                <strong>{image.title}</strong>
-                <span>{image.description}</span>
+                <h3>{image.title}</h3>
+                <p>{image.description}</p>
               </figcaption>
             </figure>
           ))}
@@ -988,5 +988,20 @@ const upholsteryColors = [
         });
       });
     });
+
+    const caseItems = document.querySelectorAll<HTMLElement>(".case-item");
+    if (caseItems.length && "IntersectionObserver" in window) {
+      const caseObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.15 });
+      caseItems.forEach((item) => caseObserver.observe(item));
+    } else {
+      caseItems.forEach((item) => item.classList.add("is-visible"));
+    }
   </script>
 </BaseLayout>
