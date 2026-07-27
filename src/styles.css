@@ -8565,10 +8565,10 @@ img.partner-tile-img {
 .b100-breadcrumb li:last-child { color: #161616; font-weight: 500; }
 .b100-breadcrumb a:hover, .b100-breadcrumb a:focus-visible { color: #1e4fa3; }
 
-.b100-product-hero, .b100-features-band, .b100-faq-band { background: #fff; padding: 80px 0; }
+.b100-product-hero, .b100-features-band, .b100-case-band, .b100-faq-band { background: #fff; padding: 80px 0; }
 .b100-product-hero { padding: 72px 0 48px; }
 .b100-points-band, .b100-specs-band, .b100-downloads-band, .b100-related-band { background: #f6f9fc; padding: 80px 0; }
-#overview, #features, #colors, #specifications, #product-resources, #faq { scroll-margin-top: 132px; }
+#overview, #features, #colors, #specifications, #product-resources, #case, #faq { scroll-margin-top: 132px; }
 
 .b100-hero-layout { align-items: start; display: grid; gap: clamp(32px, 4vw, 56px); grid-template-columns: minmax(0, 1.45fr) minmax(340px, 1fr); }
 .b100-gallery {
@@ -8930,7 +8930,7 @@ img.partner-tile-img {
 }
 
 .b100-eyebrow { color: #1e4fa3; display: block; font-size: 12px; font-weight: 600; letter-spacing: .08em; line-height: 1.4; margin-bottom: 12px; text-transform: uppercase; }
-.b100-points-band h2, .b100-features-band h2, .b100-specs-band h2, .b100-downloads-band h2, .b100-faq-band h2, .b100-related-band h2 { color: #161616; font-family: var(--font-display-serif); font-size: 32px; font-weight: 500; letter-spacing: -.015em; line-height: 1.1; margin: 0 0 40px; max-width: 680px; }
+.b100-points-band h2, .b100-features-band h2, .b100-specs-band h2, .b100-downloads-band h2, .b100-case-band h2, .b100-faq-band h2, .b100-related-band h2 { color: #161616; font-family: var(--font-display-serif); font-size: 32px; font-weight: 500; letter-spacing: -.015em; line-height: 1.1; margin: 0 0 40px; max-width: 680px; }
 .b100-features-band > .container > .b100-eyebrow,
 .b100-features-band > .container > h2 { text-align: center; }
 .b100-features-band > .container > h2 { margin-inline: auto; }
@@ -9044,6 +9044,19 @@ img.partner-tile-img {
 .b100-resource-download { display: grid; gap: 8px; }
 .b100-resource-meta { color: #6f6f6f; font-size: 12px; line-height: 1.4; text-align: center; }
 
+.b100-case-heading { align-items: end; display: flex; gap: 36px; justify-content: space-between; margin-bottom: 32px; }
+.b100-case-heading h2 { margin-bottom: 0; }
+.b100-case-heading p { color: #6f6f6f; font-size: 16px; line-height: 1.6; margin: 0; max-width: 420px; }
+.b100-case-gallery { display: grid; gap: 20px; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.b100-case-card { background: #f6f9fc; border: 1px solid #e0e0e0; border-radius: 12px; margin: 0; min-width: 0; overflow: hidden; }
+.b100-case-card.is-featured { grid-column: span 2; grid-row: span 2; }
+.b100-case-card img { display: block; height: 250px; object-fit: cover; object-position: center; transition: transform .35s ease; width: 100%; }
+.b100-case-card.is-featured img { height: 100%; min-height: 530px; }
+.b100-case-card:hover img { transform: scale(1.025); }
+.b100-case-card figcaption { background: #fff; border-top: 1px solid #e0e0e0; display: grid; gap: 5px; padding: 16px 18px; }
+.b100-case-card strong { color: #161616; font-size: 15px; font-weight: 600; line-height: 1.35; }
+.b100-case-card span { color: #6f6f6f; font-size: 13px; line-height: 1.5; }
+
 .b100-faq-layout { align-items: start; display: grid; gap: 48px; grid-template-columns: 300px 1fr; }
 .b100-manual-card {
   background: #fff;
@@ -9148,13 +9161,15 @@ img.partner-tile-img {
 }
 
 @media (max-width: 900px) {
-  .b100-product-hero, .b100-features-band, .b100-faq-band, .b100-points-band, .b100-specs-band, .b100-downloads-band, .b100-related-band { padding: 64px 0; }
+  .b100-product-hero, .b100-features-band, .b100-case-band, .b100-faq-band, .b100-points-band, .b100-specs-band, .b100-downloads-band, .b100-related-band { padding: 64px 0; }
   .b100-hero-layout { gap: 32px; grid-template-columns: 1fr; }
   .b100-section-nav .container { gap: 10px; }
   .b100-points-layout { grid-template-columns: 1fr; }
   .b100-feature-focus { gap: 28px; grid-template-columns: 1fr; padding: 24px; }
   .b100-resource-card { grid-template-columns: auto minmax(0, 1fr); }
   .b100-resource-actions { grid-column: 1 / -1; grid-template-columns: 1fr 1fr; }
+  .b100-case-heading { align-items: start; flex-direction: column; gap: 14px; }
+  .b100-case-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 720px) {
@@ -9163,7 +9178,7 @@ img.partner-tile-img {
 
 @media (max-width: 600px) {
   .b100-breadcrumb { padding: 14px 0; }
-  .b100-product-hero, .b100-features-band, .b100-faq-band, .b100-points-band, .b100-specs-band, .b100-downloads-band, .b100-related-band { padding: 48px 0; }
+  .b100-product-hero, .b100-features-band, .b100-case-band, .b100-faq-band, .b100-points-band, .b100-specs-band, .b100-downloads-band, .b100-related-band { padding: 48px 0; }
   .b100-hero-copy h1 { font-size: 38px; }
   .b100-tagline { font-size: 16px; }
   .b100-section-nav { padding: 8px 0; }
@@ -9173,7 +9188,7 @@ img.partner-tile-img {
     padding: 4px;
   }
   .b100-section-nav a { padding: 10px 13px; }
-  .b100-points-band h2, .b100-features-band h2, .b100-specs-band h2, .b100-downloads-band h2, .b100-faq-band h2, .b100-related-band h2 { font-size: 27px; }
+  .b100-points-band h2, .b100-features-band h2, .b100-specs-band h2, .b100-downloads-band h2, .b100-case-band h2, .b100-faq-band h2, .b100-related-band h2 { font-size: 27px; }
   .b100-points-grid, .b100-related-grid { grid-template-columns: 1fr; }
   .b100-quick-specs { grid-template-columns: 1fr; }
   .b100-feature-list { gap: 40px; }
@@ -9187,6 +9202,9 @@ img.partner-tile-img {
   .b100-resource-card { gap: 18px; grid-template-columns: 1fr; padding: 24px; }
   .b100-resource-icon { height: 52px; width: 52px; }
   .b100-resource-actions { grid-column: auto; grid-template-columns: 1fr; }
+  .b100-case-gallery { gap: 14px; grid-template-columns: 1fr; }
+  .b100-case-card.is-featured { grid-column: auto; grid-row: auto; }
+  .b100-case-card img, .b100-case-card.is-featured img { height: auto; min-height: 0; aspect-ratio: 4 / 3; object-position: center; }
   .b100-specs-table, .b100-specs-table tbody, .b100-specs-table tr, .b100-specs-table td { display: block; width: 100%; }
   .b100-specs-table tr { border-bottom: 1px solid #e0e0e0; padding: 12px 0; }
   .b100-specs-table tr:last-child { border-bottom: 0; }
