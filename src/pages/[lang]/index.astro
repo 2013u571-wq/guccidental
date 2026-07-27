@@ -14,34 +14,40 @@ const lang = getLanguage(Astro.params.lang);
 const featuredCategories = categories.filter((category) => category.featured).slice(0, 6);
 const notice = languageNotice(lang);
 
-const productScopeMedia: Record<string, { src: string; alt: string; description: string }> = {
+const productScopeMedia: Record<string, { src: string; mobileSrc: string; alt: string; description: string }> = {
   "dental-chair": {
     src: "https://media.guccidental.com/assets/product-scope/product-scope-dental-chair.webp",
+    mobileSrc: "https://media.guccidental.com/assets/responsive/home/product-scope-dental-chair-400.webp",
     alt: "Dental chair unit for clinic setup and replacement projects",
     description: "A dental chair product image used as the category background for dental chair systems."
   },
   "dental-cabinet": {
     src: "https://media.guccidental.com/assets/product-scope/product-scope-dental-cabinet.webp",
+    mobileSrc: "https://media.guccidental.com/assets/responsive/home/product-scope-dental-cabinet-400.webp",
     alt: "Dental cabinet product for clinical storage and treatment room planning",
     description: "A dental cabinet product image used as the category background for clinic furniture and cabinet systems."
   },
   "ultrasonic-scaler-light-cure": {
     src: "https://media.guccidental.com/assets/product-scope/product-scope-ultrasonic-scaler-light-cure.webp",
+    mobileSrc: "https://media.guccidental.com/assets/responsive/home/product-scope-ultrasonic-scaler-light-cure-400.webp",
     alt: "Ultrasonic scaler and light cure equipment for daily dental treatment",
     description: "A scaler and light cure product image used as the category background for daily treatment equipment."
   },
   "dental-handpiece": {
     src: "https://media.guccidental.com/assets/product-scope/product-scope-dental-handpiece.webp",
+    mobileSrc: "https://media.guccidental.com/assets/responsive/home/product-scope-dental-handpiece-400.webp",
     alt: "Dental handpiece for treatment room equipment packages",
     description: "A dental handpiece product image used as the category background for clinical handpiece options."
   },
   "air-equipment": {
     src: "https://media.guccidental.com/assets/product-scope/product-scope-dental-air-compressor.webp",
+    mobileSrc: "https://media.guccidental.com/assets/responsive/home/product-scope-dental-air-compressor-400.webp",
     alt: "Enclosed dental air compressor unit with blue service panel and green tank",
     description: "A dental air compressor system in a white enclosed cabinet, showing the internal compressor motors, green air tank, control panel, and blue service door."
   },
   "imaging-system": {
     src: "https://media.guccidental.com/assets/product-scope/product-scope-imaging-system.webp",
+    mobileSrc: "https://media.guccidental.com/assets/responsive/home/product-scope-imaging-system-400.webp",
     alt: "Dental imaging system equipment for digital dentistry",
     description: "A dental imaging system product image used as the category background for X-ray, CBCT, scanner, and camera equipment."
   }
@@ -56,6 +62,7 @@ const clinicNeeds = [
     cta: "Plan a new clinic",
     href: "/solutions/new-clinic/",
     imageSrc: "https://media.guccidental.com/assets/solutions/solution-new-clinic-layout.webp",
+    mobileImageSrc: "https://media.guccidental.com/assets/responsive/home/solution-new-clinic-layout-720.webp",
     imageAlt: "Dental clinic floor plan layout for a new clinic project",
     imageDescription: "A technical clinic layout drawing used to represent planning a new dental clinic from room flow to equipment placement."
   },
@@ -67,6 +74,7 @@ const clinicNeeds = [
     cta: "Upgrade old chairs",
     href: "/solutions/clinic-upgrade/",
     imageSrc: "https://media.guccidental.com/assets/solutions/solution-replace-old-dental-chairs.webp",
+    mobileImageSrc: "https://media.guccidental.com/assets/responsive/home/solution-replace-old-dental-chairs-720.webp",
     imageAlt: "Modern dental treatment room with a replacement dental chair",
     imageDescription: "A bright treatment room showing a modern dental chair and cabinet setup for upgrading older clinic equipment."
   },
@@ -78,6 +86,7 @@ const clinicNeeds = [
     cta: "Renovate a clinic",
     href: "/solutions/clinic-renovation/",
     imageSrc: "https://media.guccidental.com/assets/solutions/solution-clinic-renovation-treatment-room.webp",
+    mobileImageSrc: "https://media.guccidental.com/assets/responsive/home/solution-clinic-renovation-treatment-room-720.webp",
     imageAlt: "Renovated dental clinic room with chairs, cabinets, and wood flooring",
     imageDescription: "A renovated dental treatment space showing chairs, cabinetry, wall planning details, and flooring for a clinic fit-out project."
   }
@@ -90,6 +99,7 @@ const oneStopServices = [
     summary: "Layout planning · treatment flow · pre-purchase guidance",
     href: "/resources/design-solution/",
     imageSrc: "https://media.guccidental.com/assets/services/one-stop-service-clinic-design.webp",
+    mobileImageSrc: "https://media.guccidental.com/assets/responsive/home/one-stop-service-clinic-design-640.webp",
     imageAlt: "3D dental clinic layout design with treatment rooms and reception area",
     imageDescription: "A 3D clinic plan showing treatment rooms, reception, cabinetry, and equipment placement for project planning."
   },
@@ -99,6 +109,7 @@ const oneStopServices = [
     summary: "Chairs · imaging · air systems · handpieces",
     href: "/products/",
     imageSrc: "https://media.guccidental.com/assets/services/one-stop-service-dental-equipment.webp",
+    mobileImageSrc: "https://media.guccidental.com/assets/responsive/home/one-stop-service-dental-equipment-640.webp",
     imageAlt: "Complete dental equipment set with dental chair, instruments, and air systems",
     imageDescription: "A coordinated dental equipment display including a treatment chair, clinical instruments, compressor, vacuum, and supporting devices."
   },
@@ -108,6 +119,7 @@ const oneStopServices = [
     summary: "Cabinets · reception furniture · storage · fit-out",
     href: "/products/dental-cabinet/",
     imageSrc: "https://media.guccidental.com/assets/services/one-stop-service-furniture-cabinets.webp",
+    mobileImageSrc: "https://media.guccidental.com/assets/responsive/home/one-stop-service-furniture-cabinets-640.webp",
     imageAlt: "Dental cabinet and clinic furniture in a wood-finished treatment room",
     imageDescription: "A clinic furniture scene showing a mobile dental cabinet, storage wall, wood flooring, and interior fit-out materials."
   },
@@ -117,6 +129,7 @@ const oneStopServices = [
     summary: "Daily consumables · instruments · orthodontic · lab supplies",
     href: "/products/disposable-consumables/",
     imageSrc: "https://media.guccidental.com/assets/services/one-stop-service-consumables-materials.webp",
+    mobileImageSrc: "https://media.guccidental.com/assets/responsive/home/one-stop-service-consumables-materials-640.webp",
     imageAlt: "Disposable dental endodontic files for clinical consumables and materials",
     imageDescription: "A product image showing color-coded disposable endodontic files used to represent daily dental consumables and clinical materials."
   },
@@ -126,6 +139,7 @@ const oneStopServices = [
     summary: "Flooring · ceiling systems · panels · lighting",
     href: "/solutions/clinic-renovation/",
     imageSrc: "https://media.guccidental.com/assets/services/one-stop-service-building-materials.webp",
+    mobileImageSrc: "https://media.guccidental.com/assets/responsive/home/one-stop-service-building-materials-640.webp",
     imageAlt: "Building material sample panels for clinic wall and floor renovation",
     imageDescription: "A showroom display of stone, tile, and wall material samples used to support dental clinic renovation projects."
   },
@@ -135,6 +149,7 @@ const oneStopServices = [
     summary: "Export packing · documentation · duty-paid shipping",
     href: "/contact/",
     imageSrc: "https://media.guccidental.com/assets/services/one-stop-service-door-to-door-delivery.webp",
+    mobileImageSrc: "https://media.guccidental.com/assets/responsive/home/one-stop-service-door-to-door-delivery-640.webp",
     imageAlt: "Door-to-door delivery of a packed dental equipment crate to a clinic",
     imageDescription: "A delivery scene showing a packed wooden crate outside a clinic, representing export packing and project delivery coordination."
   },
@@ -144,6 +159,7 @@ const oneStopServices = [
     summary: "Installation guidance · spare parts · engineer coordination",
     href: "/resources/technical-support/",
     imageSrc: "https://media.guccidental.com/assets/services/one-stop-service-installation-technical-support.webp",
+    mobileImageSrc: "https://media.guccidental.com/assets/responsive/home/one-stop-service-installation-technical-support-640.webp",
     imageAlt: "Technician installing and servicing a dental chair",
     imageDescription: "A technician working inside a dental chair base with tools, representing installation guidance, maintenance, and technical support."
   }
@@ -222,26 +238,31 @@ const faqItems = [
   description="Guccidental helps dental clinic owners design, equip, furnish, ship, and support new clinics and dental chair replacement projects from one source."
   lang={lang}
   pathname={Astro.url.pathname}
+  preloadImages={[
+    { href: "https://media.guccidental.com/assets/hero/guccidental-b100-ultra-mobile-hero.webp", media: "(max-width: 767px)" },
+    { href: "https://media.guccidental.com/assets/guccidental-hero-poster.webp", media: "(min-width: 768px)" }
+  ]}
 >
   {notice && <div class="bg-brand-blueLight py-2 text-center text-caption-md text-brand-blue">{notice}</div>}
   <section class="hero-slider relative overflow-hidden bg-surface-soft" data-hero>
-    <figure class="hero-mobile-media">
-      <img
-        src="https://media.guccidental.com/assets/hero/guccidental-b100-ultra-mobile-hero.webp"
-        alt="B100 Ultra dental chair with blue upholstery, operating light, and delivery unit"
-        aria-describedby="home-hero-b100-ultra-description"
-        width="1122"
-        height="1402"
-        fetchpriority="high"
-      />
+    <figure class="hero-fallback-media">
+      <picture>
+        <source media="(max-width: 767px)" srcset="https://media.guccidental.com/assets/hero/guccidental-b100-ultra-mobile-hero.webp" type="image/webp" />
+        <img
+          src="https://media.guccidental.com/assets/guccidental-hero-poster.webp"
+          alt="B100 Ultra dental chair with blue upholstery, operating light, and delivery unit"
+          aria-describedby="home-hero-b100-ultra-description"
+          width="1920"
+          height="1080"
+          fetchpriority="high"
+        />
+      </picture>
       <figcaption id="home-hero-b100-ultra-description" class="sr-only">
         Guccidental B100 Ultra is a premium integrated dental chair shown with blue upholstery, an LED operating light, instrument delivery unit, cuspidor, and touch control panel.
       </figcaption>
     </figure>
     <div class="hero-video-bg" aria-hidden="true">
-      <video class="hero-video-media" muted playsinline autoplay loop preload="metadata" poster="https://media.guccidental.com/assets/guccidental-hero-poster.webp" data-hero-video>
-        <source src="https://media.guccidental.com/assets/guccidental-hero-video.mp4" type="video/mp4" media="(min-width: 768px)" />
-      </video>
+      <video class="hero-video-media" muted playsinline autoplay loop preload="none" data-hero-video></video>
     </div>
     <div class="hero-video-soft-shade" aria-hidden="true"></div>
     <div class="container hero-content relative z-10 flex items-center justify-center">
@@ -312,6 +333,7 @@ const faqItems = [
           </div>
           <figure class="entity-illustration">
             <picture>
+              <source media="(max-width: 767px)" srcset="https://media.guccidental.com/assets/responsive/home/guccidental-factory-office-building-card-720.webp" type="image/webp" />
               <source srcset="https://media.guccidental.com/images/guccidental-factory-office-building-card.webp" type="image/webp" />
               <img
                 src="https://media.guccidental.com/images/guccidental-factory-office-building-card.jpg"
@@ -372,7 +394,7 @@ const faqItems = [
               <details class="fitout-mobile-card" open={index === 0}>
                 <summary>
                   <img
-                    src={need.imageSrc}
+                    src={need.mobileImageSrc}
                     alt=""
                     width="1200"
                     height="900"
@@ -482,7 +504,7 @@ const faqItems = [
             {
               oneStopServices.map((service) => (
                 <a class="service-mobile-item" href={localizedPath(lang, service.href)}>
-                  <img src={service.imageSrc} alt={service.imageAlt} width="960" height="600" loading="lazy" decoding="async" />
+                  <img src={service.mobileImageSrc} alt={service.imageAlt} width="640" height="400" loading="lazy" decoding="async" />
                   <span class="service-mobile-item__body">
                     <span class="service-mobile-item__number">{service.number}</span>
                     <span class="service-mobile-item__title">{service.title}</span>
@@ -515,16 +537,19 @@ const faqItems = [
             return (
             <a href={localizedPath(lang, `/products/${category.slug}/`)} class="product-card">
               <figure class="product-card__media">
-                <img
-                  class="product-card__image"
-                  src={media.src}
-                  alt={media.alt}
-                  width="960"
-                  height="720"
-                  loading="lazy"
-                  decoding="async"
-                  aria-describedby={`product-scope-image-description-${index}`}
-                />
+                <picture>
+                  <source media="(max-width: 767px)" srcset={media.mobileSrc} type="image/webp" />
+                  <img
+                    class="product-card__image"
+                    src={media.src}
+                    alt={media.alt}
+                    width="960"
+                    height="720"
+                    loading="lazy"
+                    decoding="async"
+                    aria-describedby={`product-scope-image-description-${index}`}
+                  />
+                </picture>
                 <figcaption id={`product-scope-image-description-${index}`} class="sr-only">{media.description}</figcaption>
               </figure>
               <div class="product-card__body">
@@ -858,7 +883,13 @@ const faqItems = [
 
       const video = hero.querySelector("[data-hero-video]");
 
-      if (video) {
+      if (video && window.matchMedia("(min-width: 768px)").matches) {
+        const source = document.createElement("source");
+        source.src = "https://media.guccidental.com/assets/guccidental-hero-video.mp4";
+        source.type = "video/mp4";
+        video.append(source);
+        video.load();
+
         const revealVideo = () => {
           video.classList.add("is-ready");
         };
