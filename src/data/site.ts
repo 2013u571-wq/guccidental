@@ -2,6 +2,7 @@ import type { LanguageCode } from "@lib/i18n";
 
 export const site = {
   name: "Guccidental",
+  url: "https://design.guccidental.com",
   companyName: "Foshan Guccidental Medical Equipment Co., Ltd.",
   email: "daniel@guccident.com",
   phone: "+86 000 0000 0000",

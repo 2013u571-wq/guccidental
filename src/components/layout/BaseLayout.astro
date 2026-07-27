@@ -12,12 +12,14 @@ type Props = {
   lang: LanguageCode;
   pathname: string;
   bodyClass?: string;
+  preloadImages?: Array<{ href: string; media?: string }>;
 };
 
-const { title, description = site.description, lang, pathname, bodyClass } = Astro.props;
+const { title, description = site.description, lang, pathname, bodyClass, preloadImages = [] } = Astro.props;
 const direction = getDirection(lang);
 const links = alternateLinks(pathname);
 const pageTitle = title === site.name ? title : `${title} | ${site.name}`;
+const canonicalUrl = new URL(pathname, site.url).href;
 ---
 
 <!doctype html>
@@ -30,13 +32,15 @@ const pageTitle = title === site.name ? title : `${title} | ${site.name}`;
     <title>{pageTitle}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://media.guccidental.com" crossorigin />
+    {preloadImages.map((image) => <link rel="preload" as="image" href={image.href} type="image/webp" media={image.media} fetchpriority="high" />)}
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Newsreader:wght@500;600;700&display=swap" rel="stylesheet" />
     <link rel="icon" type="image/png" sizes="32x32" href="https://media.guccidental.com/favicon.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="https://media.guccidental.com/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    <link rel="canonical" href={pathname} />
-    {links.map((link) => <link rel="alternate" hreflang={link.lang} href={link.href} />)}
-    <link rel="alternate" hreflang="x-default" href={links.find((link) => link.lang === "en")?.href} />
+    <link rel="canonical" href={canonicalUrl} />
+    {links.map((link) => <link rel="alternate" hreflang={link.lang} href={new URL(link.href, site.url).href} />)}
+    <link rel="alternate" hreflang="x-default" href={new URL(links.find((link) => link.lang === "en")?.href || "/en/", site.url).href} />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
