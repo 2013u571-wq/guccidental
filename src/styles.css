@@ -8565,9 +8565,9 @@ img.partner-tile-img {
 .b100-breadcrumb li:last-child { color: #161616; font-weight: 500; }
 .b100-breadcrumb a:hover, .b100-breadcrumb a:focus-visible { color: #1e4fa3; }
 
-.b100-product-hero, .b100-features-band, .b100-faq-band { background: #fff; padding: 80px 0; }
+.b100-product-hero, .b100-features-band, .b100-specs-band, .b100-downloads-band, .b100-faq-band { background: #fff; padding: 80px 0; }
 .b100-product-hero { padding: 72px 0 48px; }
-.b100-points-band, .b100-specs-band, .b100-downloads-band, .b100-case-band, .b100-related-band { background: #f6f9fc; padding: 80px 0; }
+.b100-points-band, .b100-colors-band, .b100-case-band, .b100-related-band { background: #f6f9fc; padding: 80px 0; }
 #overview, #features, #colors, #specifications, #product-resources, #case, #faq { scroll-margin-top: 132px; }
 
 .b100-hero-layout { align-items: start; display: grid; gap: clamp(32px, 4vw, 56px); grid-template-columns: minmax(0, 1.45fr) minmax(340px, 1fr); }
@@ -9010,6 +9010,7 @@ img.partner-tile-img {
 .b100-feature-copy li { color: #374151; font-size: 14px; padding-left: 22px; position: relative; }
 .b100-feature-copy li::before { background: #1e4fa3; border-radius: 50%; content: ""; height: 6px; left: 2px; position: absolute; top: .55em; width: 6px; }
 .b100-color-feature { padding-top: 48px; }
+.b100-colors-band .b100-color-feature { padding-top: 0; }
 .b100-color-feature > header { margin: 0 auto 28px; max-width: 720px; text-align: center; }
 .b100-color-browser { min-width: 0; width: 100%; }
 .b100-color-stage { aspect-ratio: 16 / 8.4; background: #fff; border: 1px solid #e0e0e0; border-radius: 12px; display: flex; flex-direction: column; min-height: 360px; overflow: hidden; }
@@ -9166,7 +9167,7 @@ img.partner-tile-img {
 }
 
 @media (max-width: 900px) {
-  .b100-product-hero, .b100-features-band, .b100-case-band, .b100-faq-band, .b100-points-band, .b100-specs-band, .b100-downloads-band, .b100-related-band { padding: 64px 0; }
+  .b100-product-hero, .b100-features-band, .b100-colors-band, .b100-case-band, .b100-faq-band, .b100-points-band, .b100-specs-band, .b100-downloads-band, .b100-related-band { padding: 64px 0; }
   .b100-hero-layout { gap: 32px; grid-template-columns: 1fr; }
   .b100-section-nav .container { gap: 10px; }
   .b100-points-layout { grid-template-columns: 1fr; }
@@ -9183,7 +9184,7 @@ img.partner-tile-img {
 
 @media (max-width: 600px) {
   .b100-breadcrumb { padding: 14px 0; }
-  .b100-product-hero, .b100-features-band, .b100-case-band, .b100-faq-band, .b100-points-band, .b100-specs-band, .b100-downloads-band, .b100-related-band { padding: 48px 0; }
+  .b100-product-hero, .b100-features-band, .b100-colors-band, .b100-case-band, .b100-faq-band, .b100-points-band, .b100-specs-band, .b100-downloads-band, .b100-related-band { padding: 48px 0; }
   .b100-hero-copy h1 { font-size: 38px; }
   .b100-tagline { font-size: 16px; }
   .b100-section-nav { padding: 8px 0; }
