@@ -21,7 +21,7 @@ const tierContent = {
 } as const;
 
 const tierSwitches = [
-  { tier: "high-end", label: "High-end", count: 22 },
+  { tier: "high-end", label: "High-end", count: 20 },
   { tier: "mid-range", label: "Mid-range", count: 16 },
   { tier: "economic", label: "Economic", count: 10 }
 ] as const;
@@ -123,21 +123,27 @@ const inquiryHref = (model: string) =>
                     return (
                       <article class="tier-model-row">
                         <div class="tier-model-thumb" aria-hidden="true">
-                          <svg viewBox="0 0 112 72" aria-hidden="true">
-                            <path d="M18 46h48c6 0 10 4 10 9v2H27c-5 0-9-4-9-9v-2Z"></path>
-                            <path d="M27 45 17 25c-2-4 0-8 4-9l3-1c4-1 7 1 9 5l10 22"></path>
-                            <path d="m39 55-8 10h33l-6-8"></path>
-                            <path d="M68 46h17V29h10"></path>
-                            <path d="M77 30V15h18"></path>
-                            <path d="M88 15v8"></path>
-                            <path d="M82 23h13"></path>
-                            <path d="M84 31h15v12H84z"></path>
-                            <circle cx="87" cy="36" r="1"></circle>
-                            <circle cx="92" cy="36" r="1"></circle>
-                            <circle cx="97" cy="36" r="1"></circle>
-                            <path d="M72 43h28"></path>
-                          </svg>
-                          <span>Photo</span>
+                          {model.thumb ? (
+                            <img src={model.thumb.src} alt="" width="112" height="86" loading="lazy" decoding="async" />
+                          ) : (
+                            <>
+                              <svg viewBox="0 0 112 72" aria-hidden="true">
+                                <path d="M18 46h48c6 0 10 4 10 9v2H27c-5 0-9-4-9-9v-2Z"></path>
+                                <path d="M27 45 17 25c-2-4 0-8 4-9l3-1c4-1 7 1 9 5l10 22"></path>
+                                <path d="m39 55-8 10h33l-6-8"></path>
+                                <path d="M68 46h17V29h10"></path>
+                                <path d="M77 30V15h18"></path>
+                                <path d="M88 15v8"></path>
+                                <path d="M82 23h13"></path>
+                                <path d="M84 31h15v12H84z"></path>
+                                <circle cx="87" cy="36" r="1"></circle>
+                                <circle cx="92" cy="36" r="1"></circle>
+                                <circle cx="97" cy="36" r="1"></circle>
+                                <path d="M72 43h28"></path>
+                              </svg>
+                              <span>Photo</span>
+                            </>
+                          )}
                         </div>
 
                         <div class="tier-model-meta">

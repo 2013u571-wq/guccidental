@@ -1,0 +1,182 @@
+---
+import BaseLayout from "@components/layout/BaseLayout.astro";
+import InquiryCta from "@components/ui/InquiryCta.astro";
+import { localizedPath, type LanguageCode } from "@lib/i18n";
+import type { HighEndDentalChairDetail } from "@data/highEndDentalChairDetails";
+
+interface Props {
+  lang: LanguageCode;
+  product: HighEndDentalChairDetail;
+}
+
+const { lang, product } = Astro.props;
+const tierHref = localizedPath(lang, "/products/dental-chair/high-end/");
+const message = `I'm interested in the ${product.model} dental chair.`;
+const inquiryHref = localizedPath(lang, `/contact/?message=${encodeURIComponent(message)}`);
+const contactHref = localizedPath(lang, "/contact/");
+const related = product.related
+  ? { href: localizedPath(lang, `/products/dental-chair/high-end/${product.related.slug}/`), model: product.related.model, description: product.related.description }
+  : product.slug === "b100l-galaxy"
+  ? { href: localizedPath(lang, "/products/dental-chair/high-end/b100l-premium/"), model: "B100L Premium", description: "Fixed-side-box hydraulic configuration for a consistent clinical layout." }
+  : { href: localizedPath(lang, "/products/dental-chair/high-end/b100l-galaxy/"), model: "B100L Galaxy", description: "Left/right workflow configuration with hydraulic chair movement." };
+---
+
+<BaseLayout title={product.title} description={product.seoDescription} lang={lang} pathname={Astro.url.pathname} bodyClass="b100-detail-page">
+  <nav class="b100-breadcrumb" aria-label="Breadcrumb">
+    <div class="container"><ol>
+      <li><a href={localizedPath(lang, "/products/")}>Products</a></li>
+      <li><a href={localizedPath(lang, "/products/dental-chair/")}>Dental Chair</a></li>
+      <li><a href={tierHref}>High-end</a></li>
+      <li aria-current="page">{product.model}</li>
+    </ol></div>
+  </nav>
+
+  <section class="b100-product-hero">
+    <div class="container b100-hero-layout">
+      <div class="b100-gallery" data-gallery>
+        <button class="b100-gallery-main" type="button" aria-label={`Enlarge ${product.gallery[0].alt.toLowerCase()}`} data-gallery-stage>
+          <span class="b100-gallery-shadow" aria-hidden="true"></span>
+          <img src={product.gallery[0].src} alt={product.gallery[0].alt} width={product.gallery[0].width} height={product.gallery[0].height} fetchpriority="high" decoding="async" data-gallery-main />
+          <span class="b100-gallery-tier">High-end</span>
+          <span class="b100-gallery-count" data-gallery-count>1 / {product.gallery.length}</span>
+          <span class="b100-gallery-hint"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.4"></circle><path d="m15.5 15.5 4.1 4.1M10.8 8v5.6M8 10.8h5.6"></path></svg><span>Hover to zoom · click to enlarge</span></span>
+        </button>
+        <div class="b100-gallery-thumbs" role="group" aria-label={`${product.model} image gallery`}>
+          {product.gallery.map((image, index) => <button class:list={["b100-thumb", { "is-active": index === 0 }]} type="button" aria-label={`Show ${image.label.toLowerCase()}`} aria-pressed={index === 0 ? "true" : "false"} data-gallery-src={image.src} data-gallery-alt={image.alt} data-gallery-index={index} title={image.label}><img src={image.src} alt="" width={image.width} height={image.height} loading="lazy" decoding="async" aria-hidden="true" /></button>)}
+        </div>
+        <div class="b100-lightbox" role="dialog" aria-modal="true" aria-label={`${product.model} image viewer`} aria-hidden="true" data-gallery-lightbox>
+          <div class="b100-lightbox-backdrop" data-lightbox-close></div>
+          <div class="b100-lightbox-dialog" role="document" tabindex="-1" data-lightbox-dialog>
+            <button class="b100-lightbox-close" type="button" aria-label="Close image viewer" data-lightbox-close><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5 5 19"></path></svg></button>
+            <button class="b100-lightbox-arrow is-prev" type="button" aria-label="Previous image" data-lightbox-prev><svg viewBox="0 0 24 24"><path d="m15 5-7 7 7 7"></path></svg></button>
+            <div class="b100-lightbox-stage"><img src={product.gallery[0].src} alt={product.gallery[0].alt} width={product.gallery[0].width} height={product.gallery[0].height} decoding="async" data-lightbox-image /></div>
+            <span class="b100-lightbox-count" data-lightbox-count>1 / {product.gallery.length}</span>
+            <button class="b100-lightbox-arrow is-next" type="button" aria-label="Next image" data-lightbox-next><svg viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"></path></svg></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="b100-hero-copy">
+        <span class="b100-tier-badge">High-end Series</span>
+        <h1>{product.title}</h1>
+        <p class="b100-product-model">{product.productType}</p>
+        <p class="b100-tagline">{product.tagline}</p>
+        <div class="b100-quick-specs">{product.quickSpecs.map((item) => <div><span>{item.label}</span><strong>{item.value}</strong></div>)}</div>
+        <div class="b100-hero-actions"><a class="b100-btn b100-btn-primary" href={inquiryHref}>Send Inquiry</a><a class="b100-btn b100-btn-secondary" href="#product-resources">Request Datasheet</a></div>
+        <div class="b100-trust-mini" aria-label="Product highlights">{product.trustHighlights.map((item) => <span><i></i>{item}</span>)}</div>
+      </div>
+    </div>
+  </section>
+
+  <nav class="b100-section-nav" aria-label={`${product.model} page sections`}><div class="container"><a href="#overview" aria-current="true">Overview</a><a href="#features">Features</a><a href="#colors">Colors</a><a href="#specifications">Specifications</a><a href="#product-resources">Resources</a><a href="#case">Case</a><a href="#faq">FAQ</a></div></nav>
+
+  <section class="b100-points-band" id="overview"><div class="container"><div class="b100-points-layout">
+    <div class="b100-points-content"><header class="b100-points-heading"><span class="b100-eyebrow">Key selling points</span><h2>{product.sellingPointHeading}</h2></header><div class="b100-points-grid">{product.sellingPoints.map((point, index) => <article><div class="b100-point-head"><span>{String(index + 1).padStart(2, "0")}</span></div><h3>{point.title}</h3><p>{point.description}</p></article>)}</div></div>
+    <aside class="b100-video-panel" aria-label={`${product.model} product video placeholder`}><div class="b100-video-placeholder" role="img" aria-label={`Placeholder for the ${product.model} product video`}><span class="b100-video-play" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="m12 9 11 7-11 7V9Z"></path></svg></span><span class="b100-video-label">Product video</span><strong>{product.videoPlaceholder.title}</strong><small>{product.videoPlaceholder.note}</small></div></aside>
+  </div></div></section>
+
+  <section class="b100-features-band" id="features"><div class="container"><span class="b100-eyebrow">Features</span><h2>{product.featureHeading}</h2><div class="b100-feature-list">
+    <article class="b100-feature-focus"><figure class="b100-feature-media"><img src={product.features[0].src} alt={product.features[0].alt} width={product.features[0].width} height={product.features[0].height} loading="lazy" decoding="async" /></figure><div class="b100-feature-copy"><span class="b100-eyebrow">{product.features[0].eyebrow}</span><h3>{product.features[0].title}</h3><p>{product.features[0].description}</p>{product.features[0].bullets && <ul>{product.features[0].bullets.map((item) => <li>{item}</li>)}</ul>}</div></article>
+    <div class="b100-feature-pair">{product.features.slice(1, 3).map((feature) => <article class="b100-feature-card"><figure class="b100-feature-media"><img src={feature.src} alt={feature.alt} width={feature.width} height={feature.height} loading="lazy" decoding="async" /></figure><div class="b100-feature-copy"><span class="b100-eyebrow">{feature.eyebrow}</span><h3>{feature.title}</h3><p>{feature.description}</p></div></article>)}</div>
+    {product.features[3] && <article class="b100-feature-focus"><figure class="b100-feature-media"><img src={product.features[3].src} alt={product.features[3].alt} width={product.features[3].width} height={product.features[3].height} loading="lazy" decoding="async" /></figure><div class="b100-feature-copy"><span class="b100-eyebrow">{product.features[3].eyebrow}</span><h3>{product.features[3].title}</h3><p>{product.features[3].description}</p></div></article>}
+    <article class="b100-color-feature" id="colors"><header><span class="b100-eyebrow">Upholstery</span><h3>{product.colorHeading ?? "Full-silicone upholstery palette"}</h3><p>{product.colorIntroduction}</p></header><div class="b100-content-narrow"><div class="b100-color-browser" data-color-browser><div class="b100-color-stage"><div class="b100-color-image"><img src={product.colors[0].image} alt={product.colors[0].alt} width="1800" height="967" loading="lazy" decoding="async" data-color-image /></div><div class="b100-color-controls"><strong aria-live="polite" data-color-current-name>{product.colors[0].code === product.colors[0].name ? product.colors[0].code : `${product.colors[0].code} · ${product.colors[0].name}`}</strong><div class="b100-color-swatches" role="group" aria-label="Choose an upholstery color">{product.colors.map((color, index) => <button class:list={["b100-color-swatch", { "is-active": index === 0 }]} type="button" aria-label={`Show ${color.code} ${color.name} upholstery`} aria-pressed={index === 0 ? "true" : "false"} style={`--color-swatch-image:url("${color.swatch}")`} data-color-option data-color-code={color.code} data-color-name={color.name} data-color-image={color.image} data-color-alt={color.alt} data-color-desc={color.description}></button>)}</div></div></div><p class="b100-color-description" aria-live="polite" data-color-copy>{product.colors[0].description}</p></div></div></article>
+  </div></div></section>
+
+  <section class="b100-specs-band" id="specifications"><div class="container"><div class="b100-content-narrow"><span class="b100-eyebrow">Technical specifications</span><h2>{product.model} full specification sheet</h2><div class="b100-specs-wrap"><table class="b100-specs-table"><tbody>{product.specifications.map((item) => <tr><td>{item.label}</td><td>{item.value}</td></tr>)}</tbody></table></div></div></div></section>
+
+  <section class="b100-downloads-band" id="product-resources"><div class="container"><div class="b100-content-narrow"><div class="b100-resource-card"><div class="b100-resource-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M9 4h10l5 5v19H9z"></path><path d="M19 4v6h6M13 16h7M13 21h7"></path></svg></div><div><span class="b100-eyebrow">Product resources</span><h2>{product.model} documents</h2><p>Review the B100 Series catalog and user manual, or contact us to confirm the final configuration.</p></div><div class="b100-resource-actions">{product.resources.map((resource) => <div class="b100-resource-download"><a class="b100-btn b100-btn-primary" href={resource.href} target="_blank" rel="noopener noreferrer">{resource.label} <span aria-hidden="true">↗</span></a><span class="b100-resource-meta">{resource.meta} · Opens in a new tab</span></div>)}<a class="b100-btn b100-btn-secondary" href={inquiryHref}>Discuss Configuration</a></div></div></div></div></section>
+
+  <section class="b100-case-band" id="case"><div class="container"><div class="b100-content-narrow"><div class="b100-case-heading"><div><span class="b100-eyebrow">Case</span><h2>{product.caseHeading}</h2></div><p>{product.caseIntroduction}</p></div>{product.caseDisclosure && <p class="b100-case-disclosure">{product.caseDisclosure}</p>}<div class="b100-case-gallery">{product.cases.map((image) => <figure class="case-item"><img src={image.src} alt={image.alt} width={image.width} height={image.height} loading="lazy" decoding="async" /><figcaption><h3>{image.title}</h3><p>{image.description}</p></figcaption></figure>)}</div></div></div></section>
+
+  <section class="b100-faq-band" id="faq"><div class="container"><div class="b100-content-narrow"><span class="b100-eyebrow">FAQ</span><h2>Questions about the {product.model}</h2><div class="b100-faq-list" data-faq-list>{product.faq.map((item, index) => <article class:list={{ "is-open": index === 0 }}><button type="button" aria-expanded={index === 0 ? "true" : "false"}><span>{item.question}</span><i>+</i></button><p>{item.answer}</p></article>)}</div></div></div></section>
+
+  <section class="b100-related-band"><div class="container"><span class="b100-eyebrow">Related product</span><h2>Compare another high-end configuration</h2><div class="b100-related-grid"><a href={related.href}><span class="b100-related-copy"><small>High-end</small><strong>{related.model}</strong><p>{related.description}</p><em>View product <span aria-hidden="true">→</span></em></span></a><a href={tierHref}><span class="b100-related-copy"><small>Product family</small><strong>All high-end dental chairs</strong><p>Compare the complete Guccidental high-end range.</p><em>View range <span aria-hidden="true">→</span></em></span></a></div></div></section>
+  <InquiryCta contactHref={contactHref} message={message} />
+</BaseLayout>
+
+<script>
+  const setupHighEndProductPage = () => {
+    document.querySelectorAll<HTMLElement>("[data-gallery]").forEach((gallery) => {
+      const thumbs = Array.from(gallery.querySelectorAll<HTMLButtonElement>("[data-gallery-index]"));
+      const main = gallery.querySelector<HTMLImageElement>("[data-gallery-main]");
+      const count = gallery.querySelector<HTMLElement>("[data-gallery-count]");
+      const lightbox = gallery.querySelector<HTMLElement>("[data-gallery-lightbox]");
+      const lightboxImage = gallery.querySelector<HTMLImageElement>("[data-lightbox-image]");
+      const lightboxCount = gallery.querySelector<HTMLElement>("[data-lightbox-count]");
+      let current = 0;
+      const show = (next: number) => {
+        current = (next + thumbs.length) % thumbs.length;
+        const button = thumbs[current];
+        const src = button.dataset.gallerySrc || "";
+        const alt = button.dataset.galleryAlt || "";
+        if (main) { main.src = src; main.alt = alt; }
+        if (lightboxImage) { lightboxImage.src = src; lightboxImage.alt = alt; }
+        if (count) count.textContent = `${current + 1} / ${thumbs.length}`;
+        if (lightboxCount) lightboxCount.textContent = `${current + 1} / ${thumbs.length}`;
+        thumbs.forEach((thumb, index) => { thumb.classList.toggle("is-active", index === current); thumb.setAttribute("aria-pressed", index === current ? "true" : "false"); });
+      };
+      thumbs.forEach((thumb, index) => thumb.addEventListener("click", () => show(index)));
+      const stage = gallery.querySelector<HTMLElement>("[data-gallery-stage]");
+      const canHoverZoom = window.matchMedia("(min-width: 961px) and (hover: hover) and (pointer: fine)");
+      stage?.addEventListener("mousemove", (event) => {
+        if (!canHoverZoom.matches) return;
+        const bounds = stage.getBoundingClientRect();
+        const x = ((event.clientX - bounds.left) / bounds.width) * 100;
+        const y = ((event.clientY - bounds.top) / bounds.height) * 100;
+        stage.style.setProperty("--gallery-zoom-x", `${Math.max(0, Math.min(100, x))}%`);
+        stage.style.setProperty("--gallery-zoom-y", `${Math.max(0, Math.min(100, y))}%`);
+        stage.classList.add("is-zooming");
+      });
+      stage?.addEventListener("mouseleave", () => stage.classList.remove("is-zooming"));
+      const openLightbox = () => {
+        lightbox?.classList.add("is-open");
+        lightbox?.setAttribute("aria-hidden", "false");
+        document.body.style.overflow = "hidden";
+      };
+      const closeLightbox = () => {
+        lightbox?.classList.remove("is-open");
+        lightbox?.setAttribute("aria-hidden", "true");
+        document.body.style.overflow = "";
+      };
+      stage?.addEventListener("click", openLightbox);
+      gallery.querySelectorAll("[data-lightbox-close]").forEach((button) => button.addEventListener("click", closeLightbox));
+      gallery.querySelector("[data-lightbox-prev]")?.addEventListener("click", () => show(current - 1));
+      gallery.querySelector("[data-lightbox-next]")?.addEventListener("click", () => show(current + 1));
+      document.addEventListener("keydown", (event) => { if (lightbox?.classList.contains("is-open")) { if (event.key === "Escape") closeLightbox(); if (event.key === "ArrowLeft") show(current - 1); if (event.key === "ArrowRight") show(current + 1); } });
+    });
+    document.querySelectorAll<HTMLElement>("[data-color-browser]").forEach((browser) => {
+      const image = browser.querySelector<HTMLImageElement>("[data-color-image]");
+      const name = browser.querySelector<HTMLElement>("[data-color-current-name]");
+      const copy = browser.querySelector<HTMLElement>("[data-color-copy]");
+      const options = browser.querySelectorAll<HTMLButtonElement>("[data-color-option]");
+      const setActiveColor = (option: HTMLButtonElement) => {
+        if (image) { image.src = option.dataset.colorImage || ""; image.alt = option.dataset.colorAlt || ""; }
+        if (name) name.textContent = option.dataset.colorCode === option.dataset.colorName ? (option.dataset.colorCode || "") : `${option.dataset.colorCode} · ${option.dataset.colorName}`;
+        if (copy) copy.textContent = option.dataset.colorDesc || "";
+        options.forEach((item) => { item.classList.toggle("is-active", item === option); item.setAttribute("aria-pressed", item === option ? "true" : "false"); });
+      };
+      options.forEach((option) => {
+        option.addEventListener("mouseenter", () => setActiveColor(option));
+        option.addEventListener("click", () => setActiveColor(option));
+        option.addEventListener("focus", () => setActiveColor(option));
+      });
+      setActiveColor(options[0]);
+    });
+    document.querySelectorAll<HTMLElement>("[data-faq-list]").forEach((list) => list.querySelectorAll<HTMLElement>("article").forEach((article) => article.querySelector("button")?.addEventListener("click", () => { const opening = !article.classList.contains("is-open"); list.querySelectorAll("article").forEach((item) => { item.classList.remove("is-open"); item.querySelector("button")?.setAttribute("aria-expanded", "false"); }); if (opening) { article.classList.add("is-open"); article.querySelector("button")?.setAttribute("aria-expanded", "true"); } })));
+    const caseItems = document.querySelectorAll<HTMLElement>(".case-item");
+    if (caseItems.length && "IntersectionObserver" in window) {
+      const caseObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => { if (entry.isIntersecting) { entry.target.classList.add("is-visible"); observer.unobserve(entry.target); } });
+      }, { threshold: 0.15 });
+      caseItems.forEach((item) => caseObserver.observe(item));
+    } else {
+      caseItems.forEach((item) => item.classList.add("is-visible"));
+    }
+  };
+  setupHighEndProductPage();
+</script>
+
+<style>
+  .b100-case-disclosure { background: #fff7e8; border-left: 3px solid #d8911f; color: #62491e; margin: 0 0 24px; padding: 12px 16px; }
+  .b100-related-grid > a:not(:has(.b100-related-media)) { min-height: 230px; }
+</style>
