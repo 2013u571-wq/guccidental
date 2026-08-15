@@ -154,7 +154,7 @@ const inquiryHref = (model: string) =>
                               <span class="tier-model-name">{model.model}</span>
                             )
                           }
-                          {detail?.summary && <p>{detail.summary}</p>}
+                          {(model.summary || detail?.summary) && <p>{model.summary || detail?.summary}</p>}
                           {
                             implantReady && (
                               <div class="tier-model-chips" aria-label={`${model.model} configuration`}>
