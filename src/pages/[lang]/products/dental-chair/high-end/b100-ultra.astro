@@ -2,13 +2,18 @@
 import BaseLayout from "@components/layout/BaseLayout.astro";
 import InquiryCta from "@components/ui/InquiryCta.astro";
 import { getLanguage, languages, localizedPath } from "@lib/i18n";
+import { getR2MediaUrl, getSanityProduct } from "@lib/sanity";
 
 export function getStaticPaths() {
   return languages.map((language) => ({ params: { lang: language.code } }));
 }
 
 const lang = getLanguage(Astro.params.lang);
-const b100Message = "I'm interested in the B100L Ultra dental chair.";
+const cmsProduct = await getSanityProduct("b100-ultra", lang);
+const productTitle = cmsProduct?.content?.title || "B100L Ultra Dental Chair";
+const productSummary = cmsProduct?.content?.summary || "B100L Ultra high-end digital dental chair with a seven-inch touchscreen, 24 memory positions, Philips LED light, and full-silicone upholstery.";
+const productTagline = cmsProduct?.content?.tagline || "A fully digital American-style dental chair for premium practices, combining a one-minute left/right workflow with a seven-inch touchscreen control system and smart chair memory.";
+const b100Message = `I'm interested in the ${cmsProduct?.model || "B100L Ultra"} dental chair.`;
 const inquiryHref = localizedPath(lang, `/contact/?message=${encodeURIComponent(b100Message)}`);
 const datasheetHref = "https://media.guccidental.com/documents/products/dental-chair/b100l-ultra/b100l-ultra-catalog.pdf";
 const manualHref = import.meta.env.DEV
@@ -47,6 +52,10 @@ const galleryImages = [
     height: 1620,
   },
 ];
+const cmsGallery = (cmsProduct?.images || []).filter((image) => image.objectKey);
+const displayGallery = cmsGallery.length
+  ? cmsGallery.map((image, index) => ({ src: getR2MediaUrl(image.objectKey), alt: image.alt || `${productTitle} product image`, label: image.caption || `Product view ${index + 1}`, width: 2400, height: 1620 }))
+  : galleryImages;
 const caseStudyImageBase = "https://media.guccidental.com/images/cases/b100-ultra";
 const caseStudyImages = [
   {
@@ -177,8 +186,8 @@ const upholsteryColors = [
 ---
 
 <BaseLayout
-  title="B100L Ultra Dental Chair"
-  description="B100L Ultra high-end digital dental chair with a seven-inch touchscreen, 24 memory positions, Philips LED light, and full-silicone upholstery."
+  title={cmsProduct?.content?.seo?.title || productTitle}
+  description={cmsProduct?.content?.seo?.description || productSummary}
   lang={lang}
   pathname={Astro.url.pathname}
   bodyClass="b100-detail-page"
@@ -190,7 +199,7 @@ const upholsteryColors = [
         <li><a href={localizedPath(lang, "/products/")}>Products</a></li>
         <li><a href={localizedPath(lang, "/products/dental-chair/")}>Dental Chair</a></li>
         <li><a href={tierHref}>High-end</a></li>
-        <li aria-current="page">B100L Ultra</li>
+        <li aria-current="page">{cmsProduct?.model || "B100L Ultra"}</li>
       </ol>
     </div>
   </nav>
@@ -202,21 +211,21 @@ const upholsteryColors = [
         <button
           class="b100-gallery-main"
           type="button"
-          aria-label={`Enlarge ${galleryImages[0].alt.toLowerCase()}`}
+          aria-label={`Enlarge ${displayGallery[0].alt.toLowerCase()}`}
           data-gallery-stage
         >
           <span class="b100-gallery-shadow" aria-hidden="true"></span>
           <img
-            src={galleryImages[0].src}
-            alt={galleryImages[0].alt}
-            width={galleryImages[0].width}
-            height={galleryImages[0].height}
+            src={displayGallery[0].src}
+            alt={displayGallery[0].alt}
+            width={displayGallery[0].width}
+            height={displayGallery[0].height}
             fetchpriority="high"
             decoding="async"
             data-gallery-main
           />
           <span class="b100-gallery-tier">High-end</span>
-          <span class="b100-gallery-count" data-gallery-count>1 / {galleryImages.length}</span>
+          <span class="b100-gallery-count" data-gallery-count>1 / {displayGallery.length}</span>
           <span class="b100-gallery-hint">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <circle cx="10.8" cy="10.8" r="6.4"></circle>
@@ -227,7 +236,7 @@ const upholsteryColors = [
         </button>
 
         <div class="b100-gallery-thumbs" role="group" aria-label="B100L Ultra image gallery">
-          {galleryImages.map((image, index) => (
+          {displayGallery.map((image, index) => (
             <button
               class:list={["b100-thumb", { "is-active": index === 0 }]}
               type="button"
@@ -274,16 +283,16 @@ const upholsteryColors = [
             </button>
             <div class="b100-lightbox-stage" data-lightbox-stage>
               <img
-                src={galleryImages[0].src}
-                alt={galleryImages[0].alt}
-                width={galleryImages[0].width}
-                height={galleryImages[0].height}
+                src={displayGallery[0].src}
+                alt={displayGallery[0].alt}
+                width={displayGallery[0].width}
+                height={displayGallery[0].height}
                 decoding="async"
                 draggable="false"
                 data-lightbox-image
               />
             </div>
-            <span class="b100-lightbox-count" data-lightbox-count>1 / {galleryImages.length}</span>
+            <span class="b100-lightbox-count" data-lightbox-count>1 / {displayGallery.length}</span>
             <button class="b100-lightbox-arrow is-next" type="button" aria-label="Next image" data-lightbox-next>
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="m9 5 7 7-7 7"></path>
@@ -295,9 +304,9 @@ const upholsteryColors = [
 
       <div class="b100-hero-copy">
         <span class="b100-tier-badge">High-end Series</span>
-        <h1>B100L Ultra Dental Chair</h1>
+        <h1>{productTitle}</h1>
         <p class="b100-product-model">Full digital left/right dental chair</p>
-        <p class="b100-tagline">A fully digital American-style dental chair for premium practices, combining a one-minute left/right workflow with a seven-inch touchscreen control system and smart chair memory.</p>
+        <p class="b100-tagline">{productTagline}</p>
 
         <div class="b100-quick-specs">
           <div><span>Chair positions</span><strong>24 memory positions</strong></div>

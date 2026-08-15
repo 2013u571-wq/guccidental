@@ -4,13 +4,14 @@ import { page, pageTranslation } from "./page";
 import { product, productCategory, productTranslation } from "./product";
 import { download, redirect, resource } from "./resource";
 import { siteSettings } from "./siteSettings";
-import { faqItem, featureItem, pageSection, productSpec, seo, translationMeta } from "./objects";
+import { faqItem, featureItem, pageSection, productSpec, r2Media, seo, translationMeta } from "./objects";
 
 export const schemaTypes = [
   seo,
   translationMeta,
   faqItem,
   productSpec,
+  r2Media,
   featureItem,
   pageSection,
   siteSettings,

@@ -1,3 +1,5 @@
+const mediaUrl = (path: string) => `${(import.meta.env.PUBLIC_MEDIA_ORIGIN || "https://media.guccidental.com").replace(/\/$/, "")}${path}`;
+
 export type Category = {
   slug: string;
   title: string;
@@ -28,6 +30,7 @@ export type ChairModel = {
   chairTier: ChairTier;
   series: string;
   detailSlug?: string;
+  thumb?: { src: string; alt: string };
 };
 
 export const categories: Category[] = [
@@ -199,28 +202,26 @@ export const chairModels: ChairModel[] = [
   { model: "QL-2028IV", chairTier: "mid-range", series: "Other Models" },
   { model: "V2 Pro", chairTier: "mid-range", series: "Other Models" },
 
-  { model: "G1", chairTier: "high-end", series: "G Series" },
-  { model: "G5", chairTier: "high-end", series: "G Series" },
-  { model: "G5 Implant", chairTier: "high-end", series: "G Series", detailSlug: "g5-implant" },
-  { model: "S670", chairTier: "high-end", series: "S Series" },
-  { model: "S680", chairTier: "high-end", series: "S Series" },
-  { model: "SL8500 Standard A", chairTier: "high-end", series: "SL8500 Series" },
-  { model: "SL8500 Standard B", chairTier: "high-end", series: "SL8500 Series" },
-  { model: "SL8500 without box A", chairTier: "high-end", series: "SL8500 Series" },
-  { model: "SL8500 without box B", chairTier: "high-end", series: "SL8500 Series" },
-  { model: "SL8500 B", chairTier: "high-end", series: "SL8500 Series" },
-  { model: "B100L Ultra", chairTier: "high-end", series: "B100L Series" },
-  { model: "B100L Premium", chairTier: "high-end", series: "B100L Series" },
-  { model: "B100L Galaxy", chairTier: "high-end", series: "B100L Series" },
-  { model: "M100(L)", chairTier: "high-end", series: "M Series" },
-  { model: "M200(L)", chairTier: "high-end", series: "M Series" },
-  { model: "V3 Implant", chairTier: "high-end", series: "V3 Series" },
-  { model: "V3 Luxury", chairTier: "high-end", series: "V3 Series" },
-  { model: "V3-Black", chairTier: "high-end", series: "V3 Series" },
-  { model: "YD-S6", chairTier: "high-end", series: "YD-S6 Series" },
-  { model: "YD-S6 Implant", chairTier: "high-end", series: "YD-S6 Series" },
-  { model: "A6800", chairTier: "high-end", series: "Other Models" },
-  { model: "TJ-70", chairTier: "high-end", series: "Other Models" }
+  { model: "G1", chairTier: "high-end", series: "G Series", detailSlug: "high-end/g1", thumb: { src: mediaUrl("/images/products/dental-chair/g1/gallery/g1-chair-main.avif"), alt: "G1 high-end dental chair" } },
+  { model: "G5", chairTier: "high-end", series: "G Series", detailSlug: "high-end/g5", thumb: { src: mediaUrl("/images/products/dental-chair/g5/gallery/g5-chair-main.avif"), alt: "G5 high-end dental chair" } },
+  { model: "G5 Implant", chairTier: "high-end", series: "G Series", detailSlug: "high-end/g5-implant", thumb: { src: mediaUrl("/images/products/dental-chair/g5-implant/gallery/g5-implant-chair-main.avif"), alt: "G5 Implant high-end dental chair" } },
+  { model: "S670", chairTier: "high-end", series: "S Series", detailSlug: "high-end/s670", thumb: { src: mediaUrl("/images/products/dental-chair/s670/gallery/s670-main-product.avif"), alt: "S670 high-end dental chair" } },
+  { model: "S680", chairTier: "high-end", series: "S Series", detailSlug: "high-end/s680", thumb: { src: mediaUrl("/images/products/dental-chair/s680/gallery/s680-main-product.avif"), alt: "S680 high-end dental chair" } },
+  { model: "SL8500 Standard A", chairTier: "high-end", series: "SL8500 Series", thumb: { src: mediaUrl("/images/products/dental-chair/sl8500.avif"), alt: "SL8500 high-end dental chair with brown upholstery and integrated delivery unit" } },
+  { model: "SL8500 Standard B", chairTier: "high-end", series: "SL8500 Series", thumb: { src: mediaUrl("/images/products/dental-chair/sl8500.avif"), alt: "SL8500 high-end dental chair with brown upholstery and integrated delivery unit" } },
+  { model: "SL8500 without box A", chairTier: "high-end", series: "SL8500 Series", thumb: { src: mediaUrl("/images/products/dental-chair/sl8500.avif"), alt: "SL8500 high-end dental chair with brown upholstery and integrated delivery unit" } },
+  { model: "SL8500 without box B", chairTier: "high-end", series: "SL8500 Series", thumb: { src: mediaUrl("/images/products/dental-chair/sl8500.avif"), alt: "SL8500 high-end dental chair with brown upholstery and integrated delivery unit" } },
+  { model: "SL8500 B", chairTier: "high-end", series: "SL8500 Series", thumb: { src: mediaUrl("/images/products/dental-chair/sl8500.avif"), alt: "SL8500 high-end dental chair with brown upholstery and integrated delivery unit" } },
+  { model: "B100L Ultra", chairTier: "high-end", series: "B100L Series", detailSlug: "high-end/b100-ultra", thumb: { src: mediaUrl("/images/products/dental-chair/b100-ultra/b100-ultra-blue-front-three-quarter.avif"), alt: "B100L Ultra high-end dental chair with blue upholstery in a front three-quarter view" } },
+  { model: "B100L Premium", chairTier: "high-end", series: "B100L Series", detailSlug: "high-end/b100l-premium", thumb: { src: mediaUrl("/images/products/dental-chair/b100l-premium/gallery/b100l-premium-gallery-01.avif"), alt: "B100L Premium high-end dental chair" } },
+  { model: "B100L Galaxy", chairTier: "high-end", series: "B100L Series", detailSlug: "high-end/b100l-galaxy", thumb: { src: mediaUrl("/images/products/dental-chair/b100l-galaxy/gallery/b100l-galaxy-gallery-01.avif"), alt: "B100L Galaxy high-end dental chair" } },
+  { model: "M100(L)", chairTier: "high-end", series: "M Series", detailSlug: "high-end/m100", thumb: { src: mediaUrl("/images/products/dental-chair/m100/gallery/m100-chair-main.avif"), alt: "M100(L) high-end dental chair" } },
+  { model: "M200(L)", chairTier: "high-end", series: "M Series", detailSlug: "high-end/m200", thumb: { src: mediaUrl("/images/products/dental-chair/m200/gallery/m200-disinfection-edition-01.avif"), alt: "M200(L) high-end dental chair" } },
+  { model: "V3 Implant", chairTier: "high-end", series: "V3 Series", detailSlug: "high-end/v3-implant", thumb: { src: mediaUrl("/images/products/dental-chair/v3-implant/gallery/v3-implant-overhead-view.avif"), alt: "V3 Implant high-end dental chair" } },
+  { model: "V3 Luxury", chairTier: "high-end", series: "V3 Series", detailSlug: "high-end/v3-luxury", thumb: { src: mediaUrl("/images/products/dental-chair/v3-luxury/gallery/v3-luxury-chair-product.avif"), alt: "V3 Luxury high-end dental chair" } },
+  { model: "V3-Black", chairTier: "high-end", series: "V3 Series", detailSlug: "high-end/v3-black", thumb: { src: mediaUrl("/images/products/dental-chair/v3-black/gallery/v3-black-special-edition-transparent.avif"), alt: "V3-Black high-end dental chair" } },
+  { model: "A6800", chairTier: "high-end", series: "Other Models", detailSlug: "high-end/a6800", thumb: { src: mediaUrl("/images/products/dental-chair/a6800/gallery/a6800-quote-visual.avif"), alt: "A6800 high-end dental chair" } },
+  { model: "TJ-70", chairTier: "high-end", series: "Other Models", detailSlug: "high-end/tj-70", thumb: { src: mediaUrl("/images/products/dental-chair/tj-70/gallery/tj-70-chair-product.avif"), alt: "TJ-70 high-end dental chair" } }
 ];
 
 export function getCategory(slug: string) {

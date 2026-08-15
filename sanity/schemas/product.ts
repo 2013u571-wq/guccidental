@@ -32,7 +32,14 @@ export const product = defineType({
     defineField({ name: "chairTier", type: "string", options: { list: chairTiers } }),
     defineField({ name: "featured", type: "boolean", initialValue: false }),
     defineField({ name: "order", type: "number" }),
-    defineField({ name: "images", type: "array", of: [defineArrayMember({ type: "image" })] }),
+    defineField({
+      name: "images",
+      title: "Product gallery",
+      description: "Files live in Cloudflare R2. Add their R2 object keys here, drag them into display order, and add accessible alt text.",
+      type: "array",
+      options: { layout: "grid" },
+      of: [defineArrayMember({ type: "r2Media" })]
+    }),
     defineField({ name: "specs", type: "array", of: [defineArrayMember({ type: "productSpec" })] }),
     defineField({ name: "certificates", type: "array", of: [defineArrayMember({ type: "reference", to: [{ type: "resource" }] })] }),
     defineField({ name: "downloads", type: "array", of: [defineArrayMember({ type: "reference", to: [{ type: "download" }, { type: "resource" }] })] }),
@@ -45,11 +52,22 @@ export const productTranslation = defineType({
   name: "productTranslation",
   title: "Product Translation",
   type: "document",
+  preview: {
+    select: { title: "title", subtitle: "translation.language" },
+    prepare: ({ title, subtitle }) => ({ title: title || "Untitled product content", subtitle: subtitle?.toUpperCase() || "No language" })
+  },
   fields: [
     defineField({ name: "product", type: "reference", to: [{ type: "product" }], validation: (Rule) => Rule.required() }),
     defineField({ name: "translation", type: "translationMeta" }),
     defineField({ name: "title", type: "string", validation: (Rule) => Rule.required() }),
-    defineField({ name: "summary", type: "text", rows: 3 }),
+    defineField({ name: "summary", type: "text", rows: 3, validation: (Rule) => Rule.required() }),
+    defineField({
+      name: "tagline",
+      title: "Hero tagline",
+      description: "Short lead shown beside the product gallery.",
+      type: "text",
+      rows: 3
+    }),
     defineField({ name: "body", type: "array", of: [defineArrayMember({ type: "block" })] }),
     defineField({ name: "features", type: "array", of: [defineArrayMember({ type: "featureItem" })] }),
     defineField({ name: "applications", type: "array", of: [defineArrayMember({ type: "string" })] }),

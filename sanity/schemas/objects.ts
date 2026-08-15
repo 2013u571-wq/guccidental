@@ -21,7 +21,7 @@ export const translationMeta = defineType({
   fields: [
     defineField({ name: "language", type: "string", options: { list: languages }, validation: (Rule) => Rule.required() }),
     defineField({ name: "sourceLanguage", type: "string", options: { list: languages }, initialValue: "en" }),
-    defineField({ name: "sourceDocument", type: "reference", to: [{ type: "pageTranslation" }, { type: "productTranslation" }, { type: "solutionTranslation" }, { type: "caseStudyTranslation" }, { type: "postTranslation" }] }),
+    defineField({ name: "sourceDocument", type: "reference", to: [{ type: "pageTranslation" }, { type: "productTranslation" }, { type: "solutionTranslation" }] }),
     defineField({ name: "translationStatus", type: "string", options: { list: translationStatuses }, initialValue: "not-translated" }),
     defineField({ name: "lastTranslatedAt", type: "datetime" }),
     defineField({ name: "reviewedBy", type: "string" }),
@@ -51,6 +51,28 @@ export const productSpec = defineType({
     defineField({ name: "unit", type: "string" }),
     defineField({ name: "group", type: "string" }),
     defineField({ name: "order", type: "number" })
+  ]
+});
+
+export const r2Media = defineType({
+  name: "r2Media",
+  title: "Cloudflare R2 media",
+  type: "object",
+  description: "This stores metadata only. Upload the file to Cloudflare R2 first, then enter its object key here.",
+  fields: [
+    defineField({
+      name: "objectKey",
+      title: "R2 object key",
+      type: "string",
+      description: "Path inside the media bucket, without the domain or a leading slash. Example: images/products/dental-chair/b100-ultra/front.webp",
+      validation: (Rule) => Rule.required().custom((value) => {
+        if (typeof value === "string" && value.startsWith("/")) return "Enter the key without a leading slash.";
+        if (typeof value === "string" && /^https?:\/\//i.test(value)) return "Enter the R2 object key, not a full URL.";
+        return true;
+      })
+    }),
+    defineField({ name: "alt", title: "Alt text", type: "string", validation: (Rule) => Rule.required().warning("Add a concise description of the image.") }),
+    defineField({ name: "caption", title: "Caption", type: "string" })
   ]
 });
 

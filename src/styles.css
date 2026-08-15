@@ -8228,6 +8228,13 @@ img.partner-tile-img {
   text-transform: uppercase;
 }
 
+.tier-model-thumb > img {
+  height: 100%;
+  object-fit: cover;
+  transition: transform 160ms ease;
+  width: 100%;
+}
+
 .tier-model-meta {
   min-width: 0;
 }
@@ -8336,6 +8343,10 @@ img.partner-tile-img {
 
   .tier-model-row:hover .tier-model-thumb svg {
     transform: scale(1.07);
+  }
+
+  .tier-model-row:hover .tier-model-thumb img {
+    transform: scale(1.05);
   }
 
   .tier-model-row:hover .tier-model-name {
@@ -9787,6 +9798,7 @@ img.partner-tile-img {
   --b100-page-max-width: 1180px;
   --b100-page-narrow-width: 960px;
   --b100-page-reading-width: 720px;
+  overflow-x: clip;
 }
 
 /* Closed mega-menu panels retain off-canvas intrinsic content. Contain that

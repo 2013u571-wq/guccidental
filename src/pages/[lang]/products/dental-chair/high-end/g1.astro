@@ -1,0 +1,13 @@
+---
+import HighEndDentalChairDetail from "@components/products/HighEndDentalChairDetail.astro";
+import { highEndDentalChairDetails } from "@data/highEndDentalChairDetails";
+import { getLanguage, languages } from "@lib/i18n";
+
+export function getStaticPaths() {
+  return languages.map((language) => ({ params: { lang: language.code } }));
+}
+
+const lang = getLanguage(Astro.params.lang);
+---
+
+<HighEndDentalChairDetail lang={lang} product={highEndDentalChairDetails["g1"]} />
