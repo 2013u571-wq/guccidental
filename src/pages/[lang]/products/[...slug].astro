@@ -37,15 +37,11 @@ type ChairShowcaseItem = {
 
 const chairShowcase: ChairShowcaseItem[] = [
   { model: "B100L Ultra", tier: "high-end", description: "Premium chair platform for advanced treatment and patient comfort.", image: "https://media.guccidental.com/images/products/dental-chair/b100-ultra/b100-ultra-blue-front-three-quarter.webp", alt: "B100L Ultra high-end dental chair with blue upholstery in a front three-quarter view", detailPath: "/products/dental-chair/high-end/b100-ultra/" },
-  // TODO: Add a dedicated product detail page for V3.
-  { model: "V3", tier: "high-end", description: "High-end configuration for modern clinics and demanding daily workloads.", image: "https://media.guccidental.com/images/products/dental-chair/v3.webp", alt: "V3 high-end dental chair with black upholstery" },
-  // TODO: Add a dedicated product detail page for SL8500.
-  { model: "SL8500", tier: "high-end", description: "Premium treatment unit with refined upholstery, integrated controls, and an advanced chairside workflow.", image: "https://media.guccidental.com/images/products/dental-chair/sl8500.webp", alt: "SL8500 high-end dental chair with brown upholstery and integrated delivery unit" },
-  // TODO: Add a dedicated product detail page for S620.
-  { model: "S620", tier: "mid-range", description: "Flexible treatment-room equipment with a streamlined workflow.", image: "https://media.guccidental.com/images/products/dental-chair/s620.webp", alt: "S620 mid-range dental chair with blue upholstery" },
-  // TODO: Add a dedicated product detail page for G7.
-  { model: "G7", tier: "mid-range", description: "Balanced chairside configuration for comfortable everyday dentistry.", image: "https://media.guccidental.com/images/products/dental-chair/g7.webp", alt: "G7 mid-range dental chair with navy upholstery and blue treatment module" },
-  { model: "P6", tier: "economic", description: "A versatile daily-treatment unit for efficient clinic upgrades.", image: "https://media.guccidental.com/images/products/dental-chair/p6.webp", alt: "P6 economic dental chair with charcoal upholstery", detailPath: "/products/dental-chair/p6/" }
+  { model: "V3 Luxury", tier: "high-end", description: "High-end configuration for modern clinics and demanding daily workloads.", image: "https://media.guccidental.com/images/products/dental-chair/v3.webp", alt: "V3 Luxury high-end dental chair with black upholstery", detailPath: "/products/dental-chair/high-end/v3-luxury/" },
+  { model: "SL8500 Standard", tier: "high-end", description: "Premium treatment unit with refined upholstery, integrated controls, and an advanced chairside workflow.", image: "https://media.guccidental.com/images/products/dental-chair/sl8500.webp", alt: "SL8500 Standard high-end dental chair with brown upholstery and integrated delivery unit", detailPath: "/products/dental-chair/high-end/sl8500-standard/" },
+  { model: "S620", tier: "mid-range", description: "Flexible treatment-room equipment with a streamlined workflow.", image: "https://media.guccidental.com/images/products/dental-chair/s620.webp", alt: "S620 mid-range dental chair with blue upholstery", detailPath: "/products/dental-chair/mid-range/#mid-range-s-series" },
+  { model: "G7", tier: "mid-range", description: "Balanced chairside configuration for comfortable everyday dentistry.", image: "https://media.guccidental.com/images/products/dental-chair/g7.webp", alt: "G7 mid-range dental chair with navy upholstery and blue treatment module", detailPath: "/products/dental-chair/mid-range/#mid-range-g-series" },
+  { model: "P6", tier: "mid-range", description: "A versatile daily-treatment unit for efficient clinic upgrades.", image: "https://media.guccidental.com/images/products/dental-chair/p6.webp", alt: "P6 mid-range dental chair with charcoal upholstery", detailPath: "/products/dental-chair/p6/" }
 ];
 
 const chairFaqs = [
@@ -153,13 +149,9 @@ const partnerTiles = [
                 return (
                   <article class="chair-card">
                     <div class="chair-card-media">
-                      {chair.detailPath ? (
-                        <a class="chair-card-media-link" href={detailHref} aria-label={`View ${chair.model} details`}>
-                          <img class:list={{ "chair-card-image--v3": chair.model === "V3" }} src={chair.image} alt={chair.alt} width="1200" height="900" loading="lazy" decoding="async" />
-                        </a>
-                      ) : (
-                        <img class:list={{ "chair-card-image--v3": chair.model === "V3" }} src={chair.image} alt={chair.alt} width="1200" height="900" loading="lazy" decoding="async" />
-                      )}
+                      <a class="chair-card-media-link" href={detailHref} aria-label={`View ${chair.model} details`}>
+                        <img class:list={{ "chair-card-image--v3": chair.model === "V3 Luxury" }} src={chair.image} alt={chair.alt} width="1200" height="900" loading="lazy" decoding="async" />
+                      </a>
                     </div>
                     <div class="chair-card-content">
                       <p class="chair-card-tier">{chair.tier}</p>

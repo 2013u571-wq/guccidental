@@ -119,6 +119,26 @@ function w12ColorsFor(slug: string, model: string) {
   });
 }
 
+const hx12ColorCodes = [
+  "HX12-01", "HX12-20", "HX12-27", "HX12-30", "HX12-31", "HX12-34",
+  "HX12-36", "HX12-43", "HX12-44", "HX12-49", "HX12-51", "HX12-55",
+  "HX12-58", "HX12-60", "HX12-64", "HX12-67", "HX12-72", "HX12-75",
+];
+
+function hx12ColorsFor(slug: string, model: string) {
+  return hx12ColorCodes.map((code) => {
+    const colorSlug = code.toLowerCase();
+    return {
+      code,
+      name: code,
+      image: mediaUrl(`/images/products/dental-chair/${slug}/colors/${slug}-${colorSlug}.avif`),
+      swatch: mediaUrl(`/images/products/dental-chair/${slug}/colors/swatches/${slug}-${colorSlug}-swatch.avif`),
+      alt: `${model} dental chair shown with ${code} upholstery`,
+      description: `${code} upholstery for coordinated treatment-room interiors.`,
+    };
+  });
+}
+
 const s670ColorCodes = [
   "SS-P01", "SS-P03", "SS-P05", "SS-P06", "SS-P07", "SS-P09", "SS-P10", "SS-P11",
   "SS-P12", "SS-P13", "SS-P14", "SS-P15", "SS-P16", "SS-P17", "SS-P18", "SS-P19",
@@ -201,6 +221,143 @@ const a6800ColorDefinitions: ColorDefinition[] = [
 ];
 
 export const highEndDentalChairDetails: Record<string, HighEndDentalChairDetail> = {
+  "sl8500-standard": {
+    slug: "sl8500-standard",
+    model: "SL8500 Standard",
+    title: "SL8500 Standard Dental Chair",
+    seoDescription: "SL8500 Standard high-end dental chair with a flexible standard configuration, organized chairside delivery, premium upholstery options and a two-year warranty.",
+    productType: "Standard high-end dental chair",
+    tagline: "The SL8500 Standard is a high-end dental chair for premium clinics, combining patient comfort, organized chairside workflow and a polished treatment-room presence.",
+    gallery: [
+      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/gallery/sl8500-standard-main-view.avif"), alt: "SL8500 Standard dental chair main product view with brown upholstery", label: "Main product view", width: 1912, height: 1654 },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/gallery/sl8500-standard-chair-position-view.avif"), alt: "SL8500 Standard dental chair in a reclined treatment position", label: "Chair position view", width: 1575, height: 918 },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/gallery/sl8500-standard-complete-unit-view.avif"), alt: "SL8500 Standard complete dental treatment unit with side box and delivery system", label: "Complete unit view", width: 1435, height: 1575 },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/gallery/sl8500-standard-delivery-view.avif"), alt: "SL8500 Standard chairside delivery and instrument layout", label: "Delivery view", width: 1732, height: 1320 },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/gallery/sl8500-standard-assistant-control-view.avif"), alt: "SL8500 Standard assistant control and instrument area", label: "Assistant control", width: 1326, height: 745 },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/gallery/sl8500-standard-overhead-view.avif"), alt: "SL8500 Standard dental chair overhead view", label: "Overhead view", width: 945, height: 1417 },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/gallery/sl8500-standard-top-mounted-delivery-view.avif"), alt: "SL8500 Standard top-mounted delivery configuration", label: "Top-mounted delivery", width: 1181, height: 1221 },
+    ],
+    quickSpecs: [
+      { label: "Chair positioning", value: "Standard lower-delivery configuration" },
+      { label: "Operating light", value: "High-end treatment-room lighting" },
+      { label: "Workflow", value: "Organized chairside delivery" },
+      { label: "Warranty", value: "2 years" },
+    ],
+    trustHighlights: ["Flexible standard configuration", "Organized chairside workflow", "2-year dental-chair warranty"],
+    sellingPointHeading: "Why clinics choose the SL8500 Standard",
+    sellingPoints: [
+      { title: "Flexible SL8500 platform", description: "SL8500 Standard gives clinics a high-end configuration with a flexible chair layout for different treatment-room setups." },
+      { title: "Organized delivery workflow", description: "The delivery unit keeps working instruments arranged around the operator area, supporting clean chairside movement during daily treatment." },
+      { title: "Premium operating area", description: "The chair, light and delivery components are arranged to give the dentist a clear working area around the patient." },
+      { title: "2-year dental-chair warranty", description: "Every SL8500 Standard dental chair is covered by the two-year dental-chair range warranty." },
+    ],
+    videoPlaceholder: { title: "See the SL8500 Standard in action", note: "Product demonstration video coming soon" },
+    featureHeading: "Built around the daily rhythm of a busy clinic",
+    features: [
+      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/features/sl8500-standard-operating-light.avif"), alt: "SL8500 Standard multi-lens dental operating light", label: "Operating light", width: 1417, height: 1434, eyebrow: "Operating light", title: "Clear illumination for daily treatment", description: "The operating light provides focused visibility over the treatment area, helping the dentist maintain a clear view during routine procedures.", bullets: ["Multi-lens dental operating light", "Clear treatment-field illumination", "Positioned for chairside workflow"] },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/features/sl8500-standard-cuspidor-water-system.avif"), alt: "SL8500 Standard cuspidor and external water bottle system", label: "Cuspidor and water system", width: 1181, height: 1099, eyebrow: "Cuspidor and water bottle system", title: "Compact rinsing and water-supply area", description: "The cuspidor and external water bottle are arranged together beside the chair, supporting patient rinsing and daily water-supply management." },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/features/sl8500-standard-assistant-control-area.avif"), alt: "SL8500 Standard assistant control and instrument area", label: "Assistant control area", width: 1326, height: 745, eyebrow: "Assistant control and instrument area", title: "Chairside support within easy reach", description: "The assistant-side control and instrument area keeps handpieces and routine controls organized close to the working position." },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/features/sl8500-standard-left-right-operation.avif"), alt: "SL8500 Standard configured for flexible left- or right-handed operation", label: "Left or right operation", width: 1435, height: 1575, eyebrow: "Flexible left or right handed operation", title: "Convertible layout for different working habits", description: "SL8500 Standard supports flexible left- or right-handed operation, allowing the delivery system and chairside workflow to suit different clinic layouts and operator habits." },
+    ],
+    colors: hx12ColorsFor("sl8500-standard", "SL8500 Standard"),
+    colorHeading: "Premium upholstery options for high-end clinics",
+    colorIntroduction: "Clinic-ready colors with a clean, premium tone that supports both patient comfort and coordinated room design.",
+    specifications: [
+      { label: "Model", value: "SL8500 Standard" },
+      { label: "Tier", value: "High-end" },
+      { label: "Configuration", value: "Standard lower-delivery configuration" },
+      { label: "Operating light", value: "High-end treatment-room lighting" },
+      { label: "Workflow", value: "Organized chairside delivery" },
+      { label: "Warranty", value: "2 years" },
+    ],
+    resources: [
+      { label: "SL8500 Standard Product Catalog", href: mediaUrl("/downloads/guccidental-sl8500-standard-catalog.pdf"), meta: "PDF · 1.3 MB" },
+      { label: "SL8500 Maintenance and Repair Manual", href: mediaUrl("/downloads/guccidental-sl8500-maintenance-manual.pdf"), meta: "PDF · 40.4 KB" },
+    ],
+    caseHeading: "SL8500 Standard in finished treatment rooms",
+    caseIntroduction: "See how the SL8500 Standard brings the chair body, delivery workflow and operating area together in complete clinical settings.",
+    cases: [
+      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/cases/sl8500-standard-case-01.avif"), alt: "SL8500 Standard dental chair installed in a customer treatment room", label: "Treatment-room overview", width: 788, height: 1400, title: "Treatment-room overview", description: "A finished-room view shows the chair working as part of a complete clinical environment." },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/cases/sl8500-standard-case-02.avif"), alt: "SL8500 Standard chairside operator workspace in a clinic", label: "Operator workspace", width: 1280, height: 720, title: "Operator workspace", description: "The chairside delivery area, light position and room layout create an organized operator workspace." },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/cases/sl8500-standard-case-03.avif"), alt: "SL8500 Standard patient chair and upholstery in a clinic", label: "Patient comfort", width: 1280, height: 720, title: "Patient comfort", description: "The patient chair supports stable positioning while the upholstery finish gives the room a polished look." },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/cases/sl8500-standard-case-04.avif"), alt: "SL8500 Standard dental chair in a clean clinical layout", label: "Clean clinical layout", width: 1800, height: 1350, title: "Clean clinical layout", description: "The overall setup keeps the treatment room tidy, serviceable and easy to understand at a glance." },
+    ],
+    faq: [
+      { question: "How is the SL8500 Standard positioned?", answer: "The SL8500 Standard is positioned as a high-end dental chair for clinics that need a polished treatment-room presence and organized daily workflow." },
+      { question: "What are the main product highlights?", answer: "The main highlights are its standard chair configuration, organized chairside delivery, patient comfort, operating-light area and two-year warranty." },
+      { question: "Does the SL8500 Standard support premium clinic interiors?", answer: "Yes. Its upholstery options and polished treatment-unit presentation are designed to coordinate with finished clinical spaces." },
+      { question: "What warranty is included?", answer: "The SL8500 Standard includes a two-year dental-chair warranty." },
+      { question: "Can customers request more information?", answer: "Yes. Use the inquiry form to request a datasheet, confirm the final configuration or discuss a clinic project." },
+    ],
+    related: { slug: "sl8500-without-box", model: "SL8500 without box", description: "Compact no-side-box configuration for an open and flexible chairside layout." },
+  },
+  "sl8500-without-box": {
+    slug: "sl8500-without-box",
+    model: "SL8500 without box",
+    title: "SL8500 without box Dental Chair",
+    seoDescription: "SL8500 without box compact high-end dental chair with an open chairside layout, organized delivery, premium upholstery options and a two-year warranty.",
+    productType: "Compact high-end dental chair",
+    tagline: "The SL8500 without box is a compact high-end dental chair for premium clinics, combining patient comfort, organized chairside workflow and a polished treatment-room presence.",
+    gallery: [
+      { src: mediaUrl("/images/products/dental-chair/sl8500-without-box/gallery/sl8500-without-box-main-view.avif"), alt: "SL8500 without box dental chair main product view with open chairside layout", label: "Main product view", width: 1976, height: 1975 },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-without-box/gallery/sl8500-without-box-chair-movement-view.avif"), alt: "SL8500 without box dental chair in a reclined treatment position", label: "Chair movement view", width: 1575, height: 918 },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-without-box/gallery/sl8500-without-box-delivery-view.avif"), alt: "SL8500 without box chairside delivery and instrument layout", label: "Delivery view", width: 1732, height: 1320 },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-without-box/gallery/sl8500-without-box-overhead-view.avif"), alt: "SL8500 without box dental chair overhead view", label: "Overhead view", width: 945, height: 1417 },
+    ],
+    quickSpecs: [
+      { label: "Chair positioning", value: "Compact no-side-box configuration" },
+      { label: "Operating light", value: "High-end treatment-room lighting" },
+      { label: "Workflow", value: "Organized chairside delivery" },
+      { label: "Warranty", value: "2 years" },
+    ],
+    trustHighlights: ["Compact no-side-box configuration", "Organized chairside workflow", "2-year dental-chair warranty"],
+    sellingPointHeading: "Why clinics choose the SL8500 without box",
+    sellingPoints: [
+      { title: "Flexible SL8500 platform", description: "SL8500 without box gives clinics a high-end configuration with an open chair layout for different treatment-room setups." },
+      { title: "Organized delivery workflow", description: "The delivery unit keeps working instruments arranged around the operator area, supporting clean chairside movement during daily treatment." },
+      { title: "Premium operating area", description: "The chair, light and delivery components are arranged to give the dentist a clear working area around the patient." },
+      { title: "2-year dental-chair warranty", description: "Every SL8500 without box dental chair is covered by the two-year dental-chair range warranty." },
+    ],
+    videoPlaceholder: { title: "See the SL8500 without box in action", note: "Product demonstration video coming soon" },
+    featureHeading: "Built around the daily rhythm of a busy clinic",
+    features: [
+      { src: mediaUrl("/images/products/dental-chair/sl8500-without-box/features/sl8500-without-box-assistant-control-area.avif"), alt: "SL8500 without box assistant control and instrument area", label: "Assistant control area", width: 1326, height: 745, eyebrow: "Assistant control and instrument area", title: "Chairside support within easy reach", description: "The assistant-side control and instrument area keeps handpieces and routine controls organized close to the working position.", bullets: ["Assistant-side control layout", "Organized handpiece holders", "Easy access during treatment"] },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-without-box/features/sl8500-without-box-chair-movement.avif"), alt: "SL8500 without box chair platform in a reclined treatment position", label: "Chair movement", width: 1575, height: 918, eyebrow: "Comfortable chair movement", title: "Smooth positioning for patient treatment", description: "The chair platform supports stable backrest and seat movement, helping patients stay comfortable during different treatment positions." },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-without-box/features/sl8500-without-box-headrest-backrest-support.avif"), alt: "SL8500 without box adjustable headrest and backrest support", label: "Headrest and backrest", width: 945, height: 1417, eyebrow: "Headrest and backrest support", title: "Comfortable upper-body positioning", description: "The headrest and backrest area supports the patient's head, neck and upper body, helping maintain a comfortable posture throughout treatment." },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-without-box/features/sl8500-without-box-operating-light.avif"), alt: "SL8500 without box multi-lens dental operating light", label: "Operating light", width: 1417, height: 1434, eyebrow: "Operating light", title: "Clear illumination for daily treatment", description: "The operating light provides focused visibility over the treatment area, helping the dentist maintain a clear view during routine procedures." },
+    ],
+    colors: hx12ColorsFor("sl8500-without-box", "SL8500 without box"),
+    colorHeading: "Premium upholstery options for high-end clinics",
+    colorIntroduction: "Clinic-ready colors with a clean, premium tone that supports both patient comfort and coordinated room design.",
+    specifications: [
+      { label: "Model", value: "SL8500 without box" },
+      { label: "Tier", value: "High-end" },
+      { label: "Configuration", value: "Compact no-side-box configuration" },
+      { label: "Operating light", value: "High-end treatment-room lighting" },
+      { label: "Workflow", value: "Organized chairside delivery" },
+      { label: "Warranty", value: "2 years" },
+    ],
+    resources: [
+      { label: "SL8500 without box Product Catalog", href: mediaUrl("/downloads/guccidental-sl8500-without-box-catalog.pdf"), meta: "PDF · 3.0 MB" },
+      { label: "SL8500 Maintenance and Repair Manual", href: mediaUrl("/downloads/guccidental-sl8500-maintenance-manual.pdf"), meta: "PDF · 40.4 KB" },
+    ],
+    caseHeading: "SL8500 without box in finished treatment rooms",
+    caseIntroduction: "See how the SL8500 without box brings the chair body, delivery workflow and operating area together in complete clinical settings.",
+    cases: [
+      { src: mediaUrl("/images/products/dental-chair/sl8500-without-box/cases/sl8500-without-box-case-01.avif"), alt: "SL8500 without box dental chair installed in a customer treatment room", label: "Treatment-room overview", width: 1800, height: 1350, title: "Treatment-room overview", description: "A finished-room view shows the chair working as part of a complete clinical environment." },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-without-box/cases/sl8500-without-box-case-02.avif"), alt: "SL8500 without box chairside operator workspace in a clinic", label: "Operator workspace", width: 1800, height: 1350, title: "Operator workspace", description: "The chairside delivery area, light position and room layout create an organized operator workspace." },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-without-box/cases/sl8500-without-box-case-03.avif"), alt: "SL8500 without box patient chair and upholstery in a clinic", label: "Patient comfort", width: 1050, height: 1400, title: "Patient comfort", description: "The patient chair supports stable positioning while the upholstery finish gives the room a polished look." },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-without-box/cases/sl8500-without-box-case-04.avif"), alt: "SL8500 without box dental chair in a clean clinical layout", label: "Clean clinical layout", width: 1050, height: 1400, title: "Clean clinical layout", description: "The overall setup keeps the treatment room tidy, serviceable and easy to understand at a glance." },
+    ],
+    faq: [
+      { question: "How is the SL8500 without box positioned?", answer: "The SL8500 without box is positioned as a compact high-end dental chair for clinics that need a polished treatment-room presence and organized daily workflow." },
+      { question: "What are the main product highlights?", answer: "The main highlights are its compact no-side-box configuration, organized chairside delivery, patient comfort, operating-light area and two-year warranty." },
+      { question: "Does the SL8500 without box support premium clinic interiors?", answer: "Yes. Its open chairside layout, upholstery options and polished treatment-unit presentation are designed to coordinate with finished clinical spaces." },
+      { question: "What warranty is included?", answer: "The SL8500 without box includes a two-year dental-chair warranty." },
+      { question: "Can customers request more information?", answer: "Yes. Use the inquiry form to request a datasheet, confirm the final configuration or discuss a clinic project." },
+    ],
+    related: { slug: "sl8500-standard", model: "SL8500 Standard", description: "Standard high-end configuration with a complete lower-delivery chairside layout." },
+  },
   "b100l-galaxy": {
     slug: "b100l-galaxy",
     model: "B100L Galaxy",
@@ -1287,4 +1444,3 @@ export const highEndDentalChairDetails: Record<string, HighEndDentalChairDetail>
     related: { slug: "g5", model: "G5", description: "Deluxe G-series configuration with a 20-LED surgical lamp and three-folding seat." },
   },
 };
-
