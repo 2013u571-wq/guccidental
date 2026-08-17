@@ -21,9 +21,9 @@ const tierContent = {
 } as const;
 
 const tierSwitches = [
-  { tier: "high-end", label: "High-end", count: 20 },
-  { tier: "mid-range", label: "Mid-range", count: 16 },
-  { tier: "economic", label: "Economic", count: 10 }
+  { tier: "high-end", label: "High-end", count: chairModels.filter((model) => model.chairTier === "high-end").length },
+  { tier: "mid-range", label: "Mid-range", count: chairModels.filter((model) => model.chairTier === "mid-range").length },
+  { tier: "economic", label: "Economic", count: chairModels.filter((model) => model.chairTier === "economic").length }
 ] as const;
 
 export function getStaticPaths() {
@@ -47,6 +47,8 @@ const productDetails = new Map(
     .filter((product) => product.category === "dental-chair")
     .map((product) => [product.model, product])
 );
+const inquiryHref = (model: string) =>
+  localizedPath(lang, `/contact/?message=${encodeURIComponent(`I'm interested in the ${model} dental chair.`)}`);
 const modelGroups = Array.from(
   models.reduce((groups, model) => {
     const seriesModels = groups.get(model.series) ?? [];
@@ -56,14 +58,20 @@ const modelGroups = Array.from(
   }, new Map<string, ChairModel[]>())
 ).map(([series, seriesModels]) => ({
   series,
-  models: seriesModels,
+  models: seriesModels.map((model) => ({
+    ...model,
+    detail: productDetails.get(model.model),
+    detailHref: model.detailSlug
+      ? localizedPath(lang, `/products/dental-chair/${model.detailSlug}/`)
+      : undefined,
+    inquiryHref: inquiryHref(model.model),
+    implantReady: model.model.includes("Implant")
+  })),
   id: `${tier}-${series}`
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "")
 }));
-const inquiryHref = (model: string) =>
-  localizedPath(lang, `/contact/?message=${encodeURIComponent(`I'm interested in the ${model} dental chair.`)}`);
 ---
 
 <BaseLayout title={`${content.title} — ${count} Models`} description={`${content.description} ${count} models available.`} lang={lang} pathname={Astro.url.pathname}>
@@ -114,12 +122,6 @@ const inquiryHref = (model: string) =>
               <div class="tier-group-rows">
                 {
                   group.models.map((model) => {
-                    const detail = productDetails.get(model.model);
-                    const detailHref = model.detailSlug
-                      ? localizedPath(lang, `/products/dental-chair/${model.detailSlug}/`)
-                      : undefined;
-                    const implantReady = model.model.includes("Implant");
-
                     return (
                       <article class="tier-model-row">
                         <div class="tier-model-thumb" aria-hidden="true">
@@ -148,15 +150,15 @@ const inquiryHref = (model: string) =>
 
                         <div class="tier-model-meta">
                           {
-                            detailHref ? (
-                              <a class="tier-model-name" href={detailHref}>{model.model}</a>
+                            model.detailHref ? (
+                              <a class="tier-model-name" href={model.detailHref}>{model.model}</a>
                             ) : (
                               <span class="tier-model-name">{model.model}</span>
                             )
                           }
-                          {(model.summary || detail?.summary) && <p>{model.summary || detail?.summary}</p>}
+                          {(model.summary || model.detail?.summary) && <p>{model.summary || model.detail?.summary}</p>}
                           {
-                            implantReady && (
+                            model.implantReady && (
                               <div class="tier-model-chips" aria-label={`${model.model} configuration`}>
                                 <span>Implant-ready</span>
                               </div>
@@ -166,13 +168,13 @@ const inquiryHref = (model: string) =>
 
                         <div class="tier-model-actions">
                           {
-                            detailHref && (
-                              <a class="tier-model-details" href={detailHref}>
+                            model.detailHref && (
+                              <a class="tier-model-details" href={model.detailHref}>
                                 Details <span aria-hidden="true">→</span>
                               </a>
                             )
                           }
-                          <a class="tier-model-inquiry" href={inquiryHref(model.model)}>Inquiry</a>
+                          <a class="tier-model-inquiry" href={model.inquiryHref}>Inquiry</a>
                         </div>
                       </article>
                     );
