@@ -1,0 +1,2451 @@
+{
+  "p2": {
+    "gallery": [
+      {
+        "name": "p2-gallery-01.avif",
+        "src": "/images/products/dental-chair/p2/gallery/p2-gallery-01.avif",
+        "width": 2400,
+        "height": 1433
+      },
+      {
+        "name": "p2-gallery-02.avif",
+        "src": "/images/products/dental-chair/p2/gallery/p2-gallery-02.avif",
+        "width": 1976,
+        "height": 1539
+      },
+      {
+        "name": "p2-gallery-03.avif",
+        "src": "/images/products/dental-chair/p2/gallery/p2-gallery-03.avif",
+        "width": 750,
+        "height": 750
+      }
+    ],
+    "features": [
+      {
+        "name": "p2-feature-01.avif",
+        "src": "/images/products/dental-chair/p2/features/p2-feature-01.avif",
+        "width": 1160,
+        "height": 871
+      },
+      {
+        "name": "p2-feature-02.avif",
+        "src": "/images/products/dental-chair/p2/features/p2-feature-02.avif",
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "name": "p2-feature-03.avif",
+        "src": "/images/products/dental-chair/p2/features/p2-feature-03.avif",
+        "width": 1170,
+        "height": 878
+      },
+      {
+        "name": "p2-feature-04.avif",
+        "src": "/images/products/dental-chair/p2/features/p2-feature-04.avif",
+        "width": 1206,
+        "height": 904
+      }
+    ],
+    "colors": [
+      {
+        "code": "W12-04",
+        "name": "W12-04",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-04.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-04-swatch.avif"
+      },
+      {
+        "code": "W12-05",
+        "name": "W12-05",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-05.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-05-swatch.avif"
+      },
+      {
+        "code": "W12-08",
+        "name": "W12-08",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-08.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-08-swatch.avif"
+      },
+      {
+        "code": "W12-11",
+        "name": "W12-11",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-11.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-11-swatch.avif"
+      },
+      {
+        "code": "W12-13",
+        "name": "W12-13",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-13.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-13-swatch.avif"
+      },
+      {
+        "code": "W12-14",
+        "name": "W12-14",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-14.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-14-swatch.avif"
+      },
+      {
+        "code": "W12-20",
+        "name": "W12-20",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-20.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-20-swatch.avif"
+      },
+      {
+        "code": "W12-21",
+        "name": "W12-21",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-21.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-21-swatch.avif"
+      },
+      {
+        "code": "W12-23",
+        "name": "W12-23",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-23.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-23-swatch.avif"
+      },
+      {
+        "code": "W12-25",
+        "name": "W12-25",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-25.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-25-swatch.avif"
+      },
+      {
+        "code": "W12-27",
+        "name": "W12-27",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-27.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-27-swatch.avif"
+      },
+      {
+        "code": "W12-29",
+        "name": "W12-29",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-29.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-29-swatch.avif"
+      },
+      {
+        "code": "W12-31",
+        "name": "W12-31",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-31.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-31-swatch.avif"
+      },
+      {
+        "code": "W12-32",
+        "name": "W12-32",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-32.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-32-swatch.avif"
+      },
+      {
+        "code": "W12-34",
+        "name": "W12-34",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-34.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-34-swatch.avif"
+      },
+      {
+        "code": "W12-35",
+        "name": "W12-35",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-35.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-35-swatch.avif"
+      },
+      {
+        "code": "W12-37",
+        "name": "W12-37",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-37.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-37-swatch.avif"
+      },
+      {
+        "code": "W12-38",
+        "name": "W12-38",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-38.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-38-swatch.avif"
+      },
+      {
+        "code": "W12-41",
+        "name": "W12-41",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-41.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-41-swatch.avif"
+      },
+      {
+        "code": "W12-43",
+        "name": "W12-43",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-43.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-43-swatch.avif"
+      },
+      {
+        "code": "W12-44",
+        "name": "W12-44",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-44.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-44-swatch.avif"
+      },
+      {
+        "code": "W12-46",
+        "name": "W12-46",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-46.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-46-swatch.avif"
+      },
+      {
+        "code": "W12-49",
+        "name": "W12-49",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-49.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-49-swatch.avif"
+      },
+      {
+        "code": "W12-54",
+        "name": "W12-54",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-54.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-54-swatch.avif"
+      },
+      {
+        "code": "W12-55",
+        "name": "W12-55",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-55.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-55-swatch.avif"
+      },
+      {
+        "code": "W12-56",
+        "name": "W12-56",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-56.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-56-swatch.avif"
+      },
+      {
+        "code": "W12-57",
+        "name": "W12-57",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-57.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-57-swatch.avif"
+      },
+      {
+        "code": "W12-58",
+        "name": "W12-58",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-58.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-58-swatch.avif"
+      },
+      {
+        "code": "W12-59",
+        "name": "W12-59",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-59.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-59-swatch.avif"
+      },
+      {
+        "code": "W12-60",
+        "name": "W12-60",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-60.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-60-swatch.avif"
+      },
+      {
+        "code": "W12-61",
+        "name": "W12-61",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-61.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-61-swatch.avif"
+      },
+      {
+        "code": "W12-62",
+        "name": "W12-62",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-62.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-62-swatch.avif"
+      },
+      {
+        "code": "W12-63",
+        "name": "W12-63",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-63.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-63-swatch.avif"
+      },
+      {
+        "code": "W12-64",
+        "name": "W12-64",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-64.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-64-swatch.avif"
+      },
+      {
+        "code": "W12-72",
+        "name": "W12-72",
+        "image": "/images/products/dental-chair/p2/colors/p2-w12-72.avif",
+        "swatch": "/images/products/dental-chair/p2/colors/swatches/p2-w12-72-swatch.avif"
+      }
+    ],
+    "cases": [
+      {
+        "name": "p2-case-01.avif",
+        "src": "/images/products/dental-chair/p2/cases/p2-case-01.avif",
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "name": "p2-case-02.avif",
+        "src": "/images/products/dental-chair/p2/cases/p2-case-02.avif",
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "name": "p2-case-03.avif",
+        "src": "/images/products/dental-chair/p2/cases/p2-case-03.avif",
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "name": "p2-case-04.avif",
+        "src": "/images/products/dental-chair/p2/cases/p2-case-04.avif",
+        "width": 1448,
+        "height": 1086
+      }
+    ],
+    "resources": [
+      {
+        "label": "P2 Product Catalog",
+        "href": "/downloads/dental-chair/p2/guccidental-p2-catalog.pdf",
+        "meta": "PDF · 2.1 MB"
+      },
+      {
+        "label": "P2 Implant-light Configuration",
+        "href": "/downloads/dental-chair/p2/guccidental-p2-implant-light-top-delivery-configuration.pdf",
+        "meta": "PDF · 1.8 MB"
+      }
+    ]
+  },
+  "s610": {
+    "gallery": [
+      {
+        "name": "s610-gallery-01.avif",
+        "src": "/images/products/dental-chair/s610/gallery/s610-gallery-01.avif",
+        "width": 2400,
+        "height": 1688
+      },
+      {
+        "name": "s610-gallery-02.avif",
+        "src": "/images/products/dental-chair/s610/gallery/s610-gallery-02.avif",
+        "width": 2400,
+        "height": 1634
+      },
+      {
+        "name": "s610-gallery-03.avif",
+        "src": "/images/products/dental-chair/s610/gallery/s610-gallery-03.avif",
+        "width": 1874,
+        "height": 1948
+      },
+      {
+        "name": "s610-gallery-04.avif",
+        "src": "/images/products/dental-chair/s610/gallery/s610-gallery-04.avif",
+        "width": 2400,
+        "height": 2478
+      }
+    ],
+    "features": [
+      {
+        "name": "s610-feature-01.avif",
+        "src": "/images/products/dental-chair/s610/features/s610-feature-01.avif",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "name": "s610-feature-02.avif",
+        "src": "/images/products/dental-chair/s610/features/s610-feature-02.avif",
+        "width": 1508,
+        "height": 1508
+      },
+      {
+        "name": "s610-feature-03.avif",
+        "src": "/images/products/dental-chair/s610/features/s610-feature-03.avif",
+        "width": 1508,
+        "height": 1508
+      },
+      {
+        "name": "s610-feature-04.avif",
+        "src": "/images/products/dental-chair/s610/features/s610-feature-04.avif",
+        "width": 1549,
+        "height": 881
+      }
+    ],
+    "colors": [
+      {
+        "code": "SS-P01",
+        "name": "SS-P01",
+        "image": "/images/products/dental-chair/s610/colors/s610-ss-p01.avif",
+        "swatch": "/images/products/dental-chair/s610/colors/swatches/s610-ss-p01-swatch.avif"
+      },
+      {
+        "code": "SS-P03",
+        "name": "SS-P03",
+        "image": "/images/products/dental-chair/s610/colors/s610-ss-p03.avif",
+        "swatch": "/images/products/dental-chair/s610/colors/swatches/s610-ss-p03-swatch.avif"
+      },
+      {
+        "code": "SS-P05",
+        "name": "SS-P05",
+        "image": "/images/products/dental-chair/s610/colors/s610-ss-p05.avif",
+        "swatch": "/images/products/dental-chair/s610/colors/swatches/s610-ss-p05-swatch.avif"
+      },
+      {
+        "code": "SS-P06",
+        "name": "SS-P06",
+        "image": "/images/products/dental-chair/s610/colors/s610-ss-p06.avif",
+        "swatch": "/images/products/dental-chair/s610/colors/swatches/s610-ss-p06-swatch.avif"
+      },
+      {
+        "code": "SS-P07",
+        "name": "SS-P07",
+        "image": "/images/products/dental-chair/s610/colors/s610-ss-p07.avif",
+        "swatch": "/images/products/dental-chair/s610/colors/swatches/s610-ss-p07-swatch.avif"
+      },
+      {
+        "code": "SS-P09",
+        "name": "SS-P09",
+        "image": "/images/products/dental-chair/s610/colors/s610-ss-p09.avif",
+        "swatch": "/images/products/dental-chair/s610/colors/swatches/s610-ss-p09-swatch.avif"
+      },
+      {
+        "code": "SS-P10",
+        "name": "SS-P10",
+        "image": "/images/products/dental-chair/s610/colors/s610-ss-p10.avif",
+        "swatch": "/images/products/dental-chair/s610/colors/swatches/s610-ss-p10-swatch.avif"
+      },
+      {
+        "code": "SS-P11",
+        "name": "SS-P11",
+        "image": "/images/products/dental-chair/s610/colors/s610-ss-p11.avif",
+        "swatch": "/images/products/dental-chair/s610/colors/swatches/s610-ss-p11-swatch.avif"
+      },
+      {
+        "code": "SS-P12",
+        "name": "SS-P12",
+        "image": "/images/products/dental-chair/s610/colors/s610-ss-p12.avif",
+        "swatch": "/images/products/dental-chair/s610/colors/swatches/s610-ss-p12-swatch.avif"
+      },
+      {
+        "code": "SS-P13",
+        "name": "SS-P13",
+        "image": "/images/products/dental-chair/s610/colors/s610-ss-p13.avif",
+        "swatch": "/images/products/dental-chair/s610/colors/swatches/s610-ss-p13-swatch.avif"
+      },
+      {
+        "code": "SS-P14",
+        "name": "SS-P14",
+        "image": "/images/products/dental-chair/s610/colors/s610-ss-p14.avif",
+        "swatch": "/images/products/dental-chair/s610/colors/swatches/s610-ss-p14-swatch.avif"
+      },
+      {
+        "code": "SS-P15",
+        "name": "SS-P15",
+        "image": "/images/products/dental-chair/s610/colors/s610-ss-p15.avif",
+        "swatch": "/images/products/dental-chair/s610/colors/swatches/s610-ss-p15-swatch.avif"
+      },
+      {
+        "code": "SS-P16",
+        "name": "SS-P16",
+        "image": "/images/products/dental-chair/s610/colors/s610-ss-p16.avif",
+        "swatch": "/images/products/dental-chair/s610/colors/swatches/s610-ss-p16-swatch.avif"
+      },
+      {
+        "code": "SS-P17",
+        "name": "SS-P17",
+        "image": "/images/products/dental-chair/s610/colors/s610-ss-p17.avif",
+        "swatch": "/images/products/dental-chair/s610/colors/swatches/s610-ss-p17-swatch.avif"
+      },
+      {
+        "code": "SS-P18",
+        "name": "SS-P18",
+        "image": "/images/products/dental-chair/s610/colors/s610-ss-p18.avif",
+        "swatch": "/images/products/dental-chair/s610/colors/swatches/s610-ss-p18-swatch.avif"
+      },
+      {
+        "code": "SS-P19",
+        "name": "SS-P19",
+        "image": "/images/products/dental-chair/s610/colors/s610-ss-p19.avif",
+        "swatch": "/images/products/dental-chair/s610/colors/swatches/s610-ss-p19-swatch.avif"
+      },
+      {
+        "code": "SS-P20",
+        "name": "SS-P20",
+        "image": "/images/products/dental-chair/s610/colors/s610-ss-p20.avif",
+        "swatch": "/images/products/dental-chair/s610/colors/swatches/s610-ss-p20-swatch.avif"
+      },
+      {
+        "code": "SS-P21",
+        "name": "SS-P21",
+        "image": "/images/products/dental-chair/s610/colors/s610-ss-p21.avif",
+        "swatch": "/images/products/dental-chair/s610/colors/swatches/s610-ss-p21-swatch.avif"
+      }
+    ],
+    "cases": [
+      {
+        "name": "s610-case-01.avif",
+        "src": "/images/products/dental-chair/s610/cases/s610-case-01.avif",
+        "width": 1400,
+        "height": 1400
+      },
+      {
+        "name": "s610-case-02.avif",
+        "src": "/images/products/dental-chair/s610/cases/s610-case-02.avif",
+        "width": 1400,
+        "height": 1400
+      },
+      {
+        "name": "s610-case-03.avif",
+        "src": "/images/products/dental-chair/s610/cases/s610-case-03.avif",
+        "width": 1400,
+        "height": 1400
+      },
+      {
+        "name": "s610-case-04.avif",
+        "src": "/images/products/dental-chair/s610/cases/s610-case-04.avif",
+        "width": 1400,
+        "height": 1400
+      }
+    ],
+    "resources": [
+      {
+        "label": "S610 Product Catalog",
+        "href": "/downloads/dental-chair/s610/guccidental-s610-catalog.pdf",
+        "meta": "PDF · 3.7 MB"
+      }
+    ]
+  },
+  "s620": {
+    "gallery": [
+      {
+        "name": "s620-gallery-01.avif",
+        "src": "/images/products/dental-chair/s620/gallery/s620-gallery-01.avif",
+        "width": 750,
+        "height": 410
+      },
+      {
+        "name": "s620-gallery-02.avif",
+        "src": "/images/products/dental-chair/s620/gallery/s620-gallery-02.avif",
+        "width": 1508,
+        "height": 1508
+      },
+      {
+        "name": "s620-gallery-03.avif",
+        "src": "/images/products/dental-chair/s620/gallery/s620-gallery-03.avif",
+        "width": 2400,
+        "height": 1677
+      },
+      {
+        "name": "s620-gallery-04.avif",
+        "src": "/images/products/dental-chair/s620/gallery/s620-gallery-04.avif",
+        "width": 750,
+        "height": 750
+      },
+      {
+        "name": "s620-gallery-05.avif",
+        "src": "/images/products/dental-chair/s620/gallery/s620-gallery-05.avif",
+        "width": 2400,
+        "height": 2227
+      }
+    ],
+    "features": [
+      {
+        "name": "s620-feature-01.avif",
+        "src": "/images/products/dental-chair/s620/features/s620-feature-01.avif",
+        "width": 750,
+        "height": 410
+      },
+      {
+        "name": "s620-feature-02.avif",
+        "src": "/images/products/dental-chair/s620/features/s620-feature-02.avif",
+        "width": 1508,
+        "height": 1508
+      },
+      {
+        "name": "s620-feature-03.avif",
+        "src": "/images/products/dental-chair/s620/features/s620-feature-03.avif",
+        "width": 1508,
+        "height": 1508
+      },
+      {
+        "name": "s620-feature-04.avif",
+        "src": "/images/products/dental-chair/s620/features/s620-feature-04.avif",
+        "width": 1549,
+        "height": 881
+      }
+    ],
+    "colors": [
+      {
+        "code": "SS-P01",
+        "name": "SS-P01",
+        "image": "/images/products/dental-chair/s620/colors/s620-ss-p01.avif",
+        "swatch": "/images/products/dental-chair/s620/colors/swatches/s620-ss-p01-swatch.avif"
+      },
+      {
+        "code": "SS-P03",
+        "name": "SS-P03",
+        "image": "/images/products/dental-chair/s620/colors/s620-ss-p03.avif",
+        "swatch": "/images/products/dental-chair/s620/colors/swatches/s620-ss-p03-swatch.avif"
+      },
+      {
+        "code": "SS-P05",
+        "name": "SS-P05",
+        "image": "/images/products/dental-chair/s620/colors/s620-ss-p05.avif",
+        "swatch": "/images/products/dental-chair/s620/colors/swatches/s620-ss-p05-swatch.avif"
+      },
+      {
+        "code": "SS-P06",
+        "name": "SS-P06",
+        "image": "/images/products/dental-chair/s620/colors/s620-ss-p06.avif",
+        "swatch": "/images/products/dental-chair/s620/colors/swatches/s620-ss-p06-swatch.avif"
+      },
+      {
+        "code": "SS-P07",
+        "name": "SS-P07",
+        "image": "/images/products/dental-chair/s620/colors/s620-ss-p07.avif",
+        "swatch": "/images/products/dental-chair/s620/colors/swatches/s620-ss-p07-swatch.avif"
+      },
+      {
+        "code": "SS-P09",
+        "name": "SS-P09",
+        "image": "/images/products/dental-chair/s620/colors/s620-ss-p09.avif",
+        "swatch": "/images/products/dental-chair/s620/colors/swatches/s620-ss-p09-swatch.avif"
+      },
+      {
+        "code": "SS-P10",
+        "name": "SS-P10",
+        "image": "/images/products/dental-chair/s620/colors/s620-ss-p10.avif",
+        "swatch": "/images/products/dental-chair/s620/colors/swatches/s620-ss-p10-swatch.avif"
+      },
+      {
+        "code": "SS-P11",
+        "name": "SS-P11",
+        "image": "/images/products/dental-chair/s620/colors/s620-ss-p11.avif",
+        "swatch": "/images/products/dental-chair/s620/colors/swatches/s620-ss-p11-swatch.avif"
+      },
+      {
+        "code": "SS-P12",
+        "name": "SS-P12",
+        "image": "/images/products/dental-chair/s620/colors/s620-ss-p12.avif",
+        "swatch": "/images/products/dental-chair/s620/colors/swatches/s620-ss-p12-swatch.avif"
+      },
+      {
+        "code": "SS-P13",
+        "name": "SS-P13",
+        "image": "/images/products/dental-chair/s620/colors/s620-ss-p13.avif",
+        "swatch": "/images/products/dental-chair/s620/colors/swatches/s620-ss-p13-swatch.avif"
+      },
+      {
+        "code": "SS-P14",
+        "name": "SS-P14",
+        "image": "/images/products/dental-chair/s620/colors/s620-ss-p14.avif",
+        "swatch": "/images/products/dental-chair/s620/colors/swatches/s620-ss-p14-swatch.avif"
+      },
+      {
+        "code": "SS-P15",
+        "name": "SS-P15",
+        "image": "/images/products/dental-chair/s620/colors/s620-ss-p15.avif",
+        "swatch": "/images/products/dental-chair/s620/colors/swatches/s620-ss-p15-swatch.avif"
+      },
+      {
+        "code": "SS-P16",
+        "name": "SS-P16",
+        "image": "/images/products/dental-chair/s620/colors/s620-ss-p16.avif",
+        "swatch": "/images/products/dental-chair/s620/colors/swatches/s620-ss-p16-swatch.avif"
+      },
+      {
+        "code": "SS-P17",
+        "name": "SS-P17",
+        "image": "/images/products/dental-chair/s620/colors/s620-ss-p17.avif",
+        "swatch": "/images/products/dental-chair/s620/colors/swatches/s620-ss-p17-swatch.avif"
+      },
+      {
+        "code": "SS-P18",
+        "name": "SS-P18",
+        "image": "/images/products/dental-chair/s620/colors/s620-ss-p18.avif",
+        "swatch": "/images/products/dental-chair/s620/colors/swatches/s620-ss-p18-swatch.avif"
+      },
+      {
+        "code": "SS-P19",
+        "name": "SS-P19",
+        "image": "/images/products/dental-chair/s620/colors/s620-ss-p19.avif",
+        "swatch": "/images/products/dental-chair/s620/colors/swatches/s620-ss-p19-swatch.avif"
+      },
+      {
+        "code": "SS-P20",
+        "name": "SS-P20",
+        "image": "/images/products/dental-chair/s620/colors/s620-ss-p20.avif",
+        "swatch": "/images/products/dental-chair/s620/colors/swatches/s620-ss-p20-swatch.avif"
+      },
+      {
+        "code": "SS-P21",
+        "name": "SS-P21",
+        "image": "/images/products/dental-chair/s620/colors/s620-ss-p21.avif",
+        "swatch": "/images/products/dental-chair/s620/colors/swatches/s620-ss-p21-swatch.avif"
+      }
+    ],
+    "cases": [
+      {
+        "name": "s620-case-01.avif",
+        "src": "/images/products/dental-chair/s620/cases/s620-case-01.avif",
+        "width": 1087,
+        "height": 1400
+      },
+      {
+        "name": "s620-case-02.avif",
+        "src": "/images/products/dental-chair/s620/cases/s620-case-02.avif",
+        "width": 647,
+        "height": 1400
+      },
+      {
+        "name": "s620-case-03.avif",
+        "src": "/images/products/dental-chair/s620/cases/s620-case-03.avif",
+        "width": 1400,
+        "height": 1400
+      },
+      {
+        "name": "s620-case-04.avif",
+        "src": "/images/products/dental-chair/s620/cases/s620-case-04.avif",
+        "width": 1400,
+        "height": 1400
+      }
+    ],
+    "resources": [
+      {
+        "label": "S620 Product Brochure",
+        "href": "/downloads/dental-chair/s620/guccidental-s620-brochure.pdf",
+        "meta": "PDF · 5.1 MB"
+      },
+      {
+        "label": "S620 Installation Layout",
+        "href": "/downloads/dental-chair/s620/guccidental-s620-installation-layout.pdf",
+        "meta": "PDF · 0.1 MB"
+      },
+      {
+        "label": "S620 Installation Manual",
+        "href": "/downloads/dental-chair/s620/guccidental-s620-installation-manual.pdf",
+        "meta": "PDF · 1.4 MB"
+      }
+    ]
+  },
+  "s630": {
+    "gallery": [
+      {
+        "name": "s630-gallery-01.avif",
+        "src": "/images/products/dental-chair/s630/gallery/s630-gallery-01.avif",
+        "width": 2400,
+        "height": 1601
+      },
+      {
+        "name": "s630-gallery-02.avif",
+        "src": "/images/products/dental-chair/s630/gallery/s630-gallery-02.avif",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "name": "s630-gallery-03.avif",
+        "src": "/images/products/dental-chair/s630/gallery/s630-gallery-03.avif",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "name": "s630-gallery-04.avif",
+        "src": "/images/products/dental-chair/s630/gallery/s630-gallery-04.avif",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "name": "s630-gallery-05.avif",
+        "src": "/images/products/dental-chair/s630/gallery/s630-gallery-05.avif",
+        "width": 800,
+        "height": 800
+      }
+    ],
+    "features": [
+      {
+        "name": "s630-feature-01.avif",
+        "src": "/images/products/dental-chair/s630/features/s630-feature-01.avif",
+        "width": 750,
+        "height": 410
+      },
+      {
+        "name": "s630-feature-02.avif",
+        "src": "/images/products/dental-chair/s630/features/s630-feature-02.avif",
+        "width": 1508,
+        "height": 1508
+      },
+      {
+        "name": "s630-feature-03.avif",
+        "src": "/images/products/dental-chair/s630/features/s630-feature-03.avif",
+        "width": 1078,
+        "height": 930
+      },
+      {
+        "name": "s630-feature-04.avif",
+        "src": "/images/products/dental-chair/s630/features/s630-feature-04.avif",
+        "width": 1549,
+        "height": 881
+      }
+    ],
+    "colors": [
+      {
+        "code": "SS-P01",
+        "name": "SS-P01",
+        "image": "/images/products/dental-chair/s630/colors/s630-ss-p01.avif",
+        "swatch": "/images/products/dental-chair/s630/colors/swatches/s630-ss-p01-swatch.avif"
+      },
+      {
+        "code": "SS-P03",
+        "name": "SS-P03",
+        "image": "/images/products/dental-chair/s630/colors/s630-ss-p03.avif",
+        "swatch": "/images/products/dental-chair/s630/colors/swatches/s630-ss-p03-swatch.avif"
+      },
+      {
+        "code": "SS-P05",
+        "name": "SS-P05",
+        "image": "/images/products/dental-chair/s630/colors/s630-ss-p05.avif",
+        "swatch": "/images/products/dental-chair/s630/colors/swatches/s630-ss-p05-swatch.avif"
+      },
+      {
+        "code": "SS-P06",
+        "name": "SS-P06",
+        "image": "/images/products/dental-chair/s630/colors/s630-ss-p06.avif",
+        "swatch": "/images/products/dental-chair/s630/colors/swatches/s630-ss-p06-swatch.avif"
+      },
+      {
+        "code": "SS-P07",
+        "name": "SS-P07",
+        "image": "/images/products/dental-chair/s630/colors/s630-ss-p07.avif",
+        "swatch": "/images/products/dental-chair/s630/colors/swatches/s630-ss-p07-swatch.avif"
+      },
+      {
+        "code": "SS-P09",
+        "name": "SS-P09",
+        "image": "/images/products/dental-chair/s630/colors/s630-ss-p09.avif",
+        "swatch": "/images/products/dental-chair/s630/colors/swatches/s630-ss-p09-swatch.avif"
+      },
+      {
+        "code": "SS-P10",
+        "name": "SS-P10",
+        "image": "/images/products/dental-chair/s630/colors/s630-ss-p10.avif",
+        "swatch": "/images/products/dental-chair/s630/colors/swatches/s630-ss-p10-swatch.avif"
+      },
+      {
+        "code": "SS-P11",
+        "name": "SS-P11",
+        "image": "/images/products/dental-chair/s630/colors/s630-ss-p11.avif",
+        "swatch": "/images/products/dental-chair/s630/colors/swatches/s630-ss-p11-swatch.avif"
+      },
+      {
+        "code": "SS-P12",
+        "name": "SS-P12",
+        "image": "/images/products/dental-chair/s630/colors/s630-ss-p12.avif",
+        "swatch": "/images/products/dental-chair/s630/colors/swatches/s630-ss-p12-swatch.avif"
+      },
+      {
+        "code": "SS-P13",
+        "name": "SS-P13",
+        "image": "/images/products/dental-chair/s630/colors/s630-ss-p13.avif",
+        "swatch": "/images/products/dental-chair/s630/colors/swatches/s630-ss-p13-swatch.avif"
+      },
+      {
+        "code": "SS-P14",
+        "name": "SS-P14",
+        "image": "/images/products/dental-chair/s630/colors/s630-ss-p14.avif",
+        "swatch": "/images/products/dental-chair/s630/colors/swatches/s630-ss-p14-swatch.avif"
+      },
+      {
+        "code": "SS-P15",
+        "name": "SS-P15",
+        "image": "/images/products/dental-chair/s630/colors/s630-ss-p15.avif",
+        "swatch": "/images/products/dental-chair/s630/colors/swatches/s630-ss-p15-swatch.avif"
+      },
+      {
+        "code": "SS-P16",
+        "name": "SS-P16",
+        "image": "/images/products/dental-chair/s630/colors/s630-ss-p16.avif",
+        "swatch": "/images/products/dental-chair/s630/colors/swatches/s630-ss-p16-swatch.avif"
+      },
+      {
+        "code": "SS-P17",
+        "name": "SS-P17",
+        "image": "/images/products/dental-chair/s630/colors/s630-ss-p17.avif",
+        "swatch": "/images/products/dental-chair/s630/colors/swatches/s630-ss-p17-swatch.avif"
+      },
+      {
+        "code": "SS-P18",
+        "name": "SS-P18",
+        "image": "/images/products/dental-chair/s630/colors/s630-ss-p18.avif",
+        "swatch": "/images/products/dental-chair/s630/colors/swatches/s630-ss-p18-swatch.avif"
+      },
+      {
+        "code": "SS-P19",
+        "name": "SS-P19",
+        "image": "/images/products/dental-chair/s630/colors/s630-ss-p19.avif",
+        "swatch": "/images/products/dental-chair/s630/colors/swatches/s630-ss-p19-swatch.avif"
+      },
+      {
+        "code": "SS-P20",
+        "name": "SS-P20",
+        "image": "/images/products/dental-chair/s630/colors/s630-ss-p20.avif",
+        "swatch": "/images/products/dental-chair/s630/colors/swatches/s630-ss-p20-swatch.avif"
+      },
+      {
+        "code": "SS-P21",
+        "name": "SS-P21",
+        "image": "/images/products/dental-chair/s630/colors/s630-ss-p21.avif",
+        "swatch": "/images/products/dental-chair/s630/colors/swatches/s630-ss-p21-swatch.avif"
+      }
+    ],
+    "cases": [
+      {
+        "name": "s630-case-01.avif",
+        "src": "/images/products/dental-chair/s630/cases/s630-case-01.avif",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "name": "s630-case-02.avif",
+        "src": "/images/products/dental-chair/s630/cases/s630-case-02.avif",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "name": "s630-case-03.avif",
+        "src": "/images/products/dental-chair/s630/cases/s630-case-03.avif",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "name": "s630-case-04.avif",
+        "src": "/images/products/dental-chair/s630/cases/s630-case-04.avif",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "resources": [
+      {
+        "label": "S630 Product Brochure",
+        "href": "/downloads/dental-chair/s630/guccidental-s630-brochure.pdf",
+        "meta": "PDF · 5.1 MB"
+      },
+      {
+        "label": "S630 Installation Manual",
+        "href": "/downloads/dental-chair/s630/guccidental-s630-installation-manual.pdf",
+        "meta": "PDF · 1.4 MB"
+      }
+    ]
+  },
+  "s640": {
+    "gallery": [
+      {
+        "name": "s640-gallery-01.avif",
+        "src": "/images/products/dental-chair/s640/gallery/s640-gallery-01.avif",
+        "width": 2400,
+        "height": 1517
+      },
+      {
+        "name": "s640-gallery-02.avif",
+        "src": "/images/products/dental-chair/s640/gallery/s640-gallery-02.avif",
+        "width": 2400,
+        "height": 2722
+      },
+      {
+        "name": "s640-gallery-03.avif",
+        "src": "/images/products/dental-chair/s640/gallery/s640-gallery-03.avif",
+        "width": 2400,
+        "height": 1500
+      },
+      {
+        "name": "s640-gallery-04.avif",
+        "src": "/images/products/dental-chair/s640/gallery/s640-gallery-04.avif",
+        "width": 2400,
+        "height": 2362
+      }
+    ],
+    "features": [
+      {
+        "name": "s640-feature-01.avif",
+        "src": "/images/products/dental-chair/s640/features/s640-feature-01.avif",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "name": "s640-feature-02.avif",
+        "src": "/images/products/dental-chair/s640/features/s640-feature-02.avif",
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "name": "s640-feature-03.avif",
+        "src": "/images/products/dental-chair/s640/features/s640-feature-03.avif",
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "name": "s640-feature-04.avif",
+        "src": "/images/products/dental-chair/s640/features/s640-feature-04.avif",
+        "width": 1024,
+        "height": 1024
+      }
+    ],
+    "colors": [
+      {
+        "code": "SS-P01",
+        "name": "SS-P01",
+        "image": "/images/products/dental-chair/s640/colors/s640-ss-p01.avif",
+        "swatch": "/images/products/dental-chair/s640/colors/swatches/s640-ss-p01-swatch.avif"
+      },
+      {
+        "code": "SS-P03",
+        "name": "SS-P03",
+        "image": "/images/products/dental-chair/s640/colors/s640-ss-p03.avif",
+        "swatch": "/images/products/dental-chair/s640/colors/swatches/s640-ss-p03-swatch.avif"
+      },
+      {
+        "code": "SS-P05",
+        "name": "SS-P05",
+        "image": "/images/products/dental-chair/s640/colors/s640-ss-p05.avif",
+        "swatch": "/images/products/dental-chair/s640/colors/swatches/s640-ss-p05-swatch.avif"
+      },
+      {
+        "code": "SS-P06",
+        "name": "SS-P06",
+        "image": "/images/products/dental-chair/s640/colors/s640-ss-p06.avif",
+        "swatch": "/images/products/dental-chair/s640/colors/swatches/s640-ss-p06-swatch.avif"
+      },
+      {
+        "code": "SS-P07",
+        "name": "SS-P07",
+        "image": "/images/products/dental-chair/s640/colors/s640-ss-p07.avif",
+        "swatch": "/images/products/dental-chair/s640/colors/swatches/s640-ss-p07-swatch.avif"
+      },
+      {
+        "code": "SS-P09",
+        "name": "SS-P09",
+        "image": "/images/products/dental-chair/s640/colors/s640-ss-p09.avif",
+        "swatch": "/images/products/dental-chair/s640/colors/swatches/s640-ss-p09-swatch.avif"
+      },
+      {
+        "code": "SS-P10",
+        "name": "SS-P10",
+        "image": "/images/products/dental-chair/s640/colors/s640-ss-p10.avif",
+        "swatch": "/images/products/dental-chair/s640/colors/swatches/s640-ss-p10-swatch.avif"
+      },
+      {
+        "code": "SS-P11",
+        "name": "SS-P11",
+        "image": "/images/products/dental-chair/s640/colors/s640-ss-p11.avif",
+        "swatch": "/images/products/dental-chair/s640/colors/swatches/s640-ss-p11-swatch.avif"
+      },
+      {
+        "code": "SS-P12",
+        "name": "SS-P12",
+        "image": "/images/products/dental-chair/s640/colors/s640-ss-p12.avif",
+        "swatch": "/images/products/dental-chair/s640/colors/swatches/s640-ss-p12-swatch.avif"
+      },
+      {
+        "code": "SS-P13",
+        "name": "SS-P13",
+        "image": "/images/products/dental-chair/s640/colors/s640-ss-p13.avif",
+        "swatch": "/images/products/dental-chair/s640/colors/swatches/s640-ss-p13-swatch.avif"
+      },
+      {
+        "code": "SS-P14",
+        "name": "SS-P14",
+        "image": "/images/products/dental-chair/s640/colors/s640-ss-p14.avif",
+        "swatch": "/images/products/dental-chair/s640/colors/swatches/s640-ss-p14-swatch.avif"
+      },
+      {
+        "code": "SS-P15",
+        "name": "SS-P15",
+        "image": "/images/products/dental-chair/s640/colors/s640-ss-p15.avif",
+        "swatch": "/images/products/dental-chair/s640/colors/swatches/s640-ss-p15-swatch.avif"
+      },
+      {
+        "code": "SS-P16",
+        "name": "SS-P16",
+        "image": "/images/products/dental-chair/s640/colors/s640-ss-p16.avif",
+        "swatch": "/images/products/dental-chair/s640/colors/swatches/s640-ss-p16-swatch.avif"
+      },
+      {
+        "code": "SS-P17",
+        "name": "SS-P17",
+        "image": "/images/products/dental-chair/s640/colors/s640-ss-p17.avif",
+        "swatch": "/images/products/dental-chair/s640/colors/swatches/s640-ss-p17-swatch.avif"
+      },
+      {
+        "code": "SS-P18",
+        "name": "SS-P18",
+        "image": "/images/products/dental-chair/s640/colors/s640-ss-p18.avif",
+        "swatch": "/images/products/dental-chair/s640/colors/swatches/s640-ss-p18-swatch.avif"
+      },
+      {
+        "code": "SS-P19",
+        "name": "SS-P19",
+        "image": "/images/products/dental-chair/s640/colors/s640-ss-p19.avif",
+        "swatch": "/images/products/dental-chair/s640/colors/swatches/s640-ss-p19-swatch.avif"
+      },
+      {
+        "code": "SS-P20",
+        "name": "SS-P20",
+        "image": "/images/products/dental-chair/s640/colors/s640-ss-p20.avif",
+        "swatch": "/images/products/dental-chair/s640/colors/swatches/s640-ss-p20-swatch.avif"
+      },
+      {
+        "code": "SS-P21",
+        "name": "SS-P21",
+        "image": "/images/products/dental-chair/s640/colors/s640-ss-p21.avif",
+        "swatch": "/images/products/dental-chair/s640/colors/swatches/s640-ss-p21-swatch.avif"
+      }
+    ],
+    "cases": [
+      {
+        "name": "s640-case-01.avif",
+        "src": "/images/products/dental-chair/s640/cases/s640-case-01.avif",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "name": "s640-case-02.avif",
+        "src": "/images/products/dental-chair/s640/cases/s640-case-02.avif",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "name": "s640-case-03.avif",
+        "src": "/images/products/dental-chair/s640/cases/s640-case-03.avif",
+        "width": 1280,
+        "height": 1280
+      },
+      {
+        "name": "s640-case-04.avif",
+        "src": "/images/products/dental-chair/s640/cases/s640-case-04.avif",
+        "width": 1280,
+        "height": 1280
+      }
+    ],
+    "resources": [
+      {
+        "label": "S640 Cart Installation Guide",
+        "href": "/downloads/dental-chair/s640/guccidental-s640-cart-installation-guide.pdf",
+        "meta": "PDF · 0.2 MB"
+      },
+      {
+        "label": "S640 Product Brochure",
+        "href": "/downloads/dental-chair/s640/guccidental-s640-brochure.pdf",
+        "meta": "PDF · 5.4 MB"
+      },
+      {
+        "label": "S640 Installation Manual",
+        "href": "/downloads/dental-chair/s640/guccidental-s640-installation-manual.pdf",
+        "meta": "PDF · 1.4 MB"
+      }
+    ]
+  },
+  "s650": {
+    "gallery": [
+      {
+        "name": "s650-gallery-01.avif",
+        "src": "/images/products/dental-chair/s650/gallery/s650-gallery-01.avif",
+        "width": 2400,
+        "height": 1768
+      },
+      {
+        "name": "s650-gallery-02.avif",
+        "src": "/images/products/dental-chair/s650/gallery/s650-gallery-02.avif",
+        "width": 1324,
+        "height": 1290
+      },
+      {
+        "name": "s650-gallery-03.avif",
+        "src": "/images/products/dental-chair/s650/gallery/s650-gallery-03.avif",
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "name": "s650-gallery-04.avif",
+        "src": "/images/products/dental-chair/s650/gallery/s650-gallery-04.avif",
+        "width": 1024,
+        "height": 1536
+      }
+    ],
+    "features": [
+      {
+        "name": "s650-feature-01.avif",
+        "src": "/images/products/dental-chair/s650/features/s650-feature-01.avif",
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "name": "s650-feature-02.avif",
+        "src": "/images/products/dental-chair/s650/features/s650-feature-02.avif",
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "name": "s650-feature-03.avif",
+        "src": "/images/products/dental-chair/s650/features/s650-feature-03.avif",
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "name": "s650-feature-04.avif",
+        "src": "/images/products/dental-chair/s650/features/s650-feature-04.avif",
+        "width": 351,
+        "height": 279
+      }
+    ],
+    "colors": [
+      {
+        "code": "SS-P01",
+        "name": "SS-P01",
+        "image": "/images/products/dental-chair/s650/colors/s650-ss-p01.avif",
+        "swatch": "/images/products/dental-chair/s650/colors/swatches/s650-ss-p01-swatch.avif"
+      },
+      {
+        "code": "SS-P03",
+        "name": "SS-P03",
+        "image": "/images/products/dental-chair/s650/colors/s650-ss-p03.avif",
+        "swatch": "/images/products/dental-chair/s650/colors/swatches/s650-ss-p03-swatch.avif"
+      },
+      {
+        "code": "SS-P05",
+        "name": "SS-P05",
+        "image": "/images/products/dental-chair/s650/colors/s650-ss-p05.avif",
+        "swatch": "/images/products/dental-chair/s650/colors/swatches/s650-ss-p05-swatch.avif"
+      },
+      {
+        "code": "SS-P06",
+        "name": "SS-P06",
+        "image": "/images/products/dental-chair/s650/colors/s650-ss-p06.avif",
+        "swatch": "/images/products/dental-chair/s650/colors/swatches/s650-ss-p06-swatch.avif"
+      },
+      {
+        "code": "SS-P07",
+        "name": "SS-P07",
+        "image": "/images/products/dental-chair/s650/colors/s650-ss-p07.avif",
+        "swatch": "/images/products/dental-chair/s650/colors/swatches/s650-ss-p07-swatch.avif"
+      },
+      {
+        "code": "SS-P09",
+        "name": "SS-P09",
+        "image": "/images/products/dental-chair/s650/colors/s650-ss-p09.avif",
+        "swatch": "/images/products/dental-chair/s650/colors/swatches/s650-ss-p09-swatch.avif"
+      },
+      {
+        "code": "SS-P10",
+        "name": "SS-P10",
+        "image": "/images/products/dental-chair/s650/colors/s650-ss-p10.avif",
+        "swatch": "/images/products/dental-chair/s650/colors/swatches/s650-ss-p10-swatch.avif"
+      },
+      {
+        "code": "SS-P11",
+        "name": "SS-P11",
+        "image": "/images/products/dental-chair/s650/colors/s650-ss-p11.avif",
+        "swatch": "/images/products/dental-chair/s650/colors/swatches/s650-ss-p11-swatch.avif"
+      },
+      {
+        "code": "SS-P12",
+        "name": "SS-P12",
+        "image": "/images/products/dental-chair/s650/colors/s650-ss-p12.avif",
+        "swatch": "/images/products/dental-chair/s650/colors/swatches/s650-ss-p12-swatch.avif"
+      },
+      {
+        "code": "SS-P13",
+        "name": "SS-P13",
+        "image": "/images/products/dental-chair/s650/colors/s650-ss-p13.avif",
+        "swatch": "/images/products/dental-chair/s650/colors/swatches/s650-ss-p13-swatch.avif"
+      },
+      {
+        "code": "SS-P14",
+        "name": "SS-P14",
+        "image": "/images/products/dental-chair/s650/colors/s650-ss-p14.avif",
+        "swatch": "/images/products/dental-chair/s650/colors/swatches/s650-ss-p14-swatch.avif"
+      },
+      {
+        "code": "SS-P15",
+        "name": "SS-P15",
+        "image": "/images/products/dental-chair/s650/colors/s650-ss-p15.avif",
+        "swatch": "/images/products/dental-chair/s650/colors/swatches/s650-ss-p15-swatch.avif"
+      },
+      {
+        "code": "SS-P16",
+        "name": "SS-P16",
+        "image": "/images/products/dental-chair/s650/colors/s650-ss-p16.avif",
+        "swatch": "/images/products/dental-chair/s650/colors/swatches/s650-ss-p16-swatch.avif"
+      },
+      {
+        "code": "SS-P17",
+        "name": "SS-P17",
+        "image": "/images/products/dental-chair/s650/colors/s650-ss-p17.avif",
+        "swatch": "/images/products/dental-chair/s650/colors/swatches/s650-ss-p17-swatch.avif"
+      },
+      {
+        "code": "SS-P18",
+        "name": "SS-P18",
+        "image": "/images/products/dental-chair/s650/colors/s650-ss-p18.avif",
+        "swatch": "/images/products/dental-chair/s650/colors/swatches/s650-ss-p18-swatch.avif"
+      },
+      {
+        "code": "SS-P19",
+        "name": "SS-P19",
+        "image": "/images/products/dental-chair/s650/colors/s650-ss-p19.avif",
+        "swatch": "/images/products/dental-chair/s650/colors/swatches/s650-ss-p19-swatch.avif"
+      },
+      {
+        "code": "SS-P20",
+        "name": "SS-P20",
+        "image": "/images/products/dental-chair/s650/colors/s650-ss-p20.avif",
+        "swatch": "/images/products/dental-chair/s650/colors/swatches/s650-ss-p20-swatch.avif"
+      },
+      {
+        "code": "SS-P21",
+        "name": "SS-P21",
+        "image": "/images/products/dental-chair/s650/colors/s650-ss-p21.avif",
+        "swatch": "/images/products/dental-chair/s650/colors/swatches/s650-ss-p21-swatch.avif"
+      }
+    ],
+    "cases": [
+      {
+        "name": "s650-case-01.avif",
+        "src": "/images/products/dental-chair/s650/cases/s650-case-01.avif",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "name": "s650-case-02.avif",
+        "src": "/images/products/dental-chair/s650/cases/s650-case-02.avif",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "name": "s650-case-03.avif",
+        "src": "/images/products/dental-chair/s650/cases/s650-case-03.avif",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "name": "s650-case-04.avif",
+        "src": "/images/products/dental-chair/s650/cases/s650-case-04.avif",
+        "width": 1800,
+        "height": 1200
+      }
+    ],
+    "resources": [
+      {
+        "label": "S650 Product Catalog",
+        "href": "/downloads/dental-chair/s650/guccidental-s650-catalog.pdf",
+        "meta": "PDF · 7.6 MB"
+      },
+      {
+        "label": "S650 Installation Guide (Chinese)",
+        "href": "/downloads/dental-chair/s650/guccidental-s650-installation-guide-zh.pdf",
+        "meta": "PDF · 3.3 MB"
+      },
+      {
+        "label": "S650 Product Specification",
+        "href": "/downloads/dental-chair/s650/guccidental-s650-product-specification.pdf",
+        "meta": "PDF · 9.5 MB"
+      },
+      {
+        "label": "S650 Installation Manual",
+        "href": "/downloads/dental-chair/s650/guccidental-s650-installation-manual.pdf",
+        "meta": "PDF · 1.4 MB"
+      }
+    ]
+  },
+  "s660": {
+    "gallery": [
+      {
+        "name": "s660-gallery-01.avif",
+        "src": "/images/products/dental-chair/s660/gallery/s660-gallery-01.avif",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "name": "s660-gallery-02.avif",
+        "src": "/images/products/dental-chair/s660/gallery/s660-gallery-02.avif",
+        "width": 2400,
+        "height": 2400
+      },
+      {
+        "name": "s660-gallery-03.avif",
+        "src": "/images/products/dental-chair/s660/gallery/s660-gallery-03.avif",
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "name": "s660-gallery-04.avif",
+        "src": "/images/products/dental-chair/s660/gallery/s660-gallery-04.avif",
+        "width": 1024,
+        "height": 1024
+      }
+    ],
+    "features": [
+      {
+        "name": "s660-feature-01.avif",
+        "src": "/images/products/dental-chair/s660/features/s660-feature-01.avif",
+        "width": 1800,
+        "height": 1477
+      },
+      {
+        "name": "s660-feature-02.avif",
+        "src": "/images/products/dental-chair/s660/features/s660-feature-02.avif",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "name": "s660-feature-03.avif",
+        "src": "/images/products/dental-chair/s660/features/s660-feature-03.avif",
+        "width": 1705,
+        "height": 2000
+      },
+      {
+        "name": "s660-feature-04.avif",
+        "src": "/images/products/dental-chair/s660/features/s660-feature-04.avif",
+        "width": 1800,
+        "height": 1200
+      }
+    ],
+    "colors": [
+      {
+        "code": "SS-P01",
+        "name": "SS-P01",
+        "image": "/images/products/dental-chair/s660/colors/s660-ss-p01.avif",
+        "swatch": "/images/products/dental-chair/s660/colors/swatches/s660-ss-p01-swatch.avif"
+      },
+      {
+        "code": "SS-P03",
+        "name": "SS-P03",
+        "image": "/images/products/dental-chair/s660/colors/s660-ss-p03.avif",
+        "swatch": "/images/products/dental-chair/s660/colors/swatches/s660-ss-p03-swatch.avif"
+      },
+      {
+        "code": "SS-P05",
+        "name": "SS-P05",
+        "image": "/images/products/dental-chair/s660/colors/s660-ss-p05.avif",
+        "swatch": "/images/products/dental-chair/s660/colors/swatches/s660-ss-p05-swatch.avif"
+      },
+      {
+        "code": "SS-P06",
+        "name": "SS-P06",
+        "image": "/images/products/dental-chair/s660/colors/s660-ss-p06.avif",
+        "swatch": "/images/products/dental-chair/s660/colors/swatches/s660-ss-p06-swatch.avif"
+      },
+      {
+        "code": "SS-P07",
+        "name": "SS-P07",
+        "image": "/images/products/dental-chair/s660/colors/s660-ss-p07.avif",
+        "swatch": "/images/products/dental-chair/s660/colors/swatches/s660-ss-p07-swatch.avif"
+      },
+      {
+        "code": "SS-P09",
+        "name": "SS-P09",
+        "image": "/images/products/dental-chair/s660/colors/s660-ss-p09.avif",
+        "swatch": "/images/products/dental-chair/s660/colors/swatches/s660-ss-p09-swatch.avif"
+      },
+      {
+        "code": "SS-P10",
+        "name": "SS-P10",
+        "image": "/images/products/dental-chair/s660/colors/s660-ss-p10.avif",
+        "swatch": "/images/products/dental-chair/s660/colors/swatches/s660-ss-p10-swatch.avif"
+      },
+      {
+        "code": "SS-P11",
+        "name": "SS-P11",
+        "image": "/images/products/dental-chair/s660/colors/s660-ss-p11.avif",
+        "swatch": "/images/products/dental-chair/s660/colors/swatches/s660-ss-p11-swatch.avif"
+      },
+      {
+        "code": "SS-P12",
+        "name": "SS-P12",
+        "image": "/images/products/dental-chair/s660/colors/s660-ss-p12.avif",
+        "swatch": "/images/products/dental-chair/s660/colors/swatches/s660-ss-p12-swatch.avif"
+      },
+      {
+        "code": "SS-P13",
+        "name": "SS-P13",
+        "image": "/images/products/dental-chair/s660/colors/s660-ss-p13.avif",
+        "swatch": "/images/products/dental-chair/s660/colors/swatches/s660-ss-p13-swatch.avif"
+      },
+      {
+        "code": "SS-P14",
+        "name": "SS-P14",
+        "image": "/images/products/dental-chair/s660/colors/s660-ss-p14.avif",
+        "swatch": "/images/products/dental-chair/s660/colors/swatches/s660-ss-p14-swatch.avif"
+      },
+      {
+        "code": "SS-P15",
+        "name": "SS-P15",
+        "image": "/images/products/dental-chair/s660/colors/s660-ss-p15.avif",
+        "swatch": "/images/products/dental-chair/s660/colors/swatches/s660-ss-p15-swatch.avif"
+      },
+      {
+        "code": "SS-P16",
+        "name": "SS-P16",
+        "image": "/images/products/dental-chair/s660/colors/s660-ss-p16.avif",
+        "swatch": "/images/products/dental-chair/s660/colors/swatches/s660-ss-p16-swatch.avif"
+      },
+      {
+        "code": "SS-P17",
+        "name": "SS-P17",
+        "image": "/images/products/dental-chair/s660/colors/s660-ss-p17.avif",
+        "swatch": "/images/products/dental-chair/s660/colors/swatches/s660-ss-p17-swatch.avif"
+      },
+      {
+        "code": "SS-P18",
+        "name": "SS-P18",
+        "image": "/images/products/dental-chair/s660/colors/s660-ss-p18.avif",
+        "swatch": "/images/products/dental-chair/s660/colors/swatches/s660-ss-p18-swatch.avif"
+      },
+      {
+        "code": "SS-P19",
+        "name": "SS-P19",
+        "image": "/images/products/dental-chair/s660/colors/s660-ss-p19.avif",
+        "swatch": "/images/products/dental-chair/s660/colors/swatches/s660-ss-p19-swatch.avif"
+      },
+      {
+        "code": "SS-P20",
+        "name": "SS-P20",
+        "image": "/images/products/dental-chair/s660/colors/s660-ss-p20.avif",
+        "swatch": "/images/products/dental-chair/s660/colors/swatches/s660-ss-p20-swatch.avif"
+      },
+      {
+        "code": "SS-P21",
+        "name": "SS-P21",
+        "image": "/images/products/dental-chair/s660/colors/s660-ss-p21.avif",
+        "swatch": "/images/products/dental-chair/s660/colors/swatches/s660-ss-p21-swatch.avif"
+      }
+    ],
+    "cases": [
+      {
+        "name": "s660-case-01.avif",
+        "src": "/images/products/dental-chair/s660/cases/s660-case-01.avif",
+        "width": 1280,
+        "height": 1280
+      },
+      {
+        "name": "s660-case-02.avif",
+        "src": "/images/products/dental-chair/s660/cases/s660-case-02.avif",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "name": "s660-case-03.avif",
+        "src": "/images/products/dental-chair/s660/cases/s660-case-03.avif",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "name": "s660-case-04.avif",
+        "src": "/images/products/dental-chair/s660/cases/s660-case-04.avif",
+        "width": 1800,
+        "height": 1200
+      }
+    ],
+    "resources": [
+      {
+        "label": "S660 Installation Guide (Chinese)",
+        "href": "/downloads/dental-chair/s660/guccidental-s660-installation-guide-zh.pdf",
+        "meta": "PDF · 3.3 MB"
+      },
+      {
+        "label": "S660 Product Catalog",
+        "href": "/downloads/dental-chair/s660/guccidental-s660-catalog.pdf",
+        "meta": "PDF · 2.4 MB"
+      },
+      {
+        "label": "S660 Product Specification",
+        "href": "/downloads/dental-chair/s660/guccidental-s660-product-specification.pdf",
+        "meta": "PDF · 5.0 MB"
+      },
+      {
+        "label": "S660 Installation Manual",
+        "href": "/downloads/dental-chair/s660/guccidental-s660-installation-manual.pdf",
+        "meta": "PDF · 1.4 MB"
+      }
+    ]
+  },
+  "s690": {
+    "gallery": [
+      {
+        "name": "s690-gallery-01.avif",
+        "src": "/images/products/dental-chair/s690/gallery/s690-gallery-01.avif",
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "name": "s690-gallery-02.avif",
+        "src": "/images/products/dental-chair/s690/gallery/s690-gallery-02.avif",
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "name": "s690-gallery-03.avif",
+        "src": "/images/products/dental-chair/s690/gallery/s690-gallery-03.avif",
+        "width": 2400,
+        "height": 1472
+      },
+      {
+        "name": "s690-gallery-04.avif",
+        "src": "/images/products/dental-chair/s690/gallery/s690-gallery-04.avif",
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "name": "s690-gallery-05.avif",
+        "src": "/images/products/dental-chair/s690/gallery/s690-gallery-05.avif",
+        "width": 1024,
+        "height": 1024
+      }
+    ],
+    "features": [
+      {
+        "name": "s690-feature-01.avif",
+        "src": "/images/products/dental-chair/s690/features/s690-feature-01.avif",
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "name": "s690-feature-02.avif",
+        "src": "/images/products/dental-chair/s690/features/s690-feature-02.avif",
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "name": "s690-feature-03.avif",
+        "src": "/images/products/dental-chair/s690/features/s690-feature-03.avif",
+        "width": 324,
+        "height": 217
+      },
+      {
+        "name": "s690-feature-04.avif",
+        "src": "/images/products/dental-chair/s690/features/s690-feature-04.avif",
+        "width": 1024,
+        "height": 1024
+      }
+    ],
+    "colors": [
+      {
+        "code": "SS-P01",
+        "name": "SS-P01",
+        "image": "/images/products/dental-chair/s690/colors/s690-ss-p01.avif",
+        "swatch": "/images/products/dental-chair/s690/colors/swatches/s690-ss-p01-swatch.avif"
+      },
+      {
+        "code": "SS-P03",
+        "name": "SS-P03",
+        "image": "/images/products/dental-chair/s690/colors/s690-ss-p03.avif",
+        "swatch": "/images/products/dental-chair/s690/colors/swatches/s690-ss-p03-swatch.avif"
+      },
+      {
+        "code": "SS-P05",
+        "name": "SS-P05",
+        "image": "/images/products/dental-chair/s690/colors/s690-ss-p05.avif",
+        "swatch": "/images/products/dental-chair/s690/colors/swatches/s690-ss-p05-swatch.avif"
+      },
+      {
+        "code": "SS-P06",
+        "name": "SS-P06",
+        "image": "/images/products/dental-chair/s690/colors/s690-ss-p06.avif",
+        "swatch": "/images/products/dental-chair/s690/colors/swatches/s690-ss-p06-swatch.avif"
+      },
+      {
+        "code": "SS-P07",
+        "name": "SS-P07",
+        "image": "/images/products/dental-chair/s690/colors/s690-ss-p07.avif",
+        "swatch": "/images/products/dental-chair/s690/colors/swatches/s690-ss-p07-swatch.avif"
+      },
+      {
+        "code": "SS-P09",
+        "name": "SS-P09",
+        "image": "/images/products/dental-chair/s690/colors/s690-ss-p09.avif",
+        "swatch": "/images/products/dental-chair/s690/colors/swatches/s690-ss-p09-swatch.avif"
+      },
+      {
+        "code": "SS-P10",
+        "name": "SS-P10",
+        "image": "/images/products/dental-chair/s690/colors/s690-ss-p10.avif",
+        "swatch": "/images/products/dental-chair/s690/colors/swatches/s690-ss-p10-swatch.avif"
+      },
+      {
+        "code": "SS-P11",
+        "name": "SS-P11",
+        "image": "/images/products/dental-chair/s690/colors/s690-ss-p11.avif",
+        "swatch": "/images/products/dental-chair/s690/colors/swatches/s690-ss-p11-swatch.avif"
+      },
+      {
+        "code": "SS-P12",
+        "name": "SS-P12",
+        "image": "/images/products/dental-chair/s690/colors/s690-ss-p12.avif",
+        "swatch": "/images/products/dental-chair/s690/colors/swatches/s690-ss-p12-swatch.avif"
+      },
+      {
+        "code": "SS-P13",
+        "name": "SS-P13",
+        "image": "/images/products/dental-chair/s690/colors/s690-ss-p13.avif",
+        "swatch": "/images/products/dental-chair/s690/colors/swatches/s690-ss-p13-swatch.avif"
+      },
+      {
+        "code": "SS-P14",
+        "name": "SS-P14",
+        "image": "/images/products/dental-chair/s690/colors/s690-ss-p14.avif",
+        "swatch": "/images/products/dental-chair/s690/colors/swatches/s690-ss-p14-swatch.avif"
+      },
+      {
+        "code": "SS-P15",
+        "name": "SS-P15",
+        "image": "/images/products/dental-chair/s690/colors/s690-ss-p15.avif",
+        "swatch": "/images/products/dental-chair/s690/colors/swatches/s690-ss-p15-swatch.avif"
+      },
+      {
+        "code": "SS-P16",
+        "name": "SS-P16",
+        "image": "/images/products/dental-chair/s690/colors/s690-ss-p16.avif",
+        "swatch": "/images/products/dental-chair/s690/colors/swatches/s690-ss-p16-swatch.avif"
+      },
+      {
+        "code": "SS-P17",
+        "name": "SS-P17",
+        "image": "/images/products/dental-chair/s690/colors/s690-ss-p17.avif",
+        "swatch": "/images/products/dental-chair/s690/colors/swatches/s690-ss-p17-swatch.avif"
+      },
+      {
+        "code": "SS-P18",
+        "name": "SS-P18",
+        "image": "/images/products/dental-chair/s690/colors/s690-ss-p18.avif",
+        "swatch": "/images/products/dental-chair/s690/colors/swatches/s690-ss-p18-swatch.avif"
+      },
+      {
+        "code": "SS-P19",
+        "name": "SS-P19",
+        "image": "/images/products/dental-chair/s690/colors/s690-ss-p19.avif",
+        "swatch": "/images/products/dental-chair/s690/colors/swatches/s690-ss-p19-swatch.avif"
+      },
+      {
+        "code": "SS-P20",
+        "name": "SS-P20",
+        "image": "/images/products/dental-chair/s690/colors/s690-ss-p20.avif",
+        "swatch": "/images/products/dental-chair/s690/colors/swatches/s690-ss-p20-swatch.avif"
+      },
+      {
+        "code": "SS-P21",
+        "name": "SS-P21",
+        "image": "/images/products/dental-chair/s690/colors/s690-ss-p21.avif",
+        "swatch": "/images/products/dental-chair/s690/colors/swatches/s690-ss-p21-swatch.avif"
+      }
+    ],
+    "cases": [
+      {
+        "name": "s690-case-01.avif",
+        "src": "/images/products/dental-chair/s690/cases/s690-case-01.avif",
+        "width": 1280,
+        "height": 1280
+      },
+      {
+        "name": "s690-case-02.avif",
+        "src": "/images/products/dental-chair/s690/cases/s690-case-02.avif",
+        "width": 1050,
+        "height": 1400
+      },
+      {
+        "name": "s690-case-03.avif",
+        "src": "/images/products/dental-chair/s690/cases/s690-case-03.avif",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "name": "s690-case-04.avif",
+        "src": "/images/products/dental-chair/s690/cases/s690-case-04.avif",
+        "width": 1800,
+        "height": 1200
+      }
+    ],
+    "resources": [
+      {
+        "label": "S690 Installation Manual",
+        "href": "/downloads/dental-chair/s690/guccidental-s690-installation-manual.pdf",
+        "meta": "PDF · 1.4 MB"
+      }
+    ]
+  },
+  "ql-2028iv": {
+    "gallery": [
+      {
+        "name": "ql-2028iv-gallery-01.avif",
+        "src": "/images/products/dental-chair/ql-2028iv/gallery/ql-2028iv-gallery-01.avif",
+        "width": 2400,
+        "height": 1896
+      },
+      {
+        "name": "ql-2028iv-gallery-02.avif",
+        "src": "/images/products/dental-chair/ql-2028iv/gallery/ql-2028iv-gallery-02.avif",
+        "width": 2400,
+        "height": 1600
+      },
+      {
+        "name": "ql-2028iv-gallery-03.avif",
+        "src": "/images/products/dental-chair/ql-2028iv/gallery/ql-2028iv-gallery-03.avif",
+        "width": 2400,
+        "height": 1882
+      },
+      {
+        "name": "ql-2028iv-gallery-04.avif",
+        "src": "/images/products/dental-chair/ql-2028iv/gallery/ql-2028iv-gallery-04.avif",
+        "width": 2400,
+        "height": 1658
+      },
+      {
+        "name": "ql-2028iv-gallery-05.avif",
+        "src": "/images/products/dental-chair/ql-2028iv/gallery/ql-2028iv-gallery-05.avif",
+        "width": 2124,
+        "height": 2718
+      }
+    ],
+    "features": [
+      {
+        "name": "ql-2028iv-feature-01.avif",
+        "src": "/images/products/dental-chair/ql-2028iv/features/ql-2028iv-feature-01.avif",
+        "width": 750,
+        "height": 802
+      },
+      {
+        "name": "ql-2028iv-feature-02.avif",
+        "src": "/images/products/dental-chair/ql-2028iv/features/ql-2028iv-feature-02.avif",
+        "width": 750,
+        "height": 800
+      },
+      {
+        "name": "ql-2028iv-feature-03.avif",
+        "src": "/images/products/dental-chair/ql-2028iv/features/ql-2028iv-feature-03.avif",
+        "width": 750,
+        "height": 800
+      },
+      {
+        "name": "ql-2028iv-feature-04.avif",
+        "src": "/images/products/dental-chair/ql-2028iv/features/ql-2028iv-feature-04.avif",
+        "width": 1800,
+        "height": 1626
+      }
+    ],
+    "colors": [
+      {
+        "code": "MV01",
+        "name": "Beige",
+        "image": "/images/products/dental-chair/ql-2028iv/colors/ql-2028iv-mv01-beige.avif",
+        "swatch": "/images/products/dental-chair/ql-2028iv/colors/swatches/ql-2028iv-mv01-beige-swatch.avif"
+      },
+      {
+        "code": "MV02",
+        "name": "Red",
+        "image": "/images/products/dental-chair/ql-2028iv/colors/ql-2028iv-mv02-red.avif",
+        "swatch": "/images/products/dental-chair/ql-2028iv/colors/swatches/ql-2028iv-mv02-red-swatch.avif"
+      },
+      {
+        "code": "MV03",
+        "name": "Blue",
+        "image": "/images/products/dental-chair/ql-2028iv/colors/ql-2028iv-mv03-blue.avif",
+        "swatch": "/images/products/dental-chair/ql-2028iv/colors/swatches/ql-2028iv-mv03-blue-swatch.avif"
+      },
+      {
+        "code": "MV04",
+        "name": "Coffee",
+        "image": "/images/products/dental-chair/ql-2028iv/colors/ql-2028iv-mv04-coffee.avif",
+        "swatch": "/images/products/dental-chair/ql-2028iv/colors/swatches/ql-2028iv-mv04-coffee-swatch.avif"
+      },
+      {
+        "code": "MV05",
+        "name": "Light Green",
+        "image": "/images/products/dental-chair/ql-2028iv/colors/ql-2028iv-mv05-light-green.avif",
+        "swatch": "/images/products/dental-chair/ql-2028iv/colors/swatches/ql-2028iv-mv05-light-green-swatch.avif"
+      },
+      {
+        "code": "MV06",
+        "name": "Dark Blue",
+        "image": "/images/products/dental-chair/ql-2028iv/colors/ql-2028iv-mv06-dark-blue.avif",
+        "swatch": "/images/products/dental-chair/ql-2028iv/colors/swatches/ql-2028iv-mv06-dark-blue-swatch.avif"
+      },
+      {
+        "code": "MV07",
+        "name": "Apple Green",
+        "image": "/images/products/dental-chair/ql-2028iv/colors/ql-2028iv-mv07-apple-green.avif",
+        "swatch": "/images/products/dental-chair/ql-2028iv/colors/swatches/ql-2028iv-mv07-apple-green-swatch.avif"
+      },
+      {
+        "code": "MV08",
+        "name": "Orange",
+        "image": "/images/products/dental-chair/ql-2028iv/colors/ql-2028iv-mv08-orange.avif",
+        "swatch": "/images/products/dental-chair/ql-2028iv/colors/swatches/ql-2028iv-mv08-orange-swatch.avif"
+      },
+      {
+        "code": "MV09",
+        "name": "Dark Purple",
+        "image": "/images/products/dental-chair/ql-2028iv/colors/ql-2028iv-mv09-dark-purple.avif",
+        "swatch": "/images/products/dental-chair/ql-2028iv/colors/swatches/ql-2028iv-mv09-dark-purple-swatch.avif"
+      },
+      {
+        "code": "MV10",
+        "name": "Purplish Red",
+        "image": "/images/products/dental-chair/ql-2028iv/colors/ql-2028iv-mv10-purplish-red.avif",
+        "swatch": "/images/products/dental-chair/ql-2028iv/colors/swatches/ql-2028iv-mv10-purplish-red-swatch.avif"
+      },
+      {
+        "code": "MV11",
+        "name": "Black",
+        "image": "/images/products/dental-chair/ql-2028iv/colors/ql-2028iv-mv11-black.avif",
+        "swatch": "/images/products/dental-chair/ql-2028iv/colors/swatches/ql-2028iv-mv11-black-swatch.avif"
+      }
+    ],
+    "cases": [
+      {
+        "name": "ql-2028iv-case-01.avif",
+        "src": "/images/products/dental-chair/ql-2028iv/cases/ql-2028iv-case-01.avif",
+        "width": 650,
+        "height": 484
+      },
+      {
+        "name": "ql-2028iv-case-02.avif",
+        "src": "/images/products/dental-chair/ql-2028iv/cases/ql-2028iv-case-02.avif",
+        "width": 915,
+        "height": 472
+      },
+      {
+        "name": "ql-2028iv-case-03.avif",
+        "src": "/images/products/dental-chair/ql-2028iv/cases/ql-2028iv-case-03.avif",
+        "width": 647,
+        "height": 1400
+      },
+      {
+        "name": "ql-2028iv-case-04.avif",
+        "src": "/images/products/dental-chair/ql-2028iv/cases/ql-2028iv-case-04.avif",
+        "width": 1050,
+        "height": 1400
+      }
+    ],
+    "resources": [
+      {
+        "label": "QL-2028IV Product Catalog",
+        "href": "/downloads/dental-chair/ql-2028iv/guccidental-ql-2028iv-catalog.pdf",
+        "meta": "PDF · 1.4 MB"
+      },
+      {
+        "label": "QL Series Catalog",
+        "href": "/downloads/dental-chair/ql-2028iv/guccidental-ql-series-catalog.pdf",
+        "meta": "PDF · 6.6 MB"
+      },
+      {
+        "label": "QL-2028IV Water and Air Diagram",
+        "href": "/downloads/dental-chair/ql-2028iv/guccidental-ql-2028iv-water-air-diagram.pdf",
+        "meta": "PDF · 0.1 MB"
+      }
+    ]
+  },
+  "tj2028i-elite": {
+    "gallery": [
+      {
+        "name": "tj2028i-elite-gallery-01.avif",
+        "src": "/images/products/dental-chair/tj2028i-elite/gallery/tj2028i-elite-gallery-01.avif",
+        "width": 2400,
+        "height": 2553
+      },
+      {
+        "name": "tj2028i-elite-gallery-02.avif",
+        "src": "/images/products/dental-chair/tj2028i-elite/gallery/tj2028i-elite-gallery-02.avif",
+        "width": 2400,
+        "height": 2126
+      },
+      {
+        "name": "tj2028i-elite-gallery-03.avif",
+        "src": "/images/products/dental-chair/tj2028i-elite/gallery/tj2028i-elite-gallery-03.avif",
+        "width": 2400,
+        "height": 2116
+      },
+      {
+        "name": "tj2028i-elite-gallery-04.avif",
+        "src": "/images/products/dental-chair/tj2028i-elite/gallery/tj2028i-elite-gallery-04.avif",
+        "width": 2400,
+        "height": 2837
+      },
+      {
+        "name": "tj2028i-elite-gallery-05.avif",
+        "src": "/images/products/dental-chair/tj2028i-elite/gallery/tj2028i-elite-gallery-05.avif",
+        "width": 2400,
+        "height": 2292
+      },
+      {
+        "name": "tj2028i-elite-gallery-06.avif",
+        "src": "/images/products/dental-chair/tj2028i-elite/gallery/tj2028i-elite-gallery-06.avif",
+        "width": 2400,
+        "height": 1715
+      },
+      {
+        "name": "tj2028i-elite-gallery-07.avif",
+        "src": "/images/products/dental-chair/tj2028i-elite/gallery/tj2028i-elite-gallery-07.avif",
+        "width": 2400,
+        "height": 1877
+      },
+      {
+        "name": "tj2028i-elite-gallery-08.avif",
+        "src": "/images/products/dental-chair/tj2028i-elite/gallery/tj2028i-elite-gallery-08.avif",
+        "width": 2400,
+        "height": 1775
+      },
+      {
+        "name": "tj2028i-elite-gallery-09.avif",
+        "src": "/images/products/dental-chair/tj2028i-elite/gallery/tj2028i-elite-gallery-09.avif",
+        "width": 2400,
+        "height": 1800
+      }
+    ],
+    "features": [
+      {
+        "name": "tj2028i-elite-feature-01.avif",
+        "src": "/images/products/dental-chair/tj2028i-elite/features/tj2028i-elite-feature-01.avif",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "name": "tj2028i-elite-feature-02.avif",
+        "src": "/images/products/dental-chair/tj2028i-elite/features/tj2028i-elite-feature-02.avif",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "name": "tj2028i-elite-feature-03.avif",
+        "src": "/images/products/dental-chair/tj2028i-elite/features/tj2028i-elite-feature-03.avif",
+        "width": 1800,
+        "height": 1423
+      },
+      {
+        "name": "tj2028i-elite-feature-04.avif",
+        "src": "/images/products/dental-chair/tj2028i-elite/features/tj2028i-elite-feature-04.avif",
+        "width": 1800,
+        "height": 1350
+      }
+    ],
+    "colors": [
+      {
+        "code": "MV01",
+        "name": "Beige",
+        "image": "/images/products/dental-chair/tj2028i-elite/colors/tj2028i-elite-mv01-beige.avif",
+        "swatch": "/images/products/dental-chair/tj2028i-elite/colors/swatches/tj2028i-elite-mv01-beige-swatch.avif"
+      },
+      {
+        "code": "MV02",
+        "name": "Red",
+        "image": "/images/products/dental-chair/tj2028i-elite/colors/tj2028i-elite-mv02-red.avif",
+        "swatch": "/images/products/dental-chair/tj2028i-elite/colors/swatches/tj2028i-elite-mv02-red-swatch.avif"
+      },
+      {
+        "code": "MV03",
+        "name": "Blue",
+        "image": "/images/products/dental-chair/tj2028i-elite/colors/tj2028i-elite-mv03-blue.avif",
+        "swatch": "/images/products/dental-chair/tj2028i-elite/colors/swatches/tj2028i-elite-mv03-blue-swatch.avif"
+      },
+      {
+        "code": "MV04",
+        "name": "Coffee",
+        "image": "/images/products/dental-chair/tj2028i-elite/colors/tj2028i-elite-mv04-coffee.avif",
+        "swatch": "/images/products/dental-chair/tj2028i-elite/colors/swatches/tj2028i-elite-mv04-coffee-swatch.avif"
+      },
+      {
+        "code": "MV05",
+        "name": "Light Green",
+        "image": "/images/products/dental-chair/tj2028i-elite/colors/tj2028i-elite-mv05-light-green.avif",
+        "swatch": "/images/products/dental-chair/tj2028i-elite/colors/swatches/tj2028i-elite-mv05-light-green-swatch.avif"
+      },
+      {
+        "code": "MV06",
+        "name": "Dark Blue",
+        "image": "/images/products/dental-chair/tj2028i-elite/colors/tj2028i-elite-mv06-dark-blue.avif",
+        "swatch": "/images/products/dental-chair/tj2028i-elite/colors/swatches/tj2028i-elite-mv06-dark-blue-swatch.avif"
+      },
+      {
+        "code": "MV07",
+        "name": "Apple Green",
+        "image": "/images/products/dental-chair/tj2028i-elite/colors/tj2028i-elite-mv07-apple-green.avif",
+        "swatch": "/images/products/dental-chair/tj2028i-elite/colors/swatches/tj2028i-elite-mv07-apple-green-swatch.avif"
+      },
+      {
+        "code": "MV08",
+        "name": "Orange",
+        "image": "/images/products/dental-chair/tj2028i-elite/colors/tj2028i-elite-mv08-orange.avif",
+        "swatch": "/images/products/dental-chair/tj2028i-elite/colors/swatches/tj2028i-elite-mv08-orange-swatch.avif"
+      },
+      {
+        "code": "MV09",
+        "name": "Dark Purple",
+        "image": "/images/products/dental-chair/tj2028i-elite/colors/tj2028i-elite-mv09-dark-purple.avif",
+        "swatch": "/images/products/dental-chair/tj2028i-elite/colors/swatches/tj2028i-elite-mv09-dark-purple-swatch.avif"
+      },
+      {
+        "code": "MV10",
+        "name": "Purplish Red",
+        "image": "/images/products/dental-chair/tj2028i-elite/colors/tj2028i-elite-mv10-purplish-red.avif",
+        "swatch": "/images/products/dental-chair/tj2028i-elite/colors/swatches/tj2028i-elite-mv10-purplish-red-swatch.avif"
+      },
+      {
+        "code": "MV11",
+        "name": "Black",
+        "image": "/images/products/dental-chair/tj2028i-elite/colors/tj2028i-elite-mv11-black.avif",
+        "swatch": "/images/products/dental-chair/tj2028i-elite/colors/swatches/tj2028i-elite-mv11-black-swatch.avif"
+      }
+    ],
+    "cases": [
+      {
+        "name": "tj2028i-elite-case-01.avif",
+        "src": "/images/products/dental-chair/tj2028i-elite/cases/tj2028i-elite-case-01.avif",
+        "width": 1050,
+        "height": 1400
+      },
+      {
+        "name": "tj2028i-elite-case-02.avif",
+        "src": "/images/products/dental-chair/tj2028i-elite/cases/tj2028i-elite-case-02.avif",
+        "width": 1050,
+        "height": 1400
+      },
+      {
+        "name": "tj2028i-elite-case-03.avif",
+        "src": "/images/products/dental-chair/tj2028i-elite/cases/tj2028i-elite-case-03.avif",
+        "width": 1050,
+        "height": 1400
+      },
+      {
+        "name": "tj2028i-elite-case-04.avif",
+        "src": "/images/products/dental-chair/tj2028i-elite/cases/tj2028i-elite-case-04.avif",
+        "width": 1050,
+        "height": 1400
+      }
+    ],
+    "resources": [
+      {
+        "label": "TJ2028I Elite Product Catalog",
+        "href": "/downloads/dental-chair/tj2028i-elite/guccidental-tj2028i-elite-catalog.pdf",
+        "meta": "PDF · 35.4 MB"
+      },
+      {
+        "label": "TJ2028I Elite User Manual",
+        "href": "/downloads/dental-chair/tj2028i-elite/guccidental-tj2028i-elite-user-manual.pdf",
+        "meta": "PDF · 1.1 MB"
+      }
+    ]
+  },
+  "tj2028ii-prime": {
+    "gallery": [
+      {
+        "name": "tj2028ii-prime-gallery-01.avif",
+        "src": "/images/products/dental-chair/tj2028ii-prime/gallery/tj2028ii-prime-gallery-01.avif",
+        "width": 2400,
+        "height": 2553
+      },
+      {
+        "name": "tj2028ii-prime-gallery-02.avif",
+        "src": "/images/products/dental-chair/tj2028ii-prime/gallery/tj2028ii-prime-gallery-02.avif",
+        "width": 2400,
+        "height": 2292
+      },
+      {
+        "name": "tj2028ii-prime-gallery-03.avif",
+        "src": "/images/products/dental-chair/tj2028ii-prime/gallery/tj2028ii-prime-gallery-03.avif",
+        "width": 2400,
+        "height": 2837
+      },
+      {
+        "name": "tj2028ii-prime-gallery-04.avif",
+        "src": "/images/products/dental-chair/tj2028ii-prime/gallery/tj2028ii-prime-gallery-04.avif",
+        "width": 2400,
+        "height": 2115
+      },
+      {
+        "name": "tj2028ii-prime-gallery-05.avif",
+        "src": "/images/products/dental-chair/tj2028ii-prime/gallery/tj2028ii-prime-gallery-05.avif",
+        "width": 2400,
+        "height": 2169
+      },
+      {
+        "name": "tj2028ii-prime-gallery-06.avif",
+        "src": "/images/products/dental-chair/tj2028ii-prime/gallery/tj2028ii-prime-gallery-06.avif",
+        "width": 2400,
+        "height": 1529
+      }
+    ],
+    "features": [
+      {
+        "name": "tj2028ii-prime-feature-01.avif",
+        "src": "/images/products/dental-chair/tj2028ii-prime/features/tj2028ii-prime-feature-01.avif",
+        "width": 1800,
+        "height": 1127
+      },
+      {
+        "name": "tj2028ii-prime-feature-02.avif",
+        "src": "/images/products/dental-chair/tj2028ii-prime/features/tj2028ii-prime-feature-02.avif",
+        "width": 1800,
+        "height": 1627
+      },
+      {
+        "name": "tj2028ii-prime-feature-03.avif",
+        "src": "/images/products/dental-chair/tj2028ii-prime/features/tj2028ii-prime-feature-03.avif",
+        "width": 1800,
+        "height": 1114
+      },
+      {
+        "name": "tj2028ii-prime-feature-04.avif",
+        "src": "/images/products/dental-chair/tj2028ii-prime/features/tj2028ii-prime-feature-04.avif",
+        "width": 1800,
+        "height": 2128
+      }
+    ],
+    "colors": [
+      {
+        "code": "MV01",
+        "name": "Beige",
+        "image": "/images/products/dental-chair/tj2028ii-prime/colors/tj2028ii-prime-mv01-beige.avif",
+        "swatch": "/images/products/dental-chair/tj2028ii-prime/colors/swatches/tj2028ii-prime-mv01-beige-swatch.avif"
+      },
+      {
+        "code": "MV02",
+        "name": "Red",
+        "image": "/images/products/dental-chair/tj2028ii-prime/colors/tj2028ii-prime-mv02-red.avif",
+        "swatch": "/images/products/dental-chair/tj2028ii-prime/colors/swatches/tj2028ii-prime-mv02-red-swatch.avif"
+      },
+      {
+        "code": "MV03",
+        "name": "Blue",
+        "image": "/images/products/dental-chair/tj2028ii-prime/colors/tj2028ii-prime-mv03-blue.avif",
+        "swatch": "/images/products/dental-chair/tj2028ii-prime/colors/swatches/tj2028ii-prime-mv03-blue-swatch.avif"
+      },
+      {
+        "code": "MV04",
+        "name": "Coffee",
+        "image": "/images/products/dental-chair/tj2028ii-prime/colors/tj2028ii-prime-mv04-coffee.avif",
+        "swatch": "/images/products/dental-chair/tj2028ii-prime/colors/swatches/tj2028ii-prime-mv04-coffee-swatch.avif"
+      },
+      {
+        "code": "MV05",
+        "name": "Light Green",
+        "image": "/images/products/dental-chair/tj2028ii-prime/colors/tj2028ii-prime-mv05-light-green.avif",
+        "swatch": "/images/products/dental-chair/tj2028ii-prime/colors/swatches/tj2028ii-prime-mv05-light-green-swatch.avif"
+      },
+      {
+        "code": "MV06",
+        "name": "Dark Blue",
+        "image": "/images/products/dental-chair/tj2028ii-prime/colors/tj2028ii-prime-mv06-dark-blue.avif",
+        "swatch": "/images/products/dental-chair/tj2028ii-prime/colors/swatches/tj2028ii-prime-mv06-dark-blue-swatch.avif"
+      },
+      {
+        "code": "MV07",
+        "name": "Apple Green",
+        "image": "/images/products/dental-chair/tj2028ii-prime/colors/tj2028ii-prime-mv07-apple-green.avif",
+        "swatch": "/images/products/dental-chair/tj2028ii-prime/colors/swatches/tj2028ii-prime-mv07-apple-green-swatch.avif"
+      },
+      {
+        "code": "MV08",
+        "name": "Orange",
+        "image": "/images/products/dental-chair/tj2028ii-prime/colors/tj2028ii-prime-mv08-orange.avif",
+        "swatch": "/images/products/dental-chair/tj2028ii-prime/colors/swatches/tj2028ii-prime-mv08-orange-swatch.avif"
+      },
+      {
+        "code": "MV09",
+        "name": "Dark Purple",
+        "image": "/images/products/dental-chair/tj2028ii-prime/colors/tj2028ii-prime-mv09-dark-purple.avif",
+        "swatch": "/images/products/dental-chair/tj2028ii-prime/colors/swatches/tj2028ii-prime-mv09-dark-purple-swatch.avif"
+      },
+      {
+        "code": "MV10",
+        "name": "Purplish Red",
+        "image": "/images/products/dental-chair/tj2028ii-prime/colors/tj2028ii-prime-mv10-purplish-red.avif",
+        "swatch": "/images/products/dental-chair/tj2028ii-prime/colors/swatches/tj2028ii-prime-mv10-purplish-red-swatch.avif"
+      },
+      {
+        "code": "MV11",
+        "name": "Black",
+        "image": "/images/products/dental-chair/tj2028ii-prime/colors/tj2028ii-prime-mv11-black.avif",
+        "swatch": "/images/products/dental-chair/tj2028ii-prime/colors/swatches/tj2028ii-prime-mv11-black-swatch.avif"
+      }
+    ],
+    "cases": [
+      {
+        "name": "tj2028ii-prime-case-01.avif",
+        "src": "/images/products/dental-chair/tj2028ii-prime/cases/tj2028ii-prime-case-01.avif",
+        "width": 1800,
+        "height": 1183
+      },
+      {
+        "name": "tj2028ii-prime-case-02.avif",
+        "src": "/images/products/dental-chair/tj2028ii-prime/cases/tj2028ii-prime-case-02.avif",
+        "width": 1800,
+        "height": 1352
+      },
+      {
+        "name": "tj2028ii-prime-case-03.avif",
+        "src": "/images/products/dental-chair/tj2028ii-prime/cases/tj2028ii-prime-case-03.avif",
+        "width": 1800,
+        "height": 1249
+      },
+      {
+        "name": "tj2028ii-prime-case-04.avif",
+        "src": "/images/products/dental-chair/tj2028ii-prime/cases/tj2028ii-prime-case-04.avif",
+        "width": 1800,
+        "height": 1350
+      }
+    ],
+    "resources": [
+      {
+        "label": "TJ2028II Prime Product Catalog",
+        "href": "/downloads/dental-chair/tj2028ii-prime/guccidental-tj2028ii-prime-catalog.pdf",
+        "meta": "PDF · 49.8 MB"
+      },
+      {
+        "label": "TJ2028II Prime User Manual",
+        "href": "/downloads/dental-chair/tj2028ii-prime/guccidental-tj2028ii-prime-user-manual.pdf",
+        "meta": "PDF · 1.1 MB"
+      }
+    ]
+  },
+  "v2-pro": {
+    "gallery": [
+      {
+        "name": "v2-pro-gallery-01.avif",
+        "src": "/images/products/dental-chair/v2-pro/gallery/v2-pro-gallery-01.avif",
+        "width": 2400,
+        "height": 2837
+      },
+      {
+        "name": "v2-pro-gallery-02.avif",
+        "src": "/images/products/dental-chair/v2-pro/gallery/v2-pro-gallery-02.avif",
+        "width": 2400,
+        "height": 2553
+      },
+      {
+        "name": "v2-pro-gallery-03.avif",
+        "src": "/images/products/dental-chair/v2-pro/gallery/v2-pro-gallery-03.avif",
+        "width": 2400,
+        "height": 2292
+      },
+      {
+        "name": "v2-pro-gallery-04.avif",
+        "src": "/images/products/dental-chair/v2-pro/gallery/v2-pro-gallery-04.avif",
+        "width": 2400,
+        "height": 2115
+      },
+      {
+        "name": "v2-pro-gallery-05.avif",
+        "src": "/images/products/dental-chair/v2-pro/gallery/v2-pro-gallery-05.avif",
+        "width": 2400,
+        "height": 2169
+      },
+      {
+        "name": "v2-pro-gallery-06.avif",
+        "src": "/images/products/dental-chair/v2-pro/gallery/v2-pro-gallery-06.avif",
+        "width": 2400,
+        "height": 1529
+      }
+    ],
+    "features": [
+      {
+        "name": "v2-pro-feature-01.avif",
+        "src": "/images/products/dental-chair/v2-pro/features/v2-pro-feature-01.avif",
+        "width": 1800,
+        "height": 2128
+      },
+      {
+        "name": "v2-pro-feature-02.avif",
+        "src": "/images/products/dental-chair/v2-pro/features/v2-pro-feature-02.avif",
+        "width": 806,
+        "height": 635
+      },
+      {
+        "name": "v2-pro-feature-03.avif",
+        "src": "/images/products/dental-chair/v2-pro/features/v2-pro-feature-03.avif",
+        "width": 585,
+        "height": 616
+      },
+      {
+        "name": "v2-pro-feature-04.avif",
+        "src": "/images/products/dental-chair/v2-pro/features/v2-pro-feature-04.avif",
+        "width": 545,
+        "height": 544
+      },
+      {
+        "name": "v2-pro-feature-05.avif",
+        "src": "/images/products/dental-chair/v2-pro/features/v2-pro-feature-05.avif",
+        "width": 1173,
+        "height": 1066
+      }
+    ],
+    "colors": [
+      {
+        "code": "MV01",
+        "name": "Beige",
+        "image": "/images/products/dental-chair/v2-pro/colors/v2-pro-mv01-beige.avif",
+        "swatch": "/images/products/dental-chair/v2-pro/colors/swatches/v2-pro-mv01-beige-swatch.avif"
+      },
+      {
+        "code": "MV02",
+        "name": "Red",
+        "image": "/images/products/dental-chair/v2-pro/colors/v2-pro-mv02-red.avif",
+        "swatch": "/images/products/dental-chair/v2-pro/colors/swatches/v2-pro-mv02-red-swatch.avif"
+      },
+      {
+        "code": "MV03",
+        "name": "Blue",
+        "image": "/images/products/dental-chair/v2-pro/colors/v2-pro-mv03-blue.avif",
+        "swatch": "/images/products/dental-chair/v2-pro/colors/swatches/v2-pro-mv03-blue-swatch.avif"
+      },
+      {
+        "code": "MV04",
+        "name": "Coffee",
+        "image": "/images/products/dental-chair/v2-pro/colors/v2-pro-mv04-coffee.avif",
+        "swatch": "/images/products/dental-chair/v2-pro/colors/swatches/v2-pro-mv04-coffee-swatch.avif"
+      },
+      {
+        "code": "MV05",
+        "name": "Light Green",
+        "image": "/images/products/dental-chair/v2-pro/colors/v2-pro-mv05-light-green.avif",
+        "swatch": "/images/products/dental-chair/v2-pro/colors/swatches/v2-pro-mv05-light-green-swatch.avif"
+      },
+      {
+        "code": "MV06",
+        "name": "Dark Blue",
+        "image": "/images/products/dental-chair/v2-pro/colors/v2-pro-mv06-dark-blue.avif",
+        "swatch": "/images/products/dental-chair/v2-pro/colors/swatches/v2-pro-mv06-dark-blue-swatch.avif"
+      },
+      {
+        "code": "MV07",
+        "name": "Apple Green",
+        "image": "/images/products/dental-chair/v2-pro/colors/v2-pro-mv07-apple-green.avif",
+        "swatch": "/images/products/dental-chair/v2-pro/colors/swatches/v2-pro-mv07-apple-green-swatch.avif"
+      },
+      {
+        "code": "MV08",
+        "name": "Orange",
+        "image": "/images/products/dental-chair/v2-pro/colors/v2-pro-mv08-orange.avif",
+        "swatch": "/images/products/dental-chair/v2-pro/colors/swatches/v2-pro-mv08-orange-swatch.avif"
+      },
+      {
+        "code": "MV09",
+        "name": "Dark Purple",
+        "image": "/images/products/dental-chair/v2-pro/colors/v2-pro-mv09-dark-purple.avif",
+        "swatch": "/images/products/dental-chair/v2-pro/colors/swatches/v2-pro-mv09-dark-purple-swatch.avif"
+      },
+      {
+        "code": "MV10",
+        "name": "Purplish Red",
+        "image": "/images/products/dental-chair/v2-pro/colors/v2-pro-mv10-purplish-red.avif",
+        "swatch": "/images/products/dental-chair/v2-pro/colors/swatches/v2-pro-mv10-purplish-red-swatch.avif"
+      },
+      {
+        "code": "MV11",
+        "name": "Black",
+        "image": "/images/products/dental-chair/v2-pro/colors/v2-pro-mv11-black.avif",
+        "swatch": "/images/products/dental-chair/v2-pro/colors/swatches/v2-pro-mv11-black-swatch.avif"
+      }
+    ],
+    "cases": [
+      {
+        "name": "v2-pro-case-01.avif",
+        "src": "/images/products/dental-chair/v2-pro/cases/v2-pro-case-01.avif",
+        "width": 1706,
+        "height": 1279
+      },
+      {
+        "name": "v2-pro-case-02.avif",
+        "src": "/images/products/dental-chair/v2-pro/cases/v2-pro-case-02.avif",
+        "width": 1706,
+        "height": 1279
+      }
+    ],
+    "resources": [
+      {
+        "label": "V2 Pro Product Catalog",
+        "href": "/downloads/dental-chair/v2-pro/guccidental-v2-pro-catalog.pdf",
+        "meta": "PDF · 2.9 MB"
+      },
+      {
+        "label": "V2 Pro User Manual",
+        "href": "/downloads/dental-chair/v2-pro/guccidental-v2-pro-user-manual.pdf",
+        "meta": "PDF · 1.1 MB"
+      }
+    ]
+  }
+}

@@ -34,6 +34,7 @@ export type HighEndDentalChairDetail = {
   colors: { code: string; name: string; image: string; swatch: string; alt: string; description: string }[];
   colorHeading?: string;
   colorIntroduction: string;
+  specificationHeading?: string;
   specifications: { label: string; value: string }[];
   resources: { label: string; href: string; meta: string }[];
   caseHeading: string;
