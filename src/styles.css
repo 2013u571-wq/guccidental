@@ -8978,6 +8978,10 @@ img.partner-tile-img {
   position: relative;
   text-align: center;
 }
+.b100-video-link { cursor: pointer; text-decoration: none; transition: box-shadow .2s, transform .2s; }
+.b100-video-link:hover { box-shadow: 0 24px 50px rgba(15, 23, 42, .24); transform: translateY(-3px); }
+.b100-video-link:hover .b100-video-play { background: rgba(255, 255, 255, .23); transform: scale(1.06); }
+.b100-video-link:focus-visible { box-shadow: 0 0 0 4px rgba(30, 79, 163, .24), 0 20px 42px rgba(15, 23, 42, .16); outline: none; }
 .b100-video-placeholder::before {
   border: 1px solid rgba(255, 255, 255, .08);
   border-radius: 50%;

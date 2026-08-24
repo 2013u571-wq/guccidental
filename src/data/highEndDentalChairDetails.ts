@@ -28,7 +28,7 @@ export type HighEndDentalChairDetail = {
   trustHighlights: string[];
   sellingPointHeading: string;
   sellingPoints: { title: string; description: string }[];
-  videoPlaceholder: { title: string; note: string };
+  videoPlaceholder: { title: string; note: string; url?: string };
   featureHeading: string;
   features: FeatureBlock[];
   colors: { code: string; name: string; image: string; swatch: string; alt: string; description: string }[];
@@ -42,7 +42,8 @@ export type HighEndDentalChairDetail = {
   cases: (ProductImage & { title: string; description: string })[];
   caseDisclosure?: string;
   faq: { question: string; answer: string }[];
-  related?: { slug: string; model: string; description: string };
+  related?: { slug: string; model: string; description: string; image?: ProductImage };
+  relatedProducts?: { slug: string; model: string; description: string; image: ProductImage }[];
 };
 
 type ColorDefinition = readonly [string, string, string];
@@ -1445,3 +1446,50 @@ export const highEndDentalChairDetails: Record<string, HighEndDentalChairDetail>
     related: { slug: "g5", model: "G5", description: "Deluxe G-series configuration with a 20-LED surgical lamp and three-folding seat." },
   },
 };
+
+Object.values(highEndDentalChairDetails).forEach((detail) => {
+  if (detail.related && !detail.related.image) {
+    detail.related.image = highEndDentalChairDetails[detail.related.slug]?.gallery[0];
+  }
+});
+
+const highEndVideoLinks: Record<string, string> = {
+  a6800: "https://youtube.com/shorts/RccG6_gT9vk?feature=share",
+  "b100l-galaxy": "https://youtu.be/nu8GTcN1wrY",
+  "b100l-premium": "https://youtu.be/SqiFZfQ3tMM",
+  g1: "https://youtu.be/0H7x9pwuL2U",
+  g5: "https://youtu.be/JvSfmW7b8Xk",
+  "g5-implant": "https://youtu.be/JvSfmW7b8Xk",
+  m100: "https://youtu.be/r6plX1yqxlM",
+  m200: "https://youtu.be/NDC1-HuOa70",
+  s670: "https://youtu.be/TZ3ASwKxh5A",
+  s680: "https://youtube.com/shorts/bf2QbEM_ICk",
+  "sl8500-standard": "https://youtube.com/shorts/-MLeGFIvc9U",
+  "sl8500-without-box": "https://youtube.com/shorts/xzK9AKp1sQQ",
+  "tj-70": "https://youtu.be/06luzE4ayhA",
+  "v3-implant": "https://youtu.be/RzlEW1l_0GI",
+  "v3-luxury": "https://youtu.be/ukwCATwo1vI",
+  "v3-black": "https://youtu.be/7UZjMWqch3U",
+};
+
+Object.entries(highEndVideoLinks).forEach(([slug, url]) => {
+  const detail = highEndDentalChairDetails[slug];
+  if (detail) detail.videoPlaceholder.url = url;
+});
+
+const highEndProductOrder = [
+  "g1", "g5", "g5-implant", "s670", "s680", "sl8500-standard", "sl8500-without-box",
+  "b100l-premium", "b100l-galaxy", "m100", "m200", "v3-implant", "v3-luxury", "v3-black", "a6800", "tj-70",
+];
+
+highEndProductOrder.forEach((slug, index) => {
+  const detail = highEndDentalChairDetails[slug];
+  if (!detail) return;
+  const nearbyIndexes = [index - 1, index + 1, index - 2, index + 2]
+    .filter((candidateIndex) => candidateIndex >= 0 && candidateIndex < highEndProductOrder.length)
+    .slice(0, 2);
+  detail.relatedProducts = nearbyIndexes.map((candidateIndex) => {
+    const target = highEndDentalChairDetails[highEndProductOrder[candidateIndex]];
+    return { slug: target.slug, model: target.model, description: target.tagline, image: target.gallery[0] };
+  });
+});
