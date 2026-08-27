@@ -32,6 +32,7 @@ export type ChairModel = {
   summary?: string;
   detailSlug?: string;
   thumb?: { src: string; alt: string };
+  videoUrls?: string[];
 };
 
 export const categories: Category[] = [
@@ -176,14 +177,14 @@ export const products: Product[] = [
 // Descriptions and configuration chips are rendered only when verified product data exists.
 export const chairModels: ChairModel[] = [
   { model: "H3", chairTier: "economic", series: "H Series" },
-  { model: "H5", chairTier: "economic", series: "H Series", detailSlug: "h5" },
-  { model: "QL2024", chairTier: "economic", series: "QL Series" },
-  { model: "QL2028 (2019)", chairTier: "economic", series: "QL Series" },
-  { model: "QL2028 I", chairTier: "economic", series: "QL Series" },
+  { model: "H5", chairTier: "economic", series: "H Series", summary: "Nine chair programs, dual-color shadowless lighting and a 90-degree rotating spittoon support compact daily clinics.", detailSlug: "economic/h5", videoUrls: ["https://youtu.be/B-pHNZuhz-E", "https://youtube.com/shorts/kVsaGx5ZFnQ"], thumb: { src: mediaUrl("/images/products/dental-chair/h5/gallery/h5-gallery-01.avif"), alt: "H5 economic dental chair" } },
+  { model: "QL2024", chairTier: "economic", series: "QL Series", summary: "An 8-key assistant panel, upgraded sensor dual-color light and durable metal frame organize routine treatment.", detailSlug: "economic/ql2024", videoUrls: ["https://youtube.com/shorts/PgHEltUaV4M", "https://youtube.com/shorts/mk-4Niv0Fsg", "https://youtube.com/shorts/nQ4ToZP36O4"], thumb: { src: mediaUrl("/images/products/dental-chair/ql2024/gallery/ql2024-gallery-01.avif"), alt: "QL2024 economic dental chair" } },
+  { model: "QL2028 (2019)", chairTier: "economic", series: "QL Series", summary: "A classic QL-series chair with 13-key multifunction control, LED sensor lighting and a rotating glass spittoon.", detailSlug: "economic/ql2028-2019", videoUrls: ["https://youtu.be/BMUKe1LDV9Q", "https://youtube.com/shorts/aw6jUP3f3TM"], thumb: { src: mediaUrl("/images/products/dental-chair/ql2028-2019/gallery/ql2028-2019-gallery-01.avif"), alt: "QL2028 2019 economic dental chair" } },
+  { model: "QL2028 I", chairTier: "economic", series: "QL Series", summary: "The Apple Design sidebox, hanging delivery tray and LED sensor light create a clean economical workflow.", detailSlug: "economic/ql2028-i", videoUrls: ["https://youtu.be/QDH0tUxBBtg", "https://youtube.com/shorts/DysR2BbRWMM", "https://youtu.be/ZLTQ1SUvrAk", "https://youtu.be/mLVjOrEHNo0"], thumb: { src: mediaUrl("/images/products/dental-chair/ql2028-i/gallery/ql2028-i-gallery-01.avif"), alt: "QL2028I Apple Design economic dental chair" } },
   { model: "BZ636", chairTier: "economic", series: "B Series" },
-  { model: "B6", chairTier: "economic", series: "B Series" },
-  { model: "TJ2028 Comfort", chairTier: "economic", series: "TJ Series" },
-  { model: "TJ2688 A1", chairTier: "economic", series: "TJ Series" },
+  { model: "B6", chairTier: "economic", series: "B Series", summary: "Computer control, smooth 24V movement, a rotatable glass cuspidor and anti-collision protection support daily clinics.", detailSlug: "economic/b6", videoUrls: ["https://youtu.be/PTvATDM-bNs"], thumb: { src: mediaUrl("/images/products/dental-chair/b6/gallery/b6-gallery-01.avif"), alt: "B6 economic dental chair" } },
+  { model: "TJ2028 Comfort", chairTier: "economic", series: "TJ Series", summary: "Comfort-led positioning, doctor-side delivery and clear LED lighting form a practical everyday chair package.", detailSlug: "economic/tj2028-comfort", videoUrls: ["https://youtu.be/LDe65n9C-Nk"], thumb: { src: mediaUrl("/images/products/dental-chair/tj2028-comfort/gallery/tj2028-comfort-gallery-01.avif"), alt: "TJ2028 Comfort economic dental chair" } },
+  { model: "TJ2688 A1", chairTier: "economic", series: "TJ Series", summary: "A simple A1 layout combines doctor-side delivery, LED lighting, foot control and a documented 160 kg capacity.", detailSlug: "economic/tj2688-a1", videoUrls: ["https://youtube.com/shorts/cuSUO6847PQ"], thumb: { src: mediaUrl("/images/products/dental-chair/tj2688-a1/gallery/tj2688-a1-gallery-01.avif"), alt: "TJ2688 A1 economic dental chair" } },
   { model: "TJ-SA1", chairTier: "economic", series: "TJ Series" },
 
   { model: "P2", chairTier: "mid-range", series: "P Series", summary: "Nine memory positions, shadowless LED sensor lighting, and a 90-degree rotating side box support flexible daily treatment.", detailSlug: "mid-range/p2", thumb: { src: mediaUrl("/images/products/dental-chair/p2/gallery/p2-gallery-02.avif"), alt: "P2 mid-range dental chair with top-mounted delivery" } },
@@ -203,7 +204,7 @@ export const chairModels: ChairModel[] = [
   { model: "QL-2028IV", chairTier: "mid-range", series: "Other Models", summary: "Top-mounted delivery, 16-button LCD control, an 8-key assistant panel, and nine memory positions organize everyday treatment.", detailSlug: "mid-range/ql-2028iv", thumb: { src: mediaUrl("/images/products/dental-chair/ql-2028iv/gallery/ql-2028iv-gallery-01.avif"), alt: "QL-2028IV mid-range dental chair" } },
   { model: "V2 Pro", chairTier: "mid-range", series: "Other Models", summary: "A stable three-point frame, 673 × 331 mm workstation, nine memory positions, and multifunction foot control suit busy daily clinics.", detailSlug: "mid-range/v2-pro", thumb: { src: mediaUrl("/images/products/dental-chair/v2-pro/gallery/v2-pro-gallery-02.avif"), alt: "V2 Pro mid-range dental chair" } },
 
-  { model: "G1", chairTier: "high-end", series: "G Series", summary: "A 12-bulb shadowless LED light and complete chairside layout support precise everyday treatment in premium clinics.", detailSlug: "high-end/g1", thumb: { src: mediaUrl("/images/products/dental-chair/g1/gallery/g1-chair-main.avif"), alt: "G1 high-end dental chair" } },
+  { model: "G1", chairTier: "high-end", series: "G Series", summary: "A 12-bulb shadowless LED light and complete chairside layout support precise everyday treatment in premium clinics.", detailSlug: "high-end/g1", thumb: { src: mediaUrl("/images/products/dental-chair/g1/gallery/g1-chair-product.avif"), alt: "G1 high-end dental chair with chair body and delivery unit" } },
   { model: "G5", chairTier: "high-end", series: "G Series", summary: "A 20-LED surgical lamp and integrated delivery bring enhanced visibility and control to advanced procedures.", detailSlug: "high-end/g5", thumb: { src: mediaUrl("/images/products/dental-chair/g5/gallery/g5-chair-main.avif"), alt: "G5 high-end dental chair" } },
   { model: "G5 Implant", chairTier: "high-end", series: "G Series", summary: "Implant-ready delivery and a large surgical light create a focused platform for implant and restorative workflows.", detailSlug: "high-end/g5-implant", thumb: { src: mediaUrl("/images/products/dental-chair/g5-implant/gallery/g5-implant-chair-main.avif"), alt: "G5 Implant high-end dental chair" } },
   { model: "S670", chairTier: "high-end", series: "S Series", summary: "A six-LED sensor oral light and streamlined S-series layout keep routine treatment efficient and organized.", detailSlug: "high-end/s670", thumb: { src: mediaUrl("/images/products/dental-chair/s670/gallery/s670-main-product.avif"), alt: "S670 high-end dental chair" } },

@@ -28,7 +28,7 @@ export type HighEndDentalChairDetail = {
   trustHighlights: string[];
   sellingPointHeading: string;
   sellingPoints: { title: string; description: string }[];
-  videoPlaceholder: { title: string; note: string; url?: string };
+  videoPlaceholder: { title: string; note: string; url?: string; thumbnailUrl?: string };
   featureHeading: string;
   features: FeatureBlock[];
   colors: { code: string; name: string; image: string; swatch: string; alt: string; description: string }[];
@@ -194,10 +194,19 @@ const vColorDefinitions: ColorDefinition[] = [
   ["V08", "Apple Greed", "v08-apple-greed"],
 ];
 
-const v3BlackColorDefinitions: ColorDefinition[] = Array.from({ length: 8 }, (_, index) => {
-  const number = String(index + 1).padStart(2, "0");
-  return [`B${number}`, `Special edition ${number}`, `b${number}`] as const;
-});
+function v3BlackColorsFor() {
+  return vColorDefinitions.map(([code, name, fileSlug], index) => {
+    const imageNumber = String(index + 1).padStart(2, "0");
+    return {
+      code,
+      name,
+      image: mediaUrl(`/images/products/dental-chair/v3-black/colors/v3-black-b${imageNumber}.avif`),
+      swatch: mediaUrl(`/images/products/dental-chair/v3-luxury/colors/swatches/v3-luxury-${fileSlug}-swatch.avif`),
+      alt: `V3-Black dental chair shown with ${code} ${name} upholstery`,
+      description: `${code} ${name} upholstery for the V3-Black special-edition dental chair.`,
+    };
+  });
+}
 
 const a6800ColorDefinitions: ColorDefinition[] = [
   ["H-3", "H-3", "h-3"],
@@ -279,10 +288,9 @@ export const highEndDentalChairDetails: Record<string, HighEndDentalChairDetail>
     caseHeading: "SL8500 Standard in finished treatment rooms",
     caseIntroduction: "See how the SL8500 Standard brings the chair body, delivery workflow and operating area together in complete clinical settings.",
     cases: [
-      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/cases/sl8500-standard-case-01.avif"), alt: "SL8500 Standard dental chair installed in a customer treatment room", label: "Treatment-room overview", width: 788, height: 1400, title: "Treatment-room overview", description: "A finished-room view shows the chair working as part of a complete clinical environment." },
-      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/cases/sl8500-standard-case-02.avif"), alt: "SL8500 Standard chairside operator workspace in a clinic", label: "Operator workspace", width: 1280, height: 720, title: "Operator workspace", description: "The chairside delivery area, light position and room layout create an organized operator workspace." },
-      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/cases/sl8500-standard-case-03.avif"), alt: "SL8500 Standard patient chair and upholstery in a clinic", label: "Patient comfort", width: 1280, height: 720, title: "Patient comfort", description: "The patient chair supports stable positioning while the upholstery finish gives the room a polished look." },
-      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/cases/sl8500-standard-case-04.avif"), alt: "SL8500 Standard dental chair in a clean clinical layout", label: "Clean clinical layout", width: 1800, height: 1350, title: "Clean clinical layout", description: "The overall setup keeps the treatment room tidy, serviceable and easy to understand at a glance." },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/cases/sl8500-standard-case-usa.avif"), alt: "SL8500 Standard dental chair installed for a customer in the United States", label: "United States customer installation", width: 1000, height: 750, title: "United States customer installation", description: "A completed customer installation shows the SL8500 Standard integrated into a practical treatment-room workflow." },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/cases/sl8500-standard-case-wendy-clinic.avif"), alt: "SL8500 Standard dental chair in Wendy's customer clinic", label: "Customer clinic treatment room", width: 1000, height: 750, title: "Customer clinic treatment room", description: "The finished clinic setting brings the chair, delivery area and surrounding workspace together in a coordinated layout." },
+      { src: mediaUrl("/images/products/dental-chair/sl8500-standard/cases/sl8500-standard-case-germany.avif"), alt: "SL8500 Standard dental chair prepared for air shipment to Germany", label: "Germany customer delivery", width: 1000, height: 750, title: "Germany customer delivery", description: "A Germany-bound customer order demonstrates coordinated preparation and air-shipping support for an international clinic project." },
     ],
     faq: [
       { question: "How is the SL8500 Standard positioned?", answer: "The SL8500 Standard is positioned as a high-end dental chair for clinics that need a polished treatment-room presence and organized daily workflow." },
@@ -349,7 +357,6 @@ export const highEndDentalChairDetails: Record<string, HighEndDentalChairDetail>
       { src: mediaUrl("/images/products/dental-chair/sl8500-without-box/cases/sl8500-without-box-case-01.avif"), alt: "SL8500 without box dental chair installed in a customer treatment room", label: "Treatment-room overview", width: 1800, height: 1350, title: "Treatment-room overview", description: "A finished-room view shows the chair working as part of a complete clinical environment." },
       { src: mediaUrl("/images/products/dental-chair/sl8500-without-box/cases/sl8500-without-box-case-02.avif"), alt: "SL8500 without box chairside operator workspace in a clinic", label: "Operator workspace", width: 1800, height: 1350, title: "Operator workspace", description: "The chairside delivery area, light position and room layout create an organized operator workspace." },
       { src: mediaUrl("/images/products/dental-chair/sl8500-without-box/cases/sl8500-without-box-case-03.avif"), alt: "SL8500 without box patient chair and upholstery in a clinic", label: "Patient comfort", width: 1050, height: 1400, title: "Patient comfort", description: "The patient chair supports stable positioning while the upholstery finish gives the room a polished look." },
-      { src: mediaUrl("/images/products/dental-chair/sl8500-without-box/cases/sl8500-without-box-case-04.avif"), alt: "SL8500 without box dental chair in a clean clinical layout", label: "Clean clinical layout", width: 1050, height: 1400, title: "Clean clinical layout", description: "The overall setup keeps the treatment room tidy, serviceable and easy to understand at a glance." },
     ],
     faq: [
       { question: "How is the SL8500 without box positioned?", answer: "The SL8500 without box is positioned as a compact high-end dental chair for clinics that need a polished treatment-room presence and organized daily workflow." },
@@ -425,8 +432,8 @@ export const highEndDentalChairDetails: Record<string, HighEndDentalChairDetail>
     caseDisclosure: "Case images combine real clinic installations with treatment-room concept visuals.",
     cases: [
       { src: mediaUrl("/images/products/dental-chair/b100l-galaxy/cases/b100l-galaxy-clinic-case-01.avif"), alt: "B100L Galaxy dental chair installed in a real clinic treatment room", label: "Treatment-room overview", width: 1400, height: 1867, title: "Treatment-room overview", description: "A finished-room view shows the chair working as part of a complete clinical environment." },
-      { src: mediaUrl("/images/products/dental-chair/b100l-galaxy/cases/b100l-galaxy-clinic-case-02.avif"), alt: "B100L Galaxy dental chair operator workspace in a real clinic installation", label: "Operator workspace", width: 1400, height: 1867, title: "Operator workspace", description: "The chairside delivery area, light position and room layout create an organized operator workspace." },
-      { src: mediaUrl("/images/products/dental-chair/b100l-galaxy/cases/b100l-galaxy-clinic-case-03.avif"), alt: "B100L Galaxy dental chair patient comfort concept visual", label: "Patient comfort", width: 1400, height: 1050, title: "Patient comfort", description: "The patient chair supports stable positioning while the upholstery finish gives the room a polished look." },
+      { src: mediaUrl("/images/products/dental-chair/b100l-galaxy/cases/b100l-galaxy-clinic-case-02.avif"), alt: "B100L Galaxy dental chair with blue upholstery in a real clinic installation", label: "Operator workspace", width: 1400, height: 1867, title: "Operator workspace", description: "The chairside delivery area, light position and room layout create an organized operator workspace." },
+      { src: mediaUrl("/images/products/dental-chair/b100l-galaxy/cases/b100l-galaxy-clinic-case-03.avif"), alt: "B100L Galaxy dental chair with black upholstery in a finished treatment room", label: "Patient comfort", width: 1086, height: 1448, title: "Patient comfort", description: "The patient chair supports stable positioning while the upholstery finish gives the room a polished look." },
       { src: mediaUrl("/images/products/dental-chair/b100l-galaxy/cases/b100l-galaxy-clinic-case-04.avif"), alt: "B100L Galaxy dental chair clean clinical layout concept visual", label: "Clean clinical layout", width: 1120, height: 1400, title: "Clean clinical layout", description: "The overall setup keeps the treatment room tidy, serviceable and easy to understand at a glance." },
     ],
     faq: [
@@ -502,9 +509,9 @@ export const highEndDentalChairDetails: Record<string, HighEndDentalChairDetail>
     caseDisclosure: "Case images combine real clinic installations with treatment-room concept visuals.",
     cases: [
       { src: mediaUrl("/images/products/dental-chair/b100l-premium/cases/b100l-premium-clinic-case-01.avif"), alt: "B100L Premium dental chair installed in a real clinic treatment room", label: "Treatment-room overview", width: 1400, height: 831, title: "Treatment-room overview", description: "A finished-room view shows the chair working as part of a complete clinical environment." },
-      { src: mediaUrl("/images/products/dental-chair/b100l-premium/cases/b100l-premium-clinic-case-02.avif"), alt: "B100L Premium dental chair operator workspace in a real clinic installation", label: "Operator workspace", width: 1400, height: 788, title: "Operator workspace", description: "The chairside delivery area, light position and room layout create an organized operator workspace." },
-      { src: mediaUrl("/images/products/dental-chair/b100l-premium/cases/b100l-premium-clinic-case-03.avif"), alt: "B100L Premium dental chair patient comfort concept visual", label: "Patient comfort", width: 1400, height: 1050, title: "Patient comfort", description: "The patient chair supports stable positioning while the upholstery finish gives the room a polished look." },
-      { src: mediaUrl("/images/products/dental-chair/b100l-premium/cases/b100l-premium-clinic-case-04.avif"), alt: "B100L Premium dental chair clean clinical layout concept visual", label: "Clean clinical layout", width: 1050, height: 1400, title: "Clean clinical layout", description: "The overall setup keeps the treatment room tidy, serviceable and easy to understand at a glance." },
+      { src: mediaUrl("/images/products/dental-chair/b100l-premium/cases/b100l-premium-clinic-case-02.avif"), alt: "B100L Premium dental chair with green upholstery in a bright treatment-room setting", label: "Operator workspace", width: 1400, height: 719, title: "Operator workspace", description: "The chairside delivery area, light position and room layout create an organized operator workspace." },
+      { src: mediaUrl("/images/products/dental-chair/b100l-premium/cases/b100l-premium-clinic-case-03.avif"), alt: "B100L Premium dental chair in a real clinic treatment room", label: "Patient comfort", width: 1400, height: 872, title: "Patient comfort", description: "The patient chair supports stable positioning while the upholstery finish gives the room a polished look." },
+      { src: mediaUrl("/images/products/dental-chair/b100l-premium/cases/b100l-premium-clinic-case-04.avif"), alt: "B100L Premium dental chair in a clean real clinic layout", label: "Clean clinical layout", width: 1400, height: 788, title: "Clean clinical layout", description: "The overall setup keeps the treatment room tidy, serviceable and easy to understand at a glance." },
     ],
     faq: [
       { question: "What is the verified maximum patient load?", answer: "The maximum load capacity of the B100L Premium dental chair is 150 kg." },
@@ -576,12 +583,12 @@ export const highEndDentalChairDetails: Record<string, HighEndDentalChairDetail>
     resources: [{ label: "G1 Product Catalog", href: mediaUrl("/downloads/guccidental-g1-catalog.pdf"), meta: "PDF · 9.6 MB" }],
     caseHeading: "G1 in a finished treatment room",
     caseIntroduction: "See how the G1 brings the chair body, delivery workflow and operating area together in a complete clinical setting.",
-    caseDisclosure: "Case images are treatment-room concept visuals.",
+    caseDisclosure: "Case images are real customer installations.",
     cases: [
-      { src: mediaUrl("/images/products/dental-chair/g1/cases/g1-case-01.avif"), alt: "G1 dental chair treatment-room overview concept visual", label: "Treatment-room overview", width: 788, height: 1400, title: "Treatment-room overview", description: "A finished-room view shows the chair working as part of a complete clinical environment." },
-      { src: mediaUrl("/images/products/dental-chair/g1/cases/g1-case-02.avif"), alt: "G1 dental chair operator workspace concept visual", label: "Operator workspace", width: 1672, height: 941, title: "Operator workspace", description: "The chairside delivery area, light position and room layout create an organized operator workspace." },
-      { src: mediaUrl("/images/products/dental-chair/g1/cases/g1-case-03.avif"), alt: "G1 dental chair patient comfort concept visual", label: "Patient comfort", width: 1448, height: 1086, title: "Patient comfort", description: "The patient chair supports stable positioning while the upholstery finish gives the room a polished look." },
-      { src: mediaUrl("/images/products/dental-chair/g1/cases/g1-case-04.avif"), alt: "G1 dental chair clean clinical layout concept visual", label: "Clean clinical layout", width: 1050, height: 1400, title: "Clean clinical layout", description: "The overall setup keeps the treatment room tidy, serviceable and easy to understand at a glance." },
+      { src: mediaUrl("/images/products/dental-chair/g1/cases/g1-case-01.avif"), alt: "G1 dental chair treatment-room overview in a real clinic installation", label: "Treatment-room overview", width: 1400, height: 1050, title: "Treatment-room overview", description: "A finished-room view shows the chair working as part of a complete clinical environment." },
+      { src: mediaUrl("/images/products/dental-chair/g1/cases/g1-case-02.avif"), alt: "G1 dental chair operator workspace in a real clinic installation", label: "Operator workspace", width: 1400, height: 1050, title: "Operator workspace", description: "The chairside delivery area, light position and room layout create an organized operator workspace." },
+      { src: mediaUrl("/images/products/dental-chair/g1/cases/g1-case-03.avif"), alt: "G1 dental chair patient area in a real clinic installation", label: "Patient comfort", width: 1400, height: 1050, title: "Patient comfort", description: "The patient chair supports stable positioning while the upholstery finish gives the room a polished look." },
+      { src: mediaUrl("/images/products/dental-chair/g1/cases/g1-case-04.avif"), alt: "G1 dental chair in a clean real clinic layout", label: "Clean clinical layout", width: 1400, height: 1050, title: "Clean clinical layout", description: "The overall setup keeps the treatment room tidy, serviceable and easy to understand at a glance." },
     ],
     faq: [
       { question: "What maximum patient load is supported for the Denmark motor?", answer: "The maximum load capacity of the G1 dental chair is 150 kg." },
@@ -803,10 +810,10 @@ export const highEndDentalChairDetails: Record<string, HighEndDentalChairDetail>
     caseIntroduction: "See how the S670 brings the chair body, delivery workflow and operating area together in a complete clinical setting.",
     caseDisclosure: "Case images are real customer installations.",
     cases: [
-      { src: mediaUrl("/images/products/dental-chair/s670/cases/s670-case-01.avif"), alt: "S670 dental chair installed at a real customer clinic", label: "Treatment-room overview", width: 1400, height: 788, title: "Treatment-room overview", description: "A finished-room view shows the chair working as part of a complete clinical environment." },
-      { src: mediaUrl("/images/products/dental-chair/s670/cases/s670-case-02.avif"), alt: "S670 dental chair operator workspace in a real clinic installation", label: "Operator workspace", width: 1400, height: 1400, title: "Operator workspace", description: "The chairside delivery area, light position and room layout create an organized operator workspace." },
-      { src: mediaUrl("/images/products/dental-chair/s670/cases/s670-case-03.avif"), alt: "S670 dental chair patient comfort in a real clinic installation", label: "Patient comfort", width: 1400, height: 647, title: "Patient comfort", description: "The patient chair supports stable positioning while the upholstery finish gives the room a polished look." },
-      { src: mediaUrl("/images/products/dental-chair/s670/cases/s670-case-04.avif"), alt: "S670 dental chair clean clinical layout in a real clinic installation", label: "Clean clinical layout", width: 1400, height: 647, title: "Clean clinical layout", description: "The overall setup keeps the treatment room tidy, serviceable and easy to understand at a glance." },
+      { src: mediaUrl("/images/products/dental-chair/s670/cases/s670-case-01.avif"), alt: "Orange S670 dental chair installed at a customer clinic in Romania", label: "Romania installation", width: 1000, height: 550, title: "Romania customer installation", description: "A close treatment-area view of an orange S670 installed in a customer clinic in Romania." },
+      { src: mediaUrl("/images/products/dental-chair/s670/cases/s670-case-02.avif"), alt: "Black S670 dental chair installed in a customer treatment room in Seychelles", label: "Seychelles treatment room", width: 1000, height: 550, title: "Seychelles treatment room", description: "A complete room view showing the top-mounted S670 configuration in a Seychelles customer clinic." },
+      { src: mediaUrl("/images/products/dental-chair/s670/cases/s670-case-03.avif"), alt: "Top-mounted S670 delivery system at a customer clinic in Seychelles", label: "Seychelles workspace", width: 1000, height: 550, title: "Seychelles operator workspace", description: "A closer view of the top-mounted delivery system and organized clinical workspace." },
+      { src: mediaUrl("/images/products/dental-chair/s670/cases/s670-case-04.avif"), alt: "White S670 dental chair in a modern customer clinic", label: "Modern clinic installation", width: 1000, height: 550, title: "Modern clinic installation", description: "A white S670 installation integrated with imaging and treatment equipment in a bright modern clinic." },
     ],
     faq: [
       { question: "What maximum patient load can the silent chair safely support?", answer: "The S670 is equipped with a reliable 24V silent motor system, providing smooth and stable movement with a maximum load of 350 kg." },
@@ -883,10 +890,10 @@ export const highEndDentalChairDetails: Record<string, HighEndDentalChairDetail>
     caseIntroduction: "See how the S680 brings the chair body, delivery workflow and operating area together in a complete clinical setting.",
     caseDisclosure: "Case images are real clinic and exhibition installations.",
     cases: [
-      { src: mediaUrl("/images/products/dental-chair/s680/cases/s680-case-01.avif"), alt: "S680 dental chair with implant surgical light at an exhibition", label: "Treatment-room overview", width: 1179, height: 1314, title: "Treatment-room overview", description: "A finished-room view shows the chair working as part of a complete clinical environment." },
-      { src: mediaUrl("/images/products/dental-chair/s680/cases/s680-case-02.avif"), alt: "S680 dental chair in a real clinic installation", label: "Operator workspace", width: 960, height: 1280, title: "Operator workspace", description: "The chairside delivery area, light position and room layout create an organized operator workspace." },
-      { src: mediaUrl("/images/products/dental-chair/s680/cases/s680-case-03.avif"), alt: "S680 dental chair patient comfort in a real installation", label: "Patient comfort", width: 822, height: 1920, title: "Patient comfort", description: "The patient chair supports stable positioning while the upholstery finish gives the room a polished look." },
-      { src: mediaUrl("/images/products/dental-chair/s680/cases/s680-case-04.avif"), alt: "S680 dental chair clean clinical layout in a real installation", label: "Clean clinical layout", width: 1400, height: 1050, title: "Clean clinical layout", description: "The overall setup keeps the treatment room tidy, serviceable and easy to understand at a glance." },
+      { src: mediaUrl("/images/products/dental-chair/s680/cases/s680-case-01.avif"), alt: "S680 dental chair with a new implant surgical light displayed at an exhibition", label: "Exhibition configuration", width: 1179, height: 1179, title: "New implant light at the exhibition", description: "The S680 is presented with a large multi-LED implant surgical light and a complete treatment workflow configuration." },
+      { src: mediaUrl("/images/products/dental-chair/s680/cases/s680-case-02.avif"), alt: "Blue S680 dental chair installed in a customer treatment room", label: "Customer treatment room", width: 960, height: 960, title: "Customer clinic installation", description: "A complete customer-room view shows the S680, operator seating and clinical equipment arranged for daily treatment." },
+      { src: mediaUrl("/images/products/dental-chair/s680/cases/s680-case-03.avif"), alt: "Blue S680 dental chair and delivery unit in a customer clinic", label: "Operator workspace", width: 822, height: 822, title: "Organized operator workspace", description: "A closer installation view highlights the delivery unit, assistant stool and clear working space around the chair." },
+      { src: mediaUrl("/images/products/dental-chair/s680/cases/s680-case-04.avif"), alt: "Blue S680 dental chair shown in a complete front-view installation", label: "Complete configuration", width: 1080, height: 1080, title: "Complete S680 configuration", description: "The front view shows the chair, operating light, delivery unit and assistant area as a complete clinical setup." },
     ],
     faq: [
       { question: "What maximum patient load can the silent chair safely support?", answer: "The S680 is equipped with a reliable 24V silent motor system, providing smooth and stable movement with a maximum load of 350 kg." },
@@ -1039,7 +1046,7 @@ export const highEndDentalChairDetails: Record<string, HighEndDentalChairDetail>
     caseIntroduction: "See how the M200(L) brings the chair body, delivery workflow and operating area together in a complete clinical setting.",
     caseDisclosure: "Case images are real customer installations.",
     cases: [
-      { src: mediaUrl("/images/products/dental-chair/m200/cases/m200-case-01.avif"), alt: "M200(L) dental chair installed at a real customer clinic", label: "Treatment-room overview", width: 1400, height: 1867, title: "Treatment-room overview", description: "A finished-room view shows the chair working as part of a complete clinical environment." },
+      { src: mediaUrl("/images/products/dental-chair/m200/cases/m200-case-01.avif"), alt: "M200(L) dental chair with gray upholstery in a finished treatment-room setting", label: "Treatment-room overview", width: 1024, height: 1536, title: "Treatment-room overview", description: "A finished-room view shows the chair working as part of a complete clinical environment." },
       { src: mediaUrl("/images/products/dental-chair/m200/cases/m200-case-02.avif"), alt: "M200(L) dental chair operator workspace in a real clinic installation", label: "Operator workspace", width: 900, height: 1600, title: "Operator workspace", description: "The chairside delivery area, light position and room layout create an organized operator workspace." },
       { src: mediaUrl("/images/products/dental-chair/m200/cases/m200-case-03.avif"), alt: "M200(L) dental chair patient comfort in a real clinic installation", label: "Patient comfort", width: 1400, height: 2489, title: "Patient comfort", description: "The patient chair supports stable positioning while the upholstery finish gives the room a polished look." },
       { src: mediaUrl("/images/products/dental-chair/m200/cases/m200-case-04.avif"), alt: "M200(L) dental chair clean clinical layout in a real clinic installation", label: "Clean clinical layout", width: 1400, height: 2489, title: "Clean clinical layout", description: "The overall setup keeps the treatment room tidy, serviceable and easy to understand at a glance." },
@@ -1117,7 +1124,6 @@ export const highEndDentalChairDetails: Record<string, HighEndDentalChairDetail>
       { src: mediaUrl("/images/products/dental-chair/tj-70/cases/tj-70-case-01.avif"), alt: "TJ-70 assistant cart in a real clinic installation", label: "Treatment-room overview", width: 1400, height: 1867, title: "Treatment-room overview", description: "A finished-room view shows the chair working as part of a complete clinical environment." },
       { src: mediaUrl("/images/products/dental-chair/tj-70/cases/tj-70-case-02.avif"), alt: "TJ-70 dentist cart in a real clinic installation", label: "Operator workspace", width: 1400, height: 1867, title: "Operator workspace", description: "The chairside delivery area, light position and room layout create an organized operator workspace." },
       { src: mediaUrl("/images/products/dental-chair/tj-70/cases/tj-70-case-03.avif"), alt: "TJ-70 dental chair patient comfort in a real clinic installation", label: "Patient comfort", width: 1400, height: 1700, title: "Patient comfort", description: "The patient chair supports stable positioning while the upholstery finish gives the room a polished look." },
-      { src: mediaUrl("/images/products/dental-chair/tj-70/cases/tj-70-case-04.avif"), alt: "TJ-70 dental chair clean clinical layout in a real clinic installation", label: "Clean clinical layout", width: 1400, height: 1867, title: "Clean clinical layout", description: "The overall setup keeps the treatment room tidy, serviceable and easy to understand at a glance." },
     ],
     faq: [
       { question: "What cart configuration does the TJ-70 use?", answer: "The TJ-70 uses a cart-style layout with separate doctor and assistant carts, allowing flexible placement around the treatment chair." },
@@ -1194,7 +1200,7 @@ export const highEndDentalChairDetails: Record<string, HighEndDentalChairDetail>
     caseIntroduction: "See how the V3 Implant brings the chair body, delivery workflow and operating area together in a complete clinical setting.",
     caseDisclosure: "Case images are real customer installations.",
     cases: [
-      { src: mediaUrl("/images/products/dental-chair/v3-implant/cases/v3-implant-case-01.avif"), alt: "V3 Implant dental chair at a real customer clinic", label: "Treatment-room overview", width: 934, height: 661, title: "Treatment-room overview", description: "A finished-room view shows the chair working as part of a complete clinical environment." },
+      { src: mediaUrl("/images/products/dental-chair/v3-implant/cases/v3-implant-case-01.avif"), alt: "Red V3 Implant dental chair installed in a real customer treatment room", label: "Treatment-room overview", width: 1088, height: 1445, title: "Treatment-room overview", description: "A finished-room view shows the chair working as part of a complete clinical environment." },
       { src: mediaUrl("/images/products/dental-chair/v3-implant/cases/v3-implant-case-02.avif"), alt: "V3 Implant dental chair operator workspace in a real clinic installation", label: "Operator workspace", width: 1400, height: 1050, title: "Operator workspace", description: "The chairside delivery area, light position and room layout create an organized operator workspace." },
       { src: mediaUrl("/images/products/dental-chair/v3-implant/cases/v3-implant-case-03.avif"), alt: "V3 Implant dental chair patient comfort in a real clinic installation", label: "Patient comfort", width: 1080, height: 1440, title: "Patient comfort", description: "The patient chair supports stable positioning while the upholstery finish gives the room a polished look." },
       { src: mediaUrl("/images/products/dental-chair/v3-implant/cases/v3-implant-case-04.avif"), alt: "V3 Implant dental chair clean clinical layout in a real clinic installation", label: "Clean clinical layout", width: 1080, height: 1440, title: "Clean clinical layout", description: "The overall setup keeps the treatment room tidy, serviceable and easy to understand at a glance." },
@@ -1275,7 +1281,7 @@ export const highEndDentalChairDetails: Record<string, HighEndDentalChairDetail>
     caseDisclosure: "Case images are real customer installations.",
     cases: [
       { src: mediaUrl("/images/products/dental-chair/v3-luxury/cases/v3-luxury-case-01.avif"), alt: "V3 Luxury dental chair at a real customer clinic", label: "Treatment-room overview", width: 1400, height: 1050, title: "Treatment-room overview", description: "A finished-room view shows the chair working as part of a complete clinical environment." },
-      { src: mediaUrl("/images/products/dental-chair/v3-luxury/cases/v3-luxury-case-02.avif"), alt: "V3 Luxury dental chair operator workspace in a real clinic installation", label: "Operator workspace", width: 1400, height: 1050, title: "Operator workspace", description: "The chairside delivery area, light position and room layout create an organized operator workspace." },
+      { src: mediaUrl("/images/products/dental-chair/v3-luxury/cases/v3-luxury-case-02.avif"), alt: "Gray V3 Luxury dental chair and operator workspace in a finished customer clinic", label: "Operator workspace", width: 1448, height: 1086, title: "Operator workspace", description: "The chairside delivery area, light position and room layout create an organized operator workspace." },
       { src: mediaUrl("/images/products/dental-chair/v3-luxury/cases/v3-luxury-case-03.avif"), alt: "V3 Luxury dental chair patient comfort in a real clinic installation", label: "Patient comfort", width: 1400, height: 1050, title: "Patient comfort", description: "The patient chair supports stable positioning while the upholstery finish gives the room a polished look." },
       { src: mediaUrl("/images/products/dental-chair/v3-luxury/cases/v3-luxury-case-04.avif"), alt: "V3 Luxury dental chair clean clinical layout in a real clinic installation", label: "Clean clinical layout", width: 1400, height: 1050, title: "Clean clinical layout", description: "The overall setup keeps the treatment room tidy, serviceable and easy to understand at a glance." },
     ],
@@ -1324,9 +1330,9 @@ export const highEndDentalChairDetails: Record<string, HighEndDentalChairDetail>
       { src: mediaUrl("/images/products/dental-chair/v3-black/features/v3-black-feature-3.avif"), alt: "V3-Black integrated instrument tray with handpiece holders", label: "Integrated instrument tray", width: 1800, height: 1350, eyebrow: "Integrated instrument tray", title: "Organized delivery and control in one working area", description: "The V3-Black instrument tray combines handpiece holders, tray space and chairside controls, keeping routine treatment tools arranged within easy reach." },
       { src: mediaUrl("/images/products/dental-chair/v3-black/features/v3-black-feature-4.avif"), alt: "V3-Black wireless multifunctional foot pedal", label: "Multifunctional foot pedal", width: 1800, height: 1634, eyebrow: "Wireless multifunctional foot pedal", title: "Cable-free control for cleaner daily operation", description: "The V3-Black wireless multifunctional foot pedal connects without a fixed control cable, giving the operator more flexible placement while keeping chair movement and water-air controls underfoot." },
     ],
-    colors: colorsFor("v3-black", "V3-Black", v3BlackColorDefinitions),
-    colorHeading: "Special-edition finish options",
-    colorIntroduction: "Special-edition black-silver finish options with a clean, premium tone that supports both patient comfort and room design.",
+    colors: v3BlackColorsFor(),
+    colorHeading: "Premium upholstery palette",
+    colorIntroduction: "Clinic-ready upholstery colors with a clean, premium tone that supports both patient comfort and room design.",
     specifications: [
       { label: "Model", value: "V3-Black" }, { label: "Tier", value: "High-end" },
       { label: "Motor type", value: "Ti-motion" },
@@ -1354,7 +1360,6 @@ export const highEndDentalChairDetails: Record<string, HighEndDentalChairDetail>
     caseDisclosure: "Case images are real customer installations.",
     cases: [
       { src: mediaUrl("/images/products/dental-chair/v3-black/cases/v3-black-case-01.avif"), alt: "V3-Black dental chair at a real customer clinic", label: "Treatment-room overview", width: 1170, height: 1547, title: "Treatment-room overview", description: "A finished-room view shows the chair working as part of a complete clinical environment." },
-      { src: mediaUrl("/images/products/dental-chair/v3-black/cases/v3-black-case-02.avif"), alt: "V3-Black dental chair operator workspace in a real clinic installation", label: "Operator workspace", width: 1400, height: 1050, title: "Operator workspace", description: "The chairside delivery area, light position and room layout create an organized operator workspace." },
       { src: mediaUrl("/images/products/dental-chair/v3-black/cases/v3-black-case-03.avif"), alt: "V3-Black dental chair patient comfort in a real clinic installation", label: "Patient comfort", width: 1170, height: 1547, title: "Patient comfort", description: "The patient chair supports stable positioning while the upholstery finish gives the room a polished look." },
       { src: mediaUrl("/images/products/dental-chair/v3-black/cases/v3-black-case-04.avif"), alt: "V3-Black dental chair clean clinical layout in a real clinic installation", label: "Clean clinical layout", width: 960, height: 1280, title: "Clean clinical layout", description: "The overall setup keeps the treatment room tidy, serviceable and easy to understand at a glance." },
     ],
@@ -1472,9 +1477,23 @@ const highEndVideoLinks: Record<string, string> = {
   "v3-black": "https://youtu.be/7UZjMWqch3U",
 };
 
+function youtubeThumbnailFor(url: string) {
+  const parsed = new URL(url);
+  const hostname = parsed.hostname.replace(/^www\./, "");
+  const videoId = hostname === "youtu.be"
+    ? parsed.pathname.split("/").filter(Boolean)[0]
+    : parsed.pathname.startsWith("/shorts/")
+      ? parsed.pathname.split("/").filter(Boolean)[1]
+      : parsed.searchParams.get("v");
+  return videoId ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : undefined;
+}
+
 Object.entries(highEndVideoLinks).forEach(([slug, url]) => {
   const detail = highEndDentalChairDetails[slug];
-  if (detail) detail.videoPlaceholder.url = url;
+  if (detail) {
+    detail.videoPlaceholder.url = url;
+    detail.videoPlaceholder.thumbnailUrl = youtubeThumbnailFor(url);
+  }
 });
 
 const highEndProductOrder = [

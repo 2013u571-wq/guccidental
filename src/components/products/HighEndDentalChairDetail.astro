@@ -7,11 +7,11 @@ import type { HighEndDentalChairDetail } from "@data/highEndDentalChairDetails";
 interface Props {
   lang: LanguageCode;
   product: HighEndDentalChairDetail;
-  tier?: "high-end" | "mid-range";
+  tier?: "high-end" | "mid-range" | "economic";
 }
 
 const { lang, product, tier = "high-end" } = Astro.props;
-const tierLabel = tier === "high-end" ? "High-end" : "Mid-range";
+const tierLabel = tier === "high-end" ? "High-end" : tier === "mid-range" ? "Mid-range" : "Economic";
 const tierHref = localizedPath(lang, `/products/dental-chair/${tier}/`);
 const message = `I'm interested in the ${product.model} dental chair.`;
 const inquiryHref = localizedPath(lang, `/contact/?message=${encodeURIComponent(message)}`);
@@ -26,6 +26,44 @@ const relatedProducts = product.relatedProducts ?? [
   { slug: related.slug, model: related.model, description: related.description, image: relatedCover },
 ];
 const videoUrl = product.videoPlaceholder.url;
+const videoThumbnailUrl = product.videoPlaceholder.thumbnailUrl;
+const rotateA6800Cases = product.slug === "a6800";
+const useUniformGalaxyCases = product.slug === "b100l-galaxy";
+const useUniformPremiumCases = product.slug === "b100l-premium";
+const useUniformG5Cases = product.slug === "g5";
+const useUniformG5ImplantCases = product.slug === "g5-implant";
+const useUniformM100Cases = product.slug === "m100";
+const useUniformM200Cases = product.slug === "m200";
+const faqDocumentResource = product.slug === "ql2028-2019"
+  ? product.resources.find((resource) => /Product Document 2/i.test(resource.label))
+  : undefined;
+const faqManualResource = product.resources.find((resource) => /manual/i.test(resource.label));
+const faqSideResource = faqDocumentResource ?? faqManualResource;
+const visibleResources = faqSideResource
+  ? product.resources.filter((resource) => resource !== faqSideResource)
+  : product.resources;
+const economicManualCovers: Record<string, string> = {
+  b6: "b6-user-manual-cover.webp",
+  ql2024: "ql2024-user-manual-cover.webp",
+  "ql2028-i": "ql2028-i-user-manual-cover.webp",
+  "tj2028-comfort": "tj2028-comfort-user-manual-cover.webp",
+  "tj2688-a1": "tj2688-a1-user-manual-cover.webp",
+};
+const faqManualCover = faqSideResource
+  ? `${new URL(product.gallery[0].src).origin}/images/docs/${faqDocumentResource ? "ql2028-2019-product-document-cover.webp" : economicManualCovers[product.slug] ?? (product.slug.startsWith("s6") ? "s-series-installation-manual-cover.webp" : product.slug === "m100" ? "m100-user-manual-cover.webp" : product.slug === "m200" ? "m200-user-manual-cover.webp" : "b100-series-user-manual-cover.webp")}`
+  : undefined;
+const faqManualSize = faqSideResource?.meta.replace(/^PDF · /, "");
+const faqManualCoverAlt = faqDocumentResource
+  ? "Cover preview of the QL2028 (2019) product document"
+  : product.slug === "m100"
+  ? "Front cover of the M100 and M200 dental treatment machine user manual"
+  : product.slug === "m200"
+  ? "Front cover of the M200 computer-controlled integral dental unit manual"
+  : economicManualCovers[product.slug]
+  ? `Front cover of the ${product.model} dental chair user manual`
+  : product.slug.startsWith("s6")
+  ? "Front cover of the S Series dental chair installation manual"
+  : "Front cover of the Guccidental B100 Series integral dental unit user manual";
 ---
 
 <BaseLayout title={product.title} description={product.seoDescription} lang={lang} pathname={Astro.url.pathname} bodyClass="b100-detail-page">
@@ -79,7 +117,7 @@ const videoUrl = product.videoPlaceholder.url;
 
   <section class="b100-points-band" id="overview"><div class="container"><div class="b100-points-layout">
     <div class="b100-points-content"><header class="b100-points-heading"><span class="b100-eyebrow">Key selling points</span><h2>{product.sellingPointHeading}</h2></header><div class="b100-points-grid">{product.sellingPoints.map((point, index) => <article><div class="b100-point-head"><span>{String(index + 1).padStart(2, "0")}</span></div><h3>{point.title}</h3><p>{point.description}</p></article>)}</div></div>
-    <aside class="b100-video-panel" aria-label={`${product.model} product video`}>{videoUrl ? <a class="b100-video-placeholder b100-video-link" href={videoUrl} target="_blank" rel="noopener noreferrer" aria-label={`Watch the ${product.model} product video on YouTube`}><span class="b100-video-play" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="m12 9 11 7-11 7V9Z"></path></svg></span><span class="b100-video-label">Product video</span><strong>{product.videoPlaceholder.title}</strong><small>Watch this product video on YouTube.</small></a> : <div class="b100-video-placeholder" role="img" aria-label={`Placeholder for the ${product.model} product video`}><span class="b100-video-play" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="m12 9 11 7-11 7V9Z"></path></svg></span><span class="b100-video-label">Product video</span><strong>{product.videoPlaceholder.title}</strong><small>{product.videoPlaceholder.note}</small></div>}</aside>
+    <aside class="b100-video-panel" aria-label={`${product.model} product video`}>{videoUrl ? <a class:list={["b100-video-placeholder", "b100-video-link", { "has-thumbnail": videoThumbnailUrl }]} href={videoUrl} target="_blank" rel="noopener noreferrer" aria-label={`Watch the ${product.model} product video on YouTube`}>{videoThumbnailUrl && <img class="b100-video-thumbnail" src={videoThumbnailUrl} alt="" width="480" height="360" loading="lazy" decoding="async" aria-hidden="true" />}<span class="b100-video-play" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="m12 9 11 7-11 7V9Z"></path></svg></span><span class="b100-video-label">Product video</span><strong>{product.videoPlaceholder.title}</strong><small>Watch this product video on YouTube.</small></a> : <div class="b100-video-placeholder" role="img" aria-label={`Placeholder for the ${product.model} product video`}><span class="b100-video-play" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="m12 9 11 7-11 7V9Z"></path></svg></span><span class="b100-video-label">Product video</span><strong>{product.videoPlaceholder.title}</strong><small>{product.videoPlaceholder.note}</small></div>}</aside>
   </div></div></section>
 
   <section class="b100-features-band" id="features"><div class="container"><span class="b100-eyebrow">Features</span><h2>{product.featureHeading}</h2><div class="b100-feature-list">
@@ -91,11 +129,11 @@ const videoUrl = product.videoPlaceholder.url;
 
   <section class="b100-specs-band" id="specifications"><div class="container"><div class="b100-content-narrow"><span class="b100-eyebrow">Technical specifications</span><h2>{product.specificationHeading ?? `${product.model} full specification sheet`}</h2><div class="b100-specs-wrap"><table class="b100-specs-table"><tbody>{product.specifications.map((item) => <tr><td>{item.label}</td><td>{item.value}</td></tr>)}</tbody></table></div></div></div></section>
 
-  <section class="b100-downloads-band" id="product-resources"><div class="container"><div class="b100-content-narrow"><div class="b100-resource-card"><div class="b100-resource-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M9 4h10l5 5v19H9z"></path><path d="M19 4v6h6M13 16h7M13 21h7"></path></svg></div><div><span class="b100-eyebrow">Product resources</span><h2>{product.model} documents</h2><p>Review the available product documents, or contact us to confirm the final configuration.</p></div><div class="b100-resource-actions">{product.resources.map((resource) => <div class="b100-resource-download"><a class="b100-btn b100-btn-primary" href={resource.href} target="_blank" rel="noopener noreferrer">{resource.label} <span aria-hidden="true">↗</span></a><span class="b100-resource-meta">{resource.meta} · Opens in a new tab</span></div>)}<a class="b100-btn b100-btn-secondary" href={inquiryHref}>Discuss Configuration</a></div></div></div></div></section>
+  <section class="b100-downloads-band" id="product-resources"><div class="container"><div class="b100-content-narrow"><div class="b100-resource-card"><div class="b100-resource-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M9 4h10l5 5v19H9z"></path><path d="M19 4v6h6M13 16h7M13 21h7"></path></svg></div><div><span class="b100-eyebrow">Product resources</span><h2>{product.model} documents</h2><p>Review the available product documents, or contact us to confirm the final configuration.</p></div><div class="b100-resource-actions">{visibleResources.map((resource) => <div class="b100-resource-download"><a class="b100-btn b100-btn-primary" href={resource.href} target="_blank" rel="noopener noreferrer">{resource.label} <span aria-hidden="true">↗</span></a><span class="b100-resource-meta">{resource.meta} · Opens in a new tab</span></div>)}<a class="b100-btn b100-btn-secondary" href={inquiryHref}>Discuss Configuration</a></div></div></div></div></section>
 
-  <section class="b100-case-band" id="case"><div class="container"><div class="b100-content-narrow"><div class="b100-case-heading"><div><span class="b100-eyebrow">Case</span><h2>{product.caseHeading}</h2></div><p>{product.caseIntroduction}</p></div><p class="b100-case-disclosure">Case images are real customer installations.</p><div class:list={["b100-case-gallery", { "is-landscape": !["s650", "s660"].includes(product.slug) && product.cases.every((image) => image.width >= image.height) }]}>{product.cases.map((image) => <figure class="case-item"><img src={image.src} alt={image.alt} width={image.width} height={image.height} style={`--case-aspect:${image.width} / ${image.height}`} loading="lazy" decoding="async" />{(image.title || image.description) && <figcaption>{image.title && <h3>{image.title}</h3>}{image.description && <p>{image.description}</p>}</figcaption>}</figure>)}</div></div></div></section>
+  <section class="b100-case-band" id="case"><div class="container"><div class="b100-content-narrow"><div class="b100-case-heading"><div><span class="b100-eyebrow">Case</span><h2>{product.caseHeading}</h2></div><p>{product.caseIntroduction}</p></div><p class="b100-case-disclosure">Case images are real customer installations.</p><div class:list={["b100-case-gallery", { "is-three-up": product.cases.length === 3, "is-p-series-mixed-cases": ["p3", "p6"].includes(product.slug), "is-mid-range-square-cases": tier === "mid-range" && ["s620", "s630", "s640", "s690"].includes(product.slug), "is-mid-range-portrait-cases": tier === "mid-range" && ["g3", "g7"].includes(product.slug), "is-sl8500-without-box-cases": product.slug === "sl8500-without-box", "is-tj-70-cases": product.slug === "tj-70", "is-v3-implant-cases": product.slug === "v3-implant", "is-a6800-cases": rotateA6800Cases, "is-b100l-galaxy-cases": useUniformGalaxyCases, "is-b100l-premium-cases": useUniformPremiumCases, "is-g5-cases": useUniformG5Cases, "is-g5-implant-cases": useUniformG5ImplantCases, "is-m100-cases": useUniformM100Cases, "is-m200-cases": useUniformM200Cases, "is-landscape": !rotateA6800Cases && !["s650", "s660"].includes(product.slug) && product.cases.every((image) => image.width >= image.height) }]}>{product.cases.map((image) => <figure class="case-item">{rotateA6800Cases ? <span class="a6800-case-media"><img src={image.src} alt={image.alt} width={image.width} height={image.height} loading="lazy" decoding="async" /></span> : <img src={image.src} alt={image.alt} width={image.width} height={image.height} style={`--case-aspect:${image.width} / ${image.height}`} loading="lazy" decoding="async" />}{(image.title || image.description) && <figcaption>{image.title && <h3>{image.title}</h3>}{image.description && <p>{image.description}</p>}</figcaption>}</figure>)}</div></div></div></section>
 
-  <section class="b100-faq-band" id="faq"><div class="container"><div class="b100-content-narrow"><span class="b100-eyebrow">FAQ</span><h2>Questions about the {product.model}</h2><div class="b100-faq-list" data-faq-list>{product.faq.map((item, index) => <article class:list={{ "is-open": index === 0 }}><button type="button" aria-expanded={index === 0 ? "true" : "false"}><span>{item.question}</span><i>+</i></button><p>{item.answer}</p></article>)}</div></div></div></section>
+  <section class="b100-faq-band" id="faq"><div class="container"><div class="b100-content-narrow"><span class="b100-eyebrow">FAQ</span><h2>Questions about the {product.model}</h2><div class:list={{ "b100-faq-layout": Boolean(faqSideResource) }}>{faqSideResource && faqManualCover && <div><a class:list={["b100-manual-card", { "is-landscape": Boolean(faqDocumentResource) }]} href={faqSideResource.href} target="_blank" rel="noopener" download aria-label={`Download the ${faqSideResource.label} (${faqSideResource.meta})`}><img class="b100-manual-card__cover" src={faqManualCover} alt={faqManualCoverAlt} width={faqDocumentResource ? "896" : "300"} height={faqDocumentResource ? "507" : "424"} loading="lazy" decoding="async" /><span class="b100-manual-card__download-bar"><svg class="b100-manual-card__download-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2v8m0 0 3-3m-3 3-3-3M2.5 13.25h11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="b100-manual-card__download-label">{faqDocumentResource ? "Get the document" : "Get the manual"}</span><span class="b100-manual-card__download-size">{faqManualSize}</span></span></a></div>}<div class="b100-faq-list" data-faq-list>{product.faq.map((item, index) => <article class:list={{ "is-open": index === 0 }}><button type="button" aria-expanded={index === 0 ? "true" : "false"}><span>{item.question}</span><i>+</i></button><p>{item.answer}</p></article>)}</div></div></div></div></section>
 
   <section class="b100-related-band" id="related-products"><div class="container"><span class="b100-eyebrow">Related products</span><h2>Compare nearby {tierLabel.toLowerCase()} configurations</h2><div class="b100-related-grid">{relatedProducts.map((item) => <a href={localizedPath(lang, `/products/dental-chair/${tier}/${item.slug}/`)}><span class="b100-related-media"><img src={item.image.src} alt={item.image.alt} width={item.image.width} height={item.image.height} loading="lazy" decoding="async" /></span><span class="b100-related-copy"><small>{tierLabel}</small><strong>{item.model}</strong><p>{item.description}</p><em>View product <span aria-hidden="true">→</span></em></span></a>)}</div></div></section>
   <InquiryCta contactHref={contactHref} message={message} />
@@ -185,5 +223,7 @@ const videoUrl = product.videoPlaceholder.url;
 
 <style>
   .b100-case-disclosure { background: #fff7e8; border-left: 3px solid #d8911f; color: #62491e; margin: 0 0 24px; padding: 12px 16px; }
+  .b100-manual-card.is-landscape .b100-manual-card__cover { aspect-ratio: 896 / 507; height: auto; object-fit: contain; width: 100%; }
+  .b100-manual-card.is-landscape .b100-manual-card__download-bar { position: static; }
   .b100-related-grid > a:not(:has(.b100-related-media)) { min-height: 230px; }
 </style>
