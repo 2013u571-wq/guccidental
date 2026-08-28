@@ -8903,9 +8903,20 @@ img.partner-tile-img {
   padding: 10px 0;
   position: sticky;
   top: 64px;
+  transition: background-color .24s ease, border-color .24s ease, box-shadow .24s ease, top .24s cubic-bezier(.2, 0, .38, .9);
   z-index: 30;
   -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
+}
+.b100-section-nav-sentinel {
+  height: 0;
+  pointer-events: none;
+}
+.b100-section-nav.is-primary-hidden {
+  background: rgba(20, 67, 133, .97);
+  border-color: rgba(255, 255, 255, .12);
+  box-shadow: 0 8px 24px rgba(15, 42, 82, .18);
+  top: 0;
 }
 .b100-section-nav .container {
   align-items: center;
@@ -8920,6 +8931,12 @@ img.partner-tile-img {
   padding: 5px;
   scroll-padding-inline: 5px;
   scrollbar-width: none;
+  transition: background-color .24s ease, border-color .24s ease, box-shadow .24s ease;
+}
+.b100-section-nav.is-primary-hidden .container {
+  background: rgba(255, 255, 255, .08);
+  border-color: rgba(255, 255, 255, .16);
+  box-shadow: none;
 }
 .b100-section-nav .container::-webkit-scrollbar { display: none; }
 .b100-section-nav a {
@@ -8950,6 +8967,24 @@ img.partner-tile-img {
   border-color: #1e4fa3;
   box-shadow: 0 4px 12px rgba(30, 79, 163, .2);
   color: #fff;
+}
+.b100-section-nav.is-primary-hidden a {
+  color: rgba(255, 255, 255, .8);
+}
+.b100-section-nav.is-primary-hidden a:hover {
+  background: rgba(255, 255, 255, .12);
+  border-color: rgba(255, 255, 255, .22);
+  color: #fff;
+}
+.b100-section-nav.is-primary-hidden a:focus-visible {
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+  color: #fff;
+}
+.b100-section-nav.is-primary-hidden a[aria-current="true"] {
+  background: #fff;
+  border-color: #fff;
+  box-shadow: 0 4px 14px rgba(8, 31, 66, .22);
+  color: #1e4fa3;
 }
 
 .b100-eyebrow { color: #1e4fa3; display: block; font-size: 12px; font-weight: 600; letter-spacing: .08em; line-height: 1.4; margin-bottom: 12px; text-transform: uppercase; }
@@ -9872,6 +9907,19 @@ img.partner-tile-img {
    dormant horizontal overflow without changing the header's visible layout. */
 .b100-detail-page .site-header {
   overflow-x: clip;
+  transition: background-color 300ms ease, border-color 300ms ease, color 300ms ease, filter 300ms ease, transform .24s cubic-bezier(.2, 0, .38, .9);
+  will-change: transform;
+}
+
+.b100-detail-page .site-header.is-page-nav-hidden {
+  transform: translateY(-100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .b100-detail-page .site-header,
+  .b100-detail-page .b100-section-nav {
+    transition-duration: 0.01ms;
+  }
 }
 
 .b100-detail-page main .container,
