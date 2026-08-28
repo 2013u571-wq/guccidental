@@ -47,7 +47,6 @@ const economicManualCovers: Record<string, string> = {
   ql2024: "ql2024-user-manual-cover.webp",
   "ql2028-i": "ql2028-i-user-manual-cover.webp",
   "tj2028-comfort": "tj2028-comfort-user-manual-cover.webp",
-  "tj2688-a1": "tj2688-a1-user-manual-cover.webp",
 };
 const faqManualCover = faqSideResource
   ? `${new URL(product.gallery[0].src).origin}/images/docs/${faqDocumentResource ? "ql2028-2019-product-document-cover.webp" : economicManualCovers[product.slug] ?? (product.slug.startsWith("s6") ? "s-series-installation-manual-cover.webp" : product.slug === "m100" ? "m100-user-manual-cover.webp" : product.slug === "m200" ? "m200-user-manual-cover.webp" : "b100-series-user-manual-cover.webp")}`

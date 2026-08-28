@@ -1,10 +1,6 @@
 SL8500 optimized image manifest
 Format: AVIF | Size: KiB (bytes / 1024)
 
-sl8500-standard/cases/sl8500-standard-case-01.avif	788x1400	80.6 KiB
-sl8500-standard/cases/sl8500-standard-case-02.avif	1280x720	64.4 KiB
-sl8500-standard/cases/sl8500-standard-case-03.avif	1280x720	64.4 KiB
-sl8500-standard/cases/sl8500-standard-case-04.avif	1800x1350	121.7 KiB
 sl8500-standard/colors/sl8500-standard-hx12-01.avif	1200x1235	45.0 KiB
 sl8500-standard/colors/sl8500-standard-hx12-20.avif	1200x1235	45.5 KiB
 sl8500-standard/colors/sl8500-standard-hx12-27.avif	1200x1235	49.1 KiB
@@ -55,7 +51,6 @@ sl8500-standard/gallery/sl8500-standard-top-mounted-delivery-view.avif	1181x1221
 sl8500-without-box/cases/sl8500-without-box-case-01.avif	1800x1350	323.7 KiB
 sl8500-without-box/cases/sl8500-without-box-case-02.avif	1800x1350	260.1 KiB
 sl8500-without-box/cases/sl8500-without-box-case-03.avif	1050x1400	122.0 KiB
-sl8500-without-box/cases/sl8500-without-box-case-04.avif	1050x1400	122.0 KiB
 sl8500-without-box/colors/sl8500-without-box-hx12-01.avif	1200x1235	39.7 KiB
 sl8500-without-box/colors/sl8500-without-box-hx12-20.avif	1200x1235	39.4 KiB
 sl8500-without-box/colors/sl8500-without-box-hx12-27.avif	1200x1235	43.2 KiB
@@ -101,4 +96,4 @@ sl8500-without-box/gallery/sl8500-without-box-delivery-view.avif	1732x1320	67.1 
 sl8500-without-box/gallery/sl8500-without-box-main-view.avif	1976x1975	84.3 KiB
 sl8500-without-box/gallery/sl8500-without-box-overhead-view.avif	945x1417	22.4 KiB
 
-Total	99 images	3591.3 KiB
+Total	94 images	3138.2 KiB

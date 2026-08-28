@@ -37,12 +37,6 @@ const assets = [
     quality: 85,
   },
   {
-    source: "3_副本.png",
-    output: "b100-ultra-touchscreen-disinfection-programs.webp",
-    width: 1800,
-    quality: 85,
-  },
-  {
     source: "21_副本1.png",
     output: "b100-ultra-philips-led-operating-light-detail.webp",
     width: 1800,

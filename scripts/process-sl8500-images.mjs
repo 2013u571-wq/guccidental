@@ -1,5 +1,5 @@
 import sharp from "sharp";
-import { mkdir, rm, stat, writeFile } from "node:fs/promises";
+import { mkdir, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const outputRoot = path.resolve("public/images/products/dental-chair");
@@ -25,12 +25,7 @@ const products = {
       ["sl8500-standard-assistant-control-area.avif", "03_Assistant control and instrument area.png"],
       ["sl8500-standard-left-right-operation.avif", "04_Flexible left or right handed operation.png"],
     ],
-    cases: [
-      ["sl8500-standard-case-01.avif", "01_美国客户.png"],
-      ["sl8500-standard-case-02.avif", "02_山立牙椅客户诊所图（Wendy客户）.png"],
-      ["sl8500-standard-case-03.avif", "03_山立牙椅客户诊所图（Wendy客户）.png"],
-      ["sl8500-standard-case-04.avif", "04_德国空运牙椅2.png"],
-    ],
+    cases: [],
     colorDirectory: "SL8500 Standard A_色卡资料",
   },
   "sl8500-without-box": {
@@ -51,7 +46,6 @@ const products = {
       ["sl8500-without-box-case-01.avif", "01_d66b41148d28e285e93a89a0ae1beb1.jpg"],
       ["sl8500-without-box-case-02.avif", "02_ebf91c5d1829e5ee6d9655b3380a37f.jpg"],
       ["sl8500-without-box-case-03.avif", "03_3095bc7434ef00ed2635bb4245ad458.jpg"],
-      ["sl8500-without-box-case-04.avif", "04_32e70c79abeb075afbdefbd8a554eae.jpg"],
     ],
     colorDirectory: "SL8500 without box A_色卡资料/images",
   },
@@ -77,7 +71,6 @@ async function convert(source, destination, options = {}) {
 
 for (const [slug, product] of Object.entries(products)) {
   const output = path.join(outputRoot, slug);
-  await rm(output, { recursive: true, force: true });
   for (const directory of ["gallery", "features", "colors", "colors/swatches", "cases"]) {
     await mkdir(path.join(output, directory), { recursive: true });
   }
