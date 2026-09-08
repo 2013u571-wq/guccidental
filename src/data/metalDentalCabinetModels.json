@@ -499,25 +499,18 @@
     "seoDescription": "G-A114 dental cabinet for organized treatment-room storage. Explore product views, finish options, cabinet catalogs and configuration details.",
     "gallery": [
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a114/gallery-1.webp",
-        "width": 750,
-        "height": 1129,
-        "label": "G-A114 product view 1",
-        "alt": "G-A114 dental cabinet gallery 1"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a114/gallery-2.webp",
-        "width": 750,
-        "height": 1129,
-        "label": "G-A114 product view 2",
-        "alt": "G-A114 dental cabinet gallery 2"
-      },
-      {
         "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a114/gallery-3.webp",
         "width": 750,
         "height": 750,
         "label": "G-A114 product view 3",
         "alt": "G-A114 dental cabinet gallery 3"
+      },
+      {
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a114/product-size-2600.webp",
+        "width": 1000,
+        "height": 1000,
+        "label": "G-A114 product dimensions",
+        "alt": "G-A114 dental cabinet dimensions: 2600 mm wide, 510 mm deep, 850 mm counter height"
       }
     ],
     "quickSpecs": [
@@ -645,20 +638,6 @@
         "alt": "G-A115 dental cabinet gallery 1"
       },
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a115/gallery-2.webp",
-        "width": 750,
-        "height": 750,
-        "label": "G-A115 product view 2",
-        "alt": "G-A115 dental cabinet gallery 2"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a115/gallery-3.webp",
-        "width": 750,
-        "height": 1205,
-        "label": "G-A115 product view 3",
-        "alt": "G-A115 dental cabinet gallery 3"
-      },
-      {
         "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a115/gallery-4.webp",
         "width": 750,
         "height": 750,
@@ -673,11 +652,11 @@
         "alt": "G-A115 dental cabinet gallery 5"
       },
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a115/gallery-6.webp",
-        "width": 750,
-        "height": 792,
-        "label": "G-A115 product view 6",
-        "alt": "G-A115 dental cabinet gallery 6"
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a115/cabinet-drawer-detail.webp",
+        "width": 1000,
+        "height": 1000,
+        "label": "G-A115 cabinet and drawer detail",
+        "alt": "G-A115 dental cabinet with sink and close-up of storage drawers"
       }
     ],
     "quickSpecs": [
@@ -950,25 +929,11 @@
     "seoDescription": "G-Y002A dental cabinet for organized treatment-room storage. Explore product views, finish options, cabinet catalogs and configuration details.",
     "gallery": [
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y002a/gallery-1.webp",
-        "width": 800,
-        "height": 800,
-        "label": "G-Y002A product view 1",
-        "alt": "G-Y002A dental cabinet gallery 1"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y002a/gallery-2.webp",
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y002a/gallery-5.webp",
         "width": 1608,
         "height": 1772,
-        "label": "G-Y002A product view 2",
-        "alt": "G-Y002A dental cabinet gallery 2"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y002a/gallery-3.webp",
-        "width": 800,
-        "height": 800,
-        "label": "G-Y002A product view 3",
-        "alt": "G-Y002A dental cabinet gallery 3"
+        "label": "G-Y002A product view 5",
+        "alt": "G-Y002A dental cabinet gallery 5"
       },
       {
         "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y002a/gallery-4.webp",
@@ -976,13 +941,6 @@
         "height": 750,
         "label": "G-Y002A product view 4",
         "alt": "G-Y002A dental cabinet gallery 4"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y002a/gallery-5.webp",
-        "width": 1608,
-        "height": 1772,
-        "label": "G-Y002A product view 5",
-        "alt": "G-Y002A dental cabinet gallery 5"
       },
       {
         "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y002a/gallery-6.webp",
@@ -1910,18 +1868,18 @@
     "seoDescription": "G-Y009 dental cabinet for organized treatment-room storage. Explore product views, finish options, cabinet catalogs and configuration details.",
     "gallery": [
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y009/gallery-1.webp",
-        "width": 733,
-        "height": 879,
-        "label": "G-Y009 product view 1",
-        "alt": "G-Y009 dental cabinet gallery 1"
-      },
-      {
         "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y009/gallery-2.webp",
         "width": 800,
         "height": 800,
         "label": "G-Y009 product view 2",
         "alt": "G-Y009 dental cabinet gallery 2"
+      },
+      {
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y009/gallery-1.webp",
+        "width": 733,
+        "height": 879,
+        "label": "G-Y009 product view 1",
+        "alt": "G-Y009 dental cabinet gallery 1"
       }
     ],
     "quickSpecs": [
@@ -2042,25 +2000,11 @@
     "seoDescription": "G-Y009D dental cabinet for organized treatment-room storage. Explore product views, finish options, cabinet catalogs and configuration details.",
     "gallery": [
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y009d/gallery-1.webp",
-        "width": 464,
-        "height": 543,
-        "label": "G-Y009D product view 1",
-        "alt": "G-Y009D dental cabinet gallery 1"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y009d/gallery-2.webp",
-        "width": 356,
-        "height": 425,
-        "label": "G-Y009D product view 2",
-        "alt": "G-Y009D dental cabinet gallery 2"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y009d/gallery-3.webp",
-        "width": 300,
-        "height": 314,
-        "label": "G-Y009D product view 3",
-        "alt": "G-Y009D dental cabinet gallery 3"
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y009d/gallery-6.webp",
+        "width": 914,
+        "height": 1374,
+        "label": "G-Y009D product view 6",
+        "alt": "G-Y009D dental cabinet gallery 6"
       },
       {
         "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y009d/gallery-4.webp",
@@ -2075,13 +2019,6 @@
         "height": 365,
         "label": "G-Y009D product view 5",
         "alt": "G-Y009D dental cabinet gallery 5"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y009d/gallery-6.webp",
-        "width": 914,
-        "height": 1374,
-        "label": "G-Y009D product view 6",
-        "alt": "G-Y009D dental cabinet gallery 6"
       },
       {
         "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y009d/gallery-7.webp",
@@ -2557,13 +2494,6 @@
     "seoDescription": "G-Y018A dental cabinet for organized treatment-room storage. Explore product views, finish options, cabinet catalogs and configuration details.",
     "gallery": [
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y018a/gallery-1.webp",
-        "width": 800,
-        "height": 800,
-        "label": "G-Y018A product view 1",
-        "alt": "G-Y018A dental cabinet gallery 1"
-      },
-      {
         "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y018a/gallery-2.webp",
         "width": 800,
         "height": 800,
@@ -2722,13 +2652,6 @@
         "height": 800,
         "label": "G-Y024A product view 1",
         "alt": "G-Y024A dental cabinet gallery 1"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y024a/gallery-2.webp",
-        "width": 800,
-        "height": 800,
-        "label": "G-Y024A product view 2",
-        "alt": "G-Y024A dental cabinet gallery 2"
       },
       {
         "src": "https://media.guccidental.com/images/products/dental-cabinet/g-y024a/gallery-3.webp",
@@ -3239,30 +3162,23 @@
     "seoDescription": "MQ-Y001A dental cabinet for organized treatment-room storage. Explore product views, finish options, cabinet catalogs and configuration details.",
     "gallery": [
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y001a/gallery-1.webp",
-        "width": 1608,
-        "height": 1772,
-        "label": "MQ-Y001A product view 1",
-        "alt": "MQ-Y001A dental cabinet gallery 1"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y001a/gallery-2.webp",
-        "width": 1415,
-        "height": 1772,
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y001a/gallery-2-replacement.webp",
+        "width": 1000,
+        "height": 1000,
         "label": "MQ-Y001A product view 2",
         "alt": "MQ-Y001A dental cabinet gallery 2"
       },
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y001a/gallery-3.webp",
-        "width": 1338,
-        "height": 1772,
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y001a/gallery-3-replacement.webp",
+        "width": 1000,
+        "height": 1000,
         "label": "MQ-Y001A product view 3",
         "alt": "MQ-Y001A dental cabinet gallery 3"
       },
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y001a/gallery-4.webp",
-        "width": 1608,
-        "height": 1772,
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y001a/gallery-4-replacement.webp",
+        "width": 1000,
+        "height": 1000,
         "label": "MQ-Y001A product view 4",
         "alt": "MQ-Y001A dental cabinet gallery 4"
       },
@@ -3274,16 +3190,16 @@
         "alt": "MQ-Y001A dental cabinet gallery 5"
       },
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y001a/gallery-6.webp",
-        "width": 800,
-        "height": 826,
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y001a/gallery-6-replacement.webp",
+        "width": 1000,
+        "height": 1000,
         "label": "MQ-Y001A product view 6",
         "alt": "MQ-Y001A dental cabinet gallery 6"
       },
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y001a/gallery-7.webp",
-        "width": 800,
-        "height": 821,
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y001a/gallery-7-replacement.webp",
+        "width": 1000,
+        "height": 1000,
         "label": "MQ-Y001A product view 7",
         "alt": "MQ-Y001A dental cabinet gallery 7"
       },
@@ -3737,20 +3653,6 @@
     "seoDescription": "MQ-Y013B dental cabinet for organized treatment-room storage. Explore product views, finish options, cabinet catalogs and configuration details.",
     "gallery": [
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y013b/gallery-1.webp",
-        "width": 800,
-        "height": 800,
-        "label": "MQ-Y013B product view 1",
-        "alt": "MQ-Y013B dental cabinet gallery 1"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y013b/gallery-2.webp",
-        "width": 800,
-        "height": 800,
-        "label": "MQ-Y013B product view 2",
-        "alt": "MQ-Y013B dental cabinet gallery 2"
-      },
-      {
         "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y013b/gallery-3.webp",
         "width": 800,
         "height": 800,
@@ -3763,6 +3665,20 @@
         "height": 800,
         "label": "MQ-Y013B product view 4",
         "alt": "MQ-Y013B dental cabinet gallery 4"
+      },
+      {
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y013b/gallery-1.webp",
+        "width": 800,
+        "height": 800,
+        "label": "MQ-Y013B product view 1",
+        "alt": "MQ-Y013B dental cabinet gallery 1"
+      },
+      {
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y013b/gallery-2.webp",
+        "width": 800,
+        "height": 800,
+        "label": "MQ-Y013B product view 2",
+        "alt": "MQ-Y013B dental cabinet gallery 2"
       }
     ],
     "quickSpecs": [
@@ -3916,27 +3832,6 @@
         "height": 750,
         "label": "MQ-Y023 product view 5",
         "alt": "MQ-Y023 dental cabinet gallery 5"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y023/gallery-6.webp",
-        "width": 750,
-        "height": 1129,
-        "label": "MQ-Y023 product view 6",
-        "alt": "MQ-Y023 dental cabinet gallery 6"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y023/gallery-7.webp",
-        "width": 750,
-        "height": 1205,
-        "label": "MQ-Y023 product view 7",
-        "alt": "MQ-Y023 dental cabinet gallery 7"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y023/gallery-8.webp",
-        "width": 750,
-        "height": 1205,
-        "label": "MQ-Y023 product view 8",
-        "alt": "MQ-Y023 dental cabinet gallery 8"
       }
     ],
     "quickSpecs": [
@@ -4057,13 +3952,6 @@
     "seoDescription": "MQ-Y024 dental cabinet for organized treatment-room storage. Explore product views, finish options, cabinet catalogs and configuration details.",
     "gallery": [
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y024/gallery-1.webp",
-        "width": 750,
-        "height": 750,
-        "label": "MQ-Y024 product view 1",
-        "alt": "MQ-Y024 dental cabinet gallery 1"
-      },
-      {
         "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y024/gallery-2.webp",
         "width": 750,
         "height": 750,
@@ -4071,39 +3959,11 @@
         "alt": "MQ-Y024 dental cabinet gallery 2"
       },
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y024/gallery-3.webp",
-        "width": 750,
-        "height": 1129,
-        "label": "MQ-Y024 product view 3",
-        "alt": "MQ-Y024 dental cabinet gallery 3"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y024/gallery-4.webp",
-        "width": 750,
-        "height": 1205,
-        "label": "MQ-Y024 product view 4",
-        "alt": "MQ-Y024 dental cabinet gallery 4"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y024/gallery-5.webp",
-        "width": 750,
-        "height": 1205,
-        "label": "MQ-Y024 product view 5",
-        "alt": "MQ-Y024 dental cabinet gallery 5"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y024/gallery-6.webp",
-        "width": 750,
-        "height": 750,
-        "label": "MQ-Y024 product view 6",
-        "alt": "MQ-Y024 dental cabinet gallery 6"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y024/gallery-7.webp",
-        "width": 750,
-        "height": 750,
-        "label": "MQ-Y024 product view 7",
-        "alt": "MQ-Y024 dental cabinet gallery 7"
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y024/product-size-2200.webp",
+        "width": 1000,
+        "height": 1000,
+        "label": "MQ-Y024 product dimensions",
+        "alt": "MQ-Y024 dental cabinet dimensions: 2200 mm wide, 510 mm deep and 850 mm high"
       }
     ],
     "quickSpecs": [
@@ -4223,20 +4083,6 @@
     "tagline": "The MQ-Y032 is organized as a dental cabinet solution for treatment-room storage, helping clinics keep instruments, materials and daily-use items close to the working area.",
     "seoDescription": "MQ-Y032 dental cabinet for organized treatment-room storage. Explore product views, finish options, cabinet catalogs and configuration details.",
     "gallery": [
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y032/gallery-1.webp",
-        "width": 750,
-        "height": 1129,
-        "label": "MQ-Y032 product view 1",
-        "alt": "MQ-Y032 dental cabinet gallery 1"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y032/gallery-2.webp",
-        "width": 750,
-        "height": 1129,
-        "label": "MQ-Y032 product view 2",
-        "alt": "MQ-Y032 dental cabinet gallery 2"
-      },
       {
         "src": "https://media.guccidental.com/images/products/dental-cabinet/mq-y032/gallery-3.webp",
         "width": 750,
@@ -4376,32 +4222,32 @@
     "seoDescription": "TJ-SC01 dental cabinet for organized treatment-room storage. Explore product views, finish options, cabinet catalogs and configuration details.",
     "gallery": [
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc01/gallery-1.webp",
-        "width": 800,
-        "height": 800,
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc01/gallery-4-no-logo.webp",
+        "width": 1254,
+        "height": 1254,
+        "label": "TJ-SC01 product view 4",
+        "alt": "TJ-SC01 dental cabinet gallery 4"
+      },
+      {
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc01/gallery-1-no-logo.webp",
+        "width": 1254,
+        "height": 1254,
         "label": "TJ-SC01 product view 1",
         "alt": "TJ-SC01 dental cabinet gallery 1"
       },
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc01/gallery-2.webp",
-        "width": 800,
-        "height": 800,
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc01/gallery-2-no-logo.webp",
+        "width": 1254,
+        "height": 1254,
         "label": "TJ-SC01 product view 2",
         "alt": "TJ-SC01 dental cabinet gallery 2"
       },
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc01/gallery-3.webp",
-        "width": 800,
-        "height": 782,
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc01/gallery-3-no-logo.webp",
+        "width": 1269,
+        "height": 1239,
         "label": "TJ-SC01 product view 3",
         "alt": "TJ-SC01 dental cabinet gallery 3"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc01/gallery-4.webp",
-        "width": 800,
-        "height": 800,
-        "label": "TJ-SC01 product view 4",
-        "alt": "TJ-SC01 dental cabinet gallery 4"
       }
     ],
     "quickSpecs": [
@@ -4522,74 +4368,39 @@
     "seoDescription": "TJ-SC02 dental cabinet for organized treatment-room storage. Explore product views, finish options, cabinet catalogs and configuration details.",
     "gallery": [
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc02/gallery-1.webp",
-        "width": 800,
-        "height": 800,
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc02/gallery-1-replacement.webp",
+        "width": 1000,
+        "height": 1000,
         "label": "TJ-SC02 product view 1",
-        "alt": "TJ-SC02 dental cabinet gallery 1"
+        "alt": "TJ-SC02 dental trolley product view 1"
       },
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc02/gallery-2.webp",
-        "width": 800,
-        "height": 800,
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc02/gallery-2-replacement.webp",
+        "width": 1000,
+        "height": 1000,
         "label": "TJ-SC02 product view 2",
-        "alt": "TJ-SC02 dental cabinet gallery 2"
+        "alt": "TJ-SC02 dental trolley product view 2"
       },
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc02/gallery-3.webp",
-        "width": 800,
-        "height": 800,
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc02/gallery-3-replacement.webp",
+        "width": 1000,
+        "height": 1000,
         "label": "TJ-SC02 product view 3",
-        "alt": "TJ-SC02 dental cabinet gallery 3"
+        "alt": "TJ-SC02 dental trolley product view 3"
       },
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc02/gallery-4.webp",
-        "width": 800,
-        "height": 800,
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc02/gallery-4-replacement.webp",
+        "width": 1000,
+        "height": 1000,
         "label": "TJ-SC02 product view 4",
-        "alt": "TJ-SC02 dental cabinet gallery 4"
+        "alt": "TJ-SC02 dental trolley product view 4"
       },
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc02/gallery-5.webp",
-        "width": 800,
-        "height": 800,
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc02/gallery-5-replacement.webp",
+        "width": 1000,
+        "height": 1000,
         "label": "TJ-SC02 product view 5",
-        "alt": "TJ-SC02 dental cabinet gallery 5"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc02/gallery-6.webp",
-        "width": 800,
-        "height": 800,
-        "label": "TJ-SC02 product view 6",
-        "alt": "TJ-SC02 dental cabinet gallery 6"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc02/gallery-7.webp",
-        "width": 800,
-        "height": 800,
-        "label": "TJ-SC02 product view 7",
-        "alt": "TJ-SC02 dental cabinet gallery 7"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc02/gallery-8.webp",
-        "width": 800,
-        "height": 800,
-        "label": "TJ-SC02 product view 8",
-        "alt": "TJ-SC02 dental cabinet gallery 8"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc02/gallery-9.webp",
-        "width": 800,
-        "height": 800,
-        "label": "TJ-SC02 product view 9",
-        "alt": "TJ-SC02 dental cabinet gallery 9"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc02/gallery-10.webp",
-        "width": 800,
-        "height": 800,
-        "label": "TJ-SC02 product view 10",
-        "alt": "TJ-SC02 dental cabinet gallery 10"
+        "alt": "TJ-SC02 dental trolley product view 5"
       }
     ],
     "quickSpecs": [
@@ -4710,9 +4521,9 @@
     "seoDescription": "TJ-SC03 dental cabinet for organized treatment-room storage. Explore product views, finish options, cabinet catalogs and configuration details.",
     "gallery": [
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc03/gallery-1.webp",
-        "width": 800,
-        "height": 850,
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc03/gallery-1-no-logo.webp",
+        "width": 1217,
+        "height": 1293,
         "label": "TJ-SC03 product view 1",
         "alt": "TJ-SC03 dental cabinet gallery 1"
       },
@@ -4745,16 +4556,16 @@
         "alt": "TJ-SC03 dental cabinet gallery 5"
       },
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc03/gallery-6.webp",
-        "width": 800,
-        "height": 800,
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc03/gallery-6-no-logo.webp",
+        "width": 1254,
+        "height": 1254,
         "label": "TJ-SC03 product view 6",
         "alt": "TJ-SC03 dental cabinet gallery 6"
       },
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc03/gallery-7.webp",
-        "width": 800,
-        "height": 800,
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc03/gallery-7-no-logo.webp",
+        "width": 1254,
+        "height": 1254,
         "label": "TJ-SC03 product view 7",
         "alt": "TJ-SC03 dental cabinet gallery 7"
       },
@@ -4889,7 +4700,15 @@
     "productType": "Dental cabinet for organized clinic storage",
     "tagline": "The TJ-SC04 is organized as a dental cabinet solution for treatment-room storage, helping clinics keep instruments, materials and daily-use items close to the working area.",
     "seoDescription": "TJ-SC04 dental cabinet for organized treatment-room storage. Explore product views, finish options, cabinet catalogs and configuration details.",
-    "gallery": [],
+    "gallery": [
+      {
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/tj-sc04/trolley-additional.webp",
+        "width": 2000,
+        "height": 2000,
+        "label": "TJ-SC04 trolley product view",
+        "alt": "TJ-SC04 white two-tier dental trolley with guardrails and castors"
+      }
+    ],
     "quickSpecs": [
       {
         "label": "Cabinet type",
@@ -5004,7 +4823,7 @@
     "model": "TJ-XY08",
     "title": "TJ-XY08 Dental Cabinet",
     "productType": "Dental cabinet for organized clinic storage",
-    "tagline": "The TJ-XY08（麦群） is organized as a dental cabinet solution for treatment-room storage, helping clinics keep instruments, materials and daily-use items close to the working area.",
+    "tagline": "The TJ-XY08 is organized as a dental cabinet solution for treatment-room storage, helping clinics keep instruments, materials and daily-use items close to the working area.",
     "seoDescription": "TJ-XY08 dental cabinet for organized treatment-room storage. Explore product views, finish options, cabinet catalogs and configuration details.",
     "gallery": [
       {
@@ -5060,7 +4879,7 @@
     "specifications": [
       {
         "label": "Model",
-        "value": "TJ-XY08（麦群）"
+        "value": "TJ-XY08"
       },
       {
         "label": "Product type",
@@ -5129,7 +4948,7 @@
     "model": "TJ-XY09",
     "title": "TJ-XY09 Dental Cabinet",
     "productType": "Dental cabinet for organized clinic storage",
-    "tagline": "The TJ-XY09（麦群） is organized as a dental cabinet solution for treatment-room storage, helping clinics keep instruments, materials and daily-use items close to the working area.",
+    "tagline": "The TJ-XY09 is organized as a dental cabinet solution for treatment-room storage, helping clinics keep instruments, materials and daily-use items close to the working area.",
     "seoDescription": "TJ-XY09 dental cabinet for organized treatment-room storage. Explore product views, finish options, cabinet catalogs and configuration details.",
     "gallery": [
       {
@@ -5192,7 +5011,7 @@
     "specifications": [
       {
         "label": "Model",
-        "value": "TJ-XY09（麦群）"
+        "value": "TJ-XY09"
       },
       {
         "label": "Product type",
@@ -5432,41 +5251,6 @@
     "seoDescription": "XY08 dental cabinet for organized treatment-room storage. Explore product views, finish options, cabinet catalogs and configuration details.",
     "gallery": [
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/xy08/gallery-1.webp",
-        "width": 750,
-        "height": 1129,
-        "label": "XY08 product view 1",
-        "alt": "XY08 dental cabinet gallery 1"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/xy08/gallery-2.webp",
-        "width": 750,
-        "height": 1129,
-        "label": "XY08 product view 2",
-        "alt": "XY08 dental cabinet gallery 2"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/xy08/gallery-3.webp",
-        "width": 750,
-        "height": 1205,
-        "label": "XY08 product view 3",
-        "alt": "XY08 dental cabinet gallery 3"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/xy08/gallery-4.webp",
-        "width": 750,
-        "height": 1205,
-        "label": "XY08 product view 4",
-        "alt": "XY08 dental cabinet gallery 4"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/xy08/gallery-5.webp",
-        "width": 750,
-        "height": 750,
-        "label": "XY08 product view 5",
-        "alt": "XY08 dental cabinet gallery 5"
-      },
-      {
         "src": "https://media.guccidental.com/images/products/dental-cabinet/xy08/gallery-6.webp",
         "width": 750,
         "height": 750,
@@ -5486,13 +5270,6 @@
         "height": 750,
         "label": "XY08 product view 8",
         "alt": "XY08 dental cabinet gallery 8"
-      },
-      {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/xy08/gallery-9.webp",
-        "width": 750,
-        "height": 750,
-        "label": "XY08 product view 9",
-        "alt": "XY08 dental cabinet gallery 9"
       }
     ],
     "quickSpecs": [
@@ -5613,16 +5390,16 @@
     "seoDescription": "Y031C dental cabinet for organized treatment-room storage. Explore product views, finish options, cabinet catalogs and configuration details.",
     "gallery": [
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/y031c/gallery-1.webp",
-        "width": 640,
-        "height": 640,
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/y031c/gallery-1-replacement.webp",
+        "width": 1000,
+        "height": 1000,
         "label": "Y031C product view 1",
         "alt": "Y031C dental cabinet gallery 1"
       },
       {
-        "src": "https://media.guccidental.com/images/products/dental-cabinet/y031c/gallery-2.webp",
-        "width": 640,
-        "height": 640,
+        "src": "https://media.guccidental.com/images/products/dental-cabinet/y031c/gallery-2-replacement.webp",
+        "width": 1000,
+        "height": 1000,
         "label": "Y031C product view 2",
         "alt": "Y031C dental cabinet gallery 2"
       },

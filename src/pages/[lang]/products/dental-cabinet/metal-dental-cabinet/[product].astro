@@ -10,7 +10,7 @@ export function getStaticPaths() {
 const lang = getLanguage(Astro.params.lang);
 const product = metalDentalCabinets[String(Astro.params.product)];
 ---
-<HighEndDentalChairDetail lang={lang} product={product} cabinet>
+<HighEndDentalChairDetail lang={lang} product={product} cabinet showCase={Boolean(product.caseImage?.src)}>
   <CabinetColors slot="colors" product={product} />
   <CabinetCase slot="case" product={product} />
 </HighEndDentalChairDetail>

@@ -3,28 +3,27 @@ import { metalDentalCabinets, type MetalCabinetDetail } from '@data/metalDentalC
 interface Props { product?: MetalCabinetDetail }
 const { product = metalDentalCabinets['g-a3'] } = Astro.props;
 ---
-<section class="b100-case-band" id="case">
+{product.caseImage?.src && <section class="b100-case-band" id="case">
   <div class="container"><div class="b100-content-narrow">
     <div class="b100-case-heading">
       <div><span class="b100-eyebrow">Case</span><h2>{product.caseHeading}</h2></div>
       <p>{product.caseIntroduction}</p>
     </div>
     <div class="cabinet-case-layout">
-      <figure aria-hidden={product.caseImage ? undefined : 'true'} class:list={{ 'is-empty': !product.caseImage }}>{product.caseImage && <img src={product.caseImage.src} alt={product.caseImage.alt} width={product.caseImage.width} height={product.caseImage.height} loading="lazy" decoding="async" />}</figure>
+      <figure><img src={product.caseImage.src} alt={product.caseImage.alt} width={product.caseImage.width} height={product.caseImage.height} loading="lazy" decoding="async" /></figure>
       <div class="cabinet-case-copy">
-        {product.cases.map((item, index) => <article><h3>{String(index + 1).padStart(2, '0')} {item.title}</h3><p>{item.description}</p></article>)}
+        {product.cases.map((item) => <article><h3>{item.title}</h3><p>{item.description}</p></article>)}
       </div>
     </div>
   </div></div>
-</section>
+</section>}
 <style>
   .cabinet-case-layout { display:grid; grid-template-columns:minmax(0,1.15fr) minmax(0,1fr); align-items:center; gap:clamp(28px,4vw,64px); }
   figure { margin:0; min-width:0; }
-  figure.is-empty { min-height:320px; }
   img { display:block; width:100%; height:auto; border-radius:12px; }
   .cabinet-case-copy { min-width:0; }
   article + article { margin-top:26px; padding-top:26px; border-top:1px solid #dfe6ed; }
   h3 { color:#0f172a; font-size:19px; font-weight:500; line-height:1.35; margin:0 0 10px; }
   article p { color:#64748b; font-size:16px; line-height:1.7; margin:0; }
-  @media(max-width:700px) { .cabinet-case-layout { grid-template-columns:minmax(0,1fr); gap:28px; } figure.is-empty { min-height:0; } }
+  @media(max-width:700px) { .cabinet-case-layout { grid-template-columns:minmax(0,1fr); gap:28px; } }
 </style>

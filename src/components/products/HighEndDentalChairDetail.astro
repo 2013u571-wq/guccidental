@@ -8,10 +8,11 @@ interface Props {
   lang: LanguageCode;
   product: HighEndDentalChairDetail;
   cabinet?: boolean;
+  showCase?: boolean;
   tier?: "high-end" | "mid-range" | "economic";
 }
 
-const { lang, product, tier = "high-end", cabinet = false } = Astro.props;
+const { lang, product, tier = "high-end", cabinet = false, showCase = true } = Astro.props;
 const tierLabel = cabinet ? "Metal Cabinet" : tier === "high-end" ? "High-end" : tier === "mid-range" ? "Mid-range" : "Economic";
 const tierHref = localizedPath(lang, cabinet ? "/products/dental-cabinet/metal-dental-cabinet/" : `/products/dental-chair/${tier}/`);
 const message = `I'm interested in the ${product.model} dental ${cabinet ? "cabinet" : "chair"}.`;
@@ -116,7 +117,7 @@ const faqManualCoverAlt = faqDocumentResource
   </section>
 
   <div class="b100-section-nav-sentinel" aria-hidden="true" data-section-nav-sentinel></div>
-  <nav class="b100-section-nav" aria-label={`${product.model} page sections`} data-section-nav><div class="container"><a href="#overview" aria-current="true">Overview</a><a href="#features">Features</a><a href="#colors">Colors</a><a href="#specifications">Specifications</a><a href="#product-resources">Resources</a><a href="#case">Case</a><a href="#faq">FAQ</a></div></nav>
+  <nav class="b100-section-nav" aria-label={`${product.model} page sections`} data-section-nav><div class="container"><a href="#overview" aria-current="true">Overview</a><a href="#features">Features</a><a href="#colors">Colors</a><a href="#specifications">Specifications</a><a href="#product-resources">Resources</a>{showCase && <a href="#case">Case</a>}<a href="#faq">FAQ</a></div></nav>
 
   <section class="b100-points-band" id="overview"><div class="container"><div class="b100-points-layout" style={cabinet ? "grid-template-columns: 1fr" : undefined}>
     <div class="b100-points-content"><header class="b100-points-heading"><span class="b100-eyebrow">Key selling points</span><h2>{product.sellingPointHeading}</h2></header><div class="b100-points-grid">{product.sellingPoints.map((point, index) => <article><div class="b100-point-head"><span>{String(index + 1).padStart(2, "0")}</span></div><h3>{point.title}</h3><p>{point.description}</p></article>)}</div></div>
