@@ -9,28 +9,28 @@ export const gA3: HighEndDentalChairDetail = {
   "tagline": "A five-drawer mobile dental cabinet for daily clinic organization, combining a glass countertop, stainless-steel cabinet body, adjustable drawer storage and smooth brake wheels.",
   "gallery": [
     {
-      "src": "/images/products/dental-cabinet/g-a3/gallery-1.webp",
+      "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/gallery-1.webp",
       "width": 800,
       "height": 800,
       "label": "Front view",
       "alt": "G-A3 mobile dental cabinet — front view"
     },
     {
-      "src": "/images/products/dental-cabinet/g-a3/gallery-2.webp",
+      "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/gallery-2.webp",
       "width": 800,
       "height": 800,
       "label": "Open drawer organizer",
       "alt": "G-A3 mobile dental cabinet — open drawer organizer"
     },
     {
-      "src": "/images/products/dental-cabinet/g-a3/gallery-3.webp",
+      "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/gallery-3.webp",
       "width": 800,
       "height": 800,
       "label": "Drawers open view",
       "alt": "G-A3 mobile dental cabinet — drawers open view"
     },
     {
-      "src": "/images/products/dental-cabinet/g-a3/gallery-4.webp",
+      "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/gallery-4.webp",
       "width": 800,
       "height": 800,
       "label": "White front view",
@@ -86,7 +86,7 @@ export const gA3: HighEndDentalChairDetail = {
   "featureHeading": "Built for clean, organized dental storage",
   "features": [
     {
-      "src": "/images/products/dental-cabinet/g-a3/feature-1.webp",
+      "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/feature-1.webp",
       "width": 266,
       "height": 267,
       "label": "feature-1",
@@ -101,7 +101,7 @@ export const gA3: HighEndDentalChairDetail = {
       ]
     },
     {
-      "src": "/images/products/dental-cabinet/g-a3/feature-2.webp",
+      "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/feature-2.webp",
       "width": 267,
       "height": 267,
       "label": "feature-2",
@@ -116,7 +116,7 @@ export const gA3: HighEndDentalChairDetail = {
       ]
     },
     {
-      "src": "/images/products/dental-cabinet/g-a3/feature-3.webp",
+      "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/feature-3.webp",
       "width": 267,
       "height": 267,
       "label": "feature-3",
@@ -131,7 +131,7 @@ export const gA3: HighEndDentalChairDetail = {
       ]
     },
     {
-      "src": "/images/products/dental-cabinet/g-a3/feature-4.webp",
+      "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/feature-4.webp",
       "width": 266,
       "height": 267,
       "label": "feature-4",
@@ -146,7 +146,7 @@ export const gA3: HighEndDentalChairDetail = {
       ]
     },
     {
-      "src": "/images/products/dental-cabinet/g-a3/feature-5.webp",
+      "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/feature-5.webp",
       "width": 267,
       "height": 267,
       "label": "feature-5",
@@ -165,48 +165,48 @@ export const gA3: HighEndDentalChairDetail = {
     {
       "code": "Blue",
       "name": "Blue",
-      "image": "/images/products/dental-cabinet/g-a3/swatch-blue.webp",
-      "swatch": "/images/products/dental-cabinet/g-a3/swatch-blue.webp",
+      "image": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/swatch-blue.webp",
+      "swatch": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/swatch-blue.webp",
       "alt": "Blue cabinet finish swatch",
       "description": ""
     },
     {
       "code": "Golden",
       "name": "Golden",
-      "image": "/images/products/dental-cabinet/g-a3/swatch-golden.webp",
-      "swatch": "/images/products/dental-cabinet/g-a3/swatch-golden.webp",
+      "image": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/swatch-golden.webp",
+      "swatch": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/swatch-golden.webp",
       "alt": "Golden cabinet finish swatch",
       "description": ""
     },
     {
       "code": "Red",
       "name": "Red",
-      "image": "/images/products/dental-cabinet/g-a3/swatch-red.webp",
-      "swatch": "/images/products/dental-cabinet/g-a3/swatch-red.webp",
+      "image": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/swatch-red.webp",
+      "swatch": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/swatch-red.webp",
       "alt": "Red cabinet finish swatch",
       "description": ""
     },
     {
       "code": "Green",
       "name": "Green",
-      "image": "/images/products/dental-cabinet/g-a3/swatch-green.webp",
-      "swatch": "/images/products/dental-cabinet/g-a3/swatch-green.webp",
+      "image": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/swatch-green.webp",
+      "swatch": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/swatch-green.webp",
       "alt": "Green cabinet finish swatch",
       "description": ""
     },
     {
       "code": "White",
       "name": "White",
-      "image": "/images/products/dental-cabinet/g-a3/swatch-white.webp",
-      "swatch": "/images/products/dental-cabinet/g-a3/swatch-white.webp",
+      "image": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/swatch-white.webp",
+      "swatch": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/swatch-white.webp",
       "alt": "White cabinet finish swatch",
       "description": ""
     },
     {
       "code": "Black",
       "name": "Black",
-      "image": "/images/products/dental-cabinet/g-a3/swatch-black.webp",
-      "swatch": "/images/products/dental-cabinet/g-a3/swatch-black.webp",
+      "image": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/swatch-black.webp",
+      "swatch": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/swatch-black.webp",
       "alt": "Black cabinet finish swatch",
       "description": ""
     }
@@ -266,12 +266,12 @@ export const gA3: HighEndDentalChairDetail = {
   "resources": [
     {
       "label": "Dental Cabinet Catalog",
-      "href": "/images/products/dental-cabinet/g-a3/cabinet-catalog-3.pdf",
+      "href": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/cabinet-catalog-3.pdf",
       "meta": "PDF · 18.1 MB"
     },
     {
       "label": "Dental Cabinet Collection · 2024",
-      "href": "/images/products/dental-cabinet/g-a3/cabinet-catalog-4.pdf",
+      "href": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/cabinet-catalog-4.pdf",
       "meta": "PDF · 86.1 MB"
     }
   ],
@@ -279,7 +279,7 @@ export const gA3: HighEndDentalChairDetail = {
   "caseIntroduction": "Explore compact mobile storage in different treatment-room settings.",
   "cases": [
     {
-      "src": "/images/products/dental-cabinet/g-a3/case-1.webp",
+      "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/case-1.webp",
       "width": 1000,
       "height": 1000,
       "label": "case-1",
@@ -288,7 +288,7 @@ export const gA3: HighEndDentalChairDetail = {
       "description": "The G-A3 provides mobile storage beside the dental chair, keeping instruments and materials close while maintaining a clean room layout."
     },
     {
-      "src": "/images/products/dental-cabinet/g-a3/case-2.webp",
+      "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/case-2.webp",
       "width": 800,
       "height": 800,
       "label": "case-2",
@@ -324,7 +324,7 @@ export const gA3: HighEndDentalChairDetail = {
 
 export const cabinetFilmSwatches = [
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb02.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb02.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb02",
@@ -332,7 +332,7 @@ export const cabinetFilmSwatches = [
     "code": "HB02"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb03.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb03.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb03",
@@ -340,7 +340,7 @@ export const cabinetFilmSwatches = [
     "code": "HB03"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb10.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb10.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb10",
@@ -348,7 +348,7 @@ export const cabinetFilmSwatches = [
     "code": "HB10"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb04.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb04.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb04",
@@ -356,7 +356,7 @@ export const cabinetFilmSwatches = [
     "code": "HB04"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb09.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb09.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb09",
@@ -364,7 +364,7 @@ export const cabinetFilmSwatches = [
     "code": "HB09"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb22.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb22.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb22",
@@ -372,7 +372,7 @@ export const cabinetFilmSwatches = [
     "code": "HB22"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb29.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb29.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb29",
@@ -380,7 +380,7 @@ export const cabinetFilmSwatches = [
     "code": "HB29"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb11.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb11.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb11",
@@ -388,7 +388,7 @@ export const cabinetFilmSwatches = [
     "code": "HB11"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb08.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb08.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb08",
@@ -396,7 +396,7 @@ export const cabinetFilmSwatches = [
     "code": "HB08"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb07.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb07.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb07",
@@ -404,7 +404,7 @@ export const cabinetFilmSwatches = [
     "code": "HB07"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb23.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb23.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb23",
@@ -412,7 +412,7 @@ export const cabinetFilmSwatches = [
     "code": "HB23"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hd01.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hd01.webp",
     "width": 500,
     "height": 500,
     "label": "film-hd01",
@@ -420,7 +420,7 @@ export const cabinetFilmSwatches = [
     "code": "HD01"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb28.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb28.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb28",
@@ -428,7 +428,7 @@ export const cabinetFilmSwatches = [
     "code": "HB28"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb30.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb30.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb30",
@@ -436,7 +436,7 @@ export const cabinetFilmSwatches = [
     "code": "HB30"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc85.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc85.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc85",
@@ -444,7 +444,7 @@ export const cabinetFilmSwatches = [
     "code": "HC85"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc100.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc100.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc100",
@@ -452,7 +452,7 @@ export const cabinetFilmSwatches = [
     "code": "HC100"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc88.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc88.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc88",
@@ -460,7 +460,7 @@ export const cabinetFilmSwatches = [
     "code": "HC88"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc89.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc89.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc89",
@@ -468,7 +468,7 @@ export const cabinetFilmSwatches = [
     "code": "HC89"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc90.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc90.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc90",
@@ -476,7 +476,7 @@ export const cabinetFilmSwatches = [
     "code": "HC90"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc92.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc92.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc92",
@@ -484,7 +484,7 @@ export const cabinetFilmSwatches = [
     "code": "HC92"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc94.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc94.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc94",
@@ -492,7 +492,7 @@ export const cabinetFilmSwatches = [
     "code": "HC94"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc95.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc95.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc95",
@@ -500,7 +500,7 @@ export const cabinetFilmSwatches = [
     "code": "HC95"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc96.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc96.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc96",
@@ -508,7 +508,7 @@ export const cabinetFilmSwatches = [
     "code": "HC96"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc93.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc93.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc93",
@@ -516,7 +516,7 @@ export const cabinetFilmSwatches = [
     "code": "HC93"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hd26.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hd26.webp",
     "width": 500,
     "height": 500,
     "label": "film-hd26",
@@ -524,7 +524,7 @@ export const cabinetFilmSwatches = [
     "code": "HD26"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hd32.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hd32.webp",
     "width": 500,
     "height": 500,
     "label": "film-hd32",
@@ -532,7 +532,7 @@ export const cabinetFilmSwatches = [
     "code": "HD32"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hd02.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hd02.webp",
     "width": 500,
     "height": 500,
     "label": "film-hd02",
@@ -540,7 +540,7 @@ export const cabinetFilmSwatches = [
     "code": "HD02"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hd11.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hd11.webp",
     "width": 500,
     "height": 500,
     "label": "film-hd11",
@@ -548,7 +548,7 @@ export const cabinetFilmSwatches = [
     "code": "HD11"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hd16.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hd16.webp",
     "width": 500,
     "height": 500,
     "label": "film-hd16",
@@ -556,7 +556,7 @@ export const cabinetFilmSwatches = [
     "code": "HD16"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc59.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc59.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc59",
@@ -564,7 +564,7 @@ export const cabinetFilmSwatches = [
     "code": "HC59"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hd38.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hd38.webp",
     "width": 500,
     "height": 500,
     "label": "film-hd38",
@@ -572,7 +572,7 @@ export const cabinetFilmSwatches = [
     "code": "HD38"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hd37.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hd37.webp",
     "width": 500,
     "height": 500,
     "label": "film-hd37",
@@ -580,7 +580,7 @@ export const cabinetFilmSwatches = [
     "code": "HD37"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hd39.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hd39.webp",
     "width": 500,
     "height": 500,
     "label": "film-hd39",
@@ -588,7 +588,7 @@ export const cabinetFilmSwatches = [
     "code": "HD39"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc64.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc64.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc64",
@@ -596,7 +596,7 @@ export const cabinetFilmSwatches = [
     "code": "HC64"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc71.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc71.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc71",
@@ -604,7 +604,7 @@ export const cabinetFilmSwatches = [
     "code": "HC71"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc56.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc56.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc56",
@@ -612,7 +612,7 @@ export const cabinetFilmSwatches = [
     "code": "HC56"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc57.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc57.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc57",
@@ -620,7 +620,7 @@ export const cabinetFilmSwatches = [
     "code": "HC57"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc54.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc54.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc54",
@@ -628,7 +628,7 @@ export const cabinetFilmSwatches = [
     "code": "HC54"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc55.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc55.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc55",
@@ -636,7 +636,7 @@ export const cabinetFilmSwatches = [
     "code": "HC55"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc60.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc60.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc60",
@@ -644,7 +644,7 @@ export const cabinetFilmSwatches = [
     "code": "HC60"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc61.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc61.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc61",
@@ -652,7 +652,7 @@ export const cabinetFilmSwatches = [
     "code": "HC61"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc62.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc62.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc62",
@@ -660,7 +660,7 @@ export const cabinetFilmSwatches = [
     "code": "HC62"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc50.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc50.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc50",
@@ -668,7 +668,7 @@ export const cabinetFilmSwatches = [
     "code": "HC50"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc66.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc66.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc66",
@@ -676,7 +676,7 @@ export const cabinetFilmSwatches = [
     "code": "HC66"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc74.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc74.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc74",
@@ -684,7 +684,7 @@ export const cabinetFilmSwatches = [
     "code": "HC74"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc73.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc73.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc73",
@@ -692,7 +692,7 @@ export const cabinetFilmSwatches = [
     "code": "HC73"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc78.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc78.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc78",
@@ -700,7 +700,7 @@ export const cabinetFilmSwatches = [
     "code": "HC78"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc773.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc773.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc773",
@@ -708,7 +708,7 @@ export const cabinetFilmSwatches = [
     "code": "HC773"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb32.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb32.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb32",
@@ -716,7 +716,7 @@ export const cabinetFilmSwatches = [
     "code": "HB32"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc86.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc86.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc86",
@@ -724,7 +724,7 @@ export const cabinetFilmSwatches = [
     "code": "HC86"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc82.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc82.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc82",
@@ -732,7 +732,7 @@ export const cabinetFilmSwatches = [
     "code": "HC82"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc83.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc83.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc83",
@@ -740,7 +740,7 @@ export const cabinetFilmSwatches = [
     "code": "HC83"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc84.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc84.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc84",
@@ -748,7 +748,7 @@ export const cabinetFilmSwatches = [
     "code": "HC84"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb31.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb31.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb31",
@@ -756,7 +756,7 @@ export const cabinetFilmSwatches = [
     "code": "HB31"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb29.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb29.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb29",
@@ -764,7 +764,7 @@ export const cabinetFilmSwatches = [
     "code": "HB29"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc101.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc101.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc101",
@@ -772,7 +772,7 @@ export const cabinetFilmSwatches = [
     "code": "HC101"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-page10.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-page10.webp",
     "width": 500,
     "height": 500,
     "label": "film-page10",
@@ -780,7 +780,7 @@ export const cabinetFilmSwatches = [
     "code": "PAGE10"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-page10.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-page10.webp",
     "width": 500,
     "height": 500,
     "label": "film-page10",
@@ -788,7 +788,7 @@ export const cabinetFilmSwatches = [
     "code": "PAGE10"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-page10.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-page10.webp",
     "width": 500,
     "height": 500,
     "label": "film-page10",
@@ -796,7 +796,7 @@ export const cabinetFilmSwatches = [
     "code": "PAGE10"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-page10.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-page10.webp",
     "width": 500,
     "height": 500,
     "label": "film-page10",
@@ -804,7 +804,7 @@ export const cabinetFilmSwatches = [
     "code": "PAGE10"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc37.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc37.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc37",
@@ -812,7 +812,7 @@ export const cabinetFilmSwatches = [
     "code": "HC37"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hd35.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hd35.webp",
     "width": 500,
     "height": 500,
     "label": "film-hd35",
@@ -820,7 +820,7 @@ export const cabinetFilmSwatches = [
     "code": "HD35"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb20.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb20.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb20",
@@ -828,7 +828,7 @@ export const cabinetFilmSwatches = [
     "code": "HB20"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb21.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb21.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb21",
@@ -836,7 +836,7 @@ export const cabinetFilmSwatches = [
     "code": "HB21"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc52.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc52.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc52",
@@ -844,7 +844,7 @@ export const cabinetFilmSwatches = [
     "code": "HC52"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc35.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc35.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc35",
@@ -852,7 +852,7 @@ export const cabinetFilmSwatches = [
     "code": "HC35"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb16.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb16.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb16",
@@ -860,7 +860,7 @@ export const cabinetFilmSwatches = [
     "code": "HB16"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb15.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb15.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb15",
@@ -868,7 +868,7 @@ export const cabinetFilmSwatches = [
     "code": "HB15"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb19.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb19.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb19",
@@ -876,7 +876,7 @@ export const cabinetFilmSwatches = [
     "code": "HB19"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc30.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc30.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc30",
@@ -884,7 +884,7 @@ export const cabinetFilmSwatches = [
     "code": "HC30"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc31.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc31.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc31",
@@ -892,7 +892,7 @@ export const cabinetFilmSwatches = [
     "code": "HC31"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc41.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc41.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc41",
@@ -900,7 +900,7 @@ export const cabinetFilmSwatches = [
     "code": "HC41"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc39.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc39.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc39",
@@ -908,7 +908,7 @@ export const cabinetFilmSwatches = [
     "code": "HC39"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc40.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc40.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc40",
@@ -916,7 +916,7 @@ export const cabinetFilmSwatches = [
     "code": "HC40"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc44.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc44.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc44",
@@ -924,7 +924,7 @@ export const cabinetFilmSwatches = [
     "code": "HC44"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hb17.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hb17.webp",
     "width": 500,
     "height": 500,
     "label": "film-hb17",
@@ -932,7 +932,7 @@ export const cabinetFilmSwatches = [
     "code": "HB17"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc51.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc51.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc51",
@@ -940,7 +940,7 @@ export const cabinetFilmSwatches = [
     "code": "HC51"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc53.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc53.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc53",
@@ -948,7 +948,7 @@ export const cabinetFilmSwatches = [
     "code": "HC53"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc25.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc25.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc25",
@@ -956,7 +956,7 @@ export const cabinetFilmSwatches = [
     "code": "HC25"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hd31.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hd31.webp",
     "width": 500,
     "height": 500,
     "label": "film-hd31",
@@ -964,7 +964,7 @@ export const cabinetFilmSwatches = [
     "code": "HD31"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hd22.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hd22.webp",
     "width": 500,
     "height": 500,
     "label": "film-hd22",
@@ -972,7 +972,7 @@ export const cabinetFilmSwatches = [
     "code": "HD22"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hd23.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hd23.webp",
     "width": 500,
     "height": 500,
     "label": "film-hd23",
@@ -980,7 +980,7 @@ export const cabinetFilmSwatches = [
     "code": "HD23"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hd21.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hd21.webp",
     "width": 500,
     "height": 500,
     "label": "film-hd21",
@@ -988,7 +988,7 @@ export const cabinetFilmSwatches = [
     "code": "HD21"
   },
   {
-    "src": "/images/products/dental-cabinet/g-a3/film-hc20.webp",
+    "src": "https://media.guccidental.com/images/products/dental-cabinet/g-a3/film-hc20.webp",
     "width": 500,
     "height": 500,
     "label": "film-hc20",

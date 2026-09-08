@@ -112,7 +112,7 @@ if (dryRun) {
   process.exit(0);
 }
 
-for (const { filePath, objectKey } of uploads) {
+async function upload({ filePath, objectKey }) {
   await runWithRetry("npx", [
     "--yes",
     "wrangler@4.71.0",
@@ -129,6 +129,14 @@ for (const { filePath, objectKey } of uploads) {
     "public, max-age=31536000, immutable",
   ]);
 }
+
+// Keep large catalogue imports bounded while avoiding one CLI startup at a time.
+let nextUpload = 0;
+await Promise.all(Array.from({ length: Math.min(4, uploads.length) }, async () => {
+  while (nextUpload < uploads.length) {
+    await upload(uploads[nextUpload++]);
+  }
+}));
 
 for (const objectKey of deletedObjectKeys) {
   await runWithRetry("npx", [

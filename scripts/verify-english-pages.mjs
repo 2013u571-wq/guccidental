@@ -12,7 +12,7 @@ for(const p of planned){
  if(/hreflang="(?:es|fr|de|it|pt|ar|ru|ro)"/.test(html))errors.push('Missing translation advertised '+p.path);
  const main=html.match(/<main>([\s\S]*?)<\/main>/)?.[1]||'';
  for(const m of main.matchAll(/(?:href|src)="([^"<>]+)"/g)){
-  const value=m[1];if(!value.startsWith('/')&&!value.startsWith('#'))continue;
+  const value=m[1].replace(/^https:\/\/media\.guccidental\.com(?=\/)/,'');if(!value.startsWith('/')&&!value.startsWith('#'))continue;
   const url=new URL(value,'https://design.guccidental.com'+p.path);
   let target;
   if(url.pathname.startsWith('/en/')){target=path.join(root,'dist',url.pathname,'index.html');links++;}

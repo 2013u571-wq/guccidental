@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check --tsconfig tsconfig.json && astro build",
+    "build": "astro check --tsconfig tsconfig.json && astro build && node scripts/verify-r2-media-build.mjs",
     "preview": "astro preview"
   },
   "dependencies": {
