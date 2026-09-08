@@ -13,8 +13,9 @@ const { product, lang } = Astro.props;
 ---
 
 <article class="flex h-full flex-col rounded-card border border-surface-border bg-white p-4 shadow-card transition hover:border-brand-blue">
-  <div class="aspect-[4/3] rounded-media bg-gradient-to-br from-brand-blueLight to-surface-soft">
-    <div class="flex h-full items-end p-5">
+  <div class="relative overflow-hidden aspect-[4/3] rounded-media bg-gradient-to-br from-brand-blueLight to-surface-soft">
+    {product.image && <img src={product.image.src} alt={product.image.alt} class="absolute inset-0 h-full w-full object-contain bg-white" width="600" height="450" loading="lazy" />}
+    <div class="relative flex h-full items-end p-5">
       <span class="rounded-control bg-white px-3 py-2 text-caption-sm text-brand-blue shadow-soft">{product.model}</span>
     </div>
   </div>

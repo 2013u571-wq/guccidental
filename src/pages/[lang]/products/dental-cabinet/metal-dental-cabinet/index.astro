@@ -1,0 +1,56 @@
+---
+import BaseLayout from '@components/layout/BaseLayout.astro';
+import Button from '@components/ui/Button.astro';
+import InquiryCta from '@components/ui/InquiryCta.astro';
+import { metalDentalCabinets } from '@data/metalDentalCabinetCatalog';
+import { getLanguage, languages, localizedPath } from '@lib/i18n';
+export function getStaticPaths() { return languages.map(language => ({ params: { lang: language.code } })); }
+const lang = getLanguage(Astro.params.lang);
+const cabinets = Object.values(metalDentalCabinets);
+const detailHref = (slug: string) => localizedPath(lang, `/products/dental-cabinet/metal-dental-cabinet/${slug}/`);
+const inquiryHref = (model: string) => localizedPath(lang, `/contact/?message=${encodeURIComponent(`I'm interested in the ${model} dental cabinet.`)}`);
+const seriesNames = ['G-A', 'G-Y', 'MQ-Y', 'TJ-SC', 'TJ-XY', 'XY', 'Y'];
+const groups = seriesNames.map(series => ({
+  series: `${series} Series`,
+  id: `metal-${series.toLowerCase()}`,
+  models: cabinets.filter(product => product.model.match(/^[A-Z-]+/)?.[0] === series).sort((a,b) => a.model.localeCompare(b.model, 'en', {numeric:true})),
+})).filter(group => group.models.length > 0);
+const description = 'Durable metal cabinets for organized storage and efficient treatment-room workflows.';
+---
+<BaseLayout title={`Metal Dental Cabinets — ${cabinets.length} Models`} description={`${description} ${cabinets.length} models available.`} lang={lang} pathname={Astro.url.pathname}>
+  <section class="chair-tier-hero">
+    <div class="container">
+      <nav class="chair-tier-breadcrumb" aria-label="Breadcrumb">
+        <a href={localizedPath(lang, '/products/')}>Products</a><span aria-hidden="true">/</span>
+        <a href={localizedPath(lang, '/products/dental-cabinet/')}>Dental Cabinet</a><span aria-hidden="true">/</span>
+        <span aria-current="page">Metal Cabinet</span>
+      </nav>
+      <p class="chair-tier-eyebrow">Dental Cabinet</p>
+      <h1>Metal Dental Cabinets</h1>
+      <p class="chair-tier-summary">{description} {cabinets.length} models available.</p>
+      <Button href={localizedPath(lang, '/contact/?category=dental-cabinet')}>Ask for Quote</Button>
+      <nav class="tier-switch" aria-label="Dental cabinet categories">
+        <a href={localizedPath(lang, '/products/dental-cabinet/metal-dental-cabinet/')} aria-current="page">Metal Cabinet <span>{cabinets.length}</span></a>
+        <a href={localizedPath(lang, '/products/dental-cabinet/wood/')}>Wood Cabinet</a>
+      </nav>
+    </div>
+  </section>
+  <section class="chair-tier-models">
+    <div class="container">
+      <nav class="tier-series-jump" aria-label="Metal cabinet series"><span class="tier-series-jump-label">Jump to</span>{groups.map(group => <a href={`#${group.id}`}>{group.series}</a>)}</nav>
+      <div class="tier-model-groups">
+        {groups.map(group => <section class="tier-model-group" id={group.id} aria-labelledby={`${group.id}-title`}>
+          <header class="tier-group-head"><h2 id={`${group.id}-title`}>{group.series}</h2><span class="tier-group-count">{group.models.length} {group.models.length === 1 ? 'model' : 'models'}</span><span class="tier-group-rule" aria-hidden="true"></span></header>
+          <div class="tier-group-rows">{group.models.map(product => <article class="tier-model-row">
+            <a class="tier-model-thumb" href={detailHref(product.slug)} aria-label={`View ${product.model}`}>
+              {product.gallery[0] && <img src={product.gallery[0].src} alt={product.gallery[0].alt} width="112" height="86" loading="lazy" decoding="async" />}
+            </a>
+            <div class="tier-model-meta"><a class="tier-model-name" href={detailHref(product.slug)}>{product.model}</a><p>{product.tagline}</p></div>
+            <div class="tier-model-actions"><a class="tier-model-details" href={detailHref(product.slug)}>Details <span aria-hidden="true">→</span></a><a class="tier-model-inquiry" href={inquiryHref(product.model)}>Inquiry</a></div>
+          </article>)}</div>
+        </section>)}
+      </div>
+    </div>
+  </section>
+  <InquiryCta lang={lang} title="Request Metal Dental Cabinets Details" />
+</BaseLayout>

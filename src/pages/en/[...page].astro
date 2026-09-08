@@ -1,0 +1,74 @@
+---
+import BaseLayout from '@components/layout/BaseLayout.astro';
+import Button from '@components/ui/Button.astro';
+import { englishPages, childPages, type EnglishPage, type ContentLink } from '@data/englishPages';
+import { site } from '@data/site';
+import '../../styles/english-pages.css';
+
+export function getStaticPaths() {
+  return englishPages.map(page => ({ params: { page: page.path.slice(1,-1) }, props: { page } }));
+}
+const { page } = Astro.props as { page: EnglishPage };
+const children = childPages(page.path);
+const related:ContentLink[] = [...children.map(p=>({title:p.title,href:'/en'+p.path,summary:p.intro,image:p.image})), ...(page.links||[])];
+const parents = englishPages.filter(p=>p.path!==page.path && page.path.startsWith(p.path)).sort((a,b)=>a.path.length-b.path.length);
+const productParent = page.path.startsWith('/products/') ? page.path.split('/').slice(0,-2).join('/')+'/' : null;
+const productParentTitle = productParent?.split('/').filter(Boolean).at(-1)?.split('-').map(s=>s[0].toUpperCase()+s.slice(1)).join(' ');
+const emailHref = `mailto:${site.email}?subject=${encodeURIComponent(page.title+' enquiry')}`;
+const whatsappHref = `https://wa.me/${site.whatsapp.replace(/\D/g,'')}?text=${encodeURIComponent('Hello, I would like to discuss '+page.title+'.')}`;
+const isService = page.group==='Contact Us' || page.path==='/about/visit-us/';
+const isProduct = page.group==='Products';
+const faq = page.faq || [['How do I start a discussion?','Send your destination, project scope and preferred schedule. Add a floor plan or model list if available.'],['Where can I find product documents?','The Resources section includes available catalogues and manuals. Contact us for model-specific documents not listed there.']];
+---
+<BaseLayout title={page.title} description={page.intro} lang="en" pathname={'/en'+page.path} bodyClass="english-content-shell">
+  <article class="english-content-page">
+    <section class="ec-hero">
+      <div class="container">
+        <nav class="ec-breadcrumb" aria-label="Breadcrumb">
+          <a href="/en/">Home</a><span aria-hidden="true">/</span>
+          {isProduct && <><a href="/en/products/">Products</a><span aria-hidden="true">/</span><a href={'/en'+productParent}>{productParentTitle}</a><span aria-hidden="true">/</span></>}
+          {parents.map(p=><><a href={'/en'+p.path}>{p.title}</a><span aria-hidden="true">/</span></>)}
+          {page.group==='Contact Us' && <><a href="/en/contact/">Contact Us</a><span aria-hidden="true">/</span></>}
+          <span aria-current="page">{page.title}</span>
+        </nav>
+        <div class="ec-hero-grid">
+          <div class="ec-hero-copy">
+            <p class="eyebrow">{page.group}</p>
+            <h1>{page.title}</h1>
+            <p class="ec-lead">{page.intro}</p>
+            <div class="ec-actions"><Button href="#enquiry">{isService?'Contact the team':isProduct?'Request product details':'Discuss your project'}</Button><a class="ec-text-link" href={page.downloads?'#downloads':'#explore'}>{page.downloads?'Browse PDF documents':'Explore '+(related.length?'options':'details')} <span aria-hidden="true">↓</span></a></div>
+          </div>
+          <figure class:list={['ec-hero-media',isProduct && 'ec-product-media']}><img src={page.image} alt={page.imageAlt} width="800" height="600" loading="eager" fetchpriority="high" decoding="async" /></figure>
+        </div>
+      </div>
+    </section>
+
+    {related.length>0 && <section class="ec-section" id="explore"><div class="container">
+      <div class="ec-section-heading"><p class="eyebrow">{children.length?'Explore '+page.title:'Related information'}</p><h2>{children.length?'Choose your area of interest':'Continue exploring'}</h2></div>
+      <div class="ec-card-grid">{related.map(item=><a class="ec-card" href={item.href}>
+        {item.image && <div class="ec-card-image"><img src={item.image} alt={item.title} width="600" height="400" loading="lazy" decoding="async" /></div>}
+        <div class="ec-card-copy"><h3>{item.title}</h3>{item.summary && <p>{item.summary}</p>}<span class="ec-text-link">Explore <span aria-hidden="true">→</span></span></div>
+      </a>)}</div>
+    </div></section>}
+
+    <section class:list={['ec-section',related.length>0 && 'ec-soft']} id={related.length?'planning':'explore'}><div class="container ec-guidance">
+      <div><p class="eyebrow">{isProduct?'Selection guide':isService?'Before you contact us':'Planning essentials'}</p><h2>{page.heading}</h2>{page.notice && <p class="ec-notice">{page.notice}</p>}</div>
+      <div class="ec-points">{page.points.map(([title,body])=><div class="ec-point"><h3>{title}</h3><p>{body}</p></div>)}</div>
+    </div></section>
+
+    {page.downloads && <section class="ec-section ec-soft" id="downloads"><div class="container">
+      <div class="ec-section-heading"><p class="eyebrow">Document library</p><h2>Available PDF documents</h2><p>Open a document to view or save a copy. Confirm specifications against your final quotation.</p></div>
+      <div class="ec-downloads">{page.downloads.map(file=><a href={file.href} target="_blank" rel="noopener noreferrer"><span class="ec-file-type">PDF</span><span>{file.title}<small>Opens in a new tab</small></span><span aria-hidden="true">↗</span></a>)}</div>
+    </div></section>}
+
+    <section class:list={['ec-section',!page.downloads && !related.length && 'ec-soft']}><div class="container ec-guidance">
+      <div><p class="eyebrow">Questions</p><h2>{isProduct?'Product enquiry questions':'Useful information'}</h2></div>
+      <div class="ec-faq">{faq.map(([question,answer])=><details><summary>{question}</summary><p>{answer}</p></details>)}</div>
+    </div></section>
+
+    <section class="ec-section ec-soft" id="enquiry"><div class="container ec-contact">
+      <div><p class="eyebrow">Talk to Guccidental</p><h2>{isService?'Send your '+(page.path.includes('dealer')?'company introduction':'request'):'Discuss '+page.title.toLowerCase()+' with our team'}</h2><p>Share your requirements, destination country and preferred schedule. Include model names or room dimensions where relevant.</p><div class="ec-actions"><Button href={emailHref}>Email your enquiry</Button><a class="ec-text-link" href={whatsappHref} target="_blank" rel="noopener noreferrer">WhatsApp <span aria-hidden="true">↗</span></a></div></div>
+      <aside><p class="eyebrow">Direct contact</p><a href={emailHref}>{site.email}</a><a href={whatsappHref} target="_blank" rel="noopener noreferrer">{site.whatsapp}</a><p>{site.address}</p><small>Email opens your mail app. You can attach your drawings, photos or equipment list before sending.</small></aside>
+    </div></section>
+  </article>
+</BaseLayout>

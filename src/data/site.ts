@@ -24,7 +24,7 @@ export const mainNavigation = [
 export const utilityNavigation = [
   { label: "Solutions", href: "/solutions/" },
   { label: "Resources", href: "/resources/" },
-  { label: "News", href: "/resources/news/" }
+  { label: "News", href: "/news/" }
 ];
 
 export const footerGroups = [
@@ -42,7 +42,7 @@ export const footerGroups = [
     links: [
       { label: "New Clinic", href: "/solutions/new-clinic/" },
       { label: "Clinic Renovation", href: "/solutions/clinic-renovation/" },
-      { label: "Chair Replacement", href: "/solutions/clinic-renovation/" },
+      { label: "Chair Replacement", href: "/solutions/clinic-upgrade/" },
       { label: "Solutions", href: "/solutions/" }
     ]
   },

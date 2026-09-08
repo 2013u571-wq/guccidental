@@ -1,3 +1,5 @@
+import { englishOnlyPaths } from '@data/englishPages';
+
 export const languages = [
   { code: "en", label: "English", dir: "ltr" },
   { code: "es", label: "Español", dir: "ltr" },
@@ -41,6 +43,9 @@ export function withoutLanguage(pathname: string): string {
 
 export function alternateLinks(pathname: string) {
   const routePath = withoutLanguage(pathname);
+  if (englishOnlyPaths.has(routePath.replace(/\/$/, '') + '/')) {
+    return [{ lang: 'en', href: localizedPath('en', routePath) }];
+  }
   return languages.map((language) => ({
     lang: language.code,
     href: localizedPath(language.code, routePath)

@@ -1,0 +1,33 @@
+---
+import { gA3, cabinetFilmSwatches } from '@data/metalDentalCabinetDetails';
+import type { HighEndDentalChairDetail } from '@data/highEndDentalChairDetails';
+interface Props { product?: HighEndDentalChairDetail }
+const { product = gA3 } = Astro.props;
+---
+<article class="b100-color-feature" id="colors">
+  <header><span class="b100-eyebrow">Color and material</span><h3>{product.colorHeading}</h3><p>{product.colorIntroduction}</p></header>
+  <div class="b100-content-narrow">
+    <div class="cabinet-swatches" aria-label="Standard cabinet finish swatches">
+      {product.colors.map(color => <figure><img src={color.swatch} alt={color.alt} width="500" height="500" loading="lazy" /><figcaption>{color.name}</figcaption></figure>)}
+    </div>
+    <div class="cabinet-color-actions">
+    <p class="cabinet-color-note">For additional colors, please refer to the latest laminated finish collection color chart.</p>
+    <a class="b100-btn b100-btn-secondary" href="/images/products/dental-cabinet/g-a3/cabinet-color-chart.pdf" download>Download Color Chart PDF</a>
+    </div>
+    <details class="cabinet-film-colors">
+      <summary>View all {cabinetFilmSwatches.length} PDF color codes</summary>
+      <div class="cabinet-swatches cabinet-swatches-film">{cabinetFilmSwatches.map(color => <figure><img src={color.src} alt={`${color.code} film finish swatch`} width={color.width} height={color.height} loading="lazy" /><figcaption>{color.code}</figcaption></figure>)}</div>
+    </details>
+  </div>
+</article>
+<style>
+  .cabinet-swatches { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:20px; margin:28px 0; }
+  .cabinet-swatches figure { margin:0; min-width:0; }
+  .cabinet-swatches img { display:block; width:100%; aspect-ratio:1; object-fit:cover; border:1px solid #e3e8ec; border-radius:8px; }
+  .cabinet-swatches figcaption { text-align:center; margin-top:10px; font-size:14px; color:#243846; }
+  .cabinet-color-actions { text-align:center; }
+  .cabinet-color-note { margin:24px 0 18px; color:#52616b; line-height:1.8; }
+  .cabinet-film-colors { margin-top:30px; border-top:1px solid #e0e6eb; padding-top:20px; }
+  summary { width:fit-content; margin-inline:auto; text-align:center; cursor:pointer; color:#214e6d; font-weight:500; padding:8px 0; }
+  @media(max-width:640px) { .cabinet-swatches { grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; } }
+</style>

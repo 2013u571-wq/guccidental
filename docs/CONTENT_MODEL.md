@@ -1,5 +1,15 @@
 # Guccidental Content Model
 
+## Implementation snapshot — 2026-09-07
+
+This document defines the target CMS model. Current product pages use local TypeScript/JSON data and Astro templates; the model below should not be interpreted as proof that every CMS workflow or page is implemented.
+
+- Dental Chair source content for the current phase is complete, as confirmed by the client. The current catalog contains 43 model entries and 40 independent detail pages (7 Economic, 16 Mid-range, 17 High-end). H3, BZ636 and TJ-SA1 are catalog-only entries without independent URLs.
+- Dental Cabinet now includes Metal Cabinet and the completed G-A3 detail. Its implemented parent slug is `dental-cabinet/metal-dental-cabinet`, and its product slug is `g-a3`; the old proposed `dental-cabinet/metal` route is not generated.
+- G-A3 demonstrates a separate swatch-only finish presentation: 6 standard finish swatches, 84 additional PDF codes, and a color-chart download. Its general resources contain only the 2 supplied cabinet catalogs; color-chart downloads belong to the colors section. Its case array retains 2 text entries, presented together on the right of one client-supplied scene image; mobile stacks the image above the text.
+- Actual URL inventory is based on the current build, including 9 locale prefixes. Non-English routes currently use English fallback; the target translation rules below remain pending implementation/review.
+- See `CLIENT_CONTENT_STRUCTURE.md` for current completion status and the exported URL workbook for parent/child relationships and planned versus generated routes.
+
 ## 1. Purpose
 
 This document defines how Guccidental content should be structured in Sanity and consumed by the Astro frontend.

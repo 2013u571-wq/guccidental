@@ -1,5 +1,6 @@
 ---
 import { languages, localizedPath, withoutLanguage, type LanguageCode } from "@lib/i18n";
+import { englishOnlyPaths } from '@data/englishPages';
 
 type Props = {
   lang: LanguageCode;
@@ -8,6 +9,7 @@ type Props = {
 
 const { lang, id = "language-switcher" } = Astro.props;
 const routePath = withoutLanguage(Astro.url.pathname);
+const englishOnly = englishOnlyPaths.has(routePath.replace(/\/$/, '') + '/');
 ---
 
 <label class="sr-only" for={id}>Language</label>
@@ -18,7 +20,7 @@ const routePath = withoutLanguage(Astro.url.pathname);
 >
   {
     languages.map((language) => (
-      <option value={localizedPath(language.code, routePath)} selected={language.code === lang}>
+      <option value={localizedPath(language.code, englishOnly && language.code !== 'en' ? '/' : routePath)} selected={language.code === lang}>
         {language.code.toUpperCase()}
       </option>
     ))

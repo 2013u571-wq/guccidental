@@ -7,6 +7,7 @@ type Props = {
 };
 
 const { lang } = Astro.props;
+const visibleGroups = footerGroups.map(group => group.title === 'Support' && lang === 'en' ? {...group, links: [...group.links, {label:'Become a Dealer', href:'/contact/become-a-dealer/'}, {label:'Local Technical Engineer', href:'/contact/local-technical-engineer/'}]} : group);
 ---
 
 <footer class="site-footer">
@@ -25,7 +26,7 @@ const { lang } = Astro.props;
     </div>
     <div class="footer-groups footer-groups--desktop grid gap-8 sm:grid-cols-3">
       {
-        footerGroups.map((group) => (
+        visibleGroups.map((group) => (
           <div>
             <h2 class="footer-heading">{group.title}</h2>
             <ul class="footer-links">
@@ -43,7 +44,7 @@ const { lang } = Astro.props;
     </div>
     <div class="footer-groups footer-groups--mobile">
       {
-        footerGroups.map((group) => (
+        visibleGroups.map((group) => (
           <details class="footer-mobile-group">
             <summary>{group.title}<span aria-hidden="true"></span></summary>
             <ul class="footer-links">

@@ -1,0 +1,16 @@
+---
+import HighEndDentalChairDetail from '@components/products/HighEndDentalChairDetail.astro';
+import CabinetColors from '@components/products/CabinetColors.astro';
+import CabinetCase from '@components/products/CabinetCase.astro';
+import { metalDentalCabinets } from '@data/metalDentalCabinetCatalog';
+import { getLanguage, languages } from '@lib/i18n';
+export function getStaticPaths() {
+  return languages.flatMap(language => Object.keys(metalDentalCabinets).filter(slug => slug !== 'g-a3').map(product => ({params:{lang:language.code,product}})));
+}
+const lang = getLanguage(Astro.params.lang);
+const product = metalDentalCabinets[String(Astro.params.product)];
+---
+<HighEndDentalChairDetail lang={lang} product={product} cabinet>
+  <CabinetColors slot="colors" product={product} />
+  <CabinetCase slot="case" product={product} />
+</HighEndDentalChairDetail>

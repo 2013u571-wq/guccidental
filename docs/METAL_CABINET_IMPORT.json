@@ -1,0 +1,254 @@
+[
+  {
+    "model": "G-A111",
+    "sourceFolder": "G-A111",
+    "galleryImages": 7,
+    "caseImages": 1,
+    "slug": "g-a111"
+  },
+  {
+    "model": "G-A112",
+    "sourceFolder": "G-A112",
+    "galleryImages": 2,
+    "caseImages": 1,
+    "slug": "g-a112"
+  },
+  {
+    "model": "G-A113",
+    "sourceFolder": "G-A113",
+    "galleryImages": 5,
+    "caseImages": 0,
+    "slug": "g-a113"
+  },
+  {
+    "model": "G-A114",
+    "sourceFolder": "G-A114",
+    "galleryImages": 3,
+    "caseImages": 0,
+    "slug": "g-a114"
+  },
+  {
+    "model": "G-A115",
+    "sourceFolder": "G-A115",
+    "galleryImages": 6,
+    "caseImages": 0,
+    "slug": "g-a115"
+  },
+  {
+    "model": "G-A9",
+    "sourceFolder": "G-A9",
+    "galleryImages": 4,
+    "caseImages": 1,
+    "slug": "g-a9"
+  },
+  {
+    "model": "G-Y002A",
+    "sourceFolder": "G-Y002A",
+    "galleryImages": 8,
+    "caseImages": 0,
+    "slug": "g-y002a"
+  },
+  {
+    "model": "G-Y003C",
+    "sourceFolder": "G-Y003C",
+    "galleryImages": 7,
+    "caseImages": 0,
+    "slug": "g-y003c"
+  },
+  {
+    "model": "G-Y006A",
+    "sourceFolder": "G-Y006A",
+    "galleryImages": 5,
+    "caseImages": 0,
+    "slug": "g-y006a"
+  },
+  {
+    "model": "G-Y006D",
+    "sourceFolder": "G-Y006D",
+    "galleryImages": 6,
+    "caseImages": 0,
+    "slug": "g-y006d"
+  },
+  {
+    "model": "G-Y007A",
+    "sourceFolder": "G-Y007A",
+    "galleryImages": 5,
+    "caseImages": 0,
+    "slug": "g-y007a"
+  },
+  {
+    "model": "G-Y007C",
+    "sourceFolder": "G-Y007C",
+    "galleryImages": 5,
+    "caseImages": 0,
+    "slug": "g-y007c"
+  },
+  {
+    "model": "G-Y009",
+    "sourceFolder": "G-Y009",
+    "galleryImages": 2,
+    "caseImages": 0,
+    "slug": "g-y009"
+  },
+  {
+    "model": "G-Y009D",
+    "sourceFolder": "G-Y009D",
+    "galleryImages": 9,
+    "caseImages": 0,
+    "slug": "g-y009d"
+  },
+  {
+    "model": "G-Y010C",
+    "sourceFolder": "G-Y010C",
+    "galleryImages": 9,
+    "caseImages": 0,
+    "slug": "g-y010c"
+  },
+  {
+    "model": "G-Y013",
+    "sourceFolder": "G-Y013",
+    "galleryImages": 5,
+    "caseImages": 0,
+    "slug": "g-y013"
+  },
+  {
+    "model": "G-Y018A",
+    "sourceFolder": "G-Y018A",
+    "galleryImages": 6,
+    "caseImages": 0,
+    "slug": "g-y018a"
+  },
+  {
+    "model": "G-Y024A",
+    "sourceFolder": "G-Y024A",
+    "galleryImages": 8,
+    "caseImages": 0,
+    "slug": "g-y024a"
+  },
+  {
+    "model": "G-Y028A",
+    "sourceFolder": "G-Y028A",
+    "galleryImages": 6,
+    "caseImages": 0,
+    "slug": "g-y028a"
+  },
+  {
+    "model": "G-Y107B",
+    "sourceFolder": "G-Y107B",
+    "galleryImages": 10,
+    "caseImages": 0,
+    "slug": "g-y107b"
+  },
+  {
+    "model": "MQ-Y001A",
+    "sourceFolder": "MQ-Y001A",
+    "galleryImages": 9,
+    "caseImages": 0,
+    "slug": "mq-y001a"
+  },
+  {
+    "model": "MQ-Y009B",
+    "sourceFolder": "MQ-Y009B移动柜2",
+    "galleryImages": 8,
+    "caseImages": 0,
+    "slug": "mq-y009b"
+  },
+  {
+    "model": "MQ-Y01",
+    "sourceFolder": "MQ-Y01(小猪佩奇款）",
+    "galleryImages": 3,
+    "caseImages": 0,
+    "slug": "mq-y01"
+  },
+  {
+    "model": "MQ-Y013B",
+    "sourceFolder": "MQ-Y013B",
+    "galleryImages": 4,
+    "caseImages": 0,
+    "slug": "mq-y013b"
+  },
+  {
+    "model": "MQ-Y023",
+    "sourceFolder": "MQ-Y023",
+    "galleryImages": 8,
+    "caseImages": 0,
+    "slug": "mq-y023"
+  },
+  {
+    "model": "MQ-Y024",
+    "sourceFolder": "MQ-Y024",
+    "galleryImages": 7,
+    "caseImages": 0,
+    "slug": "mq-y024"
+  },
+  {
+    "model": "MQ-Y032",
+    "sourceFolder": "MQ-Y032",
+    "galleryImages": 4,
+    "caseImages": 1,
+    "slug": "mq-y032"
+  },
+  {
+    "model": "TJ-SC01",
+    "sourceFolder": "TJ-SC01",
+    "galleryImages": 4,
+    "caseImages": 0,
+    "slug": "tj-sc01"
+  },
+  {
+    "model": "TJ-SC02",
+    "sourceFolder": "TJ-SC02",
+    "galleryImages": 10,
+    "caseImages": 0,
+    "slug": "tj-sc02"
+  },
+  {
+    "model": "TJ-SC03",
+    "sourceFolder": "TJ-SC03",
+    "galleryImages": 9,
+    "caseImages": 0,
+    "slug": "tj-sc03"
+  },
+  {
+    "model": "TJ-SC04",
+    "sourceFolder": "TJ-SC04",
+    "galleryImages": 0,
+    "caseImages": 0,
+    "slug": "tj-sc04"
+  },
+  {
+    "model": "TJ-XY08",
+    "sourceFolder": "TJ-XY08",
+    "galleryImages": 1,
+    "caseImages": 0,
+    "slug": "tj-xy08"
+  },
+  {
+    "model": "TJ-XY09",
+    "sourceFolder": "TJ-XY09",
+    "galleryImages": 2,
+    "caseImages": 0,
+    "slug": "tj-xy09"
+  },
+  {
+    "model": "XY07",
+    "sourceFolder": "XY07",
+    "galleryImages": 7,
+    "caseImages": 0,
+    "slug": "xy07"
+  },
+  {
+    "model": "XY08",
+    "sourceFolder": "XY08",
+    "galleryImages": 9,
+    "caseImages": 0,
+    "slug": "xy08"
+  },
+  {
+    "model": "Y031C",
+    "sourceFolder": "Y031C",
+    "galleryImages": 3,
+    "caseImages": 0,
+    "slug": "y031c"
+  }
+]

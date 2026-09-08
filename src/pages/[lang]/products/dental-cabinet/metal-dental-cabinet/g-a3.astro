@@ -1,0 +1,13 @@
+---
+import HighEndDentalChairDetail from '@components/products/HighEndDentalChairDetail.astro';
+import CabinetCase from '@components/products/CabinetCase.astro';
+import CabinetColors from '@components/products/CabinetColors.astro';
+import { gA3 } from '@data/metalDentalCabinetDetails';
+import { getLanguage, languages } from '@lib/i18n';
+export function getStaticPaths() { return languages.map(language => ({ params: { lang: language.code } })); }
+const lang = getLanguage(Astro.params.lang);
+---
+<HighEndDentalChairDetail lang={lang} product={gA3} cabinet>
+  <CabinetColors slot="colors" />
+  <CabinetCase slot="case" />
+</HighEndDentalChairDetail>

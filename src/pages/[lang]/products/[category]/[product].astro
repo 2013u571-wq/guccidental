@@ -9,7 +9,7 @@ import { getLanguage, languages, localizedPath } from "@lib/i18n";
 
 export function getStaticPaths() {
   return languages.flatMap((language) =>
-    products.map((product) => ({
+    products.filter((product) => product.slug !== "metal-dental-cabinet").map((product) => ({
       params: { lang: language.code, category: product.category, product: product.slug }
     }))
   );

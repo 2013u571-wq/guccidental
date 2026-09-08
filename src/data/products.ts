@@ -13,6 +13,7 @@ export type Product = {
   model: string;
   title: string;
   category: string;
+  image?: { src: string; alt: string };
   chairTier?: "economic" | "mid-range" | "high-end";
   summary: string;
   highlights: string[];
@@ -154,6 +155,7 @@ export const products: Product[] = [
   {
     slug: "metal-dental-cabinet",
     model: "Metal Cabinet",
+    image: { src: "/images/products/dental-cabinet/g-a3/gallery-1.webp", alt: "G-A3 mobile metal dental cabinet" },
     title: "Metal Dental Cabinet",
     category: "dental-cabinet",
     summary: "Durable metal cabinet system for clinical storage and efficient treatment-room workflows.",

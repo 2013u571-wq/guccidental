@@ -6,6 +6,7 @@ import FactoryProof from "@components/ui/FactoryProof.astro";
 import ProductCard from "@components/ui/ProductCard.astro";
 import SectionHeader from "@components/ui/SectionHeader.astro";
 import { categories, getCategory, getProductsByCategory } from "@data/products";
+import { childPages } from '@data/englishPages';
 import { getLanguage, languages, localizedPath } from "@lib/i18n";
 
 export function getStaticPaths() {
@@ -25,6 +26,7 @@ if (!category) {
 }
 
 const categoryProducts = getProductsByCategory(category.slug);
+const plannedChildren = lang === 'en' ? childPages(`/products/${category.slug}/`) : [];
 const isDentalChair = category.slug === "dental-chair";
 type ChairShowcaseItem = {
   model: string;
@@ -171,8 +173,9 @@ const partnerTiles = [
               <span class="arrow" aria-hidden="true">→</span>
             </a>
           </>
-        ) : categoryProducts.length > 0 ? <div class="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">{categoryProducts.map((product) => <ProductCard product={product} lang={lang} />)}</div> : <p class="mt-10 text-body-md text-ink-secondary">Product entries are ready to be connected from Sanity for this category.</p>
+        ) : categoryProducts.length > 0 ? <div class="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">{categoryProducts.map((product) => <ProductCard product={product} lang={lang} />)}</div> : plannedChildren.length === 0 && <p class="mt-10 text-body-md text-ink-secondary">Product entries are ready to be connected from Sanity for this category.</p>
       }
+      {plannedChildren.length > 0 && <div class="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-3">{plannedChildren.map(child => <a href={'/en'+child.path} class="overflow-hidden rounded-card border border-surface-border bg-white transition hover:border-brand-blue"><img src={child.image} alt={child.imageAlt} width="600" height="400" loading="lazy" class="aspect-[3/2] w-full object-contain"/><div class="p-6"><h2 class="text-heading-lg">{child.title}</h2><p class="mt-3 text-body-sm text-ink-secondary">{child.intro}</p><span class="mt-5 inline-block text-brand-blue">Explore category →</span></div></a>)}</div>}
     </div>
   </section>
 
