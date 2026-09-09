@@ -122,9 +122,15 @@ const modelGroups = Array.from(
               <div class="tier-group-rows">
                 {
                   group.models.map((model) => {
+                    const Thumbnail = model.detailHref ? "a" : "div";
                     return (
                       <article class="tier-model-row">
-                        <div class="tier-model-thumb" aria-hidden="true">
+                        <Thumbnail
+                          class="tier-model-thumb"
+                          href={model.detailHref}
+                          aria-label={model.detailHref ? `View ${model.model} details` : undefined}
+                          aria-hidden={model.detailHref ? undefined : "true"}
+                        >
                           {model.thumb ? (
                             <img src={model.thumb.src} alt="" width="112" height="86" loading="lazy" decoding="async" />
                           ) : (
@@ -146,7 +152,7 @@ const modelGroups = Array.from(
                               <span>Photo</span>
                             </>
                           )}
-                        </div>
+                        </Thumbnail>
 
                         <div class="tier-model-meta">
                           {
