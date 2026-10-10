@@ -152,7 +152,7 @@ const standardFaq = (model: string, _positioning?: string) => [
   { question: "Which gallery materials were collected?", answer: "The hero folder contains formal product images selected from main-image or product-image source folders where available." },
   { question: "Can the upholstery colors be published directly?", answer: "Use the collected color-card files as the basis, then confirm final color names and availability before publishing." },
   { question: "What warranty should be shown?", answer: "All dental chair warranty copy should be listed as 2 years." },
-  { question: "What specifications still need checking?", answer: "Any field marked To confirm in the technical specification sheet should be verified against the supplier before publishing." },
+  { question: "Which specifications should I confirm before ordering?", answer: "Ask the team to verify the electrical requirements, selected chair configuration, upholstery availability, and shipping dimensions for your order." },
 ];
 
 export const midRangeDentalChairDetails: Record<string, HighEndDentalChairDetail> = {

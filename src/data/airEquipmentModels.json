@@ -1,0 +1,4662 @@
+[
+  {
+    "model": "AIR 100-AIR 1000",
+    "slug": "air-100-air-1000",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/air-100-air-1000/air-100-air-1000-gallery-01.webp",
+      "/images/products/air-equipment/air-100-air-1000/air-100-air-1000-gallery-02.webp",
+      "/images/products/air-equipment/air-100-air-1000/air-100-air-1000-gallery-03.webp",
+      "/images/products/air-equipment/air-100-air-1000/air-100-air-1000-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/air-100-air-1000/air-100-air-1000-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "AIR 100-AIR 1000"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GA-1610",
+    "slug": "ga-1610",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": true,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/ga-1610/ga-1610-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/ga-1610/ga-1610-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "GA-1610一拖50空压机"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GA-163X",
+    "slug": "ga-163x",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": true,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [],
+    "thumbnail": null,
+    "specs": [
+      {
+        "label": "Model",
+        "value": "GA-163X"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "KY-1EW",
+    "slug": "ky-1ew",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/ky-1ew/ky-1ew-gallery-01.webp",
+      "/images/products/air-equipment/ky-1ew/ky-1ew-gallery-02.webp",
+      "/images/products/air-equipment/ky-1ew/ky-1ew-gallery-03.webp",
+      "/images/products/air-equipment/ky-1ew/ky-1ew-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/ky-1ew/ky-1ew-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "KY-1EW"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "KY-2EW",
+    "slug": "ky-2ew",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/ky-2ew/ky-2ew-gallery-01.webp",
+      "/images/products/air-equipment/ky-2ew/ky-2ew-gallery-02.webp",
+      "/images/products/air-equipment/ky-2ew/ky-2ew-gallery-03.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/ky-2ew/ky-2ew-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "KY-2EW"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "KY-3EW",
+    "slug": "ky-3ew",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/ky-3ew/ky-3ew-gallery-01.webp",
+      "/images/products/air-equipment/ky-3ew/ky-3ew-gallery-02.webp",
+      "/images/products/air-equipment/ky-3ew/ky-3ew-gallery-03.webp",
+      "/images/products/air-equipment/ky-3ew/ky-3ew-gallery-04.webp",
+      "/images/products/air-equipment/ky-3ew/ky-3ew-gallery-05.webp",
+      "/images/products/air-equipment/ky-3ew/ky-3ew-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/ky-3ew/ky-3ew-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "KY-3EW"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "KY-4EW",
+    "slug": "ky-4ew",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": true,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/ky-4ew/ky-4ew-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/ky-4ew/ky-4ew-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "KY-4EW"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "KY-5EW",
+    "slug": "ky-5ew",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/ky-5ew/ky-5ew-gallery-01.webp",
+      "/images/products/air-equipment/ky-5ew/ky-5ew-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/ky-5ew/ky-5ew-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "KY-5EW"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "KY-6EW",
+    "slug": "ky-6ew",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/ky-6ew/ky-6ew-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/ky-6ew/ky-6ew-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "KY-6EW"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "TJ-1500x",
+    "slug": "tj-1500x",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/tj-1500x/tj-1500x-gallery-01.webp",
+      "/images/products/air-equipment/tj-1500x/tj-1500x-gallery-02.webp",
+      "/images/products/air-equipment/tj-1500x/tj-1500x-gallery-03.webp",
+      "/images/products/air-equipment/tj-1500x/tj-1500x-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/tj-1500x/tj-1500x-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-1500x"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "TJ-PRO(10)",
+    "slug": "tj-pro-10",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/tj-pro-10/tj-pro-10-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/tj-pro-10/tj-pro-10-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-PRO(10)"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "PRO(10)",
+    "slug": "pro-10",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/pro-10/pro-10-gallery-01.webp",
+      "/images/products/air-equipment/pro-10/pro-10-gallery-02.webp",
+      "/images/products/air-equipment/pro-10/pro-10-gallery-03.webp",
+      "/images/products/air-equipment/pro-10/pro-10-gallery-04.webp",
+      "/images/products/air-equipment/pro-10/pro-10-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/pro-10/pro-10-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "吸式真空泵PRO(拖十)"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GA-163",
+    "slug": "ga-163",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/ga-163/ga-163-gallery-01.webp",
+      "/images/products/air-equipment/ga-163/ga-163-gallery-02.webp",
+      "/images/products/air-equipment/ga-163/ga-163-gallery-03.webp",
+      "/images/products/air-equipment/ga-163/ga-163-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/ga-163/ga-163-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "空压机GA-163"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GA-165XY",
+    "slug": "ga-165xy",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/ga-165xy/ga-165xy-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/ga-165xy/ga-165xy-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "空压机GA-165XY(带消音箱、干燥器）"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GA-61",
+    "slug": "ga-61",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/ga-61/ga-61-gallery-01.webp",
+      "/images/products/air-equipment/ga-61/ga-61-gallery-02.webp",
+      "/images/products/air-equipment/ga-61/ga-61-gallery-03.webp",
+      "/images/products/air-equipment/ga-61/ga-61-gallery-04.webp",
+      "/images/products/air-equipment/ga-61/ga-61-gallery-05.webp",
+      "/images/products/air-equipment/ga-61/ga-61-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/ga-61/ga-61-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "空压机GA-61"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GA-62",
+    "slug": "ga-62",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/ga-62/ga-62-gallery-01.webp",
+      "/images/products/air-equipment/ga-62/ga-62-gallery-02.webp",
+      "/images/products/air-equipment/ga-62/ga-62-gallery-03.webp",
+      "/images/products/air-equipment/ga-62/ga-62-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/ga-62/ga-62-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "空压机GA-62"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GA-63",
+    "slug": "ga-63",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/ga-63/ga-63-gallery-01.webp",
+      "/images/products/air-equipment/ga-63/ga-63-gallery-02.webp",
+      "/images/products/air-equipment/ga-63/ga-63-gallery-03.webp",
+      "/images/products/air-equipment/ga-63/ga-63-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/ga-63/ga-63-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "空压机GA-63"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GA-64",
+    "slug": "ga-64",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/ga-64/ga-64-gallery-01.webp",
+      "/images/products/air-equipment/ga-64/ga-64-gallery-02.webp",
+      "/images/products/air-equipment/ga-64/ga-64-gallery-03.webp",
+      "/images/products/air-equipment/ga-64/ga-64-gallery-04.webp",
+      "/images/products/air-equipment/ga-64/ga-64-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/ga-64/ga-64-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "空压机GA-64"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GA-81",
+    "slug": "ga-81",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/ga-81/ga-81-gallery-01.webp",
+      "/images/products/air-equipment/ga-81/ga-81-gallery-02.webp",
+      "/images/products/air-equipment/ga-81/ga-81-gallery-03.webp",
+      "/images/products/air-equipment/ga-81/ga-81-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/ga-81/ga-81-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "空压机GA-81"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GA-82",
+    "slug": "ga-82",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/ga-82/ga-82-gallery-01.webp",
+      "/images/products/air-equipment/ga-82/ga-82-gallery-02.webp",
+      "/images/products/air-equipment/ga-82/ga-82-gallery-03.webp",
+      "/images/products/air-equipment/ga-82/ga-82-gallery-04.webp",
+      "/images/products/air-equipment/ga-82/ga-82-gallery-05.webp",
+      "/images/products/air-equipment/ga-82/ga-82-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/ga-82/ga-82-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "空压机GA-82"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GA-83",
+    "slug": "ga-83",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/ga-83/ga-83-gallery-01.webp",
+      "/images/products/air-equipment/ga-83/ga-83-gallery-02.webp",
+      "/images/products/air-equipment/ga-83/ga-83-gallery-03.webp",
+      "/images/products/air-equipment/ga-83/ga-83-gallery-04.webp",
+      "/images/products/air-equipment/ga-83/ga-83-gallery-05.webp",
+      "/images/products/air-equipment/ga-83/ga-83-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/ga-83/ga-83-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "空压机GA-83"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GA-84",
+    "slug": "ga-84",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/ga-84/ga-84-gallery-01.webp",
+      "/images/products/air-equipment/ga-84/ga-84-gallery-02.webp",
+      "/images/products/air-equipment/ga-84/ga-84-gallery-03.webp",
+      "/images/products/air-equipment/ga-84/ga-84-gallery-04.webp",
+      "/images/products/air-equipment/ga-84/ga-84-gallery-05.webp",
+      "/images/products/air-equipment/ga-84/ga-84-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/ga-84/ga-84-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "空压机GA-84"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GA-85",
+    "slug": "ga-85",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/ga-85/ga-85-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/ga-85/ga-85-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "空压机GA-85"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GA-P300",
+    "slug": "ga-p300",
+    "group": "Air Compressor",
+    "groupSlug": "air-compressor",
+    "hidden": false,
+    "subtitle": "Dental air compressor",
+    "summary": "Provides stable clean air supply for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/ga-p300/ga-p300-gallery-01.webp",
+      "/images/products/air-equipment/ga-p300/ga-p300-gallery-02.webp",
+      "/images/products/air-equipment/ga-p300/ga-p300-gallery-03.webp",
+      "/images/products/air-equipment/ga-p300/ga-p300-gallery-04.webp",
+      "/images/products/air-equipment/ga-p300/ga-p300-gallery-05.webp",
+      "/images/products/air-equipment/ga-p300/ga-p300-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/ga-p300/ga-p300-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "空压机GA-P300"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental air compressor"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Clean Air Supply",
+        "description": "Designed to provide stable compressed air for dental units."
+      },
+      {
+        "title": "Oil-Free Workflow",
+        "description": "Suitable for clinics that require cleaner air delivery and easier maintenance."
+      },
+      {
+        "title": "Low-Noise Option",
+        "description": "Soundproof-box materials can support quieter equipment-room operation where available."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm how many dental chairs the compressor can support."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "AEOLUS-370X",
+    "slug": "aeolus-370x",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/aeolus-370x/aeolus-370x-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/aeolus-370x/aeolus-370x-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "AEOLUS-370X"
+      },
+      {
+        "label": "Product type",
+        "value": "Portable dental suction unit"
+      },
+      {
+        "label": "Suction flow",
+        "value": "Approx. 300 L/min"
+      },
+      {
+        "label": "Voltage",
+        "value": "220V"
+      },
+      {
+        "label": "Max vacuum",
+        "value": "-12 Kpa"
+      },
+      {
+        "label": "Vacuum pump speed",
+        "value": "2800 r/min"
+      },
+      {
+        "label": "Collection bottle",
+        "value": "2L"
+      },
+      {
+        "label": "Drainage",
+        "value": "One-button automatic drainage"
+      },
+      {
+        "label": "Filter",
+        "value": "Solid particle filter"
+      },
+      {
+        "label": "Mobility",
+        "value": "Silent universal wheels"
+      },
+      {
+        "label": "Net weight",
+        "value": "11 kg"
+      },
+      {
+        "label": "Dimensions",
+        "value": "Not listed in source PDF"
+      },
+      {
+        "label": "Packing size",
+        "value": "Not listed in source PDF"
+      },
+      {
+        "label": "Source",
+        "value": "-Dental Suction AEOLUS-370X(1).pdf"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "FM-370X+",
+    "slug": "fm-370x-mobile-vacuum-pump",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/fm-370x-mobile-vacuum-pump/fm-370x-mobile-vacuum-pump-gallery-01.webp",
+      "/images/products/air-equipment/fm-370x-mobile-vacuum-pump/fm-370x-mobile-vacuum-pump-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/fm-370x-mobile-vacuum-pump/fm-370x-mobile-vacuum-pump-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "FM-370X+移动负压泵"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "FM-370X",
+    "slug": "fm-370x",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/fm-370x/fm-370x-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/fm-370x/fm-370x-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "FM-370X移动负压泵"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GS-05",
+    "slug": "gs-05",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/gs-05/gs-05-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/gs-05/gs-05-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "GS-05"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GS-10",
+    "slug": "gs-10",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/gs-10/gs-10-gallery-01.webp",
+      "/images/products/air-equipment/gs-10/gs-10-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/gs-10/gs-10-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "GS-10"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GS-M400",
+    "slug": "gs-m400",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/gs-m400/gs-m400-gallery-01.webp",
+      "/images/products/air-equipment/gs-m400/gs-m400-gallery-02.webp",
+      "/images/products/air-equipment/gs-m400/gs-m400-gallery-03.webp",
+      "/images/products/air-equipment/gs-m400/gs-m400-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/gs-m400/gs-m400-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "GS-M400抽吸机"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GS01",
+    "slug": "gs01",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/gs01/gs01-gallery-01.webp",
+      "/images/products/air-equipment/gs01/gs01-gallery-02.webp",
+      "/images/products/air-equipment/gs01/gs01-gallery-03.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/gs01/gs01-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "GS01"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GS02",
+    "slug": "gs02",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/gs02/gs02-gallery-01.webp",
+      "/images/products/air-equipment/gs02/gs02-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/gs02/gs02-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "GS02"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GS03",
+    "slug": "gs03",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/gs03/gs03-gallery-01.webp",
+      "/images/products/air-equipment/gs03/gs03-gallery-02.webp",
+      "/images/products/air-equipment/gs03/gs03-gallery-03.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/gs03/gs03-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "GS03"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GS03F",
+    "slug": "gs03f",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/gs03f/gs03f-gallery-01.webp",
+      "/images/products/air-equipment/gs03f/gs03f-gallery-02.webp",
+      "/images/products/air-equipment/gs03f/gs03f-gallery-03.webp",
+      "/images/products/air-equipment/gs03f/gs03f-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/gs03f/gs03f-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "GS03F（拖5）"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "TJ-1100L",
+    "slug": "tj-1100l",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/tj-1100l/tj-1100l-gallery-01.webp",
+      "/images/products/air-equipment/tj-1100l/tj-1100l-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/tj-1100l/tj-1100l-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-1100L"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": [
+        "/images/products/air-equipment/tj-1100l/tj-1100l-installation-01.webp",
+        "/images/products/air-equipment/tj-1100l/tj-1100l-installation-02.webp",
+        "/images/products/air-equipment/tj-1100l/tj-1100l-installation-03.webp"
+      ]
+    }
+  },
+  {
+    "model": "TJ-1300LS",
+    "slug": "tj-1300ls",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/tj-1300ls/tj-1300ls-gallery-01.webp",
+      "/images/products/air-equipment/tj-1300ls/tj-1300ls-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/tj-1300ls/tj-1300ls-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-1300LS"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "TJ-1500X",
+    "slug": "tj-1500x-dry-suction",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/tj-1500x-dry-suction/tj-1500x-dry-suction-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/tj-1500x-dry-suction/tj-1500x-dry-suction-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-1500X"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "TJ-750L",
+    "slug": "tj-750l",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/tj-750l/tj-750l-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/tj-750l/tj-750l-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-750L"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": [
+        "/images/products/air-equipment/tj-750l/tj-750l-installation-01.webp",
+        "/images/products/air-equipment/tj-750l/tj-750l-installation-02.webp"
+      ]
+    }
+  },
+  {
+    "model": "TJ-750LNI",
+    "slug": "tj-750lni",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/tj-750lni/tj-750lni-gallery-01.webp",
+      "/images/products/air-equipment/tj-750lni/tj-750lni-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/tj-750lni/tj-750lni-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-750LNI"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "TJ-7A23D",
+    "slug": "tj-7a23d",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/tj-7a23d/tj-7a23d-gallery-01.webp",
+      "/images/products/air-equipment/tj-7a23d/tj-7a23d-gallery-02.webp",
+      "/images/products/air-equipment/tj-7a23d/tj-7a23d-gallery-03.webp",
+      "/images/products/air-equipment/tj-7a23d/tj-7a23d-gallery-04.webp",
+      "/images/products/air-equipment/tj-7a23d/tj-7a23d-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/tj-7a23d/tj-7a23d-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-7A23D"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "TJ-DCS6",
+    "slug": "tj-dcs6",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/tj-dcs6/tj-dcs6-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/tj-dcs6/tj-dcs6-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-DCS6"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "TJ-F01",
+    "slug": "tj-f01",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/tj-f01/tj-f01-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/tj-f01/tj-f01-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-F01"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "TJ-F02",
+    "slug": "tj-f02",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/tj-f02/tj-f02-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/tj-f02/tj-f02-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-F02"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "TJ-F03",
+    "slug": "tj-f03",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/tj-f03/tj-f03-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/tj-f03/tj-f03-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-F03"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "TJ-F04",
+    "slug": "tj-f04",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/tj-f04/tj-f04-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/tj-f04/tj-f04-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-F04"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "TJ-PRO(10)",
+    "slug": "tj-pro-10-dry-suction",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/tj-pro-10-dry-suction/tj-pro-10-dry-suction-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/tj-pro-10-dry-suction/tj-pro-10-dry-suction-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-PRO(10)"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "TJ-PRO(8)",
+    "slug": "tj-pro-8",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/tj-pro-8/tj-pro-8-gallery-01.webp",
+      "/images/products/air-equipment/tj-pro-8/tj-pro-8-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/tj-pro-8/tj-pro-8-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-PRO(8)"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "GS-20",
+    "slug": "gs-20",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/gs-20/gs-20-gallery-01.webp",
+      "/images/products/air-equipment/gs-20/gs-20-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/gs-20/gs-20-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "GS-20"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": []
+    }
+  },
+  {
+    "model": "TJ-FM4L",
+    "slug": "tj-fm4l",
+    "group": "Suction Unit",
+    "groupSlug": "suction-unit",
+    "hidden": false,
+    "subtitle": "Dental suction unit",
+    "summary": "Provides stable suction support for dental treatment rooms.",
+    "gallery": [
+      "/images/products/air-equipment/tj-fm4l/tj-fm4l-gallery-01.webp",
+      "/images/products/air-equipment/tj-fm4l/tj-fm4l-gallery-02.webp",
+      "/images/products/air-equipment/tj-fm4l/tj-fm4l-gallery-03.webp"
+    ],
+    "thumbnail": "/images/products/air-equipment/tj-fm4l/tj-fm4l-gallery-01.webp",
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-FM4L"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental suction unit"
+      },
+      {
+        "label": "Chair capacity",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Voltage",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Power",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Air flow / suction flow",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Pressure / vacuum",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Noise level",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Tank capacity",
+        "value": "To confirm if applicable"
+      },
+      {
+        "label": "Dimensions",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Packing size",
+        "value": "To confirm from source specification"
+      },
+      {
+        "label": "Weight",
+        "value": "To confirm from source specification"
+      }
+    ],
+    "sellingPoints": [
+      {
+        "title": "Stable Suction Performance",
+        "description": "Designed to provide continuous suction support for dental treatment rooms."
+      },
+      {
+        "title": "Dry Or Wet Suction Options",
+        "description": "Select dry or wet suction according to clinic pipeline and installation needs."
+      },
+      {
+        "title": "Multi-Chair Support",
+        "description": "Use model specifications to confirm the supported number of dental chairs."
+      },
+      {
+        "title": "Easy Maintenance",
+        "description": "Filter, drainage and installation materials support routine service and upkeep."
+      }
+    ],
+    "installation": {
+      "heading": "INSTALLATION AND CONNECTION",
+      "description": "Use collected diagrams, interface photos and installation videos to explain how the air system connects with dental chairs.",
+      "priorityMaterials": [
+        "Chair connection diagram",
+        "Pipeline or interface image",
+        "Drainage image for wet suction units",
+        "Installation video or tutorial",
+        "Multi-chair layout diagram"
+      ],
+      "images": [
+        "/images/products/air-equipment/tj-fm4l/tj-fm4l-installation-01.webp",
+        "/images/products/air-equipment/tj-fm4l/tj-fm4l-installation-02.webp",
+        "/images/products/air-equipment/tj-fm4l/tj-fm4l-installation-03.webp"
+      ]
+    }
+  }
+]

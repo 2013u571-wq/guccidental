@@ -132,7 +132,7 @@ const modelGroups = Array.from(
                           aria-hidden={model.detailHref ? undefined : "true"}
                         >
                           {model.thumb ? (
-                            <img src={model.thumb.src} alt="" width="112" height="86" loading="lazy" decoding="async" />
+                            <img src={model.thumb.src} alt={model.thumb.alt} width="112" height="86" loading="lazy" decoding="async" />
                           ) : (
                             <>
                               <svg viewBox="0 0 112 72" aria-hidden="true">

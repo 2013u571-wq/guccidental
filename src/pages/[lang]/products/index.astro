@@ -22,7 +22,8 @@ const productGroups = [
   {
     title: "Treatment Equipment",
     categories: [
-      { title: "Ultrasonic Scaler & Light Cure", description: "Scaling and curing equipment for daily treatment.", href: "/products/ultrasonic-scaler-light-cure/" },
+      { title: "Ultrasonic Scaler", description: "Ultrasonic scalers, air polishers and cleaning accessories.", href: "/products/ultrasonic-scaler-light-cure/" },
+      { title: "Curing Light", description: "LED curing lights, light guides and protective accessories.", href: "/products/ultrasonic-scaler-light-cure/curing-light/" },
       { title: "Air Equipment", description: "Compressors and vacuum systems for stable operation.", href: "/products/air-equipment/" },
       { title: "Dental Handpiece", description: "High-speed and low-speed handpieces for daily use.", href: "/products/dental-handpiece/" },
       { title: "Endo Motor", description: "Torque-controlled motors for root canal preparation.", href: "/products/endo-motor/" }
@@ -39,21 +40,22 @@ const productGroups = [
     categories: [
       { title: "Orthodontics", description: "Brackets, wires and chairside orthodontic tools.", href: "/products/orthodontics/" },
       { title: "Surgical Instruments", description: "Implant motors, surgical kits and hand instruments.", href: "/products/surgical-instruments/" },
-      { title: "Whitening Machine", description: "In-clinic bleaching lamps.", href: "/products/whitening-machine/" },
-      { title: "Disposable Consumables", description: "Gloves, bibs, tips and everyday clinic supplies.", href: "/products/disposable-consumables/" },
-      { title: "Teaching Model", description: "Phantom heads and typodonts for dental education.", href: "/products/teaching-model/" },
-      { title: "Laboratory", description: "Equipment for in-house lab workflows.", href: "/products/laboratory/" }
+      { title: "Whitening Machine", description: "Bleaching systems and whitening accessories.", href: "/products/whitening-machine/" },
+      { title: "Disposable Consumables", description: "Dental supplies, trays, organizers and clinic accessories.", href: "/products/disposable-consumables/" },
+      { title: "Teaching Model", description: "Dental models for anatomy, orthodontics, implants and patient education.", href: "/products/teaching-model/" },
+      { title: "Laboratory", description: "Equipment and supplies for dental laboratory workflows.", href: "/products/laboratory/" }
     ]
   }
 ] as const;
+const categoryCount = productGroups.reduce((total, group) => total + group.categories.length, 0);
 ---
 
-<BaseLayout title="Dental Equipment Products — 13 Categories" description="Explore Guccidental dental chairs, cabinets, imaging systems, treatment equipment, and clinic supplies from one factory-direct source." lang={lang} pathname={Astro.url.pathname}>
+<BaseLayout title={`Dental Equipment Products — ${categoryCount} Categories`} description="Explore Guccidental dental chairs, cabinets, imaging systems, treatment equipment, and clinic supplies from one factory-direct source." lang={lang} pathname={Astro.url.pathname}>
   <section class="products-overview-hero">
     <div class="container">
       <p class="products-overview-eyebrow">Product Range</p>
       <h1>Everything a dental clinic needs, from one factory.</h1>
-      <p class="products-overview-proof">13 product categories · 48 dental chair models · export documentation for 130+ countries.</p>
+      <p class="products-overview-proof">{categoryCount} product categories · 48 dental chair models · export documentation for 130+ countries.</p>
       <Button href={localizedPath(lang, "/contact/")} size="md">Talk to Sales</Button>
     </div>
   </section>

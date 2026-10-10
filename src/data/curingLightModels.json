@@ -1,0 +1,932 @@
+[
+  {
+    "model": "CL-01",
+    "slug": "cl-01",
+    "group": "CURING LIGHT SERIES",
+    "title": "CL-01 Curing Light",
+    "subtitle": "Dental LED curing light",
+    "summary": "A handheld curing light for routine restorative workflows, supporting chairside composite resin curing in daily dental treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Wireless economical dental LED curing light"
+      },
+      {
+        "label": "Light source",
+        "value": "5W power LED"
+      },
+      {
+        "label": "Operation",
+        "value": "Wireless handheld use"
+      },
+      {
+        "label": "Color options",
+        "value": "Choice by color or random"
+      }
+    ],
+    "gallery": [
+      "/images/products/curing-light/cl-01/cl-01-gallery-01.webp",
+      "/images/products/curing-light/cl-01/cl-01-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/curing-light/cl-01/cl-01-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the CL-01 Curing Light",
+    "sellingPoints": [
+      {
+        "title": "Fast curing workflow",
+        "description": "Designed for routine restorative procedures where quick, predictable curing improves chairside efficiency."
+      },
+      {
+        "title": "Handheld clinical design",
+        "description": "Compact body supports easy operation during posterior and anterior treatment positions."
+      },
+      {
+        "title": "Practical charging and daily use",
+        "description": "Prepared for routine chairside use with convenient charging and storage support."
+      },
+      {
+        "title": "Restorative treatment support",
+        "description": "Suitable for composite resin curing in everyday dental treatment rooms."
+      }
+    ],
+    "featureHeading": "Built for fast chairside curing",
+    "features": [
+      {
+        "eyebrow": "LIGHT GUIDE AND CURING HEAD",
+        "title": "Focused curing access",
+        "description": "Use the collected lamp head, guide rod or tip images to describe clinical access and light delivery.",
+        "image": "/images/products/curing-light/cl-01/cl-01-feature-01.webp"
+      },
+      {
+        "eyebrow": "CONTROL AND MODE OPERATION",
+        "title": "Simple operating workflow",
+        "description": "Use the collected display, button or mode images to confirm final mode descriptions.",
+        "image": "/images/products/curing-light/cl-01/cl-01-feature-02.webp"
+      },
+      {
+        "eyebrow": "CHARGING AND POWER SUPPORT",
+        "title": "Ready for daily use",
+        "description": "Use collected charging-base, battery or power materials to describe routine clinic operation.",
+        "image": "/images/products/curing-light/cl-01/cl-01-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND ACCESSORIES",
+        "title": "Practical accessory support",
+        "description": "Use collected shade, protective cover, film or replacement accessory images where available.",
+        "image": "/images/products/curing-light/cl-01/cl-01-feature-04.webp"
+      }
+    ],
+    "video": null
+  },
+  {
+    "model": "CL-02",
+    "slug": "cl-02",
+    "group": "CURING LIGHT SERIES",
+    "title": "CL-02 Curing Light",
+    "subtitle": "Dental LED curing light",
+    "summary": "A handheld curing light for routine restorative workflows, supporting chairside composite resin curing in daily dental treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Metal-body wireless dental LED curing light"
+      },
+      {
+        "label": "Light source",
+        "value": "5W power LED"
+      },
+      {
+        "label": "Operation",
+        "value": "Wireless handheld use"
+      },
+      {
+        "label": "Color options",
+        "value": "Choice by color or random"
+      }
+    ],
+    "gallery": [
+      "/images/products/curing-light/cl-02/cl-02-gallery-01.webp",
+      "/images/products/curing-light/cl-02/cl-02-gallery-02.webp",
+      "/images/products/curing-light/cl-02/cl-02-gallery-03.webp",
+      "/images/products/curing-light/cl-02/cl-02-gallery-04.webp",
+      "/images/products/curing-light/cl-02/cl-02-gallery-05.webp",
+      "/images/products/curing-light/cl-02/cl-02-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/curing-light/cl-02/cl-02-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the CL-02 Curing Light",
+    "sellingPoints": [
+      {
+        "title": "Fast curing workflow",
+        "description": "Designed for routine restorative procedures where quick, predictable curing improves chairside efficiency."
+      },
+      {
+        "title": "Handheld clinical design",
+        "description": "Compact body supports easy operation during posterior and anterior treatment positions."
+      },
+      {
+        "title": "Practical charging and daily use",
+        "description": "Prepared for routine chairside use with convenient charging and storage support."
+      },
+      {
+        "title": "Restorative treatment support",
+        "description": "Suitable for composite resin curing in everyday dental treatment rooms."
+      }
+    ],
+    "featureHeading": "Built for fast chairside curing",
+    "features": [
+      {
+        "eyebrow": "LIGHT GUIDE AND CURING HEAD",
+        "title": "Focused curing access",
+        "description": "Use the collected lamp head, guide rod or tip images to describe clinical access and light delivery."
+      },
+      {
+        "eyebrow": "CONTROL AND MODE OPERATION",
+        "title": "Simple operating workflow",
+        "description": "Use the collected display, button or mode images to confirm final mode descriptions."
+      },
+      {
+        "eyebrow": "CHARGING AND POWER SUPPORT",
+        "title": "Ready for daily use",
+        "description": "Use collected charging-base, battery or power materials to describe routine clinic operation."
+      },
+      {
+        "eyebrow": "PROTECTION AND ACCESSORIES",
+        "title": "Practical accessory support",
+        "description": "Use collected shade, protective cover, film or replacement accessory images where available."
+      }
+    ],
+    "video": null
+  },
+  {
+    "model": "CL-03",
+    "slug": "cl-03",
+    "group": "CURING LIGHT SERIES",
+    "title": "CL-03 Gun-Type Curing Light",
+    "subtitle": "Gun-type dental LED curing light",
+    "summary": "A gun-type curing light for routine restorative treatment, designed for comfortable handheld operation during composite resin curing.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Gun-type dental LED curing light"
+      },
+      {
+        "label": "Light source",
+        "value": "5W power LED"
+      },
+      {
+        "label": "Wavelength",
+        "value": "420-480 nm"
+      },
+      {
+        "label": "Light intensity",
+        "value": "1200-2000 mW/cm2"
+      },
+      {
+        "label": "Working modes",
+        "value": "5-40s time setting"
+      },
+      {
+        "label": "Curing time / depth",
+        "value": "5s / 3 mm"
+      },
+      {
+        "label": "Battery",
+        "value": "2200 mAh, 3.7V lithium battery"
+      },
+      {
+        "label": "Charging input",
+        "value": "110-240V AC, 50-60Hz"
+      },
+      {
+        "label": "Standby time",
+        "value": "90 days"
+      }
+    ],
+    "gallery": [
+      "/images/products/curing-light/cl-03/cl-03-gallery-01.webp",
+      "/images/products/curing-light/cl-03/cl-03-gallery-02.webp",
+      "/images/products/curing-light/cl-03/cl-03-gallery-03.webp",
+      "/images/products/curing-light/cl-03/cl-03-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/curing-light/cl-03/cl-03-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the CL-03 Gun-Type Curing Light",
+    "sellingPoints": [
+      {
+        "title": "Gun-type handling",
+        "description": "Pistol-style body supports stable hand positioning during posterior and anterior curing work."
+      },
+      {
+        "title": "Fast curing workflow",
+        "description": "Designed for routine restorative procedures where quick, predictable curing improves chairside efficiency."
+      },
+      {
+        "title": "Easy daily operation",
+        "description": "Simple handheld use helps the operator move between treatment positions smoothly."
+      },
+      {
+        "title": "Compact clinical storage",
+        "description": "Slim curing-light form is easy to keep near the chair for daily restorative work."
+      }
+    ],
+    "featureHeading": "Built for fast chairside curing",
+    "features": [
+      {
+        "eyebrow": "LIGHT GUIDE AND CURING HEAD",
+        "title": "Focused curing access",
+        "description": "Use the collected lamp head, guide rod or tip images to describe clinical access and light delivery."
+      },
+      {
+        "eyebrow": "CONTROL AND MODE OPERATION",
+        "title": "Simple operating workflow",
+        "description": "Use the collected display, button or mode images to confirm final mode descriptions."
+      },
+      {
+        "eyebrow": "CHARGING AND POWER SUPPORT",
+        "title": "Ready for daily use",
+        "description": "Use collected charging-base, battery or power materials to describe routine clinic operation."
+      },
+      {
+        "eyebrow": "PROTECTION AND ACCESSORIES",
+        "title": "Practical accessory support",
+        "description": "Use collected shade, protective cover, film or replacement accessory images where available."
+      }
+    ],
+    "video": null
+  },
+  {
+    "model": "CL-04",
+    "slug": "cl-04",
+    "group": "CURING LIGHT SERIES",
+    "title": "CL-04 Curing Light",
+    "subtitle": "Dental LED curing light",
+    "summary": "A handheld curing light for routine restorative workflows, supporting chairside composite resin curing in daily dental treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Chargeable and built-in optional dental LED light cure"
+      },
+      {
+        "label": "Charging",
+        "value": "45-minute fast charge"
+      },
+      {
+        "label": "Installation",
+        "value": "Chargeable use or built into dental unit"
+      }
+    ],
+    "gallery": [
+      "/images/products/curing-light/cl-04/cl-04-gallery-01.webp",
+      "/images/products/curing-light/cl-04/cl-04-gallery-02.webp",
+      "/images/products/curing-light/cl-04/cl-04-gallery-03.webp",
+      "/images/products/curing-light/cl-04/cl-04-gallery-04.webp",
+      "/images/products/curing-light/cl-04/cl-04-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/curing-light/cl-04/cl-04-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the CL-04 Curing Light",
+    "sellingPoints": [
+      {
+        "title": "Fast curing workflow",
+        "description": "Designed for routine restorative procedures where quick, predictable curing improves chairside efficiency."
+      },
+      {
+        "title": "Handheld clinical design",
+        "description": "Compact body supports easy operation during posterior and anterior treatment positions."
+      },
+      {
+        "title": "Practical charging and daily use",
+        "description": "Prepared for routine chairside use with convenient charging and storage support."
+      },
+      {
+        "title": "Restorative treatment support",
+        "description": "Suitable for composite resin curing in everyday dental treatment rooms."
+      }
+    ],
+    "featureHeading": "Built for fast chairside curing",
+    "features": [
+      {
+        "eyebrow": "LIGHT GUIDE AND CURING HEAD",
+        "title": "Focused curing access",
+        "description": "Use the collected lamp head, guide rod or tip images to describe clinical access and light delivery."
+      },
+      {
+        "eyebrow": "CONTROL AND MODE OPERATION",
+        "title": "Simple operating workflow",
+        "description": "Use the collected display, button or mode images to confirm final mode descriptions."
+      },
+      {
+        "eyebrow": "CHARGING AND POWER SUPPORT",
+        "title": "Ready for daily use",
+        "description": "Use collected charging-base, battery or power materials to describe routine clinic operation."
+      },
+      {
+        "eyebrow": "PROTECTION AND ACCESSORIES",
+        "title": "Practical accessory support",
+        "description": "Use collected shade, protective cover, film or replacement accessory images where available."
+      }
+    ],
+    "video": null
+  },
+  {
+    "model": "CL-10",
+    "slug": "cl-10",
+    "group": "CURING LIGHT SERIES",
+    "title": "CL-10 Curing Light",
+    "subtitle": "Dental LED curing light",
+    "summary": "A handheld curing light for routine restorative workflows, supporting chairside composite resin curing in daily dental treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Economical dental LED light cure"
+      },
+      {
+        "label": "Wavelength",
+        "value": "420-480 nm"
+      },
+      {
+        "label": "Standby time",
+        "value": "90 days"
+      }
+    ],
+    "gallery": [
+      "/images/products/curing-light/cl-10/cl-10-gallery-01.webp",
+      "/images/products/curing-light/cl-10/cl-10-gallery-02.webp",
+      "/images/products/curing-light/cl-10/cl-10-gallery-03.webp",
+      "/images/products/curing-light/cl-10/cl-10-gallery-04.webp",
+      "/images/products/curing-light/cl-10/cl-10-gallery-05.webp",
+      "/images/products/curing-light/cl-10/cl-10-gallery-06.webp",
+      "/images/products/curing-light/cl-10/cl-10-gallery-07.webp"
+    ],
+    "thumbnail": "/images/products/curing-light/cl-10/cl-10-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the CL-10 Curing Light",
+    "sellingPoints": [
+      {
+        "title": "Fast curing workflow",
+        "description": "Designed for routine restorative procedures where quick, predictable curing improves chairside efficiency."
+      },
+      {
+        "title": "Handheld clinical design",
+        "description": "Compact body supports easy operation during posterior and anterior treatment positions."
+      },
+      {
+        "title": "Practical charging and daily use",
+        "description": "Prepared for routine chairside use with convenient charging and storage support."
+      },
+      {
+        "title": "Restorative treatment support",
+        "description": "Suitable for composite resin curing in everyday dental treatment rooms."
+      }
+    ],
+    "featureHeading": "Built for fast chairside curing",
+    "features": [
+      {
+        "eyebrow": "LIGHT GUIDE AND CURING HEAD",
+        "title": "Focused curing access",
+        "description": "Use the collected lamp head, guide rod or tip images to describe clinical access and light delivery."
+      },
+      {
+        "eyebrow": "CONTROL AND MODE OPERATION",
+        "title": "Simple operating workflow",
+        "description": "Use the collected display, button or mode images to confirm final mode descriptions."
+      },
+      {
+        "eyebrow": "CHARGING AND POWER SUPPORT",
+        "title": "Ready for daily use",
+        "description": "Use collected charging-base, battery or power materials to describe routine clinic operation."
+      },
+      {
+        "eyebrow": "PROTECTION AND ACCESSORIES",
+        "title": "Practical accessory support",
+        "description": "Use collected shade, protective cover, film or replacement accessory images where available."
+      }
+    ],
+    "video": null
+  },
+  {
+    "model": "LED.G",
+    "slug": "led-g",
+    "group": "CURING LIGHT SERIES",
+    "title": "LED.G Curing Light",
+    "subtitle": "Dental LED curing light",
+    "summary": "A handheld curing light for routine restorative workflows, supporting chairside composite resin curing in daily dental treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Built-in dental curing light"
+      },
+      {
+        "label": "Brand",
+        "value": "Woodpecker"
+      },
+      {
+        "label": "Installation",
+        "value": "Connects to dental chair with tube"
+      },
+      {
+        "label": "Charging",
+        "value": "No charging required"
+      }
+    ],
+    "gallery": [
+      "/images/products/curing-light/led-g/led-g-gallery-01.webp",
+      "/images/products/curing-light/led-g/led-g-gallery-02.webp",
+      "/images/products/curing-light/led-g/led-g-gallery-03.webp"
+    ],
+    "thumbnail": "/images/products/curing-light/led-g/led-g-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the LED.G Curing Light",
+    "sellingPoints": [
+      {
+        "title": "Fast curing workflow",
+        "description": "Designed for routine restorative procedures where quick, predictable curing improves chairside efficiency."
+      },
+      {
+        "title": "Handheld clinical design",
+        "description": "Compact body supports easy operation during posterior and anterior treatment positions."
+      },
+      {
+        "title": "Practical charging and daily use",
+        "description": "Prepared for routine chairside use with convenient charging and storage support."
+      },
+      {
+        "title": "Restorative treatment support",
+        "description": "Suitable for composite resin curing in everyday dental treatment rooms."
+      }
+    ],
+    "featureHeading": "Built for fast chairside curing",
+    "features": [
+      {
+        "eyebrow": "LIGHT GUIDE AND CURING HEAD",
+        "title": "Focused curing access",
+        "description": "Use the collected lamp head, guide rod or tip images to describe clinical access and light delivery."
+      },
+      {
+        "eyebrow": "CONTROL AND MODE OPERATION",
+        "title": "Simple operating workflow",
+        "description": "Use the collected display, button or mode images to confirm final mode descriptions."
+      },
+      {
+        "eyebrow": "CHARGING AND POWER SUPPORT",
+        "title": "Ready for daily use",
+        "description": "Use collected charging-base, battery or power materials to describe routine clinic operation."
+      },
+      {
+        "eyebrow": "PROTECTION AND ACCESSORIES",
+        "title": "Practical accessory support",
+        "description": "Use collected shade, protective cover, film or replacement accessory images where available."
+      }
+    ],
+    "video": null
+  },
+  {
+    "model": "TJ-DB686",
+    "slug": "tj-db686",
+    "group": "CURING LIGHT SERIES",
+    "title": "TJ-DB686 Curing Light",
+    "subtitle": "Dental LED curing light",
+    "summary": "A handheld curing light for routine restorative workflows, supporting chairside composite resin curing in daily dental treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "COXO caries detection and curing light"
+      },
+      {
+        "label": "Adapter",
+        "value": "AC100-240V, 50/60Hz; DC5V/1.5A"
+      },
+      {
+        "label": "Wavelength",
+        "value": "380-520 nm"
+      },
+      {
+        "label": "Curing time",
+        "value": "10s / 20s"
+      },
+      {
+        "label": "Curable depth",
+        "value": "8 mm"
+      },
+      {
+        "label": "Shipping note",
+        "value": "Only can be shipped by air"
+      }
+    ],
+    "gallery": [
+      "/images/products/curing-light/tj-db686/tj-db686-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/curing-light/tj-db686/tj-db686-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-DB686 Curing Light",
+    "sellingPoints": [
+      {
+        "title": "Fast curing workflow",
+        "description": "Designed for routine restorative procedures where quick, predictable curing improves chairside efficiency."
+      },
+      {
+        "title": "Handheld clinical design",
+        "description": "Compact body supports easy operation during posterior and anterior treatment positions."
+      },
+      {
+        "title": "Practical charging and daily use",
+        "description": "Prepared for routine chairside use with convenient charging and storage support."
+      },
+      {
+        "title": "Restorative treatment support",
+        "description": "Suitable for composite resin curing in everyday dental treatment rooms."
+      }
+    ],
+    "featureHeading": "Built for fast chairside curing",
+    "features": [
+      {
+        "eyebrow": "LIGHT GUIDE AND CURING HEAD",
+        "title": "Focused curing access",
+        "description": "Use the collected lamp head, guide rod or tip images to describe clinical access and light delivery."
+      },
+      {
+        "eyebrow": "CONTROL AND MODE OPERATION",
+        "title": "Simple operating workflow",
+        "description": "Use the collected display, button or mode images to confirm final mode descriptions."
+      },
+      {
+        "eyebrow": "CHARGING AND POWER SUPPORT",
+        "title": "Ready for daily use",
+        "description": "Use collected charging-base, battery or power materials to describe routine clinic operation."
+      },
+      {
+        "eyebrow": "PROTECTION AND ACCESSORIES",
+        "title": "Practical accessory support",
+        "description": "Use collected shade, protective cover, film or replacement accessory images where available."
+      }
+    ],
+    "video": null
+  },
+  {
+    "model": "V300",
+    "slug": "v300",
+    "group": "CURING LIGHT SERIES",
+    "title": "V-300 Curing Light",
+    "subtitle": "Dental LED curing light",
+    "summary": "A handheld curing light for routine restorative workflows, supporting chairside composite resin curing in daily dental treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental LED curing light"
+      },
+      {
+        "label": "Wavelength",
+        "value": "420-480 nm"
+      },
+      {
+        "label": "Application",
+        "value": "Composite materials and adhesives"
+      }
+    ],
+    "gallery": [
+      "/images/products/curing-light/v300/v300-gallery-01.webp",
+      "/images/products/curing-light/v300/v300-gallery-02.webp",
+      "/images/products/curing-light/v300/v300-gallery-03.webp"
+    ],
+    "thumbnail": "/images/products/curing-light/v300/v300-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the V-300 Curing Light",
+    "sellingPoints": [
+      {
+        "title": "Fast curing workflow",
+        "description": "Designed for routine restorative procedures where quick, predictable curing improves chairside efficiency."
+      },
+      {
+        "title": "Handheld clinical design",
+        "description": "Compact body supports easy operation during posterior and anterior treatment positions."
+      },
+      {
+        "title": "Practical charging and daily use",
+        "description": "Prepared for routine chairside use with convenient charging and storage support."
+      },
+      {
+        "title": "Restorative treatment support",
+        "description": "Suitable for composite resin curing in everyday dental treatment rooms."
+      }
+    ],
+    "featureHeading": "Built for fast chairside curing",
+    "features": [
+      {
+        "eyebrow": "LIGHT GUIDE AND CURING HEAD",
+        "title": "Focused curing access",
+        "description": "Use the collected lamp head, guide rod or tip images to describe clinical access and light delivery."
+      },
+      {
+        "eyebrow": "CONTROL AND MODE OPERATION",
+        "title": "Simple operating workflow",
+        "description": "Use the collected display, button or mode images to confirm final mode descriptions."
+      },
+      {
+        "eyebrow": "CHARGING AND POWER SUPPORT",
+        "title": "Ready for daily use",
+        "description": "Use collected charging-base, battery or power materials to describe routine clinic operation."
+      },
+      {
+        "eyebrow": "PROTECTION AND ACCESSORIES",
+        "title": "Practical accessory support",
+        "description": "Use collected shade, protective cover, film or replacement accessory images where available."
+      }
+    ],
+    "video": null
+  },
+  {
+    "model": "CS-002",
+    "slug": "cs-002",
+    "group": "CURING LIGHT ACCESSORY",
+    "title": "CS-002 Curing Light Shield",
+    "subtitle": "Curing light protective shield",
+    "summary": "A practical shield accessory for curing-light procedures, designed to help support daily chairside protection while keeping the treatment workflow simple.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Universal dental curing light protection shield"
+      }
+    ],
+    "gallery": [
+      "/images/products/curing-light/cs-002/cs-002-gallery-01.webp",
+      "/images/products/curing-light/cs-002/cs-002-gallery-02.webp",
+      "/images/products/curing-light/cs-002/cs-002-gallery-03.webp",
+      "/images/products/curing-light/cs-002/cs-002-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/curing-light/cs-002/cs-002-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the CS-002 Curing Light Shield",
+    "sellingPoints": [
+      {
+        "title": "Eye and device protection",
+        "description": "Designed to support safer curing-light use during daily restorative treatment."
+      },
+      {
+        "title": "Chairside accessory support",
+        "description": "Keeps the curing-light workflow practical and organized around the treatment area."
+      },
+      {
+        "title": "Easy daily setup",
+        "description": "Simple accessory format supports fast preparation before curing procedures."
+      },
+      {
+        "title": "Compatible clinical use",
+        "description": "Prepared for use with matching curing-light products and routine treatment needs."
+      }
+    ],
+    "featureHeading": "Built for fast chairside curing",
+    "features": [
+      {
+        "eyebrow": "LIGHT GUIDE AND CURING HEAD",
+        "title": "Focused curing access",
+        "description": "Use the collected lamp head, guide rod or tip images to describe clinical access and light delivery."
+      },
+      {
+        "eyebrow": "CONTROL AND MODE OPERATION",
+        "title": "Simple operating workflow",
+        "description": "Use the collected display, button or mode images to confirm final mode descriptions."
+      },
+      {
+        "eyebrow": "CHARGING AND POWER SUPPORT",
+        "title": "Ready for daily use",
+        "description": "Use collected charging-base, battery or power materials to describe routine clinic operation."
+      },
+      {
+        "eyebrow": "PROTECTION AND ACCESSORIES",
+        "title": "Practical accessory support",
+        "description": "Use collected shade, protective cover, film or replacement accessory images where available."
+      }
+    ],
+    "video": null
+  },
+  {
+    "model": "CTC787",
+    "slug": "ctc787",
+    "group": "CURING LIGHT ACCESSORY",
+    "title": "CTC787 Light Guide Protective Film",
+    "subtitle": "Protective film for curing-light guide rod",
+    "summary": "A protective film for curing-light guide rods, helping keep the guide rod cleaner during restorative procedures.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental curing light tip protection cover"
+      },
+      {
+        "label": "Material",
+        "value": "High polyethylene"
+      },
+      {
+        "label": "Size",
+        "value": "25 x 77 x 105 mm"
+      },
+      {
+        "label": "Quantity",
+        "value": "200 pcs / carton"
+      }
+    ],
+    "gallery": [
+      "/images/products/curing-light/ctc787/ctc787-gallery-01.webp",
+      "/images/products/curing-light/ctc787/ctc787-gallery-02.webp",
+      "/images/products/curing-light/ctc787/ctc787-gallery-03.webp",
+      "/images/products/curing-light/ctc787/ctc787-gallery-04.webp",
+      "/images/products/curing-light/ctc787/ctc787-gallery-05.webp",
+      "/images/products/curing-light/ctc787/ctc787-gallery-06.webp",
+      "/images/products/curing-light/ctc787/ctc787-gallery-07.webp",
+      "/images/products/curing-light/ctc787/ctc787-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/curing-light/ctc787/ctc787-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the CTC787 Light Guide Barrier Sleeve",
+    "sellingPoints": [
+      {
+        "title": "Light-guide protection",
+        "description": "Helps protect the curing-light guide during daily restorative procedures."
+      },
+      {
+        "title": "Clean clinical handling",
+        "description": "Supports a cleaner contact area between the curing light and treatment environment."
+      },
+      {
+        "title": "Simple accessory workflow",
+        "description": "Easy to prepare alongside curing-light use in routine chairside work."
+      },
+      {
+        "title": "Practical device care",
+        "description": "Helps reduce wear and contamination risk for compatible curing-light accessories."
+      }
+    ],
+    "featureHeading": "Built for fast chairside curing",
+    "features": [
+      {
+        "eyebrow": "LIGHT GUIDE AND CURING HEAD",
+        "title": "Focused curing access",
+        "description": "Use the collected lamp head, guide rod or tip images to describe clinical access and light delivery.",
+        "image": "/images/products/curing-light/ctc787/ctc787-feature-01.webp"
+      },
+      {
+        "eyebrow": "CONTROL AND MODE OPERATION",
+        "title": "Simple operating workflow",
+        "description": "Use the collected display, button or mode images to confirm final mode descriptions.",
+        "image": "/images/products/curing-light/ctc787/ctc787-feature-02.webp"
+      },
+      {
+        "eyebrow": "CHARGING AND POWER SUPPORT",
+        "title": "Ready for daily use",
+        "description": "Use collected charging-base, battery or power materials to describe routine clinic operation.",
+        "image": "/images/products/curing-light/ctc787/ctc787-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND ACCESSORIES",
+        "title": "Practical accessory support",
+        "description": "Use collected shade, protective cover, film or replacement accessory images where available.",
+        "image": "/images/products/curing-light/ctc787/ctc787-feature-04.webp"
+      }
+    ],
+    "video": null
+  },
+  {
+    "model": "T787",
+    "slug": "t787",
+    "group": "CURING LIGHT ACCESSORY",
+    "title": "T787 Light Guide Rod",
+    "subtitle": "Curing light guide rod",
+    "summary": "A replacement light guide rod for compatible curing-light units, supporting focused access during routine restorative treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental replacement curing light head tip"
+      },
+      {
+        "label": "Material",
+        "value": "High transparent fiber and steel"
+      },
+      {
+        "label": "Sterilization",
+        "value": "Autoclavable for repeated use"
+      },
+      {
+        "label": "Size options",
+        "value": "0.8 / 1.0 / 1.2 cm"
+      }
+    ],
+    "gallery": [
+      "/images/products/curing-light/t787/t787-gallery-01.webp",
+      "/images/products/curing-light/t787/t787-gallery-02.webp",
+      "/images/products/curing-light/t787/t787-gallery-03.webp",
+      "/images/products/curing-light/t787/t787-gallery-04.webp",
+      "/images/products/curing-light/t787/t787-gallery-05.webp",
+      "/images/products/curing-light/t787/t787-gallery-06.webp",
+      "/images/products/curing-light/t787/t787-gallery-07.webp"
+    ],
+    "thumbnail": "/images/products/curing-light/t787/t787-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the T787 Light Guide",
+    "sellingPoints": [
+      {
+        "title": "Light-guide protection",
+        "description": "Helps protect the curing-light guide during daily restorative procedures."
+      },
+      {
+        "title": "Clean clinical handling",
+        "description": "Supports a cleaner contact area between the curing light and treatment environment."
+      },
+      {
+        "title": "Simple accessory workflow",
+        "description": "Easy to prepare alongside curing-light use in routine chairside work."
+      },
+      {
+        "title": "Practical device care",
+        "description": "Helps reduce wear and contamination risk for compatible curing-light accessories."
+      }
+    ],
+    "featureHeading": "Built for fast chairside curing",
+    "features": [
+      {
+        "eyebrow": "LIGHT GUIDE AND CURING HEAD",
+        "title": "Focused curing access",
+        "description": "Use the collected lamp head, guide rod or tip images to describe clinical access and light delivery."
+      },
+      {
+        "eyebrow": "CONTROL AND MODE OPERATION",
+        "title": "Simple operating workflow",
+        "description": "Use the collected display, button or mode images to confirm final mode descriptions."
+      },
+      {
+        "eyebrow": "CHARGING AND POWER SUPPORT",
+        "title": "Ready for daily use",
+        "description": "Use collected charging-base, battery or power materials to describe routine clinic operation."
+      },
+      {
+        "eyebrow": "PROTECTION AND ACCESSORIES",
+        "title": "Practical accessory support",
+        "description": "Use collected shade, protective cover, film or replacement accessory images where available."
+      }
+    ],
+    "video": null
+  },
+  {
+    "model": "TJ-CS003",
+    "slug": "tj-cs003",
+    "group": "CURING LIGHT ACCESSORY",
+    "title": "TJ-CS003 Curing Light Protective Cover",
+    "subtitle": "Protective cover for curing light",
+    "summary": "A protective cover accessory for compatible curing-light units, prepared for routine clinic protection and product care.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Universal dental curing light protection shield"
+      },
+      {
+        "label": "Product size",
+        "value": "240 x 127 mm"
+      },
+      {
+        "label": "Net weight",
+        "value": "66.3 g"
+      }
+    ],
+    "gallery": [
+      "/images/products/curing-light/tj-cs003/tj-cs003-gallery-01.webp",
+      "/images/products/curing-light/tj-cs003/tj-cs003-gallery-02.webp",
+      "/images/products/curing-light/tj-cs003/tj-cs003-gallery-03.webp",
+      "/images/products/curing-light/tj-cs003/tj-cs003-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/curing-light/tj-cs003/tj-cs003-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-CS003 Curing Light Cover",
+    "sellingPoints": [
+      {
+        "title": "Eye and device protection",
+        "description": "Designed to support safer curing-light use during daily restorative treatment."
+      },
+      {
+        "title": "Chairside accessory support",
+        "description": "Keeps the curing-light workflow practical and organized around the treatment area."
+      },
+      {
+        "title": "Easy daily setup",
+        "description": "Simple accessory format supports fast preparation before curing procedures."
+      },
+      {
+        "title": "Compatible clinical use",
+        "description": "Prepared for use with matching curing-light products and routine treatment needs."
+      }
+    ],
+    "featureHeading": "Built for fast chairside curing",
+    "features": [
+      {
+        "eyebrow": "LIGHT GUIDE AND CURING HEAD",
+        "title": "Focused curing access",
+        "description": "Use the collected lamp head, guide rod or tip images to describe clinical access and light delivery.",
+        "image": "/images/products/curing-light/tj-cs003/tj-cs003-feature-01.webp"
+      },
+      {
+        "eyebrow": "CONTROL AND MODE OPERATION",
+        "title": "Simple operating workflow",
+        "description": "Use the collected display, button or mode images to confirm final mode descriptions.",
+        "image": "/images/products/curing-light/tj-cs003/tj-cs003-feature-02.webp"
+      },
+      {
+        "eyebrow": "CHARGING AND POWER SUPPORT",
+        "title": "Ready for daily use",
+        "description": "Use collected charging-base, battery or power materials to describe routine clinic operation.",
+        "image": "/images/products/curing-light/tj-cs003/tj-cs003-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND ACCESSORIES",
+        "title": "Practical accessory support",
+        "description": "Use collected shade, protective cover, film or replacement accessory images where available.",
+        "image": "/images/products/curing-light/tj-cs003/tj-cs003-feature-04.webp"
+      }
+    ],
+    "video": null
+  }
+]

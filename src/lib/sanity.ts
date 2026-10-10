@@ -43,7 +43,8 @@ export async function getSanityProduct(slug: string, language = "en"): Promise<S
   try {
     return await client.fetch<SanityProductDetail | null>(PRODUCT_QUERY, { slug, language });
   } catch (error) {
-    console.warn(`Sanity product query failed for ${slug}; using local content.`, error);
+    const reason = error instanceof Error ? error.message : String(error);
+    console.warn(`Sanity product query failed for ${slug}; using local content: ${reason}`);
     return null;
   }
 }

@@ -100,7 +100,7 @@ const upholsteryColors = [
     swatch: `${colorSwatchBase}/b100-ultra-k02-gray-purple-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k02-gray-purple.webp`,
     alt: "B100L Ultra dental chair with K02 Gray Purple full-silicone upholstery",
-    desc: "K02 upholstery description pending.",
+    desc: "Gray Purple full-silicone upholstery option for the B100L Ultra. Confirm availability for your configuration.",
   },
   {
     code: "K03",
@@ -108,7 +108,7 @@ const upholsteryColors = [
     swatch: `${colorSwatchBase}/b100-ultra-k03-brown-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k03-brown.webp`,
     alt: "B100L Ultra dental chair with K03 Brown full-silicone upholstery",
-    desc: "K03 upholstery description pending.",
+    desc: "Brown full-silicone upholstery option for the B100L Ultra. Confirm availability for your configuration.",
   },
   {
     code: "K04",
@@ -116,7 +116,7 @@ const upholsteryColors = [
     swatch: `${colorSwatchBase}/b100-ultra-k04-sky-gray-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k04-sky-gray.webp`,
     alt: "B100L Ultra dental chair with K04 Sky Gray full-silicone upholstery",
-    desc: "K04 upholstery description pending.",
+    desc: "Sky Gray full-silicone upholstery option for the B100L Ultra. Confirm availability for your configuration.",
   },
   {
     code: "K05",
@@ -124,7 +124,7 @@ const upholsteryColors = [
     swatch: `${colorSwatchBase}/b100-ultra-k05-glacier-blue-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k05-glacier-blue.webp`,
     alt: "B100L Ultra dental chair with K05 Glacier Blue full-silicone upholstery",
-    desc: "K05 upholstery description pending.",
+    desc: "Glacier Blue full-silicone upholstery option for the B100L Ultra. Confirm availability for your configuration.",
   },
   {
     code: "K06",
@@ -132,7 +132,7 @@ const upholsteryColors = [
     swatch: `${colorSwatchBase}/b100-ultra-k06-ocean-blue-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k06-ocean-blue.webp`,
     alt: "B100L Ultra dental chair with K06 Ocean Blue full-silicone upholstery",
-    desc: "K06 upholstery description pending.",
+    desc: "Ocean Blue full-silicone upholstery option for the B100L Ultra. Confirm availability for your configuration.",
   },
   {
     code: "K07",
@@ -140,7 +140,7 @@ const upholsteryColors = [
     swatch: `${colorSwatchBase}/b100-ultra-k07-sky-blue-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k07-sky-blue.webp`,
     alt: "B100L Ultra dental chair with K07 Sky Blue full-silicone upholstery",
-    desc: "K07 upholstery description pending.",
+    desc: "Sky Blue full-silicone upholstery option for the B100L Ultra. Confirm availability for your configuration.",
   },
   {
     code: "K08",
@@ -148,7 +148,7 @@ const upholsteryColors = [
     swatch: `${colorSwatchBase}/b100-ultra-k08-coffee-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k08-coffee.webp`,
     alt: "B100L Ultra dental chair with K08 Coffee full-silicone upholstery",
-    desc: "K08 upholstery description pending.",
+    desc: "Coffee full-silicone upholstery option for the B100L Ultra. Confirm availability for your configuration.",
   },
   {
     code: "K09",
@@ -156,7 +156,7 @@ const upholsteryColors = [
     swatch: `${colorSwatchBase}/b100-ultra-k09-black-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k09-black.webp`,
     alt: "B100L Ultra dental chair with K09 Black full-silicone upholstery",
-    desc: "K09 upholstery description pending.",
+    desc: "Black full-silicone upholstery option for the B100L Ultra. Confirm availability for your configuration.",
   },
   {
     code: "K10",
@@ -164,7 +164,7 @@ const upholsteryColors = [
     swatch: `${colorSwatchBase}/b100-ultra-k10-red-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k10-red.webp`,
     alt: "B100L Ultra dental chair with K10 Red full-silicone upholstery",
-    desc: "K10 upholstery description pending.",
+    desc: "Red full-silicone upholstery option for the B100L Ultra. Confirm availability for your configuration.",
   },
   {
     code: "K11",
@@ -172,7 +172,7 @@ const upholsteryColors = [
     swatch: `${colorSwatchBase}/b100-ultra-k11-orange-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k11-orange.webp`,
     alt: "B100L Ultra dental chair with K11 Orange full-silicone upholstery",
-    desc: "K11 upholstery description pending.",
+    desc: "Orange full-silicone upholstery option for the B100L Ultra. Confirm availability for your configuration.",
   },
   {
     code: "K12",
@@ -180,7 +180,7 @@ const upholsteryColors = [
     swatch: `${colorSwatchBase}/b100-ultra-k12-grass-green-swatch.webp`,
     image: `${colorImageBase}/b100-ultra-k12-grass-green.webp`,
     alt: "B100L Ultra dental chair with K12 Grass Green full-silicone upholstery",
-    desc: "K12 upholstery description pending.",
+    desc: "Grass Green full-silicone upholstery option for the B100L Ultra. Confirm availability for your configuration.",
   },
 ];
 ---
@@ -191,8 +191,8 @@ const upholsteryColors = [
   lang={lang}
   pathname={Astro.url.pathname}
   bodyClass="b100-detail-page"
+  seoProduct={{ name: productTitle, model: "B100L Ultra", description: productSummary, image: displayGallery[0]?.src, category: "Dental chair" }}
 >
-  <!-- FILL: B100L Ultra 面包屑 — 当前层级已确认。 -->
   <nav class="b100-breadcrumb" aria-label="Breadcrumb">
     <div class="container">
       <ol>
@@ -204,7 +204,6 @@ const upholsteryColors = [
     </div>
   </nav>
 
-  <!-- B100L Ultra 产品图库、型号卖点和快速参数。 -->
   <section class="b100-product-hero">
     <div class="container b100-hero-layout">
       <div class="b100-gallery" data-gallery>
@@ -341,7 +340,6 @@ const upholsteryColors = [
     </div>
   </nav>
 
-  <!-- B100L Ultra 核心卖点 — 根据产品资料归纳为数字化、工作流、记忆位与承重舒适性。 -->
   <section class="b100-points-band" id="overview">
     <div class="container">
       <div class="b100-points-layout">
@@ -398,7 +396,6 @@ const upholsteryColors = [
           </div>
         </div>
 
-        <!-- TODO: 收到正式 YouTube 链接后，将此占位替换为响应式 iframe。 -->
         <aside class="b100-video-panel" aria-label="B100L Ultra product video">
           <div
             class="b100-video-placeholder"
@@ -419,7 +416,6 @@ const upholsteryColors = [
     </div>
   </section>
 
-  <!-- B100L Ultra 图文特性 — 以主功能、双功能卡和全宽色卡浏览器建立清晰节奏。 -->
   <section class="b100-features-band" id="features">
     <div class="container">
       <span class="b100-eyebrow">Features</span>
@@ -561,7 +557,6 @@ const upholsteryColors = [
     </div>
   </section>
 
-  <!-- B100L Ultra 技术参数 — 已按客户确认的最新参数录入。 -->
   <section class="b100-specs-band" id="specifications">
     <div class="container">
       <div class="b100-content-narrow">
@@ -654,7 +649,6 @@ const upholsteryColors = [
     </div>
   </section>
 
-  <!-- B100L Ultra FAQ — 答案仅使用客户产品资料中已确认的功能参数。 -->
   <section class="b100-faq-band" id="faq">
     <div class="container">
       <div class="b100-content-narrow">
@@ -735,7 +729,6 @@ const upholsteryColors = [
     </div>
   </section>
 
-  <!-- FILL: B100L Ultra 最终询盘引导 — 复用项目现有询盘组件，并预填型号名称。 -->
   <InquiryCta contactHref={contactHref} message={b100Message} />
 
   <script>

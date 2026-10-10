@@ -5,7 +5,6 @@ export const site = {
   url: "https://design.guccidental.com",
   companyName: "Foshan Guccidental Medical Equipment Co., Ltd.",
   email: "daniel@guccident.com",
-  phone: "+86 000 0000 0000",
   whatsapp: "+86 138 2558 7076",
   address: "Foshan, Guangdong, China",
   description:

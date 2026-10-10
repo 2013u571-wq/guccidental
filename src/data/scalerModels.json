@@ -1,0 +1,2015 @@
+[
+  {
+    "model": "A8",
+    "slug": "a8",
+    "group": "Ultrasonic Scaler",
+    "groupSlug": "ultrasonic-scaler",
+    "title": "A8 Ultrasonic Scaler",
+    "subtitle": "Ultrasonic scaling unit for daily prophylaxis",
+    "summary": "The A8 Ultrasonic Scaler is prepared for routine scaling, plaque removal and chairside hygiene treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Wireless dental ultrasonic piezo scaler"
+      },
+      {
+        "label": "Handpiece",
+        "value": "LED handpiece"
+      },
+      {
+        "label": "Control",
+        "value": "Wireless foot pedal"
+      },
+      {
+        "label": "Water supply",
+        "value": "Auto water supply"
+      },
+      {
+        "label": "Functions",
+        "value": "Scaling, perio, endo irrigation"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/a8/a8-gallery-01.webp",
+      "/images/products/scaler/a8/a8-gallery-02.webp",
+      "/images/products/scaler/a8/a8-gallery-03.webp",
+      "/images/products/scaler/a8/a8-gallery-04.webp",
+      "/images/products/scaler/a8/a8-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/scaler/a8/a8-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the A8 Ultrasonic Scaler",
+    "sellingPoints": [
+      {
+        "title": "Routine scaling workflow",
+        "description": "Supports plaque and calculus removal during daily hygiene treatment."
+      },
+      {
+        "title": "Stable ultrasonic operation",
+        "description": "Prepared for chairside scaling with compatible handpieces and scaler tips."
+      },
+      {
+        "title": "Practical treatment control",
+        "description": "Helps clinicians adjust cleaning workflow for different tooth surfaces and cases."
+      },
+      {
+        "title": "Clinic-ready cleaning support",
+        "description": "Suitable for routine prophylaxis, maintenance and hygiene appointments."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "ULTRASONIC SCALING",
+        "description": "High-frequency vibration supports calculus removal and routine prophylaxis cleaning.",
+        "image": "/images/products/scaler/a8/a8-feature-01.webp"
+      },
+      {
+        "eyebrow": "02",
+        "title": "WATER-COOLED WORKFLOW",
+        "description": "Irrigation helps support clearer operation during scaling procedures.",
+        "image": "/images/products/scaler/a8/a8-feature-02.webp"
+      },
+      {
+        "eyebrow": "03",
+        "title": "TIP COMPATIBILITY",
+        "description": "Works with compatible scaler tips for different hygiene and maintenance tasks.",
+        "image": "/images/products/scaler/a8/a8-feature-03.webp"
+      },
+      {
+        "eyebrow": "04",
+        "title": "COMPACT CLINIC SETUP",
+        "description": "Prepared for daily chairside use with a practical scaler layout.",
+        "image": "/images/products/scaler/a8/a8-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "AP1",
+    "slug": "ap1",
+    "group": "Ultrasonic Scaler",
+    "groupSlug": "ultrasonic-scaler",
+    "title": "AP1 Ultrasonic Scaler",
+    "subtitle": "Ultrasonic scaling unit for daily prophylaxis",
+    "summary": "The AP1 Ultrasonic Scaler is prepared for routine scaling, plaque removal and chairside hygiene treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Air prophy jet / air polisher"
+      },
+      {
+        "label": "Design",
+        "value": "Durable and simple design"
+      },
+      {
+        "label": "Connection",
+        "value": "Directly connects to dental unit"
+      },
+      {
+        "label": "Hole options",
+        "value": "2 holes / 4 holes or random"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/ap1/ap1-gallery-01.webp",
+      "/images/products/scaler/ap1/ap1-gallery-02.webp",
+      "/images/products/scaler/ap1/ap1-gallery-03.webp",
+      "/images/products/scaler/ap1/ap1-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/scaler/ap1/ap1-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the AP1 Ultrasonic Scaler",
+    "sellingPoints": [
+      {
+        "title": "Routine scaling workflow",
+        "description": "Supports plaque and calculus removal during daily hygiene treatment."
+      },
+      {
+        "title": "Stable ultrasonic operation",
+        "description": "Prepared for chairside scaling with compatible handpieces and scaler tips."
+      },
+      {
+        "title": "Practical treatment control",
+        "description": "Helps clinicians adjust cleaning workflow for different tooth surfaces and cases."
+      },
+      {
+        "title": "Clinic-ready cleaning support",
+        "description": "Suitable for routine prophylaxis, maintenance and hygiene appointments."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "ULTRASONIC SCALING",
+        "description": "High-frequency vibration supports calculus removal and routine prophylaxis cleaning."
+      },
+      {
+        "eyebrow": "02",
+        "title": "WATER-COOLED WORKFLOW",
+        "description": "Irrigation helps support clearer operation during scaling procedures."
+      },
+      {
+        "eyebrow": "03",
+        "title": "TIP COMPATIBILITY",
+        "description": "Works with compatible scaler tips for different hygiene and maintenance tasks."
+      },
+      {
+        "eyebrow": "04",
+        "title": "COMPACT CLINIC SETUP",
+        "description": "Prepared for daily chairside use with a practical scaler layout."
+      }
+    ]
+  },
+  {
+    "model": "AS-2000B",
+    "slug": "as-2000b",
+    "group": "Ultrasonic Scaler",
+    "groupSlug": "ultrasonic-scaler",
+    "title": "AS-2000B Ultrasonic Scaler",
+    "subtitle": "Ultrasonic scaling unit for daily prophylaxis",
+    "summary": "The AS-2000B Ultrasonic Scaler is prepared for routine scaling, plaque removal and chairside hygiene treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental dismountable air scaler"
+      },
+      {
+        "label": "Design",
+        "value": "Durable and simple design"
+      },
+      {
+        "label": "Operation",
+        "value": "Dismountable, easy to operate"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/as-2000b/as-2000b-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/scaler/as-2000b/as-2000b-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the AS-2000B Ultrasonic Scaler",
+    "sellingPoints": [
+      {
+        "title": "Routine scaling workflow",
+        "description": "Supports plaque and calculus removal during daily hygiene treatment."
+      },
+      {
+        "title": "Stable ultrasonic operation",
+        "description": "Prepared for chairside scaling with compatible handpieces and scaler tips."
+      },
+      {
+        "title": "Practical treatment control",
+        "description": "Helps clinicians adjust cleaning workflow for different tooth surfaces and cases."
+      },
+      {
+        "title": "Clinic-ready cleaning support",
+        "description": "Suitable for routine prophylaxis, maintenance and hygiene appointments."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "ULTRASONIC SCALING",
+        "description": "High-frequency vibration supports calculus removal and routine prophylaxis cleaning.",
+        "image": "/images/products/scaler/as-2000b/as-2000b-feature-01.webp"
+      },
+      {
+        "eyebrow": "02",
+        "title": "WATER-COOLED WORKFLOW",
+        "description": "Irrigation helps support clearer operation during scaling procedures.",
+        "image": "/images/products/scaler/as-2000b/as-2000b-feature-02.webp"
+      },
+      {
+        "eyebrow": "03",
+        "title": "TIP COMPATIBILITY",
+        "description": "Works with compatible scaler tips for different hygiene and maintenance tasks.",
+        "image": "/images/products/scaler/as-2000b/as-2000b-feature-03.webp"
+      },
+      {
+        "eyebrow": "04",
+        "title": "COMPACT CLINIC SETUP",
+        "description": "Prepared for daily chairside use with a practical scaler layout.",
+        "image": "/images/products/scaler/as-2000b/as-2000b-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "AS-K3",
+    "slug": "as-k3",
+    "group": "Ultrasonic Scaler",
+    "groupSlug": "ultrasonic-scaler",
+    "title": "AS-K3 Ultrasonic Scaler",
+    "subtitle": "Ultrasonic scaling unit for daily prophylaxis",
+    "summary": "The AS-K3 Ultrasonic Scaler is prepared for routine scaling, plaque removal and chairside hygiene treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "LED dental ultrasonic scaler"
+      },
+      {
+        "label": "Control",
+        "value": "LCD touch screen control"
+      },
+      {
+        "label": "Feature",
+        "value": "Anti-infection efficient K3 scaler"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/as-k3/as-k3-gallery-01.webp",
+      "/images/products/scaler/as-k3/as-k3-gallery-02.webp",
+      "/images/products/scaler/as-k3/as-k3-gallery-03.webp",
+      "/images/products/scaler/as-k3/as-k3-gallery-04.webp",
+      "/images/products/scaler/as-k3/as-k3-gallery-05.webp",
+      "/images/products/scaler/as-k3/as-k3-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/scaler/as-k3/as-k3-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the AS-K3 Ultrasonic Scaler",
+    "sellingPoints": [
+      {
+        "title": "Routine scaling workflow",
+        "description": "Supports plaque and calculus removal during daily hygiene treatment."
+      },
+      {
+        "title": "Stable ultrasonic operation",
+        "description": "Prepared for chairside scaling with compatible handpieces and scaler tips."
+      },
+      {
+        "title": "Practical treatment control",
+        "description": "Helps clinicians adjust cleaning workflow for different tooth surfaces and cases."
+      },
+      {
+        "title": "Clinic-ready cleaning support",
+        "description": "Suitable for routine prophylaxis, maintenance and hygiene appointments."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "ULTRASONIC SCALING",
+        "description": "High-frequency vibration supports calculus removal and routine prophylaxis cleaning.",
+        "image": "/images/products/scaler/as-k3/as-k3-feature-01.webp"
+      },
+      {
+        "eyebrow": "02",
+        "title": "WATER-COOLED WORKFLOW",
+        "description": "Irrigation helps support clearer operation during scaling procedures.",
+        "image": "/images/products/scaler/as-k3/as-k3-feature-02.webp"
+      },
+      {
+        "eyebrow": "03",
+        "title": "TIP COMPATIBILITY",
+        "description": "Works with compatible scaler tips for different hygiene and maintenance tasks.",
+        "image": "/images/products/scaler/as-k3/as-k3-feature-03.webp"
+      },
+      {
+        "eyebrow": "04",
+        "title": "COMPACT CLINIC SETUP",
+        "description": "Prepared for daily chairside use with a practical scaler layout.",
+        "image": "/images/products/scaler/as-k3/as-k3-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "HW-5L",
+    "slug": "hw-5l",
+    "group": "Ultrasonic Scaler",
+    "groupSlug": "ultrasonic-scaler",
+    "title": "HW-5L Ultrasonic Scaler",
+    "subtitle": "Ultrasonic scaling unit for daily prophylaxis",
+    "summary": "The HW-5L Ultrasonic Scaler is prepared for routine scaling, plaque removal and chairside hygiene treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental ultrasonic scaler"
+      },
+      {
+        "label": "Power supply",
+        "value": "<w:tcPr><w:tcW w:w=\"0\" w:type=\"auto\"/><w:tcBorders><w:top w:val=\"single\" w:color"
+      },
+      {
+        "label": "Frequency",
+        "value": ". 5. Avoiding Cross infection design. 6. Skidproof handpiece, detachable handpie"
+      },
+      {
+        "label": "Working mode",
+        "value": "ls for EMS, SATELEC, DTE, UDS, VRN. 2. Made of special ABS. 3. Conform to intern"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/hw-5l/hw-5l-gallery-01.webp",
+      "/images/products/scaler/hw-5l/hw-5l-gallery-02.webp",
+      "/images/products/scaler/hw-5l/hw-5l-gallery-03.webp",
+      "/images/products/scaler/hw-5l/hw-5l-gallery-04.webp",
+      "/images/products/scaler/hw-5l/hw-5l-gallery-05.webp",
+      "/images/products/scaler/hw-5l/hw-5l-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/scaler/hw-5l/hw-5l-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the HW-5L Ultrasonic Scaler",
+    "sellingPoints": [
+      {
+        "title": "Routine scaling workflow",
+        "description": "Supports plaque and calculus removal during daily hygiene treatment."
+      },
+      {
+        "title": "Stable ultrasonic operation",
+        "description": "Prepared for chairside scaling with compatible handpieces and scaler tips."
+      },
+      {
+        "title": "Practical treatment control",
+        "description": "Helps clinicians adjust cleaning workflow for different tooth surfaces and cases."
+      },
+      {
+        "title": "Clinic-ready cleaning support",
+        "description": "Suitable for routine prophylaxis, maintenance and hygiene appointments."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "ULTRASONIC SCALING",
+        "description": "High-frequency vibration supports calculus removal and routine prophylaxis cleaning.",
+        "image": "/images/products/scaler/hw-5l/hw-5l-feature-01.webp"
+      },
+      {
+        "eyebrow": "02",
+        "title": "WATER-COOLED WORKFLOW",
+        "description": "Irrigation helps support clearer operation during scaling procedures.",
+        "image": "/images/products/scaler/hw-5l/hw-5l-feature-02.webp"
+      },
+      {
+        "eyebrow": "03",
+        "title": "TIP COMPATIBILITY",
+        "description": "Works with compatible scaler tips for different hygiene and maintenance tasks.",
+        "image": "/images/products/scaler/hw-5l/hw-5l-feature-03.webp"
+      },
+      {
+        "eyebrow": "04",
+        "title": "COMPACT CLINIC SETUP",
+        "description": "Prepared for daily chairside use with a practical scaler layout.",
+        "image": "/images/products/scaler/hw-5l/hw-5l-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-AT-3",
+    "slug": "tj-at-3",
+    "group": "Ultrasonic Scaler",
+    "groupSlug": "ultrasonic-scaler",
+    "title": "TJ-AT-3 Ultrasonic Scaler",
+    "subtitle": "Ultrasonic scaling unit for daily prophylaxis",
+    "summary": "The TJ-AT-3 Ultrasonic Scaler is prepared for routine scaling, plaque removal and chairside hygiene treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental ultrasonic scaler water bottle auto water supply system"
+      },
+      {
+        "label": "Packing size",
+        "value": "270 x 160 x 135 mm"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/tj-at-3/tj-at-3-gallery-01.webp",
+      "/images/products/scaler/tj-at-3/tj-at-3-gallery-02.webp",
+      "/images/products/scaler/tj-at-3/tj-at-3-gallery-03.webp",
+      "/images/products/scaler/tj-at-3/tj-at-3-gallery-04.webp",
+      "/images/products/scaler/tj-at-3/tj-at-3-gallery-05.webp",
+      "/images/products/scaler/tj-at-3/tj-at-3-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/scaler/tj-at-3/tj-at-3-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-AT-3 Ultrasonic Scaler",
+    "sellingPoints": [
+      {
+        "title": "Routine scaling workflow",
+        "description": "Supports plaque and calculus removal during daily hygiene treatment."
+      },
+      {
+        "title": "Stable ultrasonic operation",
+        "description": "Prepared for chairside scaling with compatible handpieces and scaler tips."
+      },
+      {
+        "title": "Practical treatment control",
+        "description": "Helps clinicians adjust cleaning workflow for different tooth surfaces and cases."
+      },
+      {
+        "title": "Clinic-ready cleaning support",
+        "description": "Suitable for routine prophylaxis, maintenance and hygiene appointments."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "ULTRASONIC SCALING",
+        "description": "High-frequency vibration supports calculus removal and routine prophylaxis cleaning.",
+        "image": "/images/products/scaler/tj-at-3/tj-at-3-feature-01.webp"
+      },
+      {
+        "eyebrow": "02",
+        "title": "WATER-COOLED WORKFLOW",
+        "description": "Irrigation helps support clearer operation during scaling procedures.",
+        "image": "/images/products/scaler/tj-at-3/tj-at-3-feature-02.webp"
+      },
+      {
+        "eyebrow": "03",
+        "title": "TIP COMPATIBILITY",
+        "description": "Works with compatible scaler tips for different hygiene and maintenance tasks.",
+        "image": "/images/products/scaler/tj-at-3/tj-at-3-feature-03.webp"
+      },
+      {
+        "eyebrow": "04",
+        "title": "COMPACT CLINIC SETUP",
+        "description": "Prepared for daily chairside use with a practical scaler layout.",
+        "image": "/images/products/scaler/tj-at-3/tj-at-3-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-DA10",
+    "slug": "tj-da10",
+    "group": "Ultrasonic Scaler",
+    "groupSlug": "ultrasonic-scaler",
+    "title": "TJ-DA10 Ultrasonic Scaler",
+    "subtitle": "Ultrasonic scaling unit for daily prophylaxis",
+    "summary": "The TJ-DA10 Ultrasonic Scaler is prepared for routine scaling, plaque removal and chairside hygiene treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Ultrasonic scaler"
+      },
+      {
+        "label": "Chip",
+        "value": "Built-in high-performance chip"
+      },
+      {
+        "label": "Control",
+        "value": "Smart touch system"
+      },
+      {
+        "label": "Handpiece",
+        "value": "High-quality lighted handpiece"
+      },
+      {
+        "label": "Packing size",
+        "value": "40 x 20 x 28 cm"
+      },
+      {
+        "label": "Gross weight",
+        "value": "3 kg"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/tj-da10/tj-da10-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/scaler/tj-da10/tj-da10-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-DA10 Ultrasonic Scaler",
+    "sellingPoints": [
+      {
+        "title": "Routine scaling workflow",
+        "description": "Supports plaque and calculus removal during daily hygiene treatment."
+      },
+      {
+        "title": "Stable ultrasonic operation",
+        "description": "Prepared for chairside scaling with compatible handpieces and scaler tips."
+      },
+      {
+        "title": "Practical treatment control",
+        "description": "Helps clinicians adjust cleaning workflow for different tooth surfaces and cases."
+      },
+      {
+        "title": "Clinic-ready cleaning support",
+        "description": "Suitable for routine prophylaxis, maintenance and hygiene appointments."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "ULTRASONIC SCALING",
+        "description": "High-frequency vibration supports calculus removal and routine prophylaxis cleaning."
+      },
+      {
+        "eyebrow": "02",
+        "title": "WATER-COOLED WORKFLOW",
+        "description": "Irrigation helps support clearer operation during scaling procedures."
+      },
+      {
+        "eyebrow": "03",
+        "title": "TIP COMPATIBILITY",
+        "description": "Works with compatible scaler tips for different hygiene and maintenance tasks."
+      },
+      {
+        "eyebrow": "04",
+        "title": "COMPACT CLINIC SETUP",
+        "description": "Prepared for daily chairside use with a practical scaler layout."
+      }
+    ]
+  },
+  {
+    "model": "TJ-DA20",
+    "slug": "tj-da20",
+    "group": "Ultrasonic Scaler",
+    "groupSlug": "ultrasonic-scaler",
+    "title": "TJ-DA20 Ultrasonic Scaler",
+    "subtitle": "Ultrasonic scaling unit for daily prophylaxis",
+    "summary": "The TJ-DA20 Ultrasonic Scaler is prepared for routine scaling, plaque removal and chairside hygiene treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Ultrasonic scaler"
+      },
+      {
+        "label": "Control",
+        "value": "Smart touch panel"
+      },
+      {
+        "label": "Foot pedal",
+        "value": "Wireless foot pedal control"
+      },
+      {
+        "label": "Handpiece",
+        "value": "High-quality lighted handpiece"
+      },
+      {
+        "label": "Water pump",
+        "value": "Durable Japanese water pump"
+      },
+      {
+        "label": "Packing size",
+        "value": "52 x 23 x 44 cm"
+      },
+      {
+        "label": "Gross weight",
+        "value": "4.5 kg"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/tj-da20/tj-da20-gallery-01.webp",
+      "/images/products/scaler/tj-da20/tj-da20-gallery-02.webp",
+      "/images/products/scaler/tj-da20/tj-da20-gallery-03.webp",
+      "/images/products/scaler/tj-da20/tj-da20-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/scaler/tj-da20/tj-da20-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-DA20 Ultrasonic Scaler",
+    "sellingPoints": [
+      {
+        "title": "Routine scaling workflow",
+        "description": "Supports plaque and calculus removal during daily hygiene treatment."
+      },
+      {
+        "title": "Stable ultrasonic operation",
+        "description": "Prepared for chairside scaling with compatible handpieces and scaler tips."
+      },
+      {
+        "title": "Practical treatment control",
+        "description": "Helps clinicians adjust cleaning workflow for different tooth surfaces and cases."
+      },
+      {
+        "title": "Clinic-ready cleaning support",
+        "description": "Suitable for routine prophylaxis, maintenance and hygiene appointments."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "ULTRASONIC SCALING",
+        "description": "High-frequency vibration supports calculus removal and routine prophylaxis cleaning."
+      },
+      {
+        "eyebrow": "02",
+        "title": "WATER-COOLED WORKFLOW",
+        "description": "Irrigation helps support clearer operation during scaling procedures."
+      },
+      {
+        "eyebrow": "03",
+        "title": "TIP COMPATIBILITY",
+        "description": "Works with compatible scaler tips for different hygiene and maintenance tasks."
+      },
+      {
+        "eyebrow": "04",
+        "title": "COMPACT CLINIC SETUP",
+        "description": "Prepared for daily chairside use with a practical scaler layout."
+      }
+    ]
+  },
+  {
+    "model": "TJ-F18L",
+    "slug": "tj-f18l",
+    "group": "Ultrasonic Scaler",
+    "groupSlug": "ultrasonic-scaler",
+    "title": "TJ-F18L Ultrasonic Scaler",
+    "subtitle": "Ultrasonic scaling unit for daily prophylaxis",
+    "summary": "The TJ-F18L Ultrasonic Scaler is prepared for routine scaling, plaque removal and chairside hygiene treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Ultrasonic scaler"
+      },
+      {
+        "label": "Applications",
+        "value": "Prophylaxis, periodontology, implant maintenance and endodontics"
+      },
+      {
+        "label": "Use",
+        "value": "Micro-preparation of restorations"
+      },
+      {
+        "label": "Packing size",
+        "value": "35 x 32 x 16 cm"
+      },
+      {
+        "label": "Gross weight",
+        "value": "2.9 kg"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/tj-f18l/tj-f18l-gallery-01.webp",
+      "/images/products/scaler/tj-f18l/tj-f18l-gallery-02.webp",
+      "/images/products/scaler/tj-f18l/tj-f18l-gallery-03.webp",
+      "/images/products/scaler/tj-f18l/tj-f18l-gallery-04.webp",
+      "/images/products/scaler/tj-f18l/tj-f18l-gallery-05.webp",
+      "/images/products/scaler/tj-f18l/tj-f18l-gallery-06.webp",
+      "/images/products/scaler/tj-f18l/tj-f18l-gallery-07.webp",
+      "/images/products/scaler/tj-f18l/tj-f18l-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/scaler/tj-f18l/tj-f18l-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-F18L Ultrasonic Scaler",
+    "sellingPoints": [
+      {
+        "title": "Routine scaling workflow",
+        "description": "Supports plaque and calculus removal during daily hygiene treatment."
+      },
+      {
+        "title": "Stable ultrasonic operation",
+        "description": "Prepared for chairside scaling with compatible handpieces and scaler tips."
+      },
+      {
+        "title": "Practical treatment control",
+        "description": "Helps clinicians adjust cleaning workflow for different tooth surfaces and cases."
+      },
+      {
+        "title": "Clinic-ready cleaning support",
+        "description": "Suitable for routine prophylaxis, maintenance and hygiene appointments."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "ULTRASONIC SCALING",
+        "description": "High-frequency vibration supports calculus removal and routine prophylaxis cleaning.",
+        "image": "/images/products/scaler/tj-f18l/tj-f18l-feature-01.webp"
+      },
+      {
+        "eyebrow": "02",
+        "title": "WATER-COOLED WORKFLOW",
+        "description": "Irrigation helps support clearer operation during scaling procedures.",
+        "image": "/images/products/scaler/tj-f18l/tj-f18l-feature-02.webp"
+      },
+      {
+        "eyebrow": "03",
+        "title": "TIP COMPATIBILITY",
+        "description": "Works with compatible scaler tips for different hygiene and maintenance tasks.",
+        "image": "/images/products/scaler/tj-f18l/tj-f18l-feature-03.webp"
+      },
+      {
+        "eyebrow": "04",
+        "title": "COMPACT CLINIC SETUP",
+        "description": "Prepared for daily chairside use with a practical scaler layout.",
+        "image": "/images/products/scaler/tj-f18l/tj-f18l-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-K08B",
+    "slug": "tj-k08b",
+    "group": "Ultrasonic Scaler",
+    "groupSlug": "ultrasonic-scaler",
+    "title": "TJ-K08B Ultrasonic Scaler",
+    "subtitle": "Ultrasonic scaling unit for daily prophylaxis",
+    "summary": "The TJ-K08B Ultrasonic Scaler is prepared for routine scaling, plaque removal and chairside hygiene treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Ultrasonic scaler"
+      },
+      {
+        "label": "Functions",
+        "value": "Scaling and perio"
+      },
+      {
+        "label": "Handpiece",
+        "value": "Sealed handpiece"
+      },
+      {
+        "label": "Compatibility",
+        "value": "EMS and UDS compatible"
+      },
+      {
+        "label": "Technology",
+        "value": "Intelligent vibration technology"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/tj-k08b/tj-k08b-gallery-01.webp",
+      "/images/products/scaler/tj-k08b/tj-k08b-gallery-02.webp",
+      "/images/products/scaler/tj-k08b/tj-k08b-gallery-03.webp"
+    ],
+    "thumbnail": "/images/products/scaler/tj-k08b/tj-k08b-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-K08B Ultrasonic Scaler",
+    "sellingPoints": [
+      {
+        "title": "Routine scaling workflow",
+        "description": "Supports plaque and calculus removal during daily hygiene treatment."
+      },
+      {
+        "title": "Stable ultrasonic operation",
+        "description": "Prepared for chairside scaling with compatible handpieces and scaler tips."
+      },
+      {
+        "title": "Practical treatment control",
+        "description": "Helps clinicians adjust cleaning workflow for different tooth surfaces and cases."
+      },
+      {
+        "title": "Clinic-ready cleaning support",
+        "description": "Suitable for routine prophylaxis, maintenance and hygiene appointments."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "ULTRASONIC SCALING",
+        "description": "High-frequency vibration supports calculus removal and routine prophylaxis cleaning.",
+        "image": "/images/products/scaler/tj-k08b/tj-k08b-feature-01.webp"
+      },
+      {
+        "eyebrow": "02",
+        "title": "WATER-COOLED WORKFLOW",
+        "description": "Irrigation helps support clearer operation during scaling procedures.",
+        "image": "/images/products/scaler/tj-k08b/tj-k08b-feature-02.webp"
+      },
+      {
+        "eyebrow": "03",
+        "title": "TIP COMPATIBILITY",
+        "description": "Works with compatible scaler tips for different hygiene and maintenance tasks.",
+        "image": "/images/products/scaler/tj-k08b/tj-k08b-feature-03.webp"
+      },
+      {
+        "eyebrow": "04",
+        "title": "COMPACT CLINIC SETUP",
+        "description": "Prepared for daily chairside use with a practical scaler layout.",
+        "image": "/images/products/scaler/tj-k08b/tj-k08b-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-ST5",
+    "slug": "tj-st5",
+    "group": "Ultrasonic Scaler",
+    "groupSlug": "ultrasonic-scaler",
+    "title": "TJ-ST5 Ultrasonic Scaler",
+    "subtitle": "Ultrasonic scaling unit for daily prophylaxis",
+    "summary": "The TJ-ST5 Ultrasonic Scaler is prepared for routine scaling, plaque removal and chairside hygiene treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Stainless steel disposable dental ultrasonic scaler air scaler tips"
+      },
+      {
+        "label": "Material",
+        "value": "Stainless steel"
+      },
+      {
+        "label": "Use",
+        "value": "Disposable use"
+      },
+      {
+        "label": "Quantity",
+        "value": "5 pcs / set"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/tj-st5/tj-st5-gallery-01.webp",
+      "/images/products/scaler/tj-st5/tj-st5-gallery-02.webp",
+      "/images/products/scaler/tj-st5/tj-st5-gallery-03.webp",
+      "/images/products/scaler/tj-st5/tj-st5-gallery-04.webp",
+      "/images/products/scaler/tj-st5/tj-st5-gallery-05.webp",
+      "/images/products/scaler/tj-st5/tj-st5-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/scaler/tj-st5/tj-st5-gallery-03.webp",
+    "sellingHeading": "Why clinics choose the TJ-ST5 Ultrasonic Scaler",
+    "sellingPoints": [
+      {
+        "title": "Routine scaling workflow",
+        "description": "Supports plaque and calculus removal during daily hygiene treatment."
+      },
+      {
+        "title": "Stable ultrasonic operation",
+        "description": "Prepared for chairside scaling with compatible handpieces and scaler tips."
+      },
+      {
+        "title": "Practical treatment control",
+        "description": "Helps clinicians adjust cleaning workflow for different tooth surfaces and cases."
+      },
+      {
+        "title": "Clinic-ready cleaning support",
+        "description": "Suitable for routine prophylaxis, maintenance and hygiene appointments."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "ULTRASONIC SCALING",
+        "description": "High-frequency vibration supports calculus removal and routine prophylaxis cleaning.",
+        "image": "/images/products/scaler/tj-st5/tj-st5-feature-01.webp"
+      },
+      {
+        "eyebrow": "02",
+        "title": "WATER-COOLED WORKFLOW",
+        "description": "Irrigation helps support clearer operation during scaling procedures.",
+        "image": "/images/products/scaler/tj-st5/tj-st5-feature-02.webp"
+      },
+      {
+        "eyebrow": "03",
+        "title": "TIP COMPATIBILITY",
+        "description": "Works with compatible scaler tips for different hygiene and maintenance tasks.",
+        "image": "/images/products/scaler/tj-st5/tj-st5-feature-03.webp"
+      },
+      {
+        "eyebrow": "04",
+        "title": "COMPACT CLINIC SETUP",
+        "description": "Prepared for daily chairside use with a practical scaler layout.",
+        "image": "/images/products/scaler/tj-st5/tj-st5-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "UDS-J",
+    "slug": "uds-j",
+    "group": "Ultrasonic Scaler",
+    "groupSlug": "ultrasonic-scaler",
+    "title": "UDS-J Ultrasonic Scaler",
+    "subtitle": "Ultrasonic scaling unit for daily prophylaxis",
+    "summary": "The UDS-J Ultrasonic Scaler is prepared for routine scaling, plaque removal and chairside hygiene treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental ultrasonic scaler"
+      },
+      {
+        "label": "Dimensions",
+        "value": "Portable Dental Ultrasonic Scaler Original Woodpecker Scaler"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/uds-j/uds-j-gallery-01.webp",
+      "/images/products/scaler/uds-j/uds-j-gallery-02.webp",
+      "/images/products/scaler/uds-j/uds-j-gallery-03.webp",
+      "/images/products/scaler/uds-j/uds-j-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/scaler/uds-j/uds-j-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the UDS-J Ultrasonic Scaler",
+    "sellingPoints": [
+      {
+        "title": "Routine scaling workflow",
+        "description": "Supports plaque and calculus removal during daily hygiene treatment."
+      },
+      {
+        "title": "Stable ultrasonic operation",
+        "description": "Prepared for chairside scaling with compatible handpieces and scaler tips."
+      },
+      {
+        "title": "Practical treatment control",
+        "description": "Helps clinicians adjust cleaning workflow for different tooth surfaces and cases."
+      },
+      {
+        "title": "Clinic-ready cleaning support",
+        "description": "Suitable for routine prophylaxis, maintenance and hygiene appointments."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "ULTRASONIC SCALING",
+        "description": "High-frequency vibration supports calculus removal and routine prophylaxis cleaning.",
+        "image": "/images/products/scaler/uds-j/uds-j-feature-01.webp"
+      },
+      {
+        "eyebrow": "02",
+        "title": "WATER-COOLED WORKFLOW",
+        "description": "Irrigation helps support clearer operation during scaling procedures.",
+        "image": "/images/products/scaler/uds-j/uds-j-feature-02.webp"
+      },
+      {
+        "eyebrow": "03",
+        "title": "TIP COMPATIBILITY",
+        "description": "Works with compatible scaler tips for different hygiene and maintenance tasks.",
+        "image": "/images/products/scaler/uds-j/uds-j-feature-03.webp"
+      },
+      {
+        "eyebrow": "04",
+        "title": "COMPACT CLINIC SETUP",
+        "description": "Prepared for daily chairside use with a practical scaler layout.",
+        "image": "/images/products/scaler/uds-j/uds-j-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "UDS-N1",
+    "slug": "uds-n1",
+    "group": "Ultrasonic Scaler",
+    "groupSlug": "ultrasonic-scaler",
+    "title": "UDS-N1 Ultrasonic Scaler",
+    "subtitle": "Ultrasonic scaling unit for daily prophylaxis",
+    "summary": "The UDS-N1 Ultrasonic Scaler is prepared for routine scaling, plaque removal and chairside hygiene treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental ultrasonic scaler"
+      },
+      {
+        "label": "Frequency",
+        "value": "tracking, digitally controlled."
+      },
+      {
+        "label": "Weight",
+        "value": "0.2kg."
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/uds-n1/uds-n1-gallery-01.webp",
+      "/images/products/scaler/uds-n1/uds-n1-gallery-02.webp",
+      "/images/products/scaler/uds-n1/uds-n1-gallery-03.webp"
+    ],
+    "thumbnail": "/images/products/scaler/uds-n1/uds-n1-gallery-02.webp",
+    "sellingHeading": "Why clinics choose the UDS-N1 Ultrasonic Scaler",
+    "sellingPoints": [
+      {
+        "title": "Routine scaling workflow",
+        "description": "Supports plaque and calculus removal during daily hygiene treatment."
+      },
+      {
+        "title": "Stable ultrasonic operation",
+        "description": "Prepared for chairside scaling with compatible handpieces and scaler tips."
+      },
+      {
+        "title": "Practical treatment control",
+        "description": "Helps clinicians adjust cleaning workflow for different tooth surfaces and cases."
+      },
+      {
+        "title": "Clinic-ready cleaning support",
+        "description": "Suitable for routine prophylaxis, maintenance and hygiene appointments."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "ULTRASONIC SCALING",
+        "description": "High-frequency vibration supports calculus removal and routine prophylaxis cleaning."
+      },
+      {
+        "eyebrow": "02",
+        "title": "WATER-COOLED WORKFLOW",
+        "description": "Irrigation helps support clearer operation during scaling procedures."
+      },
+      {
+        "eyebrow": "03",
+        "title": "TIP COMPATIBILITY",
+        "description": "Works with compatible scaler tips for different hygiene and maintenance tasks."
+      },
+      {
+        "eyebrow": "04",
+        "title": "COMPACT CLINIC SETUP",
+        "description": "Prepared for daily chairside use with a practical scaler layout."
+      }
+    ]
+  },
+  {
+    "model": "UDS-N2 LED",
+    "slug": "uds-n2-led",
+    "group": "Ultrasonic Scaler",
+    "groupSlug": "ultrasonic-scaler",
+    "title": "UDS-N2 LED Ultrasonic Scaler",
+    "subtitle": "Ultrasonic scaling unit for daily prophylaxis",
+    "summary": "The UDS-N2 LED Ultrasonic Scaler is prepared for routine scaling, plaque removal and chairside hygiene treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Built-in ultrasonic scaler"
+      },
+      {
+        "label": "Brand",
+        "value": "Original Woodpecker"
+      },
+      {
+        "label": "Configuration",
+        "value": "Dental competitive price with light"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/uds-n2-led/uds-n2-led-gallery-01.webp",
+      "/images/products/scaler/uds-n2-led/uds-n2-led-gallery-02.webp",
+      "/images/products/scaler/uds-n2-led/uds-n2-led-gallery-03.webp",
+      "/images/products/scaler/uds-n2-led/uds-n2-led-gallery-04.webp",
+      "/images/products/scaler/uds-n2-led/uds-n2-led-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/scaler/uds-n2-led/uds-n2-led-gallery-02.webp",
+    "sellingHeading": "Why clinics choose the UDS-N2 LED Ultrasonic Scaler",
+    "sellingPoints": [
+      {
+        "title": "Routine scaling workflow",
+        "description": "Supports plaque and calculus removal during daily hygiene treatment."
+      },
+      {
+        "title": "Stable ultrasonic operation",
+        "description": "Prepared for chairside scaling with compatible handpieces and scaler tips."
+      },
+      {
+        "title": "Practical treatment control",
+        "description": "Helps clinicians adjust cleaning workflow for different tooth surfaces and cases."
+      },
+      {
+        "title": "Clinic-ready cleaning support",
+        "description": "Suitable for routine prophylaxis, maintenance and hygiene appointments."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "ULTRASONIC SCALING",
+        "description": "High-frequency vibration supports calculus removal and routine prophylaxis cleaning.",
+        "image": "/images/products/scaler/uds-n2-led/uds-n2-led-feature-01.webp"
+      },
+      {
+        "eyebrow": "02",
+        "title": "WATER-COOLED WORKFLOW",
+        "description": "Irrigation helps support clearer operation during scaling procedures.",
+        "image": "/images/products/scaler/uds-n2-led/uds-n2-led-feature-02.webp"
+      },
+      {
+        "eyebrow": "03",
+        "title": "TIP COMPATIBILITY",
+        "description": "Works with compatible scaler tips for different hygiene and maintenance tasks.",
+        "image": "/images/products/scaler/uds-n2-led/uds-n2-led-feature-03.webp"
+      },
+      {
+        "eyebrow": "04",
+        "title": "COMPACT CLINIC SETUP",
+        "description": "Prepared for daily chairside use with a practical scaler layout.",
+        "image": "/images/products/scaler/uds-n2-led/uds-n2-led-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "UDS-P LED",
+    "slug": "uds-p-led",
+    "group": "Ultrasonic Scaler",
+    "groupSlug": "ultrasonic-scaler",
+    "title": "UDS-P LED Ultrasonic Scaler",
+    "subtitle": "Ultrasonic scaling unit for daily prophylaxis",
+    "summary": "The UDS-P LED Ultrasonic Scaler is prepared for routine scaling, plaque removal and chairside hygiene treatment.",
+    "specs": [
+      {
+        "label": "Main unit weight",
+        "value": "0.68kg"
+      },
+      {
+        "label": "Adapter weight",
+        "value": "1.2kg"
+      },
+      {
+        "label": "Dimensions",
+        "value": "178mm*145mm*89mm"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/uds-p-led/uds-p-led-gallery-01.webp",
+      "/images/products/scaler/uds-p-led/uds-p-led-gallery-02.webp",
+      "/images/products/scaler/uds-p-led/uds-p-led-gallery-03.webp",
+      "/images/products/scaler/uds-p-led/uds-p-led-gallery-04.webp",
+      "/images/products/scaler/uds-p-led/uds-p-led-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/scaler/uds-p-led/uds-p-led-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the UDS-P LED Ultrasonic Scaler",
+    "sellingPoints": [
+      {
+        "title": "Routine scaling workflow",
+        "description": "Supports plaque and calculus removal during daily hygiene treatment."
+      },
+      {
+        "title": "Stable ultrasonic operation",
+        "description": "Prepared for chairside scaling with compatible handpieces and scaler tips."
+      },
+      {
+        "title": "Practical treatment control",
+        "description": "Helps clinicians adjust cleaning workflow for different tooth surfaces and cases."
+      },
+      {
+        "title": "Clinic-ready cleaning support",
+        "description": "Suitable for routine prophylaxis, maintenance and hygiene appointments."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "ULTRASONIC SCALING",
+        "description": "High-frequency vibration supports calculus removal and routine prophylaxis cleaning.",
+        "image": "/images/products/scaler/uds-p-led/uds-p-led-feature-01.webp"
+      },
+      {
+        "eyebrow": "02",
+        "title": "WATER-COOLED WORKFLOW",
+        "description": "Irrigation helps support clearer operation during scaling procedures.",
+        "image": "/images/products/scaler/uds-p-led/uds-p-led-feature-02.webp"
+      },
+      {
+        "eyebrow": "03",
+        "title": "TIP COMPATIBILITY",
+        "description": "Works with compatible scaler tips for different hygiene and maintenance tasks.",
+        "image": "/images/products/scaler/uds-p-led/uds-p-led-feature-03.webp"
+      },
+      {
+        "eyebrow": "04",
+        "title": "COMPACT CLINIC SETUP",
+        "description": "Prepared for daily chairside use with a practical scaler layout.",
+        "image": "/images/products/scaler/uds-p-led/uds-p-led-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "VGT-6250",
+    "slug": "vgt-6250",
+    "group": "Ultrasonic Scaler",
+    "groupSlug": "ultrasonic-scaler",
+    "title": "VGT-6250 Ultrasonic Scaler",
+    "subtitle": "Ultrasonic scaling unit for daily prophylaxis",
+    "summary": "The VGT-6250 Ultrasonic Scaler is prepared for routine scaling, plaque removal and chairside hygiene treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental ultrasonic cleaner"
+      },
+      {
+        "label": "Capacity",
+        "value": "2.5 L"
+      },
+      {
+        "label": "Feature",
+        "value": "Secure vacuum cleaning with heater"
+      },
+      {
+        "label": "Display",
+        "value": "Digital LED display"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/vgt-6250/vgt-6250-gallery-01.webp",
+      "/images/products/scaler/vgt-6250/vgt-6250-gallery-02.webp",
+      "/images/products/scaler/vgt-6250/vgt-6250-gallery-03.webp",
+      "/images/products/scaler/vgt-6250/vgt-6250-gallery-04.webp",
+      "/images/products/scaler/vgt-6250/vgt-6250-gallery-05.webp",
+      "/images/products/scaler/vgt-6250/vgt-6250-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/scaler/vgt-6250/vgt-6250-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the VGT-6250 Ultrasonic Scaler",
+    "sellingPoints": [
+      {
+        "title": "Routine scaling workflow",
+        "description": "Supports plaque and calculus removal during daily hygiene treatment."
+      },
+      {
+        "title": "Stable ultrasonic operation",
+        "description": "Prepared for chairside scaling with compatible handpieces and scaler tips."
+      },
+      {
+        "title": "Practical treatment control",
+        "description": "Helps clinicians adjust cleaning workflow for different tooth surfaces and cases."
+      },
+      {
+        "title": "Clinic-ready cleaning support",
+        "description": "Suitable for routine prophylaxis, maintenance and hygiene appointments."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "ULTRASONIC SCALING",
+        "description": "High-frequency vibration supports calculus removal and routine prophylaxis cleaning.",
+        "image": "/images/products/scaler/vgt-6250/vgt-6250-feature-01.webp"
+      },
+      {
+        "eyebrow": "02",
+        "title": "WATER-COOLED WORKFLOW",
+        "description": "Irrigation helps support clearer operation during scaling procedures.",
+        "image": "/images/products/scaler/vgt-6250/vgt-6250-feature-02.webp"
+      },
+      {
+        "eyebrow": "03",
+        "title": "TIP COMPATIBILITY",
+        "description": "Works with compatible scaler tips for different hygiene and maintenance tasks.",
+        "image": "/images/products/scaler/vgt-6250/vgt-6250-feature-03.webp"
+      },
+      {
+        "eyebrow": "04",
+        "title": "COMPACT CLINIC SETUP",
+        "description": "Prepared for daily chairside use with a practical scaler layout.",
+        "image": "/images/products/scaler/vgt-6250/vgt-6250-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "X1401",
+    "slug": "x1401",
+    "group": "Ultrasonic Scaler",
+    "groupSlug": "ultrasonic-scaler",
+    "title": "X1401 Ultrasonic Scaler",
+    "subtitle": "Ultrasonic scaling unit for daily prophylaxis",
+    "summary": "The X1401 Ultrasonic Scaler is prepared for routine scaling, plaque removal and chairside hygiene treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental ultrasonic cleaner"
+      },
+      {
+        "label": "Capacity",
+        "value": "5 L"
+      },
+      {
+        "label": "Feature",
+        "value": "Secure vacuum cleaning"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/x1401/x1401-gallery-01.webp",
+      "/images/products/scaler/x1401/x1401-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/scaler/x1401/x1401-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the X1401 Ultrasonic Scaler",
+    "sellingPoints": [
+      {
+        "title": "Routine scaling workflow",
+        "description": "Supports plaque and calculus removal during daily hygiene treatment."
+      },
+      {
+        "title": "Stable ultrasonic operation",
+        "description": "Prepared for chairside scaling with compatible handpieces and scaler tips."
+      },
+      {
+        "title": "Practical treatment control",
+        "description": "Helps clinicians adjust cleaning workflow for different tooth surfaces and cases."
+      },
+      {
+        "title": "Clinic-ready cleaning support",
+        "description": "Suitable for routine prophylaxis, maintenance and hygiene appointments."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "ULTRASONIC SCALING",
+        "description": "High-frequency vibration supports calculus removal and routine prophylaxis cleaning."
+      },
+      {
+        "eyebrow": "02",
+        "title": "WATER-COOLED WORKFLOW",
+        "description": "Irrigation helps support clearer operation during scaling procedures."
+      },
+      {
+        "eyebrow": "03",
+        "title": "TIP COMPATIBILITY",
+        "description": "Works with compatible scaler tips for different hygiene and maintenance tasks."
+      },
+      {
+        "eyebrow": "04",
+        "title": "COMPACT CLINIC SETUP",
+        "description": "Prepared for daily chairside use with a practical scaler layout."
+      }
+    ]
+  },
+  {
+    "model": "TJ-F21 / TJ-F22",
+    "slug": "tj-f21-tj-f22",
+    "group": "Air Polisher",
+    "groupSlug": "air-polisher",
+    "title": "F21-F22 Air Polisher",
+    "subtitle": "Dental air polishing and periodontal cleaning support",
+    "summary": "The F21-F22 Air Polisher supports stain removal, biofilm control and periodontal maintenance workflows in dental clinics.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Ultrasonic scaling and air-polishing periodontal system"
+      },
+      {
+        "label": "F21 configuration",
+        "value": "3-in-1: ultrasonic scaling, air polishing, minimally invasive treatment"
+      },
+      {
+        "label": "F22 configuration",
+        "value": "2-in-1: ultrasonic scaling and air polishing"
+      },
+      {
+        "label": "Main unit",
+        "value": "7-inch LCD touch screen"
+      },
+      {
+        "label": "Handpiece",
+        "value": "Detachable handpiece, high-temperature and high-pressure sterilizable"
+      },
+      {
+        "label": "Frequency",
+        "value": "25 +- 3 KHz"
+      },
+      {
+        "label": "Polishing handpiece",
+        "value": "360-degree rotatable polishing handpiece"
+      },
+      {
+        "label": "Packing size",
+        "value": "50 x 22 x 44 cm"
+      },
+      {
+        "label": "Gross weight",
+        "value": "7.5 kg"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/tj-f21-tj-f22/tj-f21-tj-f22-gallery-01.webp",
+      "/images/products/scaler/tj-f21-tj-f22/tj-f21-tj-f22-gallery-02.webp",
+      "/images/products/scaler/tj-f21-tj-f22/tj-f21-tj-f22-gallery-03.webp",
+      "/images/products/scaler/tj-f21-tj-f22/tj-f21-tj-f22-gallery-04.webp",
+      "/images/products/scaler/tj-f21-tj-f22/tj-f21-tj-f22-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/scaler/tj-f21-tj-f22/tj-f21-tj-f22-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the F21-F22 Air Polisher",
+    "sellingPoints": [
+      {
+        "title": "Air-polishing cleaning workflow",
+        "description": "Supports stain removal and biofilm control for routine prophylaxis and periodontal maintenance."
+      },
+      {
+        "title": "Chairside operation",
+        "description": "Designed for use around the treatment area with practical handling during cleaning procedures."
+      },
+      {
+        "title": "Periodontal support",
+        "description": "Helps extend cleaning access for maintenance cases where gentle powder flow is useful."
+      },
+      {
+        "title": "Clinic maintenance routine",
+        "description": "Fits regular hygiene workflows for patient cleaning, finishing and recall visits."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "POWDER-FLOW CLEANING",
+        "description": "Controlled air and powder flow helps remove extrinsic stains and biofilm during hygiene treatment.",
+        "image": "/images/products/scaler/tj-f21-tj-f22/tj-f21-tj-f22-feature-01.webp"
+      },
+      {
+        "eyebrow": "02",
+        "title": "PERIODONTAL MAINTENANCE",
+        "description": "Suitable for supportive periodontal cleaning workflows with compatible powders and tips.",
+        "image": "/images/products/scaler/tj-f21-tj-f22/tj-f21-tj-f22-feature-02.webp"
+      },
+      {
+        "eyebrow": "03",
+        "title": "HANDPIECE ACCESS",
+        "description": "Slim working parts help clinicians reach routine cleaning areas around the dentition.",
+        "image": "/images/products/scaler/tj-f21-tj-f22/tj-f21-tj-f22-feature-03.webp"
+      },
+      {
+        "eyebrow": "04",
+        "title": "EASY DAILY CLEANING",
+        "description": "Designed around repeat clinic use, refill, rinsing and maintenance after air-polishing treatment.",
+        "image": "/images/products/scaler/tj-f21-tj-f22/tj-f21-tj-f22-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-DP10",
+    "slug": "tj-dp10",
+    "group": "Air Polisher",
+    "groupSlug": "air-polisher",
+    "title": "TJ-DP10 Air Polisher",
+    "subtitle": "Dental air polishing and periodontal cleaning support",
+    "summary": "The TJ-DP10 Air Polisher supports stain removal, biofilm control and periodontal maintenance workflows in dental clinics.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental air polisher"
+      },
+      {
+        "label": "Applications",
+        "value": "Remove stains, tartar, soft dental calculus and plaque"
+      },
+      {
+        "label": "Use",
+        "value": "Polishing tooth surfaces"
+      },
+      {
+        "label": "Packing size",
+        "value": "230 x 130 x 60 mm"
+      },
+      {
+        "label": "Gross weight",
+        "value": "0.32 kg"
+      },
+      {
+        "label": "Color options",
+        "value": "White / blue or random"
+      },
+      {
+        "label": "Hole options",
+        "value": "2 holes / 4 holes or random"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/tj-dp10/tj-dp10-gallery-01.webp",
+      "/images/products/scaler/tj-dp10/tj-dp10-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/scaler/tj-dp10/tj-dp10-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-DP10 Air Polisher",
+    "sellingPoints": [
+      {
+        "title": "Air-polishing cleaning workflow",
+        "description": "Supports stain removal and biofilm control for routine prophylaxis and periodontal maintenance."
+      },
+      {
+        "title": "Chairside operation",
+        "description": "Designed for use around the treatment area with practical handling during cleaning procedures."
+      },
+      {
+        "title": "Periodontal support",
+        "description": "Helps extend cleaning access for maintenance cases where gentle powder flow is useful."
+      },
+      {
+        "title": "Clinic maintenance routine",
+        "description": "Fits regular hygiene workflows for patient cleaning, finishing and recall visits."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "POWDER-FLOW CLEANING",
+        "description": "Controlled air and powder flow helps remove extrinsic stains and biofilm during hygiene treatment."
+      },
+      {
+        "eyebrow": "02",
+        "title": "PERIODONTAL MAINTENANCE",
+        "description": "Suitable for supportive periodontal cleaning workflows with compatible powders and tips."
+      },
+      {
+        "eyebrow": "03",
+        "title": "HANDPIECE ACCESS",
+        "description": "Slim working parts help clinicians reach routine cleaning areas around the dentition."
+      },
+      {
+        "eyebrow": "04",
+        "title": "EASY DAILY CLEANING",
+        "description": "Designed around repeat clinic use, refill, rinsing and maintenance after air-polishing treatment."
+      }
+    ]
+  },
+  {
+    "model": "TJ-DQ40",
+    "slug": "tj-dq40",
+    "group": "Air Polisher",
+    "groupSlug": "air-polisher",
+    "title": "TJ-DQ40 Air Polisher",
+    "subtitle": "Dental air polishing and periodontal cleaning support",
+    "summary": "The TJ-DQ40 Air Polisher supports stain removal, biofilm control and periodontal maintenance workflows in dental clinics.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Ultrasonic scaler and periodontal therapy system"
+      },
+      {
+        "label": "Control",
+        "value": "Multi-touch mode operation panel"
+      },
+      {
+        "label": "Power control",
+        "value": "Intelligent power control"
+      },
+      {
+        "label": "Valve",
+        "value": "Imported pressure regulating valve"
+      },
+      {
+        "label": "Packing size",
+        "value": "55 x 27 x 47 cm"
+      },
+      {
+        "label": "Gross weight",
+        "value": "6 kg"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/tj-dq40/tj-dq40-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/scaler/tj-dq40/tj-dq40-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-DQ40 Air Polisher",
+    "sellingPoints": [
+      {
+        "title": "Air-polishing cleaning workflow",
+        "description": "Supports stain removal and biofilm control for routine prophylaxis and periodontal maintenance."
+      },
+      {
+        "title": "Chairside operation",
+        "description": "Designed for use around the treatment area with practical handling during cleaning procedures."
+      },
+      {
+        "title": "Periodontal support",
+        "description": "Helps extend cleaning access for maintenance cases where gentle powder flow is useful."
+      },
+      {
+        "title": "Clinic maintenance routine",
+        "description": "Fits regular hygiene workflows for patient cleaning, finishing and recall visits."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "POWDER-FLOW CLEANING",
+        "description": "Controlled air and powder flow helps remove extrinsic stains and biofilm during hygiene treatment."
+      },
+      {
+        "eyebrow": "02",
+        "title": "PERIODONTAL MAINTENANCE",
+        "description": "Suitable for supportive periodontal cleaning workflows with compatible powders and tips."
+      },
+      {
+        "eyebrow": "03",
+        "title": "HANDPIECE ACCESS",
+        "description": "Slim working parts help clinicians reach routine cleaning areas around the dentition."
+      },
+      {
+        "eyebrow": "04",
+        "title": "EASY DAILY CLEANING",
+        "description": "Designed around repeat clinic use, refill, rinsing and maintenance after air-polishing treatment."
+      }
+    ]
+  },
+  {
+    "model": "TJ-Q6",
+    "slug": "tj-q6",
+    "group": "Air Polisher",
+    "groupSlug": "air-polisher",
+    "title": "TJ-Q6 Air Polisher",
+    "subtitle": "Dental air polishing and periodontal cleaning support",
+    "summary": "The TJ-Q6 Air Polisher supports stain removal, biofilm control and periodontal maintenance workflows in dental clinics.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Ultrasonic periodontal therapy system"
+      },
+      {
+        "label": "Configuration",
+        "value": "Ultrasonic scaler + air polisher 2 in 1"
+      },
+      {
+        "label": "Packing size",
+        "value": "470 x 235 x 400 mm"
+      },
+      {
+        "label": "Gross weight",
+        "value": "6 kg"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/tj-q6/tj-q6-gallery-01.webp",
+      "/images/products/scaler/tj-q6/tj-q6-gallery-02.webp",
+      "/images/products/scaler/tj-q6/tj-q6-gallery-03.webp",
+      "/images/products/scaler/tj-q6/tj-q6-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/scaler/tj-q6/tj-q6-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-Q6 Air Polisher",
+    "sellingPoints": [
+      {
+        "title": "Air-polishing cleaning workflow",
+        "description": "Supports stain removal and biofilm control for routine prophylaxis and periodontal maintenance."
+      },
+      {
+        "title": "Chairside operation",
+        "description": "Designed for use around the treatment area with practical handling during cleaning procedures."
+      },
+      {
+        "title": "Periodontal support",
+        "description": "Helps extend cleaning access for maintenance cases where gentle powder flow is useful."
+      },
+      {
+        "title": "Clinic maintenance routine",
+        "description": "Fits regular hygiene workflows for patient cleaning, finishing and recall visits."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "POWDER-FLOW CLEANING",
+        "description": "Controlled air and powder flow helps remove extrinsic stains and biofilm during hygiene treatment.",
+        "image": "/images/products/scaler/tj-q6/tj-q6-feature-01.webp"
+      },
+      {
+        "eyebrow": "02",
+        "title": "PERIODONTAL MAINTENANCE",
+        "description": "Suitable for supportive periodontal cleaning workflows with compatible powders and tips.",
+        "image": "/images/products/scaler/tj-q6/tj-q6-feature-02.webp"
+      },
+      {
+        "eyebrow": "03",
+        "title": "HANDPIECE ACCESS",
+        "description": "Slim working parts help clinicians reach routine cleaning areas around the dentition.",
+        "image": "/images/products/scaler/tj-q6/tj-q6-feature-03.webp"
+      },
+      {
+        "eyebrow": "04",
+        "title": "EASY DAILY CLEANING",
+        "description": "Designed around repeat clinic use, refill, rinsing and maintenance after air-polishing treatment.",
+        "image": "/images/products/scaler/tj-q6/tj-q6-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-S6",
+    "slug": "tj-s6",
+    "group": "Air Polisher",
+    "groupSlug": "air-polisher",
+    "title": "TJ-S6 Air Polisher",
+    "subtitle": "Dental air polishing and periodontal cleaning support",
+    "summary": "The TJ-S6 Air Polisher supports stain removal, biofilm control and periodontal maintenance workflows in dental clinics.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Ultrasonic periodontal therapy system"
+      },
+      {
+        "label": "Treatment",
+        "value": "No-pain ultrasonic periodontal treatment"
+      },
+      {
+        "label": "Applications",
+        "value": "Supragingival scaling, subgingival air polishing and implant maintenance"
+      },
+      {
+        "label": "Packing size",
+        "value": "51 x 29 x 45 cm"
+      },
+      {
+        "label": "Gross weight",
+        "value": "10 kg"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/tj-s6/tj-s6-gallery-01.webp",
+      "/images/products/scaler/tj-s6/tj-s6-gallery-02.webp",
+      "/images/products/scaler/tj-s6/tj-s6-gallery-03.webp",
+      "/images/products/scaler/tj-s6/tj-s6-gallery-04.webp",
+      "/images/products/scaler/tj-s6/tj-s6-gallery-05.webp",
+      "/images/products/scaler/tj-s6/tj-s6-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/scaler/tj-s6/tj-s6-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-S6 Air Polisher",
+    "sellingPoints": [
+      {
+        "title": "Air-polishing cleaning workflow",
+        "description": "Supports stain removal and biofilm control for routine prophylaxis and periodontal maintenance."
+      },
+      {
+        "title": "Chairside operation",
+        "description": "Designed for use around the treatment area with practical handling during cleaning procedures."
+      },
+      {
+        "title": "Periodontal support",
+        "description": "Helps extend cleaning access for maintenance cases where gentle powder flow is useful."
+      },
+      {
+        "title": "Clinic maintenance routine",
+        "description": "Fits regular hygiene workflows for patient cleaning, finishing and recall visits."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "POWDER-FLOW CLEANING",
+        "description": "Controlled air and powder flow helps remove extrinsic stains and biofilm during hygiene treatment.",
+        "image": "/images/products/scaler/tj-s6/tj-s6-feature-01.webp"
+      },
+      {
+        "eyebrow": "02",
+        "title": "PERIODONTAL MAINTENANCE",
+        "description": "Suitable for supportive periodontal cleaning workflows with compatible powders and tips.",
+        "image": "/images/products/scaler/tj-s6/tj-s6-feature-02.webp"
+      },
+      {
+        "eyebrow": "03",
+        "title": "HANDPIECE ACCESS",
+        "description": "Slim working parts help clinicians reach routine cleaning areas around the dentition.",
+        "image": "/images/products/scaler/tj-s6/tj-s6-feature-03.webp"
+      },
+      {
+        "eyebrow": "04",
+        "title": "EASY DAILY CLEANING",
+        "description": "Designed around repeat clinic use, refill, rinsing and maintenance after air-polishing treatment.",
+        "image": "/images/products/scaler/tj-s6/tj-s6-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "Scaler tips",
+    "slug": "scaler-tips",
+    "group": "Accessories & Consumables",
+    "groupSlug": "accessories-consumables",
+    "title": "Scaler tips",
+    "subtitle": "Scaler tip accessories for compatible ultrasonic scalers",
+    "summary": "The Scaler tips support routine ultrasonic scaling workflows with compatible scaler handpieces.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Scaler tip accessory"
+      },
+      {
+        "label": "Compatibility",
+        "value": "EMS, SATELEC, DTE and UDS compatible scaler systems"
+      },
+      {
+        "label": "Tip types",
+        "value": "Periodontal, perio and endodontic tips"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/scaler-tips/scaler-tips-gallery-01.webp",
+      "/images/products/scaler/scaler-tips/scaler-tips-gallery-02.webp",
+      "/images/products/scaler/scaler-tips/scaler-tips-gallery-03.webp",
+      "/images/products/scaler/scaler-tips/scaler-tips-gallery-04.webp",
+      "/images/products/scaler/scaler-tips/scaler-tips-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/scaler/scaler-tips/scaler-tips-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the Scaler tips",
+    "sellingPoints": [
+      {
+        "title": "Compatible scaler tips",
+        "description": "Prepared for ultrasonic scaling workflows with matching scaler handpieces."
+      },
+      {
+        "title": "Multiple clinical uses",
+        "description": "Supports routine calculus removal, maintenance cleaning and access around tooth surfaces."
+      },
+      {
+        "title": "Replacement accessory support",
+        "description": "Helps clinics keep tip options ready for daily hygiene appointments."
+      },
+      {
+        "title": "Organized treatment setup",
+        "description": "Works as part of a complete ultrasonic scaling accessory set."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "SCALER TIP OPTIONS",
+        "description": "Tip accessories support different ultrasonic cleaning positions and workflows.",
+        "image": "/images/products/scaler/scaler-tips/scaler-tips-feature-01.webp"
+      },
+      {
+        "eyebrow": "02",
+        "title": "DURABLE CLINICAL USE",
+        "description": "Prepared for routine scaler operation with compatible handpieces.",
+        "image": "/images/products/scaler/scaler-tips/scaler-tips-feature-02.webp"
+      },
+      {
+        "eyebrow": "03",
+        "title": "ACCESS AROUND TEETH",
+        "description": "Tip shapes help clinicians work around tooth surfaces during hygiene procedures.",
+        "image": "/images/products/scaler/scaler-tips/scaler-tips-feature-03.webp"
+      },
+      {
+        "eyebrow": "04",
+        "title": "REPLACEMENT SUPPORT",
+        "description": "Useful for keeping common scaler tip options ready in the clinic.",
+        "image": "/images/products/scaler/scaler-tips/scaler-tips-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-Holder6",
+    "slug": "tj-holder6",
+    "group": "Accessories & Consumables",
+    "groupSlug": "accessories-consumables",
+    "title": "TJ-Holder6 Scaler Tip Holder",
+    "subtitle": "Scaler tip storage and organization accessory",
+    "summary": "The TJ-Holder6 Scaler Tip Holder helps organize scaler tips for cleaner storage and faster chairside selection.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Scaler tip sterilize rack / disinfection holder"
+      },
+      {
+        "label": "Compatibility",
+        "value": "EMS, SATELEC, DTE and UDS"
+      },
+      {
+        "label": "Size",
+        "value": "46 x 55 mm"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/tj-holder6/tj-holder6-gallery-01.webp",
+      "/images/products/scaler/tj-holder6/tj-holder6-gallery-02.webp",
+      "/images/products/scaler/tj-holder6/tj-holder6-gallery-03.webp",
+      "/images/products/scaler/tj-holder6/tj-holder6-gallery-04.webp",
+      "/images/products/scaler/tj-holder6/tj-holder6-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/scaler/tj-holder6/tj-holder6-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-Holder6 Scaler Tip Holder",
+    "sellingPoints": [
+      {
+        "title": "Organized tip storage",
+        "description": "Keeps scaler tips arranged for easier chairside selection."
+      },
+      {
+        "title": "Cleaner accessory handling",
+        "description": "Supports orderly storage between scaling procedures."
+      },
+      {
+        "title": "Daily clinic workflow",
+        "description": "Useful for teams that switch tips during hygiene and maintenance appointments."
+      },
+      {
+        "title": "Reusable organization support",
+        "description": "Helps maintain a tidy scaler accessory area."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "TIP ORGANIZATION",
+        "description": "Keeps scaler tips separated and easy to identify.",
+        "image": "/images/products/scaler/tj-holder6/tj-holder6-feature-01.webp"
+      },
+      {
+        "eyebrow": "02",
+        "title": "CLEAN STORAGE",
+        "description": "Supports cleaner accessory storage between procedures.",
+        "image": "/images/products/scaler/tj-holder6/tj-holder6-feature-02.webp"
+      },
+      {
+        "eyebrow": "03",
+        "title": "QUICK SELECTION",
+        "description": "Helps staff select the required tip during hygiene workflow.",
+        "image": "/images/products/scaler/tj-holder6/tj-holder6-feature-03.webp"
+      },
+      {
+        "eyebrow": "04",
+        "title": "REUSABLE SETUP",
+        "description": "Practical accessory for daily scaler organization.",
+        "image": "/images/products/scaler/tj-holder6/tj-holder6-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-201 / TJ-601",
+    "slug": "tj-201-tj-601",
+    "group": "Accessories & Consumables",
+    "groupSlug": "accessories-consumables",
+    "title": "TJ-201&TJ-601 Electric Toothbrush",
+    "subtitle": "Electric toothbrush for daily oral-care support",
+    "summary": "The TJ-201&TJ-601 Electric Toothbrush supports daily oral-care routines and patient home-care recommendations.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Electric toothbrush"
+      },
+      {
+        "label": "Cleaning modes",
+        "value": "5 cleaning modes"
+      },
+      {
+        "label": "Cleaning frequency",
+        "value": "TJ-201: 47,000 vibrations/min; TJ-601: 48,000 vibrations/min"
+      },
+      {
+        "label": "Timer",
+        "value": "TJ-601: 30-second zone reminder and 2-minute smart timer"
+      },
+      {
+        "label": "Color options",
+        "value": "TJ-201: white, black, pink, light blue, purple; TJ-601: bright silver, light purple"
+      }
+    ],
+    "gallery": [
+      "/images/products/scaler/tj-201-tj-601/tj-201-tj-601-gallery-01.webp",
+      "/images/products/scaler/tj-201-tj-601/tj-201-tj-601-gallery-02.webp",
+      "/images/products/scaler/tj-201-tj-601/tj-201-tj-601-gallery-03.webp",
+      "/images/products/scaler/tj-201-tj-601/tj-201-tj-601-gallery-04.webp",
+      "/images/products/scaler/tj-201-tj-601/tj-201-tj-601-gallery-05.webp",
+      "/images/products/scaler/tj-201-tj-601/tj-201-tj-601-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/scaler/tj-201-tj-601/tj-201-tj-601-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-201&TJ-601 Electric Toothbrush",
+    "sellingPoints": [
+      {
+        "title": "Daily oral-care support",
+        "description": "Designed for patient home-care routines and regular plaque control."
+      },
+      {
+        "title": "Compact handling",
+        "description": "Easy to hold and use as part of everyday brushing habits."
+      },
+      {
+        "title": "Color options",
+        "description": "Multiple colors can support patient preference and family use."
+      },
+      {
+        "title": "Clinic recommendation accessory",
+        "description": "Suitable as an oral-care add-on for preventive dentistry programs."
+      }
+    ],
+    "featureHeading": "Built around daily dental cleaning workflow",
+    "features": [
+      {
+        "eyebrow": "01",
+        "title": "DAILY BRUSHING SUPPORT",
+        "description": "Prepared for routine oral-care habits outside the clinic.",
+        "image": "/images/products/scaler/tj-201-tj-601/tj-201-tj-601-feature-01.webp"
+      },
+      {
+        "eyebrow": "02",
+        "title": "COMPACT HANDLE DESIGN",
+        "description": "Easy to hold for everyday home-care use.",
+        "image": "/images/products/scaler/tj-201-tj-601/tj-201-tj-601-feature-02.webp"
+      },
+      {
+        "eyebrow": "03",
+        "title": "COLOR SELECTION",
+        "description": "Color options help distinguish different users or preferences.",
+        "image": "/images/products/scaler/tj-201-tj-601/tj-201-tj-601-feature-03.webp"
+      },
+      {
+        "eyebrow": "04",
+        "title": "PREVENTIVE CARE ADD-ON",
+        "description": "Suitable for patient oral-care support after clinic visits.",
+        "image": "/images/products/scaler/tj-201-tj-601/tj-201-tj-601-feature-04.webp"
+      }
+    ]
+  }
+]

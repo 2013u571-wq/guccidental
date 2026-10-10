@@ -18,6 +18,10 @@ export function getStaticPaths() {
 const lang = getLanguage(Astro.params.lang);
 const categorySlug = String(Astro.params.category);
 const productSlug = String(Astro.params.product);
+const chairTierBySlug: Record<string, string> = { "g5-implant": "high-end", h5: "economic", p6: "mid-range" };
+if (categorySlug === "dental-chair" && chairTierBySlug[productSlug]) {
+  return Astro.redirect(localizedPath(lang, `/products/dental-chair/${chairTierBySlug[productSlug]}/${productSlug}/`));
+}
 const product = getProduct(categorySlug, productSlug);
 
 if (!product) {

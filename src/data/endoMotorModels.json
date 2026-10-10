@@ -1,0 +1,163 @@
+[
+  {
+    "model": "ENDOMOTOR X",
+    "slug": "endomotor-x",
+    "title": "ENDOMOTOR X Endodontic Motor",
+    "subtitle": "Wireless endodontic motor",
+    "summary": "A compact endodontic motor for root canal preparation, designed for controlled rotary filing, comfortable handheld operation and daily chairside endodontic workflows.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Endodontic motor"
+      },
+      {
+        "label": "Application",
+        "value": "Root canal preparation"
+      },
+      {
+        "label": "Handpiece style",
+        "value": "Cordless handheld motor"
+      },
+      {
+        "label": "Charging base",
+        "value": "Charging base design"
+      }
+    ],
+    "gallery": [
+      "/images/products/endo-motor/endomotor-x/endomotor-x-gallery-01.webp",
+      "/images/products/endo-motor/endomotor-x/endomotor-x-gallery-02.webp",
+      "/images/products/endo-motor/endomotor-x/endomotor-x-gallery-03.webp",
+      "/images/products/endo-motor/endomotor-x/endomotor-x-gallery-04.webp",
+      "/images/products/endo-motor/endomotor-x/endomotor-x-gallery-07.webp",
+      "/images/products/endo-motor/endomotor-x/endomotor-x-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/endo-motor/endomotor-x/endomotor-x-cover-cutout.webp",
+    "sellingHeading": "Why clinics choose the ENDOMOTOR X",
+    "sellingPoints": [
+      {
+        "title": "Cordless endodontic workflow",
+        "description": "The handheld motor supports flexible movement around the treatment chair during root canal preparation."
+      },
+      {
+        "title": "Mini rotary head access",
+        "description": "The compact head design helps improve access and visibility during canal treatment."
+      },
+      {
+        "title": "Stable root canal preparation",
+        "description": "Designed for controlled rotary-file operation in routine endodontic procedures."
+      },
+      {
+        "title": "Convenient daily charging",
+        "description": "The charging base keeps the motor organized and ready for regular clinic use."
+      }
+    ],
+    "featureHeading": "Built around root canal preparation workflows",
+    "features": [
+      {
+        "eyebrow": "CORDLESS HANDPIECE DESIGN",
+        "title": "Flexible chairside handling",
+        "description": "The slim handheld body supports easy movement during endodontic treatment without a trailing power cable.",
+        "image": "/images/products/endo-motor/endomotor-x/endomotor-x-feature-01.webp"
+      },
+      {
+        "eyebrow": "MINI ROTARY HEAD",
+        "title": "Better access to posterior canals",
+        "description": "The compact head profile helps dentists reach treatment areas while maintaining visibility around the tooth.",
+        "image": "/images/products/endo-motor/endomotor-x/endomotor-x-feature-02.webp"
+      },
+      {
+        "eyebrow": "CHARGING BASE SUPPORT",
+        "title": "Organized daily storage and charging",
+        "description": "The dedicated charging base keeps the motor upright, protected and ready between procedures.",
+        "image": "/images/products/endo-motor/endomotor-x/endomotor-x-feature-03.webp"
+      },
+      {
+        "eyebrow": "ROOT CANAL PREPARATION WORKFLOW",
+        "title": "Controlled rotary-file use",
+        "description": "The motor is prepared for routine canal shaping workflows where steady file movement and comfortable handling are required.",
+        "image": "/images/products/endo-motor/endomotor-x/endomotor-x-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "Y-SMART",
+    "slug": "y-smart",
+    "title": "Y-SMART Endodontic Motor",
+    "subtitle": "Wireless endodontic motor",
+    "summary": "A compact endodontic motor for root canal preparation, designed for controlled rotary filing, comfortable handheld operation and daily chairside endodontic workflows.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Endodontic motor"
+      },
+      {
+        "label": "Application",
+        "value": "Root canal preparation"
+      },
+      {
+        "label": "Handpiece style",
+        "value": "Cordless handheld motor"
+      },
+      {
+        "label": "Charging base",
+        "value": "Charging base design"
+      }
+    ],
+    "gallery": [
+      "/images/products/endo-motor/y-smart/y-smart-gallery-01.webp",
+      "/images/products/endo-motor/y-smart/y-smart-gallery-02.webp",
+      "/images/products/endo-motor/y-smart/y-smart-gallery-04.webp",
+      "/images/products/endo-motor/y-smart/y-smart-gallery-05.webp",
+      "/images/products/endo-motor/y-smart/y-smart-gallery-06.webp",
+      "/images/products/endo-motor/y-smart/y-smart-gallery-07.webp",
+      "/images/products/endo-motor/y-smart/y-smart-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/endo-motor/y-smart/y-smart-cover-cutout.webp",
+    "sellingHeading": "Why clinics choose the Y-SMART",
+    "sellingPoints": [
+      {
+        "title": "Cordless endodontic workflow",
+        "description": "The handheld motor supports flexible movement around the treatment chair during root canal preparation."
+      },
+      {
+        "title": "Mini rotary head access",
+        "description": "The compact head design helps improve access and visibility during canal treatment."
+      },
+      {
+        "title": "Stable root canal preparation",
+        "description": "Designed for controlled rotary-file operation in routine endodontic procedures."
+      },
+      {
+        "title": "Convenient daily charging",
+        "description": "The charging base keeps the motor organized and ready for regular clinic use."
+      }
+    ],
+    "featureHeading": "Built around root canal preparation workflows",
+    "features": [
+      {
+        "eyebrow": "CORDLESS HANDPIECE DESIGN",
+        "title": "Flexible chairside handling",
+        "description": "The slim handheld body supports easy movement during endodontic treatment without a trailing power cable.",
+        "image": "/images/products/endo-motor/y-smart/y-smart-feature-01.webp"
+      },
+      {
+        "eyebrow": "MINI ROTARY HEAD",
+        "title": "Better access to posterior canals",
+        "description": "The compact head profile helps dentists reach treatment areas while maintaining visibility around the tooth.",
+        "image": "/images/products/endo-motor/y-smart/y-smart-feature-02.webp"
+      },
+      {
+        "eyebrow": "CHARGING BASE SUPPORT",
+        "title": "Organized daily storage and charging",
+        "description": "The dedicated charging base keeps the motor upright, protected and ready between procedures.",
+        "image": "/images/products/endo-motor/y-smart/y-smart-feature-03.webp"
+      },
+      {
+        "eyebrow": "ROOT CANAL PREPARATION WORKFLOW",
+        "title": "Controlled rotary-file use",
+        "description": "The motor is prepared for routine canal shaping workflows where steady file movement and comfortable handling are required.",
+        "image": "/images/products/endo-motor/y-smart/y-smart-feature-04.webp"
+      }
+    ]
+  }
+]

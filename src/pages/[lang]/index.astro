@@ -219,7 +219,7 @@ const faqItems = [
   },
   {
     question: "What is the minimum order quantity?",
-    answer: "MOQ depends on the product line and tier. Dental chairs typically start at [X units — 待确认]; consumables and accessories have lower minimums."
+    answer: "Minimum order quantities vary by product and configuration. Send us the models and destination market for a current quote."
   },
   {
     question: "Do you ship worldwide and handle documentation?",
@@ -815,13 +815,7 @@ const faqItems = [
                 <span class="plus" aria-hidden="true">+</span>
               </button>
               <div class="faq-a" id={`faq-answer-${index}`}>
-                {item.answer.includes("[X units — 待确认]") ? (
-                  <>
-                    MOQ depends on the product line and tier. Dental chairs typically start at <span class="pending-token">[X units — 待确认]</span>; consumables and accessories have lower minimums.
-                  </>
-                ) : (
-                  item.answer
-                )}
+                {item.answer}
               </div>
             </div>
           ))

@@ -1,0 +1,4749 @@
+[
+  {
+    "model": "AI ray",
+    "slug": "ai-ray",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/ai-ray/ai-ray-gallery-01.webp",
+      "/images/products/imaging-system/ai-ray/ai-ray-gallery-02.webp",
+      "/images/products/imaging-system/ai-ray/ai-ray-gallery-03.webp",
+      "/images/products/imaging-system/ai-ray/ai-ray-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/ai-ray/ai-ray-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the AI ray",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning."
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments."
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts."
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "AI ray"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "APN01",
+    "slug": "apn01",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/apn01/apn01-gallery-01.webp",
+      "/images/products/imaging-system/apn01/apn01-gallery-02.webp",
+      "/images/products/imaging-system/apn01/apn01-gallery-03.webp",
+      "/images/products/imaging-system/apn01/apn01-gallery-04.webp",
+      "/images/products/imaging-system/apn01/apn01-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/apn01/apn01-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the APN01",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
+        "image": "/images/products/imaging-system/apn01/apn01-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
+        "image": "/images/products/imaging-system/apn01/apn01-feature-02.webp"
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
+        "image": "/images/products/imaging-system/apn01/apn01-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
+        "image": "/images/products/imaging-system/apn01/apn01-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "APN01"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "AT-301",
+    "slug": "at-301",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/at-301/at-301-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/at-301/at-301-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the AT-301",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
+        "image": "/images/products/imaging-system/at-301/at-301-feature-01-clean.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
+        "image": "/images/products/imaging-system/at-301/at-301-feature-02.webp"
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
+        "image": "/images/products/imaging-system/at-301/at-301-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
+        "image": "/images/products/imaging-system/at-301/at-301-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "AT-301"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "BLX-10",
+    "slug": "blx-10",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/blx-10/blx-10-gallery-01.webp",
+      "/images/products/imaging-system/blx-10/blx-10-gallery-02.webp",
+      "/images/products/imaging-system/blx-10/blx-10-gallery-03.webp",
+      "/images/products/imaging-system/blx-10/blx-10-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/blx-10/blx-10-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the BLX-10",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
+        "image": "/images/products/imaging-system/blx-10/blx-10-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
+        "image": "/images/products/imaging-system/blx-10/blx-10-feature-02.webp"
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
+        "image": "/images/products/imaging-system/blx-10/blx-10-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
+        "image": "/images/products/imaging-system/blx-10/blx-10-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "BLX-10"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "BLX-8",
+    "slug": "blx-8",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/blx-8/blx-8-gallery-01.webp",
+      "/images/products/imaging-system/blx-8/blx-8-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/blx-8/blx-8-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the BLX-8",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning."
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments."
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts."
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "BLX-8"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "D88+",
+    "slug": "d88",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/d88/d88-gallery-01.webp",
+      "/images/products/imaging-system/d88/d88-gallery-02.webp",
+      "/images/products/imaging-system/d88/d88-gallery-03.webp",
+      "/images/products/imaging-system/d88/d88-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/d88/d88-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the D88+",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning."
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments."
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts."
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "D88+"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "EzSensor Classic",
+    "slug": "ezsensor-classic",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray sensor",
+    "summary": "A digital dental X-ray sensor for intraoral radiography capture and diagnostic image workflow support.",
+    "gallery": [
+      "/images/products/imaging-system/ezsensor-classic/ezsensor-classic-gallery-01.webp",
+      "/images/products/imaging-system/ezsensor-classic/ezsensor-classic-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/ezsensor-classic/ezsensor-classic-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the EzSensor Classic",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning."
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments."
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts."
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "EzSensor Classic"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray sensor"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "HQY-Y",
+    "slug": "hqy-y",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/hqy-y/hqy-y-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/hqy-y/hqy-y-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the HQY-Y",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning."
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments."
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts."
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "HQY-Y"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "JYF-10B",
+    "slug": "jyf-10b",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/jyf-10b/jyf-10b-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/jyf-10b/jyf-10b-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the JYF-10B",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
+        "image": "/images/products/imaging-system/jyf-10b/jyf-10b-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
+        "image": "/images/products/imaging-system/jyf-10b/jyf-10b-feature-02.webp"
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
+        "image": "/images/products/imaging-system/jyf-10b/jyf-10b-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
+        "image": "/images/products/imaging-system/jyf-10b/jyf-10b-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "JYF-10B"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "JYF-10D",
+    "slug": "jyf-10d",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/jyf-10d/jyf-10d-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/jyf-10d/jyf-10d-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the JYF-10D",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
+        "image": "/images/products/imaging-system/jyf-10d/jyf-10d-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
+        "image": "/images/products/imaging-system/jyf-10d/jyf-10d-feature-02.webp"
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
+        "image": "/images/products/imaging-system/jyf-10d/jyf-10d-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
+        "image": "/images/products/imaging-system/jyf-10d/jyf-10d-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "JYF-10D"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "JYF-10E",
+    "slug": "jyf-10e",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/jyf-10e/jyf-10e-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/jyf-10e/jyf-10e-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the JYF-10E",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning."
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments."
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts."
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "JYF-10E"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "LK-C27",
+    "slug": "lk-c27",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/lk-c27/lk-c27-gallery-01.webp",
+      "/images/products/imaging-system/lk-c27/lk-c27-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/lk-c27/lk-c27-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the LK-C27",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
+        "image": "/images/products/imaging-system/lk-c27/lk-c27-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
+        "image": "/images/products/imaging-system/lk-c27/lk-c27-feature-02.webp"
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
+        "image": "/images/products/imaging-system/lk-c27/lk-c27-feature-03-clean.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
+        "image": "/images/products/imaging-system/lk-c27/lk-c27-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "LK-C27"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "LK-C27B",
+    "slug": "lk-c27b",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/lk-c27b/lk-c27b-gallery-02.webp",
+      "/images/products/imaging-system/lk-c27b/lk-c27b-gallery-03.webp",
+      "/images/products/imaging-system/lk-c27b/lk-c27b-gallery-04.webp",
+      "/images/products/imaging-system/lk-c27b/lk-c27b-gallery-05.webp",
+      "/images/products/imaging-system/lk-c27b/lk-c27b-gallery-06.webp",
+      "/images/products/imaging-system/lk-c27b/lk-c27b-gallery-07.webp",
+      "/images/products/imaging-system/lk-c27b/lk-c27b-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/lk-c27b/lk-c27b-gallery-02.webp",
+    "sellingHeading": "Why clinics choose the LK-C27B",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
+        "image": "/images/products/imaging-system/lk-c27b/lk-c27b-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
+        "image": "/images/products/imaging-system/lk-c27b/lk-c27b-feature-02.webp"
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
+        "image": "/images/products/imaging-system/lk-c27b/lk-c27b-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
+        "image": "/images/products/imaging-system/lk-c27b/lk-c27b-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "LK-C27B"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "LK-C28",
+    "slug": "lk-c28",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/lk-c28/lk-c28-gallery-01.webp",
+      "/images/products/imaging-system/lk-c28/lk-c28-gallery-02.webp",
+      "/images/products/imaging-system/lk-c28/lk-c28-gallery-03.webp",
+      "/images/products/imaging-system/lk-c28/lk-c28-gallery-04.webp",
+      "/images/products/imaging-system/lk-c28/lk-c28-gallery-05.webp",
+      "/images/products/imaging-system/lk-c28/lk-c28-gallery-06.webp",
+      "/images/products/imaging-system/lk-c28/lk-c28-gallery-07.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/lk-c28/lk-c28-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the LK-C28",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
+        "image": "/images/products/imaging-system/lk-c28/lk-c28-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
+        "image": "/images/products/imaging-system/lk-c28/lk-c28-feature-02.webp"
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
+        "image": "/images/products/imaging-system/lk-c28/lk-c28-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
+        "image": "/images/products/imaging-system/lk-c28/lk-c28-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "LK-C28"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "M-188",
+    "slug": "m-188",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/m-188/m-188-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/m-188/m-188-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the M-188",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning."
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments."
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts."
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "M-188"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "OPG Panoramic & CBCT",
+    "slug": "opg-panoramic-cbct",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Panoramic X-ray / CBCT system",
+    "summary": "A dental imaging solution for 3D diagnostic reference, implant planning, orthodontic assessment and clinical case communication.",
+    "gallery": [
+      "/images/products/imaging-system/opg-panoramic-cbct/opg-panoramic-cbct-gallery-02.webp",
+      "/images/products/imaging-system/opg-panoramic-cbct/opg-panoramic-cbct-gallery-01.webp",
+      "/images/products/imaging-system/opg-panoramic-cbct/opg-panoramic-cbct-gallery-03.webp",
+      "/images/products/imaging-system/opg-panoramic-cbct/opg-panoramic-cbct-gallery-04.webp",
+      "/images/products/imaging-system/opg-panoramic-cbct/opg-panoramic-cbct-gallery-05.webp",
+      "/images/products/imaging-system/opg-panoramic-cbct/opg-panoramic-cbct-gallery-06.webp",
+      "/images/products/imaging-system/opg-panoramic-cbct/opg-panoramic-cbct-gallery-07.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/opg-panoramic-cbct/opg-panoramic-cbct-gallery-02.webp",
+    "sellingHeading": "Why clinics choose the OPG Panoramic & CBCT",
+    "sellingPoints": [
+      {
+        "title": "3D diagnostic support",
+        "description": "Supports implant, orthodontic and general diagnostic planning with broader anatomical imaging reference."
+      },
+      {
+        "title": "Clear case communication",
+        "description": "Helps clinics explain treatment needs and planning details with visual image data."
+      },
+      {
+        "title": "Imaging-room workflow",
+        "description": "Designed for structured patient positioning, image capture and clinical consultation."
+      },
+      {
+        "title": "Treatment planning value",
+        "description": "Provides imaging support for multi-discipline dental treatment planning."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "IMAGING COVERAGE",
+        "title": "Broad diagnostic reference",
+        "description": "Supports 3D, panoramic or extraoral imaging workflows for treatment planning.",
+        "image": "/images/products/imaging-system/opg-panoramic-cbct/opg-panoramic-cbct-feature-source-01.webp"
+      },
+      {
+        "eyebrow": "PATIENT POSITIONING",
+        "title": "Structured capture process",
+        "description": "Imaging-room setup supports repeatable patient positioning and scan operation.",
+        "image": "/images/products/imaging-system/opg-panoramic-cbct/opg-panoramic-cbct-feature-source-02.webp"
+      },
+      {
+        "eyebrow": "CASE PLANNING",
+        "title": "Clinical planning support",
+        "description": "Image data supports implant, orthodontic, surgical and restorative discussions.",
+        "image": "/images/products/imaging-system/opg-panoramic-cbct/opg-panoramic-cbct-feature-source-03.webp"
+      },
+      {
+        "eyebrow": "CASE VIEWING WORKFLOW",
+        "title": "Clear visual communication",
+        "description": "Imaging results help clinicians view cases and explain findings to patients.",
+        "image": "/images/products/imaging-system/opg-panoramic-cbct/opg-panoramic-cbct-feature-source-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "OPG Panoramic & CBCT"
+      },
+      {
+        "label": "Product type",
+        "value": "Panoramic X-ray / CBCT system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "RAY68(M)-D",
+    "slug": "ray68-m-d",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/ray68-m-d/ray68-m-d-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/ray68-m-d/ray68-m-d-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the RAY68(M)-D",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning."
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments."
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts."
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "RAY68(M)-D"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "SUPER05",
+    "slug": "super05",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/super05/super05-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/super05/super05-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the SUPER05",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
+        "image": "/images/products/imaging-system/super05/super05-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
+        "image": "/images/products/imaging-system/super05/super05-feature-02.webp"
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
+        "image": "/images/products/imaging-system/super05/super05-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
+        "image": "/images/products/imaging-system/super05/super05-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "SUPER05"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-B",
+    "slug": "tj-b",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/tj-b/tj-b-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-b/tj-b-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-B",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning."
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments."
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts."
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-B"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-C21",
+    "slug": "tj-c21",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/tj-c21/tj-c21-gallery-01.webp",
+      "/images/products/imaging-system/tj-c21/tj-c21-gallery-02.webp",
+      "/images/products/imaging-system/tj-c21/tj-c21-gallery-03.webp",
+      "/images/products/imaging-system/tj-c21/tj-c21-gallery-04.webp",
+      "/images/products/imaging-system/tj-c21/tj-c21-gallery-05.webp",
+      "/images/products/imaging-system/tj-c21/tj-c21-gallery-06.webp",
+      "/images/products/imaging-system/tj-c21/tj-c21-gallery-07.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-c21/tj-c21-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-C21",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
+        "image": "/images/products/imaging-system/tj-c21/tj-c21-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
+        "image": "/images/products/imaging-system/tj-c21/tj-c21-feature-02.webp"
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
+        "image": "/images/products/imaging-system/tj-c21/tj-c21-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
+        "image": "/images/products/imaging-system/tj-c21/tj-c21-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-C21"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-C27",
+    "slug": "tj-c27",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/tj-c27/tj-c27-gallery-source-01.webp",
+      "/images/products/imaging-system/tj-c27/tj-c27-gallery-source-02.webp",
+      "/images/products/imaging-system/tj-c27/tj-c27-gallery-03.webp",
+      "/images/products/imaging-system/tj-c27/tj-c27-gallery-04.webp",
+      "/images/products/imaging-system/tj-c27/tj-c27-gallery-05.webp",
+      "/images/products/imaging-system/tj-c27/tj-c27-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-c27/tj-c27-gallery-source-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-C27",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
+        "image": "/images/products/imaging-system/tj-c27/tj-c27-feature-source-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
+        "image": "/images/products/imaging-system/tj-c27/tj-c27-feature-source-02.webp"
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
+        "image": "/images/products/imaging-system/tj-c27/tj-c27-feature-source-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
+        "image": "/images/products/imaging-system/tj-c27/tj-c27-feature-source-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-C27"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-C62",
+    "slug": "tj-c62",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/tj-c62/tj-c62-gallery-02.webp",
+      "/images/products/imaging-system/tj-c62/tj-c62-gallery-03.webp",
+      "/images/products/imaging-system/tj-c62/tj-c62-gallery-06.webp",
+      "/images/products/imaging-system/tj-c62/tj-c62-gallery-07.webp",
+      "/images/products/imaging-system/tj-c62/tj-c62-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-c62/tj-c62-gallery-02.webp",
+    "sellingHeading": "Why clinics choose the TJ-C62",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
+        "image": "/images/products/imaging-system/tj-c62/tj-c62-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
+        "image": "/images/products/imaging-system/tj-c62/tj-c62-feature-02.webp"
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
+        "image": "/images/products/imaging-system/tj-c62/tj-c62-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
+        "image": "/images/products/imaging-system/tj-c62/tj-c62-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-C62"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-F200",
+    "slug": "tj-f200",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/tj-f200/tj-f200-gallery-01.webp",
+      "/images/products/imaging-system/tj-f200/tj-f200-gallery-02.webp",
+      "/images/products/imaging-system/tj-f200/tj-f200-gallery-03.webp",
+      "/images/products/imaging-system/tj-f200/tj-f200-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-f200/tj-f200-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-F200",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
+        "image": "/images/products/imaging-system/tj-f200/tj-f200-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
+        "image": "/images/products/imaging-system/tj-f200/tj-f200-feature-02.webp"
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
+        "image": "/images/products/imaging-system/tj-f200/tj-f200-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
+        "image": "/images/products/imaging-system/tj-f200/tj-f200-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-F200"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-HDS500",
+    "slug": "tj-hds500",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/tj-hds500/tj-hds500-gallery-01.webp",
+      "/images/products/imaging-system/tj-hds500/tj-hds500-gallery-02.webp",
+      "/images/products/imaging-system/tj-hds500/tj-hds500-gallery-03.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-hds500/tj-hds500-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-HDS500",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning."
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments."
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts."
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-HDS500"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-IP68",
+    "slug": "tj-ip68",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray sensor",
+    "summary": "A digital dental X-ray sensor for intraoral radiography capture and diagnostic image workflow support.",
+    "gallery": [
+      "/images/products/imaging-system/tj-ip68/tj-ip68-gallery-01.webp",
+      "/images/products/imaging-system/tj-ip68/tj-ip68-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-ip68/tj-ip68-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-IP68",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
+        "image": "/images/products/imaging-system/tj-ip68/tj-ip68-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
+        "image": "/images/products/imaging-system/tj-ip68/tj-ip68-feature-02.webp"
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
+        "image": "/images/products/imaging-system/tj-ip68/tj-ip68-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
+        "image": "/images/products/imaging-system/tj-ip68/tj-ip68-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-IP68"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray sensor"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-RS600",
+    "slug": "tj-rs600",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/tj-rs600/tj-rs600-gallery-01.webp",
+      "/images/products/imaging-system/tj-rs600/tj-rs600-gallery-02.webp",
+      "/images/products/imaging-system/tj-rs600/tj-rs600-gallery-03.webp",
+      "/images/products/imaging-system/tj-rs600/tj-rs600-gallery-04.webp",
+      "/images/products/imaging-system/tj-rs600/tj-rs600-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-rs600/tj-rs600-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-RS600",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning."
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments."
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts."
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-RS600"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-RY5",
+    "slug": "tj-ry5",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/tj-ry5/tj-ry5-gallery-01.webp",
+      "/images/products/imaging-system/tj-ry5/tj-ry5-gallery-02.webp",
+      "/images/products/imaging-system/tj-ry5/tj-ry5-gallery-03.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-ry5/tj-ry5-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-RY5",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
+        "image": "/images/products/imaging-system/tj-ry5/tj-ry5-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
+        "image": "/images/products/imaging-system/tj-ry5/tj-ry5-feature-02.webp"
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
+        "image": "/images/products/imaging-system/tj-ry5/tj-ry5-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
+        "image": "/images/products/imaging-system/tj-ry5/tj-ry5-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-RY5"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-SH3",
+    "slug": "tj-sh3",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/tj-sh3/tj-sh3-gallery-01.webp",
+      "/images/products/imaging-system/tj-sh3/tj-sh3-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-sh3/tj-sh3-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-SH3",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
+        "image": "/images/products/imaging-system/tj-sh3/tj-sh3-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
+        "image": "/images/products/imaging-system/tj-sh3/tj-sh3-feature-02.webp"
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
+        "image": "/images/products/imaging-system/tj-sh3/tj-sh3-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
+        "image": "/images/products/imaging-system/tj-sh3/tj-sh3-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-SH3"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-X08",
+    "slug": "tj-x08",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/tj-x08/tj-x08-gallery-01.webp",
+      "/images/products/imaging-system/tj-x08/tj-x08-gallery-02.webp",
+      "/images/products/imaging-system/tj-x08/tj-x08-gallery-03.webp",
+      "/images/products/imaging-system/tj-x08/tj-x08-gallery-04.webp",
+      "/images/products/imaging-system/tj-x08/tj-x08-gallery-05.webp",
+      "/images/products/imaging-system/tj-x08/tj-x08-gallery-06.webp",
+      "/images/products/imaging-system/tj-x08/tj-x08-gallery-07.webp",
+      "/images/products/imaging-system/tj-x08/tj-x08-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-x08/tj-x08-gallery-02.webp",
+    "sellingHeading": "Why clinics choose the TJ-X08",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning."
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments."
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts."
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-X08"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-X168",
+    "slug": "tj-x168",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/tj-x168/tj-x168-gallery-01.webp",
+      "/images/products/imaging-system/tj-x168/tj-x168-gallery-02.webp",
+      "/images/products/imaging-system/tj-x168/tj-x168-gallery-03.webp",
+      "/images/products/imaging-system/tj-x168/tj-x168-gallery-04.webp",
+      "/images/products/imaging-system/tj-x168/tj-x168-gallery-05.webp",
+      "/images/products/imaging-system/tj-x168/tj-x168-gallery-06.webp",
+      "/images/products/imaging-system/tj-x168/tj-x168-gallery-07.webp",
+      "/images/products/imaging-system/tj-x168/tj-x168-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-x168/tj-x168-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-X168",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
+        "image": "/images/products/imaging-system/tj-x168/tj-x168-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
+        "image": "/images/products/imaging-system/tj-x168/tj-x168-feature-02.webp"
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
+        "image": "/images/products/imaging-system/tj-x168/tj-x168-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
+        "image": "/images/products/imaging-system/tj-x168/tj-x168-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-X168"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-X680",
+    "slug": "tj-x680",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/tj-x680/tj-x680-gallery-02.webp",
+      "/images/products/imaging-system/tj-x680/tj-x680-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-x680/tj-x680-gallery-02.webp",
+    "sellingHeading": "Why clinics choose the TJ-X680",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning."
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments."
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts."
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-X680"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-XRQ12",
+    "slug": "tj-xrq12",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/tj-xrq12/tj-xrq12-gallery-01.webp",
+      "/images/products/imaging-system/tj-xrq12/tj-xrq12-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-xrq12/tj-xrq12-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-XRQ12",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
+        "image": "/images/products/imaging-system/tj-xrq12/tj-xrq12-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
+        "image": "/images/products/imaging-system/tj-xrq12/tj-xrq12-feature-02.webp"
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
+        "image": "/images/products/imaging-system/tj-xrq12/tj-xrq12-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
+        "image": "/images/products/imaging-system/tj-xrq12/tj-xrq12-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-XRQ12"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "Vatech Ezray",
+    "slug": "vatech-ezray",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/vatech-ezray/vatech-ezray-gallery-01.webp",
+      "/images/products/imaging-system/vatech-ezray/vatech-ezray-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/vatech-ezray/vatech-ezray-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the Vatech Ezray",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning."
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments."
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts."
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "Vatech Ezray"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "Vision 200&Vision 100",
+    "slug": "vision-200-vision-100",
+    "group": "X-ray",
+    "groupSlug": "x-ray",
+    "subtitle": "Dental X-ray system",
+    "summary": "A dental X-ray imaging product for chairside radiography, diagnostic reference and daily clinic imaging workflows.",
+    "gallery": [
+      "/images/products/imaging-system/vision-200-vision-100/vision-200-vision-100-gallery-01.webp",
+      "/images/products/imaging-system/vision-200-vision-100/vision-200-vision-100-gallery-02.webp",
+      "/images/products/imaging-system/vision-200-vision-100/vision-200-vision-100-gallery-03.webp",
+      "/images/products/imaging-system/vision-200-vision-100/vision-200-vision-100-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/vision-200-vision-100/vision-200-vision-100-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the Vision 200&Vision 100",
+    "sellingPoints": [
+      {
+        "title": "Digital radiography workflow",
+        "description": "Supports intraoral X-ray capture for daily diagnostic reference."
+      },
+      {
+        "title": "Chairside image review",
+        "description": "Helps clinics view radiographic information quickly during treatment planning."
+      },
+      {
+        "title": "Compact clinical setup",
+        "description": "Handheld, wall-mounted or sensor-based options fit different clinic layouts."
+      },
+      {
+        "title": "Diagnostic communication",
+        "description": "Radiographic images support patient explanation and treatment documentation."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "RADIOGRAPHY CAPTURE",
+        "title": "Diagnostic image support",
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
+        "image": "/images/products/imaging-system/vision-200-vision-100/vision-200-vision-100-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE REVIEW",
+        "title": "Fast clinical communication",
+        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
+        "image": "/images/products/imaging-system/vision-200-vision-100/vision-200-vision-100-feature-02.webp"
+      },
+      {
+        "eyebrow": "COMPACT SETUP",
+        "title": "Fits clinic imaging workflows",
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
+        "image": "/images/products/imaging-system/vision-200-vision-100/vision-200-vision-100-feature-03.webp"
+      },
+      {
+        "eyebrow": "PROTECTION AND POSITIONING",
+        "title": "Daily imaging support",
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
+        "image": "/images/products/imaging-system/vision-200-vision-100/vision-200-vision-100-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "Vision 200&Vision 100"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental X-ray system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "Pre-owned CBCT System",
+    "slug": "pre-owned-cbct-system",
+    "group": "CBCT",
+    "groupSlug": "cbct",
+    "subtitle": "Dental CBCT imaging system",
+    "summary": "A dental imaging solution for 3D diagnostic reference, implant planning, orthodontic assessment and clinical case communication.",
+    "gallery": [
+      "/images/products/imaging-system/pre-owned-cbct-system/pre-owned-cbct-system-gallery-01.webp",
+      "/images/products/imaging-system/pre-owned-cbct-system/pre-owned-cbct-system-gallery-02.webp",
+      "/images/products/imaging-system/pre-owned-cbct-system/pre-owned-cbct-system-gallery-03.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/pre-owned-cbct-system/pre-owned-cbct-system-gallery-02.webp",
+    "sellingHeading": "Why clinics choose the Pre-owned CBCT System",
+    "sellingPoints": [
+      {
+        "title": "3D diagnostic support",
+        "description": "Supports implant, orthodontic and general diagnostic planning with broader anatomical imaging reference."
+      },
+      {
+        "title": "Clear case communication",
+        "description": "Helps clinics explain treatment needs and planning details with visual image data."
+      },
+      {
+        "title": "Imaging-room workflow",
+        "description": "Designed for structured patient positioning, image capture and clinical consultation."
+      },
+      {
+        "title": "Treatment planning value",
+        "description": "Provides imaging support for multi-discipline dental treatment planning."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "IMAGING COVERAGE",
+        "title": "Broad diagnostic reference",
+        "description": "Supports 3D, panoramic or extraoral imaging workflows for treatment planning.",
+        "image": "/images/products/imaging-system/pre-owned-cbct-system/pre-owned-cbct-system-feature-01.webp"
+      },
+      {
+        "eyebrow": "PATIENT POSITIONING",
+        "title": "Structured capture process",
+        "description": "Imaging-room setup supports repeatable patient positioning and scan operation.",
+        "image": "/images/products/imaging-system/pre-owned-cbct-system/pre-owned-cbct-system-feature-source-02.webp"
+      },
+      {
+        "eyebrow": "CASE PLANNING",
+        "title": "Clinical planning support",
+        "description": "Image data supports implant, orthodontic, surgical and restorative discussions.",
+        "image": "/images/products/imaging-system/pre-owned-cbct-system/pre-owned-cbct-system-feature-03.webp"
+      },
+      {
+        "eyebrow": "CASE VIEWING WORKFLOW",
+        "title": "Clear visual communication",
+        "description": "Imaging results help clinicians view cases and explain findings to patients.",
+        "image": "/images/products/imaging-system/pre-owned-cbct-system/pre-owned-cbct-system-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "Pre-owned CBCT System"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental CBCT imaging system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "Meyer Panoramic & CBCT",
+    "slug": "meyer-panoramic-cbct",
+    "group": "CBCT",
+    "groupSlug": "cbct",
+    "subtitle": "Dental CBCT imaging system",
+    "summary": "A dental imaging solution for 3D diagnostic reference, implant planning, orthodontic assessment and clinical case communication.",
+    "gallery": [
+      "/images/products/imaging-system/meyer-panoramic-cbct/meyer-panoramic-cbct-gallery-01.webp",
+      "/images/products/imaging-system/meyer-panoramic-cbct/meyer-panoramic-cbct-gallery-02.webp",
+      "/images/products/imaging-system/meyer-panoramic-cbct/meyer-panoramic-cbct-gallery-03.webp",
+      "/images/products/imaging-system/meyer-panoramic-cbct/meyer-panoramic-cbct-gallery-04.webp",
+      "/images/products/imaging-system/meyer-panoramic-cbct/meyer-panoramic-cbct-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/meyer-panoramic-cbct/meyer-panoramic-cbct-cover-source.webp",
+    "sellingHeading": "Why clinics choose the Meyer Panoramic & CBCT",
+    "sellingPoints": [
+      {
+        "title": "3D diagnostic support",
+        "description": "Supports implant, orthodontic and general diagnostic planning with broader anatomical imaging reference."
+      },
+      {
+        "title": "Clear case communication",
+        "description": "Helps clinics explain treatment needs and planning details with visual image data."
+      },
+      {
+        "title": "Imaging-room workflow",
+        "description": "Designed for structured patient positioning, image capture and clinical consultation."
+      },
+      {
+        "title": "Treatment planning value",
+        "description": "Provides imaging support for multi-discipline dental treatment planning."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "IMAGING COVERAGE",
+        "title": "Broad diagnostic reference",
+        "description": "Supports 3D, panoramic or extraoral imaging workflows for treatment planning.",
+        "image": "/images/products/imaging-system/meyer-panoramic-cbct/meyer-panoramic-cbct-feature-01.webp"
+      },
+      {
+        "eyebrow": "PATIENT POSITIONING",
+        "title": "Structured capture process",
+        "description": "Imaging-room setup supports repeatable patient positioning and scan operation.",
+        "image": "/images/products/imaging-system/meyer-panoramic-cbct/meyer-panoramic-cbct-feature-02.webp"
+      },
+      {
+        "eyebrow": "CASE PLANNING",
+        "title": "Clinical planning support",
+        "description": "Image data supports implant, orthodontic, surgical and restorative discussions.",
+        "image": "/images/products/imaging-system/meyer-panoramic-cbct/meyer-panoramic-cbct-feature-source-03.webp"
+      },
+      {
+        "eyebrow": "CASE VIEWING WORKFLOW",
+        "title": "Clear visual communication",
+        "description": "Imaging results help clinicians view cases and explain findings to patients.",
+        "image": "/images/products/imaging-system/meyer-panoramic-cbct/meyer-panoramic-cbct-feature-source-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "Meyer Panoramic & CBCT"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental CBCT imaging system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "Panda Intraoral Scanner",
+    "slug": "panda-intraoral-scanner",
+    "group": "Intraoral Scanner",
+    "groupSlug": "intraoral-scanner",
+    "subtitle": "Intraoral scanner",
+    "summary": "A digital intraoral scanning solution for chairside impression capture, restorative communication and digital workflow support.",
+    "gallery": [
+      "/images/products/imaging-system/panda-intraoral-scanner/panda-intraoral-scanner-gallery-01.webp",
+      "/images/products/imaging-system/panda-intraoral-scanner/panda-intraoral-scanner-gallery-02.webp",
+      "/images/products/imaging-system/panda-intraoral-scanner/panda-intraoral-scanner-gallery-03.webp",
+      "/images/products/imaging-system/panda-intraoral-scanner/panda-intraoral-scanner-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/panda-intraoral-scanner/panda-intraoral-scanner-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the Panda Intraoral Scanner",
+    "sellingPoints": [
+      {
+        "title": "Digital impression workflow",
+        "description": "Helps replace traditional impression steps with chairside digital scan capture."
+      },
+      {
+        "title": "Restorative communication",
+        "description": "Scan data supports restoration design, lab communication and clinical documentation."
+      },
+      {
+        "title": "Comfortable chairside use",
+        "description": "Handheld scanning workflow supports routine operation in treatment rooms."
+      },
+      {
+        "title": "Digital clinic upgrade",
+        "description": "Connects chairside diagnosis, treatment planning and digital case records."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "HANDHELD SCANNING",
+        "title": "Chairside scan capture",
+        "description": "Handheld operation supports digital impression workflows at the treatment chair.",
+        "image": "/images/products/imaging-system/panda-intraoral-scanner/panda-intraoral-scanner-feature-source-01.webp"
+      },
+      {
+        "eyebrow": "DIGITAL CASE DATA",
+        "title": "Restorative workflow support",
+        "description": "Scan data helps support design, lab communication and case documentation.",
+        "image": "/images/products/imaging-system/panda-intraoral-scanner/panda-intraoral-scanner-feature-source-02.webp"
+      },
+      {
+        "eyebrow": "TIP AND ERGONOMICS",
+        "title": "Daily clinical handling",
+        "description": "Compact scanner body and tip workflow are prepared for repeated clinic use.",
+        "image": "/images/products/imaging-system/panda-intraoral-scanner/panda-intraoral-scanner-feature-source-03.webp"
+      },
+      {
+        "eyebrow": "SOFTWARE WORKFLOW",
+        "title": "Digital viewing support",
+        "description": "Scanning workflow supports visual review and chairside treatment communication.",
+        "image": "/images/products/imaging-system/panda-intraoral-scanner/panda-intraoral-scanner-feature-source-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "Panda Intraoral Scanner"
+      },
+      {
+        "label": "Product type",
+        "value": "Intraoral scanner"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-LB32",
+    "slug": "tj-lb32",
+    "group": "Intraoral Scanner",
+    "groupSlug": "intraoral-scanner",
+    "subtitle": "Intraoral scanner",
+    "summary": "A digital intraoral scanning solution for chairside impression capture, restorative communication and digital workflow support.",
+    "gallery": [
+      "/images/products/imaging-system/tj-lb32/tj-lb32-gallery-01.webp",
+      "/images/products/imaging-system/tj-lb32/tj-lb32-gallery-02.webp",
+      "/images/products/imaging-system/tj-lb32/tj-lb32-gallery-03.webp",
+      "/images/products/imaging-system/tj-lb32/tj-lb32-gallery-04.webp",
+      "/images/products/imaging-system/tj-lb32/tj-lb32-gallery-05.webp",
+      "/images/products/imaging-system/tj-lb32/tj-lb32-gallery-06.webp",
+      "/images/products/imaging-system/tj-lb32/tj-lb32-gallery-07.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-lb32/tj-lb32-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-LB32",
+    "sellingPoints": [
+      {
+        "title": "Digital impression workflow",
+        "description": "Helps replace traditional impression steps with chairside digital scan capture."
+      },
+      {
+        "title": "Restorative communication",
+        "description": "Scan data supports restoration design, lab communication and clinical documentation."
+      },
+      {
+        "title": "Comfortable chairside use",
+        "description": "Handheld scanning workflow supports routine operation in treatment rooms."
+      },
+      {
+        "title": "Digital clinic upgrade",
+        "description": "Connects chairside diagnosis, treatment planning and digital case records."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "HANDHELD SCANNING",
+        "title": "Chairside scan capture",
+        "description": "Handheld operation supports digital impression workflows at the treatment chair.",
+        "image": "/images/products/imaging-system/tj-lb32/tj-lb32-feature-01.webp"
+      },
+      {
+        "eyebrow": "DIGITAL CASE DATA",
+        "title": "Restorative workflow support",
+        "description": "Scan data helps support design, lab communication and case documentation.",
+        "image": "/images/products/imaging-system/tj-lb32/tj-lb32-feature-02.webp"
+      },
+      {
+        "eyebrow": "TIP AND ERGONOMICS",
+        "title": "Daily clinical handling",
+        "description": "Compact scanner body and tip workflow are prepared for repeated clinic use.",
+        "image": "/images/products/imaging-system/tj-lb32/tj-lb32-feature-03.webp"
+      },
+      {
+        "eyebrow": "SOFTWARE WORKFLOW",
+        "title": "Digital viewing support",
+        "description": "Scanning workflow supports visual review and chairside treatment communication.",
+        "image": "/images/products/imaging-system/tj-lb32/tj-lb32-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-LB32"
+      },
+      {
+        "label": "Product type",
+        "value": "Intraoral scanner"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-NEXScan 1",
+    "slug": "tj-nexscan-1",
+    "group": "Intraoral Scanner",
+    "groupSlug": "intraoral-scanner",
+    "subtitle": "Intraoral scanner",
+    "summary": "A digital intraoral scanning solution for chairside impression capture, restorative communication and digital workflow support.",
+    "gallery": [
+      "/images/products/imaging-system/tj-nexscan-1/tj-nexscan-1-gallery-01.webp",
+      "/images/products/imaging-system/tj-nexscan-1/tj-nexscan-1-gallery-02.webp",
+      "/images/products/imaging-system/tj-nexscan-1/tj-nexscan-1-gallery-03.webp",
+      "/images/products/imaging-system/tj-nexscan-1/tj-nexscan-1-gallery-04.webp",
+      "/images/products/imaging-system/tj-nexscan-1/tj-nexscan-1-gallery-05.webp",
+      "/images/products/imaging-system/tj-nexscan-1/tj-nexscan-1-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-nexscan-1/tj-nexscan-1-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-NEXScan 1",
+    "sellingPoints": [
+      {
+        "title": "Digital impression workflow",
+        "description": "Helps replace traditional impression steps with chairside digital scan capture."
+      },
+      {
+        "title": "Restorative communication",
+        "description": "Scan data supports restoration design, lab communication and clinical documentation."
+      },
+      {
+        "title": "Comfortable chairside use",
+        "description": "Handheld scanning workflow supports routine operation in treatment rooms."
+      },
+      {
+        "title": "Digital clinic upgrade",
+        "description": "Connects chairside diagnosis, treatment planning and digital case records."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "HANDHELD SCANNING",
+        "title": "Chairside scan capture",
+        "description": "Handheld operation supports digital impression workflows at the treatment chair.",
+        "image": "/images/products/imaging-system/tj-nexscan-1/tj-nexscan-1-feature-01.webp"
+      },
+      {
+        "eyebrow": "DIGITAL CASE DATA",
+        "title": "Restorative workflow support",
+        "description": "Scan data helps support design, lab communication and case documentation.",
+        "image": "/images/products/imaging-system/tj-nexscan-1/tj-nexscan-1-feature-02.webp"
+      },
+      {
+        "eyebrow": "TIP AND ERGONOMICS",
+        "title": "Daily clinical handling",
+        "description": "Compact scanner body and tip workflow are prepared for repeated clinic use.",
+        "image": "/images/products/imaging-system/tj-nexscan-1/tj-nexscan-1-feature-03.webp"
+      },
+      {
+        "eyebrow": "SOFTWARE WORKFLOW",
+        "title": "Digital viewing support",
+        "description": "Scanning workflow supports visual review and chairside treatment communication.",
+        "image": "/images/products/imaging-system/tj-nexscan-1/tj-nexscan-1-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-NEXScan 1"
+      },
+      {
+        "label": "Product type",
+        "value": "Intraoral scanner"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-PIOS-EX5",
+    "slug": "tj-pios-ex5",
+    "group": "Intraoral Scanner",
+    "groupSlug": "intraoral-scanner",
+    "subtitle": "Intraoral scanner",
+    "summary": "A digital intraoral scanning solution for chairside impression capture, restorative communication and digital workflow support.",
+    "gallery": [
+      "/images/products/imaging-system/tj-pios-ex5/tj-pios-ex5-gallery-01.webp",
+      "/images/products/imaging-system/tj-pios-ex5/tj-pios-ex5-gallery-03.webp",
+      "/images/products/imaging-system/tj-pios-ex5/tj-pios-ex5-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-pios-ex5/tj-pios-ex5-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-PIOS-EX5",
+    "sellingPoints": [
+      {
+        "title": "Digital impression workflow",
+        "description": "Helps replace traditional impression steps with chairside digital scan capture."
+      },
+      {
+        "title": "Restorative communication",
+        "description": "Scan data supports restoration design, lab communication and clinical documentation."
+      },
+      {
+        "title": "Comfortable chairside use",
+        "description": "Handheld scanning workflow supports routine operation in treatment rooms."
+      },
+      {
+        "title": "Digital clinic upgrade",
+        "description": "Connects chairside diagnosis, treatment planning and digital case records."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "HANDHELD SCANNING",
+        "title": "Chairside scan capture",
+        "description": "Handheld operation supports digital impression workflows at the treatment chair."
+      },
+      {
+        "eyebrow": "DIGITAL CASE DATA",
+        "title": "Restorative workflow support",
+        "description": "Scan data helps support design, lab communication and case documentation."
+      },
+      {
+        "eyebrow": "TIP AND ERGONOMICS",
+        "title": "Daily clinical handling",
+        "description": "Compact scanner body and tip workflow are prepared for repeated clinic use."
+      },
+      {
+        "eyebrow": "SOFTWARE WORKFLOW",
+        "title": "Digital viewing support",
+        "description": "Scanning workflow supports visual review and chairside treatment communication."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-PIOS-EX5"
+      },
+      {
+        "label": "Product type",
+        "value": "Intraoral scanner"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "DYNAMIC Intraoral Scanner",
+    "slug": "dynamic-intraoral-scanner",
+    "group": "Intraoral Scanner",
+    "groupSlug": "intraoral-scanner",
+    "subtitle": "Intraoral scanner",
+    "summary": "A digital intraoral scanning solution for chairside impression capture, restorative communication and digital workflow support.",
+    "gallery": [
+      "/images/products/imaging-system/dynamic-intraoral-scanner/dynamic-intraoral-scanner-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/dynamic-intraoral-scanner/dynamic-intraoral-scanner-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the DYNAMIC Intraoral Scanner",
+    "sellingPoints": [
+      {
+        "title": "Digital impression workflow",
+        "description": "Helps replace traditional impression steps with chairside digital scan capture."
+      },
+      {
+        "title": "Restorative communication",
+        "description": "Scan data supports restoration design, lab communication and clinical documentation."
+      },
+      {
+        "title": "Comfortable chairside use",
+        "description": "Handheld scanning workflow supports routine operation in treatment rooms."
+      },
+      {
+        "title": "Digital clinic upgrade",
+        "description": "Connects chairside diagnosis, treatment planning and digital case records."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "HANDHELD SCANNING",
+        "title": "Chairside scan capture",
+        "description": "Handheld operation supports digital impression workflows at the treatment chair."
+      },
+      {
+        "eyebrow": "DIGITAL CASE DATA",
+        "title": "Restorative workflow support",
+        "description": "Scan data helps support design, lab communication and case documentation."
+      },
+      {
+        "eyebrow": "TIP AND ERGONOMICS",
+        "title": "Daily clinical handling",
+        "description": "Compact scanner body and tip workflow are prepared for repeated clinic use."
+      },
+      {
+        "eyebrow": "SOFTWARE WORKFLOW",
+        "title": "Digital viewing support",
+        "description": "Scanning workflow supports visual review and chairside treatment communication."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "DYNAMIC Intraoral Scanner"
+      },
+      {
+        "label": "Product type",
+        "value": "Intraoral scanner"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "3DS 2.0",
+    "slug": "3ds-2-0",
+    "group": "Intraoral Scanner",
+    "groupSlug": "intraoral-scanner",
+    "subtitle": "Intraoral scanner",
+    "summary": "A digital intraoral scanning solution for chairside impression capture, restorative communication and digital workflow support.",
+    "gallery": [
+      "/images/products/imaging-system/3ds-2-0/3ds-2-0-gallery-01.webp",
+      "/images/products/imaging-system/3ds-2-0/3ds-2-0-gallery-02.webp",
+      "/images/products/imaging-system/3ds-2-0/3ds-2-0-gallery-03.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/3ds-2-0/3ds-2-0-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the 3DS 2.0",
+    "sellingPoints": [
+      {
+        "title": "Digital impression workflow",
+        "description": "Helps replace traditional impression steps with chairside digital scan capture."
+      },
+      {
+        "title": "Restorative communication",
+        "description": "Scan data supports restoration design, lab communication and clinical documentation."
+      },
+      {
+        "title": "Comfortable chairside use",
+        "description": "Handheld scanning workflow supports routine operation in treatment rooms."
+      },
+      {
+        "title": "Digital clinic upgrade",
+        "description": "Connects chairside diagnosis, treatment planning and digital case records."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "HANDHELD SCANNING",
+        "title": "Chairside scan capture",
+        "description": "Handheld operation supports digital impression workflows at the treatment chair.",
+        "image": "/images/products/imaging-system/3ds-2-0/3ds-2-0-feature-01.webp"
+      },
+      {
+        "eyebrow": "DIGITAL CASE DATA",
+        "title": "Restorative workflow support",
+        "description": "Scan data helps support design, lab communication and case documentation.",
+        "image": "/images/products/imaging-system/3ds-2-0/3ds-2-0-feature-02.webp"
+      },
+      {
+        "eyebrow": "TIP AND ERGONOMICS",
+        "title": "Daily clinical handling",
+        "description": "Compact scanner body and tip workflow are prepared for repeated clinic use.",
+        "image": "/images/products/imaging-system/3ds-2-0/3ds-2-0-feature-03.webp"
+      },
+      {
+        "eyebrow": "SOFTWARE WORKFLOW",
+        "title": "Digital viewing support",
+        "description": "Scanning workflow supports visual review and chairside treatment communication.",
+        "image": "/images/products/imaging-system/3ds-2-0/3ds-2-0-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "3DS 2.0"
+      },
+      {
+        "label": "Product type",
+        "value": "Intraoral scanner"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "A3S-X",
+    "slug": "a3s-x",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Dental intraoral camera",
+    "summary": "A dental intraoral camera for chairside oral observation, image capture and patient communication.",
+    "gallery": [
+      "/images/products/imaging-system/a3s-x/a3s-x-gallery-01.webp",
+      "/images/products/imaging-system/a3s-x/a3s-x-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/a3s-x/a3s-x-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the A3S-X",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation.",
+        "image": "/images/products/imaging-system/a3s-x/a3s-x-feature-source-01.webp"
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings.",
+        "image": "/images/products/imaging-system/a3s-x/a3s-x-feature-source-02.webp"
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms.",
+        "image": "/images/products/imaging-system/a3s-x/a3s-x-feature-source-03.webp"
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients.",
+        "image": "/images/products/imaging-system/a3s-x/a3s-x-feature-source-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "A3S-X"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental intraoral camera"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "CF-689",
+    "slug": "cf-689",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Dental intraoral camera",
+    "summary": "A dental intraoral camera for chairside oral observation, image capture and patient communication.",
+    "gallery": [
+      "/images/products/imaging-system/cf-689/cf-689-gallery-01.webp",
+      "/images/products/imaging-system/cf-689/cf-689-gallery-02.webp",
+      "/images/products/imaging-system/cf-689/cf-689-gallery-03.webp",
+      "/images/products/imaging-system/cf-689/cf-689-gallery-04.webp",
+      "/images/products/imaging-system/cf-689/cf-689-gallery-05.webp",
+      "/images/products/imaging-system/cf-689/cf-689-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/cf-689/cf-689-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the CF-689",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation.",
+        "image": "/images/products/imaging-system/cf-689/cf-689-feature-01.webp"
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings.",
+        "image": "/images/products/imaging-system/cf-689/cf-689-feature-02.webp"
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms.",
+        "image": "/images/products/imaging-system/cf-689/cf-689-feature-03.webp"
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients.",
+        "image": "/images/products/imaging-system/cf-689/cf-689-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "CF-689"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental intraoral camera"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "DA-MC01-CF689",
+    "slug": "da-mc01-cf689",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Dental intraoral camera",
+    "summary": "A dental intraoral camera for chairside oral observation, image capture and patient communication.",
+    "gallery": [
+      "/images/products/imaging-system/da-mc01-cf689/da-mc01-cf689-gallery-01.webp",
+      "/images/products/imaging-system/da-mc01-cf689/da-mc01-cf689-gallery-02.webp",
+      "/images/products/imaging-system/da-mc01-cf689/da-mc01-cf689-gallery-04.webp",
+      "/images/products/imaging-system/da-mc01-cf689/da-mc01-cf689-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/da-mc01-cf689/da-mc01-cf689-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the DA-MC01-CF689",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation.",
+        "image": "/images/products/imaging-system/da-mc01-cf689/da-mc01-cf689-feature-01.webp"
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings.",
+        "image": "/images/products/imaging-system/da-mc01-cf689/da-mc01-cf689-feature-02.webp"
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms.",
+        "image": "/images/products/imaging-system/da-mc01-cf689/da-mc01-cf689-feature-03.webp"
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients.",
+        "image": "/images/products/imaging-system/da-mc01-cf689/da-mc01-cf689-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "DA-MC01-CF689"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental intraoral camera"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "DA300-TJ-DA300",
+    "slug": "da300-tj-da300",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Dental intraoral camera",
+    "summary": "A dental intraoral camera for chairside oral observation, image capture and patient communication.",
+    "gallery": [
+      "/images/products/imaging-system/da300-tj-da300/da300-tj-da300-gallery-01.webp",
+      "/images/products/imaging-system/da300-tj-da300/da300-tj-da300-gallery-03.webp",
+      "/images/products/imaging-system/da300-tj-da300/da300-tj-da300-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/da300-tj-da300/da300-tj-da300-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the DA300-TJ-DA300",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation.",
+        "image": "/images/products/imaging-system/da300-tj-da300/da300-tj-da300-feature-source-01.webp"
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings.",
+        "image": "/images/products/imaging-system/da300-tj-da300/da300-tj-da300-feature-source-02.webp"
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms.",
+        "image": "/images/products/imaging-system/da300-tj-da300/da300-tj-da300-feature-03.webp"
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients.",
+        "image": "/images/products/imaging-system/da300-tj-da300/da300-tj-da300-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "DA300-TJ-DA300"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental intraoral camera"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "DF-2020062006",
+    "slug": "df-2020062006",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Dental intraoral camera",
+    "summary": "A dental intraoral camera for chairside oral observation, image capture and patient communication.",
+    "gallery": [
+      "/images/products/imaging-system/df-2020062006/df-2020062006-gallery-01.webp",
+      "/images/products/imaging-system/df-2020062006/df-2020062006-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/df-2020062006/df-2020062006-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the DF-2020062006",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation.",
+        "image": "/images/products/imaging-system/df-2020062006/df-2020062006-feature-01.webp"
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings.",
+        "image": "/images/products/imaging-system/df-2020062006/df-2020062006-feature-02.webp"
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms.",
+        "image": "/images/products/imaging-system/df-2020062006/df-2020062006-feature-03.webp"
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients.",
+        "image": "/images/products/imaging-system/df-2020062006/df-2020062006-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "DF-2020062006"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental intraoral camera"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "G-02",
+    "slug": "g-02",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Dental intraoral camera",
+    "summary": "A dental intraoral camera for chairside oral observation, image capture and patient communication.",
+    "gallery": [
+      "/images/products/imaging-system/g-02/g-02-gallery-01.webp",
+      "/images/products/imaging-system/g-02/g-02-gallery-02.webp",
+      "/images/products/imaging-system/g-02/g-02-gallery-03.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/g-02/g-02-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the G-02",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation."
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings."
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms."
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "G-02"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental intraoral camera"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "G-M-568",
+    "slug": "g-m-568",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Dental intraoral camera",
+    "summary": "A dental intraoral camera for chairside oral observation, image capture and patient communication.",
+    "gallery": [
+      "/images/products/imaging-system/g-m-568/g-m-568-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/g-m-568/g-m-568-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the G-M-568",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation."
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings."
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms."
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "G-M-568"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental intraoral camera"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "G-M-958A",
+    "slug": "g-m-958a",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Dental intraoral camera",
+    "summary": "A dental intraoral camera for chairside oral observation, image capture and patient communication.",
+    "gallery": [
+      "/images/products/imaging-system/g-m-958a/g-m-958a-gallery-01.webp",
+      "/images/products/imaging-system/g-m-958a/g-m-958a-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/g-m-958a/g-m-958a-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the G-M-958A",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation."
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings."
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms."
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "G-M-958A"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental intraoral camera"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "G-M-968",
+    "slug": "g-m-968",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Dental intraoral camera",
+    "summary": "A dental intraoral camera for chairside oral observation, image capture and patient communication.",
+    "gallery": [
+      "/images/products/imaging-system/g-m-968/g-m-968-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/g-m-968/g-m-968-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the G-M-968",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation."
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings."
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms."
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "G-M-968"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental intraoral camera"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "G-M968",
+    "slug": "g-m968",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Dental intraoral camera",
+    "summary": "A dental intraoral camera for chairside oral observation, image capture and patient communication.",
+    "gallery": [
+      "/images/products/imaging-system/g-m968/g-m968-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/g-m968/g-m968-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the G-M968",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation.",
+        "image": "/images/products/imaging-system/g-m968/g-m968-feature-01.webp"
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings.",
+        "image": "/images/products/imaging-system/g-m968/g-m968-feature-02.webp"
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms.",
+        "image": "/images/products/imaging-system/g-m968/g-m968-feature-03.webp"
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients.",
+        "image": "/images/products/imaging-system/g-m968/g-m968-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "G-M968"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental intraoral camera"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "M-568",
+    "slug": "m-568",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Dental intraoral camera",
+    "summary": "A dental intraoral camera for chairside oral observation, image capture and patient communication.",
+    "gallery": [
+      "/images/products/imaging-system/m-568/m-568-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/m-568/m-568-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the M-568",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation."
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings."
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms."
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "M-568"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental intraoral camera"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "M-958A",
+    "slug": "m-958a",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Dental intraoral camera",
+    "summary": "A dental intraoral camera for chairside oral observation, image capture and patient communication.",
+    "gallery": [
+      "/images/products/imaging-system/m-958a/m-958a-gallery-01.webp",
+      "/images/products/imaging-system/m-958a/m-958a-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/m-958a/m-958a-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the M-958A",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation."
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings."
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms."
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "M-958A"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental intraoral camera"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "M-968",
+    "slug": "m-968",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Dental intraoral camera",
+    "summary": "A dental intraoral camera for chairside oral observation, image capture and patient communication.",
+    "gallery": [
+      "/images/products/imaging-system/m-968/m-968-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/m-968/m-968-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the M-968",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation."
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings."
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms."
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "M-968"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental intraoral camera"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-D03",
+    "slug": "tj-d03",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Intraoral camera monitor system",
+    "summary": "An intraoral camera display system for chairside image viewing, patient communication and clinical documentation.",
+    "gallery": [
+      "/images/products/imaging-system/tj-d03/tj-d03-gallery-source-01.webp",
+      "/images/products/imaging-system/tj-d03/tj-d03-gallery-source-02.webp",
+      "/images/products/imaging-system/tj-d03/tj-d03-gallery-source-03.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-d03/tj-d03-gallery-source-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-D03",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation."
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings."
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms."
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-D03"
+      },
+      {
+        "label": "Product type",
+        "value": "Intraoral camera monitor system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-D04",
+    "slug": "tj-d04",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Intraoral camera monitor system",
+    "summary": "An intraoral camera display system for chairside image viewing, patient communication and clinical documentation.",
+    "gallery": [
+      "/images/products/imaging-system/tj-d04/tj-d04-gallery-01.webp",
+      "/images/products/imaging-system/tj-d04/tj-d04-gallery-02.webp",
+      "/images/products/imaging-system/tj-d04/tj-d04-gallery-03.webp",
+      "/images/products/imaging-system/tj-d04/tj-d04-gallery-04.webp",
+      "/images/products/imaging-system/tj-d04/tj-d04-gallery-05.webp",
+      "/images/products/imaging-system/tj-d04/tj-d04-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-d04/tj-d04-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-D04",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation.",
+        "image": "/images/products/imaging-system/tj-d04/tj-d04-feature-01.webp"
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings.",
+        "image": "/images/products/imaging-system/tj-d04/tj-d04-feature-02.webp"
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms.",
+        "image": "/images/products/imaging-system/tj-d04/tj-d04-feature-03.webp"
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients.",
+        "image": "/images/products/imaging-system/tj-d04/tj-d04-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-D04"
+      },
+      {
+        "label": "Product type",
+        "value": "Intraoral camera monitor system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-D05",
+    "slug": "tj-d05",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Dental microscope camera",
+    "summary": "A compact dental microscope camera solution for enlarged chairside observation and detail inspection.",
+    "gallery": [
+      "/images/products/imaging-system/tj-d05/tj-d05-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-d05/tj-d05-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-D05",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation."
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings."
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms."
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-D05"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental microscope camera"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-D06",
+    "slug": "tj-d06",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Dental microscope camera",
+    "summary": "A compact dental microscope camera solution for enlarged chairside observation and detail inspection.",
+    "gallery": [
+      "/images/products/imaging-system/tj-d06/tj-d06-gallery-03.webp",
+      "/images/products/imaging-system/tj-d06/tj-d06-gallery-01.webp",
+      "/images/products/imaging-system/tj-d06/tj-d06-gallery-02.webp",
+      "/images/products/imaging-system/tj-d06/tj-d06-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-d06/tj-d06-gallery-03.webp",
+    "sellingHeading": "Why clinics choose the TJ-D06",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation.",
+        "image": "/images/products/imaging-system/tj-d06/tj-d06-feature-01.webp"
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings.",
+        "image": "/images/products/imaging-system/tj-d06/tj-d06-feature-02.webp"
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms.",
+        "image": "/images/products/imaging-system/tj-d06/tj-d06-feature-03.webp"
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients.",
+        "image": "/images/products/imaging-system/tj-d06/tj-d06-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-D06"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental microscope camera"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-EQ6",
+    "slug": "tj-eq6",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Dental intraoral camera",
+    "summary": "A dental intraoral camera for chairside oral observation, image capture and patient communication.",
+    "gallery": [
+      "/images/products/imaging-system/tj-eq6/tj-eq6-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-eq6/tj-eq6-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-EQ6",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation."
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings."
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms."
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients."
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-EQ6"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental intraoral camera"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-M968",
+    "slug": "tj-m968",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Dental intraoral camera",
+    "summary": "A dental intraoral camera for chairside oral observation, image capture and patient communication.",
+    "gallery": [
+      "/images/products/imaging-system/tj-m968/tj-m968-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-m968/tj-m968-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-M968",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation.",
+        "image": "/images/products/imaging-system/tj-m968/tj-m968-feature-01.webp"
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings.",
+        "image": "/images/products/imaging-system/tj-m968/tj-m968-feature-02.webp"
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms.",
+        "image": "/images/products/imaging-system/tj-m968/tj-m968-feature-03.webp"
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients.",
+        "image": "/images/products/imaging-system/tj-m968/tj-m968-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-M968"
+      },
+      {
+        "label": "Product type",
+        "value": "Dental intraoral camera"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  },
+  {
+    "model": "TJ-ST22",
+    "slug": "tj-st22",
+    "group": "Intraoral Camera",
+    "groupSlug": "intraoral-camera",
+    "subtitle": "Intraoral camera monitor system",
+    "summary": "An intraoral camera display system for chairside image viewing, patient communication and clinical documentation.",
+    "gallery": [
+      "/images/products/imaging-system/tj-st22/tj-st22-gallery-01.webp",
+      "/images/products/imaging-system/tj-st22/tj-st22-gallery-02.webp",
+      "/images/products/imaging-system/tj-st22/tj-st22-gallery-03.webp",
+      "/images/products/imaging-system/tj-st22/tj-st22-gallery-04.webp",
+      "/images/products/imaging-system/tj-st22/tj-st22-gallery-05.webp",
+      "/images/products/imaging-system/tj-st22/tj-st22-gallery-06.webp",
+      "/images/products/imaging-system/tj-st22/tj-st22-gallery-07.webp",
+      "/images/products/imaging-system/tj-st22/tj-st22-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/imaging-system/tj-st22/tj-st22-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-ST22",
+    "sellingPoints": [
+      {
+        "title": "Chairside visual communication",
+        "description": "Captures oral images to help explain treatment findings to patients."
+      },
+      {
+        "title": "Compact clinical observation",
+        "description": "Handheld or integrated camera workflow supports daily intraoral inspection."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Image capture helps clinics record before-and-after details and treatment discussions."
+      },
+      {
+        "title": "Easy treatment-room use",
+        "description": "Designed for quick chairside operation during routine examinations."
+      }
+    ],
+    "featureHeading": "Built around daily dental imaging workflows",
+    "features": [
+      {
+        "eyebrow": "INTRAORAL OBSERVATION",
+        "title": "Clear chairside viewing",
+        "description": "Camera workflow helps show oral details during examination and consultation.",
+        "image": "/images/products/imaging-system/tj-st22/tj-st22-feature-01.webp"
+      },
+      {
+        "eyebrow": "IMAGE CAPTURE",
+        "title": "Patient communication support",
+        "description": "Captured images help explain treatment needs and document clinical findings.",
+        "image": "/images/products/imaging-system/tj-st22/tj-st22-feature-02.webp"
+      },
+      {
+        "eyebrow": "HANDHELD OPERATION",
+        "title": "Easy daily handling",
+        "description": "Compact camera or handle design supports quick use in treatment rooms.",
+        "image": "/images/products/imaging-system/tj-st22/tj-st22-feature-03.webp"
+      },
+      {
+        "eyebrow": "DISPLAY WORKFLOW",
+        "title": "Visual viewing support",
+        "description": "Monitor or computer display options help clinics view images with patients.",
+        "image": "/images/products/imaging-system/tj-st22/tj-st22-feature-04.webp"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "TJ-ST22"
+      },
+      {
+        "label": "Product type",
+        "value": "Intraoral camera monitor system"
+      },
+      {
+        "label": "Application",
+        "value": "Dental imaging workflow"
+      },
+      {
+        "label": "Clinical use",
+        "value": "Diagnostic reference and patient communication"
+      }
+    ]
+  }
+]

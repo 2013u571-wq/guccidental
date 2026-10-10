@@ -36,7 +36,8 @@ export function localizedPath(language: LanguageCode, path = "/"): string {
 export function withoutLanguage(pathname: string): string {
   const parts = pathname.split("/").filter(Boolean);
   if (isLanguage(parts[0])) {
-    return `/${parts.slice(1).join("/")}`;
+    const route = parts.slice(1).join("/");
+    return route ? `/${route}${pathname.endsWith("/") ? "/" : ""}` : "/";
   }
   return pathname || "/";
 }

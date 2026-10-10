@@ -1,0 +1,4590 @@
+[
+  {
+    "model": "45SU",
+    "slug": "45su",
+    "speed": "high-speed",
+    "group": "45° Surgical",
+    "title": "45 Degree Dental Turbine Handpiece",
+    "summary": "A chairside high-speed handpiece prepared for daily restorative preparation, crown work and routine operative treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "45 Degree Dental Turbine Handpiece"
+      },
+      {
+        "label": "Light",
+        "value": "Without light"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push button"
+      },
+      {
+        "label": "Angle",
+        "value": "45 degree"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.24MPa-0.28MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "330,000rpm-420,000rpm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Water flow",
+        "value": ">=50ml/min"
+      },
+      {
+        "label": "Power",
+        "value": "18W-20W"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Water spray",
+        "value": "Single water spray"
+      },
+      {
+        "label": "Connector",
+        "value": "4 holes / 2 holes optional"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/high-speed/45su/45su-hero.webp",
+      "/images/products/dental-handpiece/high-speed/45su/45su-gallery-v2-01.webp",
+      "/images/products/dental-handpiece/high-speed/45su/45su-gallery-v2-02.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/high-speed/45su/45su-hero.webp",
+    "sellingHeading": "Why clinics choose the 45SU",
+    "sellingPoints": [
+      {
+        "title": "Fast chairside cutting workflow",
+        "description": "Designed for routine tooth preparation with high rotational speed and stable water spray support."
+      },
+      {
+        "title": "Comfortable turbine handling",
+        "description": "Compact handpiece body supports familiar operation during anterior and posterior treatment positions."
+      },
+      {
+        "title": "Reliable spray and cooling support",
+        "description": "Water spray configuration helps cool the bur area during daily restorative work."
+      },
+      {
+        "title": "Clinical connection options",
+        "description": "4-hole, 2-hole, fast-coupling or fiber-optic options are used according to the selected model."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "TURBINE PERFORMANCE",
+        "title": "Fast preparation support",
+        "description": "High rotational speed supports efficient daily restorative preparation.",
+        "image": "/images/products/dental-handpiece/high-speed/45su/45su-feature-numbered-01.webp"
+      },
+      {
+        "eyebrow": "PUSH-BUTTON CHUCK",
+        "title": "Quick bur replacement",
+        "description": "Push-button operation helps simplify chairside bur changes.",
+        "image": "/images/products/dental-handpiece/high-speed/45su/45su-feature-numbered-02.webp"
+      },
+      {
+        "eyebrow": "WATER SPRAY COOLING",
+        "title": "Stable cooling during cutting",
+        "description": "Water spray helps manage heat around the bur and treatment area.",
+        "image": "/images/products/dental-handpiece/high-speed/45su/45su-feature-numbered-03.webp"
+      },
+      {
+        "eyebrow": "CONNECTION OPTIONS",
+        "title": "Flexible unit compatibility",
+        "description": "Selected models support 2-hole, 4-hole, fast coupling or fiber-optic configurations.",
+        "image": "/images/products/dental-handpiece/high-speed/45su/45su-feature-numbered-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "45TUP",
+    "slug": "45tup",
+    "speed": "high-speed",
+    "group": "45° Surgical",
+    "title": "45 Degree LED Dental Handpiece",
+    "summary": "A chairside high-speed handpiece prepared for daily restorative preparation, crown work and routine operative treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "45 Degree LED Dental Handpiece"
+      },
+      {
+        "label": "Light",
+        "value": "Self-generated light"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push button"
+      },
+      {
+        "label": "Angle",
+        "value": "45 degree"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.24MPa-0.28MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "330,000rpm-420,000rpm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Water flow",
+        "value": ">=50ml/min"
+      },
+      {
+        "label": "Power",
+        "value": "18W-20W"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Water spray",
+        "value": "Single water spray"
+      },
+      {
+        "label": "Connector",
+        "value": "4 holes / 2 holes optional"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/high-speed/45tup/45tup-hero.webp",
+      "/images/products/dental-handpiece/high-speed/45tup/45tup-gallery-v2-01.webp",
+      "/images/products/dental-handpiece/high-speed/45tup/45tup-gallery-v2-02.webp",
+      "/images/products/dental-handpiece/high-speed/45tup/45tup-gallery-v2-03.webp",
+      "/images/products/dental-handpiece/high-speed/45tup/45tup-gallery-v2-04.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/high-speed/45tup/45tup-hero.webp",
+    "sellingHeading": "Why clinics choose the 45TUP",
+    "sellingPoints": [
+      {
+        "title": "Fast chairside cutting workflow",
+        "description": "Designed for routine tooth preparation with high rotational speed and stable water spray support."
+      },
+      {
+        "title": "Comfortable turbine handling",
+        "description": "Compact handpiece body supports familiar operation during anterior and posterior treatment positions."
+      },
+      {
+        "title": "Reliable spray and cooling support",
+        "description": "Water spray configuration helps cool the bur area during daily restorative work."
+      },
+      {
+        "title": "Clinical connection options",
+        "description": "4-hole, 2-hole, fast-coupling or fiber-optic options are used according to the selected model."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "TURBINE PERFORMANCE",
+        "title": "Fast preparation support",
+        "description": "High rotational speed supports efficient daily restorative preparation.",
+        "image": "/images/products/dental-handpiece/high-speed/45tup/45tup-feature-selected-01.webp"
+      },
+      {
+        "eyebrow": "PUSH-BUTTON CHUCK",
+        "title": "Quick bur replacement",
+        "description": "Push-button operation helps simplify chairside bur changes.",
+        "image": "/images/products/dental-handpiece/high-speed/45tup/45tup-feature-selected-02.webp"
+      },
+      {
+        "eyebrow": "WATER SPRAY COOLING",
+        "title": "Stable cooling during cutting",
+        "description": "Water spray helps manage heat around the bur and treatment area.",
+        "image": "/images/products/dental-handpiece/high-speed/45tup/45tup-feature-selected-03.webp"
+      },
+      {
+        "eyebrow": "CONNECTION OPTIONS",
+        "title": "Flexible unit compatibility",
+        "description": "Selected models support 2-hole, 4-hole, fast coupling or fiber-optic configurations.",
+        "image": "/images/products/dental-handpiece/high-speed/45tup/45tup-feature-selected-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "FG2-LED",
+    "slug": "fg2-led",
+    "speed": "high-speed",
+    "group": "LED Turbines",
+    "title": "LED Turbine",
+    "summary": "A chairside high-speed handpiece prepared for daily restorative preparation, crown work and routine operative treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "LED Turbine"
+      },
+      {
+        "label": "Light",
+        "value": "Self-generated light"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push button"
+      },
+      {
+        "label": "Head size",
+        "value": "Phi 11.3mm x H13.2mm"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.24MPa-0.28MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "320,000rpm-420,000rpm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Water flow",
+        "value": ">=50ml/min"
+      },
+      {
+        "label": "Power",
+        "value": "18W-20W"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Water spray",
+        "value": "3-way water spray"
+      },
+      {
+        "label": "Connector",
+        "value": "4 holes / 2 holes optional"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/high-speed/fg2-led/fg2-led-hero.webp",
+      "/images/products/dental-handpiece/high-speed/fg2-led/fg2-led-gallery-v2-01.webp",
+      "/images/products/dental-handpiece/high-speed/fg2-led/fg2-led-gallery-v2-02.webp",
+      "/images/products/dental-handpiece/high-speed/fg2-led/fg2-led-gallery-v2-03.webp",
+      "/images/products/dental-handpiece/high-speed/fg2-led/fg2-led-gallery-v2-04.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/high-speed/fg2-led/fg2-led-hero.webp",
+    "sellingHeading": "Why clinics choose the FG2-LED",
+    "sellingPoints": [
+      {
+        "title": "Fast chairside cutting workflow",
+        "description": "Designed for routine tooth preparation with high rotational speed and stable water spray support."
+      },
+      {
+        "title": "Comfortable turbine handling",
+        "description": "Compact handpiece body supports familiar operation during anterior and posterior treatment positions."
+      },
+      {
+        "title": "Reliable spray and cooling support",
+        "description": "Water spray configuration helps cool the bur area during daily restorative work."
+      },
+      {
+        "title": "Clinical connection options",
+        "description": "4-hole, 2-hole, fast-coupling or fiber-optic options are used according to the selected model."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "TURBINE PERFORMANCE",
+        "title": "Fast preparation support",
+        "description": "High rotational speed supports efficient daily restorative preparation.",
+        "image": "/images/products/dental-handpiece/high-speed/fg2-led/fg2-led-feature-01.webp"
+      },
+      {
+        "eyebrow": "PUSH-BUTTON CHUCK",
+        "title": "Quick bur replacement",
+        "description": "Push-button operation helps simplify chairside bur changes.",
+        "image": "/images/products/dental-handpiece/high-speed/fg2-led/fg2-led-feature-02.webp"
+      },
+      {
+        "eyebrow": "WATER SPRAY COOLING",
+        "title": "Stable cooling during cutting",
+        "description": "Water spray helps manage heat around the bur and treatment area.",
+        "image": "/images/products/dental-handpiece/high-speed/fg2-led/fg2-led-feature-03.webp"
+      },
+      {
+        "eyebrow": "CONNECTION OPTIONS",
+        "title": "Flexible unit compatibility",
+        "description": "Selected models support 2-hole, 4-hole, fast coupling or fiber-optic configurations.",
+        "image": "/images/products/dental-handpiece/high-speed/fg2-led/fg2-led-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "FG23",
+    "slug": "fg23",
+    "speed": "high-speed",
+    "group": "LED Turbines",
+    "title": "Mini Head LED Turbine",
+    "summary": "A chairside high-speed handpiece prepared for daily restorative preparation, crown work and routine operative treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Mini Head LED Turbine"
+      },
+      {
+        "label": "Head type",
+        "value": "Mini head"
+      },
+      {
+        "label": "Light",
+        "value": "LED self-generated"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push button"
+      },
+      {
+        "label": "Head size",
+        "value": "Phi 8mm x H11.2mm"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.24MPa-0.28MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "360,000rpm-400,000rpm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Water flow",
+        "value": ">=50ml/min"
+      },
+      {
+        "label": "Power",
+        "value": "18W-20W"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Water spray",
+        "value": "Single water spray"
+      },
+      {
+        "label": "Connector",
+        "value": "4 holes / 2 holes"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/high-speed/fg23/fg23-hero.webp",
+      "/images/products/dental-handpiece/high-speed/fg23/fg23-gallery-v2-01.webp",
+      "/images/products/dental-handpiece/high-speed/fg23/fg23-gallery-v2-02.webp",
+      "/images/products/dental-handpiece/high-speed/fg23/fg23-gallery-v2-03.webp",
+      "/images/products/dental-handpiece/high-speed/fg23/fg23-gallery-v2-04.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/high-speed/fg23/fg23-hero.webp",
+    "sellingHeading": "Why clinics choose the FG23",
+    "sellingPoints": [
+      {
+        "title": "Fast chairside cutting workflow",
+        "description": "Designed for routine tooth preparation with high rotational speed and stable water spray support."
+      },
+      {
+        "title": "Comfortable turbine handling",
+        "description": "Compact handpiece body supports familiar operation during anterior and posterior treatment positions."
+      },
+      {
+        "title": "Reliable spray and cooling support",
+        "description": "Water spray configuration helps cool the bur area during daily restorative work."
+      },
+      {
+        "title": "Clinical connection options",
+        "description": "4-hole, 2-hole, fast-coupling or fiber-optic options are used according to the selected model."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "TURBINE PERFORMANCE",
+        "title": "Fast preparation support",
+        "description": "High rotational speed supports efficient daily restorative preparation.",
+        "image": "/images/products/dental-handpiece/high-speed/fg23/fg23-feature-selected-01.webp"
+      },
+      {
+        "eyebrow": "PUSH-BUTTON CHUCK",
+        "title": "Quick bur replacement",
+        "description": "Push-button operation helps simplify chairside bur changes.",
+        "image": "/images/products/dental-handpiece/high-speed/fg23/fg23-feature-selected-02.webp"
+      },
+      {
+        "eyebrow": "WATER SPRAY COOLING",
+        "title": "Stable cooling during cutting",
+        "description": "Water spray helps manage heat around the bur and treatment area.",
+        "image": "/images/products/dental-handpiece/high-speed/fg23/fg23-feature-selected-03.webp"
+      },
+      {
+        "eyebrow": "CONNECTION OPTIONS",
+        "title": "Flexible unit compatibility",
+        "description": "Selected models support 2-hole, 4-hole, fast coupling or fiber-optic configurations.",
+        "image": "/images/products/dental-handpiece/high-speed/fg23/fg23-feature-selected-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "J5",
+    "slug": "j5",
+    "speed": "high-speed",
+    "group": "LED Turbines",
+    "title": "Jinme J5 E-generator LED High Speed Dental Handpiece",
+    "summary": "A chairside high-speed handpiece prepared for daily restorative preparation, crown work and routine operative treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Jinme J5 E-generator LED High Speed Dental Handpiece"
+      },
+      {
+        "label": "Light",
+        "value": "Self-generated LED never dead"
+      },
+      {
+        "label": "Head type",
+        "value": "Torque head"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push button"
+      },
+      {
+        "label": "Head size",
+        "value": "Phi 12.5mm x H13.5mm"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.24MPa-0.28MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "330,000rpm-420,000rpm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Water flow",
+        "value": ">=50ml/min"
+      },
+      {
+        "label": "Power",
+        "value": "18W-22W"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Water spray",
+        "value": "Triple water spray"
+      },
+      {
+        "label": "Connector",
+        "value": "4 holes / 2 holes"
+      },
+      {
+        "label": "Weight",
+        "value": "64.6g"
+      },
+      {
+        "label": "Surface material",
+        "value": "Titanium plating"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/high-speed/j5/j5-hero.webp",
+      "/images/products/dental-handpiece/high-speed/j5/j5-gallery-v2-01.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/high-speed/j5/j5-gallery-v2-01.webp",
+    "sellingHeading": "Why clinics choose the J5",
+    "sellingPoints": [
+      {
+        "title": "Fast chairside cutting workflow",
+        "description": "Designed for routine tooth preparation with high rotational speed and stable water spray support."
+      },
+      {
+        "title": "Comfortable turbine handling",
+        "description": "Compact handpiece body supports familiar operation during anterior and posterior treatment positions."
+      },
+      {
+        "title": "Reliable spray and cooling support",
+        "description": "Water spray configuration helps cool the bur area during daily restorative work."
+      },
+      {
+        "title": "Clinical connection options",
+        "description": "4-hole, 2-hole, fast-coupling or fiber-optic options are used according to the selected model."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "TURBINE PERFORMANCE",
+        "title": "Fast preparation support",
+        "description": "High rotational speed supports efficient daily restorative preparation.",
+        "image": "/images/products/dental-handpiece/high-speed/j5/j5-feature-selected-01.webp"
+      },
+      {
+        "eyebrow": "PUSH-BUTTON CHUCK",
+        "title": "Quick bur replacement",
+        "description": "Push-button operation helps simplify chairside bur changes.",
+        "image": "/images/products/dental-handpiece/high-speed/j5/j5-feature-selected-02.webp"
+      },
+      {
+        "eyebrow": "WATER SPRAY COOLING",
+        "title": "Stable cooling during cutting",
+        "description": "Water spray helps manage heat around the bur and treatment area.",
+        "image": "/images/products/dental-handpiece/high-speed/j5/j5-feature-selected-03.webp"
+      },
+      {
+        "eyebrow": "CONNECTION OPTIONS",
+        "title": "Flexible unit compatibility",
+        "description": "Selected models support 2-hole, 4-hole, fast coupling or fiber-optic configurations.",
+        "image": "/images/products/dental-handpiece/high-speed/j5/j5-feature-selected-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "M2-LED",
+    "slug": "m2-led",
+    "speed": "high-speed",
+    "group": "LED Turbines",
+    "title": "LED Turbine",
+    "summary": "A chairside high-speed handpiece prepared for daily restorative preparation, crown work and routine operative treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "LED Turbine"
+      },
+      {
+        "label": "Light",
+        "value": "Self-generated light"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push button"
+      },
+      {
+        "label": "Head size",
+        "value": "Phi 11.3mm x H13.2mm"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.24MPa-0.28MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "320,000rpm-420,000rpm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Water flow",
+        "value": ">=50ml/min"
+      },
+      {
+        "label": "Power",
+        "value": "18W-20W"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Water spray",
+        "value": "3-way water spray"
+      },
+      {
+        "label": "Connector",
+        "value": "4 holes / 2 holes optional"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/high-speed/m2-led/m2-led-hero.webp",
+      "/images/products/dental-handpiece/high-speed/m2-led/m2-led-gallery-v2-01.webp",
+      "/images/products/dental-handpiece/high-speed/m2-led/m2-led-gallery-v2-02.webp",
+      "/images/products/dental-handpiece/high-speed/m2-led/m2-led-gallery-v2-03.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/high-speed/m2-led/m2-led-hero.webp",
+    "sellingHeading": "Why clinics choose the M2-LED",
+    "sellingPoints": [
+      {
+        "title": "Fast chairside cutting workflow",
+        "description": "Designed for routine tooth preparation with high rotational speed and stable water spray support."
+      },
+      {
+        "title": "Comfortable turbine handling",
+        "description": "Compact handpiece body supports familiar operation during anterior and posterior treatment positions."
+      },
+      {
+        "title": "Reliable spray and cooling support",
+        "description": "Water spray configuration helps cool the bur area during daily restorative work."
+      },
+      {
+        "title": "Clinical connection options",
+        "description": "4-hole, 2-hole, fast-coupling or fiber-optic options are used according to the selected model."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "TURBINE PERFORMANCE",
+        "title": "Fast preparation support",
+        "description": "High rotational speed supports efficient daily restorative preparation.",
+        "image": "/images/products/dental-handpiece/high-speed/m2-led/m2-led-feature-selected-01.webp"
+      },
+      {
+        "eyebrow": "PUSH-BUTTON CHUCK",
+        "title": "Quick bur replacement",
+        "description": "Push-button operation helps simplify chairside bur changes.",
+        "image": "/images/products/dental-handpiece/high-speed/m2-led/m2-led-feature-selected-02.webp"
+      },
+      {
+        "eyebrow": "WATER SPRAY COOLING",
+        "title": "Stable cooling during cutting",
+        "description": "Water spray helps manage heat around the bur and treatment area.",
+        "image": "/images/products/dental-handpiece/high-speed/m2-led/m2-led-feature-selected-03.webp"
+      },
+      {
+        "eyebrow": "CONNECTION OPTIONS",
+        "title": "Flexible unit compatibility",
+        "description": "Selected models support 2-hole, 4-hole, fast coupling or fiber-optic configurations.",
+        "image": "/images/products/dental-handpiece/high-speed/m2-led/m2-led-feature-selected-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "RB-TUP",
+    "slug": "rb-tup",
+    "speed": "high-speed",
+    "group": "LED Turbines",
+    "title": "Lady Colorful LED Turbine",
+    "summary": "A chairside high-speed handpiece prepared for daily restorative preparation, crown work and routine operative treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Lady Colorful LED Turbine"
+      },
+      {
+        "label": "Light",
+        "value": "Generator LED"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push button"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.24MPa-0.28MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "380,000rpm-420,000rpm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Water flow",
+        "value": ">=50ml/min"
+      },
+      {
+        "label": "Power",
+        "value": "18W-20W"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Water spray",
+        "value": "Single water spray"
+      },
+      {
+        "label": "Connector",
+        "value": "4 holes / 2 holes optional"
+      },
+      {
+        "label": "Color",
+        "value": "Random color"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/high-speed/rb-tup/rb-tup-hero.webp",
+      "/images/products/dental-handpiece/high-speed/rb-tup/rb-tup-gallery-v2-01.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/high-speed/rb-tup/rb-tup-hero.webp",
+    "sellingHeading": "Why clinics choose the RB-TUP",
+    "sellingPoints": [
+      {
+        "title": "Fast chairside cutting workflow",
+        "description": "Designed for routine tooth preparation with high rotational speed and stable water spray support."
+      },
+      {
+        "title": "Comfortable turbine handling",
+        "description": "Compact handpiece body supports familiar operation during anterior and posterior treatment positions."
+      },
+      {
+        "title": "Reliable spray and cooling support",
+        "description": "Water spray configuration helps cool the bur area during daily restorative work."
+      },
+      {
+        "title": "Clinical connection options",
+        "description": "4-hole, 2-hole, fast-coupling or fiber-optic options are used according to the selected model."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "TURBINE PERFORMANCE",
+        "title": "Fast preparation support",
+        "description": "High rotational speed supports efficient daily restorative preparation.",
+        "image": "/images/products/dental-handpiece/high-speed/rb-tup/rb-tup-feature-selected-01.webp"
+      },
+      {
+        "eyebrow": "PUSH-BUTTON CHUCK",
+        "title": "Quick bur replacement",
+        "description": "Push-button operation helps simplify chairside bur changes.",
+        "image": "/images/products/dental-handpiece/high-speed/rb-tup/rb-tup-feature-selected-01.webp"
+      },
+      {
+        "eyebrow": "WATER SPRAY COOLING",
+        "title": "Stable cooling during cutting",
+        "description": "Water spray helps manage heat around the bur and treatment area.",
+        "image": "/images/products/dental-handpiece/high-speed/rb-tup/rb-tup-feature-selected-01.webp"
+      },
+      {
+        "eyebrow": "CONNECTION OPTIONS",
+        "title": "Flexible unit compatibility",
+        "description": "Selected models support 2-hole, 4-hole, fast coupling or fiber-optic configurations.",
+        "image": "/images/products/dental-handpiece/high-speed/rb-tup/rb-tup-feature-selected-01.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-5L",
+    "slug": "tj-5l",
+    "speed": "high-speed",
+    "group": "LED Turbines",
+    "title": "5 LED Turbine with Fast Coupling",
+    "summary": "A chairside high-speed handpiece prepared for daily restorative preparation, crown work and routine operative treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "5 LED Turbine with Fast Coupling"
+      },
+      {
+        "label": "Light",
+        "value": "5 LED self-generated shadowless light"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push button"
+      },
+      {
+        "label": "Head size",
+        "value": "Phi 11.3mm x H13.2mm"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.24MPa-0.28MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "330,000rpm-420,000rpm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Water flow",
+        "value": ">=50ml/min"
+      },
+      {
+        "label": "Power",
+        "value": "18W-20W"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Water spray",
+        "value": "5-way water spray"
+      },
+      {
+        "label": "Connector",
+        "value": "Fast coupling, 4 holes / 2 holes optional"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/high-speed/tj-5l/tj-5l-hero.webp",
+      "/images/products/dental-handpiece/high-speed/tj-5l/tj-5l-gallery-v2-01.webp",
+      "/images/products/dental-handpiece/high-speed/tj-5l/tj-5l-gallery-v2-02.webp",
+      "/images/products/dental-handpiece/high-speed/tj-5l/tj-5l-gallery-v2-03.webp",
+      "/images/products/dental-handpiece/high-speed/tj-5l/tj-5l-gallery-v2-04.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/high-speed/tj-5l/tj-5l-hero.webp",
+    "sellingHeading": "Why clinics choose the TJ-5L",
+    "sellingPoints": [
+      {
+        "title": "Fast chairside cutting workflow",
+        "description": "Designed for routine tooth preparation with high rotational speed and stable water spray support."
+      },
+      {
+        "title": "Comfortable turbine handling",
+        "description": "Compact handpiece body supports familiar operation during anterior and posterior treatment positions."
+      },
+      {
+        "title": "Reliable spray and cooling support",
+        "description": "Water spray configuration helps cool the bur area during daily restorative work."
+      },
+      {
+        "title": "Clinical connection options",
+        "description": "4-hole, 2-hole, fast-coupling or fiber-optic options are used according to the selected model."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "TURBINE PERFORMANCE",
+        "title": "Fast preparation support",
+        "description": "High rotational speed supports efficient daily restorative preparation.",
+        "image": "/images/products/dental-handpiece/high-speed/tj-5l/tj-5l-feature-01.webp"
+      },
+      {
+        "eyebrow": "PUSH-BUTTON CHUCK",
+        "title": "Quick bur replacement",
+        "description": "Push-button operation helps simplify chairside bur changes.",
+        "image": "/images/products/dental-handpiece/high-speed/tj-5l/tj-5l-feature-02.webp"
+      },
+      {
+        "eyebrow": "WATER SPRAY COOLING",
+        "title": "Stable cooling during cutting",
+        "description": "Water spray helps manage heat around the bur and treatment area.",
+        "image": "/images/products/dental-handpiece/high-speed/tj-5l/tj-5l-feature-03.webp"
+      },
+      {
+        "eyebrow": "CONNECTION OPTIONS",
+        "title": "Flexible unit compatibility",
+        "description": "Selected models support 2-hole, 4-hole, fast coupling or fiber-optic configurations.",
+        "image": "/images/products/dental-handpiece/high-speed/tj-5l/tj-5l-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "WH5LED",
+    "slug": "wh5led",
+    "speed": "high-speed",
+    "group": "LED Turbines",
+    "title": "5 LED Turbine",
+    "summary": "A chairside high-speed handpiece prepared for daily restorative preparation, crown work and routine operative treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "5 LED Turbine"
+      },
+      {
+        "label": "Light",
+        "value": "5 LED self-generated shadowless light"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push button"
+      },
+      {
+        "label": "Head size",
+        "value": "Phi 11.3mm x H13.2mm"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.24MPa-0.28MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "330,000rpm-420,000rpm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Water flow",
+        "value": ">=50ml/min"
+      },
+      {
+        "label": "Power",
+        "value": "18W-20W"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Water spray",
+        "value": "5-way water spray"
+      },
+      {
+        "label": "Connector",
+        "value": "4 holes / 2 holes optional"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/high-speed/wh5led/wh5led-hero.webp",
+      "/images/products/dental-handpiece/high-speed/wh5led/wh5led-gallery-v2-01.webp",
+      "/images/products/dental-handpiece/high-speed/wh5led/wh5led-gallery-v2-02.webp",
+      "/images/products/dental-handpiece/high-speed/wh5led/wh5led-gallery-v2-03.webp",
+      "/images/products/dental-handpiece/high-speed/wh5led/wh5led-gallery-v2-04.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/high-speed/wh5led/wh5led-hero.webp",
+    "sellingHeading": "Why clinics choose the WH5LED",
+    "sellingPoints": [
+      {
+        "title": "Fast chairside cutting workflow",
+        "description": "Designed for routine tooth preparation with high rotational speed and stable water spray support."
+      },
+      {
+        "title": "Comfortable turbine handling",
+        "description": "Compact handpiece body supports familiar operation during anterior and posterior treatment positions."
+      },
+      {
+        "title": "Reliable spray and cooling support",
+        "description": "Water spray configuration helps cool the bur area during daily restorative work."
+      },
+      {
+        "title": "Clinical connection options",
+        "description": "4-hole, 2-hole, fast-coupling or fiber-optic options are used according to the selected model."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "TURBINE PERFORMANCE",
+        "title": "Fast preparation support",
+        "description": "High rotational speed supports efficient daily restorative preparation.",
+        "image": "/images/products/dental-handpiece/high-speed/wh5led/wh5led-feature-cutout-01.webp"
+      },
+      {
+        "eyebrow": "PUSH-BUTTON CHUCK",
+        "title": "Quick bur replacement",
+        "description": "Push-button operation helps simplify chairside bur changes.",
+        "image": "/images/products/dental-handpiece/high-speed/wh5led/wh5led-feature-cutout-02.webp"
+      },
+      {
+        "eyebrow": "WATER SPRAY COOLING",
+        "title": "Stable cooling during cutting",
+        "description": "Water spray helps manage heat around the bur and treatment area.",
+        "image": "/images/products/dental-handpiece/high-speed/wh5led/wh5led-feature-cutout-03.webp"
+      },
+      {
+        "eyebrow": "CONNECTION OPTIONS",
+        "title": "Flexible unit compatibility",
+        "description": "Selected models support 2-hole, 4-hole, fast coupling or fiber-optic configurations.",
+        "image": "/images/products/dental-handpiece/high-speed/wh5led/wh5led-feature-cutout-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "FG68",
+    "slug": "fg68",
+    "speed": "high-speed",
+    "group": "Fiber Optic",
+    "title": "Fiber Optic Turbine with 4-Hole Coupling",
+    "summary": "A chairside high-speed handpiece prepared for daily restorative preparation, crown work and routine operative treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Fiber Optic Turbine with 4-Hole Coupling"
+      },
+      {
+        "label": "Light",
+        "value": "Fiber optic LED"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push button"
+      },
+      {
+        "label": "Head size",
+        "value": "Phi 11.3mm x H13.2mm"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.24MPa-0.28MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "320,000rpm-420,000rpm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Water flow",
+        "value": ">=50ml/min"
+      },
+      {
+        "label": "Power",
+        "value": "18W-20W"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Water spray",
+        "value": "3-way water spray"
+      },
+      {
+        "label": "Connector",
+        "value": "4-hole coupling"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/high-speed/fg68/fg68-hero.webp",
+      "/images/products/dental-handpiece/high-speed/fg68/fg68-gallery-v2-01.webp",
+      "/images/products/dental-handpiece/high-speed/fg68/fg68-gallery-v2-02.webp",
+      "/images/products/dental-handpiece/high-speed/fg68/fg68-gallery-v2-03.webp",
+      "/images/products/dental-handpiece/high-speed/fg68/fg68-gallery-v2-04.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/high-speed/fg68/fg68-hero.webp",
+    "sellingHeading": "Why clinics choose the FG68",
+    "sellingPoints": [
+      {
+        "title": "Fast chairside cutting workflow",
+        "description": "Designed for routine tooth preparation with high rotational speed and stable water spray support."
+      },
+      {
+        "title": "Comfortable turbine handling",
+        "description": "Compact handpiece body supports familiar operation during anterior and posterior treatment positions."
+      },
+      {
+        "title": "Reliable spray and cooling support",
+        "description": "Water spray configuration helps cool the bur area during daily restorative work."
+      },
+      {
+        "title": "Clinical connection options",
+        "description": "4-hole, 2-hole, fast-coupling or fiber-optic options are used according to the selected model."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "TURBINE PERFORMANCE",
+        "title": "Fast preparation support",
+        "description": "High rotational speed supports efficient daily restorative preparation.",
+        "image": "/images/products/dental-handpiece/high-speed/fg68/fg68-feature-cutout-01.webp"
+      },
+      {
+        "eyebrow": "PUSH-BUTTON CHUCK",
+        "title": "Quick bur replacement",
+        "description": "Push-button operation helps simplify chairside bur changes.",
+        "image": "/images/products/dental-handpiece/high-speed/fg68/fg68-feature-cutout-02.webp"
+      },
+      {
+        "eyebrow": "WATER SPRAY COOLING",
+        "title": "Stable cooling during cutting",
+        "description": "Water spray helps manage heat around the bur and treatment area.",
+        "image": "/images/products/dental-handpiece/high-speed/fg68/fg68-feature-cutout-03.webp"
+      },
+      {
+        "eyebrow": "CONNECTION OPTIONS",
+        "title": "Flexible unit compatibility",
+        "description": "Selected models support 2-hole, 4-hole, fast coupling or fiber-optic configurations.",
+        "image": "/images/products/dental-handpiece/high-speed/fg68/fg68-feature-cutout-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "KV8000",
+    "slug": "kv8000",
+    "speed": "high-speed",
+    "group": "Fiber Optic",
+    "title": "KAVO 8000B-style Turbine with Fiber Optic LED",
+    "summary": "A chairside high-speed handpiece prepared for daily restorative preparation, crown work and routine operative treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "KAVO 8000B-style Turbine with Fiber Optic LED"
+      },
+      {
+        "label": "Light",
+        "value": "Fiber optic LED"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push button"
+      },
+      {
+        "label": "Head size",
+        "value": "Phi 11.3mm x H13.2mm"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.24MPa-0.28MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "320,000rpm-420,000rpm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Water flow",
+        "value": ">=50ml/min"
+      },
+      {
+        "label": "Power",
+        "value": "18W-20W"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Water spray",
+        "value": "3-way water spray"
+      },
+      {
+        "label": "Connector option",
+        "value": "4/6-hole coupling"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/high-speed/kv8000/kv8000-hero.webp",
+      "/images/products/dental-handpiece/high-speed/kv8000/kv8000-gallery-v2-01.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/high-speed/kv8000/kv8000-hero.webp",
+    "sellingHeading": "Why clinics choose the KV8000",
+    "sellingPoints": [
+      {
+        "title": "Fast chairside cutting workflow",
+        "description": "Designed for routine tooth preparation with high rotational speed and stable water spray support."
+      },
+      {
+        "title": "Comfortable turbine handling",
+        "description": "Compact handpiece body supports familiar operation during anterior and posterior treatment positions."
+      },
+      {
+        "title": "Reliable spray and cooling support",
+        "description": "Water spray configuration helps cool the bur area during daily restorative work."
+      },
+      {
+        "title": "Clinical connection options",
+        "description": "4-hole, 2-hole, fast-coupling or fiber-optic options are used according to the selected model."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "TURBINE PERFORMANCE",
+        "title": "Fast preparation support",
+        "description": "High rotational speed supports efficient daily restorative preparation.",
+        "image": "/images/products/dental-handpiece/high-speed/kv8000/kv8000-feature-01.webp"
+      },
+      {
+        "eyebrow": "PUSH-BUTTON CHUCK",
+        "title": "Quick bur replacement",
+        "description": "Push-button operation helps simplify chairside bur changes.",
+        "image": "/images/products/dental-handpiece/high-speed/kv8000/kv8000-feature-01.webp"
+      },
+      {
+        "eyebrow": "WATER SPRAY COOLING",
+        "title": "Stable cooling during cutting",
+        "description": "Water spray helps manage heat around the bur and treatment area.",
+        "image": "/images/products/dental-handpiece/high-speed/kv8000/kv8000-feature-01.webp"
+      },
+      {
+        "eyebrow": "CONNECTION OPTIONS",
+        "title": "Flexible unit compatibility",
+        "description": "Selected models support 2-hole, 4-hole, fast coupling or fiber-optic configurations.",
+        "image": "/images/products/dental-handpiece/high-speed/kv8000/kv8000-feature-01.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-PT01",
+    "slug": "tj-pt01",
+    "speed": "high-speed",
+    "group": "Fiber Optic",
+    "title": "Premium Titanium Turbine with Fiber Optic LED and Coupling",
+    "summary": "A chairside high-speed handpiece prepared for daily restorative preparation, crown work and routine operative treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Premium Titanium Turbine with Fiber Optic LED and Coupling"
+      },
+      {
+        "label": "Light",
+        "value": "Fiber optic LED"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push button"
+      },
+      {
+        "label": "Head size",
+        "value": "Phi 11.3mm x H13.2mm"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.24MPa-0.28MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "320,000rpm-420,000rpm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Water flow",
+        "value": ">=50ml/min"
+      },
+      {
+        "label": "Power",
+        "value": "18W-20W"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Water spray",
+        "value": "3-way water spray"
+      },
+      {
+        "label": "Connector",
+        "value": "6-hole coupling"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/high-speed/tj-pt01/tj-pt01-hero.webp",
+      "/images/products/dental-handpiece/high-speed/tj-pt01/tj-pt01-gallery-v2-01.webp",
+      "/images/products/dental-handpiece/high-speed/tj-pt01/tj-pt01-gallery-v2-02.webp",
+      "/images/products/dental-handpiece/high-speed/tj-pt01/tj-pt01-gallery-v2-03.webp",
+      "/images/products/dental-handpiece/high-speed/tj-pt01/tj-pt01-gallery-v2-04.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/high-speed/tj-pt01/tj-pt01-hero.webp",
+    "sellingHeading": "Why clinics choose the TJ-PT01",
+    "sellingPoints": [
+      {
+        "title": "Fast chairside cutting workflow",
+        "description": "Designed for routine tooth preparation with high rotational speed and stable water spray support."
+      },
+      {
+        "title": "Comfortable turbine handling",
+        "description": "Compact handpiece body supports familiar operation during anterior and posterior treatment positions."
+      },
+      {
+        "title": "Reliable spray and cooling support",
+        "description": "Water spray configuration helps cool the bur area during daily restorative work."
+      },
+      {
+        "title": "Clinical connection options",
+        "description": "4-hole, 2-hole, fast-coupling or fiber-optic options are used according to the selected model."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "TURBINE PERFORMANCE",
+        "title": "Fast preparation support",
+        "description": "High rotational speed supports efficient daily restorative preparation.",
+        "image": "/images/products/dental-handpiece/high-speed/tj-pt01/tj-pt01-feature-01.webp"
+      },
+      {
+        "eyebrow": "PUSH-BUTTON CHUCK",
+        "title": "Quick bur replacement",
+        "description": "Push-button operation helps simplify chairside bur changes.",
+        "image": "/images/products/dental-handpiece/high-speed/tj-pt01/tj-pt01-feature-02.webp"
+      },
+      {
+        "eyebrow": "WATER SPRAY COOLING",
+        "title": "Stable cooling during cutting",
+        "description": "Water spray helps manage heat around the bur and treatment area.",
+        "image": "/images/products/dental-handpiece/high-speed/tj-pt01/tj-pt01-feature-03.webp"
+      },
+      {
+        "eyebrow": "CONNECTION OPTIONS",
+        "title": "Flexible unit compatibility",
+        "description": "Selected models support 2-hole, 4-hole, fast coupling or fiber-optic configurations.",
+        "image": "/images/products/dental-handpiece/high-speed/tj-pt01/tj-pt01-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "FG33",
+    "slug": "fg33",
+    "speed": "high-speed",
+    "group": "Standard Turbines",
+    "title": "Mini Head Turbine without LED",
+    "summary": "A chairside high-speed handpiece prepared for daily restorative preparation, crown work and routine operative treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Mini Head Turbine without LED"
+      },
+      {
+        "label": "Head type",
+        "value": "Mini head"
+      },
+      {
+        "label": "Light",
+        "value": "Without light"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push button"
+      },
+      {
+        "label": "Head size",
+        "value": "Phi 8mm x H11.2mm"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.24MPa-0.28MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "360,000rpm-400,000rpm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Water flow",
+        "value": ">=50ml/min"
+      },
+      {
+        "label": "Power",
+        "value": "18W-20W"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Water spray",
+        "value": "Single water spray"
+      },
+      {
+        "label": "Connector",
+        "value": "4 holes / 2 holes"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/high-speed/fg33/fg33-hero.webp",
+      "/images/products/dental-handpiece/high-speed/fg33/fg33-gallery-v2-01.webp",
+      "/images/products/dental-handpiece/high-speed/fg33/fg33-gallery-v2-02.webp",
+      "/images/products/dental-handpiece/high-speed/fg33/fg33-gallery-v2-03.webp",
+      "/images/products/dental-handpiece/high-speed/fg33/fg33-gallery-v2-04.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/high-speed/fg33/fg33-hero.webp",
+    "sellingHeading": "Why clinics choose the FG33",
+    "sellingPoints": [
+      {
+        "title": "Fast chairside cutting workflow",
+        "description": "Designed for routine tooth preparation with high rotational speed and stable water spray support."
+      },
+      {
+        "title": "Comfortable turbine handling",
+        "description": "Compact handpiece body supports familiar operation during anterior and posterior treatment positions."
+      },
+      {
+        "title": "Reliable spray and cooling support",
+        "description": "Water spray configuration helps cool the bur area during daily restorative work."
+      },
+      {
+        "title": "Clinical connection options",
+        "description": "4-hole, 2-hole, fast-coupling or fiber-optic options are used according to the selected model."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "TURBINE PERFORMANCE",
+        "title": "Fast preparation support",
+        "description": "High rotational speed supports efficient daily restorative preparation.",
+        "image": "/images/products/dental-handpiece/high-speed/fg33/fg33-feature-cutout-01.webp"
+      },
+      {
+        "eyebrow": "PUSH-BUTTON CHUCK",
+        "title": "Quick bur replacement",
+        "description": "Push-button operation helps simplify chairside bur changes.",
+        "image": "/images/products/dental-handpiece/high-speed/fg33/fg33-feature-cutout-02.webp"
+      },
+      {
+        "eyebrow": "WATER SPRAY COOLING",
+        "title": "Stable cooling during cutting",
+        "description": "Water spray helps manage heat around the bur and treatment area.",
+        "image": "/images/products/dental-handpiece/high-speed/fg33/fg33-feature-cutout-03.webp"
+      },
+      {
+        "eyebrow": "CONNECTION OPTIONS",
+        "title": "Flexible unit compatibility",
+        "description": "Selected models support 2-hole, 4-hole, fast coupling or fiber-optic configurations.",
+        "image": "/images/products/dental-handpiece/high-speed/fg33/fg33-feature-cutout-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "MAX-TUQ-M4",
+    "slug": "max-tuq-m4",
+    "speed": "high-speed",
+    "group": "Standard Turbines",
+    "title": "High Speed Turbine with Fast Coupling",
+    "summary": "A chairside high-speed handpiece prepared for daily restorative preparation, crown work and routine operative treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "High Speed Turbine with Fast Coupling"
+      },
+      {
+        "label": "Light",
+        "value": "Without light"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push button"
+      },
+      {
+        "label": "Head size",
+        "value": "Phi 11.3mm x H13.2mm"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.24MPa-0.28MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "350,000rpm-420,000rpm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Water flow",
+        "value": ">=50ml/min"
+      },
+      {
+        "label": "Power",
+        "value": "18W-20W"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Water spray",
+        "value": "3-way water spray"
+      },
+      {
+        "label": "Connector",
+        "value": "Fast coupling, 4 holes / 2 holes optional"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/high-speed/max-tuq-m4/max-tuq-m4-hero.webp",
+      "/images/products/dental-handpiece/high-speed/max-tuq-m4/max-tuq-m4-gallery-v2-01.webp",
+      "/images/products/dental-handpiece/high-speed/max-tuq-m4/max-tuq-m4-gallery-v2-02.webp",
+      "/images/products/dental-handpiece/high-speed/max-tuq-m4/max-tuq-m4-gallery-v2-03.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/high-speed/max-tuq-m4/max-tuq-m4-hero.webp",
+    "sellingHeading": "Why clinics choose the MAX-TUQ-M4",
+    "sellingPoints": [
+      {
+        "title": "Fast chairside cutting workflow",
+        "description": "Designed for routine tooth preparation with high rotational speed and stable water spray support."
+      },
+      {
+        "title": "Comfortable turbine handling",
+        "description": "Compact handpiece body supports familiar operation during anterior and posterior treatment positions."
+      },
+      {
+        "title": "Reliable spray and cooling support",
+        "description": "Water spray configuration helps cool the bur area during daily restorative work."
+      },
+      {
+        "title": "Clinical connection options",
+        "description": "4-hole, 2-hole, fast-coupling or fiber-optic options are used according to the selected model."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "TURBINE PERFORMANCE",
+        "title": "Fast preparation support",
+        "description": "High rotational speed supports efficient daily restorative preparation.",
+        "image": "/images/products/dental-handpiece/high-speed/max-tuq-m4/max-tuq-m4-feature-01.webp"
+      },
+      {
+        "eyebrow": "PUSH-BUTTON CHUCK",
+        "title": "Quick bur replacement",
+        "description": "Push-button operation helps simplify chairside bur changes.",
+        "image": "/images/products/dental-handpiece/high-speed/max-tuq-m4/max-tuq-m4-feature-02.webp"
+      },
+      {
+        "eyebrow": "WATER SPRAY COOLING",
+        "title": "Stable cooling during cutting",
+        "description": "Water spray helps manage heat around the bur and treatment area.",
+        "image": "/images/products/dental-handpiece/high-speed/max-tuq-m4/max-tuq-m4-feature-03.webp"
+      },
+      {
+        "eyebrow": "CONNECTION OPTIONS",
+        "title": "Flexible unit compatibility",
+        "description": "Selected models support 2-hole, 4-hole, fast coupling or fiber-optic configurations.",
+        "image": "/images/products/dental-handpiece/high-speed/max-tuq-m4/max-tuq-m4-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "ME-SU",
+    "slug": "me-su",
+    "speed": "high-speed",
+    "group": "Standard Turbines",
+    "title": "Pana Max High Speed Handpiece",
+    "summary": "A chairside high-speed handpiece prepared for daily restorative preparation, crown work and routine operative treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Pana Max High Speed Handpiece"
+      },
+      {
+        "label": "Light",
+        "value": "Without light"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push button"
+      },
+      {
+        "label": "Head size",
+        "value": "Phi 11.3mm x H13.2mm"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.24MPa-0.28MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "380,000rpm-420,000rpm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Water flow",
+        "value": ">=50ml/min"
+      },
+      {
+        "label": "Power",
+        "value": "18W-20W"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Water spray",
+        "value": "Single water spray"
+      },
+      {
+        "label": "Connector",
+        "value": "4 holes / 2 holes optional"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/high-speed/me-su/me-su-hero.webp",
+      "/images/products/dental-handpiece/high-speed/me-su/me-su-gallery-v2-01.webp",
+      "/images/products/dental-handpiece/high-speed/me-su/me-su-gallery-v2-02.webp",
+      "/images/products/dental-handpiece/high-speed/me-su/me-su-gallery-v2-03.webp",
+      "/images/products/dental-handpiece/high-speed/me-su/me-su-gallery-v2-04.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/high-speed/me-su/me-su-hero.webp",
+    "sellingHeading": "Why clinics choose the ME-SU",
+    "sellingPoints": [
+      {
+        "title": "Fast chairside cutting workflow",
+        "description": "Designed for routine tooth preparation with high rotational speed and stable water spray support."
+      },
+      {
+        "title": "Comfortable turbine handling",
+        "description": "Compact handpiece body supports familiar operation during anterior and posterior treatment positions."
+      },
+      {
+        "title": "Reliable spray and cooling support",
+        "description": "Water spray configuration helps cool the bur area during daily restorative work."
+      },
+      {
+        "title": "Clinical connection options",
+        "description": "4-hole, 2-hole, fast-coupling or fiber-optic options are used according to the selected model."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "TURBINE PERFORMANCE",
+        "title": "Fast preparation support",
+        "description": "High rotational speed supports efficient daily restorative preparation.",
+        "image": "/images/products/dental-handpiece/high-speed/me-su/me-su-feature-cutout-01.webp"
+      },
+      {
+        "eyebrow": "PUSH-BUTTON CHUCK",
+        "title": "Quick bur replacement",
+        "description": "Push-button operation helps simplify chairside bur changes.",
+        "image": "/images/products/dental-handpiece/high-speed/me-su/me-su-feature-cutout-02.webp"
+      },
+      {
+        "eyebrow": "WATER SPRAY COOLING",
+        "title": "Stable cooling during cutting",
+        "description": "Water spray helps manage heat around the bur and treatment area.",
+        "image": "/images/products/dental-handpiece/high-speed/me-su/me-su-feature-cutout-03.webp"
+      },
+      {
+        "eyebrow": "CONNECTION OPTIONS",
+        "title": "Flexible unit compatibility",
+        "description": "Selected models support 2-hole, 4-hole, fast coupling or fiber-optic configurations.",
+        "image": "/images/products/dental-handpiece/high-speed/me-su/me-su-feature-cutout-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-C5",
+    "slug": "tj-c5",
+    "speed": "high-speed",
+    "group": "Standard Turbines",
+    "title": "Lady Colorful Turbine",
+    "summary": "A chairside high-speed handpiece prepared for daily restorative preparation, crown work and routine operative treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Lady Colorful Turbine"
+      },
+      {
+        "label": "Light",
+        "value": "Without light"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push button"
+      },
+      {
+        "label": "Head size",
+        "value": "Phi 11.3mm x H13.2mm"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.24MPa-0.28MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "380,000rpm-420,000rpm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Water flow",
+        "value": ">=50ml/min"
+      },
+      {
+        "label": "Power",
+        "value": "18W-20W"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Water spray",
+        "value": "Single water spray"
+      },
+      {
+        "label": "Connector",
+        "value": "4 holes / 2 holes optional"
+      },
+      {
+        "label": "Color",
+        "value": "Random color"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/high-speed/tj-c5/tj-c5-hero.webp",
+      "/images/products/dental-handpiece/high-speed/tj-c5/tj-c5-gallery-v2-01.webp",
+      "/images/products/dental-handpiece/high-speed/tj-c5/tj-c5-gallery-v2-02.webp",
+      "/images/products/dental-handpiece/high-speed/tj-c5/tj-c5-gallery-v2-03.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/high-speed/tj-c5/tj-c5-hero.webp",
+    "sellingHeading": "Why clinics choose the TJ-C5",
+    "sellingPoints": [
+      {
+        "title": "Fast chairside cutting workflow",
+        "description": "Designed for routine tooth preparation with high rotational speed and stable water spray support."
+      },
+      {
+        "title": "Comfortable turbine handling",
+        "description": "Compact handpiece body supports familiar operation during anterior and posterior treatment positions."
+      },
+      {
+        "title": "Reliable spray and cooling support",
+        "description": "Water spray configuration helps cool the bur area during daily restorative work."
+      },
+      {
+        "title": "Clinical connection options",
+        "description": "4-hole, 2-hole, fast-coupling or fiber-optic options are used according to the selected model."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "TURBINE PERFORMANCE",
+        "title": "Fast preparation support",
+        "description": "High rotational speed supports efficient daily restorative preparation.",
+        "image": "/images/products/dental-handpiece/high-speed/tj-c5/tj-c5-feature-01.webp"
+      },
+      {
+        "eyebrow": "PUSH-BUTTON CHUCK",
+        "title": "Quick bur replacement",
+        "description": "Push-button operation helps simplify chairside bur changes.",
+        "image": "/images/products/dental-handpiece/high-speed/tj-c5/tj-c5-feature-02.webp"
+      },
+      {
+        "eyebrow": "WATER SPRAY COOLING",
+        "title": "Stable cooling during cutting",
+        "description": "Water spray helps manage heat around the bur and treatment area.",
+        "image": "/images/products/dental-handpiece/high-speed/tj-c5/tj-c5-feature-03.webp"
+      },
+      {
+        "eyebrow": "CONNECTION OPTIONS",
+        "title": "Flexible unit compatibility",
+        "description": "Selected models support 2-hole, 4-hole, fast coupling or fiber-optic configurations.",
+        "image": "/images/products/dental-handpiece/high-speed/tj-c5/tj-c5-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "AM01",
+    "slug": "am01",
+    "speed": "low-speed",
+    "group": "Motors & Sets",
+    "title": "Dental Low Speed External Spray Air Motor",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental Low Speed External Spray Air Motor"
+      },
+      {
+        "label": "Type",
+        "value": "1:1 for orthodontics"
+      },
+      {
+        "label": "Light",
+        "value": "No light"
+      },
+      {
+        "label": "Motor type",
+        "value": "E-type interface"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "18,000rpm-20,000rpm"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Water spray",
+        "value": "External water spray"
+      },
+      {
+        "label": "Connector",
+        "value": "4 holes / 2 holes"
+      },
+      {
+        "label": "Weight",
+        "value": "80g"
+      },
+      {
+        "label": "Material",
+        "value": "Copper"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/am01/am01-hero-cutout.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/am01/am01-hero-cutout.webp",
+    "sellingHeading": "Why clinics choose the AM01",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/am01/am01-hero-cutout.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/am01/am01-hero-cutout.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/am01/am01-hero-cutout.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/am01/am01-hero-cutout.webp"
+      }
+    ]
+  },
+  {
+    "model": "EX-203C",
+    "slug": "ex-203c",
+    "speed": "low-speed",
+    "group": "Motors & Sets",
+    "title": "Dental Handpiece Set",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental Handpiece Set"
+      },
+      {
+        "label": "Set",
+        "value": "2 high-speed handpieces and 1 low-speed handpiece"
+      },
+      {
+        "label": "Type",
+        "value": "1:1 for orthodontics"
+      },
+      {
+        "label": "Material",
+        "value": "Copper"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Maximum low-speed speed",
+        "value": "20,000rpm/min"
+      },
+      {
+        "label": "Maximum high-speed speed",
+        "value": "400,000rpm/min"
+      },
+      {
+        "label": "Water",
+        "value": "External"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Connection",
+        "value": "E-type connector, 4 holes / 2 holes optional"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/ex-203c/ex-203c-gallery-reviewed-01.webp",
+      "/images/products/dental-handpiece/low-speed/ex-203c/ex-203c-02.webp",
+      "/images/products/dental-handpiece/low-speed/ex-203c/ex-203c-03.webp",
+      "/images/products/dental-handpiece/low-speed/ex-203c/ex-203c-04.webp",
+      "/images/products/dental-handpiece/low-speed/ex-203c/ex-203c-05.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/ex-203c/ex-203c-gallery-reviewed-01.webp",
+    "sellingHeading": "Why clinics choose the EX-203C",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/ex-203c/ex-203c-feature-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/ex-203c/ex-203c-feature-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/ex-203c/ex-203c-feature-03.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/ex-203c/ex-203c-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "L205",
+    "slug": "l205",
+    "speed": "low-speed",
+    "group": "Motors & Sets",
+    "title": "External Spray Low Speed Set",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "External Spray Low Speed Set"
+      },
+      {
+        "label": "Type",
+        "value": "1:1 for orthodontics"
+      },
+      {
+        "label": "Water",
+        "value": "External spray"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.23MPa"
+      },
+      {
+        "label": "Maximum speed",
+        "value": "20,000rpm/min"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Material",
+        "value": "Copper"
+      },
+      {
+        "label": "Connection",
+        "value": "E-type connector, 4 holes / 2 holes optional"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/l205/l205-hero-fifth-cutout.webp",
+      "/images/products/dental-handpiece/low-speed/l205/l205-gallery-reviewed-01.webp",
+      "/images/products/dental-handpiece/low-speed/l205/l205-gallery-reviewed-02.webp",
+      "/images/products/dental-handpiece/low-speed/l205/l205-gallery-reviewed-03.webp",
+      "/images/products/dental-handpiece/low-speed/l205/l205-gallery-reviewed-04.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/l205/l205-hero-fifth-cutout.webp",
+    "sellingHeading": "Why clinics choose the L205",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/l205/l205-feature-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/l205/l205-feature-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/l205/l205-feature-03.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/l205/l205-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "STU-5",
+    "slug": "stu-5",
+    "speed": "low-speed",
+    "group": "Motors & Sets",
+    "title": "Dental Handpiece Set",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental Handpiece Set"
+      },
+      {
+        "label": "Set",
+        "value": "2 high-speed handpieces and 1 low-speed handpiece"
+      },
+      {
+        "label": "Type",
+        "value": "1:1 for orthodontics"
+      },
+      {
+        "label": "Material",
+        "value": "Copper"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Maximum low-speed speed",
+        "value": "20,000rpm/min"
+      },
+      {
+        "label": "Maximum high-speed speed",
+        "value": "400,000rpm/min"
+      },
+      {
+        "label": "Water",
+        "value": "External"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Connection",
+        "value": "E-type connector, 4 holes / 2 holes optional"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/stu-5/stu-5-03.webp",
+      "/images/products/dental-handpiece/low-speed/stu-5/stu-5-01.webp",
+      "/images/products/dental-handpiece/low-speed/stu-5/stu-5-02.webp",
+      "/images/products/dental-handpiece/low-speed/stu-5/stu-5-04.webp",
+      "/images/products/dental-handpiece/low-speed/stu-5/stu-5-05.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/stu-5/stu-5-category-cutout.webp",
+    "sellingHeading": "Why clinics choose the STU-5",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/stu-5/stu-5-feature-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/stu-5/stu-5-feature-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/stu-5/stu-5-feature-03.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/stu-5/stu-5-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "Ti-205L",
+    "slug": "ti-205l",
+    "speed": "low-speed",
+    "group": "Motors & Sets",
+    "title": "Dental 6-Hole Optic LED Air Motor Electric Micromotor",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental 6-Hole Optic LED Air Motor Electric Micromotor"
+      },
+      {
+        "label": "Type",
+        "value": "1:1 for orthodontics"
+      },
+      {
+        "label": "Light",
+        "value": "Fiber optic light"
+      },
+      {
+        "label": "Motor type",
+        "value": "E-type interface"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "18,000rpm-40,000rpm"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Water spray",
+        "value": "Internal water spray"
+      },
+      {
+        "label": "Connector",
+        "value": "6 holes"
+      },
+      {
+        "label": "Weight",
+        "value": "100g"
+      },
+      {
+        "label": "Material",
+        "value": "Stainless steel"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/ti-205l/ti-205l-01.webp",
+      "/images/products/dental-handpiece/low-speed/ti-205l/ti-205l-02.webp",
+      "/images/products/dental-handpiece/low-speed/ti-205l/ti-205l-03.webp",
+      "/images/products/dental-handpiece/low-speed/ti-205l/ti-205l-04.webp",
+      "/images/products/dental-handpiece/low-speed/ti-205l/ti-205l-05.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/ti-205l/ti-205l-category-cutout.webp",
+    "sellingHeading": "Why clinics choose the Ti-205L",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/ti-205l/ti-205l-feature-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/ti-205l/ti-205l-feature-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/ti-205l/ti-205l-feature-03.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/ti-205l/ti-205l-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "WH-AM",
+    "slug": "wh-am",
+    "speed": "low-speed",
+    "group": "Motors & Sets",
+    "title": "Dental Low Speed Internal Spray Air Motor",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental Low Speed Internal Spray Air Motor"
+      },
+      {
+        "label": "Type",
+        "value": "1:1 for orthodontics"
+      },
+      {
+        "label": "Light",
+        "value": "No light"
+      },
+      {
+        "label": "Motor type",
+        "value": "E-type interface"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "18,000rpm-20,000rpm"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Water spray",
+        "value": "Internal water spray"
+      },
+      {
+        "label": "Connector",
+        "value": "4 holes / 2 holes"
+      },
+      {
+        "label": "Weight",
+        "value": "85g"
+      },
+      {
+        "label": "Material",
+        "value": "Copper"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/wh-am/wh-am-01.webp",
+      "/images/products/dental-handpiece/low-speed/wh-am/wh-am-02.webp",
+      "/images/products/dental-handpiece/low-speed/wh-am/wh-am-03.webp",
+      "/images/products/dental-handpiece/low-speed/wh-am/wh-am-04.webp",
+      "/images/products/dental-handpiece/low-speed/wh-am/wh-am-05.webp",
+      "/images/products/dental-handpiece/low-speed/wh-am/wh-am-gallery-extra-07.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/wh-am/wh-am-category-cutout.webp",
+    "sellingHeading": "Why clinics choose the WH-AM",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-am/wh-am-feature-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-am/wh-am-feature-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-am/wh-am-feature-03.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-am/wh-am-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "WH-L",
+    "slug": "wh-l",
+    "speed": "low-speed",
+    "group": "Motors & Sets",
+    "title": "Internal Spray Low Speed Set",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Internal Spray Low Speed Set"
+      },
+      {
+        "label": "Type",
+        "value": "1:1 for orthodontics"
+      },
+      {
+        "label": "Water",
+        "value": "Internal spray"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.23MPa"
+      },
+      {
+        "label": "Maximum speed",
+        "value": "20,000rpm/min"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Material",
+        "value": "Copper"
+      },
+      {
+        "label": "Connection",
+        "value": "E-type connector, 4 holes / 2 holes optional"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/wh-l/wh-l-01.webp",
+      "/images/products/dental-handpiece/low-speed/wh-l/wh-l-02.webp",
+      "/images/products/dental-handpiece/low-speed/wh-l/wh-l-03.webp",
+      "/images/products/dental-handpiece/low-speed/wh-l/wh-l-04.webp",
+      "/images/products/dental-handpiece/low-speed/wh-l/wh-l-05.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/wh-l/wh-l-category-cutout.webp",
+    "sellingHeading": "Why clinics choose the WH-L",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l/wh-l-feature-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l/wh-l-feature-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l/wh-l-feature-03.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l/wh-l-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "WH-L3",
+    "slug": "wh-l3",
+    "speed": "low-speed",
+    "group": "Motors & Sets",
+    "title": "WH Type Algera Handpiece Set",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "WH Type Algera Handpiece Set"
+      },
+      {
+        "label": "Set",
+        "value": "1 LED high-speed handpiece and 1 low-speed handpiece"
+      },
+      {
+        "label": "Type",
+        "value": "1:1 for orthodontics"
+      },
+      {
+        "label": "Material",
+        "value": "Copper"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Maximum low-speed speed",
+        "value": "20,000rpm/min"
+      },
+      {
+        "label": "Maximum high-speed speed",
+        "value": "400,000rpm/min"
+      },
+      {
+        "label": "Water",
+        "value": "Internal"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Connection",
+        "value": "E-type connector, 4 holes / 2 holes optional"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/wh-l3/wh-l3-01.webp",
+      "/images/products/dental-handpiece/low-speed/wh-l3/wh-l3-02.webp",
+      "/images/products/dental-handpiece/low-speed/wh-l3/wh-l3-03.webp",
+      "/images/products/dental-handpiece/low-speed/wh-l3/wh-l3-04.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/wh-l3/wh-l3-category-cutout.webp",
+    "sellingHeading": "Why clinics choose the WH-L3",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l3/wh-l3-feature-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l3/wh-l3-feature-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l3/wh-l3-feature-01.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l3/wh-l3-feature-02.webp"
+      }
+    ]
+  },
+  {
+    "model": "WH-L4",
+    "slug": "wh-l4",
+    "speed": "low-speed",
+    "group": "Motors & Sets",
+    "title": "WH Type Algera Handpiece Set",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "WH Type Algera Handpiece Set"
+      },
+      {
+        "label": "Set",
+        "value": "2 5-LED high-speed handpieces and 1 low-speed handpiece"
+      },
+      {
+        "label": "Type",
+        "value": "1:1 for orthodontics"
+      },
+      {
+        "label": "Material",
+        "value": "Copper"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Maximum low-speed speed",
+        "value": "20,000rpm/min"
+      },
+      {
+        "label": "Maximum high-speed speed",
+        "value": "400,000rpm/min"
+      },
+      {
+        "label": "Water",
+        "value": "Internal"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Connection",
+        "value": "E-type connector, 4 holes / 2 holes optional"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/wh-l4/wh-l4-gallery-reviewed-01.webp",
+      "/images/products/dental-handpiece/low-speed/wh-l4/wh-l4-02.webp",
+      "/images/products/dental-handpiece/low-speed/wh-l4/wh-l4-03.webp",
+      "/images/products/dental-handpiece/low-speed/wh-l4/wh-l4-04.webp",
+      "/images/products/dental-handpiece/low-speed/wh-l4/wh-l4-05.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/wh-l4/wh-l4-gallery-reviewed-01.webp",
+    "sellingHeading": "Why clinics choose the WH-L4",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l4/wh-l4-feature-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l4/wh-l4-feature-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l4/wh-l4-feature-03.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l4/wh-l4-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "WH-L5",
+    "slug": "wh-l5-6",
+    "speed": "low-speed",
+    "group": "Motors & Sets",
+    "title": "Fiber Optic Stainless Steel Low Speed Handpiece Set",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Fiber Optic Stainless Steel Low Speed Handpiece Set"
+      },
+      {
+        "label": "Type",
+        "value": "1:1 for orthodontics"
+      },
+      {
+        "label": "Material",
+        "value": "Stainless steel"
+      },
+      {
+        "label": "Light",
+        "value": "Fiber optic"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push button"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.23MPa"
+      },
+      {
+        "label": "Maximum speed",
+        "value": "40,000rpm/min"
+      },
+      {
+        "label": "Water",
+        "value": "Internal"
+      },
+      {
+        "label": "Noise",
+        "value": "<50dB"
+      },
+      {
+        "label": "Brightness",
+        "value": "40,000 LUX"
+      },
+      {
+        "label": "Connection",
+        "value": "E-type connector, 6 holes / 4 holes optional"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/wh-l5-6/wh-l5-6-gallery-reviewed-02.webp",
+      "/images/products/dental-handpiece/low-speed/wh-l5-6/wh-l5-6-03.webp",
+      "/images/products/dental-handpiece/low-speed/wh-l5-6/wh-l5-6-04.webp",
+      "/images/products/dental-handpiece/low-speed/wh-l5-6/wh-l5-6-gallery-extra-box.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/wh-l5-6/wh-l5-6-gallery-reviewed-02.webp",
+    "sellingHeading": "Why clinics choose the WH-L5",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l5-6/wh-l5-6-feature-selected-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l5-6/wh-l5-6-feature-selected-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l5-6/wh-l5-6-feature-selected-03.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l5-6/wh-l5-6-feature-selected-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "WH-L6",
+    "slug": "wh-l6",
+    "speed": "low-speed",
+    "group": "Motors & Sets",
+    "title": "LED Low Speed Set",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "LED Low Speed Set"
+      },
+      {
+        "label": "Type",
+        "value": "1:1 for orthodontics"
+      },
+      {
+        "label": "Light",
+        "value": "Self-generator LED"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push type"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.23MPa"
+      },
+      {
+        "label": "Maximum speed",
+        "value": "20,000rpm/min"
+      },
+      {
+        "label": "Water",
+        "value": "Internal"
+      },
+      {
+        "label": "Noise",
+        "value": "<50dB"
+      },
+      {
+        "label": "Brightness",
+        "value": "40,000 LUX"
+      },
+      {
+        "label": "Connection",
+        "value": "E-type connector, 4 holes / 2 holes optional"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/wh-l6/wh-l6-01.webp",
+      "/images/products/dental-handpiece/low-speed/wh-l6/wh-l6-02.webp",
+      "/images/products/dental-handpiece/low-speed/wh-l6/wh-l6-03.webp",
+      "/images/products/dental-handpiece/low-speed/wh-l6/wh-l6-04.webp",
+      "/images/products/dental-handpiece/low-speed/wh-l6/wh-l6-05.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/wh-l6/wh-l6-category-cutout.webp",
+    "sellingHeading": "Why clinics choose the WH-L6",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l6/wh-l6-feature-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l6/wh-l6-feature-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l6/wh-l6-feature-03.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-l6/wh-l6-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "CA01",
+    "slug": "ca01",
+    "speed": "low-speed",
+    "group": "Contra Angles",
+    "title": "Dental Low Speed E-Type Contra Angle / Wrench Type Contra Angle",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental Low Speed E-Type Contra Angle / Wrench Type Contra Angle"
+      },
+      {
+        "label": "Type",
+        "value": "1:1 for orthodontics"
+      },
+      {
+        "label": "Light",
+        "value": "No light"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Wrench type"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.23MPa"
+      },
+      {
+        "label": "Maximum speed",
+        "value": "20,000rpm/min"
+      },
+      {
+        "label": "Water",
+        "value": "External"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Connection",
+        "value": "E-type connector"
+      },
+      {
+        "label": "Material",
+        "value": "Copper"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/ca01/ca01-gallery-reviewed-01.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/ca01/ca01-category-cutout.webp",
+    "sellingHeading": "Why clinics choose the CA01",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/ca01/ca01-gallery-reviewed-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/ca01/ca01-gallery-reviewed-01.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/ca01/ca01-gallery-reviewed-01.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/ca01/ca01-gallery-reviewed-01.webp"
+      }
+    ]
+  },
+  {
+    "model": "CA02",
+    "slug": "ca02",
+    "speed": "low-speed",
+    "group": "Contra Angles",
+    "title": "Dental Low Speed E-Type Contra Angle / Wrench Type Contra Angle",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental Low Speed E-Type Contra Angle / Wrench Type Contra Angle"
+      },
+      {
+        "label": "Type",
+        "value": "1:1 for orthodontics"
+      },
+      {
+        "label": "Light",
+        "value": "No light"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Wrench type"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.23MPa"
+      },
+      {
+        "label": "Maximum speed",
+        "value": "20,000rpm/min"
+      },
+      {
+        "label": "Water",
+        "value": "External"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Connection",
+        "value": "E-type connector"
+      },
+      {
+        "label": "Material",
+        "value": "Copper"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/ca02/ca02-gallery-reviewed-01.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/ca02/ca02-gallery-reviewed-01.webp",
+    "sellingHeading": "Why clinics choose the CA02",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/ca02/ca02-gallery-reviewed-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/ca02/ca02-gallery-reviewed-01.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/ca02/ca02-gallery-reviewed-01.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/ca02/ca02-gallery-reviewed-01.webp"
+      }
+    ]
+  },
+  {
+    "model": "CA03",
+    "slug": "ca03",
+    "speed": "low-speed",
+    "group": "Contra Angles",
+    "title": "Dental Low Speed E-Type Push Button Contra Angle",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental Low Speed E-Type Push Button Contra Angle"
+      },
+      {
+        "label": "Type",
+        "value": "1:1 for orthodontics"
+      },
+      {
+        "label": "Light",
+        "value": "No light"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push button"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.23MPa"
+      },
+      {
+        "label": "Maximum speed",
+        "value": "20,000rpm/min"
+      },
+      {
+        "label": "Water",
+        "value": "External"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Connection",
+        "value": "E-type connector"
+      },
+      {
+        "label": "Material",
+        "value": "Copper"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/ca03/ca03-gallery-reviewed-01.webp",
+      "/images/products/dental-handpiece/low-speed/ca03/ca03-gallery-reviewed-02.webp",
+      "/images/products/dental-handpiece/low-speed/ca03/ca03-gallery-reviewed-03.webp",
+      "/images/products/dental-handpiece/low-speed/ca03/ca03-04.webp",
+      "/images/products/dental-handpiece/low-speed/ca03/ca03-gallery-reviewed-05.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/ca03/ca03-gallery-reviewed-01.webp",
+    "sellingHeading": "Why clinics choose the CA03",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/ca03/ca03-feature-01-alpha.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/ca03/ca03-feature-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/ca03/ca03-feature-03.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/ca03/ca03-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "LED-10CA",
+    "slug": "led-10ca",
+    "speed": "low-speed",
+    "group": "Contra Angles",
+    "title": "1:1 LED Light Internal Water Spray Dental Contra Angle",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "1:1 LED Light Internal Water Spray Dental Contra Angle"
+      },
+      {
+        "label": "Type",
+        "value": "1:1 for orthodontics"
+      },
+      {
+        "label": "Light",
+        "value": "LED light"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push type"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.23MPa"
+      },
+      {
+        "label": "Maximum speed",
+        "value": "20,000rpm/min"
+      },
+      {
+        "label": "Water",
+        "value": "Internal"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Connection",
+        "value": "E-type connector"
+      },
+      {
+        "label": "Material",
+        "value": "Stainless steel"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/led-10ca/led-10ca-01.webp",
+      "/images/products/dental-handpiece/low-speed/led-10ca/led-10ca-02.webp",
+      "/images/products/dental-handpiece/low-speed/led-10ca/led-10ca-03.webp",
+      "/images/products/dental-handpiece/low-speed/led-10ca/led-10ca-04.webp",
+      "/images/products/dental-handpiece/low-speed/led-10ca/led-10ca-gallery-reviewed-05.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/led-10ca/led-10ca-category-cutout.webp",
+    "sellingHeading": "Why clinics choose the LED-10CA",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/led-10ca/led-10ca-feature-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/led-10ca/led-10ca-feature-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/led-10ca/led-10ca-feature-03.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/led-10ca/led-10ca-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-FCA",
+    "slug": "tj-fca",
+    "speed": "low-speed",
+    "group": "Contra Angles",
+    "title": "Fiber Optic Light 1:1 Contra Angle",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Fiber Optic Light 1:1 Contra Angle"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push type"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.23MPa"
+      },
+      {
+        "label": "Maximum speed",
+        "value": "40,000rpm/min"
+      },
+      {
+        "label": "Temperature rise",
+        "value": "<10C"
+      },
+      {
+        "label": "Noise",
+        "value": "<=70dB"
+      },
+      {
+        "label": "Cooling method",
+        "value": "Single water spray"
+      },
+      {
+        "label": "Water spray",
+        "value": "Internal water spray"
+      },
+      {
+        "label": "Light type",
+        "value": "Fiber optic"
+      },
+      {
+        "label": "Connection",
+        "value": "E-type / electric micromotor"
+      },
+      {
+        "label": "Material",
+        "value": "Titanium"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/tj-fca/tj-fca-01.webp",
+      "/images/products/dental-handpiece/low-speed/tj-fca/tj-fca-02.webp",
+      "/images/products/dental-handpiece/low-speed/tj-fca/tj-fca-03.webp",
+      "/images/products/dental-handpiece/low-speed/tj-fca/tj-fca-04.webp",
+      "/images/products/dental-handpiece/low-speed/tj-fca/tj-fca-05.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/tj-fca/tj-fca-category-cutout.webp",
+    "sellingHeading": "Why clinics choose the TJ-FCA",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-fca/tj-fca-feature-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-fca/tj-fca-feature-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-fca/tj-fca-feature-03.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-fca/tj-fca-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "W15L",
+    "slug": "w15l-1-5",
+    "speed": "low-speed",
+    "group": "Contra Angles",
+    "title": "1:5 Contra Angle with Fiber Optic Light",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "1:5 Contra Angle with Fiber Optic Light"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push type"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 1.60mm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.23MPa"
+      },
+      {
+        "label": "Maximum speed",
+        "value": "200,000rpm/min"
+      },
+      {
+        "label": "Temperature rise",
+        "value": "<20C"
+      },
+      {
+        "label": "Noise",
+        "value": "<=70dB"
+      },
+      {
+        "label": "Cooling method",
+        "value": "Triple water spray"
+      },
+      {
+        "label": "Water spray",
+        "value": "Internal water spray"
+      },
+      {
+        "label": "Light type",
+        "value": "Fiber optic"
+      },
+      {
+        "label": "Connection",
+        "value": "Any E-type interface / fiber optic micromotor"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/w15l-1-5/w15l-1-5-hero-selected.webp",
+      "/images/products/dental-handpiece/low-speed/w15l-1-5/w15l-1-5-02.webp",
+      "/images/products/dental-handpiece/low-speed/w15l-1-5/w15l-1-5-03.webp",
+      "/images/products/dental-handpiece/low-speed/w15l-1-5/w15l-1-5-04.webp",
+      "/images/products/dental-handpiece/low-speed/w15l-1-5/w15l-1-5-05.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/w15l-1-5/w15l-1-5-hero-selected.webp",
+    "sellingHeading": "Why clinics choose the W15L",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/w15l-1-5/w15l-1-5-feature-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/w15l-1-5/w15l-1-5-feature-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/w15l-1-5/w15l-1-5-feature-01.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/w15l-1-5/w15l-1-5-feature-02.webp"
+      }
+    ]
+  },
+  {
+    "model": "EX-6B",
+    "slug": "ex-6b",
+    "speed": "low-speed",
+    "group": "Straight Handpieces",
+    "title": "External Irrigation Low Speed Straight Handpiece",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "External Irrigation Low Speed Straight Handpiece"
+      },
+      {
+        "label": "Type",
+        "value": "1:1 for orthodontics"
+      },
+      {
+        "label": "Light",
+        "value": "No light"
+      },
+      {
+        "label": "Motor type",
+        "value": "E-type interface"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "18,000rpm-20,000rpm"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water spray",
+        "value": "External water spray"
+      },
+      {
+        "label": "Weight",
+        "value": "85g"
+      },
+      {
+        "label": "Material",
+        "value": "Copper"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/ex-6b/ex-6b-hero-cutout.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/ex-6b/ex-6b-hero-cutout.webp",
+    "sellingHeading": "Why clinics choose the EX-6B",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/ex-6b/ex-6b-hero-cutout.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/ex-6b/ex-6b-hero-cutout.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/ex-6b/ex-6b-hero-cutout.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/ex-6b/ex-6b-hero-cutout.webp"
+      }
+    ]
+  },
+  {
+    "model": "SH02",
+    "slug": "sh02",
+    "speed": "low-speed",
+    "group": "Straight Handpieces",
+    "title": "Dental Low Speed Straight Handpiece for Implant Surgery",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental Low Speed Straight Handpiece for Implant Surgery"
+      },
+      {
+        "label": "Type",
+        "value": "1:1"
+      },
+      {
+        "label": "Light",
+        "value": "No light"
+      },
+      {
+        "label": "Motor type",
+        "value": "E-type interface"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "18,000rpm-20,000rpm"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water spray",
+        "value": "External water spray"
+      },
+      {
+        "label": "Weight",
+        "value": "90g"
+      },
+      {
+        "label": "Material",
+        "value": "Stainless steel"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/sh02/sh02-01.webp",
+      "/images/products/dental-handpiece/low-speed/sh02/sh02-02.webp",
+      "/images/products/dental-handpiece/low-speed/sh02/sh02-03.webp",
+      "/images/products/dental-handpiece/low-speed/sh02/sh02-04.webp",
+      "/images/products/dental-handpiece/low-speed/sh02/sh02-05.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/sh02/sh02-category-cutout.webp",
+    "sellingHeading": "Why clinics choose the SH02",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/sh02/sh02-feature-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/sh02/sh02-feature-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/sh02/sh02-feature-03.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/sh02/sh02-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-SH03",
+    "slug": "tj-sh03",
+    "speed": "low-speed",
+    "group": "Straight Handpieces",
+    "title": "Dental Low Speed Straight Handpiece for Implant Surgery",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental Low Speed Straight Handpiece for Implant Surgery"
+      },
+      {
+        "label": "Type",
+        "value": "1:1"
+      },
+      {
+        "label": "Light",
+        "value": "Fiber optic light"
+      },
+      {
+        "label": "Motor type",
+        "value": "E-type interface"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "18,000rpm-20,000rpm"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water spray",
+        "value": "External water spray"
+      },
+      {
+        "label": "Weight",
+        "value": "90g"
+      },
+      {
+        "label": "Material",
+        "value": "Stainless steel"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/tj-sh03/tj-sh03-gallery-reviewed-01.webp",
+      "/images/products/dental-handpiece/low-speed/tj-sh03/tj-sh03-02.webp",
+      "/images/products/dental-handpiece/low-speed/tj-sh03/tj-sh03-03.webp",
+      "/images/products/dental-handpiece/low-speed/tj-sh03/tj-sh03-04.webp",
+      "/images/products/dental-handpiece/low-speed/tj-sh03/tj-sh03-05.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/tj-sh03/tj-sh03-gallery-reviewed-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-SH03",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-sh03/tj-sh03-feature-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-sh03/tj-sh03-feature-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-sh03/tj-sh03-feature-03.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-sh03/tj-sh03-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "WH-SH",
+    "slug": "wh-sh",
+    "speed": "low-speed",
+    "group": "Straight Handpieces",
+    "title": "Dental Low Speed Internal Spray Straight Handpiece",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental Low Speed Internal Spray Straight Handpiece"
+      },
+      {
+        "label": "Type",
+        "value": "1:1 for orthodontics"
+      },
+      {
+        "label": "Light",
+        "value": "No light"
+      },
+      {
+        "label": "Motor type",
+        "value": "E-type interface"
+      },
+      {
+        "label": "Air pressure",
+        "value": "0.2MPa-0.4MPa"
+      },
+      {
+        "label": "Rotation speed",
+        "value": "18,000rpm-20,000rpm"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water spray",
+        "value": "Internal water spray"
+      },
+      {
+        "label": "Weight",
+        "value": "85g"
+      },
+      {
+        "label": "Material",
+        "value": "Copper"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/wh-sh/wh-sh-hero-selected.webp",
+      "/images/products/dental-handpiece/low-speed/wh-sh/wh-sh-gallery-reviewed-02.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/wh-sh/wh-sh-hero-selected.webp",
+    "sellingHeading": "Why clinics choose the WH-SH",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-sh/wh-sh-hero-selected.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-sh/wh-sh-gallery-reviewed-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-sh/wh-sh-hero-selected.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/wh-sh/wh-sh-gallery-reviewed-02.webp"
+      }
+    ]
+  },
+  {
+    "model": "IPR50",
+    "slug": "ipr50",
+    "speed": "low-speed",
+    "group": "Implant & Specialty",
+    "title": "Dental Interproximal Stripping Contra Angle Reciprocating IPR System",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental Interproximal Stripping Contra Angle Reciprocating IPR System"
+      },
+      {
+        "label": "Type",
+        "value": "For precise interproximal stripping"
+      },
+      {
+        "label": "Light",
+        "value": "No light"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push type"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.23MPa"
+      },
+      {
+        "label": "Noise",
+        "value": "<=65dB"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/ipr50/ipr50-hero-selected.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/ipr50/ipr50-category-cutout.webp",
+    "sellingHeading": "Why clinics choose the IPR50",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/ipr50/ipr50-hero-selected.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/ipr50/ipr50-hero-selected.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/ipr50/ipr50-hero-selected.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/ipr50/ipr50-hero-selected.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-20CA",
+    "slug": "tj-20ca",
+    "speed": "low-speed",
+    "group": "Implant & Specialty",
+    "title": "20:1 Contra Angle Handpiece for Implant",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "20:1 Contra Angle Handpiece for Implant"
+      },
+      {
+        "label": "Type",
+        "value": "20:1 for implant surgery"
+      },
+      {
+        "label": "Light",
+        "value": "No light"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push type"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.23MPa"
+      },
+      {
+        "label": "Maximum speed",
+        "value": "20,000rpm/min"
+      },
+      {
+        "label": "Water",
+        "value": "External"
+      },
+      {
+        "label": "Noise",
+        "value": "<50dB"
+      },
+      {
+        "label": "Connection",
+        "value": "E-type connector"
+      },
+      {
+        "label": "Head size",
+        "value": "Head height 13.3mm, diameter 9.6mm"
+      },
+      {
+        "label": "Maximum torque",
+        "value": "80N.cm"
+      },
+      {
+        "label": "Material",
+        "value": "Stainless steel"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/tj-20ca/tj-20ca-gallery-selected-01.webp",
+      "/images/products/dental-handpiece/low-speed/tj-20ca/tj-20ca-gallery-selected-02.webp",
+      "/images/products/dental-handpiece/low-speed/tj-20ca/tj-20ca-gallery-selected-03.webp",
+      "/images/products/dental-handpiece/low-speed/tj-20ca/tj-20ca-gallery-selected-04.webp",
+      "/images/products/dental-handpiece/low-speed/tj-20ca/tj-20ca-gallery-selected-05.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/tj-20ca/tj-20ca-gallery-selected-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-20CA",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-20ca/tj-20ca-feature-01-alpha.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-20ca/tj-20ca-feature-02-alpha.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-20ca/tj-20ca-feature-03.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-20ca/tj-20ca-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-F20CA",
+    "slug": "tj-f20ca",
+    "speed": "low-speed",
+    "group": "Implant & Specialty",
+    "title": "Fiber Optic 20:1 Implant Contra Angle Handpiece",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Fiber Optic 20:1 Implant Contra Angle Handpiece"
+      },
+      {
+        "label": "Type",
+        "value": "20:1 for implant surgery"
+      },
+      {
+        "label": "Light",
+        "value": "Fiber optic light"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push button"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.23MPa"
+      },
+      {
+        "label": "Maximum speed",
+        "value": "20,000rpm/min"
+      },
+      {
+        "label": "Water",
+        "value": "External"
+      },
+      {
+        "label": "Noise",
+        "value": "<50dB"
+      },
+      {
+        "label": "Connection",
+        "value": "E-type connector"
+      },
+      {
+        "label": "Head size",
+        "value": "Head height 13.3mm, diameter 9.6mm"
+      },
+      {
+        "label": "Maximum torque",
+        "value": "80N.cm"
+      },
+      {
+        "label": "Material",
+        "value": "Stainless steel"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/tj-f20ca/tj-f20ca-01.webp",
+      "/images/products/dental-handpiece/low-speed/tj-f20ca/tj-f20ca-02.webp",
+      "/images/products/dental-handpiece/low-speed/tj-f20ca/tj-f20ca-03.webp",
+      "/images/products/dental-handpiece/low-speed/tj-f20ca/tj-f20ca-04.webp",
+      "/images/products/dental-handpiece/low-speed/tj-f20ca/tj-f20ca-05.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/tj-f20ca/tj-f20ca-category-cutout.webp",
+    "sellingHeading": "Why clinics choose the TJ-F20CA",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-f20ca/tj-f20ca-feature-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-f20ca/tj-f20ca-feature-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-f20ca/tj-f20ca-feature-03.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-f20ca/tj-f20ca-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-SG45L",
+    "slug": "tj-sg45l",
+    "speed": "low-speed",
+    "group": "Implant & Specialty",
+    "title": "45 Degree 1:4.2 Increasing Speed Optical Dental Surgical Handpiece",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "45 Degree 1:4.2 Increasing Speed Optical Dental Surgical Handpiece"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push type"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 1.60mm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.23MPa"
+      },
+      {
+        "label": "Maximum speed",
+        "value": "180,000rpm/min"
+      },
+      {
+        "label": "Temperature rise",
+        "value": "<20C"
+      },
+      {
+        "label": "Noise",
+        "value": "<=70dB"
+      },
+      {
+        "label": "Cooling method",
+        "value": "4-way water spray"
+      },
+      {
+        "label": "Water spray",
+        "value": "Internal and external surgical water spray"
+      },
+      {
+        "label": "Light type",
+        "value": "Fiber optic"
+      },
+      {
+        "label": "Connection",
+        "value": "Any E-type interface / fiber optic micromotor"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/tj-sg45l/tj-sg45l-gallery-reviewed-01.webp",
+      "/images/products/dental-handpiece/low-speed/tj-sg45l/tj-sg45l-02.webp",
+      "/images/products/dental-handpiece/low-speed/tj-sg45l/tj-sg45l-gallery-selected-03.webp",
+      "/images/products/dental-handpiece/low-speed/tj-sg45l/tj-sg45l-04.webp",
+      "/images/products/dental-handpiece/low-speed/tj-sg45l/tj-sg45l-gallery-selected-05.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/tj-sg45l/tj-sg45l-gallery-reviewed-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-SG45L",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-sg45l/tj-sg45l-feature-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-sg45l/tj-sg45l-feature-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-sg45l/tj-sg45l-feature-03.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/tj-sg45l/tj-sg45l-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TL2011",
+    "slug": "tl2011",
+    "speed": "low-speed",
+    "group": "Implant & Specialty",
+    "title": "LED 20:1 Durable Implant Contra Angle Handpiece",
+    "summary": "A low-speed handpiece solution for polishing, finishing, orthodontic adjustment, implant support or restorative workflows depending on the selected model.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "LED 20:1 Durable Implant Contra Angle Handpiece"
+      },
+      {
+        "label": "Type",
+        "value": "20:1 for implant surgery"
+      },
+      {
+        "label": "Light",
+        "value": "Self-generator LED"
+      },
+      {
+        "label": "Chuck type",
+        "value": "Push type"
+      },
+      {
+        "label": "Bur type",
+        "value": "Phi 2.35mm"
+      },
+      {
+        "label": "Water pressure",
+        "value": "0.2MPa-0.23MPa"
+      },
+      {
+        "label": "Maximum speed",
+        "value": "20,000rpm/min"
+      },
+      {
+        "label": "Water",
+        "value": "External"
+      },
+      {
+        "label": "Noise",
+        "value": "<50dB"
+      },
+      {
+        "label": "Brightness",
+        "value": "40,000 LUX"
+      },
+      {
+        "label": "Connection",
+        "value": "E-type connector"
+      },
+      {
+        "label": "Head size",
+        "value": "Head height 13.3mm, diameter 9.6mm"
+      },
+      {
+        "label": "Maximum torque",
+        "value": "80N.cm"
+      },
+      {
+        "label": "Material",
+        "value": "Stainless steel"
+      }
+    ],
+    "gallery": [
+      "/images/products/dental-handpiece/low-speed/tl2011/tl2011-gallery-reviewed-01.webp",
+      "/images/products/dental-handpiece/low-speed/tl2011/tl2011-02.webp",
+      "/images/products/dental-handpiece/low-speed/tl2011/tl2011-03.webp"
+    ],
+    "thumbnail": "/images/products/dental-handpiece/low-speed/tl2011/tl2011-gallery-reviewed-01.webp",
+    "sellingHeading": "Why clinics choose the TL2011",
+    "sellingPoints": [
+      {
+        "title": "Controlled low-speed operation",
+        "description": "Built for polishing, finishing, orthodontic adjustment and support procedures that need steady low-speed control."
+      },
+      {
+        "title": "E-type clinical workflow",
+        "description": "E-type connection supports common air motor, contra-angle and straight handpiece combinations."
+      },
+      {
+        "title": "Treatment-specific head options",
+        "description": "Contra-angle, straight, implant and fiber-optic variants cover different chairside tasks."
+      },
+      {
+        "title": "Daily maintenance friendly",
+        "description": "Simple handpiece structure supports routine cleaning, lubrication and clinical turnover."
+      }
+    ],
+    "featureHeading": "Built around daily handpiece workflows",
+    "features": [
+      {
+        "eyebrow": "LOW-SPEED CONTROL",
+        "title": "Steady finishing workflow",
+        "description": "Low-speed operation supports polishing, finishing and auxiliary treatment tasks.",
+        "image": "/images/products/dental-handpiece/low-speed/tl2011/tl2011-feature-01.webp"
+      },
+      {
+        "eyebrow": "E-TYPE CONNECTION",
+        "title": "Common clinic interface",
+        "description": "E-type compatibility supports familiar low-speed handpiece combinations.",
+        "image": "/images/products/dental-handpiece/low-speed/tl2011/tl2011-feature-02.webp"
+      },
+      {
+        "eyebrow": "HEAD CONFIGURATION",
+        "title": "Options for different procedures",
+        "description": "Contra-angle, straight, implant or surgical heads match the intended clinical use.",
+        "image": "/images/products/dental-handpiece/low-speed/tl2011/tl2011-feature-03.webp"
+      },
+      {
+        "eyebrow": "SERVICEABLE DESIGN",
+        "title": "Built for daily upkeep",
+        "description": "Routine lubrication and cleaning help keep the handpiece ready for repeated use.",
+        "image": "/images/products/dental-handpiece/low-speed/tl2011/tl2011-feature-01.webp"
+      }
+    ]
+  }
+]

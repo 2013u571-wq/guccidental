@@ -51,8 +51,8 @@ export const categories: Category[] = [
   },
   {
     slug: "ultrasonic-scaler-light-cure",
-    title: "Ultrasonic Scaler & Light Cure",
-    summary: "Daily-treatment equipment covering scaler and curing workflows.",
+    title: "Ultrasonic Scaler",
+    summary: "Ultrasonic scalers, air polishers and accessories for daily cleaning workflows.",
     featured: true
   },
   {
@@ -74,10 +74,10 @@ export const categories: Category[] = [
     featured: true
   },
   { slug: "surgical-instruments", title: "Surgical Instruments", summary: "Clinical instrument options for treatment and surgical workflows." },
-  { slug: "whitening-machine", title: "Whitening Machine", summary: "Whitening equipment for chairside cosmetic dental services." },
+  { slug: "whitening-machine", title: "Whitening Machine", summary: "Teeth whitening systems and accessories for aesthetic dental services." },
   { slug: "endo-motor", title: "Endo Motor", summary: "Endodontic motors and supporting equipment for root canal treatment." },
   { slug: "orthodontics", title: "Orthodontics", summary: "Orthodontic products and accessories for daily clinic treatment and project supply." },
-  { slug: "disposable-consumables", title: "Disposable Consumables", summary: "Consumables for daily infection control and clinic operation." },
+  { slug: "disposable-consumables", title: "Disposable Consumables", summary: "Dental consumables and clinic accessories for daily treatment and organization." },
   { slug: "teaching-model", title: "Teaching Model", summary: "Training and demonstration models for education and sales support." },
   { slug: "laboratory", title: "Laboratory", summary: "Laboratory equipment and accessories for dental production workflows." }
 ];

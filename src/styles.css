@@ -635,14 +635,6 @@
     text-align: center;
   }
 
-  .pending-token {
-    background: var(--state-warning);
-    border-radius: 6px;
-    color: var(--surface-white);
-    display: inline;
-    padding: 0.25rem 0.5rem;
-  }
-
   .entity-zone {
     background: #FFFFFF;
   }
@@ -6898,7 +6890,6 @@ img.partner-tile-img {
   margin-top: 8px;
 }
 
-/* Dental Chair: case detail pages are pending; cards deliberately use placeholder links. */
 .cases {
   background: var(--surface-white);
   padding: 64px 0;
@@ -7004,7 +6995,6 @@ img.partner-tile-img {
 }
 
 .cs-cover {
-  /* TODO: 替换为真实案例主图。 */
   aspect-ratio: 4 / 3;
   background: linear-gradient(135deg, #c8d2e0, #e6ebf2);
   display: block;
@@ -8093,6 +8083,32 @@ img.partner-tile-img {
   color: #6f6f6f;
 }
 
+.scaler-tier-switch { gap: 32px; }
+.scaler-tier-switch button {
+  align-items: baseline;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  color: #6f6f6f;
+  cursor: pointer;
+  display: inline-flex;
+  font: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  gap: 6px;
+  margin-bottom: -1px;
+  padding: 0 0 14px;
+  transition: color 160ms ease, border-color 160ms ease;
+  white-space: nowrap;
+}
+.scaler-tier-switch button:hover,
+.scaler-tier-switch button:focus-visible { color: #161616; }
+.scaler-tier-switch button[aria-selected="true"] { border-bottom-color: var(--brand-blue); color: #161616; font-weight: 500; }
+.scaler-tier-switch button span { color: #8d8d8d; font-size: 13px; font-weight: 400; }
+.scaler-tier-switch button[aria-selected="true"] span { color: #6f6f6f; }
+.scaler-tab-panel[hidden] { display: none; }
+.scaler-category-models .tier-group-rows { padding-top: 20px; }
+
 .tier-series-jump {
   align-items: center;
   display: flex;
@@ -9005,6 +9021,9 @@ img.partner-tile-img {
 .b100-points-grid h3 { color: #161616; font-size: 17px; font-weight: 500; line-height: 1.35; margin: 0 0 8px; }
 .b100-points-grid p { color: #6f6f6f; font-size: 14px; line-height: 1.55; margin: 0; }
 .b100-video-panel { align-self: center; }
+.curing-light-points-without-video, .scaler-points-without-video { grid-template-columns: minmax(0, 1fr); }
+.curing-light-points-without-video .b100-points-content, .scaler-points-without-video .b100-points-content { margin-inline: auto; max-width: 980px; width: 100%; }
+.curing-light-video { aspect-ratio: 16 / 10; background: #0d1730; border-radius: 16px; box-shadow: 0 20px 42px rgba(15, 23, 42, .16); display: block; max-height: 540px; object-fit: contain; width: 100%; }
 .b100-video-placeholder {
   align-items: center;
   aspect-ratio: 16 / 10;
@@ -10022,3 +10041,341 @@ img.partner-tile-img {
     width: calc(100% - (var(--b100-page-gutter) * 2)) !important;
   }
 }
+
+/* Dental handpiece catalog reuses the dental chair tier layout. */
+.handpiece-model-thumb,
+.handpiece-detail-main,
+.handpiece-detail-thumb {
+  background: #f7f9fc;
+}
+.handpiece-model-thumb > img {
+  object-fit: contain;
+  padding: 5px;
+}
+.air-model-thumb-standard {
+  background: #fff;
+}
+.handpiece-detail-hero {
+  padding-bottom: 72px;
+}
+.handpiece-detail-grid {
+  align-items: start;
+  display: grid;
+  gap: clamp(32px, 4vw, 56px);
+  grid-template-columns: minmax(0, 1.45fr) minmax(340px, 1fr);
+}
+.handpiece-detail-main {
+  align-items: center;
+  aspect-ratio: 5 / 4;
+  border: 1px solid var(--surface-border);
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+}
+.handpiece-detail-main > img {
+  display: block;
+  height: 88%;
+  max-height: 88%;
+  max-width: 88%;
+  object-fit: contain;
+  width: 88%;
+}
+.handpiece-detail-main:focus-visible {
+  outline: 2px solid var(--brand-blue);
+  outline-offset: 3px;
+}
+.handpiece-gallery-tier,
+.handpiece-gallery-count,
+.handpiece-gallery-hint {
+  position: absolute;
+}
+.handpiece-gallery-tier {
+  background: var(--brand-blue-dark);
+  border-radius: 7px;
+  color: white;
+  font-size: 11px;
+  font-weight: 600;
+  left: 16px;
+  letter-spacing: .07em;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  top: 16px;
+}
+.handpiece-gallery-count,
+.handpiece-gallery-hint {
+  background: rgba(255, 255, 255, .88);
+  border: 1px solid var(--surface-border);
+  border-radius: 999px;
+  color: #374151;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 10px;
+  right: 16px;
+}
+.handpiece-gallery-count { top: 16px; }
+.handpiece-gallery-hint { bottom: 14px; }
+.handpiece-detail-gallery { min-width: 0; }
+.handpiece-detail-thumbs {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  margin-top: 14px;
+  overflow-x: auto;
+  padding: 3px 3px 5px;
+  scrollbar-width: none;
+}
+.handpiece-detail-thumbs::-webkit-scrollbar { display: none; }
+.handpiece-detail-thumb {
+  aspect-ratio: 1;
+  border: 1px solid var(--surface-border);
+  border-radius: 12px;
+  cursor: pointer;
+  flex: 0 0 80px;
+  height: 80px;
+  overflow: hidden;
+  padding: 0;
+}
+.handpiece-detail-thumb.is-active {
+  border-color: var(--brand-blue-dark);
+  box-shadow: 0 0 0 3px rgba(0, 87, 183, .2);
+}
+.handpiece-detail-thumb:focus-visible {
+  outline: 2px solid var(--brand-blue);
+  outline-offset: 2px;
+}
+.handpiece-detail-thumb img {
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+.handpiece-features-band .b100-feature-focus,
+.handpiece-features-band .b100-feature-card,
+.handpiece-features-band .b100-feature-media {
+  background: #fff;
+}
+.handpiece-features-band.is-45su .b100-feature-pair article:nth-child(2) img,
+.handpiece-features-band.is-45su .b100-feature-list > .b100-feature-focus:last-child img {
+  filter: contrast(1.06) brightness(1.04);
+}
+.handpiece-features-band.is-45tup .b100-feature-list > .b100-feature-focus:first-child img {
+  filter: brightness(1.12);
+}
+.handpiece-features-band.is-m2-led .b100-feature-media img {
+  filter: brightness(1.12);
+}
+.handpiece-feature-overview {
+  margin: 0 auto;
+  max-width: 1180px;
+}
+.handpiece-feature-overview-image {
+  align-items: center;
+  aspect-ratio: 2178 / 1290;
+  background: #fff;
+  border: 1px solid #dfe6ee;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  max-height: 640px;
+  overflow: hidden;
+  padding: 14px;
+}
+.handpiece-feature-overview-image img {
+  display: block;
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+.handpiece-feature-overview-points {
+  background: #fff;
+  border: 1px solid #dfe6ee;
+  border-radius: 14px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 24px;
+  overflow: hidden;
+}
+.handpiece-feature-overview.is-text-only .handpiece-feature-overview-points {
+  margin-top: 0;
+}
+.handpiece-feature-overview-point {
+  display: flex;
+  gap: 20px;
+  padding: 28px;
+}
+.handpiece-feature-overview-point:nth-child(odd) { border-right: 1px solid #dfe6ee; }
+.handpiece-feature-overview-point:nth-child(-n+2) { border-bottom: 1px solid #dfe6ee; }
+.handpiece-feature-overview-number {
+  color: #0b4d9b;
+  flex: 0 0 auto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.handpiece-feature-overview-point .b100-eyebrow { margin-bottom: 8px; }
+.handpiece-feature-overview-point h3 { color: #161616; font-size: 22px; font-weight: 500; line-height: 1.25; margin: 0 0 10px; }
+.handpiece-feature-overview-point p { color: #6f6f6f; font-size: 16px; line-height: 1.6; margin: 0; }
+.surgical-feature-bullets, .whitening-feature-bullets, .disposable-feature-bullets { color: #374151; display: grid; font-size: 14px; gap: 8px; list-style: disc; margin: 18px 0 0; padding-left: 20px; }
+@media (max-width: 700px) {
+  .handpiece-feature-overview-image { padding: 8px; }
+  .handpiece-feature-overview-points { grid-template-columns: 1fr; }
+  .handpiece-feature-overview-point { border-right: 0 !important; border-bottom: 1px solid #dfe6ee; padding: 22px; }
+  .handpiece-feature-overview-point:last-child { border-bottom: 0; }
+}
+.handpiece-detail-copy {
+  padding-top: 18px;
+}
+.handpiece-detail-copy h1 {
+  font-size: clamp(34px, 4vw, 58px);
+  font-weight: 500;
+}
+.handpiece-detail-copy h2 {
+  color: var(--ink-secondary);
+  font-size: clamp(20px, 2vw, 28px);
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 14px 0 0;
+}
+.handpiece-detail-summary {
+  color: var(--ink-muted);
+  font-size: 17px;
+  line-height: 1.65;
+  margin: 24px 0;
+}
+.handpiece-detail-facts {
+  border-top: 1px solid var(--surface-border);
+  margin-bottom: 30px;
+}
+.handpiece-detail-facts > div {
+  border-bottom: 1px solid var(--surface-border);
+  display: grid;
+  gap: 18px;
+  grid-template-columns: 130px minmax(0, 1fr);
+  padding: 13px 0;
+}
+.handpiece-detail-facts span,
+.handpiece-spec-grid dt {
+  color: var(--ink-muted);
+}
+.handpiece-detail-facts strong {
+  color: var(--ink-primary);
+  font-weight: 500;
+}
+.handpiece-spec-section {
+  background: var(--surface-soft);
+  padding: 64px 0 80px;
+}
+.teaching-scenarios-band {
+  background: #fff;
+  border-top: 1px solid var(--surface-border);
+  padding: 80px 0;
+}
+.teaching-scenarios-heading { margin-bottom: 36px; text-align: center; }
+.teaching-scenarios-heading h2 {
+  color: var(--ink-primary);
+  font-family: var(--font-display-serif);
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: -.015em;
+  line-height: 1.1;
+  margin: 12px 0 0;
+}
+.teaching-scenarios-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.teaching-scenarios-grid figure {
+  align-items: center;
+  aspect-ratio: 1;
+  border: 1px solid var(--surface-border);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+}
+.teaching-scenarios-grid img { display: block; height: 100%; object-fit: contain; width: 100%; }
+.handpiece-spec-section h2 {
+  color: var(--ink-primary);
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0 0 24px;
+}
+.handpiece-spec-grid {
+  background: #fff;
+  border: 1px solid var(--surface-border);
+  border-radius: 14px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0;
+  overflow: hidden;
+}
+.handpiece-spec-grid > div {
+  border-bottom: 1px solid var(--surface-border);
+  display: grid;
+  gap: 12px;
+  grid-template-columns: minmax(120px, 0.45fr) 1fr;
+  padding: 17px 22px;
+}
+.handpiece-spec-grid > div:nth-child(odd) {
+  border-right: 1px solid var(--surface-border);
+}
+.handpiece-spec-grid dd {
+  color: var(--ink-primary);
+  margin: 0;
+}
+.handpiece-back-link {
+  color: var(--brand-blue);
+  display: inline-block;
+  margin-top: 26px;
+  text-decoration: none;
+}
+@media (max-width: 760px) {
+  .handpiece-detail-grid,
+  .handpiece-spec-grid { grid-template-columns: 1fr; }
+  .teaching-scenarios-band { padding: 56px 0; }
+  .teaching-scenarios-grid { gap: 16px; grid-template-columns: 1fr; }
+  .handpiece-detail-hero { padding-bottom: 48px; }
+  .handpiece-detail-copy { padding-top: 0; }
+  .handpiece-spec-grid > div:nth-child(odd) { border-right: 0; }
+}
+@media (max-width: 480px) {
+  .handpiece-spec-grid > div { grid-template-columns: 1fr; gap: 4px; }
+}
+
+/* Air Equipment uses the established model-row and detail-page layout. */
+.air-photo-pending { display: grid; place-items: center; width: 100%; height: 100%; padding: 8px; background: #f5f8fc; color: #69758a; text-align: center; font-size: 11px; line-height: 1.3; }
+.air-detail-photo-pending { display: grid; place-items: center; min-height: 340px; background: #f5f8fc; color: #69758a; font-size: 16px; }
+.air-equipment-video-placeholder { box-sizing: border-box; width: 100%; }
+.air-installation-section { background: #fff; padding: 72px 0 80px; }
+.air-installation-section h2 { color: var(--ink-primary); font-family: var(--font-display-serif); font-size: 32px; font-weight: 500; margin: 0 0 32px; }
+.air-installation-grid { max-width: 900px; }
+.air-installation-grid.has-images { display: grid; gap: 36px; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); max-width: none; }
+.air-installation-copy p { color: var(--ink-secondary); font-size: 16px; line-height: 1.7; margin: 0 0 28px; }
+.air-installation-copy h3 { color: var(--ink-primary); font-size: 18px; font-weight: 600; margin: 0 0 14px; }
+.air-installation-copy ul { color: var(--ink-secondary); display: grid; gap: 10px; list-style: disc; margin: 0; padding-left: 20px; }
+.air-installation-images { display: grid; gap: 16px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.air-installation-images figure { align-items: center; background: #f8fafc; border: 1px solid #dce4f0; border-radius: 12px; display: flex; justify-content: center; margin: 0; overflow: hidden; }
+.air-installation-images img { display: block; height: auto; max-height: 340px; object-fit: contain; width: 100%; }
+@media (max-width: 900px) { .air-installation-grid.has-images { grid-template-columns: 1fr; } }
+@media (max-width: 620px) { .air-installation-section { padding: 56px 0; } .air-installation-images { grid-template-columns: 1fr; } }
+
+/* Imaging System category cards use the existing product typography and palette. */
+.imaging-category-section { padding: 56px 0 80px; }
+.imaging-group-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.imaging-group-card { background: #fff; border: 1px solid var(--surface-border); border-radius: 16px; color: inherit; display: grid; grid-template-columns: minmax(0, .42fr) minmax(0, .58fr); min-height: 228px; overflow: hidden; text-decoration: none; transition: border-color 160ms ease, transform 160ms ease; }
+.imaging-group-card:hover { border-color: var(--brand-blue); transform: translateY(-2px); }
+.imaging-group-image { align-items: center; background: #f7f9fc; display: flex; justify-content: center; padding: 18px; }
+.imaging-group-image img { display: block; height: 185px; max-width: 100%; object-fit: contain; }
+.imaging-group-copy { align-self: center; padding: 26px; }
+.imaging-group-copy h2 { color: var(--ink-primary); font-size: 26px; font-weight: 500; line-height: 1.2; margin: 12px 0; }
+.imaging-group-copy h2 span { color: var(--brand-blue); font-family: sans-serif; font-size: 23px; }
+.imaging-group-copy p { color: var(--ink-secondary); font-size: 15px; line-height: 1.6; margin: 0; }
+.imaging-group-switch { overflow-x: auto; }
+@media (max-width: 900px) { .imaging-group-grid { grid-template-columns: 1fr; } }
+@media (max-width: 620px) { .imaging-category-section { padding: 36px 0 56px; } .imaging-group-card { grid-template-columns: 1fr; } .imaging-group-image img { height: 170px; } .imaging-group-copy { padding: 22px; } .imaging-group-copy h2 { font-size: 23px; } }

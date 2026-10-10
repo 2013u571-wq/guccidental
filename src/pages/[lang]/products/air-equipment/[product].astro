@@ -1,0 +1,73 @@
+---
+import BaseLayout from "@components/layout/BaseLayout.astro";
+import Button from "@components/ui/Button.astro";
+import InquiryCta from "@components/ui/InquiryCta.astro";
+import catalog from "@data/airEquipmentModels.json";
+import { getLanguage, languages, localizedPath } from "@lib/i18n";
+
+export function getStaticPaths() {
+  return languages.flatMap((language) => catalog.filter((model) => !model.hidden).map((model) => ({ params: { lang: language.code, product: model.slug } })));
+}
+const lang = getLanguage(Astro.params.lang);
+const model = catalog.find((item) => item.slug === Astro.params.product)!;
+const inquiryHref = localizedPath(lang, `/contact/?message=${encodeURIComponent(`I'm interested in the ${model.model} air equipment product.`)}`);
+const knownSpecs = model.specs.filter((spec) => !/To confirm/i.test(spec.value));
+---
+<BaseLayout title={`${model.model} — ${model.group}`} description={model.summary} lang={lang} pathname={Astro.url.pathname}>
+  <section class="chair-tier-hero handpiece-detail-hero"><div class="container">
+    <nav class="chair-tier-breadcrumb" aria-label="Breadcrumb"><a href={localizedPath(lang, "/products/")}>Products</a><span aria-hidden="true">/</span><a href={localizedPath(lang, `/products/air-equipment/#${model.groupSlug}`)}>Air Equipment</a><span aria-hidden="true">/</span><span aria-current="page">{model.model}</span></nav>
+    <div class="handpiece-detail-grid">
+      <div class="handpiece-detail-gallery">
+        {model.gallery.length ? <>
+          <a class="handpiece-detail-main" href={model.gallery[0]} target="_blank" rel="noopener" aria-label={`Enlarge ${model.model} product image`} data-handpiece-main-link>
+            <img src={model.gallery[0]} alt={`${model.model} ${model.subtitle}`} width="800" height="800" decoding="async" data-handpiece-main-image />
+            <span class="handpiece-gallery-tier">{model.group}</span>
+            {model.gallery.length > 1 && <span class="handpiece-gallery-count" data-handpiece-count>1 / {model.gallery.length}</span>}
+            <span class="handpiece-gallery-hint">Click to enlarge</span>
+          </a>
+          {model.gallery.length > 1 && <div class="handpiece-detail-thumbs" role="group" aria-label={`${model.model} image gallery`}>{model.gallery.map((src, index) => <button class:list={["handpiece-detail-thumb", { "is-active": index === 0 }]} type="button" aria-label={`Show ${model.model} product image ${index + 1}`} aria-pressed={index === 0 ? "true" : "false"} data-handpiece-thumb data-src={src} data-alt={`${model.model} product view ${index + 1}`} data-index={index}><img src={src} alt="" width="96" height="96" loading="lazy" decoding="async" /></button>)}</div>}
+        </> : <div class="handpiece-detail-main air-detail-photo-pending" role="img" aria-label={`${model.model} photo pending`}>Product photo pending</div>}
+      </div>
+      <div class="handpiece-detail-copy"><p class="chair-tier-eyebrow">{model.group}</p><h1>{model.model}</h1><h2>{model.subtitle}</h2><p class="handpiece-detail-summary">{model.summary}</p>
+        <div class="handpiece-detail-facts">{knownSpecs.slice(0, 4).map((spec) => <div><span>{spec.label}</span><strong>{spec.value}</strong></div>)}</div>
+        <Button href={inquiryHref}>Ask for Quote</Button>
+      </div>
+    </div>
+  </div></section>
+  <section class="b100-points-band handpiece-points-band" id="selling-points"><div class="container"><div class="b100-points-layout"><div class="b100-points-content">
+    <header class="b100-points-heading"><span class="b100-eyebrow">Key selling points</span><h2>Key selling points</h2></header>
+    <div class="b100-points-grid">{model.sellingPoints.map((point, index) => <article><div class="b100-point-head"><span>{String(index + 1).padStart(2, "0")}</span></div><h3>{point.title}</h3><p>{point.description}</p></article>)}</div>
+  </div><aside class="b100-video-panel" aria-label={`${model.model} product video placeholder`}>
+    <div class="b100-video-placeholder air-equipment-video-placeholder" role="img" aria-label="Product video coming soon">
+      <span class="b100-video-play" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="m12 9 11 7-11 7V9Z"></path></svg></span>
+      <span class="b100-video-label">Product video</span>
+      <strong>Video coming soon</strong>
+    </div>
+  </aside></div></div></section>
+  <section class="air-installation-section" id="installation"><div class="container">
+    <span class="b100-eyebrow">Installation</span><h2>{model.installation.heading}</h2>
+    <div class:list={["air-installation-grid", { "has-images": model.installation.images.length > 0 }]}>
+      <div class="air-installation-copy"><p>{model.installation.description}</p><h3>Priority materials</h3><ul>{model.installation.priorityMaterials.map((material) => <li>{material}</li>)}</ul></div>
+      {model.installation.images.length > 0 && <div class="air-installation-images">{model.installation.images.map((src, index) => <figure><img src={src} alt={`${model.model} installation and connection illustration ${index + 1}`} width="900" height="675" loading="lazy" decoding="async" /></figure>)}</div>}
+    </div>
+  </div></section>
+  <section class="handpiece-spec-section" id="specifications"><div class="container"><h2>Technical Specifications</h2><dl class="handpiece-spec-grid">{knownSpecs.map((spec) => <div><dt>{spec.label}</dt><dd>{spec.value}</dd></div>)}</dl><a class="handpiece-back-link" href={localizedPath(lang, `/products/air-equipment/#${model.groupSlug}`)}>← View all air equipment</a></div></section>
+  <InquiryCta lang={lang} title={`Ask About ${model.model}`} />
+</BaseLayout>
+<script>
+  document.querySelectorAll<HTMLElement>(".handpiece-detail-gallery").forEach((gallery) => {
+    const mainImage = gallery.querySelector<HTMLImageElement>("[data-handpiece-main-image]");
+    const mainLink = gallery.querySelector<HTMLAnchorElement>("[data-handpiece-main-link]");
+    const count = gallery.querySelector<HTMLElement>("[data-handpiece-count]");
+    const thumbs = gallery.querySelectorAll<HTMLButtonElement>("[data-handpiece-thumb]");
+    thumbs.forEach((thumb) => thumb.addEventListener("click", () => {
+      const src = thumb.dataset.src;
+      if (!src || !mainImage || !mainLink) return;
+      mainImage.src = src;
+      mainImage.alt = thumb.dataset.alt || "";
+      mainLink.href = src;
+      if (count) count.textContent = `${Number(thumb.dataset.index) + 1} / ${thumbs.length}`;
+      thumbs.forEach((item) => { const active = item === thumb; item.classList.toggle("is-active", active); item.setAttribute("aria-pressed", String(active)); });
+    }));
+  });
+</script>

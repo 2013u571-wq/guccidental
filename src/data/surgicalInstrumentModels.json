@@ -1,0 +1,4246 @@
+[
+  {
+    "model": "503G",
+    "slug": "503g",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "503G Dental Surgical Instrument",
+    "subtitle": "Dental surgical instrument",
+    "summary": "A practical dental instrument for oral surgery and daily chairside procedures. The design supports controlled handling, clear access and efficient instrument preparation in clinical work.",
+    "specs": [
+      {
+        "label": "PDF reference model",
+        "value": "FD-503G-1"
+      },
+      {
+        "label": "Product type",
+        "value": "Two-way screw pupil distance quick adjust comfortable dentist surgical loupe"
+      },
+      {
+        "label": "Magnification",
+        "value": "2.5X or 3.5X for choice"
+      },
+      {
+        "label": "Working distance",
+        "value": "340mm / 420mm / 500mm for choice"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/503g/503g-gallery-01.webp",
+      "/images/products/surgical-instruments/503g/503g-gallery-02.webp",
+      "/images/products/surgical-instruments/503g/503g-gallery-03.webp",
+      "/images/products/surgical-instruments/503g/503g-gallery-04.webp",
+      "/images/products/surgical-instruments/503g/503g-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/503g/503g-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the 503G",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/503g/503g-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/503g/503g-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/503g/503g-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/503g/503g-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "CR304",
+    "slug": "cr304",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "CR304 Dental Surgical Instrument",
+    "subtitle": "Dental surgical instrument",
+    "summary": "A practical dental instrument for oral surgery and daily chairside procedures. The design supports controlled handling, clear access and efficient instrument preparation in clinical work.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental surgical instrument"
+      },
+      {
+        "label": "Category",
+        "value": "SURGICAL INSTRUMENTS"
+      },
+      {
+        "label": "Application",
+        "value": "Chairside dental treatment support"
+      },
+      {
+        "label": "Format",
+        "value": "Instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/cr304/cr304-gallery-01.webp",
+      "/images/products/surgical-instruments/cr304/cr304-gallery-02.webp",
+      "/images/products/surgical-instruments/cr304/cr304-gallery-03.webp",
+      "/images/products/surgical-instruments/cr304/cr304-gallery-04.webp",
+      "/images/products/surgical-instruments/cr304/cr304-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/cr304/cr304-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the CR304",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/cr304/cr304-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/cr304/cr304-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/cr304/cr304-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/cr304/cr304-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "Dental Anesthesia Injector",
+    "slug": "dental-anesthesia-injector",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "Dental Anesthesia Injector Dental Surgical Instrument",
+    "subtitle": "Dental surgical instrument",
+    "summary": "A practical dental instrument for oral surgery and daily chairside procedures. The design supports controlled handling, clear access and efficient instrument preparation in clinical work.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental anesthesia syringe / injector"
+      },
+      {
+        "label": "Category",
+        "value": "DENTAL ANESTHESIA"
+      },
+      {
+        "label": "Application",
+        "value": "Local anesthesia delivery support"
+      },
+      {
+        "label": "Format",
+        "value": "Injection instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/dental-anesthesia-injector/dental-anesthesia-injector-gallery-01.webp",
+      "/images/products/surgical-instruments/dental-anesthesia-injector/dental-anesthesia-injector-gallery-02.webp",
+      "/images/products/surgical-instruments/dental-anesthesia-injector/dental-anesthesia-injector-gallery-03.webp",
+      "/images/products/surgical-instruments/dental-anesthesia-injector/dental-anesthesia-injector-gallery-04.webp",
+      "/images/products/surgical-instruments/dental-anesthesia-injector/dental-anesthesia-injector-gallery-05.webp",
+      "/images/products/surgical-instruments/dental-anesthesia-injector/dental-anesthesia-injector-gallery-06.webp",
+      "/images/products/surgical-instruments/dental-anesthesia-injector/dental-anesthesia-injector-gallery-07.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/dental-anesthesia-injector/dental-anesthesia-injector-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the Dental Anesthesia Injector",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/dental-anesthesia-injector/dental-anesthesia-injector-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/dental-anesthesia-injector/dental-anesthesia-injector-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/dental-anesthesia-injector/dental-anesthesia-injector-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/dental-anesthesia-injector/dental-anesthesia-injector-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "DL350-G",
+    "slug": "dl350-g",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "DL350-G Dental Surgical Instrument",
+    "subtitle": "Dental surgical instrument",
+    "summary": "A practical dental instrument for oral surgery and daily chairside procedures. The design supports controlled handling, clear access and efficient instrument preparation in clinical work.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental surgical instrument"
+      },
+      {
+        "label": "Category",
+        "value": "SURGICAL INSTRUMENTS"
+      },
+      {
+        "label": "Application",
+        "value": "Chairside dental treatment support"
+      },
+      {
+        "label": "Format",
+        "value": "Instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/dl350-g/dl350-g-gallery-06.webp",
+      "/images/products/surgical-instruments/dl350-g/dl350-g-gallery-01.webp",
+      "/images/products/surgical-instruments/dl350-g/dl350-g-gallery-02.webp",
+      "/images/products/surgical-instruments/dl350-g/dl350-g-gallery-03.webp",
+      "/images/products/surgical-instruments/dl350-g/dl350-g-gallery-04.webp",
+      "/images/products/surgical-instruments/dl350-g/dl350-g-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/dl350-g/dl350-g-gallery-06.webp",
+    "sellingHeading": "Why clinics choose the DL350-G",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/dl350-g/dl350-g-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/dl350-g/dl350-g-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/dl350-g/dl350-g-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/dl350-g/dl350-g-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "GS182",
+    "slug": "gs182",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "GS182 Dental Surgical Instrument",
+    "subtitle": "Dental surgical instrument",
+    "summary": "A practical dental instrument for oral surgery and daily chairside procedures. The design supports controlled handling, clear access and efficient instrument preparation in clinical work.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Gingival retraction cord"
+      },
+      {
+        "label": "Category",
+        "value": "RESTORATIVE SUPPLIES"
+      },
+      {
+        "label": "Application",
+        "value": "Gingival tissue management before impression or restoration"
+      },
+      {
+        "label": "Format",
+        "value": "Consumable cord"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/gs182/gs182-gallery-01.webp",
+      "/images/products/surgical-instruments/gs182/gs182-gallery-02.webp",
+      "/images/products/surgical-instruments/gs182/gs182-gallery-03.webp",
+      "/images/products/surgical-instruments/gs182/gs182-gallery-07.webp",
+      "/images/products/surgical-instruments/gs182/gs182-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/gs182/gs182-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the GS182",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ]
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ]
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ]
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ]
+      }
+    ]
+  },
+  {
+    "model": "KD-202A-1",
+    "slug": "kd-202a-1",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "KD-202A-1 Dental Surgical Instrument",
+    "subtitle": "Dental surgical instrument",
+    "summary": "A practical dental instrument for oral surgery and daily chairside procedures. The design supports controlled handling, clear access and efficient instrument preparation in clinical work.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental surgical instrument"
+      },
+      {
+        "label": "Category",
+        "value": "SURGICAL INSTRUMENTS"
+      },
+      {
+        "label": "Application",
+        "value": "Chairside dental treatment support"
+      },
+      {
+        "label": "Format",
+        "value": "Instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/kd-202a-1/kd-202a-1-gallery-01.webp",
+      "/images/products/surgical-instruments/kd-202a-1/kd-202a-1-gallery-02.webp",
+      "/images/products/surgical-instruments/kd-202a-1/kd-202a-1-gallery-03.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/kd-202a-1/kd-202a-1-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the KD-202A-1",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ]
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ]
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ]
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ]
+      }
+    ]
+  },
+  {
+    "model": "M168",
+    "slug": "m168",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "M168 Dental Surgical Instrument",
+    "subtitle": "Dental surgical instrument",
+    "summary": "A practical dental instrument for oral surgery and daily chairside procedures. The design supports controlled handling, clear access and efficient instrument preparation in clinical work.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental surgical instrument"
+      },
+      {
+        "label": "Category",
+        "value": "SURGICAL INSTRUMENTS"
+      },
+      {
+        "label": "Application",
+        "value": "Chairside dental treatment support"
+      },
+      {
+        "label": "Format",
+        "value": "Instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/m168/m168-gallery-01.webp",
+      "/images/products/surgical-instruments/m168/m168-gallery-02.webp",
+      "/images/products/surgical-instruments/m168/m168-gallery-03.webp",
+      "/images/products/surgical-instruments/m168/m168-gallery-05.webp",
+      "/images/products/surgical-instruments/m168/m168-gallery-06.webp",
+      "/images/products/surgical-instruments/m168/m168-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/m168/m168-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the M168",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/m168/m168-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/m168/m168-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/m168/m168-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/m168/m168-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "OR10",
+    "slug": "or10",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "OR10 Dental Surgical Instrument",
+    "subtitle": "Dental surgical instrument",
+    "summary": "A practical dental instrument for oral surgery and daily chairside procedures. The design supports controlled handling, clear access and efficient instrument preparation in clinical work.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental extraction forceps"
+      },
+      {
+        "label": "Category",
+        "value": "EXTRACTION INSTRUMENTS"
+      },
+      {
+        "label": "Application",
+        "value": "Tooth extraction and surgical gripping support"
+      },
+      {
+        "label": "Format",
+        "value": "Extraction instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/or10/or10-gallery-01.webp",
+      "/images/products/surgical-instruments/or10/or10-gallery-02.webp",
+      "/images/products/surgical-instruments/or10/or10-gallery-03.webp",
+      "/images/products/surgical-instruments/or10/or10-gallery-04.webp",
+      "/images/products/surgical-instruments/or10/or10-gallery-05.webp",
+      "/images/products/surgical-instruments/or10/or10-gallery-06.webp",
+      "/images/products/surgical-instruments/or10/or10-gallery-07.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/or10/or10-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the OR10",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/or10/or10-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/or10/or10-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/or10/or10-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/or10/or10-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "OR12",
+    "slug": "or12",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "OR12 Dental Surgical Instrument",
+    "subtitle": "Dental surgical instrument",
+    "summary": "A practical dental instrument for oral surgery and daily chairside procedures. The design supports controlled handling, clear access and efficient instrument preparation in clinical work.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental extraction forceps"
+      },
+      {
+        "label": "Category",
+        "value": "EXTRACTION INSTRUMENTS"
+      },
+      {
+        "label": "Application",
+        "value": "Tooth extraction and surgical gripping support"
+      },
+      {
+        "label": "Format",
+        "value": "Extraction instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/or12/or12-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/or12/or12-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the OR12",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ]
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ]
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ]
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ]
+      }
+    ]
+  },
+  {
+    "model": "OR12 Forceps Set",
+    "slug": "or12-forceps-set",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "OR12 Extraction Forceps Set",
+    "subtitle": "Pediatric minimally invasive extraction forceps set",
+    "summary": "A forceps set for controlled tooth extraction workflows, designed to support clear grip, stable handling and efficient oral-surgery preparation.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental extraction forceps"
+      },
+      {
+        "label": "Category",
+        "value": "EXTRACTION INSTRUMENTS"
+      },
+      {
+        "label": "Application",
+        "value": "Tooth extraction and surgical gripping support"
+      },
+      {
+        "label": "Format",
+        "value": "Extraction instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/or12-forceps-set/or12-forceps-set-gallery-01.webp",
+      "/images/products/surgical-instruments/or12-forceps-set/or12-forceps-set-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/or12-forceps-set/or12-forceps-set-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the OR12",
+    "sellingPoints": [
+      {
+        "title": "Controlled extraction handling",
+        "description": "Forceps format supports stable grip and better control during extraction procedures."
+      },
+      {
+        "title": "Procedure-ready set",
+        "description": "The set can be prepared together for common oral-surgery workflows."
+      },
+      {
+        "title": "Clear instrument organization",
+        "description": "Grouped instruments help clinics keep extraction tools easy to identify and store."
+      },
+      {
+        "title": "Daily oral-surgery support",
+        "description": "Suitable for routine extraction preparation in dental clinics."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ]
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ]
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ]
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ]
+      }
+    ]
+  },
+  {
+    "model": "ST414",
+    "slug": "st414",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "ST414 Dental Surgical Instrument",
+    "subtitle": "Dental surgical instrument",
+    "summary": "A practical dental instrument for oral surgery and daily chairside procedures. The design supports controlled handling, clear access and efficient instrument preparation in clinical work.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental surgical instrument"
+      },
+      {
+        "label": "Category",
+        "value": "SURGICAL INSTRUMENTS"
+      },
+      {
+        "label": "Application",
+        "value": "Chairside dental treatment support"
+      },
+      {
+        "label": "Format",
+        "value": "Instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/st414/st414-gallery-01.webp",
+      "/images/products/surgical-instruments/st414/st414-gallery-02.webp",
+      "/images/products/surgical-instruments/st414/st414-gallery-03.webp",
+      "/images/products/surgical-instruments/st414/st414-gallery-04.webp",
+      "/images/products/surgical-instruments/st414/st414-gallery-05.webp",
+      "/images/products/surgical-instruments/st414/st414-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/st414/st414-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the ST414",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/st414/st414-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/st414/st414-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/st414/st414-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/st414/st414-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "T304",
+    "slug": "t304",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "T304 Stainless Steel Tray",
+    "subtitle": "Instrument tray for dental clinics",
+    "summary": "A stainless steel tray for arranging instruments, consumables and small accessories during dental treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental instrument tray"
+      },
+      {
+        "label": "Category",
+        "value": "CLINICAL ORGANIZATION"
+      },
+      {
+        "label": "Application",
+        "value": "Instrument placement and treatment-room organization"
+      },
+      {
+        "label": "Format",
+        "value": "Tray"
+      },
+      {
+        "label": "Material",
+        "value": "Stainless steel"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/t304/t304-gallery-01.webp",
+      "/images/products/surgical-instruments/t304/t304-gallery-02.webp",
+      "/images/products/surgical-instruments/t304/t304-gallery-03.webp",
+      "/images/products/surgical-instruments/t304/t304-gallery-04.webp",
+      "/images/products/surgical-instruments/t304/t304-gallery-07.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/t304/t304-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the T304",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/t304/t304-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/t304/t304-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/t304/t304-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/t304/t304-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-231 6PCS",
+    "slug": "tj-231-6pcs",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "TJ-231 6PCS Dental Surgical Instrument",
+    "subtitle": "Dental surgical instrument",
+    "summary": "A practical dental instrument for oral surgery and daily chairside procedures. The design supports controlled handling, clear access and efficient instrument preparation in clinical work.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental filling instrument set"
+      },
+      {
+        "label": "Category",
+        "value": "RESTORATIVE INSTRUMENTS"
+      },
+      {
+        "label": "Application",
+        "value": "Composite placement, shaping and finishing support"
+      },
+      {
+        "label": "Format",
+        "value": "Restorative instrument set"
+      },
+      {
+        "label": "Package",
+        "value": "6-piece set"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-231-6pcs/tj-231-6pcs-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-231-6pcs/tj-231-6pcs-gallery-02.webp",
+      "/images/products/surgical-instruments/tj-231-6pcs/tj-231-6pcs-gallery-03.webp",
+      "/images/products/surgical-instruments/tj-231-6pcs/tj-231-6pcs-gallery-04.webp",
+      "/images/products/surgical-instruments/tj-231-6pcs/tj-231-6pcs-gallery-05.webp",
+      "/images/products/surgical-instruments/tj-231-6pcs/tj-231-6pcs-gallery-06.webp",
+      "/images/products/surgical-instruments/tj-231-6pcs/tj-231-6pcs-gallery-07.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-231-6pcs/tj-231-6pcs-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-231 6PCS",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ]
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ]
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ]
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ]
+      }
+    ]
+  },
+  {
+    "model": "TJ-BN01_TJ-BN02_TJ-BN04",
+    "slug": "tj-bn01-tj-bn02-tj-bn04",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "TJ-BN01_TJ-BN02_TJ-BN04 Oral Surgery Instrument Kit",
+    "subtitle": "Dental surgical instrument set",
+    "summary": "An oral-surgery instrument kit for clinic preparation, helping dental teams organize common instruments for treatment and minor surgical procedures.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental surgical instrument kit"
+      },
+      {
+        "label": "TJ-BN01",
+        "value": "Implant surgical instruments kit from UK, 16pcs in a set"
+      },
+      {
+        "label": "TJ-BN02",
+        "value": "Implant surgical instruments kit from UK, 26pcs in a set"
+      },
+      {
+        "label": "TJ-BN04",
+        "value": "Rubber dam instrument kit from UK, 26pcs in a set"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-bn01-tj-bn02-tj-bn04/tj-bn01-tj-bn02-tj-bn04-gallery-02.webp",
+      "/images/products/surgical-instruments/tj-bn01-tj-bn02-tj-bn04/tj-bn01-tj-bn02-tj-bn04-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-bn01-tj-bn02-tj-bn04/tj-bn01-tj-bn02-tj-bn04-gallery-03.webp",
+      "/images/products/surgical-instruments/tj-bn01-tj-bn02-tj-bn04/tj-bn01-tj-bn02-tj-bn04-gallery-04.webp",
+      "/images/products/surgical-instruments/tj-bn01-tj-bn02-tj-bn04/tj-bn01-tj-bn02-tj-bn04-gallery-05.webp",
+      "/images/products/surgical-instruments/tj-bn01-tj-bn02-tj-bn04/tj-bn01-tj-bn02-tj-bn04-gallery-06.webp",
+      "/images/products/surgical-instruments/tj-bn01-tj-bn02-tj-bn04/tj-bn01-tj-bn02-tj-bn04-gallery-07.webp",
+      "/images/products/surgical-instruments/tj-bn01-tj-bn02-tj-bn04/tj-bn01-tj-bn02-tj-bn04-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-bn01-tj-bn02-tj-bn04/tj-bn01-tj-bn02-tj-bn04-gallery-02.webp",
+    "sellingHeading": "Why clinics choose the TJ-BN01_TJ-BN02_TJ-BN04",
+    "sellingPoints": [
+      {
+        "title": "Organized surgical setup",
+        "description": "Kit format helps clinicians prepare multiple instruments for oral-surgery procedures."
+      },
+      {
+        "title": "Efficient chairside preparation",
+        "description": "Grouped instruments reduce searching time before and during treatment."
+      },
+      {
+        "title": "Flexible clinical support",
+        "description": "Useful for extraction, soft-tissue and general dental surgery workflows depending on the instrument set."
+      },
+      {
+        "title": "Easy storage and handover",
+        "description": "Set-based organization supports cleaning, storage and assistant handover after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/tj-bn01-tj-bn02-tj-bn04/tj-bn01-tj-bn02-tj-bn04-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/tj-bn01-tj-bn02-tj-bn04/tj-bn01-tj-bn02-tj-bn04-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/tj-bn01-tj-bn02-tj-bn04/tj-bn01-tj-bn02-tj-bn04-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/tj-bn01-tj-bn02-tj-bn04/tj-bn01-tj-bn02-tj-bn04-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-BN05_TJ-BN06_TJ-BN12",
+    "slug": "tj-bn05-tj-bn06-tj-bn12",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "TJ-BN05_TJ-BN06_TJ-BN12 Dental Elevator Set",
+    "subtitle": "Dental extraction elevator set",
+    "summary": "A dental elevator set for oral-surgery preparation, supporting controlled access and efficient tooth extraction workflows.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Minimally invasive dental elevator set"
+      },
+      {
+        "label": "TJ-BN05",
+        "value": "Stainless steel minimally invasive dental elevator set from UK, 8pcs in a set"
+      },
+      {
+        "label": "TJ-BN06",
+        "value": "Rotating minimally invasive dental elevator kit from UK, 4pcs in a set"
+      },
+      {
+        "label": "TJ-BN12",
+        "value": "Rotating minimally invasive dental elevator kit from UK, 3pcs in a set"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-bn05-tj-bn06-tj-bn12/tj-bn05-tj-bn06-tj-bn12-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-bn05-tj-bn06-tj-bn12/tj-bn05-tj-bn06-tj-bn12-gallery-02.webp",
+      "/images/products/surgical-instruments/tj-bn05-tj-bn06-tj-bn12/tj-bn05-tj-bn06-tj-bn12-gallery-03.webp",
+      "/images/products/surgical-instruments/tj-bn05-tj-bn06-tj-bn12/tj-bn05-tj-bn06-tj-bn12-gallery-04.webp",
+      "/images/products/surgical-instruments/tj-bn05-tj-bn06-tj-bn12/tj-bn05-tj-bn06-tj-bn12-gallery-05.webp",
+      "/images/products/surgical-instruments/tj-bn05-tj-bn06-tj-bn12/tj-bn05-tj-bn06-tj-bn12-gallery-06.webp",
+      "/images/products/surgical-instruments/tj-bn05-tj-bn06-tj-bn12/tj-bn05-tj-bn06-tj-bn12-gallery-07.webp",
+      "/images/products/surgical-instruments/tj-bn05-tj-bn06-tj-bn12/tj-bn05-tj-bn06-tj-bn12-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-bn05-tj-bn06-tj-bn12/tj-bn05-tj-bn06-tj-bn12-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-BN05_TJ-BN06_TJ-BN12",
+    "sellingPoints": [
+      {
+        "title": "Controlled tooth elevation",
+        "description": "Elevator instruments support careful loosening and access during extraction preparation."
+      },
+      {
+        "title": "Supports extraction workflow",
+        "description": "Useful alongside forceps and other oral-surgery instruments during tooth removal procedures."
+      },
+      {
+        "title": "Grouped clinical set",
+        "description": "Set format helps clinics prepare and store the required elevators together."
+      },
+      {
+        "title": "Practical daily instrument",
+        "description": "Designed for repeated use in routine oral-surgery workflows."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/tj-bn05-tj-bn06-tj-bn12/tj-bn05-tj-bn06-tj-bn12-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/tj-bn05-tj-bn06-tj-bn12/tj-bn05-tj-bn06-tj-bn12-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/tj-bn05-tj-bn06-tj-bn12/tj-bn05-tj-bn06-tj-bn12-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/tj-bn05-tj-bn06-tj-bn12/tj-bn05-tj-bn06-tj-bn12-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-BN07",
+    "slug": "tj-bn07",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "TJ-BN07 Extraction Forceps Set",
+    "subtitle": "Pediatric minimally invasive extraction forceps set",
+    "summary": "A forceps set for controlled tooth extraction workflows, designed to support clear grip, stable handling and efficient oral-surgery preparation.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Pediatric minimally invasive tooth extraction forceps set"
+      },
+      {
+        "label": "Origin/style",
+        "value": "From UK"
+      },
+      {
+        "label": "Set",
+        "value": "6pcs in a set"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-bn07/tj-bn07-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-bn07/tj-bn07-gallery-02.webp",
+      "/images/products/surgical-instruments/tj-bn07/tj-bn07-gallery-03.webp",
+      "/images/products/surgical-instruments/tj-bn07/tj-bn07-gallery-04.webp",
+      "/images/products/surgical-instruments/tj-bn07/tj-bn07-gallery-06.webp",
+      "/images/products/surgical-instruments/tj-bn07/tj-bn07-gallery-07.webp",
+      "/images/products/surgical-instruments/tj-bn07/tj-bn07-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-bn07/tj-bn07-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-BN07",
+    "sellingPoints": [
+      {
+        "title": "Controlled extraction handling",
+        "description": "Forceps format supports stable grip and better control during extraction procedures."
+      },
+      {
+        "title": "Procedure-ready set",
+        "description": "The set can be prepared together for common oral-surgery workflows."
+      },
+      {
+        "title": "Clear instrument organization",
+        "description": "Grouped instruments help clinics keep extraction tools easy to identify and store."
+      },
+      {
+        "title": "Daily oral-surgery support",
+        "description": "Suitable for routine extraction preparation in dental clinics."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/tj-bn07/tj-bn07-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/tj-bn07/tj-bn07-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/tj-bn07/tj-bn07-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/tj-bn07/tj-bn07-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-E10",
+    "slug": "tj-e10-10",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "TJ-E10",
+    "subtitle": "Dental extraction elevator set",
+    "summary": "A dental elevator set for oral-surgery preparation, supporting controlled access and efficient tooth extraction workflows.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental elevator"
+      },
+      {
+        "label": "Category",
+        "value": "EXTRACTION INSTRUMENTS"
+      },
+      {
+        "label": "Application",
+        "value": "Tooth elevation and extraction assistance"
+      },
+      {
+        "label": "Format",
+        "value": "Extraction instrument"
+      },
+      {
+        "label": "Package",
+        "value": "10-piece set"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-e10-10/tj-e10-10-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-e10-10/tj-e10-10-gallery-02.webp",
+      "/images/products/surgical-instruments/tj-e10-10/tj-e10-10-gallery-03.webp",
+      "/images/products/surgical-instruments/tj-e10-10/tj-e10-10-gallery-04.webp",
+      "/images/products/surgical-instruments/tj-e10-10/tj-e10-10-gallery-05.webp",
+      "/images/products/surgical-instruments/tj-e10-10/tj-e10-10-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-e10-10/tj-e10-10-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-E10 10",
+    "sellingPoints": [
+      {
+        "title": "Controlled tooth elevation",
+        "description": "Elevator instruments support careful loosening and access during extraction preparation."
+      },
+      {
+        "title": "Supports extraction workflow",
+        "description": "Useful alongside forceps and other oral-surgery instruments during tooth removal procedures."
+      },
+      {
+        "title": "Grouped clinical set",
+        "description": "Set format helps clinics prepare and store the required elevators together."
+      },
+      {
+        "title": "Practical daily instrument",
+        "description": "Designed for repeated use in routine oral-surgery workflows."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/tj-e10-10/tj-e10-10-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/tj-e10-10/tj-e10-10-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/tj-e10-10/tj-e10-10-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/tj-e10-10/tj-e10-10-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-E2",
+    "slug": "tj-e2",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "TJ-E2 Dental Surgical Instrument",
+    "subtitle": "Dental surgical instrument",
+    "summary": "A practical dental instrument for oral surgery and daily chairside procedures. The design supports controlled handling, clear access and efficient instrument preparation in clinical work.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental elevator"
+      },
+      {
+        "label": "Category",
+        "value": "EXTRACTION INSTRUMENTS"
+      },
+      {
+        "label": "Application",
+        "value": "Tooth elevation and extraction assistance"
+      },
+      {
+        "label": "Format",
+        "value": "Extraction instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-e2/tj-e2-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-e2/tj-e2-gallery-02.webp",
+      "/images/products/surgical-instruments/tj-e2/tj-e2-gallery-03.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-e2/tj-e2-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-E2",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ]
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ]
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ]
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ]
+      }
+    ]
+  },
+  {
+    "model": "TJ-G5",
+    "slug": "tj-g5",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "TJ-G5 Dental Surgical Instrument",
+    "subtitle": "Dental surgical instrument",
+    "summary": "A practical dental instrument for oral surgery and daily chairside procedures. The design supports controlled handling, clear access and efficient instrument preparation in clinical work.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental surgical instrument"
+      },
+      {
+        "label": "Category",
+        "value": "SURGICAL INSTRUMENTS"
+      },
+      {
+        "label": "Application",
+        "value": "Chairside dental treatment support"
+      },
+      {
+        "label": "Format",
+        "value": "Instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-g5/tj-g5-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-g5/tj-g5-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-G5",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ]
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ]
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ]
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ]
+      }
+    ]
+  },
+  {
+    "model": "TJ-ORKIT18",
+    "slug": "tj-orkit18",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "TJ-ORKIT18 Oral Surgery Instrument Kit",
+    "subtitle": "Dental surgical instrument set",
+    "summary": "An oral-surgery instrument kit for clinic preparation, helping dental teams organize common instruments for treatment and minor surgical procedures.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental surgical instrument kit"
+      },
+      {
+        "label": "Category",
+        "value": "SURGICAL KITS"
+      },
+      {
+        "label": "Application",
+        "value": "Organized surgical procedure support"
+      },
+      {
+        "label": "Format",
+        "value": "Instrument kit"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-orkit18/tj-orkit18-gallery-02.webp",
+      "/images/products/surgical-instruments/tj-orkit18/tj-orkit18-gallery-04.webp",
+      "/images/products/surgical-instruments/tj-orkit18/tj-orkit18-gallery-06.webp",
+      "/images/products/surgical-instruments/tj-orkit18/tj-orkit18-gallery-07.webp",
+      "/images/products/surgical-instruments/tj-orkit18/tj-orkit18-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-orkit18/tj-orkit18-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-ORKIT18",
+    "sellingPoints": [
+      {
+        "title": "Organized surgical setup",
+        "description": "Kit format helps clinicians prepare multiple instruments for oral-surgery procedures."
+      },
+      {
+        "title": "Efficient chairside preparation",
+        "description": "Grouped instruments reduce searching time before and during treatment."
+      },
+      {
+        "title": "Flexible clinical support",
+        "description": "Useful for extraction, soft-tissue and general dental surgery workflows depending on the instrument set."
+      },
+      {
+        "title": "Easy storage and handover",
+        "description": "Set-based organization supports cleaning, storage and assistant handover after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/tj-orkit18/tj-orkit18-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/tj-orkit18/tj-orkit18-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/tj-orkit18/tj-orkit18-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/tj-orkit18/tj-orkit18-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-Plate3",
+    "slug": "tj-plate3",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "TJ-Plate3 Dental Surgical Instrument",
+    "subtitle": "Dental surgical instrument",
+    "summary": "A practical dental instrument for oral surgery and daily chairside procedures. The design supports controlled handling, clear access and efficient instrument preparation in clinical work.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental instrument tray"
+      },
+      {
+        "label": "Category",
+        "value": "CLINICAL ORGANIZATION"
+      },
+      {
+        "label": "Application",
+        "value": "Instrument placement and treatment-room organization"
+      },
+      {
+        "label": "Format",
+        "value": "Tray"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-plate3/tj-plate3-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-plate3/tj-plate3-gallery-02.webp",
+      "/images/products/surgical-instruments/tj-plate3/tj-plate3-gallery-04.webp",
+      "/images/products/surgical-instruments/tj-plate3/tj-plate3-gallery-06.webp",
+      "/images/products/surgical-instruments/tj-plate3/tj-plate3-gallery-07.webp",
+      "/images/products/surgical-instruments/tj-plate3/tj-plate3-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-plate3/tj-plate3-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-Plate3",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/tj-plate3/tj-plate3-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/tj-plate3/tj-plate3-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/tj-plate3/tj-plate3-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/tj-plate3/tj-plate3-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-S186",
+    "slug": "tj-s186",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "TJ-S186 Dental Scissors",
+    "subtitle": "Dental scissors for clinical procedures",
+    "summary": "Dental scissors for cutting and trimming tasks during surgical, restorative or treatment-room workflows.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental surgical scissors"
+      },
+      {
+        "label": "Category",
+        "value": "SURGICAL INSTRUMENTS"
+      },
+      {
+        "label": "Application",
+        "value": "Cutting support during dental procedures"
+      },
+      {
+        "label": "Format",
+        "value": "Surgical hand instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-s186/tj-s186-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-s186/tj-s186-gallery-02.webp",
+      "/images/products/surgical-instruments/tj-s186/tj-s186-gallery-03.webp",
+      "/images/products/surgical-instruments/tj-s186/tj-s186-gallery-04.webp",
+      "/images/products/surgical-instruments/tj-s186/tj-s186-gallery-05.webp",
+      "/images/products/surgical-instruments/tj-s186/tj-s186-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-s186/tj-s186-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-S186",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ]
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ]
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ]
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ]
+      }
+    ]
+  },
+  {
+    "model": "TJ-S36",
+    "slug": "tj-s36",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "TJ-S36 Dental Surgical Instrument",
+    "subtitle": "Dental surgical instrument",
+    "summary": "A practical dental instrument for oral surgery and daily chairside procedures. The design supports controlled handling, clear access and efficient instrument preparation in clinical work.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental anesthesia syringe / injector"
+      },
+      {
+        "label": "Category",
+        "value": "DENTAL ANESTHESIA"
+      },
+      {
+        "label": "Application",
+        "value": "Local anesthesia delivery support"
+      },
+      {
+        "label": "Format",
+        "value": "Injection instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-s36/tj-s36-gallery-02.webp",
+      "/images/products/surgical-instruments/tj-s36/tj-s36-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-s36/tj-s36-gallery-03.webp",
+      "/images/products/surgical-instruments/tj-s36/tj-s36-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-s36/tj-s36-gallery-02.webp",
+    "sellingHeading": "Why clinics choose the TJ-S36",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/tj-s36/tj-s36-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/tj-s36/tj-s36-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/tj-s36/tj-s36-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/tj-s36/tj-s36-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-S36 Injector",
+    "slug": "tj-s36-injector",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "TJ-S36 Injector for Dental Anesthesia",
+    "subtitle": "Dental surgical instrument",
+    "summary": "A practical dental instrument for oral surgery and daily chairside procedures. The design supports controlled handling, clear access and efficient instrument preparation in clinical work.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental anesthesia syringe / injector"
+      },
+      {
+        "label": "Category",
+        "value": "DENTAL ANESTHESIA"
+      },
+      {
+        "label": "Application",
+        "value": "Local anesthesia delivery support"
+      },
+      {
+        "label": "Format",
+        "value": "Injection instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-s36-injector/tj-s36-injector-gallery-03.webp",
+      "/images/products/surgical-instruments/tj-s36-injector/tj-s36-injector-gallery-04.webp",
+      "/images/products/surgical-instruments/tj-s36-injector/tj-s36-injector-gallery-05.webp",
+      "/images/products/surgical-instruments/tj-s36-injector/tj-s36-injector-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-s36-injector/tj-s36-injector-gallery-02.webp",
+    "sellingHeading": "Why clinics choose the TJ-S36",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/tj-s36-injector/tj-s36-injector-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/tj-s36-injector/tj-s36-injector-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/tj-s36-injector/tj-s36-injector-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/tj-s36-injector/tj-s36-injector-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-S37",
+    "slug": "tj-s37",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "TJ-S37 Dental Surgical Instrument",
+    "subtitle": "Dental surgical instrument",
+    "summary": "A practical dental instrument for oral surgery and daily chairside procedures. The design supports controlled handling, clear access and efficient instrument preparation in clinical work.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental surgical instrument"
+      },
+      {
+        "label": "Category",
+        "value": "SURGICAL INSTRUMENTS"
+      },
+      {
+        "label": "Application",
+        "value": "Chairside dental treatment support"
+      },
+      {
+        "label": "Format",
+        "value": "Instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-s37/tj-s37-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-s37/tj-s37-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-S37",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ]
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ]
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ]
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ]
+      }
+    ]
+  },
+  {
+    "model": "TJ-s95",
+    "slug": "tj-s95",
+    "group": "DENTAL SURGICAL INSTRUMENTS",
+    "title": "TJ-s95 Dental Surgical Instrument",
+    "subtitle": "Dental surgical instrument",
+    "summary": "A practical dental instrument for oral surgery and daily chairside procedures. The design supports controlled handling, clear access and efficient instrument preparation in clinical work.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental implant wrench"
+      },
+      {
+        "label": "Category",
+        "value": "IMPLANT INSTRUMENTS"
+      },
+      {
+        "label": "Application",
+        "value": "Implant procedure tightening and adjustment support"
+      },
+      {
+        "label": "Format",
+        "value": "Implant hand instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-s95/tj-s95-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-s95/tj-s95-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-s95/tj-s95-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-s95",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ]
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ]
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ]
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ]
+      }
+    ]
+  },
+  {
+    "model": "TJ-LKU32",
+    "slug": "tj-lku32",
+    "group": "SURGICAL EQUIPMENT",
+    "title": "TJ-LKU32 Dental Centrifuge",
+    "subtitle": "Centrifuge for dental surgical preparation",
+    "summary": "A dental centrifuge for clinical preparation workflows, supporting blood-material processing where required by the treatment protocol.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental centrifuge"
+      },
+      {
+        "label": "Category",
+        "value": "SURGICAL PREPARATION EQUIPMENT"
+      },
+      {
+        "label": "Application",
+        "value": "Centrifuge support for dental surgical preparation workflows"
+      },
+      {
+        "label": "Format",
+        "value": "Preparation equipment"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-lku32/tj-lku32-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-lku32/tj-lku32-gallery-02.webp",
+      "/images/products/surgical-instruments/tj-lku32/tj-lku32-gallery-03.webp",
+      "/images/products/surgical-instruments/tj-lku32/tj-lku32-gallery-04.webp",
+      "/images/products/surgical-instruments/tj-lku32/tj-lku32-gallery-07.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-lku32/tj-lku32-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-LKU32",
+    "sellingPoints": [
+      {
+        "title": "Clinical preparation support",
+        "description": "Designed to support centrifuge-based preparation workflows in dental clinics."
+      },
+      {
+        "title": "Treatment-room efficiency",
+        "description": "Helps process required clinical materials in a dedicated workflow."
+      },
+      {
+        "title": "Surgical workflow fit",
+        "description": "Useful for regenerative or surgical procedures when paired with appropriate consumables."
+      },
+      {
+        "title": "Organized equipment setup",
+        "description": "Clear equipment role supports stable treatment-room preparation."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/tj-lku32/tj-lku32-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/tj-lku32/tj-lku32-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/tj-lku32/tj-lku32-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/tj-lku32/tj-lku32-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-CGF",
+    "slug": "tj-cgf",
+    "group": "SURGICAL CONSUMABLES",
+    "title": "TJ-CGF Vacuum Blood Collection Tube",
+    "subtitle": "Blood collection tube for dental surgical preparation",
+    "summary": "A vacuum blood collection tube for dental surgical and regenerative preparation workflows where collected blood material is required.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Vacuum blood collection tube"
+      },
+      {
+        "label": "Category",
+        "value": "SURGICAL PREPARATION SUPPLIES"
+      },
+      {
+        "label": "Application",
+        "value": "Blood collection support for clinical preparation workflows"
+      },
+      {
+        "label": "Format",
+        "value": "Consumable tube"
+      },
+      {
+        "label": "Tube color",
+        "value": "Red"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-cgf/tj-cgf-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-cgf/tj-cgf-gallery-02.webp",
+      "/images/products/surgical-instruments/tj-cgf/tj-cgf-gallery-03.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-cgf/tj-cgf-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-CGF",
+    "sellingPoints": [
+      {
+        "title": "Vacuum collection support",
+        "description": "Designed for blood collection steps in compatible clinical preparation workflows."
+      },
+      {
+        "title": "Surgical workflow fit",
+        "description": "Useful where chairside regenerative or surgical material preparation is required."
+      },
+      {
+        "title": "Clear consumable format",
+        "description": "Tube format helps clinics organize collection materials before procedures."
+      },
+      {
+        "title": "Daily stock management",
+        "description": "Easy to store and replenish as part of surgical consumable inventory."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ]
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ]
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ]
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ]
+      }
+    ]
+  },
+  {
+    "model": "FD-501G6",
+    "slug": "fd-501g6",
+    "group": "DENTAL MAGNIFICATION",
+    "title": "FD-501G6 Dental Loupe",
+    "subtitle": "Dental magnification loupe",
+    "summary": "A dental magnification loupe for improving visibility during routine treatment, inspection and fine chairside procedures.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental loupe"
+      },
+      {
+        "label": "Category",
+        "value": "DENTAL LOUPES"
+      },
+      {
+        "label": "Application",
+        "value": "Magnified clinical vision for dental procedures"
+      },
+      {
+        "label": "Format",
+        "value": "Magnification device"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/fd-501g6/fd-501g6-gallery-01.webp",
+      "/images/products/surgical-instruments/fd-501g6/fd-501g6-gallery-02.webp",
+      "/images/products/surgical-instruments/fd-501g6/fd-501g6-gallery-03.webp",
+      "/images/products/surgical-instruments/fd-501g6/fd-501g6-gallery-04.webp",
+      "/images/products/surgical-instruments/fd-501g6/fd-501g6-gallery-07.webp",
+      "/images/products/surgical-instruments/fd-501g6/fd-501g6-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/fd-501g6/fd-501g6-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the FD-501G6",
+    "sellingPoints": [
+      {
+        "title": "Improved treatment visibility",
+        "description": "Magnification supports clearer viewing of the working area during daily dental procedures."
+      },
+      {
+        "title": "Comfortable chairside use",
+        "description": "Designed for routine clinical wear during examination, preparation and treatment."
+      },
+      {
+        "title": "Supports fine detail work",
+        "description": "Helpful for tasks that require better visual control and close inspection."
+      },
+      {
+        "title": "Practical clinic accessory",
+        "description": "Easy to prepare as part of a dentist or hygienist working set."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "MAGNIFICATION",
+        "title": "Clearer chairside view",
+        "description": "The loupe helps enlarge the working field for better inspection during dental procedures.",
+        "bullets": [
+          "Supports visual detail",
+          "Useful for daily treatment",
+          "Improves working confidence"
+        ],
+        "image": "/images/products/surgical-instruments/fd-501g6/fd-501g6-feature-01.webp"
+      },
+      {
+        "eyebrow": "CLINICAL COMFORT",
+        "title": "Designed for routine wear",
+        "description": "A practical loupe format supports repeated use during examination and treatment.",
+        "bullets": [
+          "Suitable for chairside work",
+          "Helps reduce visual strain",
+          "Easy to include in daily setup"
+        ],
+        "image": "/images/products/surgical-instruments/fd-501g6/fd-501g6-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRECISION SUPPORT",
+        "title": "Helpful for fine procedures",
+        "description": "Magnified viewing supports restorative, periodontal and inspection workflows requiring detail.",
+        "bullets": [
+          "Supports fine operation",
+          "Useful for checking margins",
+          "Better treatment visibility"
+        ],
+        "image": "/images/products/surgical-instruments/fd-501g6/fd-501g6-feature-03.webp"
+      },
+      {
+        "eyebrow": "WORKFLOW ACCESSORY",
+        "title": "Fits dentist working kits",
+        "description": "The loupe can be prepared with other clinical accessories for everyday use.",
+        "bullets": [
+          "Easy to store",
+          "Simple to deploy",
+          "Useful for treatment-room preparation"
+        ],
+        "image": "/images/products/surgical-instruments/fd-501g6/fd-501g6-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-AM2000-01 / TJ-AM2000-02",
+    "slug": "tj-am2000-01-tj-am2000-02-dental-microscope",
+    "group": "DENTAL MAGNIFICATION",
+    "title": "TJ-AM2000-01_TJ-AM2000-02 Dental Microscope Dental Microscope",
+    "subtitle": "Dental operating microscope",
+    "summary": "A dental microscope for precision treatment support, helping clinicians improve visibility during endodontic, restorative and microsurgical procedures.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental microscope"
+      },
+      {
+        "label": "TJ-AM2000-01",
+        "value": "27 inch 4K HD monitor"
+      },
+      {
+        "label": "Workflow",
+        "value": "Ergonomic hand grip supports one-handed manipulation and focusing"
+      },
+      {
+        "label": "Use",
+        "value": "Improves convenience for microscope operation"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-am2000-01-tj-am2000-02-dental-microscope/tj-am2000-01-tj-am2000-02-dental-microscope-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-am2000-01-tj-am2000-02-dental-microscope/tj-am2000-01-tj-am2000-02-dental-microscope-gallery-02.webp",
+      "/images/products/surgical-instruments/tj-am2000-01-tj-am2000-02-dental-microscope/tj-am2000-01-tj-am2000-02-dental-microscope-gallery-03.webp",
+      "/images/products/surgical-instruments/tj-am2000-01-tj-am2000-02-dental-microscope/tj-am2000-01-tj-am2000-02-dental-microscope-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-am2000-01-tj-am2000-02-dental-microscope/tj-am2000-01-tj-am2000-02-dental-microscope-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-AM2000-01_TJ-AM2000-02 Dental Microscope",
+    "sellingPoints": [
+      {
+        "title": "Enhanced clinical visibility",
+        "description": "Magnification helps clinicians inspect small treatment areas with greater clarity."
+      },
+      {
+        "title": "Precision workflow support",
+        "description": "Useful for endodontic, restorative and microsurgical procedures that require fine visual control."
+      },
+      {
+        "title": "Stable treatment setup",
+        "description": "Designed to support focused operation in a dedicated treatment position."
+      },
+      {
+        "title": "Professional documentation support",
+        "description": "Can be used with compatible accessories where image or video documentation is required."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "MAGNIFIED VISIBILITY",
+        "title": "Clear view for precision treatment",
+        "description": "The microscope supports detailed observation of small clinical areas during dental procedures.",
+        "bullets": [
+          "Improves treatment visibility",
+          "Supports detailed inspection",
+          "Useful for fine procedures"
+        ],
+        "image": "/images/products/surgical-instruments/tj-am2000-01-tj-am2000-02-dental-microscope/tj-am2000-01-tj-am2000-02-dental-microscope-feature-01.webp"
+      },
+      {
+        "eyebrow": "ENDODONTIC SUPPORT",
+        "title": "Built for high-detail workflows",
+        "description": "Magnification helps clinicians work more confidently during root canal and restorative procedures.",
+        "bullets": [
+          "Supports endodontic treatment",
+          "Helpful for restorative work",
+          "Better visual control"
+        ],
+        "image": "/images/products/surgical-instruments/tj-am2000-01-tj-am2000-02-dental-microscope/tj-am2000-01-tj-am2000-02-dental-microscope-feature-02.webp"
+      },
+      {
+        "eyebrow": "STABLE OPERATION",
+        "title": "Focused operating position",
+        "description": "A microscope setup helps maintain a stable treatment view during longer procedures.",
+        "bullets": [
+          "Supports steady observation",
+          "Useful for seated operation",
+          "Professional treatment setup"
+        ],
+        "image": "/images/products/surgical-instruments/tj-am2000-01-tj-am2000-02-dental-microscope/tj-am2000-01-tj-am2000-02-dental-microscope-feature-03.webp"
+      },
+      {
+        "eyebrow": "DOCUMENTATION READY",
+        "title": "Supports modern clinical communication",
+        "description": "When paired with compatible accessories, the microscope can support case explanation, teaching or documentation.",
+        "bullets": [
+          "Useful for case review",
+          "Supports patient communication",
+          "Fits teaching environments"
+        ],
+        "image": "/images/products/surgical-instruments/tj-am2000-01-tj-am2000-02-dental-microscope/tj-am2000-01-tj-am2000-02-dental-microscope-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "M3-LED",
+    "slug": "m3-led",
+    "group": "DENTAL LIGHTING",
+    "title": "M3-LED Dental Auxiliary Light",
+    "subtitle": "Auxiliary lighting support for dental work",
+    "summary": "A dental auxiliary light for improving visibility during examination, operation or documentation workflows.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental auxiliary light"
+      },
+      {
+        "label": "Category",
+        "value": "CLINICAL LIGHTING"
+      },
+      {
+        "label": "Application",
+        "value": "Additional illumination or aiming support during dental work"
+      },
+      {
+        "label": "Format",
+        "value": "Lighting accessory"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/m3-led/m3-led-gallery-01.webp",
+      "/images/products/surgical-instruments/m3-led/m3-led-gallery-02.webp",
+      "/images/products/surgical-instruments/m3-led/m3-led-gallery-03.webp",
+      "/images/products/surgical-instruments/m3-led/m3-led-gallery-04.webp",
+      "/images/products/surgical-instruments/m3-led/m3-led-gallery-05.webp",
+      "/images/products/surgical-instruments/m3-led/m3-led-gallery-06.webp",
+      "/images/products/surgical-instruments/m3-led/m3-led-gallery-07.webp",
+      "/images/products/surgical-instruments/m3-led/m3-led-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/m3-led/m3-led-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the M3-LED",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/m3-led/m3-led-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/m3-led/m3-led-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/m3-led/m3-led-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/m3-led/m3-led-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-ECG6800",
+    "slug": "tj-ecg6800",
+    "group": "CLINICAL MONITORING",
+    "title": "TJ-ECG6800 ECG Patient Monitor",
+    "subtitle": "Patient monitoring support for dental clinics",
+    "summary": "An ECG patient monitor for observing patient status during clinical treatment, surgical preparation or procedures requiring closer monitoring.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "ECG patient monitor"
+      },
+      {
+        "label": "Category",
+        "value": "CLINICAL MONITORING"
+      },
+      {
+        "label": "Application",
+        "value": "Patient monitoring support during clinical treatment"
+      },
+      {
+        "label": "Format",
+        "value": "Monitoring device"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-ecg6800/tj-ecg6800-gallery-01.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-ecg6800/tj-ecg6800-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-ECG6800",
+    "sellingPoints": [
+      {
+        "title": "Patient status observation",
+        "description": "Supports monitoring during procedures that require closer attention to patient condition."
+      },
+      {
+        "title": "Clinical safety workflow",
+        "description": "Helps clinics add monitoring support for surgery or longer treatment sessions."
+      },
+      {
+        "title": "Treatment-room readiness",
+        "description": "Can be prepared alongside surgical or implant treatment equipment."
+      },
+      {
+        "title": "Professional care support",
+        "description": "Provides monitoring support for clinics managing higher-attention cases."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ]
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ]
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ]
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ]
+      }
+    ]
+  },
+  {
+    "model": "Hi-457",
+    "slug": "hi-457",
+    "group": "RESTORATIVE ACCESSORIES",
+    "title": "Hi-457 Composite Resin Warmer",
+    "subtitle": "Dental composite resin heating device",
+    "summary": "A compact chairside warmer for heating composite resin before placement. It helps make restorative material handling smoother and keeps the working area organized during daily treatments.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Composite resin warmer"
+      },
+      {
+        "label": "Category",
+        "value": "RESTORATIVE ACCESSORIES"
+      },
+      {
+        "label": "Application",
+        "value": "Warming restorative composite before placement"
+      },
+      {
+        "label": "Format",
+        "value": "Benchtop heating device"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/hi-457/hi-457-gallery-08.webp",
+      "/images/products/surgical-instruments/hi-457/hi-457-gallery-01.webp",
+      "/images/products/surgical-instruments/hi-457/hi-457-gallery-04.webp",
+      "/images/products/surgical-instruments/hi-457/hi-457-gallery-05.webp",
+      "/images/products/surgical-instruments/hi-457/hi-457-gallery-06.webp",
+      "/images/products/surgical-instruments/hi-457/hi-457-gallery-07.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/hi-457/hi-457-gallery-08.webp",
+    "sellingHeading": "Why clinics choose the Hi-457",
+    "sellingPoints": [
+      {
+        "title": "Better composite handling",
+        "description": "Warms restorative composite before placement, helping the material feel easier to manipulate during filling procedures."
+      },
+      {
+        "title": "Chairside convenience",
+        "description": "Compact benchtop format keeps composite material close to the treatment position."
+      },
+      {
+        "title": "Restorative workflow support",
+        "description": "Useful for routine filling, repair and aesthetic restorative procedures."
+      },
+      {
+        "title": "Simple clinical setup",
+        "description": "Compact size makes it easy to add to an existing treatment room."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "COMPOSITE WARMING",
+        "title": "Warms resin before placement",
+        "description": "Designed to heat composite resin before use, helping improve handling during restorative procedures.",
+        "bullets": [
+          "Supports routine fillings",
+          "Helps material handling",
+          "Useful for aesthetic restorations"
+        ],
+        "image": "/images/products/surgical-instruments/hi-457/hi-457-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE FORMAT",
+        "title": "Compact benchtop setup",
+        "description": "The warmer can be placed near the treatment area so materials stay within easy reach.",
+        "bullets": [
+          "Small operating footprint",
+          "Convenient chairside access",
+          "Simple daily setup"
+        ],
+        "image": "/images/products/surgical-instruments/hi-457/hi-457-feature-02.webp"
+      },
+      {
+        "eyebrow": "RESTORATIVE WORKFLOW",
+        "title": "Daily filling workflow support",
+        "description": "Supports repeated restorative procedures by keeping resin preparation clear and organized.",
+        "bullets": [
+          "For filling and repair workflows",
+          "Supports efficient preparation",
+          "Easy to integrate into clinic use"
+        ],
+        "image": "/images/products/surgical-instruments/hi-457/hi-457-feature-03.webp"
+      },
+      {
+        "eyebrow": "MATERIAL ORGANIZATION",
+        "title": "Keeps composite preparation tidy",
+        "description": "A dedicated warmer helps separate resin preparation from other instruments and consumables.",
+        "bullets": [
+          "Organized material area",
+          "Clear clinical role",
+          "Suitable for treatment-room use"
+        ],
+        "image": "/images/products/surgical-instruments/hi-457/hi-457-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-AP3",
+    "slug": "tj-ap3",
+    "group": "RESTORATIVE ACCESSORIES",
+    "title": "TJ-AP3 Dental Sandblasting Handpiece",
+    "subtitle": "Dental sandblasting accessory",
+    "summary": "A dental sandblasting accessory for surface preparation and restorative workflow support.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental air abrasion / sandblasting handpiece"
+      },
+      {
+        "label": "Category",
+        "value": "PROPHYLAXIS ACCESSORIES"
+      },
+      {
+        "label": "Application",
+        "value": "Surface cleaning or chairside micro-abrasion support"
+      },
+      {
+        "label": "Format",
+        "value": "Handheld clinical accessory"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-ap3/tj-ap3-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-ap3/tj-ap3-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-ap3/tj-ap3-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-AP3",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ]
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ]
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ]
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ]
+      }
+    ]
+  },
+  {
+    "model": "TJ-B233",
+    "slug": "tj-b233",
+    "group": "RESTORATIVE ACCESSORIES",
+    "title": "TJ-B233 Amalgam Handling Accessory",
+    "subtitle": "Dental amalgam preparation and delivery support",
+    "summary": "A restorative accessory for dental amalgam preparation or delivery, supporting efficient material handling during clinical procedures.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental amalgam carrier"
+      },
+      {
+        "label": "Category",
+        "value": "RESTORATIVE INSTRUMENTS"
+      },
+      {
+        "label": "Application",
+        "value": "Carrying and placing amalgam during restorative procedures"
+      },
+      {
+        "label": "Format",
+        "value": "Restorative hand instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-b233/tj-b233-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-b233/tj-b233-gallery-02.webp",
+      "/images/products/surgical-instruments/tj-b233/tj-b233-gallery-03.webp",
+      "/images/products/surgical-instruments/tj-b233/tj-b233-gallery-04.webp",
+      "/images/products/surgical-instruments/tj-b233/tj-b233-gallery-05.webp",
+      "/images/products/surgical-instruments/tj-b233/tj-b233-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-b233/tj-b233-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-B233",
+    "sellingPoints": [
+      {
+        "title": "Restorative material support",
+        "description": "Helps prepare or deliver amalgam during dental filling workflows."
+      },
+      {
+        "title": "Efficient chairside handling",
+        "description": "Designed to support material readiness during treatment."
+      },
+      {
+        "title": "Practical clinic accessory",
+        "description": "Fits routine restorative preparation and instrument setup."
+      },
+      {
+        "title": "Organized treatment workflow",
+        "description": "Keeps material handling steps clearer for dentist and assistant."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/tj-b233/tj-b233-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/tj-b233/tj-b233-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/tj-b233/tj-b233-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/tj-b233/tj-b233-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-matrix36",
+    "slug": "tj-matrix36",
+    "group": "RESTORATIVE ACCESSORIES",
+    "title": "TJ-matrix36 Dental Matrix System",
+    "subtitle": "Matrix support for restorative procedures",
+    "summary": "A dental matrix product for restorative filling workflows, helping shape proximal surfaces and support controlled material placement.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental matrix band / forming system"
+      },
+      {
+        "label": "Category",
+        "value": "RESTORATIVE MATRIX SYSTEMS"
+      },
+      {
+        "label": "Application",
+        "value": "Restorative contouring and contact shaping"
+      },
+      {
+        "label": "Format",
+        "value": "Matrix band set or accessory"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-matrix36/tj-matrix36-gallery-04.webp",
+      "/images/products/surgical-instruments/tj-matrix36/tj-matrix36-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-matrix36/tj-matrix36-gallery-02.webp",
+      "/images/products/surgical-instruments/tj-matrix36/tj-matrix36-gallery-03.webp",
+      "/images/products/surgical-instruments/tj-matrix36/tj-matrix36-gallery-05.webp",
+      "/images/products/surgical-instruments/tj-matrix36/tj-matrix36-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-matrix36/tj-matrix36-gallery-04.webp",
+    "sellingHeading": "Why clinics choose the TJ-matrix36",
+    "sellingPoints": [
+      {
+        "title": "Restorative contour support",
+        "description": "Helps form proximal walls and contact areas during filling procedures."
+      },
+      {
+        "title": "Controlled material placement",
+        "description": "Matrix support assists clinicians when placing composite or restorative material."
+      },
+      {
+        "title": "Chairside efficiency",
+        "description": "Prepared as a practical accessory for routine restorative setups."
+      },
+      {
+        "title": "Organized restoration workflow",
+        "description": "Works with wedges, rings or related restorative accessories depending on the clinical setup."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/tj-matrix36/tj-matrix36-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/tj-matrix36/tj-matrix36-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/tj-matrix36/tj-matrix36-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/tj-matrix36/tj-matrix36-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-Wedge30 Wooden Wedges",
+    "slug": "tj-wedge30-wooden-wedges",
+    "group": "RESTORATIVE ACCESSORIES",
+    "title": "TJ-Wedge30 Wooden Wedges Wooden Dental Wedges",
+    "subtitle": "Wooden wedges for restorative procedures",
+    "summary": "Wooden dental wedges for matrix stabilization and interproximal separation during restorative procedures.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Wooden wedges"
+      },
+      {
+        "label": "Package",
+        "value": "100pcs/box"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-wedge30-wooden-wedges/tj-wedge30-wooden-wedges-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-wedge30-wooden-wedges/tj-wedge30-wooden-wedges-gallery-03.webp",
+      "/images/products/surgical-instruments/tj-wedge30-wooden-wedges/tj-wedge30-wooden-wedges-gallery-04.webp",
+      "/images/products/surgical-instruments/tj-wedge30-wooden-wedges/tj-wedge30-wooden-wedges-gallery-05.webp",
+      "/images/products/surgical-instruments/tj-wedge30-wooden-wedges/tj-wedge30-wooden-wedges-gallery-07.webp",
+      "/images/products/surgical-instruments/tj-wedge30-wooden-wedges/tj-wedge30-wooden-wedges-gallery-08.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-wedge30-wooden-wedges/tj-wedge30-wooden-wedges-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-Wedge30 Wooden Wedges",
+    "sellingPoints": [
+      {
+        "title": "Stable matrix support",
+        "description": "Helps secure matrix bands during filling and restorative procedures."
+      },
+      {
+        "title": "Interproximal separation",
+        "description": "Supports gentle separation and better access around contact areas."
+      },
+      {
+        "title": "Restorative workflow fit",
+        "description": "Suitable for routine composite or amalgam restoration procedures."
+      },
+      {
+        "title": "Disposable clinical convenience",
+        "description": "Simple wedge format supports clean and efficient daily treatment preparation."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "MATRIX SUPPORT",
+        "title": "Helps stabilize restorative matrices",
+        "description": "Wooden wedges support matrix placement around interproximal areas during restoration.",
+        "bullets": [
+          "Supports band adaptation",
+          "Useful for filling procedures",
+          "Helps shape contacts"
+        ],
+        "image": "/images/products/surgical-instruments/tj-wedge30-wooden-wedges/tj-wedge30-wooden-wedges-feature-01.webp"
+      },
+      {
+        "eyebrow": "INTERPROXIMAL ACCESS",
+        "title": "Designed for contact-area work",
+        "description": "The wedge shape helps create working space and support material placement between teeth.",
+        "bullets": [
+          "Supports contact separation",
+          "Useful for proximal restorations",
+          "Helps improve access"
+        ],
+        "image": "/images/products/surgical-instruments/tj-wedge30-wooden-wedges/tj-wedge30-wooden-wedges-feature-02.webp"
+      },
+      {
+        "eyebrow": "CLINICAL CONVENIENCE",
+        "title": "Simple disposable format",
+        "description": "The wedges are easy to prepare, use and replace during routine restorative workflows.",
+        "bullets": [
+          "Quick chairside use",
+          "Easy to organize",
+          "Suitable for daily clinics"
+        ],
+        "image": "/images/products/surgical-instruments/tj-wedge30-wooden-wedges/tj-wedge30-wooden-wedges-feature-03.webp"
+      },
+      {
+        "eyebrow": "RESTORATIVE SUPPORT",
+        "title": "Useful across filling procedures",
+        "description": "A practical accessory for composite and other direct restoration workflows.",
+        "bullets": [
+          "Supports restoration setup",
+          "Fits matrix systems",
+          "Useful for treatment trays"
+        ],
+        "image": "/images/products/surgical-instruments/tj-wedge30-wooden-wedges/tj-wedge30-wooden-wedges-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-hook77",
+    "slug": "tj-hook77",
+    "group": "ORTHODONTIC ACCESSORIES",
+    "title": "TJ-hook77 Orthodontic Accessory",
+    "subtitle": "Orthodontic treatment support accessory",
+    "summary": "An orthodontic accessory for daily treatment support, organization or elastic-force workflow preparation.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental orthodontic accessory"
+      },
+      {
+        "label": "Category",
+        "value": "ORTHODONTIC ACCESSORIES"
+      },
+      {
+        "label": "Application",
+        "value": "Orthodontic appliance adjustment or accessory placement"
+      },
+      {
+        "label": "Format",
+        "value": "Orthodontic accessory"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-hook77/tj-hook77-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-hook77/tj-hook77-gallery-02.webp",
+      "/images/products/surgical-instruments/tj-hook77/tj-hook77-gallery-03.webp",
+      "/images/products/surgical-instruments/tj-hook77/tj-hook77-gallery-04.webp",
+      "/images/products/surgical-instruments/tj-hook77/tj-hook77-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-hook77/tj-hook77-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-hook77",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ]
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ]
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ]
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ]
+      }
+    ]
+  },
+  {
+    "model": "TJ-R17",
+    "slug": "tj-r17",
+    "group": "ORTHODONTIC ACCESSORIES",
+    "title": "TJ-R17 Orthodontic Accessory",
+    "subtitle": "Orthodontic treatment support accessory",
+    "summary": "An orthodontic accessory for daily treatment support, organization or elastic-force workflow preparation.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental surgical instrument"
+      },
+      {
+        "label": "Category",
+        "value": "SURGICAL INSTRUMENTS"
+      },
+      {
+        "label": "Application",
+        "value": "Chairside dental treatment support"
+      },
+      {
+        "label": "Format",
+        "value": "Instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-r17/tj-r17-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-r17/tj-r17-gallery-02.webp",
+      "/images/products/surgical-instruments/tj-r17/tj-r17-gallery-03.webp",
+      "/images/products/surgical-instruments/tj-r17/tj-r17-gallery-04.webp",
+      "/images/products/surgical-instruments/tj-r17/tj-r17-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-r17/tj-r17-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-R17",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/tj-r17/tj-r17-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/tj-r17/tj-r17-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/tj-r17/tj-r17-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/tj-r17/tj-r17-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "TJ-R18",
+    "slug": "tj-r18",
+    "group": "ORTHODONTIC ACCESSORIES",
+    "title": "TJ-R18 Orthodontic Accessory",
+    "subtitle": "Orthodontic treatment support accessory",
+    "summary": "An orthodontic accessory for daily treatment support, organization or elastic-force workflow preparation.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental instrument holder / rack"
+      },
+      {
+        "label": "Category",
+        "value": "CLINICAL ORGANIZATION"
+      },
+      {
+        "label": "Application",
+        "value": "Organizing tools or accessories beside the treatment area"
+      },
+      {
+        "label": "Format",
+        "value": "Storage holder"
+      },
+      {
+        "label": "Material",
+        "value": "Stainless steel"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-r18/tj-r18-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-r18/tj-r18-gallery-02.webp",
+      "/images/products/surgical-instruments/tj-r18/tj-r18-gallery-03.webp",
+      "/images/products/surgical-instruments/tj-r18/tj-r18-gallery-04.webp",
+      "/images/products/surgical-instruments/tj-r18/tj-r18-gallery-05.webp",
+      "/images/products/surgical-instruments/tj-r18/tj-r18-gallery-06.webp",
+      "/images/products/surgical-instruments/tj-r18/tj-r18-gallery-07.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-r18/tj-r18-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-R18",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ]
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ]
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ]
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ]
+      }
+    ]
+  },
+  {
+    "model": "TJ-R4",
+    "slug": "tj-r4",
+    "group": "ORTHODONTIC ACCESSORIES",
+    "title": "TJ-R4 Orthodontic Accessory",
+    "subtitle": "Orthodontic treatment support accessory",
+    "summary": "An orthodontic accessory for daily treatment support, organization or elastic-force workflow preparation.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental surgical instrument"
+      },
+      {
+        "label": "Category",
+        "value": "SURGICAL INSTRUMENTS"
+      },
+      {
+        "label": "Application",
+        "value": "Chairside dental treatment support"
+      },
+      {
+        "label": "Format",
+        "value": "Instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/tj-r4/tj-r4-gallery-01.webp",
+      "/images/products/surgical-instruments/tj-r4/tj-r4-gallery-02.webp",
+      "/images/products/surgical-instruments/tj-r4/tj-r4-gallery-03.webp",
+      "/images/products/surgical-instruments/tj-r4/tj-r4-gallery-04.webp",
+      "/images/products/surgical-instruments/tj-r4/tj-r4-gallery-05.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/tj-r4/tj-r4-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the TJ-R4",
+    "sellingPoints": [
+      {
+        "title": "Controlled clinical handling",
+        "description": "Designed to support steady grip, clear access and predictable operation during daily dental procedures."
+      },
+      {
+        "title": "Efficient chairside workflow",
+        "description": "Helps clinicians keep instruments organized and ready for routine oral surgery or treatment-room use."
+      },
+      {
+        "title": "Practical clinical setup",
+        "description": "Compact, familiar instrument format fits common dental operatory preparation habits."
+      },
+      {
+        "title": "Durable daily-use support",
+        "description": "Built for repeated clinical use with straightforward cleaning and storage after treatment."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/tj-r4/tj-r4-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/tj-r4/tj-r4-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/tj-r4/tj-r4-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/tj-r4/tj-r4-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "Laser",
+    "slug": "laser",
+    "group": "DENTAL ACCESSORIES",
+    "title": "Laser Dental Laser Pointer",
+    "subtitle": "Dental presentation and positioning pointer",
+    "summary": "A compact pointer accessory for dental presentation, positioning guidance and chairside communication.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental auxiliary light"
+      },
+      {
+        "label": "Category",
+        "value": "CLINICAL LIGHTING"
+      },
+      {
+        "label": "Application",
+        "value": "Additional illumination or aiming support during dental work"
+      },
+      {
+        "label": "Format",
+        "value": "Lighting accessory"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/laser/laser-gallery-01.webp",
+      "/images/products/surgical-instruments/laser/laser-gallery-02.webp",
+      "/images/products/surgical-instruments/laser/laser-gallery-03.webp",
+      "/images/products/surgical-instruments/laser/laser-gallery-04.webp",
+      "/images/products/surgical-instruments/laser/laser-gallery-05.webp",
+      "/images/products/surgical-instruments/laser/laser-gallery-06.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/laser/laser-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the Laser",
+    "sellingPoints": [
+      {
+        "title": "Clear visual pointing",
+        "description": "Helps indicate treatment areas, product details or teaching content during explanation."
+      },
+      {
+        "title": "Compact handheld format",
+        "description": "Easy to keep with presentation, training or chairside communication tools."
+      },
+      {
+        "title": "Useful for demonstrations",
+        "description": "Supports clinics, showrooms and teaching environments where clear direction is needed."
+      },
+      {
+        "title": "Simple support accessory",
+        "description": "A practical low-complexity tool for communication and positioning tasks."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "CLINICAL HANDLING",
+        "title": "Controlled handling for dental procedures",
+        "description": "The instrument supports stable chairside operation, helping clinicians work with better access and control.",
+        "bullets": [
+          "Steady operating feel",
+          "Clear treatment access",
+          "Suitable for daily dental use"
+        ],
+        "image": "/images/products/surgical-instruments/laser/laser-feature-01.webp"
+      },
+      {
+        "eyebrow": "CHAIRSIDE WORKFLOW",
+        "title": "Ready for routine treatment-room use",
+        "description": "The format fits common dental workflows, from preparation to use and post-treatment organization.",
+        "bullets": [
+          "Easy to prepare",
+          "Convenient to organize",
+          "Supports efficient chairside routines"
+        ],
+        "image": "/images/products/surgical-instruments/laser/laser-feature-02.webp"
+      },
+      {
+        "eyebrow": "PRACTICAL DESIGN",
+        "title": "Simple design for repeated clinical work",
+        "description": "A practical construction keeps the instrument easy to identify, handle and store between procedures.",
+        "bullets": [
+          "Straightforward setup",
+          "Clean clinical appearance",
+          "Useful for repeated tasks"
+        ],
+        "image": "/images/products/surgical-instruments/laser/laser-feature-03.webp"
+      },
+      {
+        "eyebrow": "INSTRUMENT SUPPORT",
+        "title": "Reliable support for dental teams",
+        "description": "The product helps dental teams maintain a prepared instrument set for daily treatment and oral surgery needs.",
+        "bullets": [
+          "Supports treatment preparation",
+          "Fits clinic instrument trays",
+          "Useful for backup stock"
+        ],
+        "image": "/images/products/surgical-instruments/laser/laser-feature-04.webp"
+      }
+    ]
+  },
+  {
+    "model": "AMG200",
+    "slug": "amg200",
+    "group": "MEDICAL APPAREL",
+    "title": "AMG200 Medical Uniform Size Guide",
+    "subtitle": "Doctor and nurse uniform size guide",
+    "summary": "A size reference for clinic uniforms, used to support apparel selection for doctors, nurses and dental-team staff.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental surgical instrument"
+      },
+      {
+        "label": "Category",
+        "value": "SURGICAL INSTRUMENTS"
+      },
+      {
+        "label": "Application",
+        "value": "Chairside dental treatment support"
+      },
+      {
+        "label": "Format",
+        "value": "Instrument"
+      }
+    ],
+    "gallery": [
+      "/images/products/surgical-instruments/amg200/amg200-gallery-01.webp",
+      "/images/products/surgical-instruments/amg200/amg200-gallery-02.webp",
+      "/images/products/surgical-instruments/amg200/amg200-gallery-03.webp",
+      "/images/products/surgical-instruments/amg200/amg200-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/surgical-instruments/amg200/amg200-gallery-01.webp",
+    "sellingHeading": "Why clinics choose the AMG200",
+    "sellingPoints": [
+      {
+        "title": "Clear size selection",
+        "description": "Provides a practical reference for choosing suitable uniform sizes for clinic staff."
+      },
+      {
+        "title": "Supports team ordering",
+        "description": "Helps clinics organize doctor and nurse apparel requirements before purchase."
+      },
+      {
+        "title": "Professional clinic presentation",
+        "description": "Uniform planning supports a cleaner and more consistent staff appearance."
+      },
+      {
+        "title": "Useful reference material",
+        "description": "Can be used alongside product images or apparel samples during ordering."
+      }
+    ],
+    "featureHeading": "Built around the daily rhythm of a busy clinic",
+    "features": [
+      {
+        "eyebrow": "SIZE REFERENCE",
+        "title": "Clear staff sizing support",
+        "description": "The material helps clinics check uniform sizing before confirming apparel orders.",
+        "bullets": [
+          "Supports doctor and nurse sizing",
+          "Useful for team planning",
+          "Clear order reference"
+        ],
+        "image": "/images/products/surgical-instruments/amg200/amg200-feature-01.webp"
+      },
+      {
+        "eyebrow": "CLINIC APPAREL",
+        "title": "For professional treatment teams",
+        "description": "Uniforms support a consistent and professional clinic image for daily patient-facing work.",
+        "bullets": [
+          "Doctor and nurse use",
+          "Clinic-ready appearance",
+          "Suitable for dental teams"
+        ],
+        "image": "/images/products/surgical-instruments/amg200/amg200-feature-02.webp"
+      },
+      {
+        "eyebrow": "ORDER PREPARATION",
+        "title": "Helps reduce sizing mistakes",
+        "description": "A dedicated size reference helps clinics check quantities and sizes before ordering.",
+        "bullets": [
+          "Supports pre-order checks",
+          "Helpful for staff lists",
+          "Easy to share internally"
+        ],
+        "image": "/images/products/surgical-instruments/amg200/amg200-feature-03.webp"
+      },
+      {
+        "eyebrow": "DAILY USE",
+        "title": "Routine clinic wear support",
+        "description": "The size guide supports selection of practical uniforms for everyday clinical environments.",
+        "bullets": [
+          "For daily clinic work",
+          "Supports staff comfort planning",
+          "Useful for replenishment orders"
+        ],
+        "image": "/images/products/surgical-instruments/amg200/amg200-feature-04.webp"
+      }
+    ]
+  }
+]

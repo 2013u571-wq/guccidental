@@ -1,0 +1,382 @@
+[
+  {
+    "model": "DI-M21",
+    "slug": "di-m21",
+    "title": "DI-M21 Metal Orthodontic Roth Bracket",
+    "subtitle": "Dental metal orthodontic bracket",
+    "summary": "A stainless-steel Roth bracket for routine orthodontic bonding, prepared for clear identification, stable placement and comfortable daily treatment.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental metal orthodontic Roth bracket"
+      },
+      {
+        "label": "Material",
+        "value": "Medical stainless steel"
+      },
+      {
+        "label": "Surface",
+        "value": "Smooth surface"
+      },
+      {
+        "label": "Marking",
+        "value": "Clear and permanent mark"
+      },
+      {
+        "label": "Fit",
+        "value": "Comfortable fit"
+      }
+    ],
+    "gallery": [
+      "/images/products/orthodontics/di-m21/di-m21-gallery-01.webp",
+      "/images/products/orthodontics/di-m21/di-m21-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/orthodontics/di-m21/di-m21-cover-cutout.webp",
+    "sellingHeading": "Why clinics choose the DI-M21",
+    "sellingPoints": [
+      {
+        "title": "Medical stainless-steel body",
+        "description": "Built with medical stainless steel for routine orthodontic bonding and chairside handling."
+      },
+      {
+        "title": "Smooth fit for daily wear",
+        "description": "The bracket surface is designed to feel comfortable while supporting stable placement on the tooth."
+      },
+      {
+        "title": "Clear permanent marking",
+        "description": "Permanent identification marks help clinicians organize bracket selection and reduce chairside mix-ups."
+      },
+      {
+        "title": "Roth prescription workflow",
+        "description": "Prepared for Roth bracket cases where predictable setup and repeatable bonding steps matter."
+      }
+    ],
+    "featureHeading": "Built around daily orthodontic workflows",
+    "features": [
+      {
+        "eyebrow": "STAINLESS STEEL BODY",
+        "title": "Reliable bracket base for orthodontic bonding",
+        "description": "Medical stainless steel supports daily orthodontic use with a clean, durable surface."
+      },
+      {
+        "eyebrow": "COMFORTABLE SURFACE",
+        "title": "Smooth fit for patient comfort",
+        "description": "Rounded, smooth surfaces help reduce irritation during active orthodontic treatment."
+      },
+      {
+        "eyebrow": "PERMANENT MARKING",
+        "title": "Easy identification during setup",
+        "description": "Clear and permanent marks help clinicians identify bracket position quickly during bonding."
+      },
+      {
+        "eyebrow": "ROTH BRACKET WORKFLOW",
+        "title": "Prepared for common orthodontic cases",
+        "description": "The Roth bracket format supports familiar clinical workflows for fixed orthodontic treatment."
+      }
+    ]
+  },
+  {
+    "model": "TJ-B252",
+    "slug": "tj-b252",
+    "title": "TJ-B252 Dental Steel Matrix Bands",
+    "subtitle": "Dental steel matrix band set",
+    "summary": "A dental steel matrix band set with locker for restorative tooth contouring, supplied in multiple height and thickness options for chairside selection.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental steel matrix bands"
+      },
+      {
+        "label": "Configuration",
+        "value": "Retainerless matrices with locker"
+      },
+      {
+        "label": "Package",
+        "value": "50pcs/box"
+      },
+      {
+        "label": "Options",
+        "value": "0.030 thickness, 5.0mm high; 0.030 thickness, 6.3mm high; 0.038 thickness, 5.0mm high; 0.038 thickness, 6.3mm high"
+      }
+    ],
+    "gallery": [
+      "/images/products/orthodontics/tj-b252/tj-b252-gallery-01.webp",
+      "/images/products/orthodontics/tj-b252/tj-b252-gallery-02.webp",
+      "/images/products/orthodontics/tj-b252/tj-b252-gallery-03.webp",
+      "/images/products/orthodontics/tj-b252/tj-b252-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/orthodontics/tj-b252/tj-b252-cover-cutout.webp",
+    "sellingHeading": "Why clinics choose the TJ-B252",
+    "sellingPoints": [
+      {
+        "title": "Retainerless matrix workflow",
+        "description": "Matrix bands with locker help simplify restorative placement without a separate retainer."
+      },
+      {
+        "title": "Multiple size choices",
+        "description": "Different thickness and height options support a wider range of posterior restorative cases."
+      },
+      {
+        "title": "Steel band support",
+        "description": "Steel matrix material helps shape contacts and tooth contours during restorative work."
+      },
+      {
+        "title": "Clinic-ready packing",
+        "description": "50 pieces per box keeps replacement bands organized for daily treatment rooms."
+      }
+    ],
+    "featureHeading": "Built around daily orthodontic workflows",
+    "features": [
+      {
+        "eyebrow": "RETAINERLESS DESIGN",
+        "title": "Matrix placement with locker support",
+        "description": "The retainerless matrix format helps simplify setup around the tooth during restorative procedures."
+      },
+      {
+        "eyebrow": "STEEL MATRIX BAND",
+        "title": "Stable contouring around the tooth",
+        "description": "Steel matrix bands help form contact shape and restorative contour during filling procedures."
+      },
+      {
+        "eyebrow": "SIZE OPTIONS",
+        "title": "Thickness and height choices",
+        "description": "Available options cover common 0.030/0.038 thickness and 5.0/6.3 mm height needs."
+      },
+      {
+        "eyebrow": "ORGANIZED PACKAGE",
+        "title": "50 pieces per box",
+        "description": "Box packaging keeps bands ready for routine restorative treatment and inventory control."
+      }
+    ]
+  },
+  {
+    "model": "TJ-DE48",
+    "slug": "tj-de48",
+    "title": "TJ-DE48 Pediatric Stainless Steel Preformed Crown",
+    "subtitle": "Pediatric stainless steel crown set",
+    "summary": "A pediatric stainless-steel preformed crown set for primary molar restoration, supplied with 48 models to support common child dental crown cases.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Kids primary molar crown"
+      },
+      {
+        "label": "Material",
+        "value": "Stainless steel"
+      },
+      {
+        "label": "Configuration",
+        "value": "Preformed pediatric crown"
+      },
+      {
+        "label": "Set",
+        "value": "48 models/set"
+      },
+      {
+        "label": "Refill",
+        "value": "Refills for pre-formed crowns"
+      }
+    ],
+    "gallery": [
+      "/images/products/orthodontics/tj-de48/tj-de48-gallery-01.webp",
+      "/images/products/orthodontics/tj-de48/tj-de48-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/orthodontics/tj-de48/tj-de48-cover-cutout.webp",
+    "sellingHeading": "Why clinics choose the TJ-DE48",
+    "sellingPoints": [
+      {
+        "title": "Pediatric crown coverage",
+        "description": "Designed for children primary molar restoration where quick crown selection is needed."
+      },
+      {
+        "title": "48-model selection",
+        "description": "The 48-model set helps clinics match different primary molar positions and sizes."
+      },
+      {
+        "title": "Stainless-steel durability",
+        "description": "Stainless-steel preformed crowns provide a practical restorative option for pediatric cases."
+      },
+      {
+        "title": "Refill-friendly workflow",
+        "description": "Refills for preformed crowns help clinics replenish commonly used sizes after cases."
+      }
+    ],
+    "featureHeading": "Built around daily orthodontic workflows",
+    "features": [
+      {
+        "eyebrow": "PEDIATRIC MOLAR CROWN",
+        "title": "Prepared for children primary teeth",
+        "description": "Preformed crowns support restorative work on primary molars with reduced chairside shaping."
+      },
+      {
+        "eyebrow": "48-MODEL SET",
+        "title": "Broad size selection",
+        "description": "The 48-model set gives clinics a practical selection range for different tooth positions."
+      },
+      {
+        "eyebrow": "STAINLESS STEEL MATERIAL",
+        "title": "Durable clinical crown option",
+        "description": "Stainless steel provides a practical material choice for pediatric crown restoration."
+      },
+      {
+        "eyebrow": "REFILL SUPPORT",
+        "title": "Easy replenishment after cases",
+        "description": "Refill support helps clinics replace frequently used crown sizes and keep treatment stock ready."
+      }
+    ]
+  },
+  {
+    "model": "TJ-F003",
+    "slug": "tj-f003",
+    "title": "TJ-F003 Stainless Steel Forming Slice",
+    "subtitle": "Dental orthodontic stainless steel forming slice",
+    "summary": "A stainless-steel forming slice for orthodontic and restorative chairside use, available in small, medium and large sizes for flexible case selection.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Dental orthodontics stainless steel forming slice"
+      },
+      {
+        "label": "Material",
+        "value": "Stainless steel"
+      },
+      {
+        "label": "Size",
+        "value": "Small, medium, large optional or random"
+      },
+      {
+        "label": "Package",
+        "value": "20pcs/bag"
+      }
+    ],
+    "gallery": [
+      "/images/products/orthodontics/tj-f003/tj-f003-gallery-01.webp",
+      "/images/products/orthodontics/tj-f003/tj-f003-gallery-02.webp",
+      "/images/products/orthodontics/tj-f003/tj-f003-gallery-03.webp",
+      "/images/products/orthodontics/tj-f003/tj-f003-gallery-04.webp"
+    ],
+    "thumbnail": "/images/products/orthodontics/tj-f003/tj-f003-cover-cutout.webp",
+    "sellingHeading": "Why clinics choose the TJ-F003",
+    "sellingPoints": [
+      {
+        "title": "Stainless-steel forming support",
+        "description": "Stainless steel provides firm support for shaping and separating during clinical use."
+      },
+      {
+        "title": "Multiple size options",
+        "description": "Small, medium and large options help clinicians match different tooth-space needs."
+      },
+      {
+        "title": "Simple chairside handling",
+        "description": "Thin forming slices are easy to select, place and replace during treatment."
+      },
+      {
+        "title": "Bagged daily supply",
+        "description": "20 pieces per bag keeps routine orthodontic material stock easy to manage."
+      }
+    ],
+    "featureHeading": "Built around daily orthodontic workflows",
+    "features": [
+      {
+        "eyebrow": "STAINLESS STEEL SLICE",
+        "title": "Firm forming material for chairside use",
+        "description": "Stainless-steel slices support shaping, separation and clinical adjustment in routine cases."
+      },
+      {
+        "eyebrow": "SIZE SELECTION",
+        "title": "Small, medium and large options",
+        "description": "Multiple size options allow clinicians to choose according to tooth spacing and treatment needs."
+      },
+      {
+        "eyebrow": "EASY HANDLING",
+        "title": "Quick placement during treatment",
+        "description": "The compact slice format supports fast chairside selection and replacement when needed."
+      },
+      {
+        "eyebrow": "20PCS PACKAGE",
+        "title": "Organized bag packing",
+        "description": "20 pieces per bag supports routine clinic stocking and simple material management."
+      }
+    ]
+  },
+  {
+    "model": "TJ-OT40",
+    "slug": "tj-ot40",
+    "title": "TJ-OT40 Gold Plated Orthodontic Bracket",
+    "subtitle": "Gold plated orthodontic bracket",
+    "summary": "A gold-plated orthodontic bracket with slot, hook and marking options for fixed orthodontic cases that need a warmer visual finish.",
+    "specs": [
+      {
+        "label": "Product type",
+        "value": "Gold plated orthodontic bracket"
+      },
+      {
+        "label": "Slot",
+        "value": "0.022 / 0.018 optional"
+      },
+      {
+        "label": "Hook option",
+        "value": "No hook / 3 WH / 345 WH"
+      },
+      {
+        "label": "Marking option",
+        "value": "Laser mark / no laser mark"
+      },
+      {
+        "label": "Package",
+        "value": "20pcs/box"
+      },
+      {
+        "label": "Packaging",
+        "value": "Old/new packaging shipped at random"
+      }
+    ],
+    "gallery": [
+      "/images/products/orthodontics/tj-ot40/tj-ot40-gallery-01.webp",
+      "/images/products/orthodontics/tj-ot40/tj-ot40-gallery-02.webp"
+    ],
+    "thumbnail": "/images/products/orthodontics/tj-ot40/tj-ot40-cover-cutout.webp",
+    "sellingHeading": "Why clinics choose the TJ-OT40",
+    "sellingPoints": [
+      {
+        "title": "Gold-plated appearance",
+        "description": "Gold-plated bracket finish offers a warmer visual option for fixed orthodontic treatment."
+      },
+      {
+        "title": "Slot options for case planning",
+        "description": "0.022 and 0.018 slot choices support different orthodontic treatment setups."
+      },
+      {
+        "title": "Flexible hook configuration",
+        "description": "No hook, 3 WH and 345 WH options help match different bracket-position needs."
+      },
+      {
+        "title": "Laser-mark choice",
+        "description": "Laser mark or no-laser-mark options allow clinics to select their preferred identification style."
+      }
+    ],
+    "featureHeading": "Built around daily orthodontic workflows",
+    "features": [
+      {
+        "eyebrow": "GOLD PLATED BRACKET",
+        "title": "Warm finish for fixed treatment",
+        "description": "The gold-plated bracket surface provides a distinctive appearance for orthodontic cases."
+      },
+      {
+        "eyebrow": "SLOT OPTIONS",
+        "title": "0.022 and 0.018 choices",
+        "description": "Two slot options support different prescription and wire-planning preferences."
+      },
+      {
+        "eyebrow": "HOOK CONFIGURATION",
+        "title": "Multiple hook choices",
+        "description": "No hook, 3 WH and 345 WH options help clinicians match placement and treatment planning needs."
+      },
+      {
+        "eyebrow": "MARKING OPTION",
+        "title": "Laser or no-laser marking",
+        "description": "Clinics can choose laser-marked or non-laser-marked brackets according to identification preference."
+      }
+    ]
+  }
+]

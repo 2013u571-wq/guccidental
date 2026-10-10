@@ -1,0 +1,40 @@
+---
+import BaseLayout from "@components/layout/BaseLayout.astro";
+import Button from "@components/ui/Button.astro";
+import InquiryCta from "@components/ui/InquiryCta.astro";
+import catalog from "@data/imagingModels.json";
+import { imagingGroups } from "@data/imagingGroups";
+import { getLanguage, languages, localizedPath } from "@lib/i18n";
+
+export function getStaticPaths() {
+  return languages.map((language) => ({ params: { lang: language.code } }));
+}
+
+const lang = getLanguage(Astro.params.lang);
+const groups = imagingGroups.map((group) => ({
+  ...group,
+  products: catalog.filter((item) => item.groupSlug === group.slug),
+}));
+---
+<BaseLayout title={"Imaging System — " + catalog.length + " Products"} description="Explore dental X-ray, CBCT, intraoral scanner and intraoral camera products." lang={lang} pathname={Astro.url.pathname}>
+  <section class="chair-tier-hero scaler-category-hero">
+    <div class="container">
+      <nav class="chair-tier-breadcrumb" aria-label="Breadcrumb"><a href={localizedPath(lang, "/products/")}>Products</a><span aria-hidden="true">/</span><span aria-current="page">Imaging System</span></nav>
+      <p class="chair-tier-eyebrow">Imaging System</p>
+      <h1>Imaging System</h1>
+      <p class="chair-tier-summary">Explore {catalog.length} products across X-ray, CBCT, intraoral scanning and chairside imaging.</p>
+      <Button href={localizedPath(lang, "/contact/?category=imaging-system")}>Ask for Quote</Button>
+    </div>
+  </section>
+  <section class="chair-tier-models imaging-category-section" id="categories">
+    <div class="container">
+      <div class="imaging-group-grid">
+        {groups.map((group) => <a class="imaging-group-card" href={localizedPath(lang, "/products/imaging-system/" + group.slug + "/")}>
+          <div class="imaging-group-image"><img src={group.products[0].thumbnail} alt={group.name + " dental imaging product"} width="480" height="320" loading="lazy" decoding="async" /></div>
+          <div class="imaging-group-copy"><span class="b100-eyebrow">{group.products.length} products</span><h2>{group.name} <span aria-hidden="true">→</span></h2><p>{group.summary}</p></div>
+        </a>)}
+      </div>
+    </div>
+  </section>
+  <InquiryCta lang={lang} title="Request Imaging Product Details" />
+</BaseLayout>

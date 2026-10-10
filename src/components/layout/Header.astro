@@ -54,7 +54,7 @@ const megaGroups: MegaMenuGroup[] = [
   },
   {
     title: "Treatment Equipment",
-    links: [{ label: "Ultrasonic Scaler", description: "Scaling and curing equipment for daily treatment workflows.", href: "/products/ultrasonic-scaler-light-cure/" }, { label: "Air Equipment", description: "Compressors and vacuum systems for stable clinic operation.", href: "/products/air-equipment/" }, { label: "Dental Handpiece", description: "High-speed and low-speed handpieces for daily use.", href: "/products/dental-handpiece/" }, { label: "Endo Motor", description: "Torque-controlled motors for root canal preparation.", href: "/products/endo-motor/" }]
+    links: [{ label: "Ultrasonic Scaler", description: "Scaling equipment for daily treatment workflows.", href: "/products/ultrasonic-scaler-light-cure/" }, { label: "Curing Light", description: "LED curing lights and chairside accessories.", href: "/products/ultrasonic-scaler-light-cure/curing-light/" }, { label: "Air Equipment", description: "Compressors and vacuum systems for stable clinic operation.", href: "/products/air-equipment/" }, { label: "Dental Handpiece", description: "High-speed and low-speed handpieces for daily use.", href: "/products/dental-handpiece/" }, { label: "Endo Motor", description: "Torque-controlled motors for root canal preparation.", href: "/products/endo-motor/" }]
   },
   {
     title: "Imaging & Digital",
@@ -97,13 +97,6 @@ const solutionMegaColumns = [
     items: ["Flooring", "Ceiling", "Doors & Windows", "Reception Desk", "Sofa", "Chair"]
   }
 ] as const;
-
-const socialLinks = [
-  { label: "Contact us", href: contactHref },
-  { label: "Facebook", href: "#" },
-  { label: "LinkedIn", href: "#" },
-  { label: "YouTube", href: "#" }
-];
 
 const isNavActive = (href: string) => {
   const path = localizedPath(lang, href).split("?")[0];
@@ -190,42 +183,13 @@ const isNavActive = (href: string) => {
         <LanguageSwitcher lang={lang} id="desktop-language-switcher" />
       </div>
 
-      <div class="header-socials social-icons" aria-label="Social media">
-        {
-          socialLinks.map((item) => (
-            <>
-              <a href={item.href} class="header-social-link" aria-label={item.label}>
-                {item.label === "Contact us" && (
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                    <rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" stroke-width="1.8" />
-                    <path d="M3 6.5 12 13l9-6.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
-                  </svg>
-                )}
-                {item.label === "Facebook" && (
-                  <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <path d="M14 8h2V4h-2c-3 0-5 2-5 5v3H7v4h2v4h4v-4h3l1-4h-4V9c0-.6.4-1 1-1Z" />
-                  </svg>
-                )}
-                {item.label === "LinkedIn" && (
-                  <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <rect width="16" height="16" x="4" y="4" rx="2" />
-                    <path d="M8 11v5" />
-                    <path d="M8 8.5v.01" />
-                    <path d="M12 16v-5" />
-                    <path d="M12 13.5c0-1.4 1-2.5 2.3-2.5 1.5 0 2.2 1 2.2 2.7V16" />
-                  </svg>
-                )}
-                {item.label === "YouTube" && (
-                  <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <rect width="18" height="12" x="3" y="6" rx="3" />
-                    <path d="m10 9 5 3-5 3Z" />
-                  </svg>
-                )}
-              </a>
-              {item.label === "Contact us" && <span class="header-divider" aria-hidden="true"></span>}
-            </>
-          ))
-        }
+      <div class="header-socials social-icons" aria-label="Contact">
+        <a href={contactHref} class="header-social-link" aria-label="Contact us">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" stroke-width="1.8" />
+            <path d="M3 6.5 12 13l9-6.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
       </div>
     </div>
 
@@ -290,42 +254,13 @@ const isNavActive = (href: string) => {
           <LanguageSwitcher lang={lang} id="mobile-language-switcher" />
         </div>
 
-        <div class="header-socials social-icons mobile-menu__socials" aria-label="Social media">
-          {
-            socialLinks.map((item) => (
-              <>
-                <a href={item.href} class="header-social-link" aria-label={item.label}>
-                  {item.label === "Contact us" && (
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                      <rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" stroke-width="1.8" />
-                      <path d="M3 6.5 12 13l9-6.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                  )}
-                  {item.label === "Facebook" && (
-                    <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                      <path d="M14 8h2V4h-2c-3 0-5 2-5 5v3H7v4h2v4h4v-4h3l1-4h-4V9c0-.6.4-1 1-1Z" />
-                    </svg>
-                  )}
-                  {item.label === "LinkedIn" && (
-                    <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                      <rect width="16" height="16" x="4" y="4" rx="2" />
-                      <path d="M8 11v5" />
-                      <path d="M8 8.5v.01" />
-                      <path d="M12 16v-5" />
-                      <path d="M12 13.5c0-1.4 1-2.5 2.3-2.5 1.5 0 2.2 1 2.2 2.7V16" />
-                    </svg>
-                  )}
-                  {item.label === "YouTube" && (
-                    <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                      <rect width="18" height="12" x="3" y="6" rx="3" />
-                      <path d="m10 9 5 3-5 3Z" />
-                    </svg>
-                  )}
-                </a>
-                {item.label === "Contact us" && <span class="header-divider" aria-hidden="true"></span>}
-              </>
-            ))
-          }
+        <div class="header-socials social-icons mobile-menu__socials" aria-label="Contact">
+          <a href={contactHref} class="header-social-link" aria-label="Contact us">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" stroke-width="1.8" />
+              <path d="M3 6.5 12 13l9-6.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
         </div>
       </div>
     </details>

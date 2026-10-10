@@ -6,7 +6,7 @@ import { site } from '@data/site';
 import '../../styles/english-pages.css';
 
 export function getStaticPaths() {
-  return englishPages.map(page => ({ params: { page: page.path.slice(1,-1) }, props: { page } }));
+  return englishPages.filter(page => page.path !== '/products/ultrasonic-scaler-light-cure/curing-light/').map(page => ({ params: { page: page.path.slice(1,-1) }, props: { page } }));
 }
 const { page } = Astro.props as { page: EnglishPage };
 const children = childPages(page.path);

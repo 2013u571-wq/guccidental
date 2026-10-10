@@ -44,6 +44,9 @@ const faqSideResource = faqDocumentResource ?? faqManualResource;
 const visibleResources = faqSideResource
   ? product.resources.filter((resource) => resource !== faqSideResource)
   : product.resources;
+const isConfirmedSpec = (value: string) => !/^(to confirm|pending)\b/i.test(value.trim());
+const visibleQuickSpecs = product.quickSpecs.filter((item) => isConfirmedSpec(item.value));
+const visibleSpecifications = product.specifications.filter((item) => isConfirmedSpec(item.value));
 const economicManualCovers: Record<string, string> = {
   b6: "b6-user-manual-cover.webp",
   ql2024: "ql2024-user-manual-cover.webp",
@@ -67,7 +70,7 @@ const faqManualCoverAlt = faqDocumentResource
   : "Front cover of the Guccidental B100 Series integral dental unit user manual";
 ---
 
-<BaseLayout title={product.title} description={product.seoDescription} lang={lang} pathname={Astro.url.pathname} bodyClass="b100-detail-page">
+<BaseLayout title={product.title} description={product.seoDescription} lang={lang} pathname={Astro.url.pathname} bodyClass="b100-detail-page" seoProduct={{ name: product.title, model: product.model, description: product.seoDescription, image: product.gallery[0]?.src, category: cabinet ? "Metal dental cabinet" : "Dental chair", specs: visibleSpecifications }}>
   <nav class="b100-breadcrumb" aria-label="Breadcrumb">
     <div class="container"><ol>
       <li><a href={localizedPath(lang, "/products/")}>Products</a></li>
@@ -109,7 +112,7 @@ const faqManualCoverAlt = faqDocumentResource
         <h1>{product.title}</h1>
         <p class="b100-product-model">{product.productType}</p>
         <p class="b100-tagline">{product.tagline}</p>
-        <div class="b100-quick-specs">{product.quickSpecs.map((item) => <div><span>{item.label}</span><strong>{item.value}</strong></div>)}</div>
+        <div class="b100-quick-specs">{visibleQuickSpecs.map((item) => <div><span>{item.label}</span><strong>{item.value}</strong></div>)}</div>
         <div class="b100-hero-actions"><a class="b100-btn b100-btn-primary" href={inquiryHref}>Send Inquiry</a><a class="b100-btn b100-btn-secondary" href="#product-resources">Request Datasheet</a></div>
         <div class="b100-trust-mini" aria-label="Product highlights">{product.trustHighlights.map((item) => <span><i></i>{item}</span>)}</div>
       </div>
@@ -131,7 +134,7 @@ const faqManualCoverAlt = faqDocumentResource
     {Astro.slots.has("colors") ? <slot name="colors" /> : (<article class="b100-color-feature" id="colors"><header><span class="b100-eyebrow">Upholstery</span><h3>{product.colorHeading ?? "Full-silicone upholstery palette"}</h3><p>{product.colorIntroduction}</p></header><div class="b100-content-narrow"><div class="b100-color-browser" data-color-browser><div class="b100-color-stage"><div class="b100-color-image"><img src={product.colors[0].image} alt={product.colors[0].alt} width="1800" height="967" loading="lazy" decoding="async" data-color-image /></div><div class="b100-color-controls"><strong aria-live="polite" data-color-current-name>{product.colors[0].code === product.colors[0].name ? product.colors[0].code : `${product.colors[0].code} · ${product.colors[0].name}`}</strong><div class="b100-color-swatches" role="group" aria-label="Choose an upholstery color">{product.colors.map((color, index) => <button class:list={["b100-color-swatch", { "is-active": index === 0 }]} type="button" aria-label={`Show ${color.code} ${color.name} upholstery`} aria-pressed={index === 0 ? "true" : "false"} style={`--color-swatch-image:url("${color.swatch}")`} data-color-option data-color-code={color.code} data-color-name={color.name} data-color-image={color.image} data-color-alt={color.alt} data-color-desc={color.description}></button>)}</div></div></div><p class="b100-color-description" aria-live="polite" data-color-copy>{product.colors[0].description}</p></div></div></article>)}
   </div></div></section>
 
-  <section class="b100-specs-band" id="specifications"><div class="container"><div class="b100-content-narrow"><span class="b100-eyebrow">Technical specifications</span><h2>{product.specificationHeading ?? `${product.model} full specification sheet`}</h2><div class="b100-specs-wrap"><table class="b100-specs-table"><tbody>{product.specifications.map((item) => <tr><td>{item.label}</td><td>{item.value}</td></tr>)}</tbody></table></div></div></div></section>
+  <section class="b100-specs-band" id="specifications"><div class="container"><div class="b100-content-narrow"><span class="b100-eyebrow">Technical specifications</span><h2>{product.specificationHeading ?? `${product.model} technical specifications`}</h2><div class="b100-specs-wrap"><table class="b100-specs-table"><tbody>{visibleSpecifications.map((item) => <tr><td>{item.label}</td><td>{item.value}</td></tr>)}</tbody></table></div></div></div></section>
 
   <section class="b100-downloads-band" id="product-resources"><div class="container"><div class="b100-content-narrow"><div class="b100-resource-card"><div class="b100-resource-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M9 4h10l5 5v19H9z"></path><path d="M19 4v6h6M13 16h7M13 21h7"></path></svg></div><div><span class="b100-eyebrow">Product resources</span><h2>{product.model} documents</h2><p>Review the available product documents, or contact us to confirm the final configuration.</p></div><div class="b100-resource-actions">{visibleResources.map((resource) => <div class="b100-resource-download"><a class="b100-btn b100-btn-primary" href={resource.href} target="_blank" rel="noopener noreferrer">{resource.label} <span aria-hidden="true">↗</span></a><span class="b100-resource-meta">{resource.meta} · Opens in a new tab</span></div>)}<a class="b100-btn b100-btn-secondary" href={inquiryHref}>Discuss Configuration</a></div></div></div></div></section>
 
