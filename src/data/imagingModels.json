@@ -465,10 +465,10 @@
     "subtitle": "Dental X-ray sensor",
     "summary": "A digital dental X-ray sensor for intraoral radiography capture and diagnostic image workflow support.",
     "gallery": [
-      "/images/products/imaging-system/ezsensor-classic/ezsensor-classic-gallery-01.webp",
-      "/images/products/imaging-system/ezsensor-classic/ezsensor-classic-gallery-02.webp"
+      "/images/products/imaging-system/ezsensor-classic/ezsensor-classic-gallery-02.webp",
+      "/images/products/imaging-system/ezsensor-classic/ezsensor-classic-gallery-01.webp"
     ],
-    "thumbnail": "/images/products/imaging-system/ezsensor-classic/ezsensor-classic-gallery-01.webp",
+    "thumbnail": "/images/products/imaging-system/ezsensor-classic/ezsensor-classic-gallery-02.webp",
     "sellingHeading": "Why clinics choose the EzSensor Classic",
     "sellingPoints": [
       {
@@ -637,26 +637,22 @@
       {
         "eyebrow": "RADIOGRAPHY CAPTURE",
         "title": "Diagnostic image support",
-        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning.",
-        "image": "/images/products/imaging-system/jyf-10b/jyf-10b-feature-01.webp"
+        "description": "X-ray capture supports intraoral diagnostic reference for treatment planning."
       },
       {
         "eyebrow": "CHAIRSIDE REVIEW",
         "title": "Fast clinical communication",
-        "description": "Digital or film-based review helps dentists discuss findings during appointments.",
-        "image": "/images/products/imaging-system/jyf-10b/jyf-10b-feature-02.webp"
+        "description": "Digital or film-based review helps dentists discuss findings during appointments."
       },
       {
         "eyebrow": "COMPACT SETUP",
         "title": "Fits clinic imaging workflows",
-        "description": "Handheld, sensor, reader or accessory formats support different room layouts.",
-        "image": "/images/products/imaging-system/jyf-10b/jyf-10b-feature-03.webp"
+        "description": "Handheld, sensor, reader or accessory formats support different room layouts."
       },
       {
         "eyebrow": "PROTECTION AND POSITIONING",
         "title": "Daily imaging support",
-        "description": "Protective sleeves, holders and brackets help support routine X-ray operation.",
-        "image": "/images/products/imaging-system/jyf-10b/jyf-10b-feature-04.webp"
+        "description": "Protective sleeves, holders and brackets help support routine X-ray operation."
       }
     ],
     "specs": [
