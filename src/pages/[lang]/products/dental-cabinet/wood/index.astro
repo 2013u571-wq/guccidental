@@ -1,0 +1,33 @@
+---
+import BaseLayout from '@components/layout/BaseLayout.astro';
+import Button from '@components/ui/Button.astro';
+import InquiryCta from '@components/ui/InquiryCta.astro';
+import { woodDentalCabinets } from '@data/woodDentalCabinetCatalog';
+import { getLanguage, languages, localizedPath } from '@lib/i18n';
+export function getStaticPaths() { return languages.map(language => ({ params: { lang: language.code } })); }
+const lang = getLanguage(Astro.params.lang);
+const cabinets = Object.values(woodDentalCabinets).sort((a, b) => a.model.localeCompare(b.model, 'en', { numeric: true }));
+const detailHref = (slug: string) => localizedPath(lang, `/products/dental-cabinet/wood/${slug}/`);
+const coverSrc = (slug: string) => `/images/products/dental-cabinet/wood/${slug}/cover.png`;
+const inquiryHref = (model: string) => localizedPath(lang, `/contact/?message=${encodeURIComponent(`I'm interested in the ${model} wood dental cabinet.`)}`);
+const description = 'Wood finish dental cabinets for storage, sink stations and coordinated treatment rooms.';
+---
+<BaseLayout title={`Wood Dental Cabinets — ${cabinets.length} Models`} description={`${description} ${cabinets.length} models available.`} lang={lang} pathname={Astro.url.pathname}>
+  <section class="chair-tier-hero"><div class="container">
+    <nav class="chair-tier-breadcrumb" aria-label="Breadcrumb"><a href={localizedPath(lang, '/products/')}>Products</a><span aria-hidden="true">/</span><a href={localizedPath(lang, '/products/dental-cabinet/')}>Dental Cabinet</a><span aria-hidden="true">/</span><span aria-current="page">Wood Cabinet</span></nav>
+    <p class="chair-tier-eyebrow">Dental Cabinet</p>
+    <h1>Wood Dental Cabinets</h1>
+    <p class="chair-tier-summary">{description} {cabinets.length} models available.</p>
+    <Button href={localizedPath(lang, '/contact/?category=dental-cabinet')}>Ask for Quote</Button>
+    <nav class="tier-switch" aria-label="Dental cabinet categories"><a href={localizedPath(lang, '/products/dental-cabinet/metal-dental-cabinet/')}>Metal Cabinet</a><a href={localizedPath(lang, '/products/dental-cabinet/wood/')} aria-current="page">Wood Cabinet <span>{cabinets.length}</span></a></nav>
+  </div></section>
+  <section class="chair-tier-models"><div class="container"><div class="tier-model-groups"><section class="tier-model-group" aria-labelledby="wood-models-title">
+    <header class="tier-group-head"><h2 id="wood-models-title">TJ-DC Series</h2><span class="tier-group-count">{cabinets.length} models</span><span class="tier-group-rule" aria-hidden="true"></span></header>
+    <div class="tier-group-rows">{cabinets.map(product => <article class="tier-model-row">
+      <a class="tier-model-thumb wood-model-thumb" href={detailHref(product.slug)} aria-label={`View ${product.model}`}><img src={coverSrc(product.slug)} alt={`${product.model} wood dental cabinet`} width="112" height="86" loading="lazy" decoding="async" /></a>
+      <div class="tier-model-meta"><a class="tier-model-name" href={detailHref(product.slug)}>{product.model}</a><p>{product.productType}</p></div>
+      <div class="tier-model-actions"><a class="tier-model-details" href={detailHref(product.slug)}>Details <span aria-hidden="true">→</span></a><a class="tier-model-inquiry" href={inquiryHref(product.model)}>Inquiry</a></div>
+    </article>)}</div>
+  </section></div></div></section>
+  <InquiryCta lang={lang} title="Request Wood Dental Cabinets Details" />
+</BaseLayout>

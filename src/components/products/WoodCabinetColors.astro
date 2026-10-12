@@ -1,0 +1,22 @@
+---
+import type { HighEndDentalChairDetail } from '@data/highEndDentalChairDetails';
+interface Props { product: HighEndDentalChairDetail }
+const { product } = Astro.props;
+const isCurved = product.slug === 'tj-dc50';
+---
+<article class="b100-color-feature" id="colors">
+  <header><span class="b100-eyebrow">Color and material</span><h3>{product.colorHeading}</h3><p>{product.colorIntroduction}</p></header>
+  <div class="wood-materials">
+    <div><span>01</span><h4>Cabinet finish</h4><p>{isCurved ? 'Confirm the available acrylic surface finish for the selected configuration.' : 'Choose from the current Formica laminate selection. Confirm the finish code against a physical sample.'}</p></div>
+    <div><span>02</span><h4>Worktop and fittings</h4><p>{isCurved ? 'Choose the above-counter glass or white ceramic basin and confirm its position.' : 'Quartz stone countertop; confirm the worktop color and handle style with your order.'}</p></div>
+    <div><span>03</span><h4>Final selection</h4><p>Share your preferred finish, room dimensions and configuration so the approved order drawing matches your project.</p></div>
+  </div>
+</article>
+<style>
+  .wood-materials{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;max-width:1050px;margin:30px auto 0}
+  .wood-materials>div{padding:26px;border:1px solid #e2e8ed;border-radius:12px;background:#fff}
+  .wood-materials span{color:#95775c;font-size:13px;letter-spacing:.12em}
+  .wood-materials h4{font-size:19px;font-weight:600;color:#20313e;margin:15px 0 9px}
+  .wood-materials p{font-size:15px;line-height:1.7;color:#52616b;margin:0}
+  @media(max-width:700px){.wood-materials{grid-template-columns:1fr}}
+</style>

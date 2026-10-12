@@ -3,8 +3,8 @@ import { resolve } from "node:path";
 
 const outputDirectory = resolve("dist");
 const mediaOrigin = "https://media.guccidental.com";
-// Supplied product photos and handpiece/teaching-model PDFs are intentionally shipped with the site.
-const mediaPath = /["'(]\/?(?:(?:assets|icons)\/|downloads\/(?!(?:dental-handpiece|teaching-model)\/)|images\/(?!products\/(?:dental-handpiece|endo-motor|orthodontics|surgical-instruments|whitening-machine|disposable-consumables|teaching-model|laboratory|curing-light|scaler|air-equipment|imaging-system)\/))/g;
+// Supplied product photos, wood cabinet assets and handpiece/teaching-model PDFs are intentionally shipped with the site.
+const mediaPath = /["'(]\/?(?:(?:assets|icons)\/|downloads\/(?!(?:dental-handpiece|teaching-model)\/)|images\/(?!products\/(?:dental-handpiece|dental-cabinet\/wood|endo-motor|orthodontics|surgical-instruments|whitening-machine|disposable-consumables|teaching-model|laboratory|curing-light|scaler|air-equipment|imaging-system)\/))/g;
 
 async function collectFiles(directory) {
   const entries = await readdir(directory, { withFileTypes: true });

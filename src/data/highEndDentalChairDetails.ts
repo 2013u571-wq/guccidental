@@ -7,6 +7,7 @@ export type ProductImage = {
   label: string;
   width: number;
   height: number;
+  crop?: boolean;
 };
 
 export type FeatureBlock = ProductImage & {
@@ -40,6 +41,7 @@ export type HighEndDentalChairDetail = {
   caseHeading: string;
   caseIntroduction: string;
   cases: (ProductImage & { title: string; description: string })[];
+  caseCaptions?: { title: string; description: string }[];
   caseDisclosure?: string;
   faq: { question: string; answer: string }[];
   related?: { slug: string; model: string; description: string; image?: ProductImage };

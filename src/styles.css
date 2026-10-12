@@ -8256,6 +8256,12 @@ img.partner-tile-img {
   width: 100%;
 }
 
+.wood-model-thumb > img {
+  box-sizing: border-box;
+  object-fit: contain;
+  padding: 4px;
+}
+
 .tier-model-meta {
   min-width: 0;
 }
@@ -8650,6 +8656,7 @@ img.partner-tile-img {
   width: 88%;
   z-index: 2;
 }
+.b100-gallery-main > img.is-gallery-cropped { object-fit: cover; }
 .b100-gallery-main:focus-visible {
   box-shadow: 0 0 0 3px rgba(0, 87, 183, .18);
   outline: 2px solid var(--brand-blue);

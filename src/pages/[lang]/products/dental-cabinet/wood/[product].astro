@@ -1,0 +1,16 @@
+---
+import HighEndDentalChairDetail from '@components/products/HighEndDentalChairDetail.astro';
+import WoodCabinetColors from '@components/products/WoodCabinetColors.astro';
+import WoodCabinetCase from '@components/products/WoodCabinetCase.astro';
+import { woodDentalCabinets } from '@data/woodDentalCabinetCatalog';
+import { getLanguage, languages } from '@lib/i18n';
+export function getStaticPaths() {
+  return languages.flatMap(language => Object.keys(woodDentalCabinets).map(product => ({ params: { lang: language.code, product } })));
+}
+const lang = getLanguage(Astro.params.lang);
+const product = woodDentalCabinets[String(Astro.params.product)];
+---
+<HighEndDentalChairDetail lang={lang} product={product} cabinet cabinetCategory="wood" showCase={product.cases.length > 0}>
+  <WoodCabinetColors slot="colors" product={product} />
+  <WoodCabinetCase slot="case" product={product} />
+</HighEndDentalChairDetail>

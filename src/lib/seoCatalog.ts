@@ -6,6 +6,7 @@ import handpieces from "@data/handpieceModels.json";
 import imagingSystems from "@data/imagingModels.json";
 import laboratories from "@data/laboratoryModels.json";
 import metalCabinets from "@data/metalDentalCabinetModels.json";
+import woodCabinets from "@data/woodDentalCabinetModels.json";
 import orthodontics from "@data/orthodonticsModels.json";
 import scalers from "@data/scalerModels.json";
 import surgicalInstruments from "@data/surgicalInstrumentModels.json";
@@ -96,6 +97,11 @@ export function productSeoForPath(pathname: string): SeoProduct | undefined {
   if (category === "dental-cabinet" && parts[2] === "metal-dental-cabinet") {
     const item = metalCabinets.find((product) => product.slug === slug);
     return item ? normalizeProduct(item, "Metal dental cabinet") : undefined;
+  }
+
+  if (category === "dental-cabinet" && parts[2] === "wood") {
+    const item = woodCabinets.find((product) => product.slug === slug);
+    return item ? normalizeProduct(item, "Wood dental cabinet") : undefined;
   }
 
   const item = catalogs[category]?.find((product) => product.slug === slug && !product.hidden);

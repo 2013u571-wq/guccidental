@@ -172,6 +172,20 @@ export const products: Product[] = [
     faq: [
       { question: "Can cabinets be packaged with dental chairs?", answer: "Yes. Dental cabinets can be planned as part of clinic setup solutions." }
     ]
+  },
+  {
+    slug: "wood",
+    model: "Wood Cabinet",
+    image: { src: "/images/products/dental-cabinet/wood/tj-dc26b/gallery-1.webp", alt: "TJ-DC26B wood finish dental cabinet" },
+    title: "Wood Dental Cabinet",
+    category: "dental-cabinet",
+    summary: "Wood finish cabinet systems with storage, sink stations and worktops for treatment rooms.",
+    highlights: ["Eight TJ-DC models", "Configurable finishes and dimensions", "Storage and sink options"],
+    specs: [{ key: "models", value: "8", group: "Range" }],
+    applications: ["Treatment rooms", "Clinic fit-outs"],
+    features: [{ title: "Configurable cabinetry", detail: "Select the cabinet layout, finishes and accessories for the approved order drawing." }],
+    downloads: [],
+    faq: [{ question: "Can the cabinet layout be customized?", answer: "Yes. Share your room dimensions and required configuration with your inquiry." }]
   }
 ];
 

@@ -8,13 +8,14 @@ interface Props {
   lang: LanguageCode;
   product: HighEndDentalChairDetail;
   cabinet?: boolean;
+  cabinetCategory?: "metal" | "wood";
   showCase?: boolean;
   tier?: "high-end" | "mid-range" | "economic";
 }
 
-const { lang, product, tier = "high-end", cabinet = false, showCase = true } = Astro.props;
-const tierLabel = cabinet ? "Metal Cabinet" : tier === "high-end" ? "High-end" : tier === "mid-range" ? "Mid-range" : "Economic";
-const tierHref = localizedPath(lang, cabinet ? "/products/dental-cabinet/metal-dental-cabinet/" : `/products/dental-chair/${tier}/`);
+const { lang, product, tier = "high-end", cabinet = false, cabinetCategory = "metal", showCase = true } = Astro.props;
+const tierLabel = cabinet ? (cabinetCategory === "wood" ? "Wood Cabinet" : "Metal Cabinet") : tier === "high-end" ? "High-end" : tier === "mid-range" ? "Mid-range" : "Economic";
+const tierHref = localizedPath(lang, cabinet ? (cabinetCategory === "wood" ? "/products/dental-cabinet/wood/" : "/products/dental-cabinet/metal-dental-cabinet/") : `/products/dental-chair/${tier}/`);
 const message = `I'm interested in the ${product.model} dental ${cabinet ? "cabinet" : "chair"}.`;
 const inquiryHref = localizedPath(lang, `/contact/?message=${encodeURIComponent(message)}`);
 const contactHref = localizedPath(lang, "/contact/");
@@ -70,7 +71,7 @@ const faqManualCoverAlt = faqDocumentResource
   : "Front cover of the Guccidental B100 Series integral dental unit user manual";
 ---
 
-<BaseLayout title={product.title} description={product.seoDescription} lang={lang} pathname={Astro.url.pathname} bodyClass="b100-detail-page" seoProduct={{ name: product.title, model: product.model, description: product.seoDescription, image: product.gallery[0]?.src, category: cabinet ? "Metal dental cabinet" : "Dental chair", specs: visibleSpecifications }}>
+<BaseLayout title={product.title} description={product.seoDescription} lang={lang} pathname={Astro.url.pathname} bodyClass="b100-detail-page" seoProduct={{ name: product.title, model: product.model, description: product.seoDescription, image: product.gallery[0]?.src, category: cabinet ? `${tierLabel} dental cabinet` : "Dental chair", specs: visibleSpecifications }}>
   <nav class="b100-breadcrumb" aria-label="Breadcrumb">
     <div class="container"><ol>
       <li><a href={localizedPath(lang, "/products/")}>Products</a></li>
@@ -85,13 +86,13 @@ const faqManualCoverAlt = faqDocumentResource
       {product.gallery.length > 0 ? <div class="b100-gallery" data-gallery>
         <button class="b100-gallery-main" type="button" aria-label={`Enlarge ${product.gallery[0].alt.toLowerCase()}`} data-gallery-stage>
           <span class="b100-gallery-shadow" aria-hidden="true"></span>
-          <img src={product.gallery[0].src} alt={product.gallery[0].alt} width={product.gallery[0].width} height={product.gallery[0].height} fetchpriority="high" decoding="async" data-gallery-main />
+          <img class:list={{ "is-gallery-cropped": product.gallery[0].crop }} src={product.gallery[0].src} alt={product.gallery[0].alt} width={product.gallery[0].width} height={product.gallery[0].height} fetchpriority="high" decoding="async" data-gallery-main />
           <span class="b100-gallery-tier">{tierLabel}</span>
           <span class="b100-gallery-count" data-gallery-count>1 / {product.gallery.length}</span>
           <span class="b100-gallery-hint"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.4"></circle><path d="m15.5 15.5 4.1 4.1M10.8 8v5.6M8 10.8h5.6"></path></svg><span>Hover to zoom · click to enlarge</span></span>
         </button>
         <div class="b100-gallery-thumbs" role="group" aria-label={`${product.model} image gallery`}>
-          {product.gallery.map((image, index) => <button class:list={["b100-thumb", { "is-active": index === 0 }]} type="button" aria-label={`Show ${image.label.toLowerCase()}`} aria-pressed={index === 0 ? "true" : "false"} data-gallery-src={image.src} data-gallery-alt={image.alt} data-gallery-index={index} title={image.label}><img src={image.src} alt="" width={image.width} height={image.height} loading="lazy" decoding="async" aria-hidden="true" /></button>)}
+          {product.gallery.map((image, index) => <button class:list={["b100-thumb", { "is-active": index === 0 }]} type="button" aria-label={`Show ${image.label.toLowerCase()}`} aria-pressed={index === 0 ? "true" : "false"} data-gallery-src={image.src} data-gallery-alt={image.alt} data-gallery-crop={image.crop ? "true" : "false"} data-gallery-index={index} title={image.label}><img src={image.src} alt="" width={image.width} height={image.height} loading="lazy" decoding="async" aria-hidden="true" /></button>)}
         </div>
         <div class="b100-lightbox" role="dialog" aria-modal="true" aria-label={`${product.model} image viewer`} aria-hidden="true" data-gallery-lightbox>
           <div class="b100-lightbox-backdrop" data-lightbox-close></div>
@@ -109,11 +110,11 @@ const faqManualCoverAlt = faqDocumentResource
 
       <div class="b100-hero-copy">
         <span class="b100-tier-badge">{tierLabel} Series</span>
-        <h1>{product.title}</h1>
+        <h1>{cabinet && cabinetCategory === "wood" ? product.model : product.title}</h1>
         <p class="b100-product-model">{product.productType}</p>
         <p class="b100-tagline">{product.tagline}</p>
         <div class="b100-quick-specs">{visibleQuickSpecs.map((item) => <div><span>{item.label}</span><strong>{item.value}</strong></div>)}</div>
-        <div class="b100-hero-actions"><a class="b100-btn b100-btn-primary" href={inquiryHref}>Send Inquiry</a><a class="b100-btn b100-btn-secondary" href="#product-resources">Request Datasheet</a></div>
+        <div class="b100-hero-actions"><a class="b100-btn b100-btn-primary" href={inquiryHref}>Send Inquiry</a><a class="b100-btn b100-btn-secondary" href="#product-resources">{cabinetCategory === "wood" && cabinet ? "Request Product Details" : "Request Datasheet"}</a></div>
         <div class="b100-trust-mini" aria-label="Product highlights">{product.trustHighlights.map((item) => <span><i></i>{item}</span>)}</div>
       </div>
     </div>
@@ -136,7 +137,7 @@ const faqManualCoverAlt = faqDocumentResource
 
   <section class="b100-specs-band" id="specifications"><div class="container"><div class="b100-content-narrow"><span class="b100-eyebrow">Technical specifications</span><h2>{product.specificationHeading ?? `${product.model} technical specifications`}</h2><div class="b100-specs-wrap"><table class="b100-specs-table"><tbody>{visibleSpecifications.map((item) => <tr><td>{item.label}</td><td>{item.value}</td></tr>)}</tbody></table></div></div></div></section>
 
-  <section class="b100-downloads-band" id="product-resources"><div class="container"><div class="b100-content-narrow"><div class="b100-resource-card"><div class="b100-resource-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M9 4h10l5 5v19H9z"></path><path d="M19 4v6h6M13 16h7M13 21h7"></path></svg></div><div><span class="b100-eyebrow">Product resources</span><h2>{product.model} documents</h2><p>Review the available product documents, or contact us to confirm the final configuration.</p></div><div class="b100-resource-actions">{visibleResources.map((resource) => <div class="b100-resource-download"><a class="b100-btn b100-btn-primary" href={resource.href} target="_blank" rel="noopener noreferrer">{resource.label} <span aria-hidden="true">↗</span></a><span class="b100-resource-meta">{resource.meta} · Opens in a new tab</span></div>)}<a class="b100-btn b100-btn-secondary" href={inquiryHref}>Discuss Configuration</a></div></div></div></div></section>
+  <section class="b100-downloads-band" id="product-resources"><div class="container"><div class="b100-content-narrow"><div class="b100-resource-card"><div class="b100-resource-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M9 4h10l5 5v19H9z"></path><path d="M19 4v6h6M13 16h7M13 21h7"></path></svg></div><div><span class="b100-eyebrow">Product resources</span><h2>{product.model} documents</h2><p>{visibleResources.length ? "Review the available product documents, or contact us to confirm the final configuration." : "Request the current cabinet catalogue, finish samples and approved order drawing for your project."}</p></div><div class="b100-resource-actions">{visibleResources.map((resource) => <div class="b100-resource-download"><a class="b100-btn b100-btn-primary" href={resource.href} target="_blank" rel="noopener noreferrer">{resource.label} <span aria-hidden="true">↗</span></a><span class="b100-resource-meta">{resource.meta} · Opens in a new tab</span></div>)}<a class="b100-btn b100-btn-secondary" href={inquiryHref}>Discuss Configuration</a></div></div></div></div></section>
 
   {Astro.slots.has("case") ? <slot name="case" /> : (<section class="b100-case-band" id="case"><div class="container"><div class="b100-content-narrow"><div class="b100-case-heading"><div><span class="b100-eyebrow">Case</span><h2>{product.caseHeading}</h2></div><p>{product.caseIntroduction}</p></div><p class="b100-case-disclosure">Case images are real customer installations.</p><div class:list={["b100-case-gallery", { "is-two-up": cabinet && product.cases.length === 2, "is-three-up": product.cases.length === 3, "is-p-series-mixed-cases": ["p3", "p6"].includes(product.slug), "is-mid-range-square-cases": tier === "mid-range" && ["s620", "s630", "s640", "s690"].includes(product.slug), "is-mid-range-portrait-cases": tier === "mid-range" && ["g3", "g7"].includes(product.slug), "is-sl8500-without-box-cases": product.slug === "sl8500-without-box", "is-tj-70-cases": product.slug === "tj-70", "is-v3-implant-cases": product.slug === "v3-implant", "is-a6800-cases": rotateA6800Cases, "is-b100l-galaxy-cases": useUniformGalaxyCases, "is-b100l-premium-cases": useUniformPremiumCases, "is-g5-cases": useUniformG5Cases, "is-g5-implant-cases": useUniformG5ImplantCases, "is-m100-cases": useUniformM100Cases, "is-m200-cases": useUniformM200Cases, "is-landscape": !rotateA6800Cases && !["s650", "s660"].includes(product.slug) && product.cases.every((image) => image.width >= image.height) }]}>{product.cases.map((image) => <figure class="case-item">{rotateA6800Cases ? <span class="a6800-case-media"><img src={image.src} alt={image.alt} width={image.width} height={image.height} loading="lazy" decoding="async" /></span> : <img src={image.src} alt={image.alt} width={image.width} height={image.height} style={`--case-aspect:${image.width} / ${image.height}`} loading="lazy" decoding="async" />}{(image.title || image.description) && <figcaption>{image.title && <h3>{image.title}</h3>}{image.description && <p>{image.description}</p>}</figcaption>}</figure>)}</div></div></div></section>)}
 
@@ -180,7 +181,7 @@ const faqManualCoverAlt = faqDocumentResource
         const button = thumbs[current];
         const src = button.dataset.gallerySrc || "";
         const alt = button.dataset.galleryAlt || "";
-        if (main) { main.src = src; main.alt = alt; }
+        if (main) { main.src = src; main.alt = alt; main.classList.toggle("is-gallery-cropped", button.dataset.galleryCrop === "true"); }
         if (lightboxImage) { lightboxImage.src = src; lightboxImage.alt = alt; }
         if (count) count.textContent = `${current + 1} / ${thumbs.length}`;
         if (lightboxCount) lightboxCount.textContent = `${current + 1} / ${thumbs.length}`;
